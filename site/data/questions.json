@@ -26,7 +26,19 @@
     "explanation_de": "Das ÖREK 2030 basiert auf den drei Grundsätzen Gemeinwohl, Nachhaltigkeit und Gerechtigkeit. Diese bilden die normative Grundlage für alle Handlungsfelder.",
     "explanation_en": "The ÖREK 2030 is based on three principles: common good, sustainability, and justice. These form the normative foundation for all action fields.",
     "source": "ÖREK 2030, Grundsätze",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-02",
@@ -54,7 +66,19 @@
     "explanation_de": "Die ÖROK (Österreichische Raumordnungskonferenz) ist das Koordinationsgremium für Raumordnung zwischen Bund, Ländern, Städten und Gemeinden. Sie gibt das ÖREK (Österreichisches Raumentwicklungskonzept) als nationales Leitbild heraus.",
     "explanation_en": "The ÖROK coordinates spatial planning between federal, state and local levels in Austria and publishes the ÖREK as the national spatial development framework.",
     "source": "ÖREK 2030, Einleitung",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-03",
@@ -82,7 +106,19 @@
     "explanation_de": "Gemeinwohl bezeichnet im ÖREK 2030 die Ausrichtung der Raumplanung am gesamtgesellschaftlichen Interesse und am Wohl aller Menschen — nicht an Partikularinteressen.",
     "explanation_en": "In the ÖREK 2030, common good refers to aligning spatial planning with the overall societal interest and the well-being of all people, not sectoral interests.",
     "source": "ÖREK 2030, Grundsätze",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-04",
@@ -111,7 +147,19 @@
     "explanation_de": "Das klassische Drei-Säulen-Modell der Nachhaltigkeit umfasst ökologische, soziale und wirtschaftliche Dimensionen. Das ÖREK 2030 bezieht sich explizit auf dieses Modell.",
     "explanation_en": "The classic three-pillar model of sustainability covers ecological, social and economic dimensions. The ÖREK 2030 explicitly references this model.",
     "source": "ÖREK 2030, Grundsätze",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-05",
@@ -139,7 +187,19 @@
     "explanation_de": "Das ÖREK ist das strategische Leitbild (nicht rechtlich verbindlich), während das Aktionsprogramm die konkreten Umsetzungsschritte mit ÖREK-Partnerschaften definiert.",
     "explanation_en": "The ÖREK is the strategic guiding framework (not legally binding), while the action programme defines the concrete implementation steps with ÖREK partnerships.",
     "source": "ÖREK 2030, Aktionsprogramm",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-06",
@@ -168,7 +228,19 @@
     "explanation_de": "Räumliche Gerechtigkeit im ÖREK umfasst gleichwertige (nicht identische) Lebensbedingungen, intergenerationelle Verantwortung und die gerechte Verteilung von Chancen und Lasten — in allen Regionen, nicht nur in Städten.",
     "explanation_en": "Spatial justice in the ÖREK includes equivalent (not identical) living conditions, intergenerational responsibility, and fair distribution of opportunities and burdens — in all regions, not just cities.",
     "source": "ÖREK 2030, Grundsätze",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-07",
@@ -196,7 +268,19 @@
     "explanation_de": "Das ÖREK ist kein Gesetz. Es ist ein politisches Leitbild, das von der ÖROK beschlossen wird und den normativen Rahmen für die Raumordnungspolitik der Länder setzt — aber ohne direkte rechtliche Bindungswirkung.",
     "explanation_en": "The ÖREK is not a law. It is a political framework adopted by the ÖROK that sets the normative context for state spatial planning policy — but without direct legal binding force.",
     "source": "ÖREK 2030, Einleitung",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-08",
@@ -225,7 +309,19 @@
     "explanation_de": "Die ÖROK ist ein Koordinationsgremium aus Bund, Ländern sowie Städten und Gemeinden (vertreten durch Städte- und Gemeindebund). Die EU und Wirtschaftskammer sind keine Mitglieder.",
     "explanation_en": "The ÖROK is a coordination body comprising the federal government, states, and municipalities (represented by their associations). The EU and Chamber of Commerce are not members.",
     "source": "ÖREK 2030, ÖROK-Struktur",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-09",
@@ -254,7 +350,19 @@
     "explanation_de": "Zentrale Ziele des ÖREK 2030 sind Flächensparsamkeit, Innenentwicklung, gleichwertige Daseinsvorsorge und Klimaschutz/-anpassung. Siedlungserweiterung auf der Grünen Wiese und Privatisierung sind keine ÖREK-Ziele.",
     "explanation_en": "Core ÖREK 2030 goals are land efficiency, inner development, equivalent public services, and climate protection/adaptation. Greenfield expansion and privatisation are not ÖREK goals.",
     "source": "ÖREK 2030, Räumliche Ziele",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-10",
@@ -283,7 +391,19 @@
     "explanation_de": "Daseinsvorsorge bezeichnet die Bereitstellung grundlegender Güter und Dienstleistungen (Schulen, Gesundheit, Mobilität, Energie, Wasser etc.) für alle — mit besonderem Augenmerk auf Schrumpfungsregionen und Gleichwertigkeit.",
     "explanation_en": "Daseinsvorsorge refers to the provision of basic goods and services (schools, health, mobility, energy, water etc.) for all — with particular focus on shrinking regions and equivalence.",
     "source": "ÖREK 2030, Daseinsvorsorge",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-11",
@@ -313,7 +433,19 @@
     "explanation_de": "Das ÖREK 2030 definiert Handlungsfelder wie Klima und Energie, Wohnen und Siedlungsentwicklung, Mobilität sowie Digitalisierung. Steuerpolitik ist kein eigenes ÖREK-Handlungsfeld.",
     "explanation_en": "The ÖREK 2030 defines action fields including climate and energy, housing and settlement development, mobility, and digitalisation. Tax policy is not a separate ÖREK action field.",
     "source": "ÖREK 2030, Handlungsfelder",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-12",
@@ -342,7 +474,19 @@
     "explanation_de": "Innenentwicklung meint die Nutzung des Entwicklungspotenzials innerhalb bestehender Siedlungen — Brachflächen, Leerstand, Verdichtung — statt neue Flächen außen zu erschließen.",
     "explanation_en": "Inner development means exploiting the development potential within existing settlements — brownfields, vacancies, densification — rather than opening up new land on the outside.",
     "source": "ÖREK 2030, Flächensparen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-01",
@@ -373,7 +517,19 @@
     "explanation_de": "Demografischer Wandel, Klimawandel, Globalisierung, Digitalisierung und Urbanisierung sind allesamt unter den neun Megatrends des ÖREK 2030.",
     "explanation_en": "Demographic change, climate change, globalisation, digitalisation and urbanisation are all among the nine megatrends of the ÖREK 2030.",
     "source": "ÖREK 2030, Megatrends",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-02",
@@ -402,7 +558,19 @@
     "explanation_de": "Sozialer Wandel/Individualisierung, Ressourcenknappheit und Gesundheit/Pandemierisiken gehören zu den neun Megatrends. Religiöse Konflikte und Bildungsexpansion als solche werden nicht explizit aufgeführt.",
     "explanation_en": "Social change/individualisation, resource scarcity and health/pandemic risks are among the nine megatrends. Religious conflicts and educational expansion as such are not explicitly listed.",
     "source": "ÖREK 2030, Megatrends",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-03",
@@ -433,7 +601,19 @@
     "explanation_de": "Das ÖREK 2030 differenziert zwischen fünf Raumtypen: Großstädte/Metropolregionen, Mittelstädte/Stadtregionen, ländliche Regionen mit Dynamik, ländliche Regionen mit Schrumpfungsdruck und Alpenraum/Tourismusregionen.",
     "explanation_en": "The ÖREK 2030 differentiates between five spatial types: major cities/metropolitan regions, medium cities/urban regions, rural regions with dynamics, rural regions with shrinkage pressure, and alpine/tourism regions.",
     "source": "ÖREK 2030, Raumtypen",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-04",
@@ -462,7 +642,19 @@
     "explanation_de": "Österreich verbrauchte um 2020 täglich mehr als 10 ha Fläche für Siedlungs- und Verkehrszwecke. Das ÖREK 2030 setzt das Ziel, diesen Verbrauch auf 2,5 ha/Tag zu reduzieren, mit langfristiger Vision Netto-Null bis 2050.",
     "explanation_en": "Austria consumed over 10 ha of land per day around 2020 for settlement and transport purposes. The ÖREK 2030 sets the target of reducing this to 2.5 ha/day, with a long-term vision of net zero by 2050.",
     "source": "ÖREK 2030, Flächeninanspruchnahme",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-05",
@@ -492,7 +684,19 @@
     "explanation_de": "Österreich hat das Ziel Klimaneutralität bis 2040; die EU das 55%-Ziel bis 2030; das Pariser Abkommen setzt 1,5°C. Raumplanung soll diese Ziele räumlich umsetzen. Das Verdoppelungsziel für Erneuerbare bis 2025 ist so nicht korrekt.",
     "explanation_en": "Austria targets climate neutrality by 2040; the EU targets 55% by 2030; the Paris Agreement sets 1.5°C. Spatial planning should implement these goals spatially. The doubling target for renewables by 2025 is not accurate as stated.",
     "source": "ÖREK 2030, Klimaziele",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-06",
@@ -522,7 +726,19 @@
     "explanation_de": "Österreich erlebt Alterung, regionale Schrumpfung, wachsende Diversität und zunehmende Disparitäten zwischen Regionen. Gleichmäßiges Wachstum überall ist falsch — das Gegenteil ist der Fall.",
     "explanation_en": "Austria experiences ageing, regional shrinkage, growing diversity and increasing regional disparities. Uniform growth everywhere is incorrect — the opposite is true.",
     "source": "ÖREK 2030, Demografischer Wandel",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-07",
@@ -552,7 +768,19 @@
     "explanation_de": "Digitalisierung verändert Arbeitsstandorte, Infrastrukturanforderungen, Handelsflächenbedarfe und erfordert neue Planungsansätze. Sie macht klassische Planungsinstrumente aber nicht überflüssig.",
     "explanation_en": "Digitalisation changes work locations, infrastructure requirements, retail space needs and requires new planning approaches. However, it does not make classical planning instruments superfluous.",
     "source": "ÖREK 2030, Digitalisierung",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-08",
@@ -581,7 +809,19 @@
     "explanation_de": "Österreichische Städte, insbesondere Wien und ihr Umland, wachsen und stehen vor Herausforderungen. Suburbanisierung erhöht den Flächenverbrauch. Wien wächst, verliert keine Bevölkerung.",
     "explanation_en": "Austrian cities, especially Vienna and their surroundings, are growing and face challenges. Suburbanisation increases land consumption. Vienna is growing, not losing population.",
     "source": "ÖREK 2030, Urbanisierung",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-09",
@@ -610,7 +850,19 @@
     "explanation_de": "EU-Biodiversitätsstrategie, Green Deal/Fit for 55 und die EU-Bodenschutzstrategie sind direkt relevant. Raumplanung ist keine ausschließliche EU-Kompetenz (Option e ist falsch). ESPON ist ein Forschungsprogramm, kein Mandat.",
     "explanation_en": "EU Biodiversity Strategy, Green Deal/Fit for 55 and EU Soil Protection Strategy are directly relevant. Spatial planning is not an exclusive EU competence (option e is wrong). ESPON is a research programme, not a mandate.",
     "source": "ÖREK 2030, EU-Mandate",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-10",
@@ -640,7 +892,19 @@
     "explanation_de": "Klimawandel erzeugt Hitzestress, Hochwasserrisiken, Wandel im Tourismus und erfordert klimaresiliente Planung. Option d ist falsch — der Klimawandel hat erhebliche Auswirkungen auf Österreich.",
     "explanation_en": "Climate change creates heat stress, flood risks, changes in tourism and requires climate-resilient planning. Option d is false — climate change has significant impacts on Austria.",
     "source": "ÖREK 2030, Klimawandel",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-11",
@@ -667,7 +931,19 @@
     "explanation_de": "Um 2020 verbrauchte Österreich mehr als 10 Hektar Fläche pro Tag für Siedlungs- und Verkehrszwecke. Das ÖREK-Ziel ist die Reduktion auf 2,5 ha/Tag bis 2030.",
     "explanation_en": "Around 2020, Austria consumed more than 10 hectares of land per day for settlement and transport. The ÖREK target is to reduce this to 2.5 ha/day by 2030.",
     "source": "ÖREK 2030, Flächeninanspruchnahme",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-12",
@@ -697,7 +973,19 @@
     "explanation_de": "Globalisierung beeinflusst Standortentscheidungen, Städtekonkurrenz, Logistikflächenbedarfe und Resilienzthemen. Option b ist falsch — Globalisierung erzeugt oft mehr Ungleichheit, keine Homogenisierung.",
     "explanation_en": "Globalisation influences location decisions, city competition, logistics space needs and resilience themes. Option b is false — globalisation often creates more inequality, not homogenisation.",
     "source": "ÖREK 2030, Globalisierung",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "studienplan-01",
@@ -726,7 +1014,19 @@
     "explanation_de": "Raumplanung ist eine interdisziplinäre Disziplin, die natur-, sozial- und ingenieurwissenschaftliche Methoden verbindet und räumliche Entwicklungen auf verschiedenen Ebenen analysiert und gestaltet — weit mehr als nur Flächenwidmung.",
     "explanation_en": "Spatial planning is an interdisciplinary discipline combining methods from natural, social and engineering sciences, analysing and shaping spatial developments at various scales — far more than just land use planning.",
     "source": "Studienplan Raumplanung TU Wien",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-02",
@@ -755,7 +1055,19 @@
     "explanation_de": "Das Bachelorstudium Raumplanung an der TU Wien dauert 6 Semester (Regelstudienzeit), umfasst 180 ECTS und schließt mit dem Bachelor of Science ab.",
     "explanation_en": "The Bachelor's study programme in Spatial Planning at TU Wien has a standard duration of 6 semesters, comprises 180 ECTS credits and concludes with a Bachelor of Science degree.",
     "source": "Studienplan Raumplanung TU Wien, §2",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-03",
@@ -784,7 +1096,19 @@
     "explanation_de": "Die StEOP (Studieneingangs- und Orientierungsphase) ist eine verpflichtende Eingangsphase zu Beginn des Studiums, die Orientierung über Inhalte und Anforderungen bietet und innerhalb der ersten zwei Semester abzuschließen ist.",
     "explanation_en": "The StEOP (study entry and orientation phase) is a compulsory entry phase at the start of the programme, providing orientation about content and requirements, and must be completed within the first two semesters.",
     "source": "Studienplan Raumplanung TU Wien, StEOP",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-04",
@@ -814,7 +1138,19 @@
     "explanation_de": "Raumplanerinnen und Raumplaner arbeiten sowohl im öffentlichen als auch im privaten Sektor sowie in der Forschung und bei internationalen Organisationen. Option d (nur öffentlicher Sektor) ist falsch.",
     "explanation_en": "Spatial planners work in both the public and private sectors, in research, and at international organisations. Option d (exclusively public sector) is incorrect.",
     "source": "Studienplan Raumplanung TU Wien, Tätigkeitsfelder",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-05",
@@ -844,7 +1180,19 @@
     "explanation_de": "Das Studium vermittelt analytische, konzeptionelle, rechtlich-instrumentelle und kommunikative Kompetenzen. Es beschränkt sich nicht auf technische Fähigkeiten.",
     "explanation_en": "The programme teaches analytical, conceptual, legal-instrumental and communicative competencies. It is not limited to technical skills.",
     "source": "Studienplan Raumplanung TU Wien, Qualifikationsprofil",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-06",
@@ -874,7 +1222,19 @@
     "explanation_de": "Die Prüfungsordnung ist verbindlicher Bestandteil des Studienplans und regelt Anmeldung, Abmeldung, Wiederholungen und prüfungsimmanente Lehrveranstaltungen. Sie ist kein freiwilliges Zusatzdokument.",
     "explanation_en": "The examination regulations are a binding part of the study plan and govern registration, deregistration, repetitions and courses with immanent examination character. They are not a voluntary supplementary document.",
     "source": "Studienplan Raumplanung TU Wien, Prüfungsordnung",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-07",
@@ -903,7 +1263,19 @@
     "explanation_de": "Das Modul vermittelt kommunale und regionale Planungsgrundlagen, behandelt Planungsinstrumente und enthält praxisorientierte Projekte. Es ist kein reines Mastermodul.",
     "explanation_en": "The module teaches municipal and regional planning basics, covers planning instruments and includes practice-oriented projects. It is not exclusively a Master's module.",
     "source": "Studienplan Raumplanung TU Wien, Modulstruktur",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-08",
@@ -933,7 +1305,19 @@
     "explanation_de": "Raumplanung umfasst alle Maßstabsebenen von der kommunalen bis zur europäischen/internationalen Ebene. Option e (nur Grundstück/Gebäude) ist falsch — das wäre eher Architektur.",
     "explanation_en": "Spatial planning covers all scales from municipal to European/international. Option e (only plot/building) is wrong — that would be more akin to architecture.",
     "source": "Studienplan Raumplanung TU Wien",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-09",
@@ -963,7 +1347,19 @@
     "explanation_de": "Raumplanung ist interdisziplinär und bezieht Rechtswissenschaften, Geographie/GIS, Soziologie und Wirtschaftswissenschaften ein. Es ist keine ausschließlich ingenieurwissenschaftliche Disziplin.",
     "explanation_en": "Spatial planning is interdisciplinary and incorporates law, geography/GIS, sociology and economics. It is not exclusively an engineering discipline.",
     "source": "Studienplan Raumplanung TU Wien, Interdisziplinarität",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-10",
@@ -993,7 +1389,19 @@
     "explanation_de": "Der Reihungstest ist ein Zulassungstest bei beschränkten Plätzen, bestehend aus Teil A (Wissen), Teil B (Textverständnis) und Teil C (kognitive Fähigkeiten). Er ist für alle offen, nicht nur für Österreicher.",
     "explanation_en": "The ranking test is an admission test for restricted places, consisting of Part A (knowledge), Part B (text comprehension) and Part C (cognitive skills). It is open to all, not just Austrian citizens.",
     "source": "TU Wien Reihungstest Raumplanung, Informationsblatt",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-11",
@@ -1023,7 +1431,19 @@
     "explanation_de": "Planungstheorie behandelt normative Grundfragen, kommunikative und rationale Ansätze sowie Inkrementalismus. Sie ist sehr wohl praxisrelevant — Option c ist falsch.",
     "explanation_en": "Planning theory addresses normative questions, communicative and rational approaches, and incrementalism. It is indeed practically relevant — option c is incorrect.",
     "source": "Studienplan Raumplanung TU Wien, Planungstheorie",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "oerek-actions-01",
@@ -1053,7 +1473,19 @@
     "explanation_de": "Die vier Säulen des ÖREK-Aktionsprogramms sind: (1) Lebensqualität und Zusammenhalt, (2) Klimawandel und natürliche Ressourcen, (3) Wirtschaft und Innovation, (4) Mobilität und Erreichbarkeit.",
     "explanation_en": "The four pillars of the ÖREK action programme are: (1) quality of life and cohesion, (2) climate change and natural resources, (3) economy and innovation, (4) mobility and accessibility.",
     "source": "ÖREK 2030, Aktionsprogramm, 4 Säulen",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-02",
@@ -1081,7 +1513,19 @@
     "explanation_de": "ÖREK-Partnerschaften sind freiwillige Kooperationsformate zwischen ÖROK-Mitgliedern, die maßgeschneiderte Lösungen für konkrete räumliche Themen ermöglichen. Sie sind nicht gesetzlich vorgeschrieben und ersetzen keine formellen Verfahren.",
     "explanation_en": "ÖREK partnerships are voluntary cooperation formats between ÖROK members that enable tailor-made solutions for specific spatial topics. They are not legally required and do not replace formal procedures.",
     "source": "ÖREK 2030, ÖREK-Partnerschaften",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-03",
@@ -1111,7 +1555,19 @@
     "explanation_de": "Das 10-Punkte-Programm enthält konkrete Maßnahmen zu Flächensparen, Mobilität, Ortskernen und Klimaresilienz. Es enthält keine verbindlichen Gesetze — das ÖREK ist kein Gesetz.",
     "explanation_en": "The 10-point programme contains concrete measures on land saving, mobility, town centres and climate resilience. It does not contain binding laws — the ÖREK is not a law.",
     "source": "ÖREK 2030, 10-Punkte-Programm",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-04",
@@ -1141,7 +1597,19 @@
     "explanation_de": "Das ÖREK-Aktionsprogramm fördert das Innen-vor-Außen-Prinzip, Leerstandsmanagement, Flächenkonten und bessere Daten. Ein Neubauverbot gibt es nicht — das wäre unrealistisch.",
     "explanation_en": "The ÖREK action programme promotes the inside-before-outside principle, vacancy management, land accounts and better data. There is no construction ban — that would be unrealistic.",
     "source": "ÖREK 2030, Aktionsprogramm Flächensparen",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-05",
@@ -1171,7 +1639,19 @@
     "explanation_de": "Das ÖREK-Aktionsprogramm verbindet Klimaschutz und Raumplanung eng: Koordination von Erneuerbare-Energie-Standorten, Grünraumvernetzung und Klimaanpassung in Städten. Option c ist falsch — die Verknüpfung ist ausdrückliches Ziel.",
     "explanation_en": "The ÖREK action programme closely links climate protection and spatial planning: coordination of renewable energy sites, green networks and urban climate adaptation. Option c is false — the linkage is an explicit goal.",
     "source": "ÖREK 2030, Aktionsprogramm Klima",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-06",
@@ -1201,7 +1681,19 @@
     "explanation_de": "Daseinsvorsorge sichern heißt: Grundversorgung auch in Schrumpfungsregionen, angepasste Modelle, innovative Mobilitätslösungen und digitale Ergänzungen. Privatisierung ist kein ÖREK-Ziel.",
     "explanation_en": "Securing Daseinsvorsorge means: basic services even in shrinking regions, adapted models, innovative mobility solutions and digital supplements. Privatisation is not an ÖREK goal.",
     "source": "ÖREK 2030, Aktionsprogramm Daseinsvorsorge",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-07",
@@ -1231,7 +1723,19 @@
     "explanation_de": "ÖREK-Partnerschaften werden durch Ko-Finanzierung der Gebietskörperschaften unterstützt, von der ÖROK-Geschäftsstelle koordiniert und binden externe Experten ein. Sie sind nicht ausschließlich EU-finanziert.",
     "explanation_en": "ÖREK partnerships are supported by co-financing from territorial authorities, coordinated by the ÖROK secretariat and involve external experts. They are not exclusively EU-financed.",
     "source": "ÖREK 2030, ÖREK-Partnerschaften",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-08",
@@ -1261,7 +1765,19 @@
     "explanation_de": "Starke Ortskerne werden gefördert durch Leerstandsaktivierung, Nutzungsmischung, Fußläufigkeit und Aufenthaltsqualität. Die Verlagerung in Einkaufszentren auf der grünen Wiese ist das Gegenteil des ÖREK-Ziels.",
     "explanation_en": "Strong town centres are promoted through vacancy activation, mixed uses, walkability and quality of stay. Relocating to greenfield shopping centres is the opposite of the ÖREK goal.",
     "source": "ÖREK 2030, Aktionsprogramm Ortskerne",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-09",
@@ -1291,7 +1807,19 @@
     "explanation_de": "Das ÖREK fördert ÖV-Verlagerung, Radinfrastruktur, siedlungsbezogene ÖV-Planung und ländliche Erreichbarkeit. Autobahnausbau als primäres Ziel widerspricht dem Klimaschutzziel des ÖREK.",
     "explanation_en": "The ÖREK promotes public transport shift, cycling infrastructure, settlement-based public transport planning and rural accessibility. Motorway expansion as a primary goal contradicts the ÖREK's climate protection objective.",
     "source": "ÖREK 2030, Aktionsprogramm Mobilität",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "oerek-actions-10",
@@ -1321,7 +1849,19 @@
     "explanation_de": "Das ÖREK 2030 sieht Monitoring durch Berichte, Indikatoren, den ÖROK-Atlas und Evaluierung zur Grundlage künftiger Revisionen vor. Option c ist falsch — Evaluierung ist ausdrücklicher Bestandteil.",
     "explanation_en": "The ÖREK 2030 provides for monitoring through reports, indicators, the ÖROK Atlas and evaluation as a basis for future revisions. Option c is false — evaluation is an explicit component.",
     "source": "ÖREK 2030, Monitoring",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 4 Säulen verwechseln (S1=Ressourcen, S2=Zusammenhalt, S3=Wirtschaft, S4=Governance). (2) Das 10-Punkte-Programm mit den Säulen verwechseln. (3) ÖREK-Partnerschaften für rechtsverbindlich halten (sie sind freiwillig).",
+    "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars. (2) Mixing up the 10-point programme with the pillars. (3) Thinking ÖREK partnerships are legally binding (they are voluntary).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 10-Punkte"
+      }
+    ]
   },
   {
     "id": "text-comprehension-01",
@@ -1352,7 +1892,15 @@
     "explanation_de": "a) RICHTIG (Text: 'neun unterschiedlichen Landesraumordnungsgesetzen'); b) FALSCH (Text: Bund hat Kompetenzen z.B. bei Bundesstraßen); c) RICHTIG (Text: 'ohne eigene Rechtssetzungskompetenzen'); d) NICHT BESTIMMBAR (Deutschland nicht erwähnt); e) FALSCH (Text: 'freiwillige Plattform').",
     "explanation_en": "a) TRUE (text: 'nine different state spatial planning acts'); b) FALSE (text: federal government has competences e.g. for federal roads); c) TRUE (text: 'without having its own legislative competences'); d) INDETERMINATE (Germany not mentioned); e) FALSE (text: 'voluntary platform').",
     "source": "Übungstext Raumordnungsrecht",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Eigenes Vorwissen statt Textinformation verwenden. (2) \"Nicht beurteilbar\" mit \"Falsch\" verwechseln — wenn der Text etwas nicht erwähnt, ist es NICHT beurteilbar, nicht falsch. (3) Zu schnell lesen und Details übersehen.",
+    "mistakes_en": "Common mistakes: (1) Using prior knowledge instead of text information. (2) Confusing \"not determinable\" with \"false\" — if the text does not mention it, it is NOT DETERMINABLE, not false. (3) Reading too fast and missing details.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "text-comprehension-02",
@@ -1383,7 +1931,15 @@
     "explanation_de": "a) R — explizit im Text; b) F — Text sagt 10-20 ha/Tag; c) NB — nicht im Text; d) R — explizit im Text; e) NB — einzelne Länder nicht erwähnt.",
     "explanation_en": "a) T — explicit in text; b) F — text says 10-20 ha/day; c) I — not in text; d) T — explicit in text; e) I — individual states not mentioned.",
     "source": "Übungstext Flächeninanspruchnahme",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Eigenes Vorwissen statt Textinformation verwenden. (2) \"Nicht beurteilbar\" mit \"Falsch\" verwechseln — wenn der Text etwas nicht erwähnt, ist es NICHT beurteilbar, nicht falsch. (3) Zu schnell lesen und Details übersehen.",
+    "mistakes_en": "Common mistakes: (1) Using prior knowledge instead of text information. (2) Confusing \"not determinable\" with \"false\" — if the text does not mention it, it is NOT DETERMINABLE, not false. (3) Reading too fast and missing details.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "text-comprehension-03",
@@ -1414,7 +1970,15 @@
     "explanation_de": "a) R — Text: 'räumlicher Segregation'; b) R — explizit im Text; c) F — Text: 'Abhängigkeit vom motorisierten Individualverkehr' (Gegenteil); d) NB — Text schweigt dazu; e) R — explizit im Text.",
     "explanation_en": "a) T — text: 'spatial segregation'; b) T — explicit in text; c) F — text: 'dependence on private motorised transport' (opposite); d) I — text is silent on this; e) T — explicit in text.",
     "source": "Übungstext Stadtregionen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Eigenes Vorwissen statt Textinformation verwenden. (2) \"Nicht beurteilbar\" mit \"Falsch\" verwechseln — wenn der Text etwas nicht erwähnt, ist es NICHT beurteilbar, nicht falsch. (3) Zu schnell lesen und Details übersehen.",
+    "mistakes_en": "Common mistakes: (1) Using prior knowledge instead of text information. (2) Confusing \"not determinable\" with \"false\" — if the text does not mention it, it is NOT DETERMINABLE, not false. (3) Reading too fast and missing details.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "text-comprehension-04",
@@ -1445,7 +2009,15 @@
     "explanation_de": "a) R — explizit im Text; b) F — Text: 'gesetzlich vorgeschrieben'; c) R — Text nennt viele Formen von Partizipation; d) NB — digitale Formate nicht erwähnt; e) R — explizit im Text.",
     "explanation_en": "a) T — explicit in text; b) F — text: 'legally required'; c) T — text mentions many forms of participation; d) I — digital formats not mentioned; e) T — explicit in text.",
     "source": "Übungstext Partizipation",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Eigenes Vorwissen statt Textinformation verwenden. (2) \"Nicht beurteilbar\" mit \"Falsch\" verwechseln — wenn der Text etwas nicht erwähnt, ist es NICHT beurteilbar, nicht falsch. (3) Zu schnell lesen und Details übersehen.",
+    "mistakes_en": "Common mistakes: (1) Using prior knowledge instead of text information. (2) Confusing \"not determinable\" with \"false\" — if the text does not mention it, it is NOT DETERMINABLE, not false. (3) Reading too fast and missing details.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "text-comprehension-05",
@@ -1476,7 +2048,15 @@
     "explanation_de": "a) R — explizit; b) NB — einzelne Länder nicht genannt; c) R — explizit; d) F — Text: 'sinkende Kaufkraft'; e) R — explizit.",
     "explanation_en": "a) T — explicit; b) I — individual states not named; c) T — explicit; d) F — text: 'declining purchasing power'; e) T — explicit.",
     "source": "Übungstext Demografischer Wandel",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Eigenes Vorwissen statt Textinformation verwenden. (2) \"Nicht beurteilbar\" mit \"Falsch\" verwechseln — wenn der Text etwas nicht erwähnt, ist es NICHT beurteilbar, nicht falsch. (3) Zu schnell lesen und Details übersehen.",
+    "mistakes_en": "Common mistakes: (1) Using prior knowledge instead of text information. (2) Confusing \"not determinable\" with \"false\" — if the text does not mention it, it is NOT DETERMINABLE, not false. (3) Reading too fast and missing details.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-01",
@@ -1503,7 +2083,13 @@
     "explanation_de": "Der Flächenwidmungsplan ist das zentrale Planungsinstrument der Gemeinde. Das analoge Instrument auf Landesebene ist das Regionalprogramm oder Landesentwicklungsprogramm (Landesraumordnungsprogramm).",
     "explanation_en": "The land use plan (Flächenwidmungsplan) is the central planning instrument of the municipality. The analogous instrument at state level is the regional programme or state development programme.",
     "source": "Planungssystem Österreich",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-02",
@@ -1530,7 +2116,13 @@
     "explanation_de": "Innenentwicklung dient dem Flächensparen (Mittel-Ziel). Öffentlicher Verkehr dient der CO₂-Reduktion als übergeordnetem Klimaschutzziel. Die Analogie lautet: Mittel → Ziel.",
     "explanation_en": "Inner development serves land saving (means-goal). Public transport serves CO₂ reduction as a higher-level climate protection goal. The analogy is: means → goal.",
     "source": "Raumplanung Konzepte",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-03",
@@ -1557,7 +2149,13 @@
     "explanation_de": "Die Differenzen sind: 3, 4, 5, 6, 7. Jede Differenz steigt um 1. Also: 20 + 7 = 27.",
     "explanation_en": "The differences are: 3, 4, 5, 6, 7. Each difference increases by 1. So: 20 + 7 = 27.",
     "source": "Kognitive Fähigkeiten — Zahlenreihen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-04",
@@ -1584,7 +2182,13 @@
     "explanation_de": "Jede Zahl wird mit 2 multipliziert: 1, 2, 4, 8, 16, 32, 64. Die nächste Zahl ist 32 × 2 = 64.",
     "explanation_en": "Each number is multiplied by 2: 1, 2, 4, 8, 16, 32, 64. The next number is 32 × 2 = 64.",
     "source": "Kognitive Fähigkeiten — Zahlenreihen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-05",
@@ -1612,7 +2216,13 @@
     "explanation_de": "a) WAHR — X liegt in Wohngebiet → Wohngebiet ist im FWP → X ist im FWP. b) FALSCH — Umkehrung gilt nicht. c) NICHT ZWINGEND — FWP-Widmung allein reicht nicht (noch kein Bebauungsplan). d) NICHT ZWINGEND — nicht explizit ausgeschlossen. e) WAHR — X liegt im Wohngebiet, das im FWP ist → FWP hat mindestens ein Wohngebiet.",
     "explanation_en": "a) TRUE — X is in residential area → residential area is in plan → X is in plan. b) FALSE — converse does not hold. c) NOT NECESSARILY — designation alone does not suffice (development plan also needed). d) NOT NECESSARILY — not explicitly excluded. e) TRUE — X is in a residential area that is in the plan → plan has at least one residential area.",
     "source": "Kognitive Fähigkeiten — Logik",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "oerek-principles-13",
@@ -1642,7 +2252,19 @@
     "explanation_de": "Das ÖREK fördert polyzentrale Raumentwicklung: mehrere gleichwertige Zentren, starke Regionszentren und ausgewogene Entwicklung statt Konzentration auf Wien. Option b ist das Gegenteil des ÖREK-Ansatzes.",
     "explanation_en": "The ÖREK promotes polycentric spatial development: several equivalent centres, strong regional centres and balanced development instead of concentration on Vienna. Option b is the opposite of the ÖREK approach.",
     "source": "ÖREK 2030, Polyzentralität",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-principles-14",
@@ -1671,7 +2293,19 @@
     "explanation_de": "Kooperative Planung meint freiwillige, grenzüberschreitende Zusammenarbeit von Gebietskörperschaften — interkommunal und interregional — koordiniert durch Gremien wie die ÖROK. Erzwungene Zusammenschlüsse sind kein ÖREK-Ansatz.",
     "explanation_en": "Cooperative planning means voluntary cross-boundary cooperation between territorial authorities — intermunicipal and interregional — coordinated through bodies such as the ÖROK. Forced mergers are not an ÖREK approach.",
     "source": "ÖREK 2030, Kooperative Planung",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Die 3 Grundsätze verwechseln (klimaverträglich ≠ gemeinwohlorientiert ≠ gerecht). (2) ÖREK für ein Gesetz halten (es ist ein freiwilliges Leitbild). (3) Vergessen, dass Raum und Boden NICHT vermehrbar sind.",
+    "mistakes_en": "Common mistakes: (1) Confusing the 3 principles (climate-compatible ≠ common-good ≠ equitable). (2) Thinking ÖREK is a law (it is voluntary). (3) Forgetting that land is NOT expandable.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Grundsätze"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "oerek-megatrends-13",
@@ -1701,7 +2335,19 @@
     "explanation_de": "Ressourcenknappheit erhöht Druck auf Boden, erfordert Kreislaufwirtschaft, macht Wasser zu einem Planungsthema und erfordert Flächen für Erneuerbare. Option c ist falsch — Ressourcenknappheit betrifft alle Regionen.",
     "explanation_en": "Resource scarcity increases pressure on land, requires circular economy approaches, makes water a planning topic and requires space for renewables. Option c is false — resource scarcity affects all regions.",
     "source": "ÖREK 2030, Ressourcenknappheit",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Megatrends verwechseln (9 Stück — Klima, Digitalisierung, Globalisierung, Demografie, Gesellschaft, Wissen, Urbanisierung, Energie, Raumverhalten). (2) Konkrete Zahlen nicht kennen (z.B. 2,5 ha/Tag, +52% bei 65+, 2040 klimaneutral). (3) EU-Ziele mit nationalen verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Mixing up the 9 megatrends. (2) Not knowing key numbers (2.5 ha/day, +52% over-65s, 2040 climate neutral). (3) Confusing EU vs national targets.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ]
   },
   {
     "id": "studienplan-12",
@@ -1731,7 +2377,19 @@
     "explanation_de": "Raumplanung nutzt ein breites Methodenspektrum: GIS, rechtliche Analyse, Partizipation und städtebaulichen Entwurf. Es ist keine ausschließlich quantitative Disziplin — qualitative Methoden sind ebenso zentral.",
     "explanation_en": "Spatial planning uses a broad range of methods: GIS, legal analysis, participation and urban design. It is not exclusively a quantitative discipline — qualitative methods are equally central.",
     "source": "Studienplan Raumplanung TU Wien, Methoden",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "studienplan-13",
@@ -1761,7 +2419,19 @@
     "explanation_de": "Raumplanung ist der übergeordnete Begriff (alle Maßstabsebenen), während Stadtplanung einen Teilbereich bildet (urbaner Raum). Sie sind nicht identisch — Option c ist falsch.",
     "explanation_en": "Spatial planning is the overarching concept (all scales), while urban planning forms a sub-area (urban space). They are not identical — option c is incorrect.",
     "source": "Studienplan Raumplanung TU Wien",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) 180 ECTS / 6 Semester vergessen. (2) Raumplanung nur als Stadtplanung verstehen (es ist breiter — regional, national, international). (3) StEOP-Regeln nicht kennen (8 ECTS, max 22 ECTS parallel). (4) Denken, dass genaue Modultitel prüfungsrelevant sind (sind sie nicht!).",
+    "mistakes_en": "Common mistakes: (1) Forgetting 180 ECTS / 6 semesters. (2) Thinking spatial planning = only city planning (it covers all scales). (3) Not knowing StEOP rules. (4) Thinking exact module titles are tested (they are not!).",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ]
   },
   {
     "id": "wuerfel-1-setup",
@@ -1788,7 +2458,15 @@
     "explanation_de": "Beim Kippen in Ihre Richtung dreht sich: Oben→Vorne, Vorne→Unten, Unten→Hinten, Hinten→Oben. Das Kreuz (+) war oben und kommt jetzt nach vorne.",
     "explanation_en": "Tipping towards you: Top→Front, Front→Bottom, Bottom→Back, Back→Top. The Cross (+) was on top and is now on the front.",
     "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-1-step2",
@@ -1815,7 +2493,15 @@
     "explanation_de": "Bei 180°-Drehung (Oben/Unten bleiben): Vorne↔Hinten, Links↔Rechts. Das Dreieck (△) war hinten und kommt nach vorne. Das Kreuz geht nach hinten.",
     "explanation_en": "180° rotation (top/bottom stay): Front↔Back, Left↔Right. Triangle (△) was on back, now on front.",
     "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-1-step3",
@@ -1842,7 +2528,15 @@
     "explanation_de": "Beim Kippen nach rechts dreht sich: Vorne→Rechts, Links→Vorne, Hinten→Links, Rechts→Hinten. ABER: Oben/Unten bleiben gleich. Links war leer (□), also... Nein: beim Kippen nach rechts: Links→Vorne. Links war leer. Warte — korrekter: Vorne→Rechts, Links→Vorne. Links war □. Also vorne jetzt □? Nein — die Originalantwort sagt Dreieck. Prüfung: Beim Kippen nach rechts kippen wir um die Achse Vorne-Hinten? Nein, um die Achse Oben-Unten? Nein. Kippen nach rechts = Rotation um die Vorne-Hinten-Achse: Oben→Rechts, Rechts→Unten, Unten→Links, Links→Oben. Die vordere Fläche ändert sich NICHT. Das Dreieck bleibt vorne!",
     "explanation_en": "Tipping right rotates around the front-back axis: Top→Right, Right→Bottom, Bottom→Left, Left→Top. The front face does NOT change. Triangle stays on front.",
     "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-1-step4",
@@ -1869,7 +2563,15 @@
     "explanation_de": "Kippen in Ihre Richtung: Oben→Vorne. Oben war leer (□). Also sehen Sie jetzt eine leere Fläche. (Dreieck geht nach unten, □ von oben nach vorne, Kreuz von hinten nach oben, □ von unten nach hinten.)",
     "explanation_en": "Tip towards you: Top→Front. Top was empty (□). So the front is now empty. (Triangle goes to bottom, □ from top to front, Cross from back to top.)",
     "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-2-step1",
@@ -1898,7 +2600,15 @@
     "explanation_de": "Von Ihnen weg kippen: Unten→Vorne, Vorne→Oben, Oben→Hinten, Hinten→Unten. D war unten und kommt nach vorne.",
     "explanation_en": "Tip away from you: Bottom→Front, Front→Top, Top→Back, Back→Bottom. D was on bottom, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-2-step2",
@@ -1927,7 +2637,15 @@
     "explanation_de": "Kippen nach links dreht um die Vorne-Hinten-Achse: Oben→Links, Links→Unten, Unten→Rechts, Rechts→Oben. Die vordere Fläche ändert sich NICHT? Nein — Kippen nach links = um die Oben-Unten-Achse: Vorne→Links, Rechts→Vorne, Hinten→Rechts, Links→Hinten. F war rechts, kommt nach vorne.",
     "explanation_en": "Tip left rotates around the top-bottom axis: Front→Left, Right→Front, Back→Right, Left→Back. F was on the right, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-2-step3",
@@ -1956,7 +2674,15 @@
     "explanation_de": "90° im Uhrzeigersinn (von oben): Vorne→Rechts, Links→Vorne, Hinten→Links, Rechts→Hinten. Oben/Unten bleiben. D war links und kommt nach vorne.",
     "explanation_en": "90° clockwise (from above): Front→Right, Left→Front, Back→Left, Right→Back. Top/Bottom stay. D was on left, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-2-step4",
@@ -1985,7 +2711,15 @@
     "explanation_de": "In Ihre Richtung kippen: Oben→Vorne. A war oben und kommt nach vorne. (D geht nach unten, B nach hinten, C nach oben.)",
     "explanation_en": "Tip towards you: Top→Front. A was on top, now on front. (D goes to bottom, B to back, C to top.)",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-3-step1",
@@ -2014,7 +2748,15 @@
     "explanation_de": "Kippen nach rechts (um Oben-Unten-Achse): Vorne→Rechts, Links→Vorne. Der Mond (☽) war links und kommt nach vorne.",
     "explanation_en": "Tip right (around top-bottom axis): Front→Right, Left→Front. Moon (☽) was on left, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-3-step2",
@@ -2043,7 +2785,15 @@
     "explanation_de": "In Ihre Richtung: Oben→Vorne. Pfeil hoch (↑) war oben, kommt nach vorne.",
     "explanation_en": "Towards you: Top→Front. Arrow up (↑) was on top, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-3-step3",
@@ -2072,7 +2822,15 @@
     "explanation_de": "180° Drehung: Vorne↔Hinten, Links↔Rechts. Pfeil runter (↓) war hinten, kommt nach vorne.",
     "explanation_en": "180° rotation: Front↔Back, Left↔Right. Arrow down (↓) was on back, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-3-step4",
@@ -2101,7 +2859,15 @@
     "explanation_de": "Von Ihnen weg: Unten→Vorne. Mond (☽) war unten, kommt nach vorne.",
     "explanation_en": "Away from you: Bottom→Front. Moon (☽) was on bottom, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-4-step1",
@@ -2130,7 +2896,15 @@
     "explanation_de": "Nach links: Rechts→Vorne → 4 vorne. Oben: 2, Unten: 5, Links: 1, Rechts: 6, Hinten: 3. Dann in Ihre Richtung: Oben→Vorne → 2 vorne.",
     "explanation_en": "Tip left: Right→Front → 4 on front. Top: 2, Bottom: 5, Left: 1, Right: 6, Back: 3. Then towards you: Top→Front → 2 on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-4-step2",
@@ -2159,7 +2933,15 @@
     "explanation_de": "90° UZS von oben: Links→Vorne → 1 vorne. Oben: 3, Unten: 4, Rechts: 2, Links: 5, Hinten: 6. Dann weg kippen: Unten→Vorne → 4 vorne.",
     "explanation_en": "90° CW from above: Left→Front → 1 on front. Top: 3, Bottom: 4, Right: 2, Left: 5, Back: 6. Then tip away: Bottom→Front → 4 on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-5-step1",
@@ -2188,7 +2970,15 @@
     "explanation_de": "Zyklus bei Kippen in Ihre Richtung: Oben→Vorne→Unten→Hinten→Oben. Start: V=X, O=△, H=O, U=□. Nach 1×: V=△, O=O, H=□, U=X. Nach 2×: V=O, O=□, H=X, U=△. Nach 3×: V=□, O=X, H=△, U=O. Antwort: □ (d).",
     "explanation_en": "Cycle for tipping towards you: Top→Front→Bottom→Back→Top. Start: F=X, T=△, B=O, Bo=□. After 1: F=△, T=O, B=□, Bo=X. After 2: F=O, T=□, B=X, Bo=△. After 3: F=□, T=X, B=△, Bo=O. Answer: □ (d).",
     "source": "Übungsaufgabe Räumliches Vorstellen (Tricky)",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-6-step1",
@@ -2217,7 +3007,15 @@
     "explanation_de": "Schritt 1 (rechts): Links→Vorne → C vorne. O=B, U=E, R=A, L=F, H=D. Schritt 2 (in Ihre Richtung): Oben→Vorne → B vorne. O=D, U=C, H=E, L=F, R=A. Schritt 3 (180°): Vorne↔Hinten → E vorne. Also F (f)... Nein: H=E, also E kommt nach vorne. Antwort: E (e). Korrektur der Zwischenschritte: Nach S1: V=C, H=D, O=B, U=E, L=F, R=A. Nach S2: V=B, O=D, H=E, U=C, L=F, R=A. Nach S3 (180°): V↔H → V=E. Antwort: E (e).",
     "explanation_en": "S1 (right): Left→Front → C. T=B,Bo=E,R=A,L=F,B=D. S2 (towards): Top→Front → B. T=D,Bo=C,B=E,L=F,R=A. S3 (180°): Front↔Back → E on front. Answer: E (e).",
     "source": "Übungsaufgabe Räumliches Vorstellen (Kombination)",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-7-step1",
@@ -2246,7 +3044,15 @@
     ],
     "explanation_de": "S1 links: Rechts→Vorne → 4. (O=2,U=5,L=1,R=6,H=3). S2 in Ihre Richtung: Oben→Vorne → 2.",
     "explanation_en": "S1 left: Right→Front → 4. (T=2,Bo=5,L=1,R=6,B=3). S2 towards: Top→Front → 2.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-7-step2",
@@ -2275,7 +3081,15 @@
     ],
     "explanation_de": "S3 gegen UZS von oben: Vorne→Rechts, Rechts→Hinten, Hinten→Links, Links→Vorne. 1→Vorne. (V=1,R=2,H=6,L=5,O=3,U=4). S4 weg: Unten→Vorne → 4.",
     "explanation_en": "S3 CCW from above: Left→Front. 1→Front. (F=1,R=2,B=6,L=5,T=3,Bo=4). S4 away: Bottom→Front → 4.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-7-step3",
@@ -2304,7 +3118,15 @@
     ],
     "explanation_de": "Rechts kippen: Links→Vorne → 5. (O=1,U=6,R=4,L=3,H=2). 180° drehen: Vorne↔Hinten → 2 vorne. Hinten=5, Links=4, Rechts=3.",
     "explanation_en": "Tip right: Left→Front → 5. (T=1,Bo=6,R=4,L=3,B=2). 180°: Front↔Back → 2. Back=5, L=4, R=3.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-8-trick1",
@@ -2333,7 +3155,15 @@
     ],
     "explanation_de": "Rechts dann links = die Operationen heben sich auf. Der Würfel ist wieder in der Ausgangsposition. Vorne: X.",
     "explanation_en": "Right then left cancel each other out. The cube is back to its starting position. Front: X.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-8-trick2",
@@ -2362,7 +3192,15 @@
     ],
     "explanation_de": "4× in Ihre Richtung = volle 360°-Rotation um die Links-Rechts-Achse. Alles zurück zum Ausgangspunkt. Vorne: X.",
     "explanation_en": "4× towards you = full 360° rotation around the left-right axis. Everything back to start. Front: X.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-8-trick3",
@@ -2391,7 +3229,15 @@
     ],
     "explanation_de": "3× in Ihre Richtung: V=X→A→O→B. Also V=B. Dann 1× weg: Unten→Vorne. Nach 3× war: V=B,O=X,H=A,U=O. Weg: U→V → O vorne.",
     "explanation_en": "3× towards: cycle F through X→A���O→B. After 3: F=B,T=X,B=A,Bo=O. Then away: Bo→F → O on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-9-all-ops",
@@ -2420,7 +3266,15 @@
     ],
     "explanation_de": "S1(zu): V=3,O=2,H=4,U=1. S2(rechts): V=5,R=3,L=4,H=6(nein)... Systematisch: Start V=1,H=2,O=3,U=4,L=5,R=6. S1 zu Ihnen: O→V,V→U,U→H,H→O → V=3,O=2,H=4,U=1,L=5,R=6. S2 rechts: L→V,V→R,R→H,H→L → V=5,R=3,H=6,L=4,O=2,U=1. S3 weg: U→V,V→O,O→H,H→U → V=1,O=5,H=2,U=6,L=4,R=3. S4 links: R→V,V→L,L→H,H→R → V=3,L=1,H=4,R=2,O=5,U=6. S5 180°: V↔H,L↔R → V=4,H=3,L=2,R=1,O=5,U=6. S6 zu: O→V → V=5.",
     "explanation_en": "Track all 6 faces through each operation. Final answer: 5.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Sehr schwer)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Sehr schwer)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-10-backface",
@@ -2449,7 +3303,15 @@
     ],
     "explanation_de": "S1 zu: V=Grün,O=Blau,H=Gelb,U=Rot,L=Weiß,R=Schwarz. S2 rechts: L→V,V→R,R→H,H→L ��� V=Weiß,R=Grün,H=Schwarz,L=Gelb. Hinten = Schwarz.",
     "explanation_en": "S1 towards: F=Green,T=Blue,B=Yellow,Bo=Red. S2 right: L→F,F→R,R→B,B→L → F=White,R=Green,B=Black,L=Yellow. Back = Black.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer — Rückseite)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer — Rückseite)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-10-topface",
@@ -2478,7 +3340,15 @@
     ],
     "explanation_de": "S1 weg: U→V,V→O,O→H,H→U → V=Gelb,O=Rot,H=Grün,U=Blau,L=Weiß,R=Schwarz. S2 90°UZS: L→V,V→R,R→H,H→L (O/U bleiben) → Oben bleibt = Rot.",
     "explanation_en": "S1 away: Bo→F,F→T,T���B,B→Bo → F=Yellow,T=Red,B=Green,Bo=Blue. S2 CW: top/bottom stay → Top = Red.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer — Oberseite)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer — Oberseite)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-11-reverse1",
@@ -2507,7 +3377,15 @@
     ],
     "explanation_de": "180° drehen tauscht Vorne↔Hinten (und Links↔Rechts). B kommt nach vorne. Kippen in jede Richtung bringt Oben/Unten/Links/Rechts nach vorne, nicht Hinten.",
     "explanation_en": "180° rotation swaps Front↔Back. B comes to front. Tipping in any direction brings Top/Bottom/Left/Right to front, not Back.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Umkehroperation)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Umkehroperation)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-11-reverse2",
@@ -2534,7 +3412,15 @@
     ],
     "explanation_de": "Von Ihnen weg kippen: Unten→Vorne. Das ist die EINZIGE Operation, die U direkt nach V bringt. In Ihre Richtung bringt Oben→Vorne. Rechts/Links bringt Seitenflächen. 180° tauscht V↔H.",
     "explanation_en": "Tip away: Bottom→Front. The ONLY operation that brings Bo directly to F. Towards brings Top. Right/Left bring sides. 180° swaps F↔B.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Umkehroperation)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Umkehroperation)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "wuerfel-12-step1",
@@ -2561,7 +3447,15 @@
     ],
     "explanation_de": "Nach dem Umstellen: V=♥, H=◆, O=★, U=●, L=□, R=□. Dann in Ihre Richtung: Oben→Vorne → ★.",
     "explanation_en": "After reorientation: F=♥, B=◆, T=★, Bo=●, L=□, R=□. Tip towards: Top→Front → ★.",
-    "source": "Übungsaufgabe R��umliches Vorstellen (Schwer — Perspektivwechsel)"
+    "source": "Übungsaufgabe R��umliches Vorstellen (Schwer — Perspektivwechsel)",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt — Kippen bewegt 4 Flächen im Zyklus, Drehen lässt Oben/Unten gleich. (2) Vergessen, alle 6 Seiten nach jedem Schritt zu aktualisieren. (3) Bei \"nach rechts kippen\" an horizontale Drehung denken statt an Kippen um die Oben-Unten-Achse. Tipp: Skizzieren Sie den Würfel nach JEDEM Schritt.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate — tipping cycles 4 faces, rotation keeps top/bottom. (2) Forgetting to update all 6 faces after each step. (3) For \"tip right\", thinking horizontal spin instead of tilt around top-bottom axis. Tip: sketch the cube after EVERY step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-analogy-hard1",
@@ -2588,7 +3482,15 @@
     ],
     "explanation_de": "Arzt behandelt Patient, Anwalt vertritt Mandant. Beziehung: Fachperson → Person, der sie dient.",
     "explanation_en": "Doctor treats patient, lawyer represents client. Relationship: professional → person they serve.",
-    "source": "Übungsaufgabe Analogien (Schwer)"
+    "source": "Übungsaufgabe Analogien (Schwer)",
+    "mistakes_de": "Typische Fehler: (1) Die Beziehung zwischen Wort 1 und 2 falsch identifizieren. (2) Eine oberflächliche statt strukturelle Ähnlichkeit suchen (nicht \"ähnlich\" sondern \"gleiche Beziehung\"). (3) Sich von Ablenkern täuschen lassen, die thematisch passen aber die falsche Beziehung haben.",
+    "mistakes_en": "Common mistakes: (1) Misidentifying the relationship between words 1 and 2. (2) Looking for surface similarity instead of structural relationship. (3) Being distracted by options that are thematically related but have the wrong relationship type.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-analogy-hard2",
@@ -2615,7 +3517,15 @@
     ],
     "explanation_de": "Demokratie und Diktatur sind Gegensätze der Regierungsform. Freihandel und Protektionismus sind Gegensätze der Handelspolitik.",
     "explanation_en": "Democracy/dictatorship are opposites of governance. Free trade/protectionism are opposites of trade policy.",
-    "source": "Übungsaufgabe Analogien (Schwer)"
+    "source": "Übungsaufgabe Analogien (Schwer)",
+    "mistakes_de": "Typische Fehler: (1) Die Beziehung zwischen Wort 1 und 2 falsch identifizieren. (2) Eine oberflächliche statt strukturelle Ähnlichkeit suchen (nicht \"ähnlich\" sondern \"gleiche Beziehung\"). (3) Sich von Ablenkern täuschen lassen, die thematisch passen aber die falsche Beziehung haben.",
+    "mistakes_en": "Common mistakes: (1) Misidentifying the relationship between words 1 and 2. (2) Looking for surface similarity instead of structural relationship. (3) Being distracted by options that are thematically related but have the wrong relationship type.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-number-hard1",
@@ -2642,7 +3552,15 @@
     ],
     "explanation_de": "Zwei verschränkte Folgen: Position 1,3,5,7: 2,3,4,5 (+1). Position 2,4,6,8: 6,9,12,? (+3). Nächstes = 15.",
     "explanation_en": "Two interleaved sequences: positions 1,3,5,7: 2,3,4,5 (+1). Positions 2,4,6,8: 6,9,12,? (+3). Next = 15.",
-    "source": "Übungsaufgabe Zahlenfolgen (Schwer)"
+    "source": "Übungsaufgabe Zahlenfolgen (Schwer)",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Rechenoperation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten aus testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when the sequence has two interleaved sub-sequences. (2) Thinking +/- when the pattern is ×/÷. (3) Not testing the sequence from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-number-hard2",
@@ -2669,7 +3587,15 @@
     ],
     "explanation_de": "Fibonacci-Folge: Jede Zahl = Summe der zwei vorherigen. 8 + 13 = 21.",
     "explanation_en": "Fibonacci sequence: each number = sum of the two before. 8 + 13 = 21.",
-    "source": "Übungsaufgabe Zahlenfolgen (Schwer)"
+    "source": "Übungsaufgabe Zahlenfolgen (Schwer)",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Rechenoperation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten aus testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when the sequence has two interleaved sub-sequences. (2) Thinking +/- when the pattern is ×/÷. (3) Not testing the sequence from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-logic-hard1",
@@ -2697,7 +3623,15 @@
     ],
     "explanation_de": "d) folgt direkt aus A1 (Kontraposition: Kein Blux=Trem → Kein Trem=Blux). c) folgt aus A2: Alle Trem sind Voki → es gibt mind. ein Voki das Trem ist (sofern Trem existieren). a) ist FALSCH: Blux könnten Voki sein, ohne Trem zu sein. b) ist FALSCH: nicht alle Voki müssen Trem sein. e) kann man nicht ableiten.",
     "explanation_en": "d) follows from S1 (contrapositive). c) follows from S2 (if Trem exist, at least one Voki is Trem). a) FALSE: Blux could be Voki without being Trem. b) FALSE: not all Voki need be Trem. e) cannot be derived.",
-    "source": "Übungsaufgabe Logik (Schwer)"
+    "source": "Übungsaufgabe Logik (Schwer)",
+    "mistakes_de": "Typische Fehler: (1) \"Zumindest ein\" mit \"Alle\" verwechseln. (2) Einen Schluss akzeptieren, der den Aussagen nicht widerspricht, aber nicht ableitbar ist. (3) Kontraposition vergessen: \"Alle A sind B\" → \"Kein Nicht-B ist A\".",
+    "mistakes_en": "Common mistakes: (1) Confusing \"at least one\" with \"all\". (2) Accepting a conclusion that does not contradict the premises but cannot be derived. (3) Forgetting contraposition: \"All A are B\" → \"No non-B is A\".",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   },
   {
     "id": "cognitive-logic-hard2",
@@ -2725,6 +3659,14 @@
     ],
     "explanation_de": "c) folgt aus A2 (Umkehrschluss: Einige Raumi=Grüni → Einige Grüni=Raumi). d) folgt aus A3: Kein Baui=Grüni, also kann kein Plani gleichzeitig Baui UND Grüni sein. a) kann nicht abgeleitet werden (Plani könnten alle Baui sein). b) falsch (manche könnten Baui sein). e) falsch (Grüni könnten Nicht-Plani sein).",
     "explanation_en": "c) follows from S2 (converse). d) follows from S3: no Baui=Grüni, so no Plani can be both. a) cannot be derived. b) false. e) false.",
-    "source": "Übungsaufgabe Logik (Schwer)"
+    "source": "Übungsaufgabe Logik (Schwer)",
+    "mistakes_de": "Typische Fehler: (1) \"Zumindest ein\" mit \"Alle\" verwechseln. (2) Einen Schluss akzeptieren, der den Aussagen nicht widerspricht, aber nicht ableitbar ist. (3) Kontraposition vergessen: \"Alle A sind B\" → \"Kein Nicht-B ist A\".",
+    "mistakes_en": "Common mistakes: (1) Confusing \"at least one\" with \"all\". (2) Accepting a conclusion that does not contradict the premises but cannot be derived. (3) Forgetting contraposition: \"All A are B\" → \"No non-B is A\".",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ]
   }
 ]
