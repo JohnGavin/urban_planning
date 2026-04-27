@@ -63,6 +63,7 @@
         <button class="tab-btn active" data-tab="by-topic">By Topic</button>
         <button class="tab-btn" data-tab="history">Quiz History</button>
         <button class="tab-btn" data-tab="weaknesses">Weak Areas</button>
+        <button class="tab-btn" data-tab="lessons">Lessons Learned</button>
       </div>
 
       <!-- TAB: By Topic -->
@@ -88,9 +89,24 @@
           <p class="text-muted">Take quizzes in multiple topics to see weakness analysis.</p>
         </div>
       </div>
+      <!-- TAB: Lessons Learned -->
+      <div class="tab-content" data-tab="lessons">
+        <h2>Lessons Learned</h2>
+        <p class="text-muted">Mistakes are recorded automatically when you get a question wrong. You can also add personal notes.</p>
+        <div id="lessons-summary"></div>
+        <h3>Weak Tags (most frequent mistakes)</h3>
+        <div id="lessons-tags">
+          <p class="text-muted">No mistakes recorded yet.</p>
+        </div>
+        <h3>Recent Mistakes &amp; Notes</h3>
+        <div id="lessons-recent">
+          <p class="text-muted">Take a quiz to see mistakes here.</p>
+        </div>
+      </div>
     </div>
 
-    <div style="margin-top:2rem">
+    <div style="margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap">
+      <a href="../quizzes/quiz-cognitive.html" class="btn btn-primary" style="font-size:0.8rem">&#127919; Schwachstellen trainieren</a>
       <button class="btn btn-outline" id="btn-clear" style="font-size:0.8rem">Clear All Progress Data</button>
     </div>
 
@@ -123,6 +139,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderTopics(stats);
     renderHistory(stats);
     renderWeaknesses(stats);
+    renderLessons();
   } catch(e) {
     document.getElementById('topic-cards').innerHTML =
       '<div class="alert alert-warning">IndexedDB not available. Progress tracking requires a modern browser. If opening via file://, try Chrome or Firefox.</div>';
@@ -251,6 +268,79 @@ function renderWeaknesses(stats) {
   }
 
   container.innerHTML = html;
+}
+
+async function renderLessons() {
+  try {
+    const mistakeStats = await StudentDB.getMistakeStats();
+    const weakTags = await StudentDB.getWeakTags(10);
+
+    // Summary
+    const summaryEl = document.getElementById('lessons-summary');
+    if (summaryEl && mistakeStats.total > 0) {
+      summaryEl.innerHTML = `<div class="stats-grid">
+        <div class="stat-card urgent"><div class="stat-value">${mistakeStats.total}</div><div class="stat-label">Total Mistakes</div></div>
+        <div class="stat-card warning"><div class="stat-value">${Object.keys(mistakeStats.byTag).length}</div><div class="stat-label">Weak Tags</div></div>
+        <div class="stat-card"><div class="stat-value">${Object.keys(mistakeStats.byQuestion).length}</div><div class="stat-label">Unique Questions</div></div>
+      </div>`;
+    }
+
+    // Weak tags
+    const tagsEl = document.getElementById('lessons-tags');
+    if (tagsEl && weakTags.length > 0) {
+      let html = '<table><tr><th>Tag</th><th>Times Wrong</th><th>Last Wrong</th></tr>';
+      weakTags.forEach(t => {
+        const lastDate = t.lastDate ? new Date(t.lastDate).toLocaleDateString('de-AT') : '—';
+        html += `<tr><td><code>${t.tag}</code></td><td><span class="badge badge-error">${t.count}</span></td><td>${lastDate}</td></tr>`;
+      });
+      html += '</table>';
+      tagsEl.innerHTML = html;
+    }
+
+    // Recent mistakes with notes
+    const recentEl = document.getElementById('lessons-recent');
+    if (recentEl && mistakeStats.recent.length > 0) {
+      let html = '';
+      mistakeStats.recent.forEach(m => {
+        const date = new Date(m.date).toLocaleDateString('de-AT', { day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' });
+        const tags = (m.tags || []).map(t => '<code>' + t + '</code>').join(' ');
+        html += `<div class="card" style="margin-bottom:0.75rem">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <strong>${m.questionId || m.questionText || '—'}</strong>
+            <span class="text-muted" style="font-size:0.8rem">${date}</span>
+          </div>
+          ${tags ? '<div style="margin-top:0.25rem;font-size:0.8rem">' + tags + '</div>' : ''}
+          ${m.note ? '<div style="margin-top:0.5rem;padding:0.5rem;background:var(--tu-dark);border-radius:var(--radius);font-size:0.85rem;border-left:3px solid var(--tu-accent)"><strong>Meine Notiz:</strong> ' + m.note + '</div>' : ''}
+        </div>`;
+      });
+      recentEl.innerHTML = html;
+    }
+
+    // AI feedback prompt
+    if (mistakeStats.total > 0) {
+      const weakTagList = weakTags.map(t => t.tag + ' (' + t.count + 'x)').join(', ');
+      const prompt = encodeURIComponent(
+        'I am preparing for the TU Wien Raumplanung Reihungstest. Here are my weak areas based on my quiz mistakes:\n\n' +
+        'Weak tags: ' + weakTagList + '\n' +
+        'Total mistakes: ' + mistakeStats.total + '\n\n' +
+        'Please:\n1. Explain what each weak tag means and why I might be getting it wrong\n2. Give me 3 specific practice exercises for my weakest area\n3. Explain the key concept I need to understand'
+      );
+      const aiEl = document.createElement('div');
+      aiEl.className = 'card';
+      aiEl.style.marginTop = '1.5rem';
+      aiEl.style.borderLeft = '4px solid var(--tu-accent)';
+      aiEl.innerHTML = `
+        <div class="card-title">&#129302; Get AI Feedback on Your Mistakes</div>
+        <p class="text-muted" style="font-size:0.85rem">Open Claude Cowork and paste this prompt for personalised help:</p>
+        <div style="background:var(--tu-dark);padding:0.75rem;border-radius:var(--radius);font-size:0.8rem;font-family:var(--font-mono);margin:0.5rem 0;cursor:pointer;user-select:all"
+             title="Click to select, then copy">I am preparing for the TU Wien Raumplanung Reihungstest. My weak areas: ${weakTagList}. Total mistakes: ${mistakeStats.total}. Please explain what each weak tag means, why I might be getting it wrong, and give me 3 practice exercises for my weakest area.</div>
+      `;
+      recentEl.parentElement.appendChild(aiEl);
+    }
+
+  } catch(e) {
+    console.warn('Lessons render error:', e);
+  }
 }
 </script>
 </body>

@@ -224,7 +224,17 @@ const QuizEngine = (() => {
             ${qScore < 0.99 && q.mistakes_de ? `<div style="margin-top:0.75rem;padding:0.75rem;background:rgba(244,67,54,0.08);border-radius:var(--radius);border-left:3px solid var(--tu-error)"><strong>Häufige Fehler:</strong> ${lang === 'en' ? (q.mistakes_en || q.mistakes_de) : q.mistakes_de}</div>` : ''}
             ${q.links && q.links.length > 0 ? `<div style="margin-top:0.5rem;font-size:0.8rem"><strong>Weiterlesen:</strong> ${q.links.map(l => '<a href="' + l.url + '" style="margin-right:0.75rem">' + l.label + '</a>').join('')}</div>` : ''}
             <div style="font-size:0.78rem;color:var(--tu-text-dim);margin-top:0.4rem">Quelle: ${q.source || '—'}</div>
+            ${q.tags ? `<div style="margin-top:0.4rem;font-size:0.75rem;color:var(--tu-text-dim)">Tags: ${q.tags.map(t => '<code>' + t + '</code>').join(' ')}</div>` : ''}
           </div>
+          ${qScore < 0.99 ? `
+            <div style="margin-top:0.5rem">
+              <button class="btn btn-outline qe-note-btn" data-qi="${qi}" style="font-size:0.75rem">&#9997; Meine Notiz / Lesson Learned</button>
+              <div id="qe-note-area-${qi}" style="display:none;margin-top:0.5rem">
+                <textarea id="qe-note-text-${qi}" placeholder="Was habe ich falsch verstanden? z.B. 'Ich habe kippen mit drehen verwechselt'" style="width:100%;min-height:60px;background:var(--tu-dark);color:var(--tu-text);border:1px solid var(--tu-border);border-radius:var(--radius);padding:0.5rem;font-size:0.85rem;resize:vertical"></textarea>
+                <button class="btn btn-primary qe-note-save" data-qi="${qi}" style="font-size:0.75rem;margin-top:0.25rem">Notiz speichern</button>
+              </div>
+            </div>
+          ` : ''}
         </div>`;
     }).join('');
 
@@ -232,6 +242,7 @@ const QuizEngine = (() => {
       ${summaryHtml}
       <div style="display:flex;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap">
         <button id="qe-retry-btn" class="btn btn-primary">&#8635; Nochmals versuchen</button>
+        <button id="qe-retrain-btn" class="btn btn-primary" style="background:var(--tu-warning);color:#000">&#127919; Schwachstellen trainieren</button>
         <button id="qe-new-btn" class="btn btn-outline">&#8635; Neues Quiz</button>
       </div>
       <h2>Detailauswertung</h2>
@@ -433,7 +444,51 @@ const QuizEngine = (() => {
         });
       }
 
-      // Wire retry / new buttons
+      // Record mistakes for wrong answers
+      activeQuestions.forEach((q, qi) => {
+        if (scores[qi] < 0.99) {
+          const mistakeData = {
+            questionId: q.id,
+            questionText: (q.question_de || '').slice(0, 120),
+            tags: q.tags || [],
+            selectedAnswers: userAnswers[qi],
+            correctAnswers: q.correct,
+            note: ''
+          };
+          if (typeof StudentDB !== 'undefined') {
+            StudentDB.addMistake(mistakeData).catch(() => {});
+          }
+          if (typeof SupabaseSync !== 'undefined') {
+            SupabaseSync.saveMistake(mistakeData).catch(() => {});
+          }
+        }
+      });
+
+      // Wire "Note my mistake" inputs
+      container.querySelectorAll('.qe-note-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const qi = Number(btn.dataset.qi);
+          const noteArea = document.getElementById('qe-note-area-' + qi);
+          if (noteArea) noteArea.style.display = noteArea.style.display === 'none' ? 'block' : 'none';
+        });
+      });
+
+      container.querySelectorAll('.qe-note-save').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const qi = Number(btn.dataset.qi);
+          const textarea = document.getElementById('qe-note-text-' + qi);
+          if (!textarea || !textarea.value.trim()) return;
+          const q = activeQuestions[qi];
+          const noteData = { questionId: q.id, questionText: (q.question_de || '').slice(0, 120), tags: q.tags || [], note: textarea.value.trim() };
+          if (typeof StudentDB !== 'undefined') StudentDB.addMistake(noteData).catch(() => {});
+          if (typeof SupabaseSync !== 'undefined') SupabaseSync.saveMistake(noteData).catch(() => {});
+          btn.textContent = 'Gespeichert!';
+          btn.disabled = true;
+          textarea.disabled = true;
+        });
+      });
+
+      // Wire retry / new / retrain buttons
       const retryBtn = document.getElementById('qe-retry-btn');
       if (retryBtn) retryBtn.addEventListener('click', () => {
         startTime = Date.now();
@@ -442,6 +497,30 @@ const QuizEngine = (() => {
 
       const newBtn = document.getElementById('qe-new-btn');
       if (newBtn) newBtn.addEventListener('click', showStartScreen);
+
+      const retrainBtn = document.getElementById('qe-retrain-btn');
+      if (retrainBtn) retrainBtn.addEventListener('click', async () => {
+        // Build quiz from weak tags
+        let weakTags = [];
+        if (typeof StudentDB !== 'undefined') {
+          weakTags = await StudentDB.getWeakTags(10);
+        }
+        if (weakTags.length === 0) {
+          alert('Keine Fehlerdaten vorhanden. Machen Sie zuerst ein Quiz.');
+          return;
+        }
+        const weakTagNames = weakTags.map(t => t.tag);
+        activeQuestions = questions
+          .filter(q => (q.tags || []).some(t => weakTagNames.includes(t)))
+          .sort(() => Math.random() - 0.5)
+          .slice(0, selectedCount === 'all' ? 999 : selectedCount);
+        if (activeQuestions.length === 0) {
+          alert('Keine passenden Fragen gefunden.');
+          return;
+        }
+        startTime = Date.now();
+        showQuizScreen();
+      });
     }
 
     // ── Boot ───────────────────────────────────────────────────────────────

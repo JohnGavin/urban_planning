@@ -94,5 +94,33 @@ const SupabaseSync = (() => {
     return { totalAttempts, avgScore, quizzesTaken, bestScore, byQuiz };
   }
 
-  return { getStudentId, saveAttempt, getAttempts, getStats };
+  async function saveMistake(mistake) {
+    try {
+      const resp = await fetch(SUPABASE_URL + '/rest/v1/mistakes', {
+        method: 'POST',
+        headers: headers(),
+        body: JSON.stringify({
+          student_id: getStudentId(),
+          question_id: mistake.questionId,
+          tags: mistake.tags || [],
+          note: mistake.note || ''
+        })
+      });
+      return resp.ok;
+    } catch (e) {
+      console.warn('Supabase mistake sync offline:', e.message);
+      return false;
+    }
+  }
+
+  async function getMistakes() {
+    try {
+      const url = SUPABASE_URL + '/rest/v1/mistakes?student_id=eq.' + getStudentId() + '&order=created_at.desc';
+      const resp = await fetch(url, { headers: headers() });
+      if (!resp.ok) return null;
+      return await resp.json();
+    } catch (e) { return null; }
+  }
+
+  return { getStudentId, saveAttempt, getAttempts, getStats, saveMistake, getMistakes };
 })();

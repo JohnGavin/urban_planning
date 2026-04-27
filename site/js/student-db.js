@@ -9,7 +9,7 @@
 
 const StudentDB = (() => {
   const DB_NAME = 'raumplanung_student';
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
   let db = null;
 
   function open() {
@@ -27,6 +27,13 @@ const StudentDB = (() => {
           const store2 = d.createObjectStore('studyLog', { keyPath: 'id', autoIncrement: true });
           store2.createIndex('date', 'date', { unique: false });
           store2.createIndex('topic', 'topic', { unique: false });
+        }
+        // v2: mistakes store for lesson tracking
+        if (!d.objectStoreNames.contains('mistakes')) {
+          const store3 = d.createObjectStore('mistakes', { keyPath: 'id', autoIncrement: true });
+          store3.createIndex('questionId', 'questionId', { unique: false });
+          store3.createIndex('tag', 'tag', { unique: false });
+          store3.createIndex('date', 'date', { unique: false });
         }
       };
       req.onsuccess = (e) => { db = e.target.result; resolve(db); };
@@ -115,12 +122,65 @@ const StudentDB = (() => {
     });
   }
 
+  // ── Mistake tracking ────────────────────────────────────────────────────
+
+  async function addMistake(entry) {
+    // entry: { questionId, questionText, tags:[], note:'', selectedAnswers:[], correctAnswers:[] }
+    const d = await open();
+    return new Promise((resolve, reject) => {
+      const tx = d.transaction('mistakes', 'readwrite');
+      const req = tx.objectStore('mistakes').add({
+        ...entry,
+        date: new Date().toISOString()
+      });
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = (e) => reject(e.target.error);
+    });
+  }
+
+  async function getMistakes() {
+    const d = await open();
+    return new Promise((resolve, reject) => {
+      const tx = d.transaction('mistakes', 'readonly');
+      const req = tx.objectStore('mistakes').getAll();
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = (e) => reject(e.target.error);
+    });
+  }
+
+  async function getMistakeStats() {
+    const mistakes = await getMistakes();
+    if (mistakes.length === 0) return { total: 0, byTag: {}, byQuestion: {}, recent: [] };
+    const byTag = {};
+    const byQuestion = {};
+    mistakes.forEach(m => {
+      (m.tags || []).forEach(t => {
+        if (!byTag[t]) byTag[t] = { count: 0, lastDate: null };
+        byTag[t].count++;
+        if (!byTag[t].lastDate || m.date > byTag[t].lastDate) byTag[t].lastDate = m.date;
+      });
+      if (!byQuestion[m.questionId]) byQuestion[m.questionId] = 0;
+      byQuestion[m.questionId]++;
+    });
+    const recent = [...mistakes].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 20);
+    return { total: mistakes.length, byTag, byQuestion, recent };
+  }
+
+  async function getWeakTags(topN = 5) {
+    const stats = await getMistakeStats();
+    return Object.entries(stats.byTag)
+      .sort((a, b) => b[1].count - a[1].count)
+      .slice(0, topN)
+      .map(([tag, info]) => ({ tag, ...info }));
+  }
+
   async function clearAll() {
     const d = await open();
     return new Promise((resolve, reject) => {
-      const tx = d.transaction(['quizAttempts', 'studyLog'], 'readwrite');
+      const tx = d.transaction(['quizAttempts', 'studyLog', 'mistakes'], 'readwrite');
       tx.objectStore('quizAttempts').clear();
       tx.objectStore('studyLog').clear();
+      tx.objectStore('mistakes').clear();
       tx.oncomplete = () => resolve();
       tx.onerror = (e) => reject(e.target.error);
     });
@@ -129,7 +189,8 @@ const StudentDB = (() => {
   async function exportAll() {
     const attempts = await getAllAttempts();
     const studyLog = await getStudyLog();
-    return JSON.stringify({ version: 1, exported: new Date().toISOString(), quizAttempts: attempts, studyLog }, null, 2);
+    const mistakes = await getMistakes();
+    return JSON.stringify({ version: 2, exported: new Date().toISOString(), quizAttempts: attempts, studyLog, mistakes }, null, 2);
   }
 
   async function importAll(jsonString) {
@@ -137,15 +198,15 @@ const StudentDB = (() => {
     if (!data.quizAttempts) throw new Error('Invalid format: missing quizAttempts');
     const d = await open();
     return new Promise((resolve, reject) => {
-      const tx = d.transaction(['quizAttempts', 'studyLog'], 'readwrite');
-      const qaStore = tx.objectStore('quizAttempts');
-      const slStore = tx.objectStore('studyLog');
-      (data.quizAttempts || []).forEach(a => { delete a.id; qaStore.add(a); });
-      (data.studyLog || []).forEach(e => { delete e.id; slStore.add(e); });
+      const tx = d.transaction(['quizAttempts', 'studyLog', 'mistakes'], 'readwrite');
+      tx.objectStore('quizAttempts'); // ensure open
+      (data.quizAttempts || []).forEach(a => { delete a.id; tx.objectStore('quizAttempts').add(a); });
+      (data.studyLog || []).forEach(e => { delete e.id; tx.objectStore('studyLog').add(e); });
+      (data.mistakes || []).forEach(m => { delete m.id; tx.objectStore('mistakes').add(m); });
       tx.oncomplete = () => resolve(data.quizAttempts.length);
       tx.onerror = (e) => reject(e.target.error);
     });
   }
 
-  return { open, addQuizAttempt, getQuizAttempts, getAllAttempts, getStats, addStudyLog, getStudyLog, clearAll, exportAll, importAll };
+  return { open, addQuizAttempt, getQuizAttempts, getAllAttempts, getStats, addStudyLog, getStudyLog, addMistake, getMistakes, getMistakeStats, getWeakTags, clearAll, exportAll, importAll };
 })();
