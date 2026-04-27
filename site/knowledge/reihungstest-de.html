@@ -181,10 +181,113 @@
         <p class="text-muted" style="margin-top:0.5rem">Beachte: c) „Alle Amiv sind Plosa" widerspricht nicht den Aussagen, lässt sich aber nicht <em>eindeutig ableiten</em> und ist daher falsch.</p>
       </div>
 
-      <h4>4. Räumliches Vorstellen</h4>
-      <p>Ein Würfel wird in mehreren Schritten gedreht/gekippt. Nach jedem Schritt angeben, welches Symbol auf der vorderen Fläche zu sehen ist.</p>
-      <div class="alert alert-info">
-        <strong>Tipp:</strong> Skizzieren Sie den Würfel nach jedem Schritt. Die Skizze wird nicht bewertet, hilft aber enorm.
+      <h4>4. Räumliches Vorstellen (Würfel)</h4>
+      <p>Ein Würfel wird in mehreren Schritten gedreht/gekippt. Nach <strong>jedem Schritt</strong> angeben, welches Symbol auf der vorderen Fläche zu sehen ist.</p>
+
+      <h4>4.1 Ausgangslage (Default-Orientierung)</h4>
+      <div class="card" style="background:var(--tu-dark)">
+        <p>Sie sitzen vor dem Würfel und blicken direkt auf die <strong>vordere Fläche</strong>. Die 6 Seiten sind:</p>
+        <table>
+          <tr><th>Fläche</th><th>Position</th><th>Beschreibung</th></tr>
+          <tr><td><strong>Vorne</strong> (V)</td><td>Ihnen zugewandt</td><td>Die Fläche, die Sie direkt sehen</td></tr>
+          <tr><td><strong>Hinten</strong> (H)</td><td>Von Ihnen abgewandt</td><td>Die Fläche gegenüber, unsichtbar</td></tr>
+          <tr><td><strong>Oben</strong> (O)</td><td>Nach oben zeigend</td><td>Die Fläche auf der Oberseite</td></tr>
+          <tr><td><strong>Unten</strong> (U)</td><td>Auf dem Tisch liegend</td><td>Die Fläche auf der Unterseite</td></tr>
+          <tr><td><strong>Links</strong> (L)</td><td>Zu Ihrer linken Hand</td><td>Die linke Seitenfläche</td></tr>
+          <tr><td><strong>Rechts</strong> (R)</td><td>Zu Ihrer rechten Hand</td><td>Die rechte Seitenfläche</td></tr>
+        </table>
+        <p style="margin-top:0.75rem"><strong>Beispiel aus dem Originaltest:</strong> Vorne = Kreis (●), Hinten = Stern (★), Oben = Kreuz (+), Unten = Dreieck (△), Links = leer, Rechts = leer.</p>
+      </div>
+
+      <h4>4.2 Glossar der Operationen</h4>
+      <div class="card">
+        <table>
+          <tr><th>Deutscher Begriff</th><th>Bedeutung</th><th>Was sich bewegt</th><th>Was GLEICH bleibt</th></tr>
+          <tr>
+            <td><strong>In Ihre Richtung gekippt</strong><br><em>(nach vorne gekippt)</em></td>
+            <td>Oberkante fällt zu Ihnen hin</td>
+            <td>O→V→U→H→O<br>(4er-Zyklus)</td>
+            <td>Links und Rechts</td>
+          </tr>
+          <tr>
+            <td><strong>Von Ihnen weg gekippt</strong><br><em>(nach hinten gekippt)</em></td>
+            <td>Oberkante fällt von Ihnen weg</td>
+            <td>U→V→O→H→U<br>(Gegenrichtung)</td>
+            <td>Links und Rechts</td>
+          </tr>
+          <tr>
+            <td><strong>Nach rechts gekippt</strong></td>
+            <td>Würfel kippt auf seine rechte Seite</td>
+            <td>L→V→R→H→L</td>
+            <td>Oben und Unten</td>
+          </tr>
+          <tr>
+            <td><strong>Nach links gekippt</strong></td>
+            <td>Würfel kippt auf seine linke Seite</td>
+            <td>R→V→L→H→R</td>
+            <td>Oben und Unten</td>
+          </tr>
+          <tr>
+            <td><strong>Gedreht (um 90° / 180°)</strong><br><em>(Drehung)</em></td>
+            <td>Würfel dreht sich wie ein Kreisel (Oben/Unten sind Achse)</td>
+            <td>90° im UZS: L→V→R→H→L<br>180°: V↔H, L↔R</td>
+            <td><strong>Oben und Unten bleiben IMMER gleich</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Im Uhrzeigersinn (UZS)</strong><br><em>(von oben betrachtet)</em></td>
+            <td>Drehung wie die Uhrzeiger, von oben gesehen</td>
+            <td>V→R, R→H, H→L, L→V</td>
+            <td>Oben und Unten</td>
+          </tr>
+          <tr>
+            <td><strong>Gegen den Uhrzeigersinn</strong><br><em>(von oben betrachtet)</em></td>
+            <td>Drehung entgegen der Uhrzeiger</td>
+            <td>V→L, L→H, H→R, R→V</td>
+            <td>Oben und Unten</td>
+          </tr>
+        </table>
+      </div>
+
+      <h4>4.3 Kritische Unterschiede</h4>
+      <div class="card">
+        <table>
+          <tr><th>Verwechslungsgefahr</th><th>Unterschied</th></tr>
+          <tr>
+            <td><strong>Kippen vs. Drehen</strong></td>
+            <td><strong>Kippen</strong> = der Würfel fällt/kippt in eine Richtung (wie ein umfallender Turm). <strong>Drehen</strong> = der Würfel rotiert auf der Stelle wie ein Kreisel. Bei Drehungen bleiben Oben und Unten IMMER gleich!</td>
+          </tr>
+          <tr>
+            <td><strong>&bdquo;Nach rechts kippen&ldquo; vs &bdquo;Im UZS drehen&ldquo;</strong></td>
+            <td>Kippen nach rechts: der Würfel fällt auf die rechte Seite (L→V→R→H). UZS drehen: V→R→H→L (von oben gesehen). <strong>Gleiches Ergebnis für die Vorderseite</strong> (L kommt nach V), aber andere Flächen bewegen sich anders!</td>
+          </tr>
+          <tr>
+            <td><strong>4× kippen = zurück zum Start</strong></td>
+            <td>4× in dieselbe Richtung kippen = volle 360°-Rotation = alles zurück am Ausgangspunkt. Genauso: rechts+links oder hin+weg heben sich auf.</td>
+          </tr>
+          <tr>
+            <td><strong>Rechts kippen ändert NICHT die Vorderseite?</strong></td>
+            <td>DOCH! &bdquo;Nach rechts kippen&ldquo; bringt Links→Vorne. Verwechseln Sie das nicht mit &bdquo;nach rechts kippen&ldquo; um die Vorne-Hinten-Achse (das wäre: Oben→Rechts, was die Vorderseite NICHT ändert). Im Exam ist gemeint: L→V→R→H.</td>
+          </tr>
+        </table>
+      </div>
+
+      <h4>4.4 Lösungsstrategie</h4>
+      <div class="card">
+        <ol>
+          <li><strong>Vor dem Start:</strong> Schreiben Sie alle 6 Flächen auf: V=?, H=?, O=?, U=?, L=?, R=?</li>
+          <li><strong>Nach jedem Schritt:</strong> Aktualisieren Sie ALLE 6 Flächen (nicht nur die Vorderseite!)</li>
+          <li><strong>Skizze:</strong> Zeichnen Sie ein Kreuz (Abwicklung des Würfels) und beschriften Sie es</li>
+          <li><strong>Kontrolle:</strong> Prüfen Sie, dass Sie 6 verschiedene Symbole haben (kein Symbol darf fehlen oder doppelt sein)</li>
+          <li><strong>Zeitmanagement:</strong> ~3 Minuten pro Würfelaufgabe (4 Schritte). Nicht zu lange grübeln.</li>
+        </ol>
+      </div>
+
+      <div class="alert alert-warning">
+        <strong>Wichtig:</strong> Die häufigste Fehlerquelle ist, nach einem Schritt nur die Vorderseite zu notieren und die anderen 5 Seiten zu vergessen. Im nächsten Schritt brauchen Sie aber die Position ALLER Seiten. Notieren Sie immer alle 6!
+      </div>
+
+      <div style="margin-top:1rem">
+        <a href="../quizzes/quiz-cognitive.html" class="btn btn-primary">Würfel-Aufgaben üben (28 Fragen)</a>
       </div>
 
       <h4>5. Matrizen</h4>

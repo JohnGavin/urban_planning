@@ -175,9 +175,106 @@
             <p class="text-muted">c) "All Amiv are Plosa" cannot be derived &mdash; it's not contradicted but not proven.</p>
           </div>
 
-          <h4>4. Spatial Reasoning</h4>
-          <p>A cube is rotated/flipped step by step. After each step, state the front face symbol.</p>
-          <div class="alert alert-info"><strong>Tip:</strong> Sketch the cube after each step. Not graded but helps enormously.</div>
+          <h4>4. Spatial Reasoning (Cube / Würfel)</h4>
+          <p>A cube is tipped/rotated in a series of steps. After <strong>each step</strong>, state which symbol is on the front face.</p>
+
+          <h4>4.1 Default Orientation</h4>
+          <div class="card" style="background:var(--tu-dark)">
+            <p>You sit facing the cube. The 6 faces are:</p>
+            <table>
+              <tr><th>Face</th><th>Position</th><th>German term</th></tr>
+              <tr><td><strong>Front</strong> (V)</td><td>Facing you</td><td>Vorne</td></tr>
+              <tr><td><strong>Back</strong> (H)</td><td>Away from you</td><td>Hinten</td></tr>
+              <tr><td><strong>Top</strong> (O)</td><td>Pointing up</td><td>Oben</td></tr>
+              <tr><td><strong>Bottom</strong> (U)</td><td>On the table</td><td>Unten</td></tr>
+              <tr><td><strong>Left</strong> (L)</td><td>Your left hand</td><td>Links</td></tr>
+              <tr><td><strong>Right</strong> (R)</td><td>Your right hand</td><td>Rechts</td></tr>
+            </table>
+            <p style="margin-top:0.75rem"><strong>Official example:</strong> Front=Circle, Back=Star, Top=Cross, Bottom=Triangle, Left=empty, Right=empty.</p>
+          </div>
+
+          <h4>4.2 Glossary of Operations</h4>
+          <div class="card">
+            <table>
+              <tr><th>German term</th><th>English</th><th>What moves</th><th>What STAYS</th></tr>
+              <tr>
+                <td><strong>In Ihre Richtung gekippt</strong></td>
+                <td>Tipped towards you</td>
+                <td>T&rarr;F&rarr;Bo&rarr;B&rarr;T</td>
+                <td>Left &amp; Right</td>
+              </tr>
+              <tr>
+                <td><strong>Von Ihnen weg gekippt</strong></td>
+                <td>Tipped away from you</td>
+                <td>Bo&rarr;F&rarr;T&rarr;B&rarr;Bo</td>
+                <td>Left &amp; Right</td>
+              </tr>
+              <tr>
+                <td><strong>Nach rechts gekippt</strong></td>
+                <td>Tipped right</td>
+                <td>L&rarr;F&rarr;R&rarr;B&rarr;L</td>
+                <td>Top &amp; Bottom</td>
+              </tr>
+              <tr>
+                <td><strong>Nach links gekippt</strong></td>
+                <td>Tipped left</td>
+                <td>R&rarr;F&rarr;L&rarr;B&rarr;R</td>
+                <td>Top &amp; Bottom</td>
+              </tr>
+              <tr>
+                <td><strong>Gedreht (90°/180°)</strong></td>
+                <td>Rotated (like a spinning top)</td>
+                <td>90° CW: L&rarr;F&rarr;R&rarr;B&rarr;L<br>180°: F&harr;B, L&harr;R</td>
+                <td><strong>Top &amp; Bottom ALWAYS stay</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Im Uhrzeigersinn (UZS)</strong></td>
+                <td>Clockwise (viewed from above)</td>
+                <td>F&rarr;R, R&rarr;B, B&rarr;L, L&rarr;F</td>
+                <td>Top &amp; Bottom</td>
+              </tr>
+              <tr>
+                <td><strong>Gegen den Uhrzeigersinn</strong></td>
+                <td>Counter-clockwise</td>
+                <td>F&rarr;L, L&rarr;B, B&rarr;R, R&rarr;F</td>
+                <td>Top &amp; Bottom</td>
+              </tr>
+            </table>
+          </div>
+
+          <h4>4.3 Key Distinctions</h4>
+          <div class="card">
+            <table>
+              <tr><th>Confusion risk</th><th>How to tell apart</th></tr>
+              <tr>
+                <td><strong>Tip (kippen) vs Rotate (drehen)</strong></td>
+                <td><strong>Tip</strong> = cube falls/tilts over (like a tower toppling). <strong>Rotate</strong> = spins in place like a top. Rotations ALWAYS keep top &amp; bottom unchanged.</td>
+              </tr>
+              <tr>
+                <td><strong>4&times; same tip = back to start</strong></td>
+                <td>4 identical tips = full 360&deg;. Also: right+left or towards+away cancel out.</td>
+              </tr>
+            </table>
+          </div>
+
+          <h4>4.4 Solving Strategy</h4>
+          <div class="card">
+            <ol>
+              <li><strong>Before starting:</strong> Write all 6 faces: F=?, B=?, T=?, Bo=?, L=?, R=?</li>
+              <li><strong>After each step:</strong> Update ALL 6 faces (not just the front!)</li>
+              <li><strong>Sketch:</strong> Draw a cross (cube net) and label each face</li>
+              <li><strong>Check:</strong> You must have 6 different symbols (none missing, none duplicated)</li>
+              <li><strong>Time:</strong> ~3 min per cube task. Don't overthink.</li>
+            </ol>
+          </div>
+
+          <div class="alert alert-warning">
+            <strong>Most common mistake:</strong> Only noting the front face after each step and forgetting the other 5. The next step needs ALL positions. Always write all 6.
+          </div>
+
+          <div style="margin-top:1rem">
+            <a href="../quizzes/quiz-cognitive.html" class="btn btn-primary">Practice Cube Tasks (28 questions)</a>
+          </div>
 
           <h4>5. Matrices</h4>
           <p>Find the missing figure in a pattern grid. Construct the answer from individual elements.</p>
