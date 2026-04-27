@@ -27,6 +27,7 @@
     <div class="nav-section"><div class="nav-section-title">Quizzes</div></div>
     <a href="../quizzes/quiz-oerek-principles.html" class="nav-link">&#10004; OEREK Principles</a>
     <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link">&#10004; Megatrends</a>
+    <a href="../quizzes/quiz-oerek-actions.html" class="nav-link"><span class="icon">&#10004;</span> Handlungsprogramm</a>
     <a href="../quizzes/quiz-studienplan.html" class="nav-link">&#10004; Studienplan</a>
     <a href="../quizzes/quiz-cognitive.html" class="nav-link">&#129504; Cognitive Skills</a>
     <a href="../quizzes/quiz-full-mock.html" class="nav-link">&#128336; Full Mock Exam</a>
@@ -126,7 +127,7 @@ const TOPIC_LABELS = {
   'oerek-principles': { name: 'OEREK Grundsätze', link: '../quizzes/quiz-oerek-principles.html' },
   'oerek-megatrends': { name: 'Megatrends', link: '../quizzes/quiz-oerek-megatrends.html' },
   'studienplan': { name: 'Studienplan', link: '../quizzes/quiz-studienplan.html' },
-  'oerek-actions': { name: 'OEREK Handlungsprogramm', link: '../quizzes/quiz-oerek-principles.html' },
+  'oerek-actions': { name: 'OEREK Handlungsprogramm', link: '../quizzes/quiz-oerek-actions.html' },
   'text-comprehension': { name: 'Textverständnis', link: '../quizzes/quiz-cognitive.html' },
   'cognitive': { name: 'Kognitive Fähigkeiten', link: '../quizzes/quiz-cognitive.html' },
   'all': { name: 'Probeklausur (Full Mock)', link: '../quizzes/quiz-full-mock.html' }
@@ -134,7 +135,16 @@ const TOPIC_LABELS = {
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const stats = await StudentDB.getStats();
+    // Try local first, fall back to Supabase for cross-device support
+    let stats = await StudentDB.getStats();
+    if (stats.totalAttempts === 0 && typeof SupabaseSync !== 'undefined') {
+      const cloudStats = await SupabaseSync.getStats();
+      if (cloudStats && cloudStats.totalAttempts > 0) {
+        stats = cloudStats;
+        document.getElementById('stats-summary').insertAdjacentHTML('afterend',
+          '<div class="alert alert-info" style="margin-bottom:1rem">Daten aus der Cloud geladen (anderes Gerät). Lokale Daten werden nach deinem nächsten Quiz synchronisiert.</div>');
+      }
+    }
     renderSummary(stats);
     renderTopics(stats);
     renderHistory(stats);

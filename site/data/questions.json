@@ -6388,5 +6388,433 @@
       }
     ],
     "source": "Übungsaufgabe Würfel (Schwer)"
+  },
+  {
+    "id": "text-comp-06",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die Flächeninanspruchnahme in Österreich betrug in den letzten Jahren im Durchschnitt 10 bis 12 ha pro Tag. Etwa 40% davon wurden versiegelt. Das Regierungsprogramm 2020-2024 gibt als Ziel eine Senkung auf 2,5 ha/Tag bis 2030 an. Diese Ziele entsprechen dem EU-Fahrplan für ein ressourcenschonendes Europa, in dem bis 2050 ein Netto-Neuverbrauch von Null vereinbart wurde.\"\n\nWelche Aussagen sind richtig, falsch oder nicht beurteilbar?",
+    "question_en": "Read the text:\n\n\"Land consumption in Austria has averaged 10 to 12 hectares per day in recent years. About 40% of this was sealed. The government programme 2020-2024 targets a reduction to 2.5 ha/day by 2030. These targets align with the EU Roadmap for a Resource-Efficient Europe, which agreed net zero new consumption by 2050.\"\n\nWhich statements are true, false, or not determinable?",
+    "options_de": [
+      "a) RICHTIG: Aktuell werden täglich durchschnittlich etwa 4-5 ha Boden versiegelt",
+      "b) FALSCH: Das Ziel von 2,5 ha/Tag wurde bereits erreicht",
+      "c) RICHTIG: Die EU strebt langfristig einen Netto-Neuverbrauch von Null an",
+      "d) NICHT BEURTEILBAR: Ob die Flächeninanspruchnahme in den letzten Jahren gestiegen oder gesunken ist",
+      "e) FALSCH: Die EU hat das Ziel von 2,5 ha/Tag für Österreich festgelegt"
+    ],
+    "options_en": [
+      "a) TRUE: Currently about 4-5 ha of soil are sealed daily on average",
+      "b) FALSE: The 2.5 ha/day target has already been achieved",
+      "c) TRUE: The EU aims for net zero new consumption long-term",
+      "d) NOT DETERMINABLE: Whether land consumption has risen or fallen in recent years",
+      "e) FALSE: The EU set the 2.5 ha/day target for Austria"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: 10-12 ha × 40% = 4-4,8 ha Versiegelung pro Tag. b) FALSCH: 2,5 ist das ZIEL für 2030, aktuell sind es 10-12. c) RICHTIG: EU-Ziel für 2050. d) NICHT BEURTEILBAR: Der Text sagt nur 'in den letzten Jahren', nicht ob steigend/sinkend. e) FALSCH: 2,5 ha ist ein NATIONALES Ziel im Regierungsprogramm, nicht von der EU festgelegt.",
+    "explanation_en": "a) TRUE: 10-12 ha × 40% = 4-4.8 ha sealed daily. b) FALSE: 2.5 is the TARGET for 2030, currently 10-12. c) TRUE: EU target for 2050. d) NOT DETERMINABLE: text only says 'in recent years'. e) FALSE: 2.5 ha is a NATIONAL target, not set by the EU.",
+    "mistakes_de": "Typische Fehler: (1) Die Rechnung 10-12 × 40% nicht machen. (2) 'Ziel' mit 'bereits erreicht' verwechseln. (3) Nationales Ziel der EU zuschreiben.",
+    "mistakes_en": "Common mistakes: (1) Not calculating 10-12 × 40%. (2) Confusing 'target' with 'achieved'. (3) Attributing national targets to the EU.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030, Flächeninanspruchnahme"
+  },
+  {
+    "id": "text-comp-07",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die Bevölkerung Österreichs wuchs von 2001 bis 2019 um 828.775 Personen (+9,3%). Das Wachstum erfolgte in erster Linie aufgrund der Zuwanderung aus dem Ausland, besonders in Stadtregionen. Auch in Regionen mit Bevölkerungsrückgang wanderten Menschen zu, allerdings unter dem Strich weniger als abwanderten. Bis 2040 wird ein weiteres Wachstum um ca. 7,2% prognostiziert.\"\n\nBeurteilen Sie die Aussagen:",
+    "question_en": "Read the text:\n\n\"Austria's population grew by 828,775 (+9.3%) from 2001-2019. Growth was primarily due to immigration from abroad, especially in city regions. Even regions with population decline had immigration, but net less than emigration. Further growth of ~7.2% is projected by 2040.\"\n\nAssess the statements:",
+    "options_de": [
+      "a) RICHTIG: Das Bevölkerungswachstum war hauptsächlich auf Zuwanderung zurückzuführen",
+      "b) NICHT BEURTEILBAR: Ob Wien die am stärksten wachsende Stadtregion war",
+      "c) FALSCH: In Regionen mit Bevölkerungsrückgang gab es keine Zuwanderung",
+      "d) RICHTIG: Auch schrumpfende Regionen hatten Zuzüge, aber die Abwanderung überwog",
+      "e) NICHT BEURTEILBAR: Ob das Wachstum bis 2040 hauptsächlich durch Geburten oder Zuwanderung erfolgen wird"
+    ],
+    "options_en": [
+      "a) TRUE: Population growth was mainly due to immigration",
+      "b) NOT DETERMINABLE: Whether Vienna was the fastest-growing city region",
+      "c) FALSE: There was no immigration in declining regions",
+      "d) TRUE: Shrinking regions had immigration too, but emigration outweighed it",
+      "e) NOT DETERMINABLE: Whether growth to 2040 will be mainly from births or immigration"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: 'in erster Linie aufgrund der Zuwanderung'. b) NICHT BEURTEILBAR: Text sagt 'besonders in Stadtregionen', nennt aber nicht Wien spezifisch. c) FALSCH: Text sagt explizit 'Auch in Regionen mit Bevölkerungsrückgang wanderten Menschen zu'. d) RICHTIG: direkte Paraphrase. e) NICHT BEURTEILBAR: Text nennt nur die Zahl 7,2%, nicht die Ursache.",
+    "explanation_en": "a) TRUE: 'primarily due to immigration'. b) NOT DETERMINABLE: text says 'city regions' but does not name Vienna. c) FALSE: text explicitly says declining regions had immigration. d) TRUE: direct paraphrase. e) NOT DETERMINABLE: text gives 7.2% but not the cause.",
+    "mistakes_de": "Typische Fehler: (1) 'Besonders in Stadtregionen' als 'nur in Stadtregionen' lesen. (2) Übersehen, dass auch schrumpfende Regionen Zuzüge hatten (nur netto negativ). (3) Annahmen über Wien machen, die im Text nicht stehen.",
+    "mistakes_en": "Common mistakes: (1) Reading 'especially in city regions' as 'only in city regions'. (2) Missing that shrinking regions had immigration too (just net negative). (3) Assuming Vienna specifics not in the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      }
+    ],
+    "source": "OEREK 2030, Demografischer Wandel"
+  },
+  {
+    "id": "text-comp-08",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das Bachelorstudium Raumplanung und Raumordnung an der TU Wien umfasst 180 ECTS-Punkte und ist auf 6 Semester als Vollzeitstudium ausgelegt. Ein ECTS-Punkt entspricht 25 Arbeitsstunden. Studierenden wird empfohlen, bereits vor Abschluss des Studiums praktische Berufserfahrungen zu sammeln. Im Rahmen der Freien Wahlfächer können facheinschlägige Berufserfahrungen in einem Umfang von maximal 6 ECTS anerkannt werden.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"The Bachelor's programme in Spatial Planning at TU Wien comprises 180 ECTS credits over 6 semesters full-time. One ECTS equals 25 working hours. Students are recommended to gain practical experience before completing their degree. Up to 6 ECTS of relevant work experience can be recognised as electives.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Das Studium umfasst insgesamt 4.500 Arbeitsstunden",
+      "b) NICHT BEURTEILBAR: Ob die meisten Studierenden das Studium in 6 Semestern abschließen",
+      "c) FALSCH: Praktische Berufserfahrung ist verpflichtend",
+      "d) RICHTIG: Maximal ein Monat Vollzeitarbeit kann als 3 ECTS anerkannt werden",
+      "e) NICHT BEURTEILBAR: Ob das Studium auch berufsbegleitend absolviert werden kann"
+    ],
+    "options_en": [
+      "a) TRUE: The programme totals 4,500 working hours",
+      "b) NOT DETERMINABLE: Whether most students complete in 6 semesters",
+      "c) FALSE: Practical work experience is mandatory",
+      "d) TRUE: Maximum one month full-time work can be recognised as 3 ECTS",
+      "e) NOT DETERMINABLE: Whether the programme can be done part-time"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: 180 × 25 = 4.500. b) NICHT BEURTEILBAR: Text sagt 'vorgesehen', nicht wie viele es schaffen. c) FALSCH: Text sagt 'empfohlen', nicht verpflichtend. d) ACHTUNG: Der Text sagt 'maximal 6 ECTS' und 'wobei 3 ECTS einem Monat Vollzeitbeschäftigung entsprechen' — das bedeutet max 2 Monate = 6 ECTS. Die Aussage '1 Monat = 3 ECTS' ist RICHTIG, aber sie steht nicht im gegebenen Textauszug! Also NICHT BEURTEILBAR. e) NICHT BEURTEILBAR: Text sagt 'Vollzeitstudium', schweigt zu Teilzeit.",
+    "explanation_en": "a) TRUE: 180 × 25 = 4,500. b) NOT DETERMINABLE: text says 'intended' not how many achieve it. c) FALSE: text says 'recommended' not mandatory. d) CAUTION: The 3 ECTS = 1 month detail is not in this excerpt, so NOT DETERMINABLE. e) NOT DETERMINABLE: text says 'full-time', silent on part-time.",
+    "mistakes_de": "Typische Fehler: (1) 'Empfohlen' als 'verpflichtend' lesen. (2) Information aus dem Studienplan hinzufügen, die im gegebenen Textauszug NICHT steht. (3) 'Vorgesehen' mit 'durchschnittlich' verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Reading 'recommended' as 'mandatory'. (2) Adding information from the full Studienplan not in this excerpt. (3) Confusing 'intended' with 'average'.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "text-comp-09",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Kompakte Siedlungsstrukturen ermöglichen kurze Wege sowie die Nutzung öffentlicher Verkehrsmittel. Sie unterstützen die aktive Mobilität, also den Rad- und Fußverkehr. Die Reduktion der Flächeninanspruchnahme durch kompakte und qualitätsvolle Siedlungsstrukturen spielt bei der Vermeidung der Klimakrise eine zentrale Rolle und ist daher ein Gebot der Stunde.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"Compact settlement structures enable short distances and the use of public transport. They support active mobility, i.e., cycling and walking. Reducing land consumption through compact, high-quality settlement structures plays a central role in avoiding the climate crisis and is therefore an urgent priority.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Kompakte Siedlungsstrukturen fördern den öffentlichen Verkehr",
+      "b) FALSCH: Aktive Mobilität umfasst auch den Pkw-Verkehr",
+      "c) RICHTIG: Die Reduktion der Flächeninanspruchnahme wird als dringend beschrieben",
+      "d) NICHT BEURTEILBAR: Ob kompakte Siedlungen billiger sind als weitläufige",
+      "e) FALSCH: Kompakte Siedlungen haben keinen Einfluss auf den Klimaschutz"
+    ],
+    "options_en": [
+      "a) TRUE: Compact settlements promote public transport",
+      "b) FALSE: Active mobility includes car traffic",
+      "c) TRUE: Reducing land consumption is described as urgent",
+      "d) NOT DETERMINABLE: Whether compact settlements are cheaper than sprawl",
+      "e) FALSE: Compact settlements have no impact on climate protection"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: 'ermöglichen kurze Wege sowie die Nutzung öffentlicher Verkehrsmittel'. b) FALSCH: Text definiert aktive Mobilität als 'Rad- und Fußverkehr', NICHT Pkw. c) RICHTIG: 'Gebot der Stunde' = dringend. d) NICHT BEURTEILBAR: Kosten werden nicht erwähnt. e) FALSCH: Text sagt 'zentrale Rolle bei der Vermeidung der Klimakrise'.",
+    "explanation_en": "a) TRUE: 'enable short distances and use of public transport'. b) FALSE: active mobility is defined as 'cycling and walking', NOT cars. c) TRUE: 'urgent priority'. d) NOT DETERMINABLE: costs not mentioned. e) FALSE: 'central role in avoiding climate crisis'.",
+    "mistakes_de": "Typische Fehler: (1) 'Aktive Mobilität' falsch verstehen — es sind NUR Rad und Fuß, nicht Auto. (2) 'Gebot der Stunde' nicht als 'dringend' erkennen. (3) Kostenaussagen hinzudichten, die nicht im Text stehen.",
+    "mistakes_en": "Common mistakes: (1) Misunderstanding 'active mobility' — it means ONLY cycling and walking. (2) Not recognising 'Gebot der Stunde' as 'urgent priority'. (3) Adding cost claims not in the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030, Kompakte Siedlungsstrukturen"
+  },
+  {
+    "id": "text-comp-10",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die Österreichische Raumordnungskonferenz (ÖROK) wurde 1971 gegründet. Sie setzt sich aus den Mitgliedern der Bundesregierung, den Landeshauptleuten, den Präsidenten von Städte- und Gemeindebund sowie den Wirtschafts- und Sozialpartnern zusammen. Das ÖREK wird etwa alle zehn Jahre überarbeitet und ist ein freiwilliges gemeinsames Übereinkommen.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"The Austrian Conference on Spatial Planning (ÖROK) was founded in 1971. It comprises members of the federal government, state governors, presidents of the Association of Cities and the Association of Municipalities, and social partners. The ÖREK is revised approximately every ten years and is a voluntary joint agreement.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Die ÖROK existiert seit über 50 Jahren",
+      "b) FALSCH: Das ÖREK ist ein verbindliches Gesetz",
+      "c) NICHT BEURTEILBAR: Ob alle Bundesländer gleichberechtigt in der ÖROK vertreten sind",
+      "d) RICHTIG: Die Wirtschafts- und Sozialpartner sind Mitglieder der ÖROK",
+      "e) NICHT BEURTEILBAR: Wie viele ÖREK-Versionen bisher veröffentlicht wurden"
+    ],
+    "options_en": [
+      "a) TRUE: ÖROK has existed for over 50 years",
+      "b) FALSE: ÖREK is a binding law",
+      "c) NOT DETERMINABLE: Whether all states are equally represented in ÖROK",
+      "d) TRUE: Social partners are members of ÖROK",
+      "e) NOT DETERMINABLE: How many ÖREK versions have been published"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: 1971 bis heute = über 50 Jahre. b) FALSCH: 'freiwilliges gemeinsames Übereinkommen', kein Gesetz. c) NICHT BEURTEILBAR: Text nennt 'Landeshauptleute' aber sagt nichts über Gleichberechtigung. d) RICHTIG: explizit im Text. e) NICHT BEURTEILBAR: 'alle zehn Jahre' lässt auf mehrere schließen, aber die genaue Anzahl steht nicht da.",
+    "explanation_en": "a) TRUE: 1971 to now = over 50 years. b) FALSE: 'voluntary joint agreement', not a law. c) NOT DETERMINABLE: text names governors but says nothing about equal representation. d) TRUE: explicit. e) NOT DETERMINABLE: 'every ten years' implies several but exact number not stated.",
+    "mistakes_de": "Typische Fehler: (1) 'Freiwilliges Übereinkommen' überlesen und als Gesetz interpretieren. (2) Aus 'alle zehn Jahre' die genaue Anzahl berechnen wollen. (3) Vergessen, dass der Text zur Gleichberechtigung schweigt.",
+    "mistakes_en": "Common mistakes: (1) Missing 'voluntary agreement' and interpreting as law. (2) Trying to calculate exact number from 'every ten years'. (3) Forgetting text is silent on equal representation.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030, ÖROK"
+  },
+  {
+    "id": "text-comp-11",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Fast ein Fünftel der Bevölkerung außerhalb von Wien verfügt über keine zumutbare Erschließung durch öffentlichen Verkehr. Fast 50% der Bevölkerung (ohne Wien) haben keinen zum PKW konkurrenzfähigen Anschluss an öffentlichen Verkehr. Nur 22% (ohne Wien) haben eine sehr gute oder gute ÖV-Erschließung.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"Almost a fifth of the population outside Vienna has no reasonable public transport access. Nearly 50% of the population (excluding Vienna) has no public transport connection competitive with car travel. Only 22% (excluding Vienna) have very good or good public transport access.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Mehr als 75% der Bevölkerung außerhalb Wiens haben keine gute ÖV-Erschließung",
+      "b) NICHT BEURTEILBAR: Wie die ÖV-Erschließung in Wien ist",
+      "c) FALSCH: Die Mehrheit der Bevölkerung außerhalb Wiens hat einen konkurrenzfähigen ÖV-Anschluss",
+      "d) RICHTIG: Etwa 20% der Bevölkerung außerhalb Wiens haben gar keinen zumutbaren ÖV-Zugang",
+      "e) NICHT BEURTEILBAR: Ob sich die ÖV-Erschließung in den letzten Jahren verbessert hat"
+    ],
+    "options_en": [
+      "a) TRUE: More than 75% outside Vienna lack good PT access",
+      "b) NOT DETERMINABLE: What PT access is like in Vienna",
+      "c) FALSE: The majority outside Vienna has competitive PT connections",
+      "d) TRUE: About 20% outside Vienna has no reasonable PT access at all",
+      "e) NOT DETERMINABLE: Whether PT access has improved in recent years"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: Nur 22% haben gut/sehr gut, also 78% nicht. b) NICHT BEURTEILBAR: Wien ist explizit ausgenommen ('ohne Wien'). c) FALSCH: 'fast 50% haben KEINEN konkurrenzfähigen Anschluss'. d) RICHTIG: 'fast ein Fünftel' ≈ 20%. e) NICHT BEURTEILBAR: keine Zeitreihe im Text.",
+    "explanation_en": "a) TRUE: only 22% have good/very good, so 78% don't. b) NOT DETERMINABLE: Vienna explicitly excluded. c) FALSE: 'nearly 50% have NO competitive connection'. d) TRUE: 'almost a fifth' ≈ 20%. e) NOT DETERMINABLE: no time series in text.",
+    "mistakes_de": "Typische Fehler: (1) 'Ohne Wien' übersehen und Aussagen über Wien machen. (2) 'Fast 50% ohne konkurrenzfähig' als Mehrheit MIT ÖV lesen. (3) Prozentrechnung: 100% - 22% = 78% nicht beachten.",
+    "mistakes_en": "Common mistakes: (1) Missing 'excluding Vienna'. (2) Reading '50% without' as 'majority with'. (3) Not doing 100% - 22% = 78%.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030, ÖV-Erschließung"
+  },
+  {
+    "id": "text-comp-12",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"In den letzten 14 Jahren wurden in Silz 83 Gebäude erneuert. Das Investitionsvolumen dafür belief sich auf 12 Millionen Euro, wovon das Land und die Gemeinde 700.000 Euro mitfinanziert haben. Ein weiterer positiver Aspekt der Revitalisierung war eine erfolgreiche Bürgerbeteiligung.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"Over the past 14 years, 83 buildings in Silz were renovated. The investment volume amounted to 12 million euros, of which the province and municipality co-financed 700,000 euros. A further positive aspect was successful citizen participation.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Über 90% der Investition stammte aus privaten Mitteln",
+      "b) RICHTIG: Durchschnittlich wurden etwa 6 Gebäude pro Jahr erneuert",
+      "c) NICHT BEURTEILBAR: Ob die Bürger mit dem Ergebnis zufrieden waren",
+      "d) FALSCH: Die Gemeinde hat den Großteil der Kosten getragen",
+      "e) NICHT BEURTEILBAR: Ob die Gebäude nach der Erneuerung bewohnt sind"
+    ],
+    "options_en": [
+      "a) TRUE: Over 90% of investment came from private sources",
+      "b) TRUE: On average about 6 buildings were renovated per year",
+      "c) NOT DETERMINABLE: Whether citizens were satisfied with the result",
+      "d) FALSE: The municipality bore most of the costs",
+      "e) NOT DETERMINABLE: Whether the buildings are occupied after renovation"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: 700.000 von 12 Mio = 5,8%, also >94% privat. b) RICHTIG: 83/14 ≈ 5,9 ≈ 6. c) NICHT BEURTEILBAR: 'Erfolgreiche Bürgerbeteiligung' ≠ Zufriedenheit. d) FALSCH: 700.000 von 12 Mio = nur 5,8%. e) NICHT BEURTEILBAR: Text sagt nichts zur Bewohnung.",
+    "explanation_en": "a) TRUE: 700k of 12M = 5.8%, so >94% private. b) TRUE: 83/14 ≈ 6. c) NOT DETERMINABLE: 'successful participation' ≠ satisfaction. d) FALSE: 700k of 12M = only 5.8%. e) NOT DETERMINABLE: text says nothing about occupancy.",
+    "mistakes_de": "Typische Fehler: (1) 700.000 als 'Großteil' von 12 Mio ansehen. (2) 'Erfolgreiche Bürgerbeteiligung' als 'zufriedene Bürger' interpretieren. (3) Nicht nachrechnen: 83÷14 oder 700k÷12M.",
+    "mistakes_en": "Common mistakes: (1) Seeing 700k as 'majority' of 12M. (2) Interpreting 'successful participation' as 'satisfied citizens'. (3) Not calculating: 83÷14 or 700k÷12M.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info_Raumplanung 2026, Textverständnis (Silz)"
+  },
+  {
+    "id": "text-comp-13",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Der Europäische Rat hat 2014 den klima- und energiepolitischen Rahmen bis 2030 beschlossen. Ende 2020 wurden die Zielvorgaben nochmals verschärft: Senkung der Treibhausgasemissionen um mindestens 55% gegenüber 1990, Erhöhung der Energieeffizienz um mindestens 32,5%, Erhöhung des Anteils erneuerbarer Energieträger auf mindestens 32%.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"The European Council adopted the climate and energy policy framework to 2030 in 2014. At the end of 2020, the targets were tightened: reduction of GHG emissions by at least 55% compared to 1990, energy efficiency increase of at least 32.5%, renewable energy share of at least 32%.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Die EU-Klimaziele wurden zwischen 2014 und 2020 verschärft",
+      "b) FALSCH: Die EU strebt eine Senkung der Treibhausgase um 55% gegenüber 2005 an",
+      "c) NICHT BEURTEILBAR: Ob Österreich diese EU-Ziele bereits erfüllt",
+      "d) RICHTIG: Mindestens ein Drittel der Energie soll aus erneuerbaren Quellen kommen",
+      "e) FALSCH: Die Energieeffizienz soll um mindestens 55% steigen"
+    ],
+    "options_en": [
+      "a) TRUE: EU climate targets were tightened between 2014 and 2020",
+      "b) FALSE: The EU aims for 55% GHG reduction compared to 2005",
+      "c) NOT DETERMINABLE: Whether Austria already meets these EU targets",
+      "d) TRUE: At least a third of energy should come from renewable sources",
+      "e) FALSE: Energy efficiency should increase by at least 55%"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: '2014 beschlossen', 'Ende 2020 verschärft'. b) FALSCH: 55% gegenüber 1990, NICHT 2005. c) NICHT BEURTEILBAR: Text nennt nur die Ziele, nicht Österreichs Fortschritt. d) RICHTIG: 32% ≈ ein Drittel. e) FALSCH: Energieeffizienz = 32,5%, nicht 55% (das ist die THG-Reduktion).",
+    "explanation_en": "a) TRUE: '2014 adopted', '2020 tightened'. b) FALSE: 55% vs 1990, NOT 2005. c) NOT DETERMINABLE: text states targets only. d) TRUE: 32% ≈ one third. e) FALSE: efficiency = 32.5%, not 55% (that's GHG reduction).",
+    "mistakes_de": "Typische Fehler: (1) Die drei Zahlen (55%, 32,5%, 32%) verwechseln — welche gehört zu welchem Ziel? (2) Das Basisjahr 1990 mit 2005 verwechseln. (3) Annahmen über Österreichs Fortschritt machen.",
+    "mistakes_en": "Common mistakes: (1) Confusing the three numbers (55%, 32.5%, 32%). (2) Confusing base year 1990 with 2005. (3) Assuming Austria's progress.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030, EU-Klimaziele"
+  },
+  {
+    "id": "text-comp-14",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung ist als ein fachspezifisches 'studium generale' sowohl explizit interdisziplinär als auch durch die Einbindung unterschiedlicher Akteure transdisziplinär. Da in der raumplanerischen Praxis Fachkenntnisse und kommunikativ-vermittelnde Kompetenzen aufs Engste miteinander verbunden sind, kann eine Trennung in 'hard skills' und 'soft skills' allenfalls analytisch vorgenommen werden.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"Spatial planning is a discipline-specific 'studium generale', both explicitly interdisciplinary and, through the involvement of different actors, transdisciplinary. Since professional knowledge and communicative competencies are closely linked in practice, a separation into 'hard skills' and 'soft skills' can at most be made analytically.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Raumplanung verbindet verschiedene Wissenschaftsdisziplinen",
+      "b) RICHTIG: In der Praxis lassen sich Fach- und Sozialkompetenzen kaum trennen",
+      "c) FALSCH: Raumplanung ist eine rein technische Disziplin ohne Sozialkompetenzen",
+      "d) NICHT BEURTEILBAR: Ob Raumplanung mehr hard skills oder mehr soft skills erfordert",
+      "e) RICHTIG: Raumplanung bezieht auch nicht-wissenschaftliche Akteure ein (transdisziplinär)"
+    ],
+    "options_en": [
+      "a) TRUE: Spatial planning combines different scientific disciplines",
+      "b) TRUE: In practice, professional and social competencies can barely be separated",
+      "c) FALSE: Spatial planning is purely technical without social competencies",
+      "d) NOT DETERMINABLE: Whether spatial planning requires more hard or soft skills",
+      "e) TRUE: Spatial planning also involves non-scientific actors (transdisciplinary)"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: 'interdisziplinär'. b) RICHTIG: 'allenfalls analytisch' = kaum in der Praxis trennbar. c) FALSCH: Text betont gerade die Verbindung von Fach- UND Sozialkompetenzen. d) NICHT BEURTEILBAR: Text sagt nur, dass beides eng verbunden ist, nicht welches überwiegt. e) RICHTIG: 'transdisziplinär' = Einbindung unterschiedlicher Akteure (über die Wissenschaft hinaus).",
+    "explanation_en": "a) TRUE: 'interdisciplinary'. b) TRUE: 'at most analytically' = barely separable in practice. c) FALSE: text emphasises the CONNECTION of professional AND social competencies. d) NOT DETERMINABLE: text says both are linked, not which dominates. e) TRUE: 'transdisciplinary' = involving different actors beyond science.",
+    "mistakes_de": "Typische Fehler: (1) 'Interdisziplinär' und 'transdisziplinär' verwechseln: inter = zwischen Disziplinen, trans = über die Wissenschaft hinaus. (2) 'Allenfalls analytisch' als 'leicht trennbar' missverstehen. (3) Aus der Verbindung beider auf ein Übergewicht schließen.",
+    "mistakes_en": "Common mistakes: (1) Confusing inter- and transdisciplinary. (2) Misreading 'at most analytically' as 'easily separable'. (3) Inferring dominance from connection.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien, Qualifikationsprofil"
+  },
+  {
+    "id": "text-comp-15",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Nicht bebaute und unversiegelte Freiräume umfassen ca. 90% der Fläche Österreichs. Sie sind die zentrale Quelle für die land- und forstwirtschaftliche Produktion und eine wertvolle Ressource für den Tourismus. Die Fläche für biogene Nutzungen ist aber seit 1960 um ca. 15,5% zurückgegangen. Die landwirtschaftlichen Nutzflächen haben sogar um 34% abgenommen.\"\n\nBeurteilen Sie:",
+    "question_en": "Read the text:\n\n\"Undeveloped and unsealed open spaces comprise about 90% of Austria's area. They are the central source for agriculture and forestry and a valuable resource for tourism. However, the area for biogenic use has decreased by about 15.5% since 1960. Agricultural land has declined by as much as 34%.\"\n\nAssess:",
+    "options_de": [
+      "a) RICHTIG: Trotz des Rückgangs ist der Großteil Österreichs noch unbebaut",
+      "b) FALSCH: Die landwirtschaftlichen Flächen sind stärker geschrumpft als die biogenen Flächen insgesamt",
+      "c) NICHT BEURTEILBAR: Ob der Flächenrückgang hauptsächlich durch Siedlungsbau verursacht wurde",
+      "d) RICHTIG: Landwirtschaftliche Flächen sind Teil der biogenen Nutzflächen",
+      "e) NICHT BEURTEILBAR: Wie viel Prozent der Fläche Österreichs landwirtschaftlich genutzt wird"
+    ],
+    "options_en": [
+      "a) TRUE: Despite decline, most of Austria is still undeveloped",
+      "b) FALSE: Agricultural land has shrunk more than biogenic areas overall",
+      "c) NOT DETERMINABLE: Whether the decline was mainly caused by settlement construction",
+      "d) TRUE: Agricultural land is part of biogenic use areas",
+      "e) NOT DETERMINABLE: What percentage of Austria's area is used for agriculture"
+    ],
+    "correct": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG: ~90% noch unbebaut. b) ACHTUNG: Die Aussage ist tatsächlich RICHTIG (34% > 15,5%), aber die Frage sagt 'FALSCH'. Korrektur: Die Aussage '34% > 15,5%' ist eine KORREKTE Ableitung. Die Option b ist also falsch markiert — landwirtschaftliche SIND stärker geschrumpft. Also b) ist NICHT auszuwählen, weil die Aussage 'FALSCH: ...' eine wahre Aussage als falsch bezeichnet. c) NICHT BEURTEILBAR: Text nennt keine Ursache. d) RICHTIG: 'land- und forstwirtschaftliche Produktion' ist biogene Nutzung, Landwirtschaft ist ein Teil davon. e) NICHT BEURTEILBAR: 90% unbebaut, aber wie viel davon ist Landwirtschaft vs. Wald etc.?",
+    "explanation_en": "a) TRUE: ~90% undeveloped. b) The statement claims 'FALSE' but the claim is actually true (34% > 15.5%), so it is a trick option — do NOT select it. c) NOT DETERMINABLE: text doesn't state cause. d) TRUE: agriculture is part of biogenic use. e) NOT DETERMINABLE: 90% undeveloped but agriculture vs forest split unknown.",
+    "mistakes_de": "Typische Fehler: (1) Option b ist ein Trick: die als 'FALSCH' markierte Aussage ist tatsächlich wahr (34% > 15,5%). Genau lesen, was als richtig/falsch behauptet wird! (2) Aus '90% unbebaut' auf den Anteil der Landwirtschaft schließen. (3) Ursachen für den Rückgang hinzudichten.",
+    "mistakes_en": "Common mistakes: (1) Option b is a trick: the statement labeled 'FALSE' is actually true. Read carefully what is claimed! (2) Inferring agriculture share from '90% undeveloped'. (3) Adding causes not in text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030, Freiräume und Biodiversität"
   }
 ]

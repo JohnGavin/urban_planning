@@ -44,6 +44,7 @@
     </div>
     <a href="quizzes/quiz-oerek-principles.html" class="nav-link"><span class="icon">&#10004;</span> OEREK Principles</a>
     <a href="quizzes/quiz-oerek-megatrends.html" class="nav-link"><span class="icon">&#10004;</span> Megatrends</a>
+    <a href="quizzes/quiz-oerek-actions.html" class="nav-link"><span class="icon">&#10004;</span> Handlungsprogramm</a>
     <a href="quizzes/quiz-studienplan.html" class="nav-link"><span class="icon">&#10004;</span> Studienplan</a>
     <a href="quizzes/quiz-cognitive.html" class="nav-link"><span class="icon">&#129504;</span> Cognitive Skills</a>
     <a href="quizzes/quiz-full-mock.html" class="nav-link"><span class="icon">&#128336;</span> Full Mock Exam</a>
@@ -167,6 +168,7 @@
         <div style="display:flex; gap:0.5rem; flex-wrap:wrap">
           <a href="quizzes/quiz-studienplan.html" class="btn btn-outline" style="font-size:0.75rem">Studienplan</a>
           <a href="quizzes/quiz-oerek-megatrends.html" class="btn btn-outline" style="font-size:0.75rem">Megatrends</a>
+    <a href="quizzes/quiz-oerek-actions.html" class="nav-link"><span class="icon">&#10004;</span> Handlungsprogramm</a>
         </div>
       </div>
       <div class="card" style="display:flex; align-items:center; gap:1rem">
@@ -254,7 +256,12 @@
 
     // Progress
     try {
-      const stats = await StudentDB.getStats();
+      let stats = await StudentDB.getStats();
+      // Fall back to Supabase if local DB is empty (cross-device)
+      if (stats.totalAttempts === 0 && typeof SupabaseSync !== 'undefined') {
+        const cloudStats = await SupabaseSync.getStats();
+        if (cloudStats && cloudStats.totalAttempts > 0) stats = cloudStats;
+      }
       const qel = document.getElementById('stat-quizzes');
       if (qel) qel.querySelector('.stat-value').textContent = stats.totalAttempts;
 
