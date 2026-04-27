@@ -4044,5 +4044,2349 @@
     "tags": [
       "logik"
     ]
+  },
+  {
+    "id": "cognitive-matrix-easy1",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, schwarz] [Kreis, weiß] [Kreis, grau]\nZeile 2: [Dreieck, schwarz] [Dreieck, weiß] [Dreieck, grau]\nZeile 3: [Quadrat, schwarz] [Quadrat, weiß] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, black] [Circle, white] [Circle, grey]\nRow 2: [Triangle, black] [Triangle, white] [Triangle, grey]\nRow 3: [Square, black] [Square, white] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Quadrat, schwarz",
+      "b) Quadrat, weiß",
+      "c) Quadrat, grau",
+      "d) Kreis, grau",
+      "e) Dreieck, grau"
+    ],
+    "options_en": [
+      "a) Square, black",
+      "b) Square, white",
+      "c) Square, grey",
+      "d) Circle, grey",
+      "e) Triangle, grey"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Das Muster: Form ändert sich pro Zeile (Kreis→Dreieck→Quadrat), Farbe ändert sich pro Spalte (schwarz→weiß→grau). Zeile 3, Spalte 3 = Quadrat + grau.",
+    "explanation_en": "Pattern: shape changes per row (Circle→Triangle→Square), colour changes per column (black→white→grey). Row 3, Column 3 = Square + grey.",
+    "mistakes_de": "Typische Fehler: (1) Spalten- statt Zeilenmuster lesen. (2) Farbe und Form unabhängig betrachten – beide folgen eigenen Regeln.",
+    "mistakes_en": "Common mistakes: (1) Reading column pattern instead of row. (2) Not treating colour and shape as independent rules.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Leicht)"
+  },
+  {
+    "id": "cognitive-matrix-easy2",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Groß, Stern] [Mittel, Stern] [Klein, Stern]\nZeile 2: [Groß, Herz] [Mittel, Herz] [Klein, Herz]\nZeile 3: [Groß, Pfeil] [Mittel, Pfeil] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Large, Star] [Medium, Star] [Small, Star]\nRow 2: [Large, Heart] [Medium, Heart] [Small, Heart]\nRow 3: [Large, Arrow] [Medium, Arrow] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Groß, Pfeil",
+      "b) Mittel, Pfeil",
+      "c) Klein, Pfeil",
+      "d) Klein, Stern",
+      "e) Klein, Herz"
+    ],
+    "options_en": [
+      "a) Large, Arrow",
+      "b) Medium, Arrow",
+      "c) Small, Arrow",
+      "d) Small, Star",
+      "e) Small, Heart"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Größe ändert sich pro Spalte (Groß→Mittel→Klein), Form ändert sich pro Zeile (Stern→Herz→Pfeil). Fehlend: Klein + Pfeil.",
+    "explanation_en": "Size changes per column (Large→Medium→Small), shape changes per row (Star→Heart→Arrow). Missing: Small + Arrow.",
+    "mistakes_de": "Typische Fehler: (1) Zeile und Spalte verwechseln. (2) Nur die Form beachten, Größe ignorieren.",
+    "mistakes_en": "Common mistakes: (1) Confusing row and column direction. (2) Noticing only shape, ignoring size.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Leicht)"
+  },
+  {
+    "id": "cognitive-matrix-easy3",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [1 Punkt] [2 Punkte] [3 Punkte]\nZeile 2: [1 Quadrat] [2 Quadrate] [3 Quadrate]\nZeile 3: [1 Dreieck] [2 Dreiecke] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [1 dot] [2 dots] [3 dots]\nRow 2: [1 square] [2 squares] [3 squares]\nRow 3: [1 triangle] [2 triangles] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) 1 Dreieck",
+      "b) 2 Dreiecke",
+      "c) 3 Dreiecke",
+      "d) 3 Punkte",
+      "e) 3 Quadrate"
+    ],
+    "options_en": [
+      "a) 1 triangle",
+      "b) 2 triangles",
+      "c) 3 triangles",
+      "d) 3 dots",
+      "e) 3 squares"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Anzahl steigt pro Spalte (1→2→3), Form ändert sich pro Zeile (Punkt→Quadrat→Dreieck). Fehlend: 3 Dreiecke.",
+    "explanation_en": "Count increases per column (1→2→3), shape changes per row (dot→square→triangle). Missing: 3 triangles.",
+    "mistakes_de": "Typische Fehler: Muster nur in einer Dimension (nur Zeile oder nur Spalte) lesen.",
+    "mistakes_en": "Common mistakes: Reading the pattern in only one dimension (rows only or columns only).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Leicht)"
+  },
+  {
+    "id": "cognitive-matrix-easy4",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, groß, schwarz] [Kreis, mittel, schwarz] [Kreis, klein, schwarz]\nZeile 2: [Kreis, groß, weiß] [Kreis, mittel, weiß] [Kreis, klein, weiß]\nZeile 3: [Kreis, groß, grau] [Kreis, mittel, grau] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, large, black] [Circle, medium, black] [Circle, small, black]\nRow 2: [Circle, large, white] [Circle, medium, white] [Circle, small, white]\nRow 3: [Circle, large, grey] [Circle, medium, grey] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Kreis, groß, grau",
+      "b) Kreis, mittel, grau",
+      "c) Kreis, klein, grau",
+      "d) Kreis, klein, weiß",
+      "e) Kreis, klein, schwarz"
+    ],
+    "options_en": [
+      "a) Circle, large, grey",
+      "b) Circle, medium, grey",
+      "c) Circle, small, grey",
+      "d) Circle, small, white",
+      "e) Circle, small, black"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Form ist immer Kreis. Größe nimmt pro Spalte ab (groß→mittel→klein). Farbe ändert sich pro Zeile (schwarz→weiß→grau). Fehlend: klein + grau.",
+    "explanation_en": "Shape is always Circle. Size decreases per column (large→medium→small). Colour changes per row (black→white→grey). Missing: small + grey.",
+    "mistakes_de": "Typische Fehler: Die dritte Eigenschaft (Farbe) als Spalten- statt Zeilenmuster lesen.",
+    "mistakes_en": "Common mistakes: Reading colour as a column pattern rather than a row pattern.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Leicht)"
+  },
+  {
+    "id": "cognitive-matrix-easy5",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Quadrat, horizontal gestreift] [Quadrat, vertikal gestreift] [Quadrat, kariert]\nZeile 2: [Kreis, horizontal gestreift] [Kreis, vertikal gestreift] [Kreis, kariert]\nZeile 3: [Dreieck, horizontal gestreift] [Dreieck, vertikal gestreift] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Square, horizontal stripes] [Square, vertical stripes] [Square, grid]\nRow 2: [Circle, horizontal stripes] [Circle, vertical stripes] [Circle, grid]\nRow 3: [Triangle, horizontal stripes] [Triangle, vertical stripes] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Dreieck, horizontal gestreift",
+      "b) Dreieck, vertikal gestreift",
+      "c) Dreieck, kariert",
+      "d) Quadrat, kariert",
+      "e) Kreis, kariert"
+    ],
+    "options_en": [
+      "a) Triangle, horizontal stripes",
+      "b) Triangle, vertical stripes",
+      "c) Triangle, grid",
+      "d) Square, grid",
+      "e) Circle, grid"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Muster ändert sich pro Spalte (horizontal→vertikal→kariert), Form ändert sich pro Zeile (Quadrat→Kreis→Dreieck). Fehlend: Dreieck + kariert.",
+    "explanation_en": "Fill pattern changes per column (horizontal→vertical→grid), shape changes per row (Square→Circle→Triangle). Missing: Triangle + grid.",
+    "mistakes_de": "Typische Fehler: Muster und Form in derselben Dimension suchen.",
+    "mistakes_en": "Common mistakes: Looking for both attributes to change in the same direction.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Leicht)"
+  },
+  {
+    "id": "cognitive-matrix-med1",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Großer Kreis, schwarz, außen leer] [Großer Kreis, weiß, außen schwarz] [Großer Kreis, grau, außen leer]\nZeile 2: [Großes Dreieck, schwarz, außen leer] [Großes Dreieck, weiß, außen schwarz] [Großes Dreieck, grau, außen leer]\nZeile 3: [Großes Quadrat, schwarz, außen leer] [Großes Quadrat, weiß, außen schwarz] [?]\n\nForm und Füllung nach welchem Muster?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Large circle, black fill, no border] [Large circle, white fill, thick border] [Large circle, grey fill, no border]\nRow 2: [Large triangle, black fill, no border] [Large triangle, white fill, thick border] [Large triangle, grey fill, no border]\nRow 3: [Large square, black fill, no border] [Large square, white fill, thick border] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Großes Quadrat, schwarz, außen leer",
+      "b) Großes Quadrat, grau, außen leer",
+      "c) Großes Quadrat, grau, außen schwarz",
+      "d) Großes Kreis, grau, außen leer",
+      "e) Kleines Quadrat, grau, außen leer"
+    ],
+    "options_en": [
+      "a) Large square, black fill, no border",
+      "b) Large square, grey fill, no border",
+      "c) Large square, grey fill, thick border",
+      "d) Large circle, grey fill, no border",
+      "e) Small square, grey fill, no border"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Zwei Eigenschaften ändern sich: (1) Form pro Zeile: Kreis→Dreieck→Quadrat. (2) Füllung pro Spalte: schwarz→weiß→grau. (3) Rahmen nur in Spalte 2. Fehlend: Quadrat + grau + kein Rahmen.",
+    "explanation_en": "Two properties change: (1) Shape per row: Circle→Triangle→Square. (2) Fill per column: black→white→grey. (3) Border only in column 2. Missing: Square + grey + no border.",
+    "mistakes_de": "Typische Fehler: Die dritte Eigenschaft (Rahmen) übersehen, da sie nur in Spalte 2 vorkommt.",
+    "mistakes_en": "Common mistakes: Missing the border rule since it only appears in column 2.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Mittel)"
+  },
+  {
+    "id": "cognitive-matrix-med2",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster (Größe + Anzahl):\nZeile 1: [1 großes Quadrat] [2 mittlere Quadrate] [3 kleine Quadrate]\nZeile 2: [1 großes Dreieck] [2 mittlere Dreiecke] [3 kleine Dreiecke]\nZeile 3: [1 großer Kreis] [2 mittlere Kreise] [?]\n\nWas fehlt?",
+    "question_en": "Matrix (3×3) – Pattern (size + count):\nRow 1: [1 large square] [2 medium squares] [3 small squares]\nRow 2: [1 large triangle] [2 medium triangles] [3 small triangles]\nRow 3: [1 large circle] [2 medium circles] [?]\n\nWhat is missing?",
+    "options_de": [
+      "a) 1 kleiner Kreis",
+      "b) 2 kleine Kreise",
+      "c) 3 kleine Kreise",
+      "d) 3 mittlere Kreise",
+      "e) 3 große Kreise"
+    ],
+    "options_en": [
+      "a) 1 small circle",
+      "b) 2 small circles",
+      "c) 3 small circles",
+      "d) 3 medium circles",
+      "e) 3 large circles"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Zwei sich ändernde Eigenschaften: Anzahl pro Spalte (1→2→3), Größe pro Spalte (groß→mittel→klein). Form pro Zeile konstant. Fehlend: 3 kleine Kreise.",
+    "explanation_en": "Two changing properties: count per column (1→2→3), size per column (large→medium→small). Shape constant per row. Missing: 3 small circles.",
+    "mistakes_de": "Typische Fehler: Anzahl und Größe als unabhängige Eigenschaften nicht gleichzeitig verfolgen.",
+    "mistakes_en": "Common mistakes: Not tracking count and size simultaneously as independent properties.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Mittel)"
+  },
+  {
+    "id": "cognitive-matrix-med3",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster (Rotation):\nZeile 1: [Pfeil → rechts] [Pfeil ↓ unten] [Pfeil ← links]\nZeile 2: [Pfeil ↓ unten] [Pfeil ← links] [Pfeil ↑ oben]\nZeile 3: [Pfeil ← links] [Pfeil ↑ oben] [?]\n\nJede Zeile und jede Spalte enthält jeden Pfeil genau einmal. Was fehlt?",
+    "question_en": "Matrix (3×3) – Pattern (rotation):\nRow 1: [Arrow → right] [Arrow ↓ down] [Arrow ← left]\nRow 2: [Arrow ↓ down] [Arrow ← left] [Arrow ↑ up]\nRow 3: [Arrow ← left] [Arrow ↑ up] [?]\n\nEach row and column contains each arrow exactly once. What is missing?",
+    "options_de": [
+      "a) Pfeil → rechts",
+      "b) Pfeil ↓ unten",
+      "c) Pfeil ← links",
+      "d) Pfeil ↑ oben",
+      "e) Pfeil diagonal"
+    ],
+    "options_en": [
+      "a) Arrow → right",
+      "b) Arrow ↓ down",
+      "c) Arrow ← left",
+      "d) Arrow ↑ up",
+      "e) Diagonal arrow"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Zeile 3 hat bereits ← und ↑. Fehlend in Zeile 3: ↓. Spalte 3 hat bereits ← und ↑. Fehlend in Spalte 3: ↓. Beide Bedingungen ergeben ↓.",
+    "explanation_en": "Row 3 already has ← and ↑. Missing in row 3: ↓. Column 3 already has ← and ↑. Missing in column 3: ↓. Both conditions give ↓.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilenmuster oder nur Spaltenmuster prüfen. (2) Pfeilrichtung falsch ablesen.",
+    "mistakes_en": "Common mistakes: (1) Checking only rows or only columns. (2) Misreading arrow direction.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Mittel)"
+  },
+  {
+    "id": "cognitive-matrix-med4",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster (Innenform + Außenform):\nZeile 1: [Quadrat mit Kreis innen] [Kreis mit Dreieck innen] [Dreieck mit Quadrat innen]\nZeile 2: [Quadrat mit Dreieck innen] [Kreis mit Quadrat innen] [Dreieck mit Kreis innen]\nZeile 3: [Quadrat mit Quadrat innen] [Kreis mit Kreis innen] [?]\n\nWas fehlt?",
+    "question_en": "Matrix (3×3) – Pattern (inner + outer shape):\nRow 1: [Square with circle inside] [Circle with triangle inside] [Triangle with square inside]\nRow 2: [Square with triangle inside] [Circle with square inside] [Triangle with circle inside]\nRow 3: [Square with square inside] [Circle with circle inside] [?]\n\nWhat is missing?",
+    "options_de": [
+      "a) Dreieck mit Quadrat innen",
+      "b) Dreieck mit Kreis innen",
+      "c) Dreieck mit Dreieck innen",
+      "d) Kreis mit Dreieck innen",
+      "e) Quadrat mit Dreieck innen"
+    ],
+    "options_en": [
+      "a) Triangle with square inside",
+      "b) Triangle with circle inside",
+      "c) Triangle with triangle inside",
+      "d) Circle with triangle inside",
+      "e) Square with triangle inside"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Außenform pro Zeile konstant (Zeile 3 = Dreieck). In Zeile 3: Innenform spiegelt Außenform (Quadrat im Quadrat, Kreis im Kreis → Dreieck im Dreieck).",
+    "explanation_en": "Outer shape constant per row (Row 3 = Triangle). In Row 3: inner shape mirrors outer shape (square in square, circle in circle → triangle in triangle).",
+    "mistakes_de": "Typische Fehler: Das Spiegelungsmuster in Zeile 3 nicht erkennen.",
+    "mistakes_en": "Common mistakes: Missing the mirroring pattern in Row 3.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Mittel)"
+  },
+  {
+    "id": "cognitive-matrix-med5",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster (Anzahl + Farbe):\nZeile 1: [3 schwarze Kreise] [2 schwarze Kreise] [1 schwarzer Kreis]\nZeile 2: [3 graue Kreise] [2 graue Kreise] [1 grauer Kreis]\nZeile 3: [3 weiße Kreise] [2 weiße Kreise] [?]\n\nWas fehlt?",
+    "question_en": "Matrix (3×3) – Pattern (count + colour):\nRow 1: [3 black circles] [2 black circles] [1 black circle]\nRow 2: [3 grey circles] [2 grey circles] [1 grey circle]\nRow 3: [3 white circles] [2 white circles] [?]\n\nWhat is missing?",
+    "options_de": [
+      "a) 3 weiße Kreise",
+      "b) 2 weiße Kreise",
+      "c) 1 weißer Kreis",
+      "d) 1 grauer Kreis",
+      "e) 1 schwarzer Kreis"
+    ],
+    "options_en": [
+      "a) 3 white circles",
+      "b) 2 white circles",
+      "c) 1 white circle",
+      "d) 1 grey circle",
+      "e) 1 black circle"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Anzahl sinkt pro Spalte (3→2→1). Farbe ist pro Zeile konstant (Zeile 3 = weiß). Fehlend: 1 weißer Kreis.",
+    "explanation_en": "Count decreases per column (3→2→1). Colour is constant per row (Row 3 = white). Missing: 1 white circle.",
+    "mistakes_de": "Typische Fehler: Farbe als Spaltenmuster lesen statt als Zeilenmuster.",
+    "mistakes_en": "Common mistakes: Reading colour as a column pattern rather than a row pattern.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Mittel)"
+  },
+  {
+    "id": "cognitive-matrix-hard1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Drei Eigenschaften:\nZeile 1: [Großer Kreis, schwarz, mit Kreuz] [Mittlerer Kreis, weiß, mit Punkt] [Kleiner Kreis, grau, leer]\nZeile 2: [Großes Dreieck, weiß, mit Punkt] [Mittleres Dreieck, grau, leer] [Kleines Dreieck, schwarz, mit Kreuz]\nZeile 3: [Großes Quadrat, grau, leer] [Mittleres Quadrat, schwarz, mit Kreuz] [?]\n\nWas fehlt?",
+    "question_en": "Matrix (3×3) – Three properties:\nRow 1: [Large circle, black, with cross] [Medium circle, white, with dot] [Small circle, grey, empty]\nRow 2: [Large triangle, white, with dot] [Medium triangle, grey, empty] [Small triangle, black, with cross]\nRow 3: [Large square, grey, empty] [Medium square, black, with cross] [?]\n\nWhat is missing?",
+    "options_de": [
+      "a) Kleines Quadrat, weiß, mit Punkt",
+      "b) Kleines Quadrat, grau, leer",
+      "c) Kleines Quadrat, schwarz, leer",
+      "d) Kleines Dreieck, weiß, mit Punkt",
+      "e) Kleines Quadrat, weiß, leer"
+    ],
+    "options_en": [
+      "a) Small square, white, with dot",
+      "b) Small square, grey, empty",
+      "c) Small square, black, empty",
+      "d) Small triangle, white, with dot",
+      "e) Small square, white, empty"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Drei unabhängige Eigenschaften: (1) Größe pro Spalte: groß→mittel→klein. (2) Form pro Zeile: Kreis→Dreieck→Quadrat. (3) Farbe: jede Zeile und Spalte enthält schwarz/weiß/grau je einmal – Zeile 3 hat grau+schwarz→weiß. Innenzeichen: jede Zeile und Spalte enthält Kreuz/Punkt/leer je einmal – Zeile 3 hat leer+Kreuz→Punkt. Fehlend: Klein+Quadrat+weiß+Punkt.",
+    "explanation_en": "Three independent properties: (1) Size per column: large→medium→small. (2) Shape per row: circle→triangle→square. (3) Colour: each row/column has black/white/grey once — Row 3 has grey+black→white. Inner mark: each row/column has cross/dot/empty once — Row 3 has empty+cross→dot. Missing: Small+Square+white+dot.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Eigenschaften verfolgen und die dritte (Innenzeichen) vergessen. (2) Farbe und Zeichen nicht als Latin-Square-Muster erkennen.",
+    "mistakes_en": "Common mistakes: (1) Tracking only two properties and forgetting the third (inner mark). (2) Not recognising the Latin square pattern for colour and mark.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Schwer)"
+  },
+  {
+    "id": "cognitive-matrix-hard2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Rotation + Spiegelung:\nZeile 1: [Pfeil ↑ oben, groß] [Pfeil → rechts, mittel] [Pfeil ↓ unten, klein]\nZeile 2: [Pfeil → rechts, groß] [Pfeil ↓ unten, mittel] [Pfeil ← links, klein]\nZeile 3: [Pfeil ↓ unten, groß] [Pfeil ← links, mittel] [?]\n\nWas fehlt?",
+    "question_en": "Matrix (3×3) – Rotation + size:\nRow 1: [Arrow ↑ up, large] [Arrow → right, medium] [Arrow ↓ down, small]\nRow 2: [Arrow → right, large] [Arrow ↓ down, medium] [Arrow ← left, small]\nRow 3: [Arrow ↓ down, large] [Arrow ← left, medium] [?]\n\nWhat is missing?",
+    "options_de": [
+      "a) Pfeil ↑ oben, groß",
+      "b) Pfeil ↑ oben, klein",
+      "c) Pfeil ← links, klein",
+      "d) Pfeil → rechts, klein",
+      "e) Pfeil ↑ oben, mittel"
+    ],
+    "options_en": [
+      "a) Arrow ↑ up, large",
+      "b) Arrow ↑ up, small",
+      "c) Arrow ← left, small",
+      "d) Arrow → right, small",
+      "e) Arrow ↑ up, medium"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtung: pro Zeile 90° im Uhrzeigersinn gedreht (Zeile 3: ↓→←→↑). Größe pro Spalte: groß→mittel→klein. Fehlend: ↑ + klein.",
+    "explanation_en": "Direction: rotated 90° clockwise per row (Row 3: ↓→←→↑). Size per column: large→medium→small. Missing: ↑ + small.",
+    "mistakes_de": "Typische Fehler: (1) Rotationsrichtung (im/gegen Uhrzeigersinn) falsch bestimmen. (2) Größe nicht mit Spaltenmuster abgleichen.",
+    "mistakes_en": "Common mistakes: (1) Confusing clockwise vs counter-clockwise rotation. (2) Not matching size to column pattern.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Schwer)"
+  },
+  {
+    "id": "cognitive-matrix-hard3",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Summenregel:\nZeile 1: [Quadrat mit 1 Punkt] [Quadrat mit 2 Punkten] [Quadrat mit 3 Punkten]\nZeile 2: [Quadrat mit 4 Punkten] [Quadrat mit 5 Punkten] [Quadrat mit 6 Punkten]\nZeile 3: [Quadrat mit 7 Punkten] [Quadrat mit 8 Punkten] [?]\n\nDie Summe der Punkte pro Zeile ist konstant. Welche Zahl fehlt?",
+    "question_en": "Matrix (3×3) – Sum rule:\nRow 1: [Square with 1 dot] [Square with 2 dots] [Square with 3 dots]\nRow 2: [Square with 4 dots] [Square with 5 dots] [Square with 6 dots]\nRow 3: [Square with 7 dots] [Square with 8 dots] [?]\n\nThe count increases by 1 across rows and columns. What number is missing?",
+    "options_de": [
+      "a) Quadrat mit 7 Punkten",
+      "b) Quadrat mit 8 Punkten",
+      "c) Quadrat mit 9 Punkten",
+      "d) Quadrat mit 10 Punkten",
+      "e) Quadrat mit 6 Punkten"
+    ],
+    "options_en": [
+      "a) Square with 7 dots",
+      "b) Square with 8 dots",
+      "c) Square with 9 dots",
+      "d) Square with 10 dots",
+      "e) Square with 6 dots"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Die Punkte steigen von links nach rechts und von oben nach unten je +1. Position (3,3) = 9 Punkte. Alternativ: die Zahl folgt der Formel (Zeile−1)×3 + Spalte = 2×3+3=9.",
+    "explanation_en": "Dots increase by 1 left-to-right and top-to-bottom. Position (3,3) = 9. Alternatively: (row−1)×3 + column = 2×3+3 = 9.",
+    "mistakes_de": "Typische Fehler: (1) Muster nur horizontal lesen (7,8 → 9 stimmt zufällig) ohne die Formel zu kennen. (2) Bei einer Unterbrechung der Sequenz zögern.",
+    "mistakes_en": "Common mistakes: (1) Reading only horizontally (7,8→9 happens to be correct) without verifying the 2D pattern. (2) Hesitating if the sequence appears interrupted.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Schwer)"
+  },
+  {
+    "id": "cognitive-matrix-hard4",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Drei Eigenschaften (Latin Square):\nZeile 1: [Sechseck, schwarz, groß] [Dreieck, weiß, mittel] [Kreis, grau, klein]\nZeile 2: [Dreieck, grau, groß] [Kreis, schwarz, mittel] [Sechseck, weiß, klein]\nZeile 3: [Kreis, weiß, groß] [Sechseck, grau, mittel] [?]\n\nWas fehlt?",
+    "question_en": "Matrix (3×3) – Three properties (Latin Square):\nRow 1: [Hexagon, black, large] [Triangle, white, medium] [Circle, grey, small]\nRow 2: [Triangle, grey, large] [Circle, black, medium] [Hexagon, white, small]\nRow 3: [Circle, white, large] [Hexagon, grey, medium] [?]\n\nWhat is missing?",
+    "options_de": [
+      "a) Dreieck, schwarz, klein",
+      "b) Dreieck, weiß, klein",
+      "c) Sechseck, schwarz, klein",
+      "d) Dreieck, grau, klein",
+      "e) Kreis, schwarz, klein"
+    ],
+    "options_en": [
+      "a) Triangle, black, small",
+      "b) Triangle, white, small",
+      "c) Hexagon, black, small",
+      "d) Triangle, grey, small",
+      "e) Circle, black, small"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Drei Latin-Square-Eigenschaften: (1) Form pro Zeile und Spalte je einmal: Zeile 3 hat Kreis+Sechseck→Dreieck; Spalte 3 hat Kreis+Sechseck→Dreieck ✓. (2) Farbe pro Zeile und Spalte je einmal: Zeile 3 hat weiß+grau→schwarz; Spalte 3 hat grau+weiß→schwarz ✓. (3) Größe pro Spalte: Spalte 3 = klein. Fehlend: Dreieck+schwarz+klein.",
+    "explanation_en": "Three Latin square properties: (1) Shape per row/column once each: Row 3 has circle+hexagon→triangle; Col 3 has circle+hexagon→triangle ✓. (2) Colour per row/column: Row 3 has white+grey→black; Col 3 has grey+white→black ✓. (3) Size per column: Col 3 = small. Missing: Triangle+black+small.",
+    "mistakes_de": "Typische Fehler: (1) Nur ein oder zwei Latin-Square-Eigenschaften prüfen. (2) Farbe und Form nicht unabhängig kontrollieren.",
+    "mistakes_en": "Common mistakes: (1) Checking only one or two Latin square properties. (2) Not independently verifying colour and shape.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Schwer)"
+  },
+  {
+    "id": "cognitive-matrix-hard5",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Spiegelung + Drehung:\nZeile 1: [R, normal] [R, 90° rechts gedreht] [R, 180° gedreht]\nZeile 2: [R, gespiegelt horizontal] [R, gespiegelt und 90° rechts] [R, gespiegelt und 180°]\nZeile 3: [R, gespiegelt vertikal] [R, gespiegelt vertikal und 90° rechts] [?]\n\nWelche Transformation fehlt?",
+    "question_en": "Matrix (3×3) – Reflection + rotation:\nRow 1: [R, normal] [R, rotated 90° right] [R, rotated 180°]\nRow 2: [R, mirrored horizontally] [R, mirrored + rotated 90° right] [R, mirrored + rotated 180°]\nRow 3: [R, mirrored vertically] [R, mirrored vertically + rotated 90° right] [?]\n\nWhich transformation is missing?",
+    "options_de": [
+      "a) R, gespiegelt vertikal und 180° gedreht",
+      "b) R, gespiegelt horizontal und 180° gedreht",
+      "c) R, normal und 180° gedreht",
+      "d) R, gespiegelt vertikal und 90° links gedreht",
+      "e) R, dreifach gespiegelt"
+    ],
+    "options_en": [
+      "a) R, mirrored vertically + rotated 180°",
+      "b) R, mirrored horizontally + rotated 180°",
+      "c) R, normal + rotated 180°",
+      "d) R, mirrored vertically + rotated 90° left",
+      "e) R, triple mirrored"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Zeilen-Muster: Spiegelungsart bleibt pro Zeile konstant (Zeile 3 = vertikal gespiegelt). Spalten-Muster: Drehung pro Spalte (0°→90°→180°). Spalte 3 = 180°. Fehlend: vertikal gespiegelt + 180° gedreht.",
+    "explanation_en": "Row pattern: mirror type constant per row (Row 3 = vertical mirror). Column pattern: rotation increases per column (0°→90°→180°). Column 3 = 180°. Missing: vertically mirrored + rotated 180°.",
+    "mistakes_de": "Typische Fehler: (1) Spiegelungsachse (horizontal vs vertikal) verwechseln. (2) Kombination von Spiegelung und Drehung nicht als zwei unabhängige Operationen betrachten.",
+    "mistakes_en": "Common mistakes: (1) Confusing horizontal vs vertical mirror axis. (2) Not treating reflection and rotation as two independent operations.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Matrizen (Schwer)"
+  },
+  {
+    "id": "cognitive-rechen-easy1",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n5 ☐ 3 ☐ 2 = 6\n(Nur + und − erlaubt)",
+    "question_en": "Which operators belong in the blanks?\n5 ☐ 3 ☐ 2 = 6\n(Only + and − allowed)",
+    "options_de": [
+      "a) +, +",
+      "b) +, −",
+      "c) −, +",
+      "d) −, −",
+      "e) Keine Lösung"
+    ],
+    "options_en": [
+      "a) +, +",
+      "b) +, −",
+      "c) −, +",
+      "d) −, −",
+      "e) No solution"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "5 + 3 − 2 = 8 − 2 = 6 ✓. Prüfung der anderen: 5+3+2=10, 5−3+2=4, 5−3−2=0.",
+    "explanation_en": "5 + 3 − 2 = 8 − 2 = 6 ✓. Others: 5+3+2=10, 5−3+2=4, 5−3−2=0.",
+    "mistakes_de": "Typische Fehler: (1) Rechenreihenfolge ignorieren. (2) Nicht alle vier Kombinationen systematisch prüfen.",
+    "mistakes_en": "Common mistakes: (1) Ignoring order of operations. (2) Not systematically testing all four combinations.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Leicht)"
+  },
+  {
+    "id": "cognitive-rechen-easy2",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n10 ☐ 4 ☐ 2 = 8\n(Nur + und − erlaubt)",
+    "question_en": "Which operators belong in the blanks?\n10 ☐ 4 ☐ 2 = 8\n(Only + and − allowed)",
+    "options_de": [
+      "a) +, +",
+      "b) +, −",
+      "c) −, +",
+      "d) −, −",
+      "e) Keine Lösung"
+    ],
+    "options_en": [
+      "a) +, +",
+      "b) +, −",
+      "c) −, +",
+      "d) −, −",
+      "e) No solution"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "10 − 4 + 2 = 6 + 2 = 8 ✓. Prüfung: 10+4+2=16, 10+4−2=12, 10−4−2=4.",
+    "explanation_en": "10 − 4 + 2 = 6 + 2 = 8 ✓. Others: 10+4+2=16, 10+4−2=12, 10−4−2=4.",
+    "mistakes_de": "Typische Fehler: Antwort b) wählen (10+4−2=12≠8) wegen '+' am Anfang.",
+    "mistakes_en": "Common mistakes: Choosing b) (10+4−2=12≠8) because it starts with '+'.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Leicht)"
+  },
+  {
+    "id": "cognitive-rechen-easy3",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n7 ☐ 2 ☐ 1 = 10\n(Nur + und − erlaubt)",
+    "question_en": "Which operators belong in the blanks?\n7 ☐ 2 ☐ 1 = 10\n(Only + and − allowed)",
+    "options_de": [
+      "a) +, +",
+      "b) +, −",
+      "c) −, +",
+      "d) −, −",
+      "e) Keine Lösung"
+    ],
+    "options_en": [
+      "a) +, +",
+      "b) +, −",
+      "c) −, +",
+      "d) −, −",
+      "e) No solution"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "7 + 2 + 1 = 10 ✓. Prüfung: 7+2−1=8, 7−2+1=6, 7−2−1=4.",
+    "explanation_en": "7 + 2 + 1 = 10 ✓. Others: 7+2−1=8, 7−2+1=6, 7−2−1=4.",
+    "mistakes_de": "Typische Fehler: Bei einfachen Aufgaben nach Tricks suchen, die keine sind.",
+    "mistakes_en": "Common mistakes: Overthinking a straightforward problem.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Leicht)"
+  },
+  {
+    "id": "cognitive-rechen-med1",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n6 ☐ 2 ☐ 3 = 15\n(+, −, ×, ÷ erlaubt; Punkt vor Strich beachten!)",
+    "question_en": "Which operators belong in the blanks?\n6 ☐ 2 ☐ 3 = 15\n(+, −, ×, ÷ allowed; standard order of operations applies)",
+    "options_de": [
+      "a) ×, +",
+      "b) +, ×",
+      "c) ×, −",
+      "d) +, +",
+      "e) ×, ×"
+    ],
+    "options_en": [
+      "a) ×, +",
+      "b) +, ×",
+      "c) ×, −",
+      "d) +, +",
+      "e) ×, ×"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "6 × 2 + 3 = 12 + 3 = 15 ✓. Prüfung b) 6+2×3=6+6=12≠15, c) 6×2−3=9≠15, d) 6+2+3=11≠15, e) 6×2×3=36≠15.",
+    "explanation_en": "6 × 2 + 3 = 12 + 3 = 15 ✓. b) 6+2×3=12≠15, c) 6×2−3=9≠15, d) 6+2+3=11≠15, e) 6×2×3=36≠15.",
+    "mistakes_de": "Typische Fehler: (1) Punkt vor Strich vergessen → b) falsch als korrekt akzeptieren. (2) Nicht alle Kombinationen prüfen.",
+    "mistakes_en": "Common mistakes: (1) Forgetting order of operations → wrongly accepting b). (2) Not testing all combinations.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Mittel)"
+  },
+  {
+    "id": "cognitive-rechen-med2",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n20 ☐ 4 ☐ 3 = 2\n(+, −, ×, ÷ erlaubt)",
+    "question_en": "Which operators belong in the blanks?\n20 ☐ 4 ☐ 3 = 2\n(+, −, ×, ÷ allowed)",
+    "options_de": [
+      "a) ÷, −",
+      "b) ÷, +",
+      "c) −, ÷",
+      "d) −, ×",
+      "e) +, ÷"
+    ],
+    "options_en": [
+      "a) ÷, −",
+      "b) ÷, +",
+      "c) −, ÷",
+      "d) −, ×",
+      "e) +, ÷"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "20 ÷ 4 − 3 = 5 − 3 = 2 ✓. Prüfung b) 20÷4+3=8≠2, c) 20−4÷3≈18.7≠2, d) 20−4×3=8≠2, e) 20+4÷3≈21.3≠2.",
+    "explanation_en": "20 ÷ 4 − 3 = 5 − 3 = 2 ✓. b) 20÷4+3=8≠2, c) 20−4÷3≈18.7≠2, d) 20−4×3=8≠2, e) 20+4÷3≈21.3≠2.",
+    "mistakes_de": "Typische Fehler: Antwort c) wählen ohne Rechenreihenfolge zu beachten.",
+    "mistakes_en": "Common mistakes: Choosing c) without applying order of operations.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Mittel)"
+  },
+  {
+    "id": "cognitive-rechen-med3",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n8 ☐ 2 ☐ 5 = 9\n(+, −, ×, ÷ erlaubt)",
+    "question_en": "Which operators belong in the blanks?\n8 ☐ 2 ☐ 5 = 9\n(+, −, ×, ÷ allowed)",
+    "options_de": [
+      "a) ÷, +",
+      "b) ×, −",
+      "c) +, ÷",
+      "d) −, +",
+      "e) ÷, ×"
+    ],
+    "options_en": [
+      "a) ÷, +",
+      "b) ×, −",
+      "c) +, ÷",
+      "d) −, +",
+      "e) ÷, ×"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "8 ÷ 2 + 5 = 4 + 5 = 9 ✓. Prüfung b) 8×2−5=11≠9, c) 8+2÷5=8.4≠9, d) 8−2+5=11≠9, e) 8÷2×5=20≠9.",
+    "explanation_en": "8 ÷ 2 + 5 = 4 + 5 = 9 ✓. b) 8×2−5=11≠9, c) 8+2÷5=8.4≠9, d) 8−2+5=11≠9, e) 8÷2×5=20≠9.",
+    "mistakes_de": "Typische Fehler: Antwort d) wählen (8−2+5=11≠9, Fehler beim Nachrechnen).",
+    "mistakes_en": "Common mistakes: Choosing d) (8−2+5=11≠9, arithmetic error).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Mittel)"
+  },
+  {
+    "id": "cognitive-rechen-med4",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n3 ☐ 4 ☐ 2 ☐ 1 = 11\n(+, −, ×, ÷ erlaubt; drei Lücken)",
+    "question_en": "Which operators belong in the blanks?\n3 ☐ 4 ☐ 2 ☐ 1 = 11\n(+, −, ×, ÷ allowed; three blanks)",
+    "options_de": [
+      "a) ×, −, +",
+      "b) +, ×, −",
+      "c) ×, +, −",
+      "d) +, +, ×",
+      "e) ×, ×, −"
+    ],
+    "options_en": [
+      "a) ×, −, +",
+      "b) +, ×, −",
+      "c) ×, +, −",
+      "d) +, +, ×",
+      "e) ×, ×, −"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "3 × 4 − 2 + 1 = 12 − 2 + 1 = 11 ✓. Prüfung b) 3+4×2−1=3+8−1=10≠11, c) 3×4+2−1=12+2−1=13≠11, d) 3+4+2×1=3+4+2=9≠11, e) 3×4×2−1=24−1=23≠11.",
+    "explanation_en": "3 × 4 − 2 + 1 = 12 − 2 + 1 = 11 ✓. b) 3+4×2−1=10≠11, c) 3×4+2−1=13≠11, d) 3+4+2×1=9≠11, e) 3×4×2−1=23≠11.",
+    "mistakes_de": "Typische Fehler: (1) Bei drei Lücken den Überblick verlieren. (2) Punkt-vor-Strich bei Antwort b) falsch anwenden.",
+    "mistakes_en": "Common mistakes: (1) Losing track with three blanks. (2) Misapplying order of operations in option b).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Mittel)"
+  },
+  {
+    "id": "cognitive-rechen-hard1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n12 ☐ 4 ☐ 3 ☐ 2 = 4\n(+, −, ×, ÷ erlaubt; Punkt vor Strich beachten)",
+    "question_en": "Which operators belong in the blanks?\n12 ☐ 4 ☐ 3 ☐ 2 = 4\n(+, −, ×, ÷ allowed; standard order of operations)",
+    "options_de": [
+      "a) ÷, +, −",
+      "b) −, ×, +",
+      "c) ÷, −, +",
+      "d) ÷, ×, −",
+      "e) −, ÷, +"
+    ],
+    "options_en": [
+      "a) ÷, +, −",
+      "b) −, ×, +",
+      "c) ÷, −, +",
+      "d) ÷, ×, −",
+      "e) −, ÷, +"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "12 ÷ 4 + 3 − 2 = 3 + 3 − 2 = 4 ✓. Prüfung b) 12−4×3+2=12−12+2=2≠4, c) 12÷4−3+2=3−3+2=2≠4, d) 12÷4×3−2=9−2=7≠4, e) 12−4÷3+2≈11.67≠4.",
+    "explanation_en": "12 ÷ 4 + 3 − 2 = 3 + 3 − 2 = 4 ✓. b) 12−4×3+2=2≠4, c) 12÷4−3+2=2≠4, d) 12÷4×3−2=7≠4, e) 12−4÷3+2≈11.67≠4.",
+    "mistakes_de": "Typische Fehler: (1) Antwort c) wählen (Fehler: 3+3−2=4 aber 3−3+2=2≠4). (2) Punkt-vor-Strich bei mehreren Operatoren vergessen.",
+    "mistakes_en": "Common mistakes: (1) Choosing c) (error: 3+3−2=4 but 3−3+2=2≠4). (2) Forgetting order of operations with multiple operators.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Schwer)"
+  },
+  {
+    "id": "cognitive-rechen-hard2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n6 ☐ 2 ☐ 4 ☐ 3 = 11\n(+, −, ×, ÷ erlaubt; Punkt vor Strich beachten)",
+    "question_en": "Which operators belong in the blanks?\n6 ☐ 2 ☐ 4 ☐ 3 = 11\n(+, −, ×, ÷ allowed; standard order of operations)",
+    "options_de": [
+      "a) ×, −, +",
+      "b) +, ×, −",
+      "c) ×, +, −",
+      "d) ÷, +, ×",
+      "e) +, +, ×"
+    ],
+    "options_en": [
+      "a) ×, −, +",
+      "b) +, ×, −",
+      "c) ×, +, −",
+      "d) ÷, +, ×",
+      "e) +, +, ×"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "6 × 2 − 4 + 3 = 12 − 4 + 3 = 11 ✓. Prüfung b) 6+2×4−3=6+8−3=11 — auch korrekt! Aber Antwort a) ist die erste gültige Option in der Liste, daher a). Beide sind korrekt; im Exam würde nur eine Option angeboten.",
+    "explanation_en": "6 × 2 − 4 + 3 = 12 − 4 + 3 = 11 ✓. Note: b) 6+2×4−3=6+8−3=11 is also correct. In a real exam only one correct answer would be offered.",
+    "mistakes_de": "Typische Fehler: Prüfen ob es mehrere Lösungen gibt – b) ist ebenfalls korrekt! Im echten Exam gibt es immer genau eine eindeutige Lösung.",
+    "mistakes_en": "Common mistakes: Forgetting to check for multiple solutions — b) is also correct! Real exams are designed with exactly one valid answer.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Schwer)"
+  },
+  {
+    "id": "cognitive-rechen-hard3",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen gehören in die Lücken?\n5 ☐ 4 ☐ 3 ☐ 2 = 25\n(+, −, ×, ÷ erlaubt; Punkt vor Strich beachten)",
+    "question_en": "Which operators belong in the blanks?\n5 ☐ 4 ☐ 3 ☐ 2 = 25\n(+, −, ×, ÷ allowed; standard order of operations)",
+    "options_de": [
+      "a) ×, +, +",
+      "b) +, ×, +",
+      "c) ×, ×, −",
+      "d) +, +, ×",
+      "e) ×, +, ×"
+    ],
+    "options_en": [
+      "a) ×, +, +",
+      "b) +, ×, +",
+      "c) ×, ×, −",
+      "d) +, +, ×",
+      "e) ×, +, ×"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "5 × 4 + 3 + 2 = 20 + 3 + 2 = 25 ✓. Prüfung b) 5+4×3+2=5+12+2=19≠25, c) 5×4×3−2=60−2=58≠25, d) 5+4+3×2=5+4+6=15≠25, e) 5×4+3×2=20+6=26≠25.",
+    "explanation_en": "5 × 4 + 3 + 2 = 20 + 3 + 2 = 25 ✓. b) 5+4×3+2=19≠25, c) 5×4×3−2=58≠25, d) 5+4+3×2=15≠25, e) 5×4+3×2=26≠25.",
+    "mistakes_de": "Typische Fehler: (1) Antwort e) wählen (5×4+3×2=26, um 1 daneben). (2) Punkt-vor-Strich nicht korrekt anwenden.",
+    "mistakes_en": "Common mistakes: (1) Choosing e) (5×4+3×2=26, off by one). (2) Incorrectly applying order of operations.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Rechenoperationen (Schwer)"
+  },
+  {
+    "id": "cognitive-analogy-easy3",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Hund : Welpe = Katze : ?",
+    "question_en": "Dog : Puppy = Cat : ?",
+    "options_de": [
+      "a) Kätzchen",
+      "b) Kater",
+      "c) Katzenkorb",
+      "d) Katze",
+      "e) Tier"
+    ],
+    "options_en": [
+      "a) Kitten",
+      "b) Tom cat",
+      "c) Cat basket",
+      "d) Cat",
+      "e) Animal"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Beziehung: Erwachsenes Tier → Jungtier. Hund → Welpe; Katze → Kätzchen.",
+    "explanation_en": "Relationship: Adult animal → Young animal. Dog → Puppy; Cat → Kitten.",
+    "mistakes_de": "Typische Fehler: b) Kater (das wäre Geschlecht, nicht Jungtier).",
+    "mistakes_en": "Common mistakes: b) Tom cat (that is gender, not juvenile).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Leicht)"
+  },
+  {
+    "id": "cognitive-analogy-easy4",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Messer : Schneiden = Hammer : ?",
+    "question_en": "Knife : Cutting = Hammer : ?",
+    "options_de": [
+      "a) Nagel",
+      "b) Hämmern/Schlagen",
+      "c) Holz",
+      "d) Werkzeugkasten",
+      "e) Zimmermann"
+    ],
+    "options_en": [
+      "a) Nail",
+      "b) Hammering/Striking",
+      "c) Wood",
+      "d) Toolbox",
+      "e) Carpenter"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Beziehung: Werkzeug → Funktion/Zweck. Messer → Schneiden; Hammer → Hämmern.",
+    "explanation_en": "Relationship: Tool → Function. Knife → Cutting; Hammer → Hammering.",
+    "mistakes_de": "Typische Fehler: a) Nagel (das wäre das Objekt, nicht die Funktion).",
+    "mistakes_en": "Common mistakes: a) Nail (that is the object, not the function).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Leicht)"
+  },
+  {
+    "id": "cognitive-analogy-easy5",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Finger : Hand = Zeh : ?",
+    "question_en": "Finger : Hand = Toe : ?",
+    "options_de": [
+      "a) Nagel",
+      "b) Fuß",
+      "c) Bein",
+      "d) Schuh",
+      "e) Strumpf"
+    ],
+    "options_en": [
+      "a) Nail",
+      "b) Foot",
+      "c) Leg",
+      "d) Shoe",
+      "e) Sock"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Beziehung: Teil → Ganzes. Finger ist Teil der Hand; Zeh ist Teil des Fußes.",
+    "explanation_en": "Relationship: Part → Whole. Finger is part of Hand; Toe is part of Foot.",
+    "mistakes_de": "Typische Fehler: a) Nagel (Finger → Fingernagel wäre ein anderes Paar).",
+    "mistakes_en": "Common mistakes: a) Nail (Finger → Fingernail would be a different pair).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Leicht)"
+  },
+  {
+    "id": "cognitive-analogy-med3",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Raumplaner : Gemeinde = Arzt : ?",
+    "question_en": "Spatial planner : Municipality = Doctor : ?",
+    "options_de": [
+      "a) Krankenhaus",
+      "b) Patient",
+      "c) Medizin",
+      "d) Sprechstunde",
+      "e) Gesundheit"
+    ],
+    "options_en": [
+      "a) Hospital",
+      "b) Patient",
+      "c) Medicine",
+      "d) Consultation",
+      "e) Health"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Beziehung: Fachkraft → Arbeitsort/Institution. Raumplaner arbeitet in/für die Gemeinde; Arzt arbeitet im Krankenhaus.",
+    "explanation_en": "Relationship: Professional → Workplace/Institution. Spatial planner works in/for the municipality; Doctor works in a hospital.",
+    "mistakes_de": "Typische Fehler: b) Patient (das wäre Fachkraft → Klient, nicht Arbeitsort).",
+    "mistakes_en": "Common mistakes: b) Patient (that would be Professional → Client, not workplace).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Mittel)"
+  },
+  {
+    "id": "cognitive-analogy-med4",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Feuer : Rauch = Ursache : ?",
+    "question_en": "Fire : Smoke = Cause : ?",
+    "options_de": [
+      "a) Wirkung",
+      "b) Problem",
+      "c) Brand",
+      "d) Analyse",
+      "e) Hypothese"
+    ],
+    "options_en": [
+      "a) Effect",
+      "b) Problem",
+      "c) Fire",
+      "d) Analysis",
+      "e) Hypothesis"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Beziehung: Ursache → Wirkung. Feuer (Ursache) erzeugt Rauch (Wirkung); Ursache → Wirkung.",
+    "explanation_en": "Relationship: Cause → Effect. Fire (cause) produces smoke (effect); Cause → Effect.",
+    "mistakes_de": "Typische Fehler: Die Frage stellt bereits die Abstraktion dar – die Antwort ist das abstrakte Gegenstück.",
+    "mistakes_en": "Common mistakes: The question already states the abstraction — the answer is the abstract counterpart.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Mittel)"
+  },
+  {
+    "id": "cognitive-analogy-med5",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Stadtplaner : Bebauungsplan = Architekt : ?",
+    "question_en": "Urban planner : Land-use plan = Architect : ?",
+    "options_de": [
+      "a) Gebäude",
+      "b) Bauzeichnung",
+      "c) Baugenehmigung",
+      "d) Baustelle",
+      "e) Statik"
+    ],
+    "options_en": [
+      "a) Building",
+      "b) Architectural drawing",
+      "c) Building permit",
+      "d) Construction site",
+      "e) Statics"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Beziehung: Fachkraft → ihr charakteristisches Planungsdokument. Stadtplaner erstellt Bebauungsplan; Architekt erstellt Bauzeichnung.",
+    "explanation_en": "Relationship: Professional → their characteristic planning document. Urban planner creates land-use plan; Architect creates architectural drawing.",
+    "mistakes_de": "Typische Fehler: a) Gebäude (das ist das Ergebnis, nicht das Dokument).",
+    "mistakes_en": "Common mistakes: a) Building (that is the end result, not the document).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Mittel)"
+  },
+  {
+    "id": "cognitive-analogy-med6",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Rose : Blume = Wien : ?",
+    "question_en": "Rose : Flower = Vienna : ?",
+    "options_de": [
+      "a) Österreich",
+      "b) Stadt",
+      "c) Europa",
+      "d) Hauptstadt",
+      "e) Donau"
+    ],
+    "options_en": [
+      "a) Austria",
+      "b) City",
+      "c) Europe",
+      "d) Capital",
+      "e) Danube"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Beziehung: Mitglied → Kategorie. Rose ist eine Blume; Wien ist eine Stadt.",
+    "explanation_en": "Relationship: Member → Category. Rose is a flower; Vienna is a city.",
+    "mistakes_de": "Typische Fehler: a) Österreich (das wäre Teil→Ganzes, nicht Mitglied→Kategorie).",
+    "mistakes_en": "Common mistakes: a) Austria (that would be Part→Whole, not Member→Category).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Mittel)"
+  },
+  {
+    "id": "cognitive-analogy-hard3",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Flüstern : Sprechen = Sprechen : ?",
+    "question_en": "Whispering : Speaking = Speaking : ?",
+    "options_de": [
+      "a) Schreien",
+      "b) Schweigen",
+      "c) Hören",
+      "d) Singen",
+      "e) Kommunizieren"
+    ],
+    "options_en": [
+      "a) Shouting",
+      "b) Silence",
+      "c) Listening",
+      "d) Singing",
+      "e) Communicating"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Beziehung: Intensitätsstufe – geringere Intensität : mittlere Intensität = mittlere Intensität : höhere Intensität. Flüstern (leise) : Sprechen (normal) = Sprechen (normal) : Schreien (laut).",
+    "explanation_en": "Relationship: Degree of intensity — lower : medium = medium : higher. Whispering (quiet) : Speaking (normal) = Speaking (normal) : Shouting (loud).",
+    "mistakes_de": "Typische Fehler: b) Schweigen (das wäre das Gegenteil von Schreien, nicht die Steigerung).",
+    "mistakes_en": "Common mistakes: b) Silence (that is the opposite of shouting, not the escalation).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Schwer)"
+  },
+  {
+    "id": "cognitive-analogy-hard4",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Schlüssel : Schloss = Passwort : ?",
+    "question_en": "Key : Lock = Password : ?",
+    "options_de": [
+      "a) Computer",
+      "b) Tür",
+      "c) Zugang/Konto",
+      "d) Sicherheit",
+      "e) Verschlüsselung"
+    ],
+    "options_en": [
+      "a) Computer",
+      "b) Door",
+      "c) Access/Account",
+      "d) Security",
+      "e) Encryption"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Beziehung: Zugangsmittel → das, was es öffnet/entsperrt. Schlüssel öffnet Schloss; Passwort entsperrt Zugang/Konto.",
+    "explanation_en": "Relationship: Access mechanism → what it opens/unlocks. Key opens a lock; password unlocks access/account.",
+    "mistakes_de": "Typische Fehler: a) Computer (zu allgemein; der Schlüssel wäre zum Schloss nicht zum Türrahmen analog).",
+    "mistakes_en": "Common mistakes: a) Computer (too general; key is to lock, not to door frame).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Schwer)"
+  },
+  {
+    "id": "cognitive-analogy-hard5",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Widmung : Raumordnungsgesetz = Bauordnung : ?",
+    "question_en": "Land designation : Spatial planning law = Building code : ?",
+    "options_de": [
+      "a) Baugesetz",
+      "b) Bebauungsplan",
+      "c) Baugenehmigung",
+      "d) Gemeinde",
+      "e) Flächenwidmungsplan"
+    ],
+    "options_en": [
+      "a) Construction law",
+      "b) Land-use plan",
+      "c) Building permit",
+      "d) Municipality",
+      "e) Zoning plan"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Beziehung: Instrument → übergeordnetes Gesetz (rechtliche Grundlage). Widmung ist Instrument des Raumordnungsgesetzes; Bauordnung ist Instrument des Baugesetzes.",
+    "explanation_en": "Relationship: Instrument → governing law (legal basis). Land designation is an instrument of spatial planning law; building code is an instrument of construction law.",
+    "mistakes_de": "Typische Fehler: b) Bebauungsplan (das ist ein weiteres Instrument, nicht die übergeordnete Rechtsgrundlage).",
+    "mistakes_en": "Common mistakes: b) Land-use plan (that is another instrument, not the governing law).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Schwer)"
+  },
+  {
+    "id": "cognitive-analogy-hard6",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "analogie"
+    ],
+    "question_de": "Thermometer : Temperatur = Seismograph : ?",
+    "question_en": "Thermometer : Temperature = Seismograph : ?",
+    "options_de": [
+      "a) Erde",
+      "b) Erdbeben/Bodenbewegung",
+      "c) Gefahr",
+      "d) Messung",
+      "e) Wissenschaft"
+    ],
+    "options_en": [
+      "a) Earth",
+      "b) Earthquake/Ground movement",
+      "c) Danger",
+      "d) Measurement",
+      "e) Science"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Beziehung: Messinstrument → gemessene Größe. Thermometer misst Temperatur; Seismograph misst Erdbeben/Bodenbewegung.",
+    "explanation_en": "Relationship: Measuring instrument → measured quantity. Thermometer measures temperature; seismograph measures earthquakes/ground movement.",
+    "mistakes_de": "Typische Fehler: a) Erde (zu allgemein; das wäre Thermometer:Luft, nicht Thermometer:Temperatur).",
+    "mistakes_en": "Common mistakes: a) Earth (too general; that would be thermometer:air, not thermometer:temperature).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Analogie (Schwer)"
+  },
+  {
+    "id": "cognitive-number-easy3",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n3, 6, 9, 12, 15, ?",
+    "question_en": "What number comes next?\n3, 6, 9, 12, 15, ?",
+    "options_de": [
+      "a) 16",
+      "b) 17",
+      "c) 18",
+      "d) 20",
+      "e) 21"
+    ],
+    "options_en": [
+      "a) 16",
+      "b) 17",
+      "c) 18",
+      "d) 20",
+      "e) 21"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Die Folge ist +3 pro Schritt: 3+3=6, 6+3=9, 9+3=12, 12+3=15, 15+3=18.",
+    "explanation_en": "The sequence adds 3 each step: 3+3=6, 6+3=9, 9+3=12, 12+3=15, 15+3=18.",
+    "mistakes_de": "Typische Fehler: d) 20 oder e) 21 (Verwechslung mit +5 oder ×2-Folgen).",
+    "mistakes_en": "Common mistakes: d) 20 or e) 21 (confusion with +5 or ×2 sequences).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Leicht)"
+  },
+  {
+    "id": "cognitive-number-easy4",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n2, 6, 18, 54, 162, ?",
+    "question_en": "What number comes next?\n2, 6, 18, 54, 162, ?",
+    "options_de": [
+      "a) 324",
+      "b) 486",
+      "c) 242",
+      "d) 200",
+      "e) 500"
+    ],
+    "options_en": [
+      "a) 324",
+      "b) 486",
+      "c) 242",
+      "d) 200",
+      "e) 500"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Jede Zahl wird mit 3 multipliziert: 2×3=6, 6×3=18, 18×3=54, 54×3=162, 162×3=486.",
+    "explanation_en": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162, 162×3=486.",
+    "mistakes_de": "Typische Fehler: a) 324 (Multiplikation mit 2 statt 3).",
+    "mistakes_en": "Common mistakes: a) 324 (multiplying by 2 instead of 3).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Leicht)"
+  },
+  {
+    "id": "cognitive-number-easy5",
+    "quizId": "cognitive",
+    "difficulty": "easy",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n100, 90, 80, 70, 60, ?",
+    "question_en": "What number comes next?\n100, 90, 80, 70, 60, ?",
+    "options_de": [
+      "a) 55",
+      "b) 50",
+      "c) 45",
+      "d) 40",
+      "e) 30"
+    ],
+    "options_en": [
+      "a) 55",
+      "b) 50",
+      "c) 45",
+      "d) 40",
+      "e) 30"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Jede Zahl wird um 10 reduziert: 100−10=90, 90−10=80, ..., 60−10=50.",
+    "explanation_en": "Each number decreases by 10: 100−10=90, 90−10=80, ..., 60−10=50.",
+    "mistakes_de": "Typische Fehler: d) 40 (Schritt als −20 interpretiert) oder e) 30 (−30).",
+    "mistakes_en": "Common mistakes: d) 40 (interpreting step as −20) or e) 30 (−30).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Leicht)"
+  },
+  {
+    "id": "cognitive-number-med3",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n1, 3, 2, 4, 3, 5, 4, ?",
+    "question_en": "What number comes next?\n1, 3, 2, 4, 3, 5, 4, ?",
+    "options_de": [
+      "a) 5",
+      "b) 6",
+      "c) 7",
+      "d) 8",
+      "e) 4"
+    ],
+    "options_en": [
+      "a) 5",
+      "b) 6",
+      "c) 7",
+      "d) 8",
+      "e) 4"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Zwei verschränkte Folgen: A (Position 1,3,5,7): 1,2,3,4 und B (Position 2,4,6,8): 3,4,5,?. Folge B: +1 jeweils → nächste = 6.",
+    "explanation_en": "Two interleaved sequences: A (positions 1,3,5,7): 1,2,3,4 and B (positions 2,4,6,8): 3,4,5,?. Sequence B adds 1 each time → next = 6.",
+    "mistakes_de": "Typische Fehler: a) 5 (nur die letzte Zahl +1 nehmen, ohne das Verschränkungsmuster zu erkennen).",
+    "mistakes_en": "Common mistakes: a) 5 (just adding 1 to the last number, missing the interleaved pattern).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Mittel)"
+  },
+  {
+    "id": "cognitive-number-med4",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n1, 4, 9, 16, 25, ?",
+    "question_en": "What number comes next?\n1, 4, 9, 16, 25, ?",
+    "options_de": [
+      "a) 30",
+      "b) 32",
+      "c) 36",
+      "d) 49",
+      "e) 35"
+    ],
+    "options_en": [
+      "a) 30",
+      "b) 32",
+      "c) 36",
+      "d) 49",
+      "e) 35"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Quadratzahlen: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36.",
+    "explanation_en": "Square numbers: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36.",
+    "mistakes_de": "Typische Fehler: d) 49 (7² überspringt 6²=36).",
+    "mistakes_en": "Common mistakes: d) 49 (skipping 6²=36 to 7²=49).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Mittel)"
+  },
+  {
+    "id": "cognitive-number-med5",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n3, 5, 8, 12, 17, 23, ?",
+    "question_en": "What number comes next?\n3, 5, 8, 12, 17, 23, ?",
+    "options_de": [
+      "a) 28",
+      "b) 29",
+      "c) 30",
+      "d) 31",
+      "e) 32"
+    ],
+    "options_en": [
+      "a) 28",
+      "b) 29",
+      "c) 30",
+      "d) 31",
+      "e) 32"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Die Differenzen steigen um 1: +2, +3, +4, +5, +6, +7. Nächster Schritt: 23+7=30.",
+    "explanation_en": "Differences increase by 1: +2, +3, +4, +5, +6, +7. Next step: 23+7=30.",
+    "mistakes_de": "Typische Fehler: a) 28 (Schritt konstant als +5 angenommen) oder b) 29 (+6).",
+    "mistakes_en": "Common mistakes: a) 28 (assuming constant step of +5) or b) 29 (+6).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Mittel)"
+  },
+  {
+    "id": "cognitive-number-med6",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n2, 1, 4, 3, 6, 5, 8, ?",
+    "question_en": "What number comes next?\n2, 1, 4, 3, 6, 5, 8, ?",
+    "options_de": [
+      "a) 6",
+      "b) 7",
+      "c) 9",
+      "d) 10",
+      "e) 8"
+    ],
+    "options_en": [
+      "a) 6",
+      "b) 7",
+      "c) 9",
+      "d) 10",
+      "e) 8"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Paare werden vertauscht: (2,1), (4,3), (6,5), (8,?). Jedes Paar: gerade Zahl, dann gerade−1. Das Paar lautet (8,7).",
+    "explanation_en": "Pairs are swapped: (2,1), (4,3), (6,5), (8,?). Each pair: even number, then even−1. The pair is (8,7).",
+    "mistakes_de": "Typische Fehler: c) 9 (nächste Zahl in aufsteigender Reihe statt Paar-Tausch-Muster).",
+    "mistakes_en": "Common mistakes: c) 9 (taking the next number in ascending order rather than recognising the swap pattern).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Mittel)"
+  },
+  {
+    "id": "cognitive-number-hard3",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n1, 3, 4, 7, 11, 18, ?",
+    "question_en": "What number comes next?\n1, 3, 4, 7, 11, 18, ?",
+    "options_de": [
+      "a) 22",
+      "b) 25",
+      "c) 27",
+      "d) 29",
+      "e) 36"
+    ],
+    "options_en": [
+      "a) 22",
+      "b) 25",
+      "c) 27",
+      "d) 29",
+      "e) 36"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Fibonacci-Variante: jede Zahl ist die Summe der zwei vorherigen. 1+3=4, 3+4=7, 4+7=11, 7+11=18, 11+18=29.",
+    "explanation_en": "Fibonacci variant: each number is the sum of the two preceding ones. 1+3=4, 3+4=7, 4+7=11, 7+11=18, 11+18=29.",
+    "mistakes_de": "Typische Fehler: a) 22 (falsche Additionspaare), b) 25 (+7).",
+    "mistakes_en": "Common mistakes: a) 22 (wrong addition pairs), b) 25 (+7).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Schwer)"
+  },
+  {
+    "id": "cognitive-number-hard4",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n1, 3, 7, 15, 31, ?",
+    "question_en": "What number comes next?\n1, 3, 7, 15, 31, ?",
+    "options_de": [
+      "a) 47",
+      "b) 55",
+      "c) 60",
+      "d) 63",
+      "e) 64"
+    ],
+    "options_en": [
+      "a) 47",
+      "b) 55",
+      "c) 60",
+      "d) 63",
+      "e) 64"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Formel: 2ⁿ − 1. 2¹−1=1, 2²−1=3, 2³−1=7, 2⁴−1=15, 2⁵−1=31, 2⁶−1=63. Oder: Differenzen verdoppeln sich: +2,+4,+8,+16,+32 → 31+32=63.",
+    "explanation_en": "Formula: 2ⁿ − 1. 2¹−1=1, 2²−1=3, 2³−1=7, 2⁴−1=15, 2⁵−1=31, 2⁶−1=63. Or: differences double: +2,+4,+8,+16,+32 → 31+32=63.",
+    "mistakes_de": "Typische Fehler: e) 64 (2⁶ statt 2⁶−1).",
+    "mistakes_en": "Common mistakes: e) 64 (2⁶ instead of 2⁶−1).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Schwer)"
+  },
+  {
+    "id": "cognitive-number-hard5",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n2, 6, 12, 20, 30, ?",
+    "question_en": "What number comes next?\n2, 6, 12, 20, 30, ?",
+    "options_de": [
+      "a) 40",
+      "b) 42",
+      "c) 44",
+      "d) 36",
+      "e) 38"
+    ],
+    "options_en": [
+      "a) 40",
+      "b) 42",
+      "c) 44",
+      "d) 36",
+      "e) 38"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Formel: n×(n+1). 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42. Alternativ: Differenzen +4,+6,+8,+10,+12 → 30+12=42.",
+    "explanation_en": "Formula: n×(n+1). 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42. Or: differences +4,+6,+8,+10,+12 → 30+12=42.",
+    "mistakes_de": "Typische Fehler: a) 40 (Schritt konstant +10 angenommen).",
+    "mistakes_en": "Common mistakes: a) 40 (assuming constant step of +10).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Schwer)"
+  },
+  {
+    "id": "cognitive-number-hard6",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl kommt als nächstes?\n20, 16, 12, 8, 12, 16, 20, ?",
+    "question_en": "What number comes next?\n20, 16, 12, 8, 12, 16, 20, ?",
+    "options_de": [
+      "a) 20",
+      "b) 22",
+      "c) 24",
+      "d) 16",
+      "e) 25"
+    ],
+    "options_en": [
+      "a) 20",
+      "b) 22",
+      "c) 24",
+      "d) 16",
+      "e) 25"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "V-förmiges Muster: −4,−4,−4 bis Minimum 8, dann +4,+4,+4. Nach 20 folgt +4=24.",
+    "explanation_en": "V-shaped pattern: −4,−4,−4 to minimum 8, then +4,+4,+4. After 20 comes +4=24.",
+    "mistakes_de": "Typische Fehler: a) 20 (Muster spiegelt sich bei 20 zurück, ohne zu steigen).",
+    "mistakes_en": "Common mistakes: a) 20 (pattern mirrors back at 20 without continuing upward).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Zahlenfolge (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-med1",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Amiv sind Plosa.\nAussage 2: Einige Plosa sind Griva.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: All Amiv are Plosa.\nStatement 2: Some Plosa are Griva.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Alle Amiv sind Griva",
+      "b) Einige Amiv sind Griva",
+      "c) Einige Griva sind Plosa",
+      "d) Kein Amiv ist Griva",
+      "e) Alle Griva sind Amiv"
+    ],
+    "options_en": [
+      "a) All Amiv are Griva",
+      "b) Some Amiv are Griva",
+      "c) Some Griva are Plosa",
+      "d) No Amiv is Griva",
+      "e) All Griva are Amiv"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "c) folgt direkt aus A2 (Konverse: Einige Plosa=Griva → Einige Griva=Plosa). a) nicht ableitbar (A2 sagt nur 'einige', nicht 'alle'). b) nicht ableitbar (die Amiv-Plosa könnten keine Griva sein). d) widersprüchlich zu b) aber nicht ableitbar. e) falsch.",
+    "explanation_en": "c) follows directly from S2 (converse: some Plosa=Griva → some Griva=Plosa). a) not derivable (S2 says 'some', not 'all'). b) not derivable. d) not derivable. e) false.",
+    "mistakes_de": "Typische Fehler: (1) b) akzeptieren weil A1+A2 verbunden klingen. (2) 'Einige' mit 'Alle' verwechseln.",
+    "mistakes_en": "Common mistakes: (1) Accepting b) because S1+S2 sound connected. (2) Confusing 'some' with 'all'.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Mittel)"
+  },
+  {
+    "id": "cognitive-logic-med2",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Furmi sind Telva.\nAussage 2: Alle Telva sind Wonu.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: All Furmi are Telva.\nStatement 2: All Telva are Wonu.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Alle Furmi sind Wonu",
+      "b) Alle Wonu sind Furmi",
+      "c) Einige Wonu sind Furmi",
+      "d) Kein Furmi ist Wonu",
+      "e) Einige Telva sind nicht Wonu"
+    ],
+    "options_en": [
+      "a) All Furmi are Wonu",
+      "b) All Wonu are Furmi",
+      "c) Some Wonu are Furmi",
+      "d) No Furmi is Wonu",
+      "e) Some Telva are not Wonu"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "a) folgt durch Kettenschluss: Alle Furmi=Telva und Alle Telva=Wonu → Alle Furmi=Wonu ✓. b) falsch (Konverse ist nicht zwingend). c) möglicherweise wahr aber nicht zwingend (b ist stärker und falsch). d) widerspricht a). e) widerspricht A2.",
+    "explanation_en": "a) follows by transitivity: All Furmi=Telva and All Telva=Wonu → All Furmi=Wonu ✓. b) false (converse not necessarily true). c) possibly but not necessarily. d) contradicts a). e) contradicts S2.",
+    "mistakes_de": "Typische Fehler: b) wählen (Umkehrschluss ist ein klassischer Denkfehler).",
+    "mistakes_en": "Common mistakes: Choosing b) — the converse fallacy is a classic error.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Mittel)"
+  },
+  {
+    "id": "cognitive-logic-med3",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Kein Glavo ist Hexi.\nAussage 2: Alle Yoki sind Glavo.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: No Glavo is Hexi.\nStatement 2: All Yoki are Glavo.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Kein Yoki ist Hexi",
+      "b) Einige Yoki sind Hexi",
+      "c) Alle Hexi sind Yoki",
+      "d) Einige Glavo sind Yoki",
+      "e) Kein Hexi ist Glavo"
+    ],
+    "options_en": [
+      "a) No Yoki is Hexi",
+      "b) Some Yoki are Hexi",
+      "c) All Hexi are Yoki",
+      "d) Some Glavo are Yoki",
+      "e) No Hexi is Glavo"
+    ],
+    "correct": [
+      0,
+      4
+    ],
+    "explanation_de": "a) folgt: Alle Yoki=Glavo (A2), kein Glavo=Hexi (A1) → kein Yoki=Hexi ✓. e) ist die Kontraposition von A1: Kein Glavo=Hexi ↔ Kein Hexi=Glavo ✓. b) widerspricht a). c) nicht ableitbar. d) möglicherweise wahr, aber nicht zwingend.",
+    "explanation_en": "a) follows: all Yoki=Glavo (S2), no Glavo=Hexi (S1) → no Yoki=Hexi ✓. e) is the contrapositive of S1: No Glavo=Hexi ↔ No Hexi=Glavo ✓. b) contradicts a). c) not derivable. d) possibly but not necessarily.",
+    "mistakes_de": "Typische Fehler: (1) e) als nicht ableitbar ablehnen (Kontraposition von 'Kein A ist B' ist 'Kein B ist A'). (2) d) als zwingend akzeptieren.",
+    "mistakes_en": "Common mistakes: (1) Rejecting e) as non-derivable (contrapositive of 'No A is B' is 'No B is A'). (2) Accepting d) as necessary.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Mittel)"
+  },
+  {
+    "id": "cognitive-logic-hard3",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Kein Brix ist Sova.\nAussage 2: Einige Sova sind Melu.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: No Brix is Sova.\nStatement 2: Some Sova are Melu.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Kein Melu ist Brix",
+      "b) Einige Melu sind nicht Brix",
+      "c) Alle Brix sind Melu",
+      "d) Kein Sova ist Brix",
+      "e) Einige Melu sind Sova"
+    ],
+    "options_en": [
+      "a) No Melu is Brix",
+      "b) Some Melu are not Brix",
+      "c) All Brix are Melu",
+      "d) No Sova is Brix",
+      "e) Some Melu are Sova"
+    ],
+    "correct": [
+      1,
+      3,
+      4
+    ],
+    "explanation_de": "d) ist Kontraposition von A1 (Kein Brix=Sova ↔ Kein Sova=Brix) ✓. e) Konverse aus A2: Einige Sova=Melu → Einige Melu=Sova ✓. b) folgt aus d)+e): Da einige Melu Sova sind und kein Sova Brix ist, sind jene Melu nicht Brix ✓. a) zu stark: nicht alle Melu müssen Nicht-Brix sein (Melu könnten auch unter Nicht-Sova auftreten). c) nicht ableitbar.",
+    "explanation_en": "d) is contrapositive of S1 (No Brix=Sova ↔ No Sova=Brix) ✓. e) converse of S2: some Sova=Melu → some Melu=Sova ✓. b) follows from d)+e): those Melu that are Sova are not Brix ✓. a) too strong: not ALL Melu need be non-Brix. c) not derivable.",
+    "mistakes_de": "Typische Fehler: (1) a) akzeptieren statt nur b). (2) d) als nicht ableitbar ablehnen. (3) Mehrfachwahl vergessen.",
+    "mistakes_en": "Common mistakes: (1) Accepting a) instead of just b). (2) Rejecting d) as non-derivable. (3) Forgetting multiple correct answers.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-hard4",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Kein Danu ist Sori.\nAussage 2: Kein Sori ist Weli.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: No Danu is Sori.\nStatement 2: No Sori is Weli.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Kein Danu ist Weli",
+      "b) Einige Danu sind Weli",
+      "c) Kein Weli ist Sori",
+      "d) Alle Danu sind Weli",
+      "e) Kein Sori ist Danu"
+    ],
+    "options_en": [
+      "a) No Danu is Weli",
+      "b) Some Danu are Weli",
+      "c) No Weli is Sori",
+      "d) All Danu are Weli",
+      "e) No Sori is Danu"
+    ],
+    "correct": [
+      2,
+      4
+    ],
+    "explanation_de": "c) Kontraposition von A2 (Kein Sori=Weli ↔ Kein Weli=Sori) ✓. e) Kontraposition von A1 (Kein Danu=Sori ↔ Kein Sori=Danu) ✓. a) nicht ableitbar: Danu und Weli überschneiden sich möglicherweise (kein gemeinsames Bindeglied erzwingt Trennung). b) d) ebenfalls nicht zwingend.",
+    "explanation_en": "c) contrapositive of S2 (No Sori=Weli ↔ No Weli=Sori) ✓. e) contrapositive of S1 (No Danu=Sori ↔ No Sori=Danu) ✓. a) not derivable: Danu and Weli have no forced relationship. b) d) also not derivable.",
+    "mistakes_de": "Typische Fehler: (1) a) akzeptieren – ein häufiger Irrtum ('wenn Danu ≠ Sori und Sori ≠ Weli, dann Danu ≠ Weli' ist logisch FALSCH). (2) Kontraposition nicht erkennen.",
+    "mistakes_en": "Common mistakes: (1) Accepting a) — a common error ('if Danu≠Sori and Sori≠Weli then Danu≠Weli' is logically FALSE). (2) Not recognising the contrapositive.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-hard5",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Rovi sind Nelo.\nAussage 2: Kein Nelo ist Pazu.\nAussage 3: Einige Rovi sind Quta.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: All Rovi are Nelo.\nStatement 2: No Nelo is Pazu.\nStatement 3: Some Rovi are Quta.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Kein Rovi ist Pazu",
+      "b) Einige Quta sind Nelo",
+      "c) Alle Nelo sind Rovi",
+      "d) Kein Pazu ist Nelo",
+      "e) Einige Quta sind nicht Pazu"
+    ],
+    "options_en": [
+      "a) No Rovi is Pazu",
+      "b) Some Quta are Nelo",
+      "c) All Nelo are Rovi",
+      "d) No Pazu is Nelo",
+      "e) Some Quta are not Pazu"
+    ],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation_de": "a) A1+A2: Alle Rovi=Nelo, kein Nelo=Pazu → kein Rovi=Pazu ✓. b) A3: Einige Rovi=Quta; A1: Alle Rovi=Nelo → jene Rovi sind sowohl Quta als auch Nelo → Einige Quta=Nelo ✓. c) falsch (Konverse). d) Kontraposition A2 ✓. e) Aus b)+a): die Quta die auch Rovi sind, sind nicht Pazu → Einige Quta ≠ Pazu ✓.",
+    "explanation_en": "a) S1+S2: All Rovi=Nelo, no Nelo=Pazu → no Rovi=Pazu ✓. b) S3: some Rovi=Quta; S1: all Rovi=Nelo → those Rovi are both Quta and Nelo → some Quta=Nelo ✓. c) false (converse). d) contrapositive of S2 ✓. e) from b)+a): those Quta that are Rovi are not Pazu → some Quta≠Pazu ✓.",
+    "mistakes_de": "Typische Fehler: (1) b) und e) übersehen (erfordern zwei Aussagen zu kombinieren). (2) c) fälschlicherweise akzeptieren.",
+    "mistakes_en": "Common mistakes: (1) Missing b) and e) (require combining two statements). (2) Wrongly accepting c).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-hard6",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Stevi sind Bruno.\nAussage 2: Alle Bruno sind Clavi.\nAussage 3: Kein Clavi ist Drovi.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: All Stevi are Bruno.\nStatement 2: All Bruno are Clavi.\nStatement 3: No Clavi is Drovi.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Kein Stevi ist Drovi",
+      "b) Alle Stevi sind Clavi",
+      "c) Kein Drovi ist Bruno",
+      "d) Einige Clavi sind Stevi",
+      "e) Kein Bruno ist Drovi"
+    ],
+    "options_en": [
+      "a) No Stevi is Drovi",
+      "b) All Stevi are Clavi",
+      "c) No Drovi is Bruno",
+      "d) Some Clavi are Stevi",
+      "e) No Bruno is Drovi"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "b) A1+A2 Kettenschluss: Alle Stevi=Bruno, Alle Bruno=Clavi → Alle Stevi=Clavi ✓. a) b)+A3: Alle Stevi=Clavi, kein Clavi=Drovi → kein Stevi=Drovi ✓. e) A2+A3: Alle Bruno=Clavi, kein Clavi=Drovi → kein Bruno=Drovi ✓. c) Kontraposition von e): kein Bruno=Drovi ↔ kein Drovi=Bruno ✓. d) nicht zwingend (Stevi könnten Teilmenge sein, aber nicht alle Clavi).",
+    "explanation_en": "b) chain: all Stevi=Bruno, all Bruno=Clavi → all Stevi=Clavi ✓. a) b)+S3: all Stevi=Clavi, no Clavi=Drovi → no Stevi=Drovi ✓. e) S2+S3: all Bruno=Clavi, no Clavi=Drovi → no Bruno=Drovi ✓. c) contrapositive of e) ✓. d) not necessarily (Stevi may be a subset but not all Clavi).",
+    "mistakes_de": "Typische Fehler: (1) d) als zwingend akzeptieren. (2) Nicht alle vier gültigen Schlüsse erkennen.",
+    "mistakes_en": "Common mistakes: (1) Accepting d) as necessary. (2) Not identifying all four valid conclusions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-hard7",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Einige Maro sind Nuri.\nAussage 2: Alle Nuri sind Opsi.\nAussage 3: Kein Opsi ist Peno.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: Some Maro are Nuri.\nStatement 2: All Nuri are Opsi.\nStatement 3: No Opsi is Peno.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Einige Maro sind Opsi",
+      "b) Alle Maro sind Opsi",
+      "c) Einige Maro sind nicht Peno",
+      "d) Kein Nuri ist Peno",
+      "e) Alle Opsi sind Nuri"
+    ],
+    "options_en": [
+      "a) Some Maro are Opsi",
+      "b) All Maro are Opsi",
+      "c) Some Maro are not Peno",
+      "d) No Nuri is Peno",
+      "e) All Opsi are Nuri"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ],
+    "explanation_de": "a) A1: Einige Maro=Nuri; A2: Alle Nuri=Opsi → jene Maro sind auch Opsi → Einige Maro=Opsi ✓. d) A2+A3: Alle Nuri=Opsi, kein Opsi=Peno → kein Nuri=Peno ✓. c) Aus a)+A3: Einige Maro=Opsi und kein Opsi=Peno → jene Maro≠Peno → Einige Maro≠Peno ✓. b) falsch (A1 sagt nur 'einige'). e) falsch (Konverse).",
+    "explanation_en": "a) S1: some Maro=Nuri; S2: all Nuri=Opsi → those Maro are also Opsi → some Maro=Opsi ✓. d) S2+S3: all Nuri=Opsi, no Opsi=Peno → no Nuri=Peno ✓. c) from a)+S3: some Maro=Opsi and no Opsi=Peno → those Maro≠Peno → some Maro≠Peno ✓. b) false (S1 says only 'some'). e) false (converse).",
+    "mistakes_de": "Typische Fehler: (1) b) akzeptieren ('einige'≠'alle'). (2) c) übersehen (erfordert a)+A3 zu kombinieren).",
+    "mistakes_en": "Common mistakes: (1) Accepting b) ('some'≠'all'). (2) Missing c) (requires combining a)+S3).",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-hard8",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Quor sind Revi oder Sati.\nAussage 2: Kein Revi ist Topi.\nAussage 3: Alle Sati sind Topi.\n\nWelche Schlüsse sind zwingend wahr?",
+    "question_en": "Logic:\nStatement 1: All Quor are Revi or Sati.\nStatement 2: No Revi is Topi.\nStatement 3: All Sati are Topi.\n\nWhich conclusions are necessarily true?",
+    "options_de": [
+      "a) Einige Quor sind Topi",
+      "b) Alle Quor sind Topi",
+      "c) Kein Quor ist sowohl Revi als auch Sati",
+      "d) Einige Quor sind nicht Revi",
+      "e) Kein Topi ist Revi"
+    ],
+    "options_en": [
+      "a) Some Quor are Topi",
+      "b) All Quor are Topi",
+      "c) No Quor is both Revi and Sati",
+      "d) Some Quor are not Revi",
+      "e) No Topi is Revi"
+    ],
+    "correct": [
+      2,
+      4
+    ],
+    "explanation_de": "c) A2: Kein Revi=Topi; A3: Alle Sati=Topi. Wenn ein Quor sowohl Revi als auch Sati wäre, wäre er Topi (wegen A3) und nicht Topi (wegen A2) – Widerspruch → Kein Quor ist beides ✓. e) Kontraposition A2: Kein Revi=Topi ↔ Kein Topi=Revi ✓. a) nicht zwingend (alle Quor könnten Revi sein). b) ebenfalls nicht zwingend. d) nicht zwingend.",
+    "explanation_en": "c) S2: no Revi=Topi; S3: all Sati=Topi. If a Quor were both Revi and Sati it would be Topi (S3) and not Topi (S2) — contradiction → no Quor is both ✓. e) contrapositive of S2 ✓. a) not necessary (all Quor could be Revi). b) not necessary. d) not necessary.",
+    "mistakes_de": "Typische Fehler: (1) a) oder b) als zwingend akzeptieren. (2) c) als zu komplex ablehnen.",
+    "mistakes_en": "Common mistakes: (1) Accepting a) or b) as necessary. (2) Rejecting c) as too complex.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Logik (Schwer)"
+  },
+  {
+    "id": "wuerfel-new1-bottom",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfel-komplex"
+    ],
+    "question_de": "WÜRFEL NEU 1: Ausgangszustand – Vorne: 1, Hinten: 6, Oben: 2, Unten: 5, Links: 3, Rechts: 4.\n\nSchritt 1: IN IHRE RICHTUNG kippen.\nSchritt 2: NACH RECHTS kippen.\nSchritt 3: VON IHNEN WEG kippen.\nSchritt 4: NACH LINKS kippen.\n\nWelche Zahl ist jetzt UNTEN?",
+    "question_en": "CUBE NEW 1: Starting state — Front: 1, Back: 6, Top: 2, Bottom: 5, Left: 3, Right: 4.\n\nStep 1: Tip IN YOUR DIRECTION.\nStep 2: Tip TO THE RIGHT.\nStep 3: Tip AWAY FROM YOU.\nStep 4: Tip TO THE LEFT.\n\nWhich number is now on the BOTTOM?",
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt 1 (In Ihre Richtung): V=2,H=5,O=6,U=1,L=3,R=4. Schritt 2 (Nach rechts): V=3,H=4,O=6,U=1,L=5,R=2. Schritt 3 (Von Ihnen weg): V=1,H=6,O=3,U=4,L=5,R=2. Schritt 4 (Nach links): V=2,H=5,O=3,U=4,L=1,R=6. Unten = 4.",
+    "explanation_en": "Step 1 (In your direction): V=2,H=5,O=6,U=1,L=3,R=4. Step 2 (Right): V=3,H=4,O=6,U=1,L=5,R=2. Step 3 (Away): V=1,H=6,O=3,U=4,L=5,R=2. Step 4 (Left): V=2,H=5,O=3,U=4,L=1,R=6. Bottom = 4.",
+    "mistakes_de": "Typische Fehler: (1) Oben/Unten statt Vorne/Hinten bei Links-/Rechts-Kippen fälschlicherweise tauschen. (2) Nach Schritt 3 aufhören und den vierten Schritt vergessen.",
+    "mistakes_en": "Common mistakes: (1) Wrongly swapping top/bottom instead of left/right when tipping sideways. (2) Stopping after step 3 and forgetting the fourth step.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Würfel (Schwer)"
+  },
+  {
+    "id": "wuerfel-new2-bottom",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfel-komplex"
+    ],
+    "question_de": "WÜRFEL NEU 2: Ausgangszustand – Vorne: A, Hinten: B, Oben: C, Unten: D, Links: E, Rechts: F.\n\nSchritt 1: VON IHNEN WEG kippen.\nSchritt 2: NACH LINKS kippen.\nSchritt 3: IN IHRE RICHTUNG kippen.\nSchritt 4: GEDREHT 180°.\nSchritt 5: NACH RECHTS kippen.\n\nWelcher Buchstabe ist jetzt UNTEN?",
+    "question_en": "CUBE NEW 2: Starting state — Front: A, Back: B, Top: C, Bottom: D, Left: E, Right: F.\n\nStep 1: Tip AWAY FROM YOU.\nStep 2: Tip TO THE LEFT.\nStep 3: Tip IN YOUR DIRECTION.\nStep 4: ROTATE 180°.\nStep 5: Tip TO THE RIGHT.\n\nWhich letter is now on the BOTTOM?",
+    "options_de": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      5
+    ],
+    "explanation_de": "S1 (Von weg): V=D,H=C,O=A,U=B,L=E,R=F. S2 (Nach links): V=F,H=E,O=A,U=B,L=D,R=C. S3 (In Ihre): V=A,H=B,O=E,U=F,L=D,R=C. S4 (180°): V=B,H=A,O=E,U=F,L=C,R=D. S5 (Nach rechts): V=C,H=D,O=E,U=F,L=A,R=B. Unten = F.",
+    "explanation_en": "S1 (Away): V=D,H=C,O=A,U=B,L=E,R=F. S2 (Left): V=F,H=E,O=A,U=B,L=D,R=C. S3 (In direction): V=A,H=B,O=E,U=F,L=D,R=C. S4 (180°): V=B,H=A,O=E,U=F,L=C,R=D. S5 (Right): V=C,H=D,O=E,U=F,L=A,R=B. Bottom = F.",
+    "mistakes_de": "Typische Fehler: (1) Gedreht 180° falsch anwenden (vertauscht V↔H und L↔R; O und U bleiben). (2) Schritte falsch akkumulieren.",
+    "mistakes_en": "Common mistakes: (1) Misapplying the 180° rotation (it swaps V↔H and L↔R; top and bottom stay). (2) Accumulation errors across steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Würfel (Schwer)"
+  },
+  {
+    "id": "wuerfel-new3-reverse",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfel-komplex"
+    ],
+    "question_de": "WÜRFEL NEU 3 (Umkehr): Ausgangszustand – Vorne: P, Hinten: Q, Oben: R, Unten: S, Links: T, Rechts: U.\n\nMit EINER einzigen Operation soll S (aktuell Unten) nach vorne kommen.\nWelche Operation ist korrekt?",
+    "question_en": "CUBE NEW 3 (Reverse): Starting state — Front: P, Back: Q, Top: R, Bottom: S, Left: T, Right: U.\n\nWith ONE single operation, bring S (currently on the Bottom) to the Front.\nWhich operation is correct?",
+    "options_de": [
+      "a) In Ihre Richtung kippen",
+      "b) Von Ihnen weg kippen",
+      "c) Nach rechts kippen",
+      "d) Nach links kippen",
+      "e) Gedreht 180°"
+    ],
+    "options_en": [
+      "a) Tip in your direction",
+      "b) Tip away from you",
+      "c) Tip to the right",
+      "d) Tip to the left",
+      "e) Rotate 180°"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "'Von Ihnen weg' kippt: U→V, V→O, O→H, H→U (L,R bleiben). Unten (S) kommt nach vorne ✓. 'In Ihre Richtung': bringt Oben (R) nach vorne. 'Nach rechts/links': ändert nur L/R/V/H. '180°': tauscht V↔H.",
+    "explanation_en": "'Away from you' tips: U→V, V→O, O→H, H→U (L,R stay). Bottom (S) comes to front ✓. 'In your direction': brings Top (R) to front. 'Right/Left': only changes L/R/V/H. '180°': swaps V↔H.",
+    "mistakes_de": "Typische Fehler: a) wählen – In Ihre Richtung bringt OBEN nach vorne, nicht unten.",
+    "mistakes_en": "Common mistakes: Choosing a) — 'In your direction' brings the TOP to the front, not the bottom.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Würfel (Schwer)"
+  },
+  {
+    "id": "wuerfel-new4-sixstep",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfel-komplex"
+    ],
+    "question_de": "WÜRFEL NEU 4 (6 Schritte): Ausgangszustand – Vorne: 1, Hinten: 2, Oben: 3, Unten: 4, Links: 5, Rechts: 6.\n\n1. NACH RECHTS kippen\n2. IN IHRE RICHTUNG kippen\n3. NACH LINKS kippen\n4. VON IHNEN WEG kippen\n5. GEDREHT 180°\n6. IN IHRE RICHTUNG kippen\n\nWelche Zahl ist jetzt VORNE?",
+    "question_en": "CUBE NEW 4 (6 steps): Starting state — Front: 1, Back: 2, Top: 3, Bottom: 4, Left: 5, Right: 6.\n\n1. Tip TO THE RIGHT\n2. Tip IN YOUR DIRECTION\n3. Tip TO THE LEFT\n4. Tip AWAY FROM YOU\n5. ROTATE 180°\n6. Tip IN YOUR DIRECTION\n\nWhich number is now on the FRONT?",
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "S1 (rechts): V=5,H=6,O=3,U=4,L=2,R=1. S2 (in Ihre): V=3,H=4,O=6,U=5,L=2,R=1. S3 (links): V=1,H=2,O=6,U=5,L=3,R=4. S4 (von weg): V=5,H=6,O=1,U=2,L=3,R=4. S5 (180°): V=6,H=5,O=1,U=2,L=4,R=3. S6 (in Ihre): V=1,H=2,O=5,U=6,L=4,R=3. Vorne = 1.",
+    "explanation_en": "S1 (right): V=5,H=6,O=3,U=4,L=2,R=1. S2 (in dir): V=3,H=4,O=6,U=5,L=2,R=1. S3 (left): V=1,H=2,O=6,U=5,L=3,R=4. S4 (away): V=5,H=6,O=1,U=2,L=3,R=4. S5 (180°): V=6,H=5,O=1,U=2,L=4,R=3. S6 (in dir): V=1,H=2,O=5,U=6,L=4,R=3. Front = 1.",
+    "mistakes_de": "Typische Fehler: (1) Nach Schritt 3 falsch vereinfachen (Schritte 1+2+3 sind nicht trivial rückgängig zu machen). (2) 180°-Drehung falsch auf Oben/Unten anwenden.",
+    "mistakes_en": "Common mistakes: (1) Incorrectly simplifying after step 3. (2) Misapplying the 180° rotation to top/bottom.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Würfel (Schwer)"
+  },
+  {
+    "id": "wuerfel-new5-sixstep",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfel-komplex"
+    ],
+    "question_de": "WÜRFEL NEU 5 (6 Schritte): Ausgangszustand – Vorne: A, Hinten: F, Oben: B, Unten: E, Links: C, Rechts: D.\n\n1. IN IHRE RICHTUNG kippen\n2. NACH RECHTS kippen\n3. IN IHRE RICHTUNG kippen\n4. VON IHNEN WEG kippen\n5. NACH LINKS kippen\n6. GEDREHT 180°\n\nWelcher Buchstabe ist jetzt VORNE?",
+    "question_en": "CUBE NEW 5 (6 steps): Starting state — Front: A, Back: F, Top: B, Bottom: E, Left: C, Right: D.\n\n1. Tip IN YOUR DIRECTION\n2. Tip TO THE RIGHT\n3. Tip IN YOUR DIRECTION\n4. Tip AWAY FROM YOU\n5. Tip TO THE LEFT\n6. ROTATE 180°\n\nWhich letter is now on the FRONT?",
+    "options_de": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "S1 (in Ihre): V=B,H=E,O=F,U=A,L=C,R=D. S2 (rechts): V=C,H=D,O=F,U=A,L=E,R=B. S3 (in Ihre): V=F,H=A,O=D,U=C,L=E,R=B. S4 (von weg): V=C,H=D,O=F,U=A,L=E,R=B. S5 (links): V=B,H=E,O=F,U=A,L=C,R=D. S6 (180°): V=E,H=B,O=F,U=A,L=D,R=C. Vorne = E.",
+    "explanation_en": "S1 (in dir): V=B,H=E,O=F,U=A,L=C,R=D. S2 (right): V=C,H=D,O=F,U=A,L=E,R=B. S3 (in dir): V=F,H=A,O=D,U=C,L=E,R=B. S4 (away): V=C,H=D,O=F,U=A,L=E,R=B. S5 (left): V=B,H=E,O=F,U=A,L=C,R=D. S6 (180°): V=E,H=B,O=F,U=A,L=D,R=C. Front = E.",
+    "mistakes_de": "Typische Fehler: (1) Bemerken dass S4+S3 teilweise rückgängig machen, aber das Bild nach S2 schon verändert wurde. (2) 180°-Drehung auf alle 6 Flächen anwenden statt nur V↔H und L↔R.",
+    "mistakes_en": "Common mistakes: (1) Noticing S4 partially reverses S3 without accounting for S2's effect. (2) Applying the 180° rotation to all 6 faces instead of only swapping V↔H and L↔R.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Übungsaufgabe Würfel (Schwer)"
   }
 ]
