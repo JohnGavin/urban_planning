@@ -84,10 +84,10 @@ const QuizEngine = (() => {
       const opts  = lang === 'en' ? (q.options_en  || q.options_de)  : q.options_de;
 
       const optHtml = opts.map((opt, oi) => `
-        <label class="quiz-option" data-qidx="${qi}" data-oidx="${oi}">
-          <input type="checkbox" data-qidx="${qi}" data-oidx="${oi}">
+        <div class="quiz-option" data-qidx="${qi}" data-oidx="${oi}" role="checkbox" aria-checked="false" tabindex="0" style="cursor:pointer">
+          <input type="checkbox" data-qidx="${qi}" data-oidx="${oi}" style="display:none">
           <span>${opt}</span>
-        </label>`).join('');
+        </div>`).join('');
 
       const correctCount = q.correct.length;
       const plural = correctCount === 1 ? 'richtige Antwort' : 'richtige Antworten';
@@ -302,12 +302,16 @@ const QuizEngine = (() => {
     }
 
     function wireQuizInteractions() {
-      // Option click toggles checkbox
-      container.querySelectorAll('.quiz-option').forEach(label => {
-        label.addEventListener('click', (e) => {
-          const cb = label.querySelector('input[type="checkbox"]');
-          if (e.target !== cb) cb.checked = !cb.checked;
-          label.classList.toggle('selected', cb.checked);
+      // Option click toggles selection — whole row is clickable
+      container.querySelectorAll('.quiz-option').forEach(el => {
+        el.addEventListener('click', () => {
+          const cb = el.querySelector('input[type="checkbox"]');
+          cb.checked = !cb.checked;
+          el.classList.toggle('selected', cb.checked);
+          el.setAttribute('aria-checked', String(cb.checked));
+        });
+        el.addEventListener('keydown', (e) => {
+          if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); el.click(); }
         });
       });
 
