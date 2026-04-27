@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raumplanung Reihungstest 2026 — Study Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <h2>Raumplanung</h2>
+      <div class="subtitle">TU Wien — Reihungstest 2026</div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Dashboard</div>
+    </div>
+    <a href="index.html" class="nav-link active"><span class="icon">&#127968;</span> Home</a>
+    <a href="exam/countdown.html" class="nav-link"><span class="icon">&#9200;</span> Exam Countdown</a>
+    <a href="dashboard/progress.html" class="nav-link"><span class="icon">&#128200;</span> My Progress</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Knowledge Base (DE)</div>
+    </div>
+    <a href="knowledge/reihungstest-de.html" class="nav-link"><span class="icon">&#128221;</span> Reihungstest Info</a>
+    <a href="knowledge/oerek2030-de.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
+    <a href="knowledge/studienplan-de.html" class="nav-link"><span class="icon">&#127891;</span> Studienplan</a>
+    <a href="knowledge/combined-de.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Knowledge Base (EN)</div>
+    </div>
+    <a href="knowledge/reihungstest-en.html" class="nav-link"><span class="icon">&#128221;</span> Exam Info</a>
+    <a href="knowledge/oerek2030-en.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
+    <a href="knowledge/studienplan-en.html" class="nav-link"><span class="icon">&#127891;</span> Study Plan</a>
+    <a href="knowledge/combined-en.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Quizzes</div>
+    </div>
+    <a href="quizzes/quiz-oerek-principles.html" class="nav-link"><span class="icon">&#10004;</span> OEREK Principles</a>
+    <a href="quizzes/quiz-oerek-megatrends.html" class="nav-link"><span class="icon">&#10004;</span> Megatrends</a>
+    <a href="quizzes/quiz-studienplan.html" class="nav-link"><span class="icon">&#10004;</span> Studienplan</a>
+    <a href="quizzes/quiz-cognitive.html" class="nav-link"><span class="icon">&#129504;</span> Cognitive Skills</a>
+    <a href="quizzes/quiz-full-mock.html" class="nav-link"><span class="icon">&#128336;</span> Full Mock Exam</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Resources</div>
+    </div>
+    <a href="https://github.com/JohnGavin/urban_planning" class="nav-link" target="_blank"><span class="icon">&#128279;</span> GitHub Repo</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="top-bar">
+      <div>
+        <h1>Reihungstest 2026</h1>
+        <p class="text-muted">Bachelor Raumplanung und Raumordnung — TU Wien</p>
+      </div>
+    </div>
+
+    <!-- Countdown -->
+    <div class="stats-grid">
+      <div class="stat-card" id="countdown-days">
+        <div class="stat-value">--</div>
+        <div class="stat-label">Days to Exam</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">10 Jul</div>
+        <div class="stat-label">Exam Date 2026</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">200</div>
+        <div class="stat-label">Study Places</div>
+      </div>
+      <div class="stat-card" id="stat-quizzes">
+        <div class="stat-value">0</div>
+        <div class="stat-label">Quizzes Completed</div>
+      </div>
+    </div>
+
+    <!-- Quick info cards -->
+    <h2>Exam Structure</h2>
+    <div class="stats-grid">
+      <div class="card">
+        <div class="card-title">Part A: Subject Knowledge</div>
+        <p class="text-muted" style="margin-top:0.5rem">Weight: <strong class="text-accent">40%</strong></p>
+        <p style="font-size:0.85rem">OEREK 2030 + Studienplan content. Multiple choice questions testing factual knowledge of Austrian spatial planning.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Part B: Text Comprehension</div>
+        <p class="text-muted" style="margin-top:0.5rem">Weight: <strong class="text-accent">20%</strong></p>
+        <p style="font-size:0.85rem">Read German texts on spatial planning topics. Assess if statements are true, false, or not determinable from the text.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Part C: Cognitive Abilities</div>
+        <p class="text-muted" style="margin-top:0.5rem">Weight: <strong class="text-accent">40%</strong></p>
+        <p style="font-size:0.85rem">Analogies, number sequences, logic tasks, spatial reasoning, and matrix pattern recognition.</p>
+      </div>
+    </div>
+
+    <!-- Key facts -->
+    <h2>Key Research Findings</h2>
+    <div class="card">
+      <table>
+        <tr><th style="width:40%">Detail</th><th>Value</th></tr>
+        <tr><td>Exam date</td><td><strong>10 July 2026</strong></td></tr>
+        <tr><td>Registration window</td><td>1 April &ndash; 4 May 2026</td></tr>
+        <tr><td>Available places</td><td>200 per year</td></tr>
+        <tr><td>2024 statistics</td><td>233 registered &rarr; 231 invited &rarr; 189 awarded</td></tr>
+        <tr><td>2025 statistics</td><td>225 registered &rarr; 223 invited &rarr; 182 participated</td></tr>
+        <tr><td>Exam duration</td><td>Exactly 2 hours (arrive 1h early; ~4-5h on-site)</td></tr>
+        <tr><td>Format</td><td>Written on paper &mdash; MC answer sheets, electronically scanned</td></tr>
+        <tr><td>Language</td><td>German only</td></tr>
+        <tr><td>Scoring</td><td>Part A: 40% &bull; Part B: 20% &bull; Part C: 40% (weighted sum = rank)</td></tr>
+        <tr><td>MC scoring rule</td><td>Partial credit for correct ticks; wrong ticks reduce score (but min 0 per question)</td></tr>
+        <tr><td>Past exams</td><td>Not publicly available (only sample questions in Info PDF)</td></tr>
+        <tr><td>Recent acceptance rate</td><td>~82-91% of participants get a place (more places than test-takers recently)</td></tr>
+      </table>
+    </div>
+
+    <div class="alert alert-info">
+      <strong>Good news:</strong> In 2024 and 2025, fewer people participated in the Reihungstest than there were places available (189/200 and 182/200). This means currently everyone who participates and does reasonably well gets a place. However, this could change in 2026 with the new earlier registration deadline.
+    </div>
+
+    <!-- Quick links -->
+    <h2>Start Studying</h2>
+    <div class="stats-grid">
+      <a href="exam/countdown.html" class="card" style="text-decoration:none">
+        <div class="card-title">&#9200; Exam Countdown</div>
+        <p class="text-muted" style="font-size:0.85rem">Timeline, study plan, exam day details</p>
+      </a>
+      <a href="knowledge/oerek2030-de.html" class="card" style="text-decoration:none">
+        <div class="card-title">&#127758; OEREK 2030 (biggest topic)</div>
+        <p class="text-muted" style="font-size:0.85rem">Austrian Spatial Development Concept</p>
+      </a>
+      <a href="quizzes/quiz-oerek-principles.html" class="card" style="text-decoration:none">
+        <div class="card-title">&#10004; Take a Quiz</div>
+        <p class="text-muted" style="font-size:0.85rem">Test your knowledge with MC questions</p>
+      </a>
+    </div>
+
+    <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
+      Source: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
+      &bull; Built with Claude for TU Wien Raumplanung exam prep
+      &bull; Content derived from official TU Wien / OEREK documents
+    </footer>
+  </main>
+</div>
+
+<script src="js/countdown.js"></script>
+<script src="js/student-db.js"></script>
+<script>
+  // Update countdown days on home page
+  document.addEventListener('DOMContentLoaded', async () => {
+    const t = ExamCountdown.getTimeRemaining();
+    const el = document.getElementById('countdown-days');
+    if (el) {
+      const cls = t.days < 30 ? 'urgent' : t.days < 60 ? 'warning' : '';
+      el.className = 'stat-card ' + cls;
+      el.querySelector('.stat-value').textContent = t.days;
+    }
+    // Update quiz count from DB
+    try {
+      const stats = await StudentDB.getStats();
+      const qel = document.getElementById('stat-quizzes');
+      if (qel) qel.querySelector('.stat-value').textContent = stats.totalAttempts;
+    } catch(e) { /* IndexedDB may not be available in file:// on some browsers */ }
+  });
+</script>
+</body>
+</html>

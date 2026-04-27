@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Countdown — Raumplanung 2026</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="page-wrapper">
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <h2>Raumplanung</h2>
+      <div class="subtitle">TU Wien — Reihungstest 2026</div>
+    </div>
+    <div class="nav-section"><div class="nav-section-title">Dashboard</div></div>
+    <a href="../index.html" class="nav-link"><span class="icon">&#127968;</span> Home</a>
+    <a href="countdown.html" class="nav-link active"><span class="icon">&#9200;</span> Exam Countdown</a>
+    <a href="../dashboard/progress.html" class="nav-link"><span class="icon">&#128200;</span> My Progress</a>
+    <div class="nav-section"><div class="nav-section-title">Knowledge Base (DE)</div></div>
+    <a href="../knowledge/reihungstest-de.html" class="nav-link">&#128221; Reihungstest Info</a>
+    <a href="../knowledge/oerek2030-de.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="../knowledge/studienplan-de.html" class="nav-link">&#127891; Studienplan</a>
+    <div class="nav-section"><div class="nav-section-title">Knowledge Base (EN)</div></div>
+    <a href="../knowledge/reihungstest-en.html" class="nav-link">&#128221; Exam Info</a>
+    <a href="../knowledge/oerek2030-en.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="../knowledge/studienplan-en.html" class="nav-link">&#127891; Study Plan</a>
+    <div class="nav-section"><div class="nav-section-title">Quizzes</div></div>
+    <a href="../quizzes/quiz-oerek-principles.html" class="nav-link">&#10004; OEREK Principles</a>
+    <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link">&#10004; Megatrends</a>
+    <a href="../quizzes/quiz-studienplan.html" class="nav-link">&#10004; Studienplan</a>
+    <a href="../quizzes/quiz-cognitive.html" class="nav-link">&#129504; Cognitive Skills</a>
+    <a href="../quizzes/quiz-full-mock.html" class="nav-link">&#128336; Full Mock Exam</a>
+    <div class="nav-section"><div class="nav-section-title">Resources</div></div>
+    <a href="https://github.com/JohnGavin/urban_planning" class="nav-link" target="_blank">&#128279; GitHub Repo</a>
+  </nav>
+
+  <main class="main-content">
+    <div class="top-bar">
+      <h1>Exam Countdown</h1>
+    </div>
+
+    <!-- Live countdown -->
+    <div class="countdown-display" id="countdown-timer"></div>
+
+    <!-- Tabset -->
+    <div class="tab-container">
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="key-facts">Key Facts</button>
+        <button class="tab-btn" data-tab="exam-day">Exam Day Details</button>
+        <button class="tab-btn" data-tab="study-plan">Study Plan</button>
+        <button class="tab-btn" data-tab="milestones">Milestones</button>
+      </div>
+
+      <!-- TAB: Key Facts -->
+      <div class="tab-content active" data-tab="key-facts">
+        <h2>Key Research Findings</h2>
+        <div class="card">
+          <table>
+            <tr><th style="width:40%">Detail</th><th>Value</th></tr>
+            <tr><td>Exam date</td><td><strong>Friday, 10 July 2026</strong></td></tr>
+            <tr><td>Registration window</td><td>1 April &ndash; 4 May 2026 (online via TISS)</td></tr>
+            <tr><td>Available places</td><td>200 per year</td></tr>
+            <tr><td>Exam duration</td><td>Exactly 2 hours</td></tr>
+            <tr><td>On-site time</td><td>~4-5 hours total (arrive 1h early)</td></tr>
+            <tr><td>Format</td><td>Written on <strong>paper</strong> &mdash; mark answers on MC answer sheets with pen</td></tr>
+            <tr><td>Answer scanning</td><td>Electronically scanned &mdash; must be clean, unambiguous marks (crosses)</td></tr>
+            <tr><td>Language</td><td><strong>German only</strong> (all questions, all sections)</td></tr>
+            <tr><td>Scoring weights</td><td>Part A: 40% &bull; Part B: 20% &bull; Part C: 40%</td></tr>
+            <tr><td>MC scoring</td><td>One or more correct answers per question (but never all). Partial credit for correct ticks. Wrong ticks reduce score. Minimum 0 per question.</td></tr>
+            <tr><td>What to bring</td><td>Identification card from registration + first page of admission confirmation</td></tr>
+            <tr><td>If you miss it</td><td>No second chance &mdash; no make-up appointment. You cannot be admitted that year.</td></tr>
+          </table>
+        </div>
+
+        <h3>Historical Statistics</h3>
+        <div class="card">
+          <table>
+            <tr><th>Year</th><th>Registered</th><th>Invited</th><th>Participated/Awarded</th><th>Places</th><th>Acceptance</th></tr>
+            <tr><td>2024</td><td>233</td><td>231</td><td>189 awarded</td><td>200</td><td>~82%</td></tr>
+            <tr><td>2025</td><td>225</td><td>223</td><td>182 participated</td><td>200</td><td>~91%</td></tr>
+          </table>
+        </div>
+        <div class="alert alert-info">
+          In recent years, fewer people took the test than there were places. Everyone who participated and did reasonably well got a place. But 2026 has new earlier deadlines, which may change patterns.
+        </div>
+
+        <h3>Important Links</h3>
+        <ul>
+          <li><a href="https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure" target="_blank">Official Admission Procedure (EN)</a></li>
+          <li><a href="https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure/ranking-test" target="_blank">Ranking Test Details (EN)</a></li>
+          <li><a href="https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure/faq" target="_blank">FAQ (EN)</a></li>
+          <li><a href="https://ar.tuwien.ac.at/Studium/Bachelorstudium-Raumplanung-und-Raumordnung/aufnahmeverfahren-raumplanung-und-raumordnung" target="_blank">Aufnahmeverfahren (DE)</a></li>
+          <li><a href="https://www.fsraum.at/studium/inskription/" target="_blank">Fachschaft Raumplanung (Student Association)</a></li>
+          <li><a href="https://tiss.tuwien.ac.at/aufnahme/aufnahmeverfahren" target="_blank">TISS Registration Portal</a></li>
+        </ul>
+      </div>
+
+      <!-- TAB: Exam Day Details -->
+      <div class="tab-content" data-tab="exam-day">
+        <h2>What to Expect on Exam Day</h2>
+
+        <h3>Before the Exam</h3>
+        <div class="card">
+          <table>
+            <tr><th style="width:30%">Item</th><th>Detail</th></tr>
+            <tr><td>Date</td><td>Friday, 10 July 2026</td></tr>
+            <tr><td>Arrival</td><td>~1 hour before exam start. Total on-site time: 4-5 hours.</td></tr>
+            <tr><td>Location</td><td>TU Wien campus (exact hall announced in your admission confirmation via TISS)</td></tr>
+            <tr><td>Bring</td><td>
+              <ul>
+                <li>Your <strong>identification card</strong> provided during registration</li>
+                <li>The <strong>first page of your admission confirmation</strong></li>
+                <li>Pen (for marking answer sheets)</li>
+                <li>No electronic devices allowed during the exam</li>
+              </ul>
+            </td></tr>
+          </table>
+        </div>
+
+        <h3>During the Exam (2 hours)</h3>
+        <div class="card">
+          <p>You receive:</p>
+          <ul>
+            <li>An <strong>Aufgabenheft</strong> (task booklet) with all questions</li>
+            <li><strong>Antwortbögen</strong> (answer sheets) for marking your responses</li>
+          </ul>
+          <p style="margin-top:1rem"><strong>Important rules:</strong></p>
+          <ul>
+            <li>The test leader gives instructions before you start &mdash; listen carefully</li>
+            <li>You choose the order of sections (A, B, C) yourself</li>
+            <li>You can mark answers directly on answer sheets OR in the booklet first and transfer later</li>
+            <li><strong>Only answers on the answer sheet count</strong> &mdash; booklet marks are not scored</li>
+            <li>Marks must be clean and unambiguous (the computer cannot interpret unclear marks)</li>
+            <li>Plan time for transferring answers if you work in the booklet first</li>
+          </ul>
+        </div>
+
+        <h3>The Three Exam Parts</h3>
+        <div class="card">
+          <h4>Part A: Subject Knowledge (Fachteil) &mdash; 40%</h4>
+          <ul>
+            <li>Multiple choice questions about OEREK 2030 and Studienplan content</li>
+            <li>One or more answers can be correct per question (but never all)</li>
+            <li>Partial credit for each correct tick</li>
+            <li>Wrong ticks are subtracted from correct ticks</li>
+            <li>Minimum score per question: 0 (cannot go negative)</li>
+            <li><strong>Tip:</strong> Only tick answers you are confident about. Guessing can cost points.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Part B: Text Comprehension (Textverständnis) &mdash; 20%</h4>
+          <ul>
+            <li>Read German texts about spatial planning topics</li>
+            <li>For each statement, decide: <strong>true</strong>, <strong>false</strong>, or <strong>not determinable</strong> based on the text</li>
+            <li>Base your answer ONLY on the text, not your outside knowledge</li>
+            <li>You may re-read the texts during this section</li>
+            <li><strong>Tip:</strong> Even if a statement seems true, check if the text actually supports it</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Part C: Cognitive Abilities (Kognitive Fähigkeiten) &mdash; 40%</h4>
+          <p>Multiple sub-types:</p>
+          <ul>
+            <li><strong>Analogies (Analoges Schließen):</strong> "A : B = C : ?" — find the word with the same relationship</li>
+            <li><strong>Number sequences (Zahlenfolgen):</strong> Find the next integer in the pattern using basic arithmetic</li>
+            <li><strong>Logic tasks (Logikaufgaben):</strong> Two premises → which conclusions are valid?</li>
+            <li><strong>Spatial reasoning (Räumliches Vorstellen):</strong> Track a cube being rotated/flipped step by step</li>
+            <li><strong>Matrices (Matrizen):</strong> Find the missing figure in a pattern grid — construct the answer from elements</li>
+          </ul>
+          <p style="margin-top:0.75rem"><strong>Tip:</strong> For spatial reasoning and matrices, sketch your answer in the drawing field provided. Sketches are not scored but help you mark the correct answer on the answer sheet.</p>
+        </div>
+
+        <h3>After the Exam</h3>
+        <div class="card">
+          <ul>
+            <li>Answer sheets are electronically scanned and scored</li>
+            <li>Weighted scores (40/20/40) are summed to a total score</li>
+            <li>Candidates are ranked by total score</li>
+            <li>Top 200 candidates are offered a study place</li>
+            <li>Results are communicated via your TISS guest account</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- TAB: Study Plan -->
+      <div class="tab-content" data-tab="study-plan">
+        <h2>10-Week Study Plan</h2>
+        <p class="text-muted">Based on ~74 days until the exam (27 April &rarr; 10 July 2026). Adjust dates as needed.</p>
+
+        <div class="alert alert-warning">
+          <strong>Priority allocation:</strong> Part A (40%) and Part C (40%) carry equal weight. Part C is harder to improve quickly (cognitive skills), but Part A is pure memorization and can be crammed. Strategy: start with OEREK 2030 reading, practice cognitive tasks in parallel.
+        </div>
+
+        <div class="card">
+          <table>
+            <tr><th>Week</th><th>Dates</th><th>Focus</th><th>Tasks</th></tr>
+            <tr>
+              <td><strong>1</strong></td><td>28 Apr &ndash; 4 May</td>
+              <td><span class="badge badge-error">URGENT: Registration</span></td>
+              <td>
+                <ul>
+                  <li>Complete online registration at TISS (deadline: 4 May!)</li>
+                  <li>Upload motivation letter (German, 2000-3500 chars)</li>
+                  <li>Read Reihungstest Info PDF completely</li>
+                  <li>Skim OEREK 2030 — read the table of contents and introduction</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>2</strong></td><td>5 &ndash; 11 May</td>
+              <td><span class="badge badge-info">OEREK 2030 Part 1</span></td>
+              <td>
+                <ul>
+                  <li>Read OEREK Ch. 1-2: Mission Statement, Leitbild, Grundsätze</li>
+                  <li>Learn the 3 principles: klimaverträglich, gemeinwohlorientiert, gerecht</li>
+                  <li>Take quiz: OEREK Principles</li>
+                  <li>Start daily cognitive practice (15 min: analogies, number sequences)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>3</strong></td><td>12 &ndash; 18 May</td>
+              <td><span class="badge badge-info">OEREK 2030 Part 2</span></td>
+              <td>
+                <ul>
+                  <li>Read OEREK Ch. 3: Megatrends (climate, digitalization, demographics, etc.)</li>
+                  <li>Take quiz: Megatrends</li>
+                  <li>Cognitive practice: logic tasks, spatial reasoning</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>4</strong></td><td>19 &ndash; 25 May</td>
+              <td><span class="badge badge-info">OEREK 2030 Part 3</span></td>
+              <td>
+                <ul>
+                  <li>Read OEREK Ch. 4-5: Global/EU/national mandates + spatial challenges</li>
+                  <li>Learn the 5 OEREK spatial types (Stadtregionen, ländliche Räume, etc.)</li>
+                  <li>Cognitive practice: matrices</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>5</strong></td><td>26 May &ndash; 1 Jun</td>
+              <td><span class="badge badge-info">OEREK 2030 Part 4</span></td>
+              <td>
+                <ul>
+                  <li>Read OEREK Ch. 6: The 4 pillars of the action program</li>
+                  <li>Read OEREK Ch. 7: The 10-point program</li>
+                  <li>Take comprehensive OEREK quiz</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>6</strong></td><td>2 &ndash; 8 Jun</td>
+              <td><span class="badge badge-info">Studienplan</span></td>
+              <td>
+                <ul>
+                  <li>Read Studienplan: qualification profile, structure, modules overview</li>
+                  <li>Note: exact LV titles not tested — focus on what Raumplanung IS</li>
+                  <li>Take quiz: Studienplan</li>
+                  <li>First full mock exam (untimed, for familiarization)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>7</strong></td><td>9 &ndash; 15 Jun</td>
+              <td><span class="badge badge-warning">Review + Weak Areas</span></td>
+              <td>
+                <ul>
+                  <li>Review dashboard — identify weak topics</li>
+                  <li>Re-read weak OEREK sections</li>
+                  <li>Practice text comprehension with sample texts</li>
+                  <li>Timed mock exam #1 (2 hours)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>8</strong></td><td>16 &ndash; 22 Jun</td>
+              <td><span class="badge badge-warning">Intensive Practice</span></td>
+              <td>
+                <ul>
+                  <li>Daily quiz rotation (one topic per day)</li>
+                  <li>Cognitive practice: 30 min/day</li>
+                  <li>Re-read OEREK key sections (principles, spatial goals, action pillars)</li>
+                  <li>Timed mock exam #2</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>9</strong></td><td>23 &ndash; 29 Jun</td>
+              <td><span class="badge badge-warning">Consolidation</span></td>
+              <td>
+                <ul>
+                  <li>Focus on OEREK vocabulary in German (key terms, definitions)</li>
+                  <li>Practice tricky text comprehension (distinguish "true" from "not determinable")</li>
+                  <li>Timed mock exam #3</li>
+                  <li>Review all quiz history — target 80%+ on all topics</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>10</strong></td><td>30 Jun &ndash; 9 Jul</td>
+              <td><span class="badge badge-error">Final Week</span></td>
+              <td>
+                <ul>
+                  <li>Light review only — no new material</li>
+                  <li>Final mock exam #4 (simulate full exam conditions)</li>
+                  <li>Prepare documents: ID card, admission confirmation</li>
+                  <li>Check exam location and plan travel</li>
+                  <li>Rest well the night before</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB: Milestones -->
+      <div class="tab-content" data-tab="milestones">
+        <h2>Critical Milestones</h2>
+        <div class="card">
+          <table>
+            <tr><th>Date</th><th>Milestone</th><th>Status</th></tr>
+            <tr><td><strong>4 May 2026</strong></td><td>Registration deadline (TISS) + motivation letter upload</td><td><span class="badge badge-error">7 days left!</span></td></tr>
+            <tr><td>18 May</td><td>Finish OEREK 2030 chapters 1-3 (principles + megatrends)</td><td><span class="badge badge-warning">Pending</span></td></tr>
+            <tr><td>1 Jun</td><td>Finish OEREK 2030 completely</td><td><span class="badge badge-warning">Pending</span></td></tr>
+            <tr><td>8 Jun</td><td>Finish Studienplan reading + first mock exam</td><td><span class="badge badge-warning">Pending</span></td></tr>
+            <tr><td>15 Jun</td><td>All quiz topics attempted at least once</td><td><span class="badge badge-warning">Pending</span></td></tr>
+            <tr><td>29 Jun</td><td>All quiz topics at 80%+ accuracy</td><td><span class="badge badge-warning">Pending</span></td></tr>
+            <tr><td>9 Jul</td><td>Final mock exam completed + documents prepared</td><td><span class="badge badge-warning">Pending</span></td></tr>
+            <tr><td><strong>10 Jul 2026</strong></td><td>EXAM DAY</td><td><span class="badge badge-info">Target</span></td></tr>
+          </table>
+        </div>
+
+        <div class="alert alert-warning">
+          <strong>Registration closes 4 May 2026!</strong> If not already registered, do this IMMEDIATELY at
+          <a href="https://tiss.tuwien.ac.at/aufnahme/aufnahmeverfahren" target="_blank">tiss.tuwien.ac.at</a>.
+          You must upload a German motivation letter (2000-3500 characters) during registration.
+        </div>
+      </div>
+    </div>
+
+    <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
+      Source: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
+    </footer>
+  </main>
+</div>
+
+<script src="../js/countdown.js"></script>
+<script src="../js/tabs.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    ExamCountdown.render('countdown-timer');
+  });
+</script>
+</body>
+</html>
