@@ -1,0 +1,383 @@
+/**
+ * QuizEngine — loads questions from data/questions.json, renders MC quiz,
+ * scores with partial credit (exam rule), saves to IndexedDB via StudentDB.
+ *
+ * Usage: QuizEngine.init('oerek-principles', 'quiz-container')
+ *
+ * Scoring rule (mirrors TU Wien Reihungstest Part A):
+ *   For a question with k correct answers:
+ *     +1/k  for each correct option ticked
+ *     -1/k  for each incorrect option ticked
+ *     floor at 0 (no negative per-question score)
+ *   Total score = sum of per-question scores, expressed as %.
+ */
+
+const QuizEngine = (() => {
+
+  // ── Helpers ────────────────────────────────────────────────────────────────
+
+  function resolveDataUrl() {
+    // Works from any subdirectory: find the root by going up from current page.
+    const loc = window.location.href;
+    // Strip filename, keep directory
+    const dir = loc.substring(0, loc.lastIndexOf('/') + 1);
+    // Walk up to site root (one level up from /quizzes/)
+    const root = dir.endsWith('/quizzes/')
+      ? dir.slice(0, -'quizzes/'.length)
+      : dir;
+    return root + 'data/questions.json';
+  }
+
+  function pad2(n) { return String(n).padStart(2, '0'); }
+
+  function formatDuration(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return m > 0 ? `${m}m ${pad2(s)}s` : `${s}s`;
+  }
+
+  function scoreQuestion(question, selectedIndices) {
+    const correct = question.correct;
+    const k = correct.length;
+    if (k === 0) return 0;
+
+    let raw = 0;
+    selectedIndices.forEach(idx => {
+      if (correct.includes(idx)) {
+        raw += 1 / k;
+      } else {
+        raw -= 1 / k;
+      }
+    });
+    return Math.max(0, raw);
+  }
+
+  // ── Rendering ──────────────────────────────────────────────────────────────
+
+  function renderStartScreen(container, questions, quizId) {
+    container.innerHTML = `
+      <div class="card">
+        <div class="card-title">&#9654; Quiz bereit — ${questions.length} Fragen</div>
+        <table style="margin:1rem 0">
+          <tr><th style="width:40%">Details</th><th>Wert</th></tr>
+          <tr><td>Quiz-ID</td><td><code>${quizId}</code></td></tr>
+          <tr><td>Anzahl Fragen</td><td>${questions.length}</td></tr>
+          <tr><td>Format</td><td>Multiple Choice (alle richtigen ankreuzen)</td></tr>
+          <tr><td>Bewertung</td><td>Teilpunkte; Abzug für falsche Kreuze (min. 0/Frage)</td></tr>
+          <tr><td>Zeitlimit</td><td>Keines (Übungsmodus)</td></tr>
+        </table>
+        <div style="margin-top:1rem;display:flex;gap:0.75rem;align-items:center">
+          <button id="qe-start-btn" class="btn btn-primary" style="font-size:1rem;padding:0.75rem 2rem">
+            &#9654; Quiz starten
+          </button>
+          <div id="qe-lang-toggle" style="display:flex;gap:0.25rem;background:var(--tu-surface);border-radius:var(--radius);padding:0.25rem">
+            <button class="lang-btn active" data-lang="de" style="padding:0.4rem 0.8rem;border:none;border-radius:6px;background:var(--tu-blue);color:#fff;cursor:pointer;font-size:0.85rem">DE</button>
+            <button class="lang-btn" data-lang="en" style="padding:0.4rem 0.8rem;border:none;border-radius:6px;background:transparent;color:var(--tu-text-muted);cursor:pointer;font-size:0.85rem">EN</button>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function renderQuestions(container, questions, lang) {
+    const html = questions.map((q, qi) => {
+      const qText = lang === 'en' ? (q.question_en || q.question_de) : q.question_de;
+      const opts  = lang === 'en' ? (q.options_en  || q.options_de)  : q.options_de;
+
+      const optHtml = opts.map((opt, oi) => `
+        <label class="quiz-option" data-qidx="${qi}" data-oidx="${oi}">
+          <input type="checkbox" data-qidx="${qi}" data-oidx="${oi}">
+          <span>${opt}</span>
+        </label>`).join('');
+
+      const correctCount = q.correct.length;
+      const plural = correctCount === 1 ? 'richtige Antwort' : 'richtige Antworten';
+
+      return `
+        <div class="quiz-question" id="qe-q-${qi}">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+            <span class="badge badge-info">Frage ${qi + 1}</span>
+            <span style="font-size:0.8rem;color:var(--tu-text-muted)">${correctCount} ${plural}</span>
+          </div>
+          <div class="quiz-question-text">${qText}</div>
+          <div class="qe-options">${optHtml}</div>
+          <div class="quiz-explanation" id="qe-exp-${qi}">
+            ${lang === 'en' ? (q.explanation_en || q.explanation_de) : q.explanation_de}
+            <div style="font-size:0.78rem;color:var(--tu-text-dim);margin-top:0.4rem">Quelle: ${q.source || '—'}</div>
+          </div>
+        </div>`;
+    }).join('');
+
+    container.innerHTML = `
+      <div id="qe-timer-bar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;padding:0.75rem 1rem;background:var(--tu-surface);border-radius:var(--radius);border:1px solid var(--tu-border)">
+        <span style="color:var(--tu-text-muted);font-size:0.9rem">&#128336; Zeit: <span id="qe-elapsed">0s</span></span>
+        <span style="color:var(--tu-text-muted);font-size:0.9rem">Fragen: ${questions.length}</span>
+      </div>
+      <div id="qe-questions">${html}</div>
+      <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap">
+        <button id="qe-submit-btn" class="btn btn-primary" style="font-size:1rem;padding:0.75rem 2rem">
+          &#10003; Auswertung anzeigen
+        </button>
+        <button id="qe-reset-btn" class="btn btn-outline">
+          &#8635; Neu starten
+        </button>
+      </div>`;
+  }
+
+  function renderResults(container, questions, userAnswers, scores, lang, durationSec) {
+    const total = questions.length;
+    const rawSum = scores.reduce((a, b) => a + b, 0);
+    const maxScore = total; // max 1 point per question
+    const percentage = Math.round((rawSum / maxScore) * 100);
+
+    let grade, gradeClass;
+    if (percentage >= 80) { grade = 'Sehr gut'; gradeClass = 'alert-success'; }
+    else if (percentage >= 65) { grade = 'Gut'; gradeClass = 'alert-success'; }
+    else if (percentage >= 50) { grade = 'Genügend'; gradeClass = 'alert-warning'; }
+    else { grade = 'Nicht genügend'; gradeClass = 'alert-error'; }
+
+    const summaryHtml = `
+      <div class="card">
+        <div class="card-title">&#127942; Ergebnis</div>
+        <div class="stats-grid" style="margin:1rem 0">
+          <div class="stat-card ${percentage >= 50 ? 'good' : 'urgent'}">
+            <div class="stat-value">${percentage}%</div>
+            <div class="stat-label">Gesamtergebnis</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${rawSum.toFixed(1)} / ${maxScore}</div>
+            <div class="stat-label">Punkte</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${formatDuration(durationSec)}</div>
+            <div class="stat-label">Zeit</div>
+          </div>
+          <div class="stat-card ${percentage >= 50 ? 'good' : 'urgent'}">
+            <div class="stat-value">${grade}</div>
+            <div class="stat-label">Bewertung</div>
+          </div>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${percentage}%"></div></div>
+        <div id="qe-db-msg" style="margin-top:0.75rem;font-size:0.85rem;color:var(--tu-text-muted)">Ergebnis wird gespeichert…</div>
+      </div>`;
+
+    const questionsHtml = questions.map((q, qi) => {
+      const qText = lang === 'en' ? (q.question_en || q.question_de) : q.question_de;
+      const opts  = lang === 'en' ? (q.options_en  || q.options_de)  : q.options_de;
+      const expText = lang === 'en' ? (q.explanation_en || q.explanation_de) : q.explanation_de;
+      const selected = userAnswers[qi] || [];
+      const correct = q.correct;
+      const qScore = scores[qi];
+
+      let qHeaderClass = '';
+      if (qScore >= 0.99) qHeaderClass = 'good';
+      else if (qScore > 0) qHeaderClass = 'warning';
+      else qHeaderClass = 'urgent';
+
+      const optHtml = opts.map((opt, oi) => {
+        const isSelected = selected.includes(oi);
+        const isCorrect  = correct.includes(oi);
+        let cls = 'quiz-option';
+        if (isSelected && isCorrect)  cls += ' correct';
+        else if (isSelected && !isCorrect) cls += ' incorrect';
+        else if (!isSelected && isCorrect) cls += ' correct'; // missed correct
+        const icon = isCorrect ? '&#10003;' : (isSelected ? '&#10007;' : '&#9675;');
+        return `
+          <div class="${cls}" style="cursor:default">
+            <span style="margin-right:0.75rem;width:1rem;text-align:center">${icon}</span>
+            <span>${opt}</span>
+            ${isCorrect && !isSelected ? '<span style="margin-left:auto;font-size:0.75rem;color:var(--tu-success)">← vergessen</span>' : ''}
+            ${isSelected && !isCorrect ? '<span style="margin-left:auto;font-size:0.75rem;color:var(--tu-error)">← falsch</span>' : ''}
+          </div>`;
+      }).join('');
+
+      return `
+        <div class="quiz-question" id="qe-res-${qi}">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+            <span class="badge badge-info">Frage ${qi + 1}</span>
+            <span class="stat-value" style="font-size:1rem" class="${qHeaderClass}">${qScore.toFixed(2)} / 1.00 Pkt</span>
+          </div>
+          <div class="quiz-question-text">${qText}</div>
+          <div class="qe-options">${optHtml}</div>
+          <div class="quiz-explanation visible">${expText}
+            <div style="font-size:0.78rem;color:var(--tu-text-dim);margin-top:0.4rem">Quelle: ${q.source || '—'}</div>
+          </div>
+        </div>`;
+    }).join('');
+
+    container.innerHTML = `
+      ${summaryHtml}
+      <div style="display:flex;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap">
+        <button id="qe-retry-btn" class="btn btn-primary">&#8635; Nochmals versuchen</button>
+        <button id="qe-new-btn" class="btn btn-outline">&#8635; Neues Quiz</button>
+      </div>
+      <h2>Detailauswertung</h2>
+      ${questionsHtml}`;
+  }
+
+  // ── Core init ──────────────────────────────────────────────────────────────
+
+  async function init(quizId, containerId) {
+    const container = document.getElementById(containerId);
+    if (!container) {
+      console.error(`QuizEngine: container #${containerId} not found`);
+      return;
+    }
+
+    container.innerHTML = `<div class="alert alert-info">&#8987; Fragen werden geladen…</div>`;
+
+    let allQuestions;
+    try {
+      const url = resolveDataUrl();
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} fetching ${url}`);
+      allQuestions = await resp.json();
+    } catch (err) {
+      container.innerHTML = `
+        <div class="alert alert-error">
+          <strong>Fehler beim Laden der Fragen.</strong><br>
+          ${err.message}<br>
+          <small>Stellen Sie sicher, dass data/questions.json erreichbar ist.</small>
+        </div>`;
+      return;
+    }
+
+    const questions = allQuestions.filter(q => q.quizId === quizId);
+    if (questions.length === 0) {
+      container.innerHTML = `
+        <div class="alert alert-error">
+          Keine Fragen für Quiz-ID <code>${quizId}</code> gefunden.
+          Verfügbare IDs: ${[...new Set(allQuestions.map(q => q.quizId))].join(', ')}
+        </div>`;
+      return;
+    }
+
+    // Shuffle questions for variety
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+
+    let lang = 'de';
+    let startTime = null;
+    let timerInterval = null;
+
+    // ── Start screen ───────────────────────────────────────────────────────
+
+    function showStartScreen() {
+      if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+      renderStartScreen(container, shuffled, quizId);
+
+      container.querySelector('#qe-start-btn').addEventListener('click', () => {
+        startTime = Date.now();
+        showQuizScreen();
+      });
+
+      container.querySelectorAll('#qe-lang-toggle .lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          lang = btn.dataset.lang;
+          container.querySelectorAll('#qe-lang-toggle .lang-btn').forEach(b => {
+            b.style.background = 'transparent';
+            b.style.color = 'var(--tu-text-muted)';
+          });
+          btn.style.background = 'var(--tu-blue)';
+          btn.style.color = '#fff';
+        });
+      });
+    }
+
+    // ── Quiz screen ────────────────────────────────────────────────────────
+
+    function showQuizScreen() {
+      renderQuestions(container, shuffled, lang);
+      startTimer();
+      wireQuizInteractions();
+    }
+
+    function startTimer() {
+      const elapsedEl = document.getElementById('qe-elapsed');
+      timerInterval = setInterval(() => {
+        if (!elapsedEl) { clearInterval(timerInterval); return; }
+        const sec = Math.floor((Date.now() - startTime) / 1000);
+        elapsedEl.textContent = formatDuration(sec);
+      }, 1000);
+    }
+
+    function wireQuizInteractions() {
+      // Option click toggles checkbox
+      container.querySelectorAll('.quiz-option').forEach(label => {
+        label.addEventListener('click', (e) => {
+          const cb = label.querySelector('input[type="checkbox"]');
+          if (e.target !== cb) cb.checked = !cb.checked;
+          label.classList.toggle('selected', cb.checked);
+        });
+      });
+
+      container.querySelector('#qe-submit-btn').addEventListener('click', () => {
+        clearInterval(timerInterval);
+        const durationSec = Math.floor((Date.now() - startTime) / 1000);
+        const userAnswers = collectAnswers();
+        const scores = shuffled.map((q, qi) => scoreQuestion(q, userAnswers[qi]));
+        showResultsScreen(userAnswers, scores, durationSec);
+      });
+
+      container.querySelector('#qe-reset-btn').addEventListener('click', () => {
+        clearInterval(timerInterval);
+        showStartScreen();
+      });
+    }
+
+    function collectAnswers() {
+      return shuffled.map((_, qi) => {
+        const checked = [];
+        container.querySelectorAll(`input[type="checkbox"][data-qidx="${qi}"]`).forEach(cb => {
+          if (cb.checked) checked.push(Number(cb.dataset.oidx));
+        });
+        return checked;
+      });
+    }
+
+    // ── Results screen ─────────────────────────────────────────────────────
+
+    function showResultsScreen(userAnswers, scores, durationSec) {
+      const rawSum = scores.reduce((a, b) => a + b, 0);
+      const total = shuffled.length;
+      const percentage = Math.round((rawSum / total) * 100);
+
+      renderResults(container, shuffled, userAnswers, scores, lang, durationSec);
+
+      // Save to IndexedDB
+      if (typeof StudentDB !== 'undefined') {
+        StudentDB.addQuizAttempt({
+          quizId,
+          score: rawSum,
+          total,
+          percentage,
+          answers: userAnswers,
+          durationSec
+        }).then(() => {
+          const msg = document.getElementById('qe-db-msg');
+          if (msg) msg.textContent = '&#10003; Ergebnis gespeichert.';
+        }).catch(err => {
+          const msg = document.getElementById('qe-db-msg');
+          if (msg) msg.textContent = `Speichern fehlgeschlagen: ${err.message}`;
+        });
+      } else {
+        const msg = document.getElementById('qe-db-msg');
+        if (msg) msg.textContent = 'StudentDB nicht verfügbar — Ergebnis nicht gespeichert.';
+      }
+
+      // Wire retry / new buttons
+      const retryBtn = document.getElementById('qe-retry-btn');
+      if (retryBtn) retryBtn.addEventListener('click', () => {
+        startTime = Date.now();
+        showQuizScreen();
+      });
+
+      const newBtn = document.getElementById('qe-new-btn');
+      if (newBtn) newBtn.addEventListener('click', showStartScreen);
+    }
+
+    // ── Boot ───────────────────────────────────────────────────────────────
+    showStartScreen();
+  }
+
+  return { init };
+
+})();

@@ -3,84 +3,341 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Studienplan Wissensbasis (Deutsch) — Raumplanung TU Wien</title>
+  <title>Studienplan Wissensbasis (DE) — Raumplanung TU Wien 2026</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div class="page-wrapper">
-
-  <!-- Sidebar Navigation -->
   <nav class="sidebar">
-    <div class="sidebar-logo">
-      <h2>Raumplanung</h2>
-      <div class="subtitle">TU Wien — Reihungstest 2026</div>
-    </div>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Dashboard</div>
-    </div>
-    <a href="../index.html" class="nav-link"><span class="icon">&#127968;</span> Home</a>
-    <a href="../exam/countdown.html" class="nav-link"><span class="icon">&#9200;</span> Exam Countdown</a>
-    <a href="../dashboard/progress.html" class="nav-link"><span class="icon">&#128200;</span> My Progress</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Knowledge Base (DE)</div>
-    </div>
-    <a href="reihungstest-de.html" class="nav-link"><span class="icon">&#128221;</span> Reihungstest Info</a>
-    <a href="oerek2030-de.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
-    <a href="studienplan-de.html" class="nav-link active"><span class="icon">&#127891;</span> Studienplan</a>
-    <a href="combined-de.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Knowledge Base (EN)</div>
-    </div>
-    <a href="reihungstest-en.html" class="nav-link"><span class="icon">&#128221;</span> Exam Info</a>
-    <a href="oerek2030-en.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
-    <a href="studienplan-en.html" class="nav-link"><span class="icon">&#127891;</span> Study Plan</a>
-    <a href="combined-en.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Quizzes</div>
-    </div>
-    <a href="../quizzes/quiz-oerek-principles.html" class="nav-link"><span class="icon">&#10004;</span> OEREK Principles</a>
-    <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link"><span class="icon">&#10004;</span> Megatrends</a>
-    <a href="../quizzes/quiz-studienplan.html" class="nav-link"><span class="icon">&#10004;</span> Studienplan</a>
-    <a href="../quizzes/quiz-cognitive.html" class="nav-link"><span class="icon">&#129504;</span> Cognitive Skills</a>
-    <a href="../quizzes/quiz-full-mock.html" class="nav-link"><span class="icon">&#128336;</span> Full Mock Exam</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Resources</div>
-    </div>
-    <a href="https://github.com/JohnGavin/urban_planning" class="nav-link" target="_blank"><span class="icon">&#128279;</span> GitHub Repo</a>
+    <div class="sidebar-logo"><h2>Raumplanung</h2><div class="subtitle">TU Wien &mdash; Reihungstest 2026</div></div>
+    <div class="nav-section"><div class="nav-section-title">Dashboard</div></div>
+    <a href="../index.html" class="nav-link">&#127968; Home</a>
+    <a href="../exam/countdown.html" class="nav-link">&#9200; Exam Countdown</a>
+    <a href="../dashboard/progress.html" class="nav-link">&#128200; My Progress</a>
+    <div class="nav-section"><div class="nav-section-title">Wissensbasis (DE)</div></div>
+    <a href="reihungstest-de.html" class="nav-link">&#128221; Reihungstest Info</a>
+    <a href="oerek2030-de.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="studienplan-de.html" class="nav-link active">&#127891; Studienplan</a>
+    <a href="combined-de.html" class="nav-link">&#128218; Gesamtübersicht</a>
+    <div class="nav-section"><div class="nav-section-title">Knowledge Base (EN)</div></div>
+    <a href="reihungstest-en.html" class="nav-link">&#128221; Exam Info</a>
+    <a href="oerek2030-en.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="studienplan-en.html" class="nav-link">&#127891; Study Plan</a>
+    <a href="combined-en.html" class="nav-link">&#128218; Combined Overview</a>
+    <div class="nav-section"><div class="nav-section-title">Quizzes</div></div>
+    <a href="../quizzes/quiz-oerek-principles.html" class="nav-link">&#10004; OEREK Principles</a>
+    <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link">&#10004; Megatrends</a>
+    <a href="../quizzes/quiz-studienplan.html" class="nav-link">&#10004; Studienplan</a>
+    <a href="../quizzes/quiz-cognitive.html" class="nav-link">&#129504; Cognitive Skills</a>
+    <a href="../quizzes/quiz-full-mock.html" class="nav-link">&#128336; Full Mock Exam</a>
   </nav>
 
-  <!-- Main Content -->
   <main class="main-content">
     <div class="top-bar">
-      <div>
-        <h1>Studienplan Wissensbasis</h1>
-        <p class="text-muted">Bachelorstudium Raumplanung und Raumordnung — TU Wien</p>
-      </div>
+      <h1>Studienplan: Bachelorstudium Raumplanung und Raumordnung</h1>
       <div class="lang-toggle">
-        <span class="lang-active">DE</span>
-        <a href="studienplan-en.html" class="lang-link">EN</a>
+        <button class="lang-btn active">DE</button>
+        <a href="studienplan-en.html"><button class="lang-btn">EN</button></a>
       </div>
     </div>
+    <p class="text-muted">Quelle: Studienplan des Bachelorstudiums Raumplanung und Raumordnung, TU Wien, Beschluss des Senats am 20. Juni 2022, gültig ab 1. Oktober 2022</p>
 
-    <div class="alert alert-info">
-      <strong>Demnächst verfügbar.</strong> Diese Seite wird den Studienplan des Bachelorstudiums Raumplanung und Raumordnung an der TU Wien aufbereiten — Pflichtlehrveranstaltungen, Wahlbereiche, Qualifikationsziele und prüfungsrelevante Inhalte.
+    <div class="alert alert-warning">
+      <strong>Prüfungshinweis (Reihungstest):</strong> Aus dem Studienplan sind insbesondere relevant: das <strong>Qualifikationsprofil</strong>, <strong>Dauer und Umfang</strong>, und der <strong>Aufbau des Studiums</strong>. Ein Grundverständnis der Inhalte und ein Überblick über die Lehrveranstaltungsinhalte werden abgefragt. Die <em>genauen Titel einzelner Prüfungsfächer, Module und Lehrveranstaltungen sind NICHT prüfungsrelevant.</em>
     </div>
 
     <div class="card">
-      <div class="card-title">Was hier zu finden sein wird</div>
+      <div class="card-title">Inhaltsübersicht</div>
+      <ol style="margin-top:0.75rem">
+        <li><a href="#grundlage">Grundlage und Geltungsbereich</a></li>
+        <li><a href="#qualifikationsprofil">Qualifikationsprofil</a></li>
+        <li><a href="#taetigkeitsfelder">Tätigkeitsfelder</a></li>
+        <li><a href="#kompetenzen">Fähigkeiten der Absolvent_innen</a></li>
+        <li><a href="#dauer">Dauer und Umfang</a></li>
+        <li><a href="#zulassung">Zulassung</a></li>
+        <li><a href="#aufbau">Aufbau des Studiums</a></li>
+        <li><a href="#steop">Studieneingangs- und Orientierungsphase (StEOP)</a></li>
+        <li><a href="#pruefungsordnung">Prüfungsordnung</a></li>
+        <li><a href="#grad">Akademischer Grad</a></li>
+        <li><a href="#begriffe">Schlüsselbegriffe</a></li>
+      </ol>
+    </div>
+
+    <h2 id="grundlage">1. Grundlage und Geltungsbereich</h2>
+    <div class="card">
+      <ul>
+        <li>Ingenieurwissenschaftliches <strong>Bachelorstudium</strong> an der TU Wien</li>
+        <li>Basiert auf dem <strong>Universitätsgesetz 2002 (UG)</strong></li>
+        <li>Beschluss des <strong>Senats am 20. Juni 2022</strong>, gültig ab <strong>1. Oktober 2022</strong></li>
+      </ul>
+    </div>
+
+    <h2 id="qualifikationsprofil">2. Qualifikationsprofil</h2>
+    <div class="card">
+      <p>Raumplanung befasst sich mit den großen Transformationsaufgaben unserer Zeit:</p>
       <table>
-        <tr><th style="width:35%">Abschnitt</th><th>Inhalt</th></tr>
-        <tr><td>Studienstruktur</td><td>Aufbau des Bachelorstudiums: Semester, ECTS, Pflicht- und Wahlfächer</td></tr>
-        <tr><td>Qualifikationsziele</td><td>Was Absolventen können sollen — Kompetenzen und Berufsfelder</td></tr>
-        <tr><td>Pflichtmodule</td><td>Alle Pflichtlehrveranstaltungen mit Kurzbeschreibung</td></tr>
-        <tr><td>Fachgebiete</td><td>Überblick über die Kernthemen: Stadtplanung, Regionalentwicklung, GIS, Recht</td></tr>
-        <tr><td>Berufsperspektiven</td><td>Tätigkeitsfelder für Raumplanerinnen und Raumplaner in Österreich</td></tr>
-        <tr><td>Prüfungsrelevantes</td><td>Schlüsselkonzepte und Begriffe aus dem Studienplan für Part A</td></tr>
+        <tr><th>Dimension</th><th>Herausforderungen</th></tr>
+        <tr>
+          <td><strong>Sozial</strong></td>
+          <td>Transformation, neue Lebensstile, gesellschaftlicher Wandel</td>
+        </tr>
+        <tr>
+          <td><strong>Wirtschaftlich</strong></td>
+          <td>Strukturwandel, Digitalisierung, regionale Ungleichheiten</td>
+        </tr>
+        <tr>
+          <td><strong>Ökologisch</strong></td>
+          <td>Klimawandel, Umweltzerstörung, Ressourcenknappheit</td>
+        </tr>
+      </table>
+      <p style="margin-top:1rem">Raumplanung arbeitet auf <strong>allen räumlichen Ebenen</strong>: global &rarr; national &rarr; regional &rarr; lokal.</p>
+      <p>Das Studium ist <strong>interdisziplinär</strong> (mehrere wissenschaftliche Disziplinen) <em>und</em> <strong>transdisziplinär</strong> (studium generale &mdash; bezieht gesellschaftliche Akteure ein).</p>
+      <p>Leitkriterien: <strong>Nachhaltigkeit und Gemeinwohl</strong> als übergeordneter Orientierungsrahmen.</p>
+    </div>
+
+    <h2 id="taetigkeitsfelder">3. Tätigkeitsfelder (§ 2.2)</h2>
+    <div class="card">
+      <h4>Arbeitsbereiche</h4>
+      <ul>
+        <li>Kommunale und regionale Entwicklungsplanung</li>
+        <li>Städtebau</li>
+        <li>Verkehrs-, Infrastruktur- und Umweltplanung</li>
+        <li>Standortanalyse und Wirtschaftsförderung</li>
+        <li>Politikberatung</li>
+        <li>Raumbezogene Forschung</li>
+      </ul>
+      <h4>Aktivitäten von Raumplaner_innen</h4>
+      <ul>
+        <li><strong>Analyse des Raumes</strong> (Daten erheben, auswerten, interpretieren)</li>
+        <li><strong>Raumbezogene Forschung und Beratung</strong></li>
+        <li><strong>Raumplanerisches Gestalten und Entwerfen</strong></li>
+        <li><strong>Gestaltung von Planungsprozessen</strong> (Verfahren, Partizipation)</li>
+        <li><strong>Kommunikation und Vermittlung</strong> (Öffentlichkeit, Politik, Fachleute)</li>
+        <li><strong>Herstellung von Rechtssicherheit</strong> (Pläne mit Rechtskraft)</li>
+      </ul>
+      <h4>Arbeitgeber</h4>
+      <ul>
+        <li>Öffentliche Verwaltung (Gemeinden, Länder, Bund)</li>
+        <li>Private Planungsbüros</li>
+        <li>Ziviltechniker_innen</li>
+        <li>Immobilien- und Standortentwicklung</li>
+        <li>Verbände und NGOs</li>
+        <li>Forschungseinrichtungen und Universitäten</li>
+      </ul>
+      <h4>Räumliche Ebenen (von klein nach groß)</h4>
+      <p style="font-size:1rem">lokal &rarr; kommunal &rarr; regional &rarr; national &rarr; grenzüberschreitend &rarr; europäisch/international</p>
+    </div>
+
+    <h2 id="kompetenzen">4. Fähigkeiten der Absolvent_innen (§ 2.3)</h2>
+    <div class="card">
+      <p>Das Studium vermittelt <strong>7 Kompetenzkategorien</strong>:</p>
+      <table>
+        <tr><th>#</th><th>Kompetenz</th><th>Inhalt (Kurzfassung)</th></tr>
+        <tr>
+          <td>1</td>
+          <td><strong>Theoretisch-reflektierende Kompetenzen</strong></td>
+          <td>Raum- und Planungstheorien; kritische Reflexion von Planung und Gesellschaft</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><strong>Methodische und technische Kompetenzen</strong></td>
+          <td>GIS, quantitative und qualitative Methoden, Modellierung, digitale Werkzeuge</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><strong>Analytisch-bewertende Kompetenzen</strong></td>
+          <td>Räumliche Situationen erfassen, beurteilen und Handlungsbedarf ableiten</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><strong>Instrumentelle Umsetzungskompetenzen</strong></td>
+          <td>Planungsrecht, formelle und informelle Instrumente der Raumordnung anwenden</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><strong>Soziale und kommunikative Kompetenzen</strong></td>
+          <td>Aushandlung, Vermittlung, Teamarbeit, interdisziplinäre Zusammenarbeit</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><strong>Entwerferisch-gestalterische Kompetenzen</strong></td>
+          <td>Räumliche Konzepte und Entwürfe entwickeln und visualisieren</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><strong>Strategisch-konzeptionelle Kompetenzen</strong></td>
+          <td>Leitbilder, Strategien und Konzepte für räumliche Entwicklung erarbeiten</td>
+        </tr>
+      </table>
+    </div>
+
+    <h2 id="dauer">5. Dauer und Umfang</h2>
+    <div class="card">
+      <table>
+        <tr><th>Parameter</th><th>Wert</th></tr>
+        <tr><td><strong>Gesamtumfang</strong></td><td>180 ECTS-Punkte</td></tr>
+        <tr><td><strong>Regelstudienzeit</strong></td><td>6 Semester (Vollzeit)</td></tr>
+        <tr><td><strong>1 ECTS-Punkt</strong></td><td>= 25 Arbeitsstunden (Kontakt- + Selbststudium)</td></tr>
+        <tr><td><strong>1 Studienjahr</strong></td><td>= 60 ECTS-Punkte</td></tr>
+        <tr><td><strong>Gesamtaufwand</strong></td><td>180 &times; 25 = 4.500 Arbeitsstunden</td></tr>
+      </table>
+    </div>
+
+    <h2 id="zulassung">6. Zulassung</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Allgemeine Universitätsreife</strong> (z.&nbsp;B. Matura, Abitur, IB)</li>
+        <li><strong>Deutschkenntnisse</strong> auf dem für das Studium erforderlichen Niveau</li>
+      </ul>
+    </div>
+
+    <h2 id="aufbau">7. Aufbau des Studiums</h2>
+    <div class="card">
+      <p>Das Studium gliedert sich in <strong>Pflichtmodule</strong> und <strong>Wahlmodule</strong>:</p>
+      <table>
+        <tr><th>Bereich</th><th>Anzahl</th><th>ECTS</th></tr>
+        <tr><td><strong>Pflichtmodule (PM)</strong></td><td>13</td><td>168 ECTS</td></tr>
+        <tr><td><strong>Wahlmodule (WM)</strong> — 2 aus 14 zu wählen</td><td>2 (von 14)</td><td>12 ECTS (je 6 ECTS)</td></tr>
+        <tr><td><strong>Gesamt</strong></td><td></td><td><strong>180 ECTS</strong></td></tr>
+      </table>
+    </div>
+
+    <h3>7.1 Die 7 Prüfungsfächer</h3>
+    <div class="card">
+      <p>Die Module sind 7 <strong>Prüfungsfächern</strong> zugeordnet. Die genauen Modultitel sind <em>nicht</em> prüfungsrelevant &mdash; das Gesamtbild zählt:</p>
+      <table>
+        <tr><th>#</th><th>Prüfungsfach</th><th>Zugehörige Module</th></tr>
+        <tr>
+          <td>1</td>
+          <td><strong>Studieneingangs- und Orientierungsphase</strong></td>
+          <td>PM1, PM2</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><strong>Raumplanung in Theorie und Praxis</strong></td>
+          <td>PM3 + Wahlmodule 1, 3, 4, 6, 9, 13, 14</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><strong>Methoden und Techniken der Raumplanung</strong></td>
+          <td>PM4, PM5, WM11</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><strong>Raumplanerischer Entwurf</strong></td>
+          <td>PM6, PM7, WM2</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><strong>Räumliche Entwicklungsplanung</strong></td>
+          <td>PM8, PM9</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><strong>Planungsinstrumente und -strategien</strong></td>
+          <td>PM10, PM11 + WM5, 7, 8, 10, 12</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><strong>Freie Wahlfächer, Transferable Skills und Bachelorarbeit</strong></td>
+          <td>PM12 (Freie Wahlfächer/TS) + PM13 (Bachelorarbeit)</td>
+        </tr>
+      </table>
+    </div>
+
+    <h2 id="steop">8. Studieneingangs- und Orientierungsphase (StEOP)</h2>
+    <div class="card">
+      <ul>
+        <li>Umfang: <strong>PM1 mit 8 ECTS</strong></li>
+        <li>Muss <strong>vor dem Großteil der übrigen Module</strong> abgeschlossen werden</li>
+        <li>Vor Abschluss der StEOP: maximal <strong>22 ECTS aus anderen Modulen</strong> zulässig</li>
+        <li>Wird sowohl im <strong>Winter- als auch im Sommersemester</strong> angeboten</li>
+        <li>Dient der Orientierung: Passt das Studium zu mir?</li>
+      </ul>
+    </div>
+
+    <h2 id="pruefungsordnung">9. Prüfungsordnung</h2>
+    <div class="card">
+      <h4>Benotung</h4>
+      <table>
+        <tr><th>Note (Zahl)</th><th>Note (Text)</th><th>Bedeutung</th></tr>
+        <tr><td>1</td><td>Sehr gut</td><td>Ausgezeichnete Leistung</td></tr>
+        <tr><td>2</td><td>Gut</td><td>Gute Leistung</td></tr>
+        <tr><td>3</td><td>Befriedigend</td><td>Befriedigende Leistung</td></tr>
+        <tr><td>4</td><td>Genügend</td><td>Ausreichende Leistung</td></tr>
+        <tr><td>5</td><td>Nicht genügend</td><td>Nicht bestanden</td></tr>
+        <tr><td>E</td><td>Erfolgreich teilgenommen</td><td>Alternativ zu Ziffernnoten</td></tr>
+        <tr><td>O</td><td>Ohne Erfolg teilgenommen</td><td>Nicht bestanden (ohne Ziffernnote)</td></tr>
+      </table>
+      <h4>Auszeichnung</h4>
+      <p style="margin-top:0.75rem"><strong>Mit Auszeichnung bestanden</strong>, wenn:
+        kein Prüfungsfach schlechter als &bdquo;Gut&ldquo; <em>und</em> mindestens die Hälfte der Prüfungsfächer mit &bdquo;Sehr gut&ldquo; bewertet.
+      </p>
+      <h4>Lehrveranstaltungstypen und Prüfungsform</h4>
+      <table>
+        <tr><th>Typ</th><th>Bezeichnung</th><th>Prüfungsform</th></tr>
+        <tr><td><strong>VO</strong></td><td>Vorlesung</td><td>Abschlussprüfung (nicht prüfungsimmanent)</td></tr>
+        <tr><td><strong>UE</strong></td><td>Übung</td><td>Prüfungsimmanent (laufende Beurteilung)</td></tr>
+        <tr><td><strong>PR</strong></td><td>Projekt</td><td>Prüfungsimmanent</td></tr>
+        <tr><td><strong>SE</strong></td><td>Seminar</td><td>Prüfungsimmanent</td></tr>
+        <tr><td><strong>EX</strong></td><td>Exkursion</td><td>Prüfungsimmanent</td></tr>
+        <tr><td><strong>VU</strong></td><td>Vorlesung mit Übung</td><td>Prüfungsimmanent</td></tr>
+      </table>
+      <p style="margin-top:0.75rem"><strong>Prüfungsimmanent</strong> = kontinuierliche Beurteilung durch mehrere Teilleistungen im Laufe des Semesters (Anwesenheitspflicht kann gelten).</p>
+    </div>
+
+    <h2 id="grad">10. Akademischer Grad</h2>
+    <div class="card">
+      <table>
+        <tr><th>Grad</th><th>Abkürzung</th><th>Voraussetzung</th></tr>
+        <tr>
+          <td>Bachelor of Science</td>
+          <td><strong>BSc</strong></td>
+          <td>Alle 180 ECTS, inkl. Bachelorarbeit (PM13, 10 ECTS)</td>
+        </tr>
+      </table>
+      <p style="margin-top:0.75rem">Die <strong>Bachelorarbeit</strong> (10 ECTS) ist im Rahmen eines Moduls zu verfassen und zeigt die Fähigkeit, ein raumplanerisches Thema wissenschaftlich zu bearbeiten.</p>
+    </div>
+
+    <div class="alert alert-info">
+      <strong>Lernstrategie für den Reihungstest:</strong> Die genauen Modultitel <strong>NICHT</strong> auswendig lernen. Verstehen Sie stattdessen:
+      <ol style="margin-top:0.5rem">
+        <li>Was <em>ist</em> Raumplanung? (gesellschaftliche, wirtschaftliche, ökologische Herausforderungen)</li>
+        <li>Welche <strong>Kompetenzen</strong> werden vermittelt? (7 Kategorien)</li>
+        <li>Wie ist das Studium strukturiert? (6 Semester, 180 ECTS, StEOP, Pflicht- und Wahlmodule)</li>
+        <li>In welchen <strong>Berufsfeldern</strong> arbeiten Raumplaner_innen?</li>
+        <li>Was ist der Unterschied zwischen <strong>Raumplanung</strong> (TU, Ingenieurwissenschaft) und <strong>Raumordnung</strong> (staatliches Steuerungsinstrument)?</li>
+      </ol>
+    </div>
+
+    <h2 id="begriffe">11. Schlüsselbegriffe</h2>
+    <div class="card">
+      <table>
+        <tr><th>Begriff</th><th>Bedeutung</th></tr>
+        <tr><td><strong>ECTS</strong></td><td>European Credit Transfer and Accumulation System; 1 ECTS = 25 Arbeitsstunden</td></tr>
+        <tr><td><strong>Pflichtmodul (PM)</strong></td><td>Muss von allen Studierenden absolviert werden (13 PMs, 168 ECTS)</td></tr>
+        <tr><td><strong>Wahlmodul (WM)</strong></td><td>Aus 14 angebotenen Modulen sind 2 frei zu wählen (je 6 ECTS = 12 ECTS)</td></tr>
+        <tr><td><strong>Prüfungsfach</strong></td><td>Übergeordnete Bewertungseinheit, die mehrere Module zusammenfasst (7 Prüfungsfächer)</td></tr>
+        <tr><td><strong>StEOP</strong></td><td>Studieneingangs- und Orientierungsphase; Einstieg ins Studium (PM1, 8 ECTS)</td></tr>
+        <tr><td><strong>Prüfungsimmanent</strong></td><td>Laufende Beurteilung (mehrere Teilleistungen); betrifft UE, PR, SE, EX, VU</td></tr>
+        <tr><td><strong>Vorlesung (VO)</strong></td><td>Lehrveranstaltung mit Abschlussprüfung, keine laufende Beurteilung</td></tr>
+        <tr><td><strong>Übung (UE)</strong></td><td>Praktische Anwendung; prüfungsimmanent</td></tr>
+        <tr><td><strong>Projekt (PR)</strong></td><td>Projektorientiertes Lernen; prüfungsimmanent</td></tr>
+        <tr><td><strong>Seminar (SE)</strong></td><td>Wissenschaftliche Diskussion und Präsentation; prüfungsimmanent</td></tr>
+        <tr><td><strong>Exkursion (EX)</strong></td><td>Geländeübung / Besichtigung vor Ort; prüfungsimmanent</td></tr>
+        <tr><td><strong>VU</strong></td><td>Vorlesung mit Übung (kombinierter Typ); prüfungsimmanent</td></tr>
+        <tr><td><strong>Raumplanung</strong></td><td>Ingenieurwissenschaftliche Disziplin; gestaltet und steuert räumliche Entwicklungen (TU Wien-Perspektive)</td></tr>
+        <tr><td><strong>Raumordnung</strong></td><td>Staatliches Steuerungsinstrument mit gesetzlicher Grundlage; Kompetenz der Bundesländer in Österreich</td></tr>
+        <tr><td><strong>Flächenwidmung</strong></td><td>Festlegung der zulässigen Nutzung von Grundstücken im Flächenwidmungsplan (Gemeindeebene)</td></tr>
+        <tr><td><strong>Bebauungsplanung</strong></td><td>Detailregelung der Bebauung (Höhe, Abstände, Nutzung) auf Gemeindeebene</td></tr>
+        <tr><td><strong>Ziviltechniker_in</strong></td><td>Freiberufliche_r Techniker_in mit staatlich anerkannter Befugnis (z.&nbsp;B. für Planungsleistungen)</td></tr>
+        <tr><td><strong>Interdisziplinär</strong></td><td>Zusammenarbeit zwischen verschiedenen wissenschaftlichen Disziplinen</td></tr>
+        <tr><td><strong>Transdisziplinär</strong></td><td>Einbeziehung von gesellschaftlichen Akteuren und Praxis (über die Wissenschaft hinaus)</td></tr>
+        <tr><td><strong>Studium generale</strong></td><td>Breite, fächerübergreifende Bildung (nicht nur Fachspezialisierung)</td></tr>
+        <tr><td><strong>Nachhaltigkeit</strong></td><td>Entwicklung, die Bedürfnisse der Gegenwart sichert, ohne zukünftige Generationen zu gefährden</td></tr>
+        <tr><td><strong>Gemeinwohl</strong></td><td>Wohl der Allgemeinheit als übergeordnetes Ziel (vs. Partikularinteressen)</td></tr>
+        <tr><td><strong>Bachelorarbeit</strong></td><td>Wissenschaftliche Abschlussarbeit (10 ECTS, PM13)</td></tr>
+        <tr><td><strong>BSc</strong></td><td>Bachelor of Science &mdash; akademischer Grad nach Abschluss</td></tr>
       </table>
     </div>
 
@@ -101,8 +358,7 @@
     </div>
 
     <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
-      Quelle: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
-      &bull; Inhalt basiert auf dem offiziellen Studienplan der TU Wien
+      Quelle: Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien, Beschluss des Senats 20.06.2022 &bull; <a href="https://github.com/JohnGavin/urban_planning" target="_blank">GitHub</a>
     </footer>
   </main>
 </div>

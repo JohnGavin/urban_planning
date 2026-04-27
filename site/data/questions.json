@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "oerek-principles-01",
+    "quizId": "oerek-principles",
+    "question_de": "Welche drei Grundsätze liegen dem ÖREK 2030 zugrunde?",
+    "question_en": "Which three principles underlie the ÖREK 2030?",
+    "options_de": [
+      "a) Gemeinwohl",
+      "b) Nachhaltigkeit",
+      "c) Wirtschaftswachstum",
+      "d) Gerechtigkeit",
+      "e) Digitalisierung"
+    ],
+    "options_en": [
+      "a) Common good (Gemeinwohl)",
+      "b) Sustainability (Nachhaltigkeit)",
+      "c) Economic growth",
+      "d) Justice (Gerechtigkeit)",
+      "e) Digitalisation"
+    ],
+    "correct": [0, 1, 3],
+    "explanation_de": "Das ÖREK 2030 basiert auf den drei Grundsätzen Gemeinwohl, Nachhaltigkeit und Gerechtigkeit. Diese bilden die normative Grundlage für alle Handlungsfelder.",
+    "explanation_en": "The ÖREK 2030 is based on three principles: common good, sustainability, and justice. These form the normative foundation for all action fields.",
+    "source": "ÖREK 2030, Grundsätze"
+  },
+  {
+    "id": "oerek-principles-02",
+    "quizId": "oerek-principles",
+    "question_de": "Was ist die ÖROK und welche Aufgaben hat sie?",
+    "question_en": "What is the ÖROK and what are its tasks?",
+    "options_de": [
+      "a) Österreichische Raumordnungskonferenz — koordiniert Bund, Länder und Gemeinden in der Raumordnung",
+      "b) Österreichisches Raumplanungskomitee — erstellt verbindliche Flächenwidmungspläne",
+      "c) Sie gibt das ÖREK als gesamtstaatliches räumliches Leitbild heraus",
+      "d) Sie ist eine EU-Behörde für europäische Raumplanung",
+      "e) Sie verwaltet Baulandreserven der Bundesländer"
+    ],
+    "options_en": [
+      "a) Austrian Conference on Spatial Planning — coordinates federal, state and municipal level",
+      "b) Austrian Spatial Planning Committee — creates binding land use plans",
+      "c) It publishes the ÖREK as the national spatial development framework",
+      "d) It is an EU body for European spatial planning",
+      "e) It manages building land reserves of the federal states"
+    ],
+    "correct": [0, 2],
+    "explanation_de": "Die ÖROK (Österreichische Raumordnungskonferenz) ist das Koordinationsgremium für Raumordnung zwischen Bund, Ländern, Städten und Gemeinden. Sie gibt das ÖREK (Österreichisches Raumentwicklungskonzept) als nationales Leitbild heraus.",
+    "explanation_en": "The ÖROK coordinates spatial planning between federal, state and local levels in Austria and publishes the ÖREK as the national spatial development framework.",
+    "source": "ÖREK 2030, Einleitung"
+  },
+  {
+    "id": "oerek-principles-03",
+    "quizId": "oerek-principles",
+    "question_de": "Was beschreibt der Begriff 'Gemeinwohl' im Kontext des ÖREK 2030?",
+    "question_en": "What does the concept of 'Gemeinwohl' (common good) describe in the context of ÖREK 2030?",
+    "options_de": [
+      "a) Die Orientierung räumlicher Entwicklung am Wohl aller Menschen in Österreich",
+      "b) Die Bevorzugung privater Investitionen gegenüber öffentlichen Interessen",
+      "c) Das gesamtgesellschaftliche Interesse als Maßstab für Planungsentscheidungen",
+      "d) Die Maximierung des Wirtschaftswachstums durch Raumplanung",
+      "e) Den Schutz von Eigentumsrechten als vorrangiges Planungsziel"
+    ],
+    "options_en": [
+      "a) The orientation of spatial development towards the well-being of all people in Austria",
+      "b) The preference of private investment over public interests",
+      "c) The overall societal interest as the standard for planning decisions",
+      "d) Maximising economic growth through spatial planning",
+      "e) The protection of property rights as the primary planning objective"
+    ],
+    "correct": [0, 2],
+    "explanation_de": "Gemeinwohl bezeichnet im ÖREK 2030 die Ausrichtung der Raumplanung am gesamtgesellschaftlichen Interesse und am Wohl aller Menschen — nicht an Partikularinteressen.",
+    "explanation_en": "In the ÖREK 2030, common good refers to aligning spatial planning with the overall societal interest and the well-being of all people, not sectoral interests.",
+    "source": "ÖREK 2030, Grundsätze"
+  },
+  {
+    "id": "oerek-principles-04",
+    "quizId": "oerek-principles",
+    "question_de": "Das ÖREK 2030 definiert Nachhaltigkeit als mehrdimensionales Konzept. Welche Dimensionen werden berücksichtigt?",
+    "question_en": "The ÖREK 2030 defines sustainability as a multi-dimensional concept. Which dimensions are included?",
+    "options_de": [
+      "a) Ökologische Dimension",
+      "b) Soziale Dimension",
+      "c) Wirtschaftliche Dimension",
+      "d) Technologische Dimension",
+      "e) Kulturelle Dimension"
+    ],
+    "options_en": [
+      "a) Ecological dimension",
+      "b) Social dimension",
+      "c) Economic dimension",
+      "d) Technological dimension",
+      "e) Cultural dimension"
+    ],
+    "correct": [0, 1, 2],
+    "explanation_de": "Das klassische Drei-Säulen-Modell der Nachhaltigkeit umfasst ökologische, soziale und wirtschaftliche Dimensionen. Das ÖREK 2030 bezieht sich explizit auf dieses Modell.",
+    "explanation_en": "The classic three-pillar model of sustainability covers ecological, social and economic dimensions. The ÖREK 2030 explicitly references this model.",
+    "source": "ÖREK 2030, Grundsätze"
+  },
+  {
+    "id": "oerek-principles-05",
+    "quizId": "oerek-principles",
+    "question_de": "Was ist der Unterschied zwischen dem ÖREK und dem ÖREK-Aktionsprogramm?",
+    "question_en": "What is the difference between the ÖREK and the ÖREK action programme?",
+    "options_de": [
+      "a) Das ÖREK formuliert strategische Ziele und Leitbilder",
+      "b) Das Aktionsprogramm enthält konkrete Maßnahmen und Partnerschaften zur Umsetzung",
+      "c) Das ÖREK ist rechtlich verbindlich, das Aktionsprogramm nicht",
+      "d) Das Aktionsprogramm ersetzt den Raumordnungsplan der Länder",
+      "e) Beide Dokumente sind inhaltlich identisch"
+    ],
+    "options_en": [
+      "a) The ÖREK formulates strategic goals and guiding principles",
+      "b) The action programme contains specific measures and partnerships for implementation",
+      "c) The ÖREK is legally binding, the action programme is not",
+      "d) The action programme replaces the land use plans of the states",
+      "e) Both documents are identical in content"
+    ],
+    "correct": [0, 1],
+    "explanation_de": "Das ÖREK ist das strategische Leitbild (nicht rechtlich verbindlich), während das Aktionsprogramm die konkreten Umsetzungsschritte mit ÖREK-Partnerschaften definiert.",
+    "explanation_en": "The ÖREK is the strategic guiding framework (not legally binding), while the action programme defines the concrete implementation steps with ÖREK partnerships.",
+    "source": "ÖREK 2030, Aktionsprogramm"
+  },
+  {
+    "id": "oerek-principles-06",
+    "quizId": "oerek-principles",
+    "question_de": "Welche Aussagen zur räumlichen Gerechtigkeit im ÖREK 2030 sind korrekt?",
+    "question_en": "Which statements about spatial justice in the ÖREK 2030 are correct?",
+    "options_de": [
+      "a) Gleichwertige Lebensbedingungen in allen Regionen Österreichs sind ein Ziel",
+      "b) Räumliche Gerechtigkeit betrifft ausschließlich städtische Gebiete",
+      "c) Intergenerationelle Gerechtigkeit ist Teil des Konzepts",
+      "d) Gerechtigkeit bedeutet identische Ausstattung aller Gemeinden",
+      "e) Auch die Verteilung von Umweltbelastungen ist eine Frage räumlicher Gerechtigkeit"
+    ],
+    "options_en": [
+      "a) Equivalent living conditions in all regions of Austria are a goal",
+      "b) Spatial justice only concerns urban areas",
+      "c) Intergenerational justice is part of the concept",
+      "d) Justice means identical provision in all municipalities",
+      "e) The distribution of environmental burdens is also a question of spatial justice"
+    ],
+    "correct": [0, 2, 4],
+    "explanation_de": "Räumliche Gerechtigkeit im ÖREK umfasst gleichwertige (nicht identische) Lebensbedingungen, intergenerationelle Verantwortung und die gerechte Verteilung von Chancen und Lasten — in allen Regionen, nicht nur in Städten.",
+    "explanation_en": "Spatial justice in the ÖREK includes equivalent (not identical) living conditions, intergenerational responsibility, and fair distribution of opportunities and burdens — in all regions, not just cities.",
+    "source": "ÖREK 2030, Grundsätze"
+  },
+  {
+    "id": "oerek-principles-07",
+    "quizId": "oerek-principles",
+    "question_de": "Wie ist das ÖREK 2030 rechtlich einzustufen?",
+    "question_en": "How is the ÖREK 2030 legally classified?",
+    "options_de": [
+      "a) Es ist ein freiwilliges, politisches Leitbild ohne rechtliche Verbindlichkeit",
+      "b) Es ist ein Bundesgesetz und damit für alle Gebietskörperschaften bindend",
+      "c) Es gibt den politischen Rahmen für Raumordnungsgesetze der Länder vor",
+      "d) Es ersetzt die Landesraumordnungsgesetze",
+      "e) Es ist eine EU-Verordnung zur österreichischen Raumplanung"
+    ],
+    "options_en": [
+      "a) It is a voluntary political framework without legal binding force",
+      "b) It is a federal law and binding on all territorial authorities",
+      "c) It provides the political framework for state spatial planning laws",
+      "d) It replaces state spatial planning laws",
+      "e) It is an EU regulation on Austrian spatial planning"
+    ],
+    "correct": [0, 2],
+    "explanation_de": "Das ÖREK ist kein Gesetz. Es ist ein politisches Leitbild, das von der ÖROK beschlossen wird und den normativen Rahmen für die Raumordnungspolitik der Länder setzt — aber ohne direkte rechtliche Bindungswirkung.",
+    "explanation_en": "The ÖREK is not a law. It is a political framework adopted by the ÖROK that sets the normative context for state spatial planning policy — but without direct legal binding force.",
+    "source": "ÖREK 2030, Einleitung"
+  },
+  {
+    "id": "oerek-principles-08",
+    "quizId": "oerek-principles",
+    "question_de": "Welche Akteure sind in der ÖROK vertreten?",
+    "question_en": "Which actors are represented in the ÖROK?",
+    "options_de": [
+      "a) Bund (Bundesministerien)",
+      "b) Bundesländer",
+      "c) Städte und Gemeinden (vertreten durch Städtebund und Gemeindebund)",
+      "d) Europäische Kommission",
+      "e) Wirtschaftskammer Österreich"
+    ],
+    "options_en": [
+      "a) Federal government (federal ministries)",
+      "b) Federal states (Länder)",
+      "c) Cities and municipalities (represented by the Austrian Association of Cities and Austrian Association of Municipalities)",
+      "d) European Commission",
+      "e) Austrian Federal Economic Chamber"
+    ],
+    "correct": [0, 1, 2],
+    "explanation_de": "Die ÖROK ist ein Koordinationsgremium aus Bund, Ländern sowie Städten und Gemeinden (vertreten durch Städte- und Gemeindebund). Die EU und Wirtschaftskammer sind keine Mitglieder.",
+    "explanation_en": "The ÖROK is a coordination body comprising the federal government, states, and municipalities (represented by their associations). The EU and Chamber of Commerce are not members.",
+    "source": "ÖREK 2030, ÖROK-Struktur"
+  },
+  {
+    "id": "oerek-principles-09",
+    "quizId": "oerek-principles",
+    "question_de": "Was sind die zentralen räumlichen Ziele des ÖREK 2030?",
+    "question_en": "What are the central spatial goals of the ÖREK 2030?",
+    "options_de": [
+      "a) Eindämmung des Flächenverbrauchs und Förderung der Innenentwicklung",
+      "b) Stärkung der gleichwertigen Daseinsvorsorge in allen Regionen",
+      "c) Maximierung der Siedlungserweiterung in Stadtrandlagen",
+      "d) Klimaschutz und Anpassung an den Klimawandel",
+      "e) Privatisierung öffentlicher Infrastruktur zur Effizienzsteigerung"
+    ],
+    "options_en": [
+      "a) Curbing land consumption and promoting inner-area development",
+      "b) Strengthening equivalent public services in all regions",
+      "c) Maximising settlement expansion on urban fringes",
+      "d) Climate protection and adaptation to climate change",
+      "e) Privatisation of public infrastructure to increase efficiency"
+    ],
+    "correct": [0, 1, 3],
+    "explanation_de": "Zentrale Ziele des ÖREK 2030 sind Flächensparsamkeit, Innenentwicklung, gleichwertige Daseinsvorsorge und Klimaschutz/-anpassung. Siedlungserweiterung auf der Grünen Wiese und Privatisierung sind keine ÖREK-Ziele.",
+    "explanation_en": "Core ÖREK 2030 goals are land efficiency, inner development, equivalent public services, and climate protection/adaptation. Greenfield expansion and privatisation are not ÖREK goals.",
+    "source": "ÖREK 2030, Räumliche Ziele"
+  },
+  {
+    "id": "oerek-principles-10",
+    "quizId": "oerek-principles",
+    "question_de": "Was bedeutet 'Daseinsvorsorge' in der österreichischen Raumplanungsterminologie?",
+    "question_en": "What does 'Daseinsvorsorge' mean in Austrian spatial planning terminology?",
+    "options_de": [
+      "a) Die Bereitstellung grundlegender Güter und Dienstleistungen für alle Bevölkerungsgruppen",
+      "b) Ausschließlich die Wasserversorgung und Abwasserentsorgung",
+      "c) Öffentliche Einrichtungen wie Schulen, Gesundheitsversorgung und Mobilität",
+      "d) Ein Rechtsbegriff für staatliche Monopole im Energiesektor",
+      "e) Die Sicherstellung gleichwertiger Lebensverhältnisse, insbesondere in Schrumpfungsregionen"
+    ],
+    "options_en": [
+      "a) The provision of basic goods and services for all population groups",
+      "b) Exclusively water supply and wastewater disposal",
+      "c) Public facilities such as schools, health care and mobility",
+      "d) A legal term for state monopolies in the energy sector",
+      "e) Ensuring equivalent living conditions, particularly in shrinking regions"
+    ],
+    "correct": [0, 2, 4],
+    "explanation_de": "Daseinsvorsorge bezeichnet die Bereitstellung grundlegender Güter und Dienstleistungen (Schulen, Gesundheit, Mobilität, Energie, Wasser etc.) für alle — mit besonderem Augenmerk auf Schrumpfungsregionen und Gleichwertigkeit.",
+    "explanation_en": "Daseinsvorsorge refers to the provision of basic goods and services (schools, health, mobility, energy, water etc.) for all — with particular focus on shrinking regions and equivalence.",
+    "source": "ÖREK 2030, Daseinsvorsorge"
+  },
+  {
+    "id": "oerek-principles-11",
+    "quizId": "oerek-principles",
+    "question_de": "Welche Handlungsfelder sind im ÖREK 2030 verankert? (Wählen Sie alle zutreffenden aus)",
+    "question_en": "Which action fields are anchored in the ÖREK 2030? (Select all that apply)",
+    "options_de": [
+      "a) Klima und Energie",
+      "b) Wohnen und Siedlungsentwicklung",
+      "c) Wirtschaftspolitik und Steuern",
+      "d) Mobilität und Erreichbarkeit",
+      "e) Digitale Infrastruktur und Innovation"
+    ],
+    "options_en": [
+      "a) Climate and energy",
+      "b) Housing and settlement development",
+      "c) Economic policy and taxation",
+      "d) Mobility and accessibility",
+      "e) Digital infrastructure and innovation"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Das ÖREK 2030 definiert Handlungsfelder wie Klima und Energie, Wohnen und Siedlungsentwicklung, Mobilität sowie Digitalisierung. Steuerpolitik ist kein eigenes ÖREK-Handlungsfeld.",
+    "explanation_en": "The ÖREK 2030 defines action fields including climate and energy, housing and settlement development, mobility, and digitalisation. Tax policy is not a separate ÖREK action field.",
+    "source": "ÖREK 2030, Handlungsfelder"
+  },
+  {
+    "id": "oerek-principles-12",
+    "quizId": "oerek-principles",
+    "question_de": "Was versteht man unter 'Innenentwicklung' im Sinne des ÖREK 2030?",
+    "question_en": "What is understood by 'inner development' (Innenentwicklung) in the ÖREK 2030 sense?",
+    "options_de": [
+      "a) Bebauung von Brachflächen und Leerständen innerhalb bestehender Siedlungen",
+      "b) Verdichtung statt Flächeninanspruchnahme auf der Grünen Wiese",
+      "c) Ausbau des Straßennetzes innerhalb von Ortskernen",
+      "d) Die Sanierung und Nachnutzung leerstehender Gebäude",
+      "e) Neubaugebiete am Siedlungsrand zur Bevölkerungskonzentration"
+    ],
+    "options_en": [
+      "a) Development of brownfields and vacancies within existing settlements",
+      "b) Densification instead of greenfield land consumption",
+      "c) Expansion of the road network within town centres",
+      "d) Renovation and reuse of vacant buildings",
+      "e) New development areas at the settlement fringe to concentrate population"
+    ],
+    "correct": [0, 1, 3],
+    "explanation_de": "Innenentwicklung meint die Nutzung des Entwicklungspotenzials innerhalb bestehender Siedlungen — Brachflächen, Leerstand, Verdichtung — statt neue Flächen außen zu erschließen.",
+    "explanation_en": "Inner development means exploiting the development potential within existing settlements — brownfields, vacancies, densification — rather than opening up new land on the outside.",
+    "source": "ÖREK 2030, Flächensparen"
+  },
+  {
+    "id": "oerek-megatrends-01",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche der folgenden zählen zu den im ÖREK 2030 benannten neun Megatrends?",
+    "question_en": "Which of the following are among the nine megatrends named in the ÖREK 2030?",
+    "options_de": [
+      "a) Demografischer Wandel",
+      "b) Klimawandel",
+      "c) Globalisierung",
+      "d) Digitalisierung",
+      "e) Urbanisierung"
+    ],
+    "options_en": [
+      "a) Demographic change",
+      "b) Climate change",
+      "c) Globalisation",
+      "d) Digitalisation",
+      "e) Urbanisation"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation_de": "Demografischer Wandel, Klimawandel, Globalisierung, Digitalisierung und Urbanisierung sind allesamt unter den neun Megatrends des ÖREK 2030.",
+    "explanation_en": "Demographic change, climate change, globalisation, digitalisation and urbanisation are all among the nine megatrends of the ÖREK 2030.",
+    "source": "ÖREK 2030, Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-02",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche weiteren Megatrends werden im ÖREK 2030 neben den in Frage 1 genannten identifiziert?",
+    "question_en": "Which additional megatrends are identified in the ÖREK 2030 beyond those in question 1?",
+    "options_de": [
+      "a) Sozialer Wandel und Individualisierung",
+      "b) Ressourcenknappheit und Rohstoffwende",
+      "c) Zunahme religiöser Konflikte",
+      "d) Gesundheit und Pandemierisiken",
+      "e) Wissensgesellschaft und Bildungsexpansion"
+    ],
+    "options_en": [
+      "a) Social change and individualisation",
+      "b) Resource scarcity and raw material transition",
+      "c) Increase in religious conflicts",
+      "d) Health and pandemic risks",
+      "e) Knowledge society and expansion of education"
+    ],
+    "correct": [0, 1, 3],
+    "explanation_de": "Sozialer Wandel/Individualisierung, Ressourcenknappheit und Gesundheit/Pandemierisiken gehören zu den neun Megatrends. Religiöse Konflikte und Bildungsexpansion als solche werden nicht explizit aufgeführt.",
+    "explanation_en": "Social change/individualisation, resource scarcity and health/pandemic risks are among the nine megatrends. Religious conflicts and educational expansion as such are not explicitly listed.",
+    "source": "ÖREK 2030, Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-03",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche fünf Raumtypen unterscheidet das ÖREK 2030?",
+    "question_en": "Which five spatial types does the ÖREK 2030 distinguish?",
+    "options_de": [
+      "a) Großstädte und Metropolregionen",
+      "b) Mittelstädte und Stadtregionen",
+      "c) Ländliche Regionen mit Entwicklungsdynamik",
+      "d) Ländliche Regionen mit Schrumpfungsdruck",
+      "e) Alpenraum und Tourismusregionen"
+    ],
+    "options_en": [
+      "a) Major cities and metropolitan regions",
+      "b) Medium-sized cities and urban regions",
+      "c) Rural regions with development dynamics",
+      "d) Rural regions with shrinkage pressure",
+      "e) Alpine regions and tourism regions"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation_de": "Das ÖREK 2030 differenziert zwischen fünf Raumtypen: Großstädte/Metropolregionen, Mittelstädte/Stadtregionen, ländliche Regionen mit Dynamik, ländliche Regionen mit Schrumpfungsdruck und Alpenraum/Tourismusregionen.",
+    "explanation_en": "The ÖREK 2030 differentiates between five spatial types: major cities/metropolitan regions, medium cities/urban regions, rural regions with dynamics, rural regions with shrinkage pressure, and alpine/tourism regions.",
+    "source": "ÖREK 2030, Raumtypen"
+  },
+  {
+    "id": "oerek-megatrends-04",
+    "quizId": "oerek-megatrends",
+    "question_de": "Was beinhaltet das Ziel '2,5 Hektar pro Tag' im ÖREK 2030?",
+    "question_en": "What does the '2.5 hectares per day' target in the ÖREK 2030 entail?",
+    "options_de": [
+      "a) Es handelt sich um eine Reduktion des täglichen Flächenverbrauchs auf maximal 2,5 ha bis 2030",
+      "b) Das Ziel soll den massiven Flächenverbrauch von über 10 ha/Tag (Stand 2020) erheblich senken",
+      "c) Das Ziel gilt nur für landwirtschaftliche Flächen",
+      "d) Es ist ein EU-weites Ziel, das im österreichischen ÖREK verankert wurde",
+      "e) Bis 2050 soll Netto-Null-Flächenverbrauch erreicht werden"
+    ],
+    "options_en": [
+      "a) It is a reduction of daily land consumption to a maximum of 2.5 ha by 2030",
+      "b) The target is to significantly reduce the massive land consumption of over 10 ha/day (as of 2020)",
+      "c) The target applies only to agricultural land",
+      "d) It is an EU-wide target anchored in the Austrian ÖREK",
+      "e) Net-zero land consumption is to be achieved by 2050"
+    ],
+    "correct": [0, 1, 4],
+    "explanation_de": "Österreich verbrauchte um 2020 täglich mehr als 10 ha Fläche für Siedlungs- und Verkehrszwecke. Das ÖREK 2030 setzt das Ziel, diesen Verbrauch auf 2,5 ha/Tag zu reduzieren, mit langfristiger Vision Netto-Null bis 2050.",
+    "explanation_en": "Austria consumed over 10 ha of land per day around 2020 for settlement and transport purposes. The ÖREK 2030 sets the target of reducing this to 2.5 ha/day, with a long-term vision of net zero by 2050.",
+    "source": "ÖREK 2030, Flächeninanspruchnahme"
+  },
+  {
+    "id": "oerek-megatrends-05",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche Klimaziele sind im Zusammenhang mit dem ÖREK 2030 und österreichischer Raumplanung relevant?",
+    "question_en": "Which climate targets are relevant in the context of the ÖREK 2030 and Austrian spatial planning?",
+    "options_de": [
+      "a) Klimaneutralität Österreichs bis 2040",
+      "b) 55%-Reduktion der EU-Treibhausgase bis 2030 (EU Green Deal)",
+      "c) 1,5°C-Ziel des Pariser Abkommens",
+      "d) Verdoppelung der erneuerbaren Energieproduktion bis 2025",
+      "e) Raumplanung soll klimaschutzorientierte Siedlungsentwicklung fördern"
+    ],
+    "options_en": [
+      "a) Climate neutrality of Austria by 2040",
+      "b) 55% reduction in EU greenhouse gas emissions by 2030 (EU Green Deal)",
+      "c) 1.5°C target of the Paris Agreement",
+      "d) Doubling of renewable energy production by 2025",
+      "e) Spatial planning should promote climate-oriented settlement development"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Österreich hat das Ziel Klimaneutralität bis 2040; die EU das 55%-Ziel bis 2030; das Pariser Abkommen setzt 1,5°C. Raumplanung soll diese Ziele räumlich umsetzen. Das Verdoppelungsziel für Erneuerbare bis 2025 ist so nicht korrekt.",
+    "explanation_en": "Austria targets climate neutrality by 2040; the EU targets 55% by 2030; the Paris Agreement sets 1.5°C. Spatial planning should implement these goals spatially. The doubling target for renewables by 2025 is not accurate as stated.",
+    "source": "ÖREK 2030, Klimaziele"
+  },
+  {
+    "id": "oerek-megatrends-06",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche demografischen Entwicklungen sind laut ÖREK 2030 für die österreichische Raumplanung besonders relevant?",
+    "question_en": "Which demographic developments are particularly relevant for Austrian spatial planning according to the ÖREK 2030?",
+    "options_de": [
+      "a) Alterung der Gesellschaft und wachsender Anteil älterer Menschen",
+      "b) Rückgang der Gesamtbevölkerung in einzelnen Regionen",
+      "c) Zunahme der Bevölkerungsvielfalt (Migration, neue Haushaltsformen)",
+      "d) Gleichmäßiges Bevölkerungswachstum in allen Regionen Österreichs",
+      "e) Wachsende Disparitäten zwischen urbanen Wachstumsräumen und ländlichen Schrumpfungsräumen"
+    ],
+    "options_en": [
+      "a) Ageing society and growing share of older people",
+      "b) Population decline in individual regions",
+      "c) Increasing population diversity (migration, new household forms)",
+      "d) Uniform population growth in all regions of Austria",
+      "e) Growing disparities between urban growth areas and rural shrinkage areas"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Österreich erlebt Alterung, regionale Schrumpfung, wachsende Diversität und zunehmende Disparitäten zwischen Regionen. Gleichmäßiges Wachstum überall ist falsch — das Gegenteil ist der Fall.",
+    "explanation_en": "Austria experiences ageing, regional shrinkage, growing diversity and increasing regional disparities. Uniform growth everywhere is incorrect — the opposite is true.",
+    "source": "ÖREK 2030, Demografischer Wandel"
+  },
+  {
+    "id": "oerek-megatrends-07",
+    "quizId": "oerek-megatrends",
+    "question_de": "Wie beeinflusst die Digitalisierung laut ÖREK 2030 die Raumplanung?",
+    "question_en": "How does digitalisation influence spatial planning according to the ÖREK 2030?",
+    "options_de": [
+      "a) Neue Möglichkeiten für dezentrales Arbeiten (Homeoffice, Coworking) können Pendlerströme verändern",
+      "b) Digitale Infrastruktur (Breitband) wird zur Voraussetzung gleichwertiger Lebensverhältnisse",
+      "c) Digitalisierung macht physische Planungsinstrumente überflüssig",
+      "d) E-Commerce verändert den Flächenbedarf für Einzelhandel und Logistik",
+      "e) Smarte Städte (Smart Cities) erfordern neue Planungsansätze"
+    ],
+    "options_en": [
+      "a) New possibilities for decentralised work (home office, co-working) can change commuting patterns",
+      "b) Digital infrastructure (broadband) becomes a prerequisite for equivalent living conditions",
+      "c) Digitalisation makes physical planning instruments superfluous",
+      "d) E-commerce changes the space requirements for retail and logistics",
+      "e) Smart cities require new planning approaches"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Digitalisierung verändert Arbeitsstandorte, Infrastrukturanforderungen, Handelsflächenbedarfe und erfordert neue Planungsansätze. Sie macht klassische Planungsinstrumente aber nicht überflüssig.",
+    "explanation_en": "Digitalisation changes work locations, infrastructure requirements, retail space needs and requires new planning approaches. However, it does not make classical planning instruments superfluous.",
+    "source": "ÖREK 2030, Digitalisierung"
+  },
+  {
+    "id": "oerek-megatrends-08",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche Aussagen zur Urbanisierung als Megatrend in Österreich sind richtig?",
+    "question_en": "Which statements about urbanisation as a megatrend in Austria are correct?",
+    "options_de": [
+      "a) Großstädte und ihr Umland wachsen, während manche ländliche Regionen schrumpfen",
+      "b) Wien verliert Bevölkerung an das Bundesgebiet",
+      "c) Stadtregionen stehen vor Herausforderungen bei Wohnraum, Verkehr und Freiflächen",
+      "d) Urbanisierung betrifft nur Entwicklungsländer, nicht Österreich",
+      "e) Suburbanisierung führt zu erhöhtem Flächenverbrauch im Umland der Städte"
+    ],
+    "options_en": [
+      "a) Major cities and their surroundings grow while some rural regions shrink",
+      "b) Vienna is losing population to the rest of Austria",
+      "c) Urban regions face challenges in housing, transport and open spaces",
+      "d) Urbanisation only affects developing countries, not Austria",
+      "e) Suburbanisation leads to increased land consumption in the peri-urban fringe"
+    ],
+    "correct": [0, 2, 4],
+    "explanation_de": "Österreichische Städte, insbesondere Wien und ihr Umland, wachsen und stehen vor Herausforderungen. Suburbanisierung erhöht den Flächenverbrauch. Wien wächst, verliert keine Bevölkerung.",
+    "explanation_en": "Austrian cities, especially Vienna and their surroundings, are growing and face challenges. Suburbanisation increases land consumption. Vienna is growing, not losing population.",
+    "source": "ÖREK 2030, Urbanisierung"
+  },
+  {
+    "id": "oerek-megatrends-09",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche EU-Mandate sind für die österreichische Raumplanung im Kontext des ÖREK 2030 relevant?",
+    "question_en": "Which EU mandates are relevant for Austrian spatial planning in the context of the ÖREK 2030?",
+    "options_de": [
+      "a) EU-Biodiversitätsstrategie 2030 (Ziel: kein Nettoverlust von Naturflächen)",
+      "b) EU Green Deal und Fit for 55",
+      "c) ESPON-Raumentwicklungsprogramm",
+      "d) EU Bodenschutzstrategie",
+      "e) Lissabon-Vertrag, Artikel 14 (Raumplanung als ausschließliche EU-Kompetenz)"
+    ],
+    "options_en": [
+      "a) EU Biodiversity Strategy 2030 (target: no net loss of natural areas)",
+      "b) EU Green Deal and Fit for 55",
+      "c) ESPON spatial development programme",
+      "d) EU Soil Protection Strategy",
+      "e) Lisbon Treaty, Article 14 (spatial planning as exclusive EU competence)"
+    ],
+    "correct": [0, 1, 3],
+    "explanation_de": "EU-Biodiversitätsstrategie, Green Deal/Fit for 55 und die EU-Bodenschutzstrategie sind direkt relevant. Raumplanung ist keine ausschließliche EU-Kompetenz (Option e ist falsch). ESPON ist ein Forschungsprogramm, kein Mandat.",
+    "explanation_en": "EU Biodiversity Strategy, Green Deal/Fit for 55 and EU Soil Protection Strategy are directly relevant. Spatial planning is not an exclusive EU competence (option e is wrong). ESPON is a research programme, not a mandate.",
+    "source": "ÖREK 2030, EU-Mandate"
+  },
+  {
+    "id": "oerek-megatrends-10",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche Herausforderungen ergeben sich aus dem Klimawandel für die österreichische Raumplanung?",
+    "question_en": "What challenges does climate change pose for Austrian spatial planning?",
+    "options_de": [
+      "a) Zunehmende Hitzeinseln in dicht bebauten Stadtgebieten",
+      "b) Steigende Hochwassergefährdung und Notwendigkeit von Freihalteflächen",
+      "c) Rückgang des Wintertourismus im Alpenraum durch Schneemangel",
+      "d) Klimawandel hat kaum Auswirkungen auf österreichische Raumstrukturen",
+      "e) Notwendigkeit klimaresilienter Siedlungs- und Infrastrukturplanung"
+    ],
+    "options_en": [
+      "a) Increasing urban heat islands in densely built-up areas",
+      "b) Rising flood risk and need for open flood retention areas",
+      "c) Decline of winter tourism in the alpine region due to lack of snow",
+      "d) Climate change has little impact on Austrian spatial structures",
+      "e) Need for climate-resilient settlement and infrastructure planning"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Klimawandel erzeugt Hitzestress, Hochwasserrisiken, Wandel im Tourismus und erfordert klimaresiliente Planung. Option d ist falsch — der Klimawandel hat erhebliche Auswirkungen auf Österreich.",
+    "explanation_en": "Climate change creates heat stress, flood risks, changes in tourism and requires climate-resilient planning. Option d is false — climate change has significant impacts on Austria.",
+    "source": "ÖREK 2030, Klimawandel"
+  },
+  {
+    "id": "oerek-megatrends-11",
+    "quizId": "oerek-megatrends",
+    "question_de": "Wie viel Hektar Fläche verbrauchte Österreich durchschnittlich täglich für Siedlungs- und Verkehrszwecke um das Jahr 2020?",
+    "question_en": "How many hectares of land did Austria consume on average per day for settlement and transport purposes around 2020?",
+    "options_de": [
+      "a) Etwa 2,5 ha/Tag",
+      "b) Etwa 5 ha/Tag",
+      "c) Mehr als 10 ha/Tag",
+      "d) Etwa 20 ha/Tag",
+      "e) Weniger als 1 ha/Tag"
+    ],
+    "options_en": [
+      "a) About 2.5 ha/day",
+      "b) About 5 ha/day",
+      "c) More than 10 ha/day",
+      "d) About 20 ha/day",
+      "e) Less than 1 ha/day"
+    ],
+    "correct": [2],
+    "explanation_de": "Um 2020 verbrauchte Österreich mehr als 10 Hektar Fläche pro Tag für Siedlungs- und Verkehrszwecke. Das ÖREK-Ziel ist die Reduktion auf 2,5 ha/Tag bis 2030.",
+    "explanation_en": "Around 2020, Austria consumed more than 10 hectares of land per day for settlement and transport. The ÖREK target is to reduce this to 2.5 ha/day by 2030.",
+    "source": "ÖREK 2030, Flächeninanspruchnahme"
+  },
+  {
+    "id": "oerek-megatrends-12",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche der folgenden Aussagen zu Globalisierung als Megatrend in der Raumplanung sind korrekt?",
+    "question_en": "Which of the following statements about globalisation as a megatrend in spatial planning are correct?",
+    "options_de": [
+      "a) Globale Wertschöpfungsketten beeinflussen Standortentscheidungen von Unternehmen in Österreich",
+      "b) Globalisierung homogenisiert alle Regionen — räumliche Unterschiede verschwinden",
+      "c) Internationaler Wettbewerb zwischen Städten um Investitionen und Talente",
+      "d) Globale Warenströme verändern den Bedarf an Logistikflächen",
+      "e) Krisenresilienz (z.B. Pandemie, Lieferketten) wird zu einem Planungsthema"
+    ],
+    "options_en": [
+      "a) Global value chains influence location decisions of companies in Austria",
+      "b) Globalisation homogenises all regions — spatial differences disappear",
+      "c) International competition between cities for investment and talent",
+      "d) Global commodity flows change the need for logistics space",
+      "e) Crisis resilience (e.g. pandemic, supply chains) becomes a planning topic"
+    ],
+    "correct": [0, 2, 3, 4],
+    "explanation_de": "Globalisierung beeinflusst Standortentscheidungen, Städtekonkurrenz, Logistikflächenbedarfe und Resilienzthemen. Option b ist falsch — Globalisierung erzeugt oft mehr Ungleichheit, keine Homogenisierung.",
+    "explanation_en": "Globalisation influences location decisions, city competition, logistics space needs and resilience themes. Option b is false — globalisation often creates more inequality, not homogenisation.",
+    "source": "ÖREK 2030, Globalisierung"
+  },
+  {
+    "id": "studienplan-01",
+    "quizId": "studienplan",
+    "question_de": "Was ist Raumplanung als akademische Disziplin?",
+    "question_en": "What is spatial planning as an academic discipline?",
+    "options_de": [
+      "a) Eine interdisziplinäre Wissenschaft, die sich mit der räumlichen Entwicklung von Gebieten befasst",
+      "b) Ausschließlich die Erstellung von Flächenwidmungsplänen",
+      "c) Sie verbindet natur-, sozial- und ingenieurwissenschaftliche Methoden",
+      "d) Eine Spezialisierung der Architektur ohne eigene Methoden",
+      "e) Raumplanung analysiert und gestaltet räumliche Entwicklungen auf verschiedenen Maßstabsebenen"
+    ],
+    "options_en": [
+      "a) An interdisciplinary science dealing with the spatial development of territories",
+      "b) Exclusively the creation of land use plans",
+      "c) It combines natural, social and engineering science methods",
+      "d) A specialisation of architecture without its own methods",
+      "e) Spatial planning analyses and shapes spatial developments at various scales"
+    ],
+    "correct": [0, 2, 4],
+    "explanation_de": "Raumplanung ist eine interdisziplinäre Disziplin, die natur-, sozial- und ingenieurwissenschaftliche Methoden verbindet und räumliche Entwicklungen auf verschiedenen Ebenen analysiert und gestaltet — weit mehr als nur Flächenwidmung.",
+    "explanation_en": "Spatial planning is an interdisciplinary discipline combining methods from natural, social and engineering sciences, analysing and shaping spatial developments at various scales — far more than just land use planning.",
+    "source": "Studienplan Raumplanung TU Wien"
+  },
+  {
+    "id": "studienplan-02",
+    "quizId": "studienplan",
+    "question_de": "Wie ist das Bachelorstudium Raumplanung an der TU Wien strukturiert?",
+    "question_en": "How is the Bachelor's study programme in Spatial Planning at TU Wien structured?",
+    "options_de": [
+      "a) 6 Semester Regelstudienzeit",
+      "b) 180 ECTS-Punkte insgesamt",
+      "c) Abschluss: Bachelor of Science (BSc)",
+      "d) 4 Semester Regelstudienzeit",
+      "e) 240 ECTS-Punkte insgesamt"
+    ],
+    "options_en": [
+      "a) 6 semesters standard duration",
+      "b) 180 ECTS credits in total",
+      "c) Degree: Bachelor of Science (BSc)",
+      "d) 4 semesters standard duration",
+      "e) 240 ECTS credits in total"
+    ],
+    "correct": [0, 1, 2],
+    "explanation_de": "Das Bachelorstudium Raumplanung an der TU Wien dauert 6 Semester (Regelstudienzeit), umfasst 180 ECTS und schließt mit dem Bachelor of Science ab.",
+    "explanation_en": "The Bachelor's study programme in Spatial Planning at TU Wien has a standard duration of 6 semesters, comprises 180 ECTS credits and concludes with a Bachelor of Science degree.",
+    "source": "Studienplan Raumplanung TU Wien, §2"
+  },
+  {
+    "id": "studienplan-03",
+    "quizId": "studienplan",
+    "question_de": "Was ist die StEOP im Bachelorstudium Raumplanung an der TU Wien?",
+    "question_en": "What is the StEOP in the Bachelor's programme in Spatial Planning at TU Wien?",
+    "options_de": [
+      "a) Die Studieneingangs- und Orientierungsphase zu Beginn des Studiums",
+      "b) Ein verpflichtendes Auslandssemester im dritten Studienjahr",
+      "c) Sie dient der Orientierung über Inhalte, Anforderungen und Berufsfelder",
+      "d) Die StEOP muss innerhalb der ersten zwei Semester abgeschlossen werden",
+      "e) Ein optionales Zusatzmodul für besonders leistungsstarke Studierende"
+    ],
+    "options_en": [
+      "a) The study entry and orientation phase at the beginning of the programme",
+      "b) A compulsory semester abroad in the third year of study",
+      "c) It serves as orientation about content, requirements and career fields",
+      "d) The StEOP must be completed within the first two semesters",
+      "e) An optional additional module for particularly high-achieving students"
+    ],
+    "correct": [0, 2, 3],
+    "explanation_de": "Die StEOP (Studieneingangs- und Orientierungsphase) ist eine verpflichtende Eingangsphase zu Beginn des Studiums, die Orientierung über Inhalte und Anforderungen bietet und innerhalb der ersten zwei Semester abzuschließen ist.",
+    "explanation_en": "The StEOP (study entry and orientation phase) is a compulsory entry phase at the start of the programme, providing orientation about content and requirements, and must be completed within the first two semesters.",
+    "source": "Studienplan Raumplanung TU Wien, StEOP"
+  },
+  {
+    "id": "studienplan-04",
+    "quizId": "studienplan",
+    "question_de": "Welche Tätigkeitsfelder stehen Absolventinnen und Absolventen des Studiums Raumplanung offen?",
+    "question_en": "Which fields of activity are open to graduates of the Spatial Planning programme?",
+    "options_de": [
+      "a) Kommunale und regionale Planungsbehörden",
+      "b) Raumplanungsbüros und Consultingfirmen",
+      "c) Forschung und Lehre an Universitäten",
+      "d) Ausschließlich der öffentliche Sektor",
+      "e) Internationale Organisationen (EU, UN, Weltbank)"
+    ],
+    "options_en": [
+      "a) Municipal and regional planning authorities",
+      "b) Spatial planning offices and consulting firms",
+      "c) Research and teaching at universities",
+      "d) Exclusively the public sector",
+      "e) International organisations (EU, UN, World Bank)"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Raumplanerinnen und Raumplaner arbeiten sowohl im öffentlichen als auch im privaten Sektor sowie in der Forschung und bei internationalen Organisationen. Option d (nur öffentlicher Sektor) ist falsch.",
+    "explanation_en": "Spatial planners work in both the public and private sectors, in research, and at international organisations. Option d (exclusively public sector) is incorrect.",
+    "source": "Studienplan Raumplanung TU Wien, Tätigkeitsfelder"
+  },
+  {
+    "id": "studienplan-05",
+    "quizId": "studienplan",
+    "question_de": "Welche Kompetenzen werden im Bachelorstudium Raumplanung an der TU Wien vermittelt?",
+    "question_en": "What competencies are taught in the Bachelor's programme in Spatial Planning at TU Wien?",
+    "options_de": [
+      "a) Analyse und Bewertung räumlicher Strukturen und Entwicklungen",
+      "b) Entwicklung und Kommunikation von Planungskonzepten",
+      "c) Anwendung rechtlicher und planerischer Instrumente",
+      "d) Ausschließlich technische Fähigkeiten (GIS, CAD)",
+      "e) Moderations- und Partizipationsmethoden"
+    ],
+    "options_en": [
+      "a) Analysis and assessment of spatial structures and developments",
+      "b) Development and communication of planning concepts",
+      "c) Application of legal and planning instruments",
+      "d) Exclusively technical skills (GIS, CAD)",
+      "e) Moderation and participation methods"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Das Studium vermittelt analytische, konzeptionelle, rechtlich-instrumentelle und kommunikative Kompetenzen. Es beschränkt sich nicht auf technische Fähigkeiten.",
+    "explanation_en": "The programme teaches analytical, conceptual, legal-instrumental and communicative competencies. It is not limited to technical skills.",
+    "source": "Studienplan Raumplanung TU Wien, Qualifikationsprofil"
+  },
+  {
+    "id": "studienplan-06",
+    "quizId": "studienplan",
+    "question_de": "Was ist die Prüfungsordnung (Prüfungsordnung) im Bachelorstudium Raumplanung an der TU Wien?",
+    "question_en": "What is the examination regulations (Prüfungsordnung) in the Bachelor's programme in Spatial Planning at TU Wien?",
+    "options_de": [
+      "a) Ein verbindliches Regelwerk für die Beurteilung von Studienleistungen",
+      "b) Sie regelt Anmeldung, Abmeldung und Wiederholungsmöglichkeiten von Prüfungen",
+      "c) Ein freiwilliges Zusatzdokument ohne Konsequenzen bei Nichteinhaltung",
+      "d) Sie legt fest, welche Lehrveranstaltungen prüfungsimmanenten Charakter haben",
+      "e) Die Prüfungsordnung ist Teil des Studienplans"
+    ],
+    "options_en": [
+      "a) A binding set of rules for the assessment of academic performance",
+      "b) It regulates registration, deregistration and repetition options for examinations",
+      "c) A voluntary supplementary document with no consequences for non-compliance",
+      "d) It specifies which courses have immanent examination character",
+      "e) The examination regulations are part of the study plan"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Die Prüfungsordnung ist verbindlicher Bestandteil des Studienplans und regelt Anmeldung, Abmeldung, Wiederholungen und prüfungsimmanente Lehrveranstaltungen. Sie ist kein freiwilliges Zusatzdokument.",
+    "explanation_en": "The examination regulations are a binding part of the study plan and govern registration, deregistration, repetitions and courses with immanent examination character. They are not a voluntary supplementary document.",
+    "source": "Studienplan Raumplanung TU Wien, Prüfungsordnung"
+  },
+  {
+    "id": "studienplan-07",
+    "quizId": "studienplan",
+    "question_de": "Was kennzeichnet das Modul 'Räumliche Planung und Entwicklung' im Studienplan Raumplanung TU Wien?",
+    "question_en": "What characterises the 'Spatial Planning and Development' module in the Spatial Planning study plan at TU Wien?",
+    "options_de": [
+      "a) Es vermittelt Grundlagen der Raumordnung auf kommunaler und regionaler Ebene",
+      "b) Es behandelt Planungsinstrumente wie Flächenwidmungsplan und Bebauungsplan",
+      "c) Es ist ausschließlich auf internationale Planungssysteme fokussiert",
+      "d) Praxisorientierte Projekte sind Bestandteil des Moduls",
+      "e) Es ist nur für Masterstudierende zugänglich"
+    ],
+    "options_en": [
+      "a) It teaches the basics of spatial planning at municipal and regional level",
+      "b) It covers planning instruments such as land use plans and development plans",
+      "c) It focuses exclusively on international planning systems",
+      "d) Practice-oriented projects are part of the module",
+      "e) It is only accessible to Master's students"
+    ],
+    "correct": [0, 1, 3],
+    "explanation_de": "Das Modul vermittelt kommunale und regionale Planungsgrundlagen, behandelt Planungsinstrumente und enthält praxisorientierte Projekte. Es ist kein reines Mastermodul.",
+    "explanation_en": "The module teaches municipal and regional planning basics, covers planning instruments and includes practice-oriented projects. It is not exclusively a Master's module.",
+    "source": "Studienplan Raumplanung TU Wien, Modulstruktur"
+  },
+  {
+    "id": "studienplan-08",
+    "quizId": "studienplan",
+    "question_de": "Welche Maßstabsebenen der Planung werden im Studium Raumplanung behandelt?",
+    "question_en": "Which planning scales are covered in the Spatial Planning programme?",
+    "options_de": [
+      "a) Kommunale Ebene (Gemeinde, Stadtplanung)",
+      "b) Regionale Ebene (Landesplanung, Regionalplanung)",
+      "c) Nationale Ebene (Bundesraumplanung)",
+      "d) Europäische und internationale Ebene",
+      "e) Ausschließlich die lokale Ebene (Grundstück, Gebäude)"
+    ],
+    "options_en": [
+      "a) Municipal level (municipality, urban planning)",
+      "b) Regional level (state planning, regional planning)",
+      "c) National level (federal spatial planning)",
+      "d) European and international level",
+      "e) Exclusively the local level (plot, building)"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation_de": "Raumplanung umfasst alle Maßstabsebenen von der kommunalen bis zur europäischen/internationalen Ebene. Option e (nur Grundstück/Gebäude) ist falsch — das wäre eher Architektur.",
+    "explanation_en": "Spatial planning covers all scales from municipal to European/international. Option e (only plot/building) is wrong — that would be more akin to architecture.",
+    "source": "Studienplan Raumplanung TU Wien"
+  },
+  {
+    "id": "studienplan-09",
+    "quizId": "studienplan",
+    "question_de": "Welche fachlichen Grundlagen aus anderen Disziplinen sind für das Studium Raumplanung relevant?",
+    "question_en": "What foundational knowledge from other disciplines is relevant for the Spatial Planning programme?",
+    "options_de": [
+      "a) Rechtswissenschaften (Raumordnungsrecht, Baurecht)",
+      "b) Geographie und Geoinformatik (GIS, räumliche Analyse)",
+      "c) Soziologie und Sozialwissenschaften",
+      "d) Ausschließlich Ingenieurwissenschaften",
+      "e) Wirtschaftswissenschaften (Regional- und Stadtökonomie)"
+    ],
+    "options_en": [
+      "a) Legal sciences (spatial planning law, building law)",
+      "b) Geography and geoinformatics (GIS, spatial analysis)",
+      "c) Sociology and social sciences",
+      "d) Exclusively engineering sciences",
+      "e) Economics (regional and urban economics)"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Raumplanung ist interdisziplinär und bezieht Rechtswissenschaften, Geographie/GIS, Soziologie und Wirtschaftswissenschaften ein. Es ist keine ausschließlich ingenieurwissenschaftliche Disziplin.",
+    "explanation_en": "Spatial planning is interdisciplinary and incorporates law, geography/GIS, sociology and economics. It is not exclusively an engineering discipline.",
+    "source": "Studienplan Raumplanung TU Wien, Interdisziplinarität"
+  },
+  {
+    "id": "studienplan-10",
+    "quizId": "studienplan",
+    "question_de": "Welche Aussagen zum Reihungstest für das Bachelorstudium Raumplanung an der TU Wien sind korrekt?",
+    "question_en": "Which statements about the entrance ranking test for the Bachelor's programme in Spatial Planning at TU Wien are correct?",
+    "options_de": [
+      "a) Der Reihungstest dient der Zulassung zum Studium bei Zulassungsbeschränkung",
+      "b) Er besteht aus mehreren Teilen: Wissensfragen (Teil A), Textverständnis (Teil B) und kognitive Fähigkeiten (Teil C)",
+      "c) Der Test wird jährlich einmal vor Semesterbeginn abgehalten",
+      "d) Nur österreichische Staatsbürger dürfen teilnehmen",
+      "e) Multiple-Choice-Format mit Teilpunkten für mehrere richtige Antworten"
+    ],
+    "options_en": [
+      "a) The ranking test is used for admission when the programme has restricted places",
+      "b) It consists of several parts: knowledge questions (Part A), text comprehension (Part B), and cognitive skills (Part C)",
+      "c) The test is held once a year before the start of the semester",
+      "d) Only Austrian citizens may participate",
+      "e) Multiple-choice format with partial credit for multiple correct answers"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Der Reihungstest ist ein Zulassungstest bei beschränkten Plätzen, bestehend aus Teil A (Wissen), Teil B (Textverständnis) und Teil C (kognitive Fähigkeiten). Er ist für alle offen, nicht nur für Österreicher.",
+    "explanation_en": "The ranking test is an admission test for restricted places, consisting of Part A (knowledge), Part B (text comprehension) and Part C (cognitive skills). It is open to all, not just Austrian citizens.",
+    "source": "TU Wien Reihungstest Raumplanung, Informationsblatt"
+  },
+  {
+    "id": "studienplan-11",
+    "quizId": "studienplan",
+    "question_de": "Welche der folgenden Aussagen zu Planungstheorie im Studium Raumplanung sind richtig?",
+    "question_en": "Which of the following statements about planning theory in the Spatial Planning programme are correct?",
+    "options_de": [
+      "a) Planungstheorie beschäftigt sich mit Fragen wie 'Warum planen wir?' und 'Für wen?'",
+      "b) Kommunikative Planungstheorie betont den Dialog und die Einbeziehung von Akteuren",
+      "c) Planungstheorie ist ein reines Randthema ohne Praxisrelevanz",
+      "d) Rationale Planungstheorie geht von vollständiger Information und rationalen Akteuren aus",
+      "e) Inkrementalismus als Planungsansatz bedeutet Planung in kleinen Schritten"
+    ],
+    "options_en": [
+      "a) Planning theory addresses questions like 'Why do we plan?' and 'For whom?'",
+      "b) Communicative planning theory emphasises dialogue and involvement of stakeholders",
+      "c) Planning theory is a purely marginal topic with no practical relevance",
+      "d) Rational planning theory assumes complete information and rational actors",
+      "e) Incrementalism as a planning approach means planning in small steps"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Planungstheorie behandelt normative Grundfragen, kommunikative und rationale Ansätze sowie Inkrementalismus. Sie ist sehr wohl praxisrelevant — Option c ist falsch.",
+    "explanation_en": "Planning theory addresses normative questions, communicative and rational approaches, and incrementalism. It is indeed practically relevant — option c is incorrect.",
+    "source": "Studienplan Raumplanung TU Wien, Planungstheorie"
+  },
+  {
+    "id": "oerek-actions-01",
+    "quizId": "oerek-actions",
+    "question_de": "Welche vier Säulen strukturieren das ÖREK-Aktionsprogramm?",
+    "question_en": "Which four pillars structure the ÖREK action programme?",
+    "options_de": [
+      "a) Lebensqualität und gesellschaftlichen Zusammenhalt stärken",
+      "b) Klimawandel begegnen und natürliche Ressourcen schützen",
+      "c) Wirtschaftliche Wettbewerbsfähigkeit und Innovation fördern",
+      "d) Mobilität und Erreichbarkeit gewährleisten",
+      "e) Digitale Infrastruktur flächendeckend ausbauen"
+    ],
+    "options_en": [
+      "a) Strengthen quality of life and social cohesion",
+      "b) Respond to climate change and protect natural resources",
+      "c) Promote economic competitiveness and innovation",
+      "d) Ensure mobility and accessibility",
+      "e) Expand digital infrastructure nationwide"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation_de": "Die vier Säulen des ÖREK-Aktionsprogramms sind: (1) Lebensqualität und Zusammenhalt, (2) Klimawandel und natürliche Ressourcen, (3) Wirtschaft und Innovation, (4) Mobilität und Erreichbarkeit.",
+    "explanation_en": "The four pillars of the ÖREK action programme are: (1) quality of life and cohesion, (2) climate change and natural resources, (3) economy and innovation, (4) mobility and accessibility.",
+    "source": "ÖREK 2030, Aktionsprogramm, 4 Säulen"
+  },
+  {
+    "id": "oerek-actions-02",
+    "quizId": "oerek-actions",
+    "question_de": "Was sind ÖREK-Partnerschaften?",
+    "question_en": "What are ÖREK partnerships?",
+    "options_de": [
+      "a) Freiwillige Kooperationen zwischen Bund, Ländern und Gemeinden zur Umsetzung konkreter Maßnahmen",
+      "b) Gesetzlich vorgeschriebene Zweckverbände zur Raumplanung",
+      "c) Sie ermöglichen maßgeschneiderte Lösungen für spezifische räumliche Herausforderungen",
+      "d) Partnerschaften zwischen Österreich und EU-Staaten für grenzüberschreitende Planung",
+      "e) Sie ersetzen formelle Planungsverfahren auf Landesebene"
+    ],
+    "options_en": [
+      "a) Voluntary cooperations between federal, state and local levels to implement specific measures",
+      "b) Legally required purpose associations for spatial planning",
+      "c) They enable tailor-made solutions for specific spatial challenges",
+      "d) Partnerships between Austria and EU states for cross-border planning",
+      "e) They replace formal planning procedures at state level"
+    ],
+    "correct": [0, 2],
+    "explanation_de": "ÖREK-Partnerschaften sind freiwillige Kooperationsformate zwischen ÖROK-Mitgliedern, die maßgeschneiderte Lösungen für konkrete räumliche Themen ermöglichen. Sie sind nicht gesetzlich vorgeschrieben und ersetzen keine formellen Verfahren.",
+    "explanation_en": "ÖREK partnerships are voluntary cooperation formats between ÖROK members that enable tailor-made solutions for specific spatial topics. They are not legally required and do not replace formal procedures.",
+    "source": "ÖREK 2030, ÖREK-Partnerschaften"
+  },
+  {
+    "id": "oerek-actions-03",
+    "quizId": "oerek-actions",
+    "question_de": "Was enthält das 10-Punkte-Programm des ÖREK 2030?",
+    "question_en": "What does the 10-point programme of the ÖREK 2030 contain?",
+    "options_de": [
+      "a) Konkrete Maßnahmen zur Reduktion des Flächenverbrauchs",
+      "b) Schritte zur Stärkung der öffentlichen Verkehrsanbindung",
+      "c) Verbindliche Gesetze für alle Bundesländer",
+      "d) Maßnahmen zur Stärkung von Ortskernen und Stadtvierteln",
+      "e) Umsetzungsschritte für klimaresilienten Siedlungsbau"
+    ],
+    "options_en": [
+      "a) Specific measures to reduce land consumption",
+      "b) Steps to strengthen public transport connections",
+      "c) Binding laws for all federal states",
+      "d) Measures to strengthen town centres and urban neighbourhoods",
+      "e) Implementation steps for climate-resilient settlement construction"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Das 10-Punkte-Programm enthält konkrete Maßnahmen zu Flächensparen, Mobilität, Ortskernen und Klimaresilienz. Es enthält keine verbindlichen Gesetze — das ÖREK ist kein Gesetz.",
+    "explanation_en": "The 10-point programme contains concrete measures on land saving, mobility, town centres and climate resilience. It does not contain binding laws — the ÖREK is not a law.",
+    "source": "ÖREK 2030, 10-Punkte-Programm"
+  },
+  {
+    "id": "oerek-actions-04",
+    "quizId": "oerek-actions",
+    "question_de": "Welche Maßnahmen zur Flächensparsamkeit enthält das ÖREK-Aktionsprogramm?",
+    "question_en": "What land-saving measures does the ÖREK action programme contain?",
+    "options_de": [
+      "a) Stärkung der Innenentwicklung vor Außenentwicklung (Innen vor Außen-Prinzip)",
+      "b) Förderung von Leerstandsmanagement und Revitalisierung",
+      "c) Verbot jeglicher Neubautätigkeit bis 2030",
+      "d) Einführung überregionaler Flächenkonten zur Steuerung des Flächenverbrauchs",
+      "e) Verbesserung der Datenlage zum Flächenverbrauch"
+    ],
+    "options_en": [
+      "a) Strengthening inner development over outer development ('inside before outside' principle)",
+      "b) Promoting vacancy management and revitalisation",
+      "c) Prohibition of all new construction until 2030",
+      "d) Introduction of supra-regional land accounts to manage land consumption",
+      "e) Improving the data basis on land consumption"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Das ÖREK-Aktionsprogramm fördert das Innen-vor-Außen-Prinzip, Leerstandsmanagement, Flächenkonten und bessere Daten. Ein Neubauverbot gibt es nicht — das wäre unrealistisch.",
+    "explanation_en": "The ÖREK action programme promotes the inside-before-outside principle, vacancy management, land accounts and better data. There is no construction ban — that would be unrealistic.",
+    "source": "ÖREK 2030, Aktionsprogramm Flächensparen"
+  },
+  {
+    "id": "oerek-actions-05",
+    "quizId": "oerek-actions",
+    "question_de": "Welche Rolle spielt die Koordination zwischen Raumordnung und Klimaschutz im ÖREK-Aktionsprogramm?",
+    "question_en": "What role does coordination between spatial planning and climate protection play in the ÖREK action programme?",
+    "options_de": [
+      "a) Klimaschutzmaßnahmen sollen räumlich koordiniert umgesetzt werden",
+      "b) Raumplanung soll Erneuerbare-Energie-Standorte (Wind, PV) koordinieren",
+      "c) Klimaschutz und Raumplanung werden als voneinander unabhängig behandelt",
+      "d) Grünraumvernetzung und Freiflächen sollen als Klimaanpassungsmaßnahme geplant werden",
+      "e) Hitzeinseln in Städten sollen durch planerische Maßnahmen reduziert werden"
+    ],
+    "options_en": [
+      "a) Climate protection measures are to be implemented in a spatially coordinated manner",
+      "b) Spatial planning should coordinate renewable energy sites (wind, PV)",
+      "c) Climate protection and spatial planning are treated as independent of each other",
+      "d) Green space networks and open spaces are to be planned as climate adaptation measures",
+      "e) Urban heat islands are to be reduced through planning measures"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Das ÖREK-Aktionsprogramm verbindet Klimaschutz und Raumplanung eng: Koordination von Erneuerbare-Energie-Standorten, Grünraumvernetzung und Klimaanpassung in Städten. Option c ist falsch — die Verknüpfung ist ausdrückliches Ziel.",
+    "explanation_en": "The ÖREK action programme closely links climate protection and spatial planning: coordination of renewable energy sites, green networks and urban climate adaptation. Option c is false — the linkage is an explicit goal.",
+    "source": "ÖREK 2030, Aktionsprogramm Klima"
+  },
+  {
+    "id": "oerek-actions-06",
+    "quizId": "oerek-actions",
+    "question_de": "Was versteht man im ÖREK-Aktionsprogramm unter 'Daseinsvorsorge sichern'?",
+    "question_en": "What is meant by 'securing Daseinsvorsorge' in the ÖREK action programme?",
+    "options_de": [
+      "a) Aufrechterhaltung von Grundversorgungseinrichtungen auch in Schrumpfungsregionen",
+      "b) Anpassung von Versorgungsmodellen an veränderte demografische Strukturen",
+      "c) Privatisierung der öffentlichen Daseinsvorsorge zur Effizienzsteigerung",
+      "d) Innovative Mobilitätslösungen für ländliche Regionen (z.B. Rufbusse, Carsharing)",
+      "e) Digitale Angebote als Ergänzung zu physischer Infrastruktur"
+    ],
+    "options_en": [
+      "a) Maintaining basic service facilities even in shrinking regions",
+      "b) Adapting service models to changing demographic structures",
+      "c) Privatisation of public services to increase efficiency",
+      "d) Innovative mobility solutions for rural regions (e.g. demand-responsive buses, car sharing)",
+      "e) Digital services as a supplement to physical infrastructure"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Daseinsvorsorge sichern heißt: Grundversorgung auch in Schrumpfungsregionen, angepasste Modelle, innovative Mobilitätslösungen und digitale Ergänzungen. Privatisierung ist kein ÖREK-Ziel.",
+    "explanation_en": "Securing Daseinsvorsorge means: basic services even in shrinking regions, adapted models, innovative mobility solutions and digital supplements. Privatisation is not an ÖREK goal.",
+    "source": "ÖREK 2030, Aktionsprogramm Daseinsvorsorge"
+  },
+  {
+    "id": "oerek-actions-07",
+    "quizId": "oerek-actions",
+    "question_de": "Wie werden ÖREK-Partnerschaften finanziert und koordiniert?",
+    "question_en": "How are ÖREK partnerships financed and coordinated?",
+    "options_de": [
+      "a) Durch Ko-Finanzierung der beteiligten Gebietskörperschaften",
+      "b) Die ÖROK-Geschäftsstelle koordiniert die Partnerschaften",
+      "c) Ausschließlich durch EU-Fördermittel (EFRE, ELER)",
+      "d) Beteiligungsoffene Prozesse mit externen Expertinnen und Experten sind möglich",
+      "e) Die Ergebnisse sind öffentlich zugänglich"
+    ],
+    "options_en": [
+      "a) Through co-financing by the participating territorial authorities",
+      "b) The ÖROK secretariat coordinates the partnerships",
+      "c) Exclusively through EU funding (ERDF, EAFRD)",
+      "d) Open participation processes with external experts are possible",
+      "e) The results are publicly accessible"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "ÖREK-Partnerschaften werden durch Ko-Finanzierung der Gebietskörperschaften unterstützt, von der ÖROK-Geschäftsstelle koordiniert und binden externe Experten ein. Sie sind nicht ausschließlich EU-finanziert.",
+    "explanation_en": "ÖREK partnerships are supported by co-financing from territorial authorities, coordinated by the ÖROK secretariat and involve external experts. They are not exclusively EU-financed.",
+    "source": "ÖREK 2030, ÖREK-Partnerschaften"
+  },
+  {
+    "id": "oerek-actions-08",
+    "quizId": "oerek-actions",
+    "question_de": "Welche Maßnahmen zur Stärkung von Stadtkernen und Ortskernen enthält das ÖREK-Aktionsprogramm?",
+    "question_en": "What measures to strengthen urban and town centres does the ÖREK action programme contain?",
+    "options_de": [
+      "a) Leerstandsaktivierung und Nutzungsmischung in Innenstädten",
+      "b) Förderung fußläufiger Erreichbarkeit von Grundversorgungseinrichtungen",
+      "c) Verlagerung aller Einzelhandelsflächen in Einkaufszentren auf der grünen Wiese",
+      "d) Stärkung der Aufenthaltsqualität im öffentlichen Raum",
+      "e) Schaffung attraktiver Wohn- und Arbeitsmilieus in Stadtkernen"
+    ],
+    "options_en": [
+      "a) Activating vacancies and promoting mixed uses in town centres",
+      "b) Promoting walkable access to basic services",
+      "c) Relocating all retail to greenfield shopping centres",
+      "d) Improving the quality of stay in public space",
+      "e) Creating attractive living and working environments in town centres"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Starke Ortskerne werden gefördert durch Leerstandsaktivierung, Nutzungsmischung, Fußläufigkeit und Aufenthaltsqualität. Die Verlagerung in Einkaufszentren auf der grünen Wiese ist das Gegenteil des ÖREK-Ziels.",
+    "explanation_en": "Strong town centres are promoted through vacancy activation, mixed uses, walkability and quality of stay. Relocating to greenfield shopping centres is the opposite of the ÖREK goal.",
+    "source": "ÖREK 2030, Aktionsprogramm Ortskerne"
+  },
+  {
+    "id": "oerek-actions-09",
+    "quizId": "oerek-actions",
+    "question_de": "Welche Ziele verfolgt das ÖREK-Aktionsprogramm im Bereich Mobilität und Erreichbarkeit?",
+    "question_en": "What goals does the ÖREK action programme pursue in the area of mobility and accessibility?",
+    "options_de": [
+      "a) Verlagerung vom motorisierten Individualverkehr auf öffentliche Verkehrsmittel",
+      "b) Stärkung der Radinfrastruktur als Teil der aktiven Mobilität",
+      "c) Ausbau des Autobahnnetzes als wichtigstes Mobilitätsziel",
+      "d) Verknüpfung von Siedlungsentwicklung und ÖV-Verfügbarkeit (Pendlerzentren, Haltestellen)",
+      "e) Verbesserung der Erreichbarkeit in ländlichen Regionen"
+    ],
+    "options_en": [
+      "a) Shifting from private motorised transport to public transport",
+      "b) Strengthening cycling infrastructure as part of active mobility",
+      "c) Expanding the motorway network as the main mobility goal",
+      "d) Linking settlement development with public transport availability (commuter centres, stops)",
+      "e) Improving accessibility in rural regions"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Das ÖREK fördert ÖV-Verlagerung, Radinfrastruktur, siedlungsbezogene ÖV-Planung und ländliche Erreichbarkeit. Autobahnausbau als primäres Ziel widerspricht dem Klimaschutzziel des ÖREK.",
+    "explanation_en": "The ÖREK promotes public transport shift, cycling infrastructure, settlement-based public transport planning and rural accessibility. Motorway expansion as a primary goal contradicts the ÖREK's climate protection objective.",
+    "source": "ÖREK 2030, Aktionsprogramm Mobilität"
+  },
+  {
+    "id": "oerek-actions-10",
+    "quizId": "oerek-actions",
+    "question_de": "Welche Monitoring- und Evaluierungsansätze sieht das ÖREK 2030 vor?",
+    "question_en": "What monitoring and evaluation approaches does the ÖREK 2030 provide for?",
+    "options_de": [
+      "a) Regelmäßige Berichterstattung über Fortschritte bei der Umsetzung",
+      "b) Indikatorensystem zur Messung der räumlichen Entwicklung Österreichs",
+      "c) Keine Evaluierung — das ÖREK ist ein reines Strategiepapier",
+      "d) ÖROK-Atlas als Instrument zur Darstellung räumlicher Daten",
+      "e) Überprüfung der Zielerreichung als Grundlage für künftige ÖREK-Revisionen"
+    ],
+    "options_en": [
+      "a) Regular reporting on implementation progress",
+      "b) Indicator system for measuring Austria's spatial development",
+      "c) No evaluation — the ÖREK is a purely strategic paper",
+      "d) ÖROK Atlas as a tool for displaying spatial data",
+      "e) Review of goal achievement as a basis for future ÖREK revisions"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Das ÖREK 2030 sieht Monitoring durch Berichte, Indikatoren, den ÖROK-Atlas und Evaluierung zur Grundlage künftiger Revisionen vor. Option c ist falsch — Evaluierung ist ausdrücklicher Bestandteil.",
+    "explanation_en": "The ÖREK 2030 provides for monitoring through reports, indicators, the ÖROK Atlas and evaluation as a basis for future revisions. Option c is false — evaluation is an explicit component.",
+    "source": "ÖREK 2030, Monitoring"
+  },
+  {
+    "id": "text-comprehension-01",
+    "quizId": "text-comprehension",
+    "question_de": "Lesen Sie folgenden Text und beurteilen Sie die Aussagen:\n\n\"Das österreichische Raumordnungsrecht ist im Gegensatz zu vielen anderen europäischen Staaten nicht auf Bundesebene vereinheitlicht. Die Kompetenz für die Raumordnung liegt bei den Bundesländern, was zu neun unterschiedlichen Landesraumordnungsgesetzen führt. Der Bund hat lediglich in Teilbereichen wie der Bundesstraßenplanung eigene Raumordnungskompetenzen. Die ÖROK koordiniert als freiwillige Plattform die Raumordnungspolitik zwischen den Gebietskörperschaften, ohne jedoch über eigene Rechtssetzungskompetenzen zu verfügen.\"\n\nWelche Aussagen sind laut diesem Text richtig, welche falsch und welche nicht bestimmbar?",
+    "question_en": "Read the following text and assess the statements:\n\n\"Austrian spatial planning law, unlike many other European countries, is not unified at the federal level. Competence for spatial planning lies with the federal states, resulting in nine different state spatial planning acts. The federal government only has its own spatial planning competences in sub-areas such as federal road planning. The ÖROK, as a voluntary platform, coordinates spatial planning policy between the territorial authorities, but without having its own legislative competences.\"\n\nWhich statements are correct, false or indeterminate based on this text?",
+    "options_de": [
+      "a) RICHTIG: Österreich hat neun verschiedene Landesraumordnungsgesetze",
+      "b) FALSCH: Der Bund hat keine einzige Raumordnungskompetenz",
+      "c) RICHTIG: Die ÖROK kann selbst keine verbindlichen Raumordnungsgesetze erlassen",
+      "d) NICHT BESTIMMBAR: Ob das österreichische Raumordnungsrecht mit dem deutschen vergleichbar ist",
+      "e) FALSCH: Die ÖROK ist ein gesetzlich vorgeschriebenes Pflichtgremium"
+    ],
+    "options_en": [
+      "a) TRUE: Austria has nine different state spatial planning acts",
+      "b) FALSE: The federal government has no spatial planning competences at all",
+      "c) TRUE: The ÖROK cannot itself adopt binding spatial planning laws",
+      "d) INDETERMINATE: Whether Austrian spatial planning law is comparable to German law",
+      "e) FALSE: The ÖROK is a legally mandated compulsory body"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation_de": "a) RICHTIG (Text: 'neun unterschiedlichen Landesraumordnungsgesetzen'); b) FALSCH (Text: Bund hat Kompetenzen z.B. bei Bundesstraßen); c) RICHTIG (Text: 'ohne eigene Rechtssetzungskompetenzen'); d) NICHT BESTIMMBAR (Deutschland nicht erwähnt); e) FALSCH (Text: 'freiwillige Plattform').",
+    "explanation_en": "a) TRUE (text: 'nine different state spatial planning acts'); b) FALSE (text: federal government has competences e.g. for federal roads); c) TRUE (text: 'without having its own legislative competences'); d) INDETERMINATE (Germany not mentioned); e) FALSE (text: 'voluntary platform').",
+    "source": "Übungstext Raumordnungsrecht"
+  },
+  {
+    "id": "text-comprehension-02",
+    "quizId": "text-comprehension",
+    "question_de": "Lesen Sie folgenden Text und beurteilen Sie die Aussagen (R=Richtig, F=Falsch, NB=Nicht bestimmbar):\n\n\"Flächensparen ist ein zentrales Anliegen der österreichischen Raumordnungspolitik. Österreich verbrauchte in den letzten Jahrzehnten täglich zwischen 10 und 20 Hektar für Siedlungs- und Verkehrszwecke. Diese Flächeninanspruchnahme gefährdet landwirtschaftlich wertvolle Böden, Ökosystemleistungen und die Erholungsfunktion der Landschaft. Das ÖREK 2030 setzt das Ziel, den Flächenverbrauch auf 2,5 Hektar pro Tag bis 2030 zu reduzieren.\"\n\nWelche Aussagen sind richtig?",
+    "question_en": "Read the text and assess the statements (T=True, F=False, I=Indeterminate):\n\n\"Land saving is a central concern of Austrian spatial planning policy. Austria has consumed between 10 and 20 hectares per day in recent decades for settlement and transport purposes. This land consumption endangers agriculturally valuable soils, ecosystem services and the recreational function of the landscape. The ÖREK 2030 sets the target of reducing land consumption to 2.5 hectares per day by 2030.\"\n\nWhich statements are correct?",
+    "options_de": [
+      "a) RICHTIG: Das ÖREK-Ziel ist 2,5 ha/Tag bis 2030",
+      "b) FALSCH: Laut Text hat Österreich täglich weniger als 5 ha verbraucht",
+      "c) NICHT BESTIMMBAR: Ob das 2,5 ha-Ziel auch nach 2030 gelten soll",
+      "d) RICHTIG: Flächenverbrauch schadet laut Text Böden und Ökosystemleistungen",
+      "e) NICHT BESTIMMBAR: Welche Bundesländer den meisten Flächenverbrauch verursachen"
+    ],
+    "options_en": [
+      "a) TRUE: The ÖREK target is 2.5 ha/day by 2030",
+      "b) FALSE: According to the text, Austria has consumed less than 5 ha per day",
+      "c) INDETERMINATE: Whether the 2.5 ha target should also apply after 2030",
+      "d) TRUE: Land consumption damages soils and ecosystem services according to the text",
+      "e) INDETERMINATE: Which federal states cause the most land consumption"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation_de": "a) R — explizit im Text; b) F — Text sagt 10-20 ha/Tag; c) NB — nicht im Text; d) R — explizit im Text; e) NB — einzelne Länder nicht erwähnt.",
+    "explanation_en": "a) T — explicit in text; b) F — text says 10-20 ha/day; c) I — not in text; d) T — explicit in text; e) I — individual states not mentioned.",
+    "source": "Übungstext Flächeninanspruchnahme"
+  },
+  {
+    "id": "text-comprehension-03",
+    "quizId": "text-comprehension",
+    "question_de": "Lesen Sie folgenden Text und beurteilen Sie die Aussagen:\n\n\"Stadtregionen stehen heute vor komplexen Herausforderungen: Wachsender Wohnraumbedarf trifft auf begrenzte Flächenverfügbarkeit, während gleichzeitig soziale Polarisierung zunimmt. Die Suburbanisierung der letzten Jahrzehnte hat zu räumlicher Segregation, Abhängigkeit vom motorisierten Individualverkehr und zur Auflösung gewachsener Ortskerne geführt. Stadtplanerische Gegenstrategien umfassen die Förderung von Innenentwicklung, Nutzungsmischung und stadtverträglicher Mobilität.\"\n\nWählen Sie die richtigen/falschen/nicht bestimmbaren Aussagen:",
+    "question_en": "Read the text and assess the statements:\n\n\"Urban regions today face complex challenges: growing housing demand meets limited land availability, while social polarisation is increasing at the same time. The suburbanisation of recent decades has led to spatial segregation, dependence on private motorised transport, and the dissolution of established town centres. Urban planning counter-strategies include promoting inner development, mixed uses and city-compatible mobility.\"\n\nSelect the correct/false/indeterminate statements:",
+    "options_de": [
+      "a) RICHTIG: Laut Text fördert Suburbanisierung soziale Segregation",
+      "b) RICHTIG: Innenentwicklung ist laut Text eine stadtplanerische Gegenstrategie",
+      "c) FALSCH: Laut Text hat Suburbanisierung zu mehr Nutzung von öffentlichem Verkehr geführt",
+      "d) NICHT BESTIMMBAR: Ob Innenentwicklung ausreichend Wohnraum schaffen kann",
+      "e) RICHTIG: Wachsende soziale Polarisierung wird im Text als Herausforderung genannt"
+    ],
+    "options_en": [
+      "a) TRUE: According to the text, suburbanisation promotes social segregation",
+      "b) TRUE: Inner development is described as a counter-strategy in the text",
+      "c) FALSE: According to the text, suburbanisation led to more use of public transport",
+      "d) INDETERMINATE: Whether inner development can create sufficient housing",
+      "e) TRUE: Growing social polarisation is mentioned in the text as a challenge"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation_de": "a) R — Text: 'räumlicher Segregation'; b) R — explizit im Text; c) F — Text: 'Abhängigkeit vom motorisierten Individualverkehr' (Gegenteil); d) NB — Text schweigt dazu; e) R — explizit im Text.",
+    "explanation_en": "a) T — text: 'spatial segregation'; b) T — explicit in text; c) F — text: 'dependence on private motorised transport' (opposite); d) I — text is silent on this; e) T — explicit in text.",
+    "source": "Übungstext Stadtregionen"
+  },
+  {
+    "id": "text-comprehension-04",
+    "quizId": "text-comprehension",
+    "question_de": "Lesen Sie folgenden Text:\n\n\"Partizipation ist ein grundlegendes Prinzip moderner Raumplanung. Sie reicht von der Information der Öffentlichkeit über Konsultation und aktive Einbeziehung bis hin zur Entscheidungsteilhabe. Die Arnstein'sche Partizipationsleiter unterscheidet acht Stufen, von Manipulation bis zur Bürgerkontrolle. In der Praxis österreichischer Raumordnungsverfahren ist die Öffentlichkeitsbeteiligung gesetzlich vorgeschrieben, beschränkt sich aber oft auf formelle Stellungnahmen.\"\n\nWählen Sie die richtigen Aussagen:",
+    "question_en": "Read the text:\n\n\"Participation is a fundamental principle of modern spatial planning. It ranges from informing the public to consultation and active involvement to co-decision-making. Arnstein's participation ladder distinguishes eight levels, from manipulation to citizen control. In the practice of Austrian spatial planning procedures, public participation is legally required but often limited to formal statements.\"\n\nSelect the correct statements:",
+    "options_de": [
+      "a) RICHTIG: Arnsteins Modell hat acht Stufen der Partizipation",
+      "b) FALSCH: Laut Text ist Öffentlichkeitsbeteiligung in Österreich nicht gesetzlich vorgeschrieben",
+      "c) RICHTIG: Partizipation umfasst laut Text mehr als nur formelle Stellungnahmen",
+      "d) NICHT BESTIMMBAR: Ob digitale Beteiligungsformate im Text empfohlen werden",
+      "e) RICHTIG: Laut Text ist die Bandbreite der Partizipation groß (von Information bis Entscheidungsteilhabe)"
+    ],
+    "options_en": [
+      "a) TRUE: Arnstein's model has eight levels of participation",
+      "b) FALSE: According to the text, public participation in Austria is not legally required",
+      "c) TRUE: Participation encompasses more than just formal statements according to the text",
+      "d) INDETERMINATE: Whether digital participation formats are recommended in the text",
+      "e) TRUE: According to the text, the range of participation is broad (from information to co-decision)"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation_de": "a) R — explizit im Text; b) F — Text: 'gesetzlich vorgeschrieben'; c) R — Text nennt viele Formen von Partizipation; d) NB — digitale Formate nicht erwähnt; e) R — explizit im Text.",
+    "explanation_en": "a) T — explicit in text; b) F — text: 'legally required'; c) T — text mentions many forms of participation; d) I — digital formats not mentioned; e) T — explicit in text.",
+    "source": "Übungstext Partizipation"
+  },
+  {
+    "id": "text-comprehension-05",
+    "quizId": "text-comprehension",
+    "question_de": "Lesen Sie folgenden Text:\n\n\"Der demografische Wandel stellt ländliche Regionen in Österreich vor besondere Herausforderungen. Abwanderung junger Menschen in urbane Zentren, eine alternde Bevölkerung und sinkende Kaufkraft gefährden die Tragfähigkeit der Infrastruktur. Schulstandorte werden geschlossen, Arztpraxen geben auf, der Einzelhandel zieht sich zurück. Innovative Konzepte wie mobile Dienste, Multifunktionshäuser und digital gestützte Versorgungsmodelle können die Grundversorgung in der Fläche sichern.\"\n\nWelche Aussagen sind korrekt?",
+    "question_en": "Read the text:\n\n\"Demographic change poses particular challenges for rural regions in Austria. Emigration of young people to urban centres, an ageing population and declining purchasing power threaten the viability of infrastructure. Schools are being closed, doctors' practices are closing down, and retail is withdrawing. Innovative concepts such as mobile services, multifunctional buildings and digitally supported supply models can secure basic services across the area.\"\n\nWhich statements are correct?",
+    "options_de": [
+      "a) RICHTIG: Abwanderung junger Menschen ist laut Text ein Problem ländlicher Regionen",
+      "b) NICHT BESTIMMBAR: Welche Bundesländer am stärksten von Schrumpfung betroffen sind",
+      "c) RICHTIG: Mobile Dienste werden als mögliche Lösung genannt",
+      "d) FALSCH: Laut Text steigt die Kaufkraft in ländlichen Regionen",
+      "e) RICHTIG: Schulschließungen werden als Folge des demografischen Wandels beschrieben"
+    ],
+    "options_en": [
+      "a) TRUE: Emigration of young people is described as a problem for rural regions",
+      "b) INDETERMINATE: Which federal states are most affected by shrinkage",
+      "c) TRUE: Mobile services are mentioned as a possible solution",
+      "d) FALSE: According to the text, purchasing power in rural regions is rising",
+      "e) TRUE: School closures are described as a consequence of demographic change"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation_de": "a) R — explizit; b) NB — einzelne Länder nicht genannt; c) R — explizit; d) F — Text: 'sinkende Kaufkraft'; e) R — explizit.",
+    "explanation_en": "a) T — explicit; b) I — individual states not named; c) T — explicit; d) F — text: 'declining purchasing power'; e) T — explicit.",
+    "source": "Übungstext Demografischer Wandel"
+  },
+  {
+    "id": "cognitive-01",
+    "quizId": "cognitive",
+    "question_de": "Analogie: FLÄCHENWIDMUNGSPLAN verhält sich zu GEMEINDE wie ____________ zu BUNDESLAND.",
+    "question_en": "Analogy: FLÄCHENWIDMUNGSPLAN (land use plan) is to GEMEINDE (municipality) as ____________ is to BUNDESLAND (federal state).",
+    "options_de": [
+      "a) Bebauungsplan",
+      "b) Regionalprogramm / Landesentwicklungsprogramm",
+      "c) ÖREK",
+      "d) Raumordnungsgesetz",
+      "e) Zonenplan"
+    ],
+    "options_en": [
+      "a) Development plan",
+      "b) Regional programme / state development programme",
+      "c) ÖREK",
+      "d) Spatial planning act",
+      "e) Zoning plan"
+    ],
+    "correct": [1],
+    "explanation_de": "Der Flächenwidmungsplan ist das zentrale Planungsinstrument der Gemeinde. Das analoge Instrument auf Landesebene ist das Regionalprogramm oder Landesentwicklungsprogramm (Landesraumordnungsprogramm).",
+    "explanation_en": "The land use plan (Flächenwidmungsplan) is the central planning instrument of the municipality. The analogous instrument at state level is the regional programme or state development programme.",
+    "source": "Planungssystem Österreich"
+  },
+  {
+    "id": "cognitive-02",
+    "quizId": "cognitive",
+    "question_de": "Analogie: INNENENTWICKLUNG verhält sich zu FLÄCHENSPAREN wie ÖFFENTLICHER VERKEHR zu ___________.",
+    "question_en": "Analogy: INNER DEVELOPMENT is to LAND SAVING as PUBLIC TRANSPORT is to ___________.",
+    "options_de": [
+      "a) Motorisiertem Individualverkehr (MIV)",
+      "b) CO₂-Reduktion",
+      "c) Straßenbau",
+      "d) Parkraumbewirtschaftung",
+      "e) Raumplanung"
+    ],
+    "options_en": [
+      "a) Private motorised transport (MIV)",
+      "b) CO₂ reduction",
+      "c) Road construction",
+      "d) Parking space management",
+      "e) Spatial planning"
+    ],
+    "correct": [1],
+    "explanation_de": "Innenentwicklung dient dem Flächensparen (Mittel-Ziel). Öffentlicher Verkehr dient der CO₂-Reduktion als übergeordnetem Klimaschutzziel. Die Analogie lautet: Mittel → Ziel.",
+    "explanation_en": "Inner development serves land saving (means-goal). Public transport serves CO₂ reduction as a higher-level climate protection goal. The analogy is: means → goal.",
+    "source": "Raumplanung Konzepte"
+  },
+  {
+    "id": "cognitive-03",
+    "quizId": "cognitive",
+    "question_de": "Zahlenreihe: 2, 5, 9, 14, 20, ___",
+    "question_en": "Number sequence: 2, 5, 9, 14, 20, ___",
+    "options_de": [
+      "a) 25",
+      "b) 26",
+      "c) 27",
+      "d) 28",
+      "e) 30"
+    ],
+    "options_en": [
+      "a) 25",
+      "b) 26",
+      "c) 27",
+      "d) 28",
+      "e) 30"
+    ],
+    "correct": [2],
+    "explanation_de": "Die Differenzen sind: 3, 4, 5, 6, 7. Jede Differenz steigt um 1. Also: 20 + 7 = 27.",
+    "explanation_en": "The differences are: 3, 4, 5, 6, 7. Each difference increases by 1. So: 20 + 7 = 27.",
+    "source": "Kognitive Fähigkeiten — Zahlenreihen"
+  },
+  {
+    "id": "cognitive-04",
+    "quizId": "cognitive",
+    "question_de": "Zahlenreihe: 1, 2, 4, 8, 16, 32, ___",
+    "question_en": "Number sequence: 1, 2, 4, 8, 16, 32, ___",
+    "options_de": [
+      "a) 48",
+      "b) 56",
+      "c) 64",
+      "d) 72",
+      "e) 128"
+    ],
+    "options_en": [
+      "a) 48",
+      "b) 56",
+      "c) 64",
+      "d) 72",
+      "e) 128"
+    ],
+    "correct": [2],
+    "explanation_de": "Jede Zahl wird mit 2 multipliziert: 1, 2, 4, 8, 16, 32, 64. Die nächste Zahl ist 32 × 2 = 64.",
+    "explanation_en": "Each number is multiplied by 2: 1, 2, 4, 8, 16, 32, 64. The next number is 32 × 2 = 64.",
+    "source": "Kognitive Fähigkeiten — Zahlenreihen"
+  },
+  {
+    "id": "cognitive-05",
+    "quizId": "cognitive",
+    "question_de": "Logikaufgabe: In einer Gemeinde gilt: Alle Wohngebiete sind im Flächenwidmungsplan ausgewiesen. Das Grundstück X liegt im Wohngebiet. Welche Schlussfolgerungen sind logisch zwingend korrekt?",
+    "question_en": "Logic task: In a municipality: All residential areas are designated in the land use plan. Plot X is in a residential area. Which conclusions are logically necessarily correct?",
+    "options_de": [
+      "a) Grundstück X ist im Flächenwidmungsplan ausgewiesen",
+      "b) Alle im Flächenwidmungsplan ausgewiesenen Grundstücke sind Wohngebiete",
+      "c) Auf Grundstück X darf Wohnbebauung errichtet werden",
+      "d) Grundstück X befindet sich nicht im Gewerbegebiet",
+      "e) Der Flächenwidmungsplan enthält mindestens ein Wohngebiet"
+    ],
+    "options_en": [
+      "a) Plot X is designated in the land use plan",
+      "b) All plots designated in the land use plan are residential areas",
+      "c) Residential buildings may be erected on plot X",
+      "d) Plot X is not in an industrial/commercial zone",
+      "e) The land use plan contains at least one residential area"
+    ],
+    "correct": [0, 4],
+    "explanation_de": "a) WAHR — X liegt in Wohngebiet → Wohngebiet ist im FWP → X ist im FWP. b) FALSCH — Umkehrung gilt nicht. c) NICHT ZWINGEND — FWP-Widmung allein reicht nicht (noch kein Bebauungsplan). d) NICHT ZWINGEND — nicht explizit ausgeschlossen. e) WAHR — X liegt im Wohngebiet, das im FWP ist → FWP hat mindestens ein Wohngebiet.",
+    "explanation_en": "a) TRUE — X is in residential area → residential area is in plan → X is in plan. b) FALSE — converse does not hold. c) NOT NECESSARILY — designation alone does not suffice (development plan also needed). d) NOT NECESSARILY — not explicitly excluded. e) TRUE — X is in a residential area that is in the plan → plan has at least one residential area.",
+    "source": "Kognitive Fähigkeiten — Logik"
+  },
+  {
+    "id": "oerek-principles-13",
+    "quizId": "oerek-principles",
+    "question_de": "Welche Aussagen zum Begriff 'Polyzentralität' im ÖREK 2030 sind korrekt?",
+    "question_en": "Which statements about the concept of 'polycentricity' in the ÖREK 2030 are correct?",
+    "options_de": [
+      "a) Polyzentralität bezeichnet ein Raumentwicklungsmodell mit mehreren gleichwertigen Zentren",
+      "b) Es soll die Konzentration aller Funktionen in Wien gefördert werden",
+      "c) Polyzentralität stärkt regionale Zentren als Ankerpunkte der Daseinsvorsorge",
+      "d) Das ÖREK fördert eine ausgewogene Raumentwicklung statt Monozentrismus",
+      "e) Polyzentrale Entwicklung reduziert Pendelverkehr und Verkehrsbelastung"
+    ],
+    "options_en": [
+      "a) Polycentricity describes a spatial development model with several equivalent centres",
+      "b) The concentration of all functions in Vienna is to be promoted",
+      "c) Polycentricity strengthens regional centres as anchors of public services",
+      "d) The ÖREK promotes balanced spatial development instead of monocentrism",
+      "e) Polycentric development reduces commuter traffic and transport loads"
+    ],
+    "correct": [0, 2, 3, 4],
+    "explanation_de": "Das ÖREK fördert polyzentrale Raumentwicklung: mehrere gleichwertige Zentren, starke Regionszentren und ausgewogene Entwicklung statt Konzentration auf Wien. Option b ist das Gegenteil des ÖREK-Ansatzes.",
+    "explanation_en": "The ÖREK promotes polycentric spatial development: several equivalent centres, strong regional centres and balanced development instead of concentration on Vienna. Option b is the opposite of the ÖREK approach.",
+    "source": "ÖREK 2030, Polyzentralität"
+  },
+  {
+    "id": "oerek-principles-14",
+    "quizId": "oerek-principles",
+    "question_de": "Was versteht man unter 'kooperativer Planung' im Kontext des ÖREK?",
+    "question_en": "What is understood by 'cooperative planning' in the context of the ÖREK?",
+    "options_de": [
+      "a) Freiwillige Zusammenarbeit von Gebietskörperschaften über Verwaltungsgrenzen hinweg",
+      "b) Interkommunale Kooperation zur gemeinsamen Lösung von Planungsaufgaben",
+      "c) Ausschließlich privatrechtliche Vereinbarungen zwischen Unternehmen",
+      "d) Koordination von Bund-, Landes- und Gemeindeebene durch die ÖROK",
+      "e) Erzwungene Zusammenschlüsse von Gemeinden durch Bundesgesetz"
+    ],
+    "options_en": [
+      "a) Voluntary cooperation of territorial authorities across administrative boundaries",
+      "b) Intermunicipal cooperation to jointly solve planning tasks",
+      "c) Exclusively private-law agreements between companies",
+      "d) Coordination of federal, state and municipal levels through the ÖROK",
+      "e) Forced mergers of municipalities through federal law"
+    ],
+    "correct": [0, 1, 3],
+    "explanation_de": "Kooperative Planung meint freiwillige, grenzüberschreitende Zusammenarbeit von Gebietskörperschaften — interkommunal und interregional — koordiniert durch Gremien wie die ÖROK. Erzwungene Zusammenschlüsse sind kein ÖREK-Ansatz.",
+    "explanation_en": "Cooperative planning means voluntary cross-boundary cooperation between territorial authorities — intermunicipal and interregional — coordinated through bodies such as the ÖROK. Forced mergers are not an ÖREK approach.",
+    "source": "ÖREK 2030, Kooperative Planung"
+  },
+  {
+    "id": "oerek-megatrends-13",
+    "quizId": "oerek-megatrends",
+    "question_de": "Welche räumlichen Auswirkungen hat die Ressourcenknappheit als Megatrend?",
+    "question_en": "What spatial impacts does resource scarcity as a megatrend have?",
+    "options_de": [
+      "a) Erhöhter Druck auf Fläche und Boden als knappe Ressource",
+      "b) Notwendigkeit der Kreislaufwirtschaft und Wiedernutzung von Brachflächen",
+      "c) Ressourcenknappheit betrifft nur Rohstoffindustrieregionen",
+      "d) Wasser als kritische Ressource wird zu einem Planungsthema (Hitze, Trockenheit)",
+      "e) Energiewende erfordert Flächen für erneuerbare Energiegewinnung"
+    ],
+    "options_en": [
+      "a) Increased pressure on land and soil as scarce resources",
+      "b) Need for circular economy and reuse of brownfields",
+      "c) Resource scarcity only affects raw material industrial regions",
+      "d) Water as a critical resource becomes a planning topic (heat, drought)",
+      "e) Energy transition requires land for renewable energy generation"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Ressourcenknappheit erhöht Druck auf Boden, erfordert Kreislaufwirtschaft, macht Wasser zu einem Planungsthema und erfordert Flächen für Erneuerbare. Option c ist falsch — Ressourcenknappheit betrifft alle Regionen.",
+    "explanation_en": "Resource scarcity increases pressure on land, requires circular economy approaches, makes water a planning topic and requires space for renewables. Option c is false — resource scarcity affects all regions.",
+    "source": "ÖREK 2030, Ressourcenknappheit"
+  },
+  {
+    "id": "studienplan-12",
+    "quizId": "studienplan",
+    "question_de": "Welche methodischen Werkzeuge werden im Studium Raumplanung eingesetzt?",
+    "question_en": "Which methodological tools are used in the Spatial Planning programme?",
+    "options_de": [
+      "a) GIS (Geographische Informationssysteme) für räumliche Analyse und Kartierung",
+      "b) Planungsrechtliche Analyse und Bewertung",
+      "c) Bürgerbeteiligung und Moderationstechniken",
+      "d) Ausschließlich quantitative Methoden (Statistik, Modellierung)",
+      "e) Städtebaulicher Entwurf und Konzeptentwicklung"
+    ],
+    "options_en": [
+      "a) GIS (geographic information systems) for spatial analysis and mapping",
+      "b) Planning law analysis and assessment",
+      "c) Citizen participation and moderation techniques",
+      "d) Exclusively quantitative methods (statistics, modelling)",
+      "e) Urban design and concept development"
+    ],
+    "correct": [0, 1, 2, 4],
+    "explanation_de": "Raumplanung nutzt ein breites Methodenspektrum: GIS, rechtliche Analyse, Partizipation und städtebaulichen Entwurf. Es ist keine ausschließlich quantitative Disziplin — qualitative Methoden sind ebenso zentral.",
+    "explanation_en": "Spatial planning uses a broad range of methods: GIS, legal analysis, participation and urban design. It is not exclusively a quantitative discipline — qualitative methods are equally central.",
+    "source": "Studienplan Raumplanung TU Wien, Methoden"
+  },
+  {
+    "id": "studienplan-13",
+    "quizId": "studienplan",
+    "question_de": "Was ist der Unterschied zwischen Raumplanung und Stadtplanung?",
+    "question_en": "What is the difference between spatial planning (Raumplanung) and urban planning (Stadtplanung)?",
+    "options_de": [
+      "a) Raumplanung ist der übergeordnete Begriff, der auch ländliche und regionale Ebenen umfasst",
+      "b) Stadtplanung fokussiert auf urbane Räume und die Gestaltung von Städten",
+      "c) Raumplanung und Stadtplanung sind völlig identische Begriffe",
+      "d) Stadtplanung ist eine Teildisziplin oder Anwendungsfeld der Raumplanung",
+      "e) Raumplanung umfasst alle Maßstabsebenen von der Region bis zum Quartier"
+    ],
+    "options_en": [
+      "a) Spatial planning is the overarching concept, also covering rural and regional scales",
+      "b) Urban planning focuses on urban spaces and the design of cities",
+      "c) Spatial planning and urban planning are completely identical terms",
+      "d) Urban planning is a sub-discipline or application field of spatial planning",
+      "e) Spatial planning covers all scales from the region to the neighbourhood"
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation_de": "Raumplanung ist der übergeordnete Begriff (alle Maßstabsebenen), während Stadtplanung einen Teilbereich bildet (urbaner Raum). Sie sind nicht identisch — Option c ist falsch.",
+    "explanation_en": "Spatial planning is the overarching concept (all scales), while urban planning forms a sub-area (urban space). They are not identical — option c is incorrect.",
+    "source": "Studienplan Raumplanung TU Wien"
+  }
+]
