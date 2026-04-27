@@ -126,5 +126,26 @@ const StudentDB = (() => {
     });
   }
 
-  return { open, addQuizAttempt, getQuizAttempts, getAllAttempts, getStats, addStudyLog, getStudyLog, clearAll };
+  async function exportAll() {
+    const attempts = await getAllAttempts();
+    const studyLog = await getStudyLog();
+    return JSON.stringify({ version: 1, exported: new Date().toISOString(), quizAttempts: attempts, studyLog }, null, 2);
+  }
+
+  async function importAll(jsonString) {
+    const data = JSON.parse(jsonString);
+    if (!data.quizAttempts) throw new Error('Invalid format: missing quizAttempts');
+    const d = await open();
+    return new Promise((resolve, reject) => {
+      const tx = d.transaction(['quizAttempts', 'studyLog'], 'readwrite');
+      const qaStore = tx.objectStore('quizAttempts');
+      const slStore = tx.objectStore('studyLog');
+      (data.quizAttempts || []).forEach(a => { delete a.id; qaStore.add(a); });
+      (data.studyLog || []).forEach(e => { delete e.id; slStore.add(e); });
+      tx.oncomplete = () => resolve(data.quizAttempts.length);
+      tx.onerror = (e) => reject(e.target.error);
+    });
+  }
+
+  return { open, addQuizAttempt, getQuizAttempts, getAllAttempts, getStats, addStudyLog, getStudyLog, clearAll, exportAll, importAll };
 })();

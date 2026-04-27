@@ -359,14 +359,16 @@ const QuizEngine = (() => {
           durationSec
         }).then(() => {
           const msg = document.getElementById('qe-db-msg');
-          if (msg) msg.textContent = '&#10003; Ergebnis gespeichert.';
-        }).catch(err => {
+          if (msg) msg.textContent = 'Lokal gespeichert.';
+        }).catch(() => {});
+      }
+
+      // Sync to Supabase (non-blocking)
+      if (typeof SupabaseSync !== 'undefined') {
+        SupabaseSync.saveAttempt({ quizId, score: rawSum, total, percentage, durationSec }).then(ok => {
           const msg = document.getElementById('qe-db-msg');
-          if (msg) msg.textContent = `Speichern fehlgeschlagen: ${err.message}`;
+          if (msg) msg.textContent = ok ? 'Gespeichert (lokal + cloud).' : 'Lokal gespeichert (cloud offline).';
         });
-      } else {
-        const msg = document.getElementById('qe-db-msg');
-        if (msg) msg.textContent = 'StudentDB nicht verfügbar — Ergebnis nicht gespeichert.';
       }
 
       // Wire retry / new buttons
