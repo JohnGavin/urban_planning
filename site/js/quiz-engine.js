@@ -54,19 +54,44 @@ const QuizEngine = (() => {
 
   // ── Rendering ──────────────────────────────────────────────────────────────
 
+  function countByDifficulty(questions) {
+    const c = { easy: 0, medium: 0, hard: 0 };
+    questions.forEach(q => { c[q.difficulty || 'medium']++; });
+    return c;
+  }
+
   function renderStartScreen(container, questions, quizId) {
+    const counts = countByDifficulty(questions);
     container.innerHTML = `
       <div class="card">
-        <div class="card-title">&#9654; Quiz bereit — ${questions.length} Fragen</div>
-        <table style="margin:1rem 0">
-          <tr><th style="width:40%">Details</th><th>Wert</th></tr>
-          <tr><td>Quiz-ID</td><td><code>${quizId}</code></td></tr>
-          <tr><td>Anzahl Fragen</td><td>${questions.length}</td></tr>
-          <tr><td>Format</td><td>Multiple Choice (alle richtigen ankreuzen)</td></tr>
-          <tr><td>Bewertung</td><td>Teilpunkte; Abzug für falsche Kreuze (min. 0/Frage)</td></tr>
-          <tr><td>Zeitlimit</td><td>Keines (Übungsmodus)</td></tr>
+        <div class="card-title">&#9654; Quiz bereit</div>
+        <p class="text-muted" style="margin:0.5rem 0">Verfügbar: ${questions.length} Fragen (${counts.easy} leicht, ${counts.medium} mittel, ${counts.hard} schwer)</p>
+
+        <div style="margin:1.25rem 0">
+          <label style="color:var(--tu-text-bright);font-weight:600;display:block;margin-bottom:0.5rem">Anzahl Fragen</label>
+          <div id="qe-count-select" style="display:flex;gap:0.25rem;flex-wrap:wrap">
+            <button class="btn btn-outline qe-opt-btn" data-count="5" style="font-size:0.85rem">5</button>
+            <button class="btn btn-primary qe-opt-btn" data-count="10" style="font-size:0.85rem">10</button>
+            <button class="btn btn-outline qe-opt-btn" data-count="all" style="font-size:0.85rem">Alle (${questions.length})</button>
+          </div>
+        </div>
+
+        <div style="margin:1.25rem 0">
+          <label style="color:var(--tu-text-bright);font-weight:600;display:block;margin-bottom:0.5rem">Schwierigkeitsgrad</label>
+          <div id="qe-diff-select" style="display:flex;gap:0.25rem;flex-wrap:wrap">
+            <button class="btn btn-outline qe-opt-btn" data-diff="easy" style="font-size:0.85rem">Leicht (${counts.easy})</button>
+            <button class="btn btn-outline qe-opt-btn" data-diff="medium" style="font-size:0.85rem">Mittel (${counts.medium})</button>
+            <button class="btn btn-outline qe-opt-btn" data-diff="hard" style="font-size:0.85rem">Schwer (${counts.hard})</button>
+            <button class="btn btn-primary qe-opt-btn" data-diff="mixed" style="font-size:0.85rem">Gemischt</button>
+          </div>
+        </div>
+
+        <table style="margin:1rem 0;font-size:0.85rem">
+          <tr><td style="color:var(--tu-text-muted)">Format</td><td>Multiple Choice (alle richtigen ankreuzen)</td></tr>
+          <tr><td style="color:var(--tu-text-muted)">Bewertung</td><td>Teilpunkte; Abzug für falsche Kreuze (min. 0/Frage)</td></tr>
         </table>
-        <div style="margin-top:1rem;display:flex;gap:0.75rem;align-items:center">
+
+        <div style="margin-top:1rem;display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap">
           <button id="qe-start-btn" class="btn btn-primary" style="font-size:1rem;padding:0.75rem 2rem">
             &#9654; Quiz starten
           </button>
@@ -249,20 +274,58 @@ const QuizEngine = (() => {
       return;
     }
 
-    // Shuffle questions for variety
-    const shuffled = [...questions].sort(() => Math.random() - 0.5);
-
     let lang = 'de';
     let startTime = null;
     let timerInterval = null;
+    let selectedCount = 10;
+    let selectedDiff = 'mixed';
+    let activeQuestions = [];
+
+    function buildActiveQuestions() {
+      let pool = [...questions];
+      // Filter by difficulty
+      if (selectedDiff !== 'mixed') {
+        pool = pool.filter(q => (q.difficulty || 'medium') === selectedDiff);
+      }
+      // Shuffle
+      pool.sort(() => Math.random() - 0.5);
+      // Limit count
+      if (selectedCount !== 'all' && pool.length > selectedCount) {
+        pool = pool.slice(0, selectedCount);
+      }
+      return pool;
+    }
+
+    function wireOptButtons(groupId, valueAttr, currentValue, onSelect) {
+      container.querySelectorAll(`#${groupId} .qe-opt-btn`).forEach(btn => {
+        btn.addEventListener('click', () => {
+          container.querySelectorAll(`#${groupId} .qe-opt-btn`).forEach(b => {
+            b.className = 'btn btn-outline qe-opt-btn';
+          });
+          btn.className = 'btn btn-primary qe-opt-btn';
+          const val = btn.dataset[valueAttr];
+          onSelect(val === 'all' ? 'all' : (isNaN(val) ? val : parseInt(val)));
+        });
+      });
+    }
 
     // ── Start screen ───────────────────────────────────────────────────────
 
     function showStartScreen() {
       if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
-      renderStartScreen(container, shuffled, quizId);
+      selectedCount = 10;
+      selectedDiff = 'mixed';
+      renderStartScreen(container, questions, quizId);
+
+      wireOptButtons('qe-count-select', 'count', 10, v => { selectedCount = v; });
+      wireOptButtons('qe-diff-select', 'diff', 'mixed', v => { selectedDiff = v; });
 
       container.querySelector('#qe-start-btn').addEventListener('click', () => {
+        activeQuestions = buildActiveQuestions();
+        if (activeQuestions.length === 0) {
+          alert('Keine Fragen für diese Auswahl verfügbar. Versuchen Sie eine andere Kombination.');
+          return;
+        }
         startTime = Date.now();
         showQuizScreen();
       });
@@ -283,7 +346,7 @@ const QuizEngine = (() => {
     // ── Quiz screen ────────────────────────────────────────────────────────
 
     function showQuizScreen() {
-      renderQuestions(container, shuffled, lang);
+      renderQuestions(container, activeQuestions, lang);
       startTimer();
       wireQuizInteractions();
     }
@@ -315,7 +378,7 @@ const QuizEngine = (() => {
         clearInterval(timerInterval);
         const durationSec = Math.floor((Date.now() - startTime) / 1000);
         const userAnswers = collectAnswers();
-        const scores = shuffled.map((q, qi) => scoreQuestion(q, userAnswers[qi]));
+        const scores = activeQuestions.map((q, qi) => scoreQuestion(q, userAnswers[qi]));
         showResultsScreen(userAnswers, scores, durationSec);
       });
 
@@ -326,7 +389,7 @@ const QuizEngine = (() => {
     }
 
     function collectAnswers() {
-      return shuffled.map((_, qi) => {
+      return activeQuestions.map((_, qi) => {
         const checked = [];
         container.querySelectorAll(`input[type="checkbox"][data-qidx="${qi}"]`).forEach(cb => {
           if (cb.checked) checked.push(Number(cb.dataset.oidx));
@@ -339,10 +402,10 @@ const QuizEngine = (() => {
 
     function showResultsScreen(userAnswers, scores, durationSec) {
       const rawSum = scores.reduce((a, b) => a + b, 0);
-      const total = shuffled.length;
+      const total = activeQuestions.length;
       const percentage = Math.round((rawSum / total) * 100);
 
-      renderResults(container, shuffled, userAnswers, scores, lang, durationSec);
+      renderResults(container, activeQuestions, userAnswers, scores, lang, durationSec);
 
       // Save to IndexedDB
       if (typeof StudentDB !== 'undefined') {

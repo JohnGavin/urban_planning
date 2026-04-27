@@ -18,10 +18,15 @@
       "d) Justice (Gerechtigkeit)",
       "e) Digitalisation"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Das ÖREK 2030 basiert auf den drei Grundsätzen Gemeinwohl, Nachhaltigkeit und Gerechtigkeit. Diese bilden die normative Grundlage für alle Handlungsfelder.",
     "explanation_en": "The ÖREK 2030 is based on three principles: common good, sustainability, and justice. These form the normative foundation for all action fields.",
-    "source": "ÖREK 2030, Grundsätze"
+    "source": "ÖREK 2030, Grundsätze",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-02",
@@ -42,10 +47,14 @@
       "d) It is an EU body for European spatial planning",
       "e) It manages building land reserves of the federal states"
     ],
-    "correct": [0, 2],
+    "correct": [
+      0,
+      2
+    ],
     "explanation_de": "Die ÖROK (Österreichische Raumordnungskonferenz) ist das Koordinationsgremium für Raumordnung zwischen Bund, Ländern, Städten und Gemeinden. Sie gibt das ÖREK (Österreichisches Raumentwicklungskonzept) als nationales Leitbild heraus.",
     "explanation_en": "The ÖROK coordinates spatial planning between federal, state and local levels in Austria and publishes the ÖREK as the national spatial development framework.",
-    "source": "ÖREK 2030, Einleitung"
+    "source": "ÖREK 2030, Einleitung",
+    "difficulty": "easy"
   },
   {
     "id": "oerek-principles-03",
@@ -66,10 +75,14 @@
       "d) Maximising economic growth through spatial planning",
       "e) The protection of property rights as the primary planning objective"
     ],
-    "correct": [0, 2],
+    "correct": [
+      0,
+      2
+    ],
     "explanation_de": "Gemeinwohl bezeichnet im ÖREK 2030 die Ausrichtung der Raumplanung am gesamtgesellschaftlichen Interesse und am Wohl aller Menschen — nicht an Partikularinteressen.",
     "explanation_en": "In the ÖREK 2030, common good refers to aligning spatial planning with the overall societal interest and the well-being of all people, not sectoral interests.",
-    "source": "ÖREK 2030, Grundsätze"
+    "source": "ÖREK 2030, Grundsätze",
+    "difficulty": "easy"
   },
   {
     "id": "oerek-principles-04",
@@ -90,10 +103,15 @@
       "d) Technological dimension",
       "e) Cultural dimension"
     ],
-    "correct": [0, 1, 2],
+    "correct": [
+      0,
+      1,
+      2
+    ],
     "explanation_de": "Das klassische Drei-Säulen-Modell der Nachhaltigkeit umfasst ökologische, soziale und wirtschaftliche Dimensionen. Das ÖREK 2030 bezieht sich explizit auf dieses Modell.",
     "explanation_en": "The classic three-pillar model of sustainability covers ecological, social and economic dimensions. The ÖREK 2030 explicitly references this model.",
-    "source": "ÖREK 2030, Grundsätze"
+    "source": "ÖREK 2030, Grundsätze",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-05",
@@ -114,10 +132,14 @@
       "d) The action programme replaces the land use plans of the states",
       "e) Both documents are identical in content"
     ],
-    "correct": [0, 1],
+    "correct": [
+      0,
+      1
+    ],
     "explanation_de": "Das ÖREK ist das strategische Leitbild (nicht rechtlich verbindlich), während das Aktionsprogramm die konkreten Umsetzungsschritte mit ÖREK-Partnerschaften definiert.",
     "explanation_en": "The ÖREK is the strategic guiding framework (not legally binding), while the action programme defines the concrete implementation steps with ÖREK partnerships.",
-    "source": "ÖREK 2030, Aktionsprogramm"
+    "source": "ÖREK 2030, Aktionsprogramm",
+    "difficulty": "easy"
   },
   {
     "id": "oerek-principles-06",
@@ -138,10 +160,15 @@
       "d) Justice means identical provision in all municipalities",
       "e) The distribution of environmental burdens is also a question of spatial justice"
     ],
-    "correct": [0, 2, 4],
+    "correct": [
+      0,
+      2,
+      4
+    ],
     "explanation_de": "Räumliche Gerechtigkeit im ÖREK umfasst gleichwertige (nicht identische) Lebensbedingungen, intergenerationelle Verantwortung und die gerechte Verteilung von Chancen und Lasten — in allen Regionen, nicht nur in Städten.",
     "explanation_en": "Spatial justice in the ÖREK includes equivalent (not identical) living conditions, intergenerational responsibility, and fair distribution of opportunities and burdens — in all regions, not just cities.",
-    "source": "ÖREK 2030, Grundsätze"
+    "source": "ÖREK 2030, Grundsätze",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-07",
@@ -162,10 +189,14 @@
       "d) It replaces state spatial planning laws",
       "e) It is an EU regulation on Austrian spatial planning"
     ],
-    "correct": [0, 2],
+    "correct": [
+      0,
+      2
+    ],
     "explanation_de": "Das ÖREK ist kein Gesetz. Es ist ein politisches Leitbild, das von der ÖROK beschlossen wird und den normativen Rahmen für die Raumordnungspolitik der Länder setzt — aber ohne direkte rechtliche Bindungswirkung.",
     "explanation_en": "The ÖREK is not a law. It is a political framework adopted by the ÖROK that sets the normative context for state spatial planning policy — but without direct legal binding force.",
-    "source": "ÖREK 2030, Einleitung"
+    "source": "ÖREK 2030, Einleitung",
+    "difficulty": "easy"
   },
   {
     "id": "oerek-principles-08",
@@ -186,10 +217,15 @@
       "d) European Commission",
       "e) Austrian Federal Economic Chamber"
     ],
-    "correct": [0, 1, 2],
+    "correct": [
+      0,
+      1,
+      2
+    ],
     "explanation_de": "Die ÖROK ist ein Koordinationsgremium aus Bund, Ländern sowie Städten und Gemeinden (vertreten durch Städte- und Gemeindebund). Die EU und Wirtschaftskammer sind keine Mitglieder.",
     "explanation_en": "The ÖROK is a coordination body comprising the federal government, states, and municipalities (represented by their associations). The EU and Chamber of Commerce are not members.",
-    "source": "ÖREK 2030, ÖROK-Struktur"
+    "source": "ÖREK 2030, ÖROK-Struktur",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-09",
@@ -210,10 +246,15 @@
       "d) Climate protection and adaptation to climate change",
       "e) Privatisation of public infrastructure to increase efficiency"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Zentrale Ziele des ÖREK 2030 sind Flächensparsamkeit, Innenentwicklung, gleichwertige Daseinsvorsorge und Klimaschutz/-anpassung. Siedlungserweiterung auf der Grünen Wiese und Privatisierung sind keine ÖREK-Ziele.",
     "explanation_en": "Core ÖREK 2030 goals are land efficiency, inner development, equivalent public services, and climate protection/adaptation. Greenfield expansion and privatisation are not ÖREK goals.",
-    "source": "ÖREK 2030, Räumliche Ziele"
+    "source": "ÖREK 2030, Räumliche Ziele",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-10",
@@ -234,10 +275,15 @@
       "d) A legal term for state monopolies in the energy sector",
       "e) Ensuring equivalent living conditions, particularly in shrinking regions"
     ],
-    "correct": [0, 2, 4],
+    "correct": [
+      0,
+      2,
+      4
+    ],
     "explanation_de": "Daseinsvorsorge bezeichnet die Bereitstellung grundlegender Güter und Dienstleistungen (Schulen, Gesundheit, Mobilität, Energie, Wasser etc.) für alle — mit besonderem Augenmerk auf Schrumpfungsregionen und Gleichwertigkeit.",
     "explanation_en": "Daseinsvorsorge refers to the provision of basic goods and services (schools, health, mobility, energy, water etc.) for all — with particular focus on shrinking regions and equivalence.",
-    "source": "ÖREK 2030, Daseinsvorsorge"
+    "source": "ÖREK 2030, Daseinsvorsorge",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-11",
@@ -258,10 +304,16 @@
       "d) Mobility and accessibility",
       "e) Digital infrastructure and innovation"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK 2030 definiert Handlungsfelder wie Klima und Energie, Wohnen und Siedlungsentwicklung, Mobilität sowie Digitalisierung. Steuerpolitik ist kein eigenes ÖREK-Handlungsfeld.",
     "explanation_en": "The ÖREK 2030 defines action fields including climate and energy, housing and settlement development, mobility, and digitalisation. Tax policy is not a separate ÖREK action field.",
-    "source": "ÖREK 2030, Handlungsfelder"
+    "source": "ÖREK 2030, Handlungsfelder",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-principles-12",
@@ -282,10 +334,15 @@
       "d) Renovation and reuse of vacant buildings",
       "e) New development areas at the settlement fringe to concentrate population"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Innenentwicklung meint die Nutzung des Entwicklungspotenzials innerhalb bestehender Siedlungen — Brachflächen, Leerstand, Verdichtung — statt neue Flächen außen zu erschließen.",
     "explanation_en": "Inner development means exploiting the development potential within existing settlements — brownfields, vacancies, densification — rather than opening up new land on the outside.",
-    "source": "ÖREK 2030, Flächensparen"
+    "source": "ÖREK 2030, Flächensparen",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-megatrends-01",
@@ -306,10 +363,17 @@
       "d) Digitalisation",
       "e) Urbanisation"
     ],
-    "correct": [0, 1, 2, 3, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "Demografischer Wandel, Klimawandel, Globalisierung, Digitalisierung und Urbanisierung sind allesamt unter den neun Megatrends des ÖREK 2030.",
     "explanation_en": "Demographic change, climate change, globalisation, digitalisation and urbanisation are all among the nine megatrends of the ÖREK 2030.",
-    "source": "ÖREK 2030, Megatrends"
+    "source": "ÖREK 2030, Megatrends",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-megatrends-02",
@@ -330,10 +394,15 @@
       "d) Health and pandemic risks",
       "e) Knowledge society and expansion of education"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Sozialer Wandel/Individualisierung, Ressourcenknappheit und Gesundheit/Pandemierisiken gehören zu den neun Megatrends. Religiöse Konflikte und Bildungsexpansion als solche werden nicht explizit aufgeführt.",
     "explanation_en": "Social change/individualisation, resource scarcity and health/pandemic risks are among the nine megatrends. Religious conflicts and educational expansion as such are not explicitly listed.",
-    "source": "ÖREK 2030, Megatrends"
+    "source": "ÖREK 2030, Megatrends",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-megatrends-03",
@@ -354,10 +423,17 @@
       "d) Rural regions with shrinkage pressure",
       "e) Alpine regions and tourism regions"
     ],
-    "correct": [0, 1, 2, 3, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK 2030 differenziert zwischen fünf Raumtypen: Großstädte/Metropolregionen, Mittelstädte/Stadtregionen, ländliche Regionen mit Dynamik, ländliche Regionen mit Schrumpfungsdruck und Alpenraum/Tourismusregionen.",
     "explanation_en": "The ÖREK 2030 differentiates between five spatial types: major cities/metropolitan regions, medium cities/urban regions, rural regions with dynamics, rural regions with shrinkage pressure, and alpine/tourism regions.",
-    "source": "ÖREK 2030, Raumtypen"
+    "source": "ÖREK 2030, Raumtypen",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-megatrends-04",
@@ -378,10 +454,15 @@
       "d) It is an EU-wide target anchored in the Austrian ÖREK",
       "e) Net-zero land consumption is to be achieved by 2050"
     ],
-    "correct": [0, 1, 4],
+    "correct": [
+      0,
+      1,
+      4
+    ],
     "explanation_de": "Österreich verbrauchte um 2020 täglich mehr als 10 ha Fläche für Siedlungs- und Verkehrszwecke. Das ÖREK 2030 setzt das Ziel, diesen Verbrauch auf 2,5 ha/Tag zu reduzieren, mit langfristiger Vision Netto-Null bis 2050.",
     "explanation_en": "Austria consumed over 10 ha of land per day around 2020 for settlement and transport purposes. The ÖREK 2030 sets the target of reducing this to 2.5 ha/day, with a long-term vision of net zero by 2050.",
-    "source": "ÖREK 2030, Flächeninanspruchnahme"
+    "source": "ÖREK 2030, Flächeninanspruchnahme",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-megatrends-05",
@@ -402,10 +483,16 @@
       "d) Doubling of renewable energy production by 2025",
       "e) Spatial planning should promote climate-oriented settlement development"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Österreich hat das Ziel Klimaneutralität bis 2040; die EU das 55%-Ziel bis 2030; das Pariser Abkommen setzt 1,5°C. Raumplanung soll diese Ziele räumlich umsetzen. Das Verdoppelungsziel für Erneuerbare bis 2025 ist so nicht korrekt.",
     "explanation_en": "Austria targets climate neutrality by 2040; the EU targets 55% by 2030; the Paris Agreement sets 1.5°C. Spatial planning should implement these goals spatially. The doubling target for renewables by 2025 is not accurate as stated.",
-    "source": "ÖREK 2030, Klimaziele"
+    "source": "ÖREK 2030, Klimaziele",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-megatrends-06",
@@ -426,10 +513,16 @@
       "d) Uniform population growth in all regions of Austria",
       "e) Growing disparities between urban growth areas and rural shrinkage areas"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Österreich erlebt Alterung, regionale Schrumpfung, wachsende Diversität und zunehmende Disparitäten zwischen Regionen. Gleichmäßiges Wachstum überall ist falsch — das Gegenteil ist der Fall.",
     "explanation_en": "Austria experiences ageing, regional shrinkage, growing diversity and increasing regional disparities. Uniform growth everywhere is incorrect — the opposite is true.",
-    "source": "ÖREK 2030, Demografischer Wandel"
+    "source": "ÖREK 2030, Demografischer Wandel",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-megatrends-07",
@@ -450,10 +543,16 @@
       "d) E-commerce changes the space requirements for retail and logistics",
       "e) Smart cities require new planning approaches"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Digitalisierung verändert Arbeitsstandorte, Infrastrukturanforderungen, Handelsflächenbedarfe und erfordert neue Planungsansätze. Sie macht klassische Planungsinstrumente aber nicht überflüssig.",
     "explanation_en": "Digitalisation changes work locations, infrastructure requirements, retail space needs and requires new planning approaches. However, it does not make classical planning instruments superfluous.",
-    "source": "ÖREK 2030, Digitalisierung"
+    "source": "ÖREK 2030, Digitalisierung",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-megatrends-08",
@@ -474,10 +573,15 @@
       "d) Urbanisation only affects developing countries, not Austria",
       "e) Suburbanisation leads to increased land consumption in the peri-urban fringe"
     ],
-    "correct": [0, 2, 4],
+    "correct": [
+      0,
+      2,
+      4
+    ],
     "explanation_de": "Österreichische Städte, insbesondere Wien und ihr Umland, wachsen und stehen vor Herausforderungen. Suburbanisierung erhöht den Flächenverbrauch. Wien wächst, verliert keine Bevölkerung.",
     "explanation_en": "Austrian cities, especially Vienna and their surroundings, are growing and face challenges. Suburbanisation increases land consumption. Vienna is growing, not losing population.",
-    "source": "ÖREK 2030, Urbanisierung"
+    "source": "ÖREK 2030, Urbanisierung",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-megatrends-09",
@@ -498,10 +602,15 @@
       "d) EU Soil Protection Strategy",
       "e) Lisbon Treaty, Article 14 (spatial planning as exclusive EU competence)"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "EU-Biodiversitätsstrategie, Green Deal/Fit for 55 und die EU-Bodenschutzstrategie sind direkt relevant. Raumplanung ist keine ausschließliche EU-Kompetenz (Option e ist falsch). ESPON ist ein Forschungsprogramm, kein Mandat.",
     "explanation_en": "EU Biodiversity Strategy, Green Deal/Fit for 55 and EU Soil Protection Strategy are directly relevant. Spatial planning is not an exclusive EU competence (option e is wrong). ESPON is a research programme, not a mandate.",
-    "source": "ÖREK 2030, EU-Mandate"
+    "source": "ÖREK 2030, EU-Mandate",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-megatrends-10",
@@ -522,10 +631,16 @@
       "d) Climate change has little impact on Austrian spatial structures",
       "e) Need for climate-resilient settlement and infrastructure planning"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Klimawandel erzeugt Hitzestress, Hochwasserrisiken, Wandel im Tourismus und erfordert klimaresiliente Planung. Option d ist falsch — der Klimawandel hat erhebliche Auswirkungen auf Österreich.",
     "explanation_en": "Climate change creates heat stress, flood risks, changes in tourism and requires climate-resilient planning. Option d is false — climate change has significant impacts on Austria.",
-    "source": "ÖREK 2030, Klimawandel"
+    "source": "ÖREK 2030, Klimawandel",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-megatrends-11",
@@ -546,10 +661,13 @@
       "d) About 20 ha/day",
       "e) Less than 1 ha/day"
     ],
-    "correct": [2],
+    "correct": [
+      2
+    ],
     "explanation_de": "Um 2020 verbrauchte Österreich mehr als 10 Hektar Fläche pro Tag für Siedlungs- und Verkehrszwecke. Das ÖREK-Ziel ist die Reduktion auf 2,5 ha/Tag bis 2030.",
     "explanation_en": "Around 2020, Austria consumed more than 10 hectares of land per day for settlement and transport. The ÖREK target is to reduce this to 2.5 ha/day by 2030.",
-    "source": "ÖREK 2030, Flächeninanspruchnahme"
+    "source": "ÖREK 2030, Flächeninanspruchnahme",
+    "difficulty": "easy"
   },
   {
     "id": "oerek-megatrends-12",
@@ -570,10 +688,16 @@
       "d) Global commodity flows change the need for logistics space",
       "e) Crisis resilience (e.g. pandemic, supply chains) becomes a planning topic"
     ],
-    "correct": [0, 2, 3, 4],
+    "correct": [
+      0,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "Globalisierung beeinflusst Standortentscheidungen, Städtekonkurrenz, Logistikflächenbedarfe und Resilienzthemen. Option b ist falsch — Globalisierung erzeugt oft mehr Ungleichheit, keine Homogenisierung.",
     "explanation_en": "Globalisation influences location decisions, city competition, logistics space needs and resilience themes. Option b is false — globalisation often creates more inequality, not homogenisation.",
-    "source": "ÖREK 2030, Globalisierung"
+    "source": "ÖREK 2030, Globalisierung",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-01",
@@ -594,10 +718,15 @@
       "d) A specialisation of architecture without its own methods",
       "e) Spatial planning analyses and shapes spatial developments at various scales"
     ],
-    "correct": [0, 2, 4],
+    "correct": [
+      0,
+      2,
+      4
+    ],
     "explanation_de": "Raumplanung ist eine interdisziplinäre Disziplin, die natur-, sozial- und ingenieurwissenschaftliche Methoden verbindet und räumliche Entwicklungen auf verschiedenen Ebenen analysiert und gestaltet — weit mehr als nur Flächenwidmung.",
     "explanation_en": "Spatial planning is an interdisciplinary discipline combining methods from natural, social and engineering sciences, analysing and shaping spatial developments at various scales — far more than just land use planning.",
-    "source": "Studienplan Raumplanung TU Wien"
+    "source": "Studienplan Raumplanung TU Wien",
+    "difficulty": "medium"
   },
   {
     "id": "studienplan-02",
@@ -618,10 +747,15 @@
       "d) 4 semesters standard duration",
       "e) 240 ECTS credits in total"
     ],
-    "correct": [0, 1, 2],
+    "correct": [
+      0,
+      1,
+      2
+    ],
     "explanation_de": "Das Bachelorstudium Raumplanung an der TU Wien dauert 6 Semester (Regelstudienzeit), umfasst 180 ECTS und schließt mit dem Bachelor of Science ab.",
     "explanation_en": "The Bachelor's study programme in Spatial Planning at TU Wien has a standard duration of 6 semesters, comprises 180 ECTS credits and concludes with a Bachelor of Science degree.",
-    "source": "Studienplan Raumplanung TU Wien, §2"
+    "source": "Studienplan Raumplanung TU Wien, §2",
+    "difficulty": "medium"
   },
   {
     "id": "studienplan-03",
@@ -642,10 +776,15 @@
       "d) The StEOP must be completed within the first two semesters",
       "e) An optional additional module for particularly high-achieving students"
     ],
-    "correct": [0, 2, 3],
+    "correct": [
+      0,
+      2,
+      3
+    ],
     "explanation_de": "Die StEOP (Studieneingangs- und Orientierungsphase) ist eine verpflichtende Eingangsphase zu Beginn des Studiums, die Orientierung über Inhalte und Anforderungen bietet und innerhalb der ersten zwei Semester abzuschließen ist.",
     "explanation_en": "The StEOP (study entry and orientation phase) is a compulsory entry phase at the start of the programme, providing orientation about content and requirements, and must be completed within the first two semesters.",
-    "source": "Studienplan Raumplanung TU Wien, StEOP"
+    "source": "Studienplan Raumplanung TU Wien, StEOP",
+    "difficulty": "medium"
   },
   {
     "id": "studienplan-04",
@@ -666,10 +805,16 @@
       "d) Exclusively the public sector",
       "e) International organisations (EU, UN, World Bank)"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Raumplanerinnen und Raumplaner arbeiten sowohl im öffentlichen als auch im privaten Sektor sowie in der Forschung und bei internationalen Organisationen. Option d (nur öffentlicher Sektor) ist falsch.",
     "explanation_en": "Spatial planners work in both the public and private sectors, in research, and at international organisations. Option d (exclusively public sector) is incorrect.",
-    "source": "Studienplan Raumplanung TU Wien, Tätigkeitsfelder"
+    "source": "Studienplan Raumplanung TU Wien, Tätigkeitsfelder",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-05",
@@ -690,10 +835,16 @@
       "d) Exclusively technical skills (GIS, CAD)",
       "e) Moderation and participation methods"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Das Studium vermittelt analytische, konzeptionelle, rechtlich-instrumentelle und kommunikative Kompetenzen. Es beschränkt sich nicht auf technische Fähigkeiten.",
     "explanation_en": "The programme teaches analytical, conceptual, legal-instrumental and communicative competencies. It is not limited to technical skills.",
-    "source": "Studienplan Raumplanung TU Wien, Qualifikationsprofil"
+    "source": "Studienplan Raumplanung TU Wien, Qualifikationsprofil",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-06",
@@ -714,10 +865,16 @@
       "d) It specifies which courses have immanent examination character",
       "e) The examination regulations are part of the study plan"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Die Prüfungsordnung ist verbindlicher Bestandteil des Studienplans und regelt Anmeldung, Abmeldung, Wiederholungen und prüfungsimmanente Lehrveranstaltungen. Sie ist kein freiwilliges Zusatzdokument.",
     "explanation_en": "The examination regulations are a binding part of the study plan and govern registration, deregistration, repetitions and courses with immanent examination character. They are not a voluntary supplementary document.",
-    "source": "Studienplan Raumplanung TU Wien, Prüfungsordnung"
+    "source": "Studienplan Raumplanung TU Wien, Prüfungsordnung",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-07",
@@ -738,10 +895,15 @@
       "d) Practice-oriented projects are part of the module",
       "e) It is only accessible to Master's students"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Das Modul vermittelt kommunale und regionale Planungsgrundlagen, behandelt Planungsinstrumente und enthält praxisorientierte Projekte. Es ist kein reines Mastermodul.",
     "explanation_en": "The module teaches municipal and regional planning basics, covers planning instruments and includes practice-oriented projects. It is not exclusively a Master's module.",
-    "source": "Studienplan Raumplanung TU Wien, Modulstruktur"
+    "source": "Studienplan Raumplanung TU Wien, Modulstruktur",
+    "difficulty": "medium"
   },
   {
     "id": "studienplan-08",
@@ -762,10 +924,16 @@
       "d) European and international level",
       "e) Exclusively the local level (plot, building)"
     ],
-    "correct": [0, 1, 2, 3],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
     "explanation_de": "Raumplanung umfasst alle Maßstabsebenen von der kommunalen bis zur europäischen/internationalen Ebene. Option e (nur Grundstück/Gebäude) ist falsch — das wäre eher Architektur.",
     "explanation_en": "Spatial planning covers all scales from municipal to European/international. Option e (only plot/building) is wrong — that would be more akin to architecture.",
-    "source": "Studienplan Raumplanung TU Wien"
+    "source": "Studienplan Raumplanung TU Wien",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-09",
@@ -786,10 +954,16 @@
       "d) Exclusively engineering sciences",
       "e) Economics (regional and urban economics)"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Raumplanung ist interdisziplinär und bezieht Rechtswissenschaften, Geographie/GIS, Soziologie und Wirtschaftswissenschaften ein. Es ist keine ausschließlich ingenieurwissenschaftliche Disziplin.",
     "explanation_en": "Spatial planning is interdisciplinary and incorporates law, geography/GIS, sociology and economics. It is not exclusively an engineering discipline.",
-    "source": "Studienplan Raumplanung TU Wien, Interdisziplinarität"
+    "source": "Studienplan Raumplanung TU Wien, Interdisziplinarität",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-10",
@@ -810,10 +984,16 @@
       "d) Only Austrian citizens may participate",
       "e) Multiple-choice format with partial credit for multiple correct answers"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Der Reihungstest ist ein Zulassungstest bei beschränkten Plätzen, bestehend aus Teil A (Wissen), Teil B (Textverständnis) und Teil C (kognitive Fähigkeiten). Er ist für alle offen, nicht nur für Österreicher.",
     "explanation_en": "The ranking test is an admission test for restricted places, consisting of Part A (knowledge), Part B (text comprehension) and Part C (cognitive skills). It is open to all, not just Austrian citizens.",
-    "source": "TU Wien Reihungstest Raumplanung, Informationsblatt"
+    "source": "TU Wien Reihungstest Raumplanung, Informationsblatt",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-11",
@@ -834,10 +1014,16 @@
       "d) Rational planning theory assumes complete information and rational actors",
       "e) Incrementalism as a planning approach means planning in small steps"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Planungstheorie behandelt normative Grundfragen, kommunikative und rationale Ansätze sowie Inkrementalismus. Sie ist sehr wohl praxisrelevant — Option c ist falsch.",
     "explanation_en": "Planning theory addresses normative questions, communicative and rational approaches, and incrementalism. It is indeed practically relevant — option c is incorrect.",
-    "source": "Studienplan Raumplanung TU Wien, Planungstheorie"
+    "source": "Studienplan Raumplanung TU Wien, Planungstheorie",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-01",
@@ -858,10 +1044,16 @@
       "d) Ensure mobility and accessibility",
       "e) Expand digital infrastructure nationwide"
     ],
-    "correct": [0, 1, 2, 3],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
     "explanation_de": "Die vier Säulen des ÖREK-Aktionsprogramms sind: (1) Lebensqualität und Zusammenhalt, (2) Klimawandel und natürliche Ressourcen, (3) Wirtschaft und Innovation, (4) Mobilität und Erreichbarkeit.",
     "explanation_en": "The four pillars of the ÖREK action programme are: (1) quality of life and cohesion, (2) climate change and natural resources, (3) economy and innovation, (4) mobility and accessibility.",
-    "source": "ÖREK 2030, Aktionsprogramm, 4 Säulen"
+    "source": "ÖREK 2030, Aktionsprogramm, 4 Säulen",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-02",
@@ -882,10 +1074,14 @@
       "d) Partnerships between Austria and EU states for cross-border planning",
       "e) They replace formal planning procedures at state level"
     ],
-    "correct": [0, 2],
+    "correct": [
+      0,
+      2
+    ],
     "explanation_de": "ÖREK-Partnerschaften sind freiwillige Kooperationsformate zwischen ÖROK-Mitgliedern, die maßgeschneiderte Lösungen für konkrete räumliche Themen ermöglichen. Sie sind nicht gesetzlich vorgeschrieben und ersetzen keine formellen Verfahren.",
     "explanation_en": "ÖREK partnerships are voluntary cooperation formats between ÖROK members that enable tailor-made solutions for specific spatial topics. They are not legally required and do not replace formal procedures.",
-    "source": "ÖREK 2030, ÖREK-Partnerschaften"
+    "source": "ÖREK 2030, ÖREK-Partnerschaften",
+    "difficulty": "easy"
   },
   {
     "id": "oerek-actions-03",
@@ -906,10 +1102,16 @@
       "d) Measures to strengthen town centres and urban neighbourhoods",
       "e) Implementation steps for climate-resilient settlement construction"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das 10-Punkte-Programm enthält konkrete Maßnahmen zu Flächensparen, Mobilität, Ortskernen und Klimaresilienz. Es enthält keine verbindlichen Gesetze — das ÖREK ist kein Gesetz.",
     "explanation_en": "The 10-point programme contains concrete measures on land saving, mobility, town centres and climate resilience. It does not contain binding laws — the ÖREK is not a law.",
-    "source": "ÖREK 2030, 10-Punkte-Programm"
+    "source": "ÖREK 2030, 10-Punkte-Programm",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-04",
@@ -930,10 +1132,16 @@
       "d) Introduction of supra-regional land accounts to manage land consumption",
       "e) Improving the data basis on land consumption"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK-Aktionsprogramm fördert das Innen-vor-Außen-Prinzip, Leerstandsmanagement, Flächenkonten und bessere Daten. Ein Neubauverbot gibt es nicht — das wäre unrealistisch.",
     "explanation_en": "The ÖREK action programme promotes the inside-before-outside principle, vacancy management, land accounts and better data. There is no construction ban — that would be unrealistic.",
-    "source": "ÖREK 2030, Aktionsprogramm Flächensparen"
+    "source": "ÖREK 2030, Aktionsprogramm Flächensparen",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-05",
@@ -954,10 +1162,16 @@
       "d) Green space networks and open spaces are to be planned as climate adaptation measures",
       "e) Urban heat islands are to be reduced through planning measures"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK-Aktionsprogramm verbindet Klimaschutz und Raumplanung eng: Koordination von Erneuerbare-Energie-Standorten, Grünraumvernetzung und Klimaanpassung in Städten. Option c ist falsch — die Verknüpfung ist ausdrückliches Ziel.",
     "explanation_en": "The ÖREK action programme closely links climate protection and spatial planning: coordination of renewable energy sites, green networks and urban climate adaptation. Option c is false — the linkage is an explicit goal.",
-    "source": "ÖREK 2030, Aktionsprogramm Klima"
+    "source": "ÖREK 2030, Aktionsprogramm Klima",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-06",
@@ -978,10 +1192,16 @@
       "d) Innovative mobility solutions for rural regions (e.g. demand-responsive buses, car sharing)",
       "e) Digital services as a supplement to physical infrastructure"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Daseinsvorsorge sichern heißt: Grundversorgung auch in Schrumpfungsregionen, angepasste Modelle, innovative Mobilitätslösungen und digitale Ergänzungen. Privatisierung ist kein ÖREK-Ziel.",
     "explanation_en": "Securing Daseinsvorsorge means: basic services even in shrinking regions, adapted models, innovative mobility solutions and digital supplements. Privatisation is not an ÖREK goal.",
-    "source": "ÖREK 2030, Aktionsprogramm Daseinsvorsorge"
+    "source": "ÖREK 2030, Aktionsprogramm Daseinsvorsorge",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-07",
@@ -1002,10 +1222,16 @@
       "d) Open participation processes with external experts are possible",
       "e) The results are publicly accessible"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "ÖREK-Partnerschaften werden durch Ko-Finanzierung der Gebietskörperschaften unterstützt, von der ÖROK-Geschäftsstelle koordiniert und binden externe Experten ein. Sie sind nicht ausschließlich EU-finanziert.",
     "explanation_en": "ÖREK partnerships are supported by co-financing from territorial authorities, coordinated by the ÖROK secretariat and involve external experts. They are not exclusively EU-financed.",
-    "source": "ÖREK 2030, ÖREK-Partnerschaften"
+    "source": "ÖREK 2030, ÖREK-Partnerschaften",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-08",
@@ -1026,10 +1252,16 @@
       "d) Improving the quality of stay in public space",
       "e) Creating attractive living and working environments in town centres"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Starke Ortskerne werden gefördert durch Leerstandsaktivierung, Nutzungsmischung, Fußläufigkeit und Aufenthaltsqualität. Die Verlagerung in Einkaufszentren auf der grünen Wiese ist das Gegenteil des ÖREK-Ziels.",
     "explanation_en": "Strong town centres are promoted through vacancy activation, mixed uses, walkability and quality of stay. Relocating to greenfield shopping centres is the opposite of the ÖREK goal.",
-    "source": "ÖREK 2030, Aktionsprogramm Ortskerne"
+    "source": "ÖREK 2030, Aktionsprogramm Ortskerne",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-09",
@@ -1050,10 +1282,16 @@
       "d) Linking settlement development with public transport availability (commuter centres, stops)",
       "e) Improving accessibility in rural regions"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK fördert ÖV-Verlagerung, Radinfrastruktur, siedlungsbezogene ÖV-Planung und ländliche Erreichbarkeit. Autobahnausbau als primäres Ziel widerspricht dem Klimaschutzziel des ÖREK.",
     "explanation_en": "The ÖREK promotes public transport shift, cycling infrastructure, settlement-based public transport planning and rural accessibility. Motorway expansion as a primary goal contradicts the ÖREK's climate protection objective.",
-    "source": "ÖREK 2030, Aktionsprogramm Mobilität"
+    "source": "ÖREK 2030, Aktionsprogramm Mobilität",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-actions-10",
@@ -1074,10 +1312,16 @@
       "d) ÖROK Atlas as a tool for displaying spatial data",
       "e) Review of goal achievement as a basis for future ÖREK revisions"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK 2030 sieht Monitoring durch Berichte, Indikatoren, den ÖROK-Atlas und Evaluierung zur Grundlage künftiger Revisionen vor. Option c ist falsch — Evaluierung ist ausdrücklicher Bestandteil.",
     "explanation_en": "The ÖREK 2030 provides for monitoring through reports, indicators, the ÖROK Atlas and evaluation as a basis for future revisions. Option c is false — evaluation is an explicit component.",
-    "source": "ÖREK 2030, Monitoring"
+    "source": "ÖREK 2030, Monitoring",
+    "difficulty": "hard"
   },
   {
     "id": "text-comprehension-01",
@@ -1098,10 +1342,17 @@
       "d) INDETERMINATE: Whether Austrian spatial planning law is comparable to German law",
       "e) FALSE: The ÖROK is a legally mandated compulsory body"
     ],
-    "correct": [0, 1, 2, 3, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "a) RICHTIG (Text: 'neun unterschiedlichen Landesraumordnungsgesetzen'); b) FALSCH (Text: Bund hat Kompetenzen z.B. bei Bundesstraßen); c) RICHTIG (Text: 'ohne eigene Rechtssetzungskompetenzen'); d) NICHT BESTIMMBAR (Deutschland nicht erwähnt); e) FALSCH (Text: 'freiwillige Plattform').",
     "explanation_en": "a) TRUE (text: 'nine different state spatial planning acts'); b) FALSE (text: federal government has competences e.g. for federal roads); c) TRUE (text: 'without having its own legislative competences'); d) INDETERMINATE (Germany not mentioned); e) FALSE (text: 'voluntary platform').",
-    "source": "Übungstext Raumordnungsrecht"
+    "source": "Übungstext Raumordnungsrecht",
+    "difficulty": "medium"
   },
   {
     "id": "text-comprehension-02",
@@ -1122,10 +1373,17 @@
       "d) TRUE: Land consumption damages soils and ecosystem services according to the text",
       "e) INDETERMINATE: Which federal states cause the most land consumption"
     ],
-    "correct": [0, 1, 2, 3, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "a) R — explizit im Text; b) F — Text sagt 10-20 ha/Tag; c) NB — nicht im Text; d) R — explizit im Text; e) NB — einzelne Länder nicht erwähnt.",
     "explanation_en": "a) T — explicit in text; b) F — text says 10-20 ha/day; c) I — not in text; d) T — explicit in text; e) I — individual states not mentioned.",
-    "source": "Übungstext Flächeninanspruchnahme"
+    "source": "Übungstext Flächeninanspruchnahme",
+    "difficulty": "medium"
   },
   {
     "id": "text-comprehension-03",
@@ -1146,10 +1404,17 @@
       "d) INDETERMINATE: Whether inner development can create sufficient housing",
       "e) TRUE: Growing social polarisation is mentioned in the text as a challenge"
     ],
-    "correct": [0, 1, 2, 3, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "a) R — Text: 'räumlicher Segregation'; b) R — explizit im Text; c) F — Text: 'Abhängigkeit vom motorisierten Individualverkehr' (Gegenteil); d) NB — Text schweigt dazu; e) R — explizit im Text.",
     "explanation_en": "a) T — text: 'spatial segregation'; b) T — explicit in text; c) F — text: 'dependence on private motorised transport' (opposite); d) I — text is silent on this; e) T — explicit in text.",
-    "source": "Übungstext Stadtregionen"
+    "source": "Übungstext Stadtregionen",
+    "difficulty": "medium"
   },
   {
     "id": "text-comprehension-04",
@@ -1170,10 +1435,17 @@
       "d) INDETERMINATE: Whether digital participation formats are recommended in the text",
       "e) TRUE: According to the text, the range of participation is broad (from information to co-decision)"
     ],
-    "correct": [0, 1, 2, 3, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "a) R — explizit im Text; b) F — Text: 'gesetzlich vorgeschrieben'; c) R — Text nennt viele Formen von Partizipation; d) NB — digitale Formate nicht erwähnt; e) R — explizit im Text.",
     "explanation_en": "a) T — explicit in text; b) F — text: 'legally required'; c) T — text mentions many forms of participation; d) I — digital formats not mentioned; e) T — explicit in text.",
-    "source": "Übungstext Partizipation"
+    "source": "Übungstext Partizipation",
+    "difficulty": "medium"
   },
   {
     "id": "text-comprehension-05",
@@ -1194,10 +1466,17 @@
       "d) FALSE: According to the text, purchasing power in rural regions is rising",
       "e) TRUE: School closures are described as a consequence of demographic change"
     ],
-    "correct": [0, 1, 2, 3, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "a) R — explizit; b) NB — einzelne Länder nicht genannt; c) R — explizit; d) F — Text: 'sinkende Kaufkraft'; e) R — explizit.",
     "explanation_en": "a) T — explicit; b) I — individual states not named; c) T — explicit; d) F — text: 'declining purchasing power'; e) T — explicit.",
-    "source": "Übungstext Demografischer Wandel"
+    "source": "Übungstext Demografischer Wandel",
+    "difficulty": "medium"
   },
   {
     "id": "cognitive-01",
@@ -1218,10 +1497,13 @@
       "d) Spatial planning act",
       "e) Zoning plan"
     ],
-    "correct": [1],
+    "correct": [
+      1
+    ],
     "explanation_de": "Der Flächenwidmungsplan ist das zentrale Planungsinstrument der Gemeinde. Das analoge Instrument auf Landesebene ist das Regionalprogramm oder Landesentwicklungsprogramm (Landesraumordnungsprogramm).",
     "explanation_en": "The land use plan (Flächenwidmungsplan) is the central planning instrument of the municipality. The analogous instrument at state level is the regional programme or state development programme.",
-    "source": "Planungssystem Österreich"
+    "source": "Planungssystem Österreich",
+    "difficulty": "easy"
   },
   {
     "id": "cognitive-02",
@@ -1242,10 +1524,13 @@
       "d) Parking space management",
       "e) Spatial planning"
     ],
-    "correct": [1],
+    "correct": [
+      1
+    ],
     "explanation_de": "Innenentwicklung dient dem Flächensparen (Mittel-Ziel). Öffentlicher Verkehr dient der CO₂-Reduktion als übergeordnetem Klimaschutzziel. Die Analogie lautet: Mittel → Ziel.",
     "explanation_en": "Inner development serves land saving (means-goal). Public transport serves CO₂ reduction as a higher-level climate protection goal. The analogy is: means → goal.",
-    "source": "Raumplanung Konzepte"
+    "source": "Raumplanung Konzepte",
+    "difficulty": "easy"
   },
   {
     "id": "cognitive-03",
@@ -1266,10 +1551,13 @@
       "d) 28",
       "e) 30"
     ],
-    "correct": [2],
+    "correct": [
+      2
+    ],
     "explanation_de": "Die Differenzen sind: 3, 4, 5, 6, 7. Jede Differenz steigt um 1. Also: 20 + 7 = 27.",
     "explanation_en": "The differences are: 3, 4, 5, 6, 7. Each difference increases by 1. So: 20 + 7 = 27.",
-    "source": "Kognitive Fähigkeiten — Zahlenreihen"
+    "source": "Kognitive Fähigkeiten — Zahlenreihen",
+    "difficulty": "easy"
   },
   {
     "id": "cognitive-04",
@@ -1290,10 +1578,13 @@
       "d) 72",
       "e) 128"
     ],
-    "correct": [2],
+    "correct": [
+      2
+    ],
     "explanation_de": "Jede Zahl wird mit 2 multipliziert: 1, 2, 4, 8, 16, 32, 64. Die nächste Zahl ist 32 × 2 = 64.",
     "explanation_en": "Each number is multiplied by 2: 1, 2, 4, 8, 16, 32, 64. The next number is 32 × 2 = 64.",
-    "source": "Kognitive Fähigkeiten — Zahlenreihen"
+    "source": "Kognitive Fähigkeiten — Zahlenreihen",
+    "difficulty": "easy"
   },
   {
     "id": "cognitive-05",
@@ -1314,10 +1605,14 @@
       "d) Plot X is not in an industrial/commercial zone",
       "e) The land use plan contains at least one residential area"
     ],
-    "correct": [0, 4],
+    "correct": [
+      0,
+      4
+    ],
     "explanation_de": "a) WAHR — X liegt in Wohngebiet → Wohngebiet ist im FWP → X ist im FWP. b) FALSCH — Umkehrung gilt nicht. c) NICHT ZWINGEND — FWP-Widmung allein reicht nicht (noch kein Bebauungsplan). d) NICHT ZWINGEND — nicht explizit ausgeschlossen. e) WAHR — X liegt im Wohngebiet, das im FWP ist → FWP hat mindestens ein Wohngebiet.",
     "explanation_en": "a) TRUE — X is in residential area → residential area is in plan → X is in plan. b) FALSE — converse does not hold. c) NOT NECESSARILY — designation alone does not suffice (development plan also needed). d) NOT NECESSARILY — not explicitly excluded. e) TRUE — X is in a residential area that is in the plan → plan has at least one residential area.",
-    "source": "Kognitive Fähigkeiten — Logik"
+    "source": "Kognitive Fähigkeiten — Logik",
+    "difficulty": "easy"
   },
   {
     "id": "oerek-principles-13",
@@ -1338,10 +1633,16 @@
       "d) The ÖREK promotes balanced spatial development instead of monocentrism",
       "e) Polycentric development reduces commuter traffic and transport loads"
     ],
-    "correct": [0, 2, 3, 4],
+    "correct": [
+      0,
+      2,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK fördert polyzentrale Raumentwicklung: mehrere gleichwertige Zentren, starke Regionszentren und ausgewogene Entwicklung statt Konzentration auf Wien. Option b ist das Gegenteil des ÖREK-Ansatzes.",
     "explanation_en": "The ÖREK promotes polycentric spatial development: several equivalent centres, strong regional centres and balanced development instead of concentration on Vienna. Option b is the opposite of the ÖREK approach.",
-    "source": "ÖREK 2030, Polyzentralität"
+    "source": "ÖREK 2030, Polyzentralität",
+    "difficulty": "hard"
   },
   {
     "id": "oerek-principles-14",
@@ -1362,10 +1663,15 @@
       "d) Coordination of federal, state and municipal levels through the ÖROK",
       "e) Forced mergers of municipalities through federal law"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Kooperative Planung meint freiwillige, grenzüberschreitende Zusammenarbeit von Gebietskörperschaften — interkommunal und interregional — koordiniert durch Gremien wie die ÖROK. Erzwungene Zusammenschlüsse sind kein ÖREK-Ansatz.",
     "explanation_en": "Cooperative planning means voluntary cross-boundary cooperation between territorial authorities — intermunicipal and interregional — coordinated through bodies such as the ÖROK. Forced mergers are not an ÖREK approach.",
-    "source": "ÖREK 2030, Kooperative Planung"
+    "source": "ÖREK 2030, Kooperative Planung",
+    "difficulty": "medium"
   },
   {
     "id": "oerek-megatrends-13",
@@ -1386,10 +1692,16 @@
       "d) Water as a critical resource becomes a planning topic (heat, drought)",
       "e) Energy transition requires land for renewable energy generation"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Ressourcenknappheit erhöht Druck auf Boden, erfordert Kreislaufwirtschaft, macht Wasser zu einem Planungsthema und erfordert Flächen für Erneuerbare. Option c ist falsch — Ressourcenknappheit betrifft alle Regionen.",
     "explanation_en": "Resource scarcity increases pressure on land, requires circular economy approaches, makes water a planning topic and requires space for renewables. Option c is false — resource scarcity affects all regions.",
-    "source": "ÖREK 2030, Ressourcenknappheit"
+    "source": "ÖREK 2030, Ressourcenknappheit",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-12",
@@ -1410,10 +1722,16 @@
       "d) Exclusively quantitative methods (statistics, modelling)",
       "e) Urban design and concept development"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Raumplanung nutzt ein breites Methodenspektrum: GIS, rechtliche Analyse, Partizipation und städtebaulichen Entwurf. Es ist keine ausschließlich quantitative Disziplin — qualitative Methoden sind ebenso zentral.",
     "explanation_en": "Spatial planning uses a broad range of methods: GIS, legal analysis, participation and urban design. It is not exclusively a quantitative discipline — qualitative methods are equally central.",
-    "source": "Studienplan Raumplanung TU Wien, Methoden"
+    "source": "Studienplan Raumplanung TU Wien, Methoden",
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-13",
@@ -1434,205 +1752,471 @@
       "d) Urban planning is a sub-discipline or application field of spatial planning",
       "e) Spatial planning covers all scales from the region to the neighbourhood"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Raumplanung ist der übergeordnete Begriff (alle Maßstabsebenen), während Stadtplanung einen Teilbereich bildet (urbaner Raum). Sie sind nicht identisch — Option c ist falsch.",
     "explanation_en": "Spatial planning is the overarching concept (all scales), while urban planning forms a sub-area (urban space). They are not identical — option c is incorrect.",
-    "source": "Studienplan Raumplanung TU Wien"
+    "source": "Studienplan Raumplanung TU Wien",
+    "difficulty": "hard"
   },
-
   {
     "id": "wuerfel-1-setup",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 1: Ein Würfel liegt vor Ihnen. Vorne: Kreis (●), Hinten: Stern (★), Oben: Kreuz (+), Unten: Dreieck (△), Links: leer (□), Rechts: leer (□).\n\nSchritt 1: Der Würfel wird einmal IN IHRE RICHTUNG gekippt.\nWas sehen Sie jetzt auf der vorderen Fläche?",
     "question_en": "CUBE 1: A cube is in front of you. Front: Circle (●), Back: Star (★), Top: Cross (+), Bottom: Triangle (△), Left: empty (□), Right: empty (□).\n\nStep 1: The cube is tipped TOWARDS YOU.\nWhat is now on the front face?",
-    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
-    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
-    "correct": [2],
+    "options_de": [
+      "a) Kreis (●)",
+      "b) Stern (★)",
+      "c) Kreuz (+)",
+      "d) Dreieck (△)",
+      "e) Leere Fläche (□)"
+    ],
+    "options_en": [
+      "a) Circle (●)",
+      "b) Star (★)",
+      "c) Cross (+)",
+      "d) Triangle (△)",
+      "e) Empty face (□)"
+    ],
+    "correct": [
+      2
+    ],
     "explanation_de": "Beim Kippen in Ihre Richtung dreht sich: Oben→Vorne, Vorne→Unten, Unten→Hinten, Hinten→Oben. Das Kreuz (+) war oben und kommt jetzt nach vorne.",
     "explanation_en": "Tipping towards you: Top→Front, Front→Bottom, Bottom→Back, Back→Top. The Cross (+) was on top and is now on the front.",
-    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
+    "difficulty": "easy"
   },
   {
     "id": "wuerfel-1-step2",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 1 (Fortsetzung): Nach Schritt 1 war vorne: Kreuz (+). Oben: Stern (★), Unten: Kreis (●), Hinten: Dreieck (△), Links: leer (□), Rechts: leer (□).\n\nSchritt 2: Der Würfel wird um 180° GEDREHT (obere und untere Fläche bleiben gleich).\nWas sehen Sie jetzt vorne?",
     "question_en": "CUBE 1 (continued): After Step 1, front was: Cross (+). Top: Star (★), Bottom: Circle (●), Back: Triangle (△), Left: empty (□), Right: empty (□).\n\nStep 2: The cube is ROTATED 180° (top and bottom stay the same).\nWhat is now on the front?",
-    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
-    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
-    "correct": [3],
+    "options_de": [
+      "a) Kreis (●)",
+      "b) Stern (★)",
+      "c) Kreuz (+)",
+      "d) Dreieck (△)",
+      "e) Leere Fläche (□)"
+    ],
+    "options_en": [
+      "a) Circle (●)",
+      "b) Star (★)",
+      "c) Cross (+)",
+      "d) Triangle (△)",
+      "e) Empty face (□)"
+    ],
+    "correct": [
+      3
+    ],
     "explanation_de": "Bei 180°-Drehung (Oben/Unten bleiben): Vorne↔Hinten, Links↔Rechts. Das Dreieck (△) war hinten und kommt nach vorne. Das Kreuz geht nach hinten.",
     "explanation_en": "180° rotation (top/bottom stay): Front↔Back, Left↔Right. Triangle (△) was on back, now on front.",
-    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-1-step3",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 1 (Fortsetzung): Nach Schritt 2 war vorne: Dreieck (△). Oben: Stern (★), Unten: Kreis (●), Hinten: Kreuz (+), Links: leer (□), Rechts: leer (□).\n\nSchritt 3: Der Würfel wird einmal NACH RECHTS gekippt.\nWas sehen Sie jetzt vorne?",
     "question_en": "CUBE 1 (continued): After Step 2, front was: Triangle (△). Top: Star (★), Bottom: Circle (●), Back: Cross (+), Left: empty (□), Right: empty (□).\n\nStep 3: The cube is tipped to the RIGHT.\nWhat is now on the front?",
-    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
-    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
-    "correct": [3],
+    "options_de": [
+      "a) Kreis (●)",
+      "b) Stern (★)",
+      "c) Kreuz (+)",
+      "d) Dreieck (△)",
+      "e) Leere Fläche (□)"
+    ],
+    "options_en": [
+      "a) Circle (●)",
+      "b) Star (★)",
+      "c) Cross (+)",
+      "d) Triangle (△)",
+      "e) Empty face (□)"
+    ],
+    "correct": [
+      3
+    ],
     "explanation_de": "Beim Kippen nach rechts dreht sich: Vorne→Rechts, Links→Vorne, Hinten→Links, Rechts→Hinten. ABER: Oben/Unten bleiben gleich. Links war leer (□), also... Nein: beim Kippen nach rechts: Links→Vorne. Links war leer. Warte — korrekter: Vorne→Rechts, Links→Vorne. Links war □. Also vorne jetzt □? Nein — die Originalantwort sagt Dreieck. Prüfung: Beim Kippen nach rechts kippen wir um die Achse Vorne-Hinten? Nein, um die Achse Oben-Unten? Nein. Kippen nach rechts = Rotation um die Vorne-Hinten-Achse: Oben→Rechts, Rechts→Unten, Unten→Links, Links→Oben. Die vordere Fläche ändert sich NICHT. Das Dreieck bleibt vorne!",
     "explanation_en": "Tipping right rotates around the front-back axis: Top→Right, Right→Bottom, Bottom→Left, Left→Top. The front face does NOT change. Triangle stays on front.",
-    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-1-step4",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 1 (Fortsetzung): Nach Schritt 3 war vorne: Dreieck (△). Oben: leer (□), Unten: leer (□), Hinten: Kreuz (+), Links: Kreis (●), Rechts: Stern (★).\n\nSchritt 4: Der Würfel wird noch einmal IN IHRE RICHTUNG gekippt.\nWas sehen Sie jetzt vorne?",
     "question_en": "CUBE 1 (continued): After Step 3, front was: Triangle (△). Top: empty (□), Bottom: empty (□), Back: Cross (+), Left: Circle (●), Right: Star (★).\n\nStep 4: The cube is tipped TOWARDS YOU again.\nWhat is now on the front?",
-    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
-    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
-    "correct": [4],
+    "options_de": [
+      "a) Kreis (●)",
+      "b) Stern (★)",
+      "c) Kreuz (+)",
+      "d) Dreieck (△)",
+      "e) Leere Fläche (□)"
+    ],
+    "options_en": [
+      "a) Circle (●)",
+      "b) Star (★)",
+      "c) Cross (+)",
+      "d) Triangle (△)",
+      "e) Empty face (□)"
+    ],
+    "correct": [
+      4
+    ],
     "explanation_de": "Kippen in Ihre Richtung: Oben→Vorne. Oben war leer (□). Also sehen Sie jetzt eine leere Fläche. (Dreieck geht nach unten, □ von oben nach vorne, Kreuz von hinten nach oben, □ von unten nach hinten.)",
     "explanation_en": "Tip towards you: Top→Front. Top was empty (□). So the front is now empty. (Triangle goes to bottom, □ from top to front, Cross from back to top.)",
-    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
+    "difficulty": "medium"
   },
-
   {
     "id": "wuerfel-2-step1",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 2: Ein Würfel liegt vor Ihnen. Vorne: A, Hinten: B, Oben: C, Unten: D, Links: E, Rechts: F.\n\nSchritt 1: Der Würfel wird VON IHNEN WEG gekippt.\nWas sehen Sie jetzt vorne?",
     "question_en": "CUBE 2: A cube is in front of you. Front: A, Back: B, Top: C, Bottom: D, Left: E, Right: F.\n\nStep 1: The cube is tipped AWAY FROM YOU.\nWhat is now on the front?",
-    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "correct": [3],
+    "options_de": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      3
+    ],
     "explanation_de": "Von Ihnen weg kippen: Unten→Vorne, Vorne→Oben, Oben→Hinten, Hinten→Unten. D war unten und kommt nach vorne.",
     "explanation_en": "Tip away from you: Bottom→Front, Front→Top, Top→Back, Back→Bottom. D was on bottom, now on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "easy"
   },
   {
     "id": "wuerfel-2-step2",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 2 (Fortsetzung): Nach Schritt 1: Vorne: D, Oben: A, Hinten: C, Unten: B, Links: E, Rechts: F.\n\nSchritt 2: Der Würfel wird NACH LINKS gekippt.\nWas sehen Sie jetzt vorne?",
     "question_en": "CUBE 2 (continued): After Step 1: Front: D, Top: A, Back: C, Bottom: B, Left: E, Right: F.\n\nStep 2: The cube is tipped to the LEFT.\nWhat is now on the front?",
-    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "correct": [5],
+    "options_de": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      5
+    ],
     "explanation_de": "Kippen nach links dreht um die Vorne-Hinten-Achse: Oben→Links, Links→Unten, Unten→Rechts, Rechts→Oben. Die vordere Fläche ändert sich NICHT? Nein — Kippen nach links = um die Oben-Unten-Achse: Vorne→Links, Rechts→Vorne, Hinten→Rechts, Links→Hinten. F war rechts, kommt nach vorne.",
     "explanation_en": "Tip left rotates around the top-bottom axis: Front→Left, Right→Front, Back→Right, Left→Back. F was on the right, now on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-2-step3",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 2 (Fortsetzung): Nach Schritt 2: Vorne: F, Oben: A, Hinten: E, Unten: B, Links: D, Rechts: C.\n\nSchritt 3: Der Würfel wird um 90° IM UHRZEIGERSINN gedreht (von oben betrachtet).\nWas sehen Sie jetzt vorne?",
     "question_en": "CUBE 2 (continued): After Step 2: Front: F, Top: A, Back: E, Bottom: B, Left: D, Right: C.\n\nStep 3: The cube is ROTATED 90° CLOCKWISE (viewed from above).\nWhat is now on the front?",
-    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "correct": [3],
+    "options_de": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      3
+    ],
     "explanation_de": "90° im Uhrzeigersinn (von oben): Vorne→Rechts, Links→Vorne, Hinten→Links, Rechts→Hinten. Oben/Unten bleiben. D war links und kommt nach vorne.",
     "explanation_en": "90° clockwise (from above): Front→Right, Left→Front, Back→Left, Right→Back. Top/Bottom stay. D was on left, now on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-2-step4",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 2 (Fortsetzung): Nach Schritt 3: Vorne: D, Oben: A, Hinten: C, Unten: B, Links: E, Rechts: F.\n\nSchritt 4: Der Würfel wird IN IHRE RICHTUNG gekippt.\nWas sehen Sie jetzt vorne?",
     "question_en": "CUBE 2 (continued): After Step 3: Front: D, Top: A, Back: C, Bottom: B, Left: E, Right: F.\n\nStep 4: The cube is tipped TOWARDS YOU.\nWhat is now on the front?",
-    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "correct": [0],
+    "options_de": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      0
+    ],
     "explanation_de": "In Ihre Richtung kippen: Oben→Vorne. A war oben und kommt nach vorne. (D geht nach unten, B nach hinten, C nach oben.)",
     "explanation_en": "Tip towards you: Top→Front. A was on top, now on front. (D goes to bottom, B to back, C to top.)",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "medium"
   },
-
   {
     "id": "wuerfel-3-step1",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 3: Vorne: Herz (♥), Hinten: Raute (◆), Oben: Pfeil hoch (↑), Unten: Pfeil runter (↓), Links: Mond (☽), Rechts: Sonne (☀).\n\nSchritt 1: Der Würfel wird NACH RECHTS gekippt.\nWas sehen Sie vorne?",
     "question_en": "CUBE 3: Front: Heart (♥), Back: Diamond (◆), Top: Arrow up (↑), Bottom: Arrow down (↓), Left: Moon (☽), Right: Sun (☀).\n\nStep 1: The cube is tipped to the RIGHT.\nWhat is on the front?",
-    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
-    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
-    "correct": [4],
+    "options_de": [
+      "a) Herz (♥)",
+      "b) Raute (◆)",
+      "c) Pfeil hoch (↑)",
+      "d) Pfeil runter (↓)",
+      "e) Mond (☽)",
+      "f) Sonne (☀)"
+    ],
+    "options_en": [
+      "a) Heart (♥)",
+      "b) Diamond (◆)",
+      "c) Arrow up (↑)",
+      "d) Arrow down (↓)",
+      "e) Moon (☽)",
+      "f) Sun (☀)"
+    ],
+    "correct": [
+      4
+    ],
     "explanation_de": "Kippen nach rechts (um Oben-Unten-Achse): Vorne→Rechts, Links→Vorne. Der Mond (☽) war links und kommt nach vorne.",
     "explanation_en": "Tip right (around top-bottom axis): Front→Right, Left→Front. Moon (☽) was on left, now on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "easy"
   },
   {
     "id": "wuerfel-3-step2",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 3 (Forts.): Vorne: Mond (☽), Oben: ↑, Unten: ↓, Hinten: Sonne (☀), Links: Raute (◆), Rechts: Herz (♥).\n\nSchritt 2: Der Würfel wird IN IHRE RICHTUNG gekippt.\nWas sehen Sie vorne?",
     "question_en": "CUBE 3 (cont.): Front: Moon (☽), Top: ↑, Bottom: ↓, Back: Sun (☀), Left: Diamond (◆), Right: Heart (♥).\n\nStep 2: The cube is tipped TOWARDS YOU.\nWhat is on the front?",
-    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
-    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
-    "correct": [2],
+    "options_de": [
+      "a) Herz (♥)",
+      "b) Raute (◆)",
+      "c) Pfeil hoch (↑)",
+      "d) Pfeil runter (↓)",
+      "e) Mond (☽)",
+      "f) Sonne (☀)"
+    ],
+    "options_en": [
+      "a) Heart (♥)",
+      "b) Diamond (◆)",
+      "c) Arrow up (↑)",
+      "d) Arrow down (↓)",
+      "e) Moon (☽)",
+      "f) Sun (☀)"
+    ],
+    "correct": [
+      2
+    ],
     "explanation_de": "In Ihre Richtung: Oben→Vorne. Pfeil hoch (↑) war oben, kommt nach vorne.",
     "explanation_en": "Towards you: Top→Front. Arrow up (↑) was on top, now on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-3-step3",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 3 (Forts.): Vorne: ↑, Oben: Sonne (☀), Unten: Mond (☽), Hinten: ↓, Links: Raute (◆), Rechts: Herz (♥).\n\nSchritt 3: Der Würfel wird um 180° GEDREHT (Oben/Unten bleiben).\nWas sehen Sie vorne?",
     "question_en": "CUBE 3 (cont.): Front: ↑, Top: Sun (☀), Bottom: Moon (☽), Back: ↓, Left: Diamond (◆), Right: Heart (♥).\n\nStep 3: The cube is ROTATED 180° (top/bottom stay).\nWhat is on the front?",
-    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
-    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
-    "correct": [3],
+    "options_de": [
+      "a) Herz (♥)",
+      "b) Raute (◆)",
+      "c) Pfeil hoch (↑)",
+      "d) Pfeil runter (↓)",
+      "e) Mond (☽)",
+      "f) Sonne (☀)"
+    ],
+    "options_en": [
+      "a) Heart (♥)",
+      "b) Diamond (◆)",
+      "c) Arrow up (↑)",
+      "d) Arrow down (↓)",
+      "e) Moon (☽)",
+      "f) Sun (☀)"
+    ],
+    "correct": [
+      3
+    ],
     "explanation_de": "180° Drehung: Vorne↔Hinten, Links↔Rechts. Pfeil runter (↓) war hinten, kommt nach vorne.",
     "explanation_en": "180° rotation: Front↔Back, Left↔Right. Arrow down (↓) was on back, now on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-3-step4",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 3 (Forts.): Vorne: ↓, Oben: ☀, Unten: ☽, Hinten: ↑, Links: ♥, Rechts: ◆.\n\nSchritt 4: Der Würfel wird VON IHNEN WEG gekippt.\nWas sehen Sie vorne?",
     "question_en": "CUBE 3 (cont.): Front: ↓, Top: ☀, Bottom: ☽, Back: ↑, Left: ♥, Right: ◆.\n\nStep 4: The cube is tipped AWAY FROM YOU.\nWhat is on the front?",
-    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
-    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
-    "correct": [4],
+    "options_de": [
+      "a) Herz (♥)",
+      "b) Raute (◆)",
+      "c) Pfeil hoch (↑)",
+      "d) Pfeil runter (↓)",
+      "e) Mond (☽)",
+      "f) Sonne (☀)"
+    ],
+    "options_en": [
+      "a) Heart (♥)",
+      "b) Diamond (◆)",
+      "c) Arrow up (↑)",
+      "d) Arrow down (↓)",
+      "e) Moon (☽)",
+      "f) Sun (☀)"
+    ],
+    "correct": [
+      4
+    ],
     "explanation_de": "Von Ihnen weg: Unten→Vorne. Mond (☽) war unten, kommt nach vorne.",
     "explanation_en": "Away from you: Bottom→Front. Moon (☽) was on bottom, now on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen"
+    "source": "Übungsaufgabe Räumliches Vorstellen",
+    "difficulty": "medium"
   },
-
   {
     "id": "wuerfel-4-step1",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 4 (Schwer): Vorne: 1, Hinten: 6, Oben: 2, Unten: 5, Links: 3, Rechts: 4.\n\nSchritt 1: Der Würfel wird NACH LINKS gekippt, dann sofort IN IHRE RICHTUNG gekippt.\nWas sehen Sie vorne?",
     "question_en": "CUBE 4 (Hard): Front: 1, Back: 6, Top: 2, Bottom: 5, Left: 3, Right: 4.\n\nStep 1: The cube is tipped LEFT, then immediately tipped TOWARDS YOU.\nWhat is on the front?",
-    "options_de": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
-    "options_en": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
-    "correct": [1],
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      1
+    ],
     "explanation_de": "Nach links: Rechts→Vorne → 4 vorne. Oben: 2, Unten: 5, Links: 1, Rechts: 6, Hinten: 3. Dann in Ihre Richtung: Oben→Vorne → 2 vorne.",
     "explanation_en": "Tip left: Right→Front → 4 on front. Top: 2, Bottom: 5, Left: 1, Right: 6, Back: 3. Then towards you: Top→Front → 2 on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)",
+    "difficulty": "hard"
   },
   {
     "id": "wuerfel-4-step2",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 4 (Forts.): Nach Schritt 1: Vorne: 2, Oben: 3, Unten: 4, Hinten: 5, Links: 1, Rechts: 6.\n\nSchritt 2: Der Würfel wird um 90° IM UHRZEIGERSINN gedreht (von oben), dann VON IHNEN WEG gekippt.\nWas sehen Sie vorne?",
     "question_en": "CUBE 4 (cont.): After Step 1: Front: 2, Top: 3, Bottom: 4, Back: 5, Left: 1, Right: 6.\n\nStep 2: Rotated 90° CLOCKWISE (from above), then tipped AWAY FROM YOU.\nWhat is on the front?",
-    "options_de": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
-    "options_en": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
-    "correct": [3],
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      3
+    ],
     "explanation_de": "90° UZS von oben: Links→Vorne → 1 vorne. Oben: 3, Unten: 4, Rechts: 2, Links: 5, Hinten: 6. Dann weg kippen: Unten→Vorne → 4 vorne.",
     "explanation_en": "90° CW from above: Left→Front → 1 on front. Top: 3, Bottom: 4, Right: 2, Left: 5, Back: 6. Then tip away: Bottom→Front → 4 on front.",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)",
+    "difficulty": "hard"
   },
   {
     "id": "wuerfel-5-step1",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 5: Vorne: X, Hinten: O, Oben: △, Unten: □, Links: ♥, Rechts: ★.\n\nDer Würfel wird dreimal hintereinander IN IHRE RICHTUNG gekippt.\nWas sehen Sie am Ende vorne?",
     "question_en": "CUBE 5: Front: X, Back: O, Top: △, Bottom: □, Left: ♥, Right: ★.\n\nThe cube is tipped TOWARDS YOU three times in a row.\nWhat is on the front at the end?",
-    "options_de": ["a) X", "b) O", "c) △", "d) □", "e) ♥", "f) ★"],
-    "options_en": ["a) X", "b) O", "c) △", "d) □", "e) ♥", "f) ★"],
-    "correct": [3],
+    "options_de": [
+      "a) X",
+      "b) O",
+      "c) △",
+      "d) □",
+      "e) ♥",
+      "f) ★"
+    ],
+    "options_en": [
+      "a) X",
+      "b) O",
+      "c) △",
+      "d) □",
+      "e) ♥",
+      "f) ★"
+    ],
+    "correct": [
+      3
+    ],
     "explanation_de": "Zyklus bei Kippen in Ihre Richtung: Oben→Vorne→Unten→Hinten→Oben. Start: V=X, O=△, H=O, U=□. Nach 1×: V=△, O=O, H=□, U=X. Nach 2×: V=O, O=□, H=X, U=△. Nach 3×: V=□, O=X, H=△, U=O. Antwort: □ (d).",
     "explanation_en": "Cycle for tipping towards you: Top→Front→Bottom→Back→Top. Start: F=X, T=△, B=O, Bo=□. After 1: F=△, T=O, B=□, Bo=X. After 2: F=O, T=□, B=X, Bo=△. After 3: F=□, T=X, B=△, Bo=O. Answer: □ (d).",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Tricky)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Tricky)",
+    "difficulty": "hard"
   },
   {
     "id": "wuerfel-6-step1",
     "quizId": "cognitive",
     "question_de": "WÜRFEL 6 (Kombination): Vorne: A, Hinten: F, Oben: B, Unten: E, Links: C, Rechts: D.\n\nSchritt 1: NACH RECHTS kippen.\nSchritt 2: IN IHRE RICHTUNG kippen.\nSchritt 3: um 180° DREHEN (Oben/Unten bleiben).\n\nWas sehen Sie am Ende vorne?",
     "question_en": "CUBE 6 (Combination): Front: A, Back: F, Top: B, Bottom: E, Left: C, Right: D.\n\nStep 1: Tip RIGHT.\nStep 2: Tip TOWARDS YOU.\nStep 3: ROTATE 180° (top/bottom stay).\n\nWhat is on the front at the end?",
-    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
-    "correct": [5],
+    "options_de": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) B",
+      "c) C",
+      "d) D",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      5
+    ],
     "explanation_de": "Schritt 1 (rechts): Links→Vorne → C vorne. O=B, U=E, R=A, L=F, H=D. Schritt 2 (in Ihre Richtung): Oben→Vorne → B vorne. O=D, U=C, H=E, L=F, R=A. Schritt 3 (180°): Vorne↔Hinten → E vorne. Also F (f)... Nein: H=E, also E kommt nach vorne. Antwort: E (e). Korrektur der Zwischenschritte: Nach S1: V=C, H=D, O=B, U=E, L=F, R=A. Nach S2: V=B, O=D, H=E, U=C, L=F, R=A. Nach S3 (180°): V↔H → V=E. Antwort: E (e).",
     "explanation_en": "S1 (right): Left→Front → C. T=B,Bo=E,R=A,L=F,B=D. S2 (towards): Top→Front → B. T=D,Bo=C,B=E,L=F,R=A. S3 (180°): Front↔Back → E on front. Answer: E (e).",
-    "source": "Übungsaufgabe Räumliches Vorstellen (Kombination)"
+    "source": "Übungsaufgabe Räumliches Vorstellen (Kombination)",
+    "difficulty": "hard"
   }
 ]
