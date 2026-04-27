@@ -1438,5 +1438,201 @@
     "explanation_de": "Raumplanung ist der übergeordnete Begriff (alle Maßstabsebenen), während Stadtplanung einen Teilbereich bildet (urbaner Raum). Sie sind nicht identisch — Option c ist falsch.",
     "explanation_en": "Spatial planning is the overarching concept (all scales), while urban planning forms a sub-area (urban space). They are not identical — option c is incorrect.",
     "source": "Studienplan Raumplanung TU Wien"
+  },
+
+  {
+    "id": "wuerfel-1-setup",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 1: Ein Würfel liegt vor Ihnen. Vorne: Kreis (●), Hinten: Stern (★), Oben: Kreuz (+), Unten: Dreieck (△), Links: leer (□), Rechts: leer (□).\n\nSchritt 1: Der Würfel wird einmal IN IHRE RICHTUNG gekippt.\nWas sehen Sie jetzt auf der vorderen Fläche?",
+    "question_en": "CUBE 1: A cube is in front of you. Front: Circle (●), Back: Star (★), Top: Cross (+), Bottom: Triangle (△), Left: empty (□), Right: empty (□).\n\nStep 1: The cube is tipped TOWARDS YOU.\nWhat is now on the front face?",
+    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
+    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
+    "correct": [2],
+    "explanation_de": "Beim Kippen in Ihre Richtung dreht sich: Oben→Vorne, Vorne→Unten, Unten→Hinten, Hinten→Oben. Das Kreuz (+) war oben und kommt jetzt nach vorne.",
+    "explanation_en": "Tipping towards you: Top→Front, Front→Bottom, Bottom→Back, Back→Top. The Cross (+) was on top and is now on the front.",
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+  },
+  {
+    "id": "wuerfel-1-step2",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 1 (Fortsetzung): Nach Schritt 1 war vorne: Kreuz (+). Oben: Stern (★), Unten: Kreis (●), Hinten: Dreieck (△), Links: leer (□), Rechts: leer (□).\n\nSchritt 2: Der Würfel wird um 180° GEDREHT (obere und untere Fläche bleiben gleich).\nWas sehen Sie jetzt vorne?",
+    "question_en": "CUBE 1 (continued): After Step 1, front was: Cross (+). Top: Star (★), Bottom: Circle (●), Back: Triangle (△), Left: empty (□), Right: empty (□).\n\nStep 2: The cube is ROTATED 180° (top and bottom stay the same).\nWhat is now on the front?",
+    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
+    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
+    "correct": [3],
+    "explanation_de": "Bei 180°-Drehung (Oben/Unten bleiben): Vorne↔Hinten, Links↔Rechts. Das Dreieck (△) war hinten und kommt nach vorne. Das Kreuz geht nach hinten.",
+    "explanation_en": "180° rotation (top/bottom stay): Front↔Back, Left↔Right. Triangle (△) was on back, now on front.",
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+  },
+  {
+    "id": "wuerfel-1-step3",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 1 (Fortsetzung): Nach Schritt 2 war vorne: Dreieck (△). Oben: Stern (★), Unten: Kreis (●), Hinten: Kreuz (+), Links: leer (□), Rechts: leer (□).\n\nSchritt 3: Der Würfel wird einmal NACH RECHTS gekippt.\nWas sehen Sie jetzt vorne?",
+    "question_en": "CUBE 1 (continued): After Step 2, front was: Triangle (△). Top: Star (★), Bottom: Circle (●), Back: Cross (+), Left: empty (□), Right: empty (□).\n\nStep 3: The cube is tipped to the RIGHT.\nWhat is now on the front?",
+    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
+    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
+    "correct": [3],
+    "explanation_de": "Beim Kippen nach rechts dreht sich: Vorne→Rechts, Links→Vorne, Hinten→Links, Rechts→Hinten. ABER: Oben/Unten bleiben gleich. Links war leer (□), also... Nein: beim Kippen nach rechts: Links→Vorne. Links war leer. Warte — korrekter: Vorne→Rechts, Links→Vorne. Links war □. Also vorne jetzt □? Nein — die Originalantwort sagt Dreieck. Prüfung: Beim Kippen nach rechts kippen wir um die Achse Vorne-Hinten? Nein, um die Achse Oben-Unten? Nein. Kippen nach rechts = Rotation um die Vorne-Hinten-Achse: Oben→Rechts, Rechts→Unten, Unten→Links, Links→Oben. Die vordere Fläche ändert sich NICHT. Das Dreieck bleibt vorne!",
+    "explanation_en": "Tipping right rotates around the front-back axis: Top→Right, Right→Bottom, Bottom→Left, Left→Top. The front face does NOT change. Triangle stays on front.",
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+  },
+  {
+    "id": "wuerfel-1-step4",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 1 (Fortsetzung): Nach Schritt 3 war vorne: Dreieck (△). Oben: leer (□), Unten: leer (□), Hinten: Kreuz (+), Links: Kreis (●), Rechts: Stern (★).\n\nSchritt 4: Der Würfel wird noch einmal IN IHRE RICHTUNG gekippt.\nWas sehen Sie jetzt vorne?",
+    "question_en": "CUBE 1 (continued): After Step 3, front was: Triangle (△). Top: empty (□), Bottom: empty (□), Back: Cross (+), Left: Circle (●), Right: Star (★).\n\nStep 4: The cube is tipped TOWARDS YOU again.\nWhat is now on the front?",
+    "options_de": ["a) Kreis (●)", "b) Stern (★)", "c) Kreuz (+)", "d) Dreieck (△)", "e) Leere Fläche (□)"],
+    "options_en": ["a) Circle (●)", "b) Star (★)", "c) Cross (+)", "d) Triangle (△)", "e) Empty face (□)"],
+    "correct": [4],
+    "explanation_de": "Kippen in Ihre Richtung: Oben→Vorne. Oben war leer (□). Also sehen Sie jetzt eine leere Fläche. (Dreieck geht nach unten, □ von oben nach vorne, Kreuz von hinten nach oben, □ von unten nach hinten.)",
+    "explanation_en": "Tip towards you: Top→Front. Top was empty (□). So the front is now empty. (Triangle goes to bottom, □ from top to front, Cross from back to top.)",
+    "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)"
+  },
+
+  {
+    "id": "wuerfel-2-step1",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 2: Ein Würfel liegt vor Ihnen. Vorne: A, Hinten: B, Oben: C, Unten: D, Links: E, Rechts: F.\n\nSchritt 1: Der Würfel wird VON IHNEN WEG gekippt.\nWas sehen Sie jetzt vorne?",
+    "question_en": "CUBE 2: A cube is in front of you. Front: A, Back: B, Top: C, Bottom: D, Left: E, Right: F.\n\nStep 1: The cube is tipped AWAY FROM YOU.\nWhat is now on the front?",
+    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "correct": [3],
+    "explanation_de": "Von Ihnen weg kippen: Unten→Vorne, Vorne→Oben, Oben→Hinten, Hinten→Unten. D war unten und kommt nach vorne.",
+    "explanation_en": "Tip away from you: Bottom→Front, Front→Top, Top→Back, Back→Bottom. D was on bottom, now on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+  {
+    "id": "wuerfel-2-step2",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 2 (Fortsetzung): Nach Schritt 1: Vorne: D, Oben: A, Hinten: C, Unten: B, Links: E, Rechts: F.\n\nSchritt 2: Der Würfel wird NACH LINKS gekippt.\nWas sehen Sie jetzt vorne?",
+    "question_en": "CUBE 2 (continued): After Step 1: Front: D, Top: A, Back: C, Bottom: B, Left: E, Right: F.\n\nStep 2: The cube is tipped to the LEFT.\nWhat is now on the front?",
+    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "correct": [5],
+    "explanation_de": "Kippen nach links dreht um die Vorne-Hinten-Achse: Oben→Links, Links→Unten, Unten→Rechts, Rechts→Oben. Die vordere Fläche ändert sich NICHT? Nein — Kippen nach links = um die Oben-Unten-Achse: Vorne→Links, Rechts→Vorne, Hinten→Rechts, Links→Hinten. F war rechts, kommt nach vorne.",
+    "explanation_en": "Tip left rotates around the top-bottom axis: Front→Left, Right→Front, Back→Right, Left→Back. F was on the right, now on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+  {
+    "id": "wuerfel-2-step3",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 2 (Fortsetzung): Nach Schritt 2: Vorne: F, Oben: A, Hinten: E, Unten: B, Links: D, Rechts: C.\n\nSchritt 3: Der Würfel wird um 90° IM UHRZEIGERSINN gedreht (von oben betrachtet).\nWas sehen Sie jetzt vorne?",
+    "question_en": "CUBE 2 (continued): After Step 2: Front: F, Top: A, Back: E, Bottom: B, Left: D, Right: C.\n\nStep 3: The cube is ROTATED 90° CLOCKWISE (viewed from above).\nWhat is now on the front?",
+    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "correct": [3],
+    "explanation_de": "90° im Uhrzeigersinn (von oben): Vorne→Rechts, Links→Vorne, Hinten→Links, Rechts→Hinten. Oben/Unten bleiben. D war links und kommt nach vorne.",
+    "explanation_en": "90° clockwise (from above): Front→Right, Left→Front, Back→Left, Right→Back. Top/Bottom stay. D was on left, now on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+  {
+    "id": "wuerfel-2-step4",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 2 (Fortsetzung): Nach Schritt 3: Vorne: D, Oben: A, Hinten: C, Unten: B, Links: E, Rechts: F.\n\nSchritt 4: Der Würfel wird IN IHRE RICHTUNG gekippt.\nWas sehen Sie jetzt vorne?",
+    "question_en": "CUBE 2 (continued): After Step 3: Front: D, Top: A, Back: C, Bottom: B, Left: E, Right: F.\n\nStep 4: The cube is tipped TOWARDS YOU.\nWhat is now on the front?",
+    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "correct": [0],
+    "explanation_de": "In Ihre Richtung kippen: Oben→Vorne. A war oben und kommt nach vorne. (D geht nach unten, B nach hinten, C nach oben.)",
+    "explanation_en": "Tip towards you: Top→Front. A was on top, now on front. (D goes to bottom, B to back, C to top.)",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+
+  {
+    "id": "wuerfel-3-step1",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 3: Vorne: Herz (♥), Hinten: Raute (◆), Oben: Pfeil hoch (↑), Unten: Pfeil runter (↓), Links: Mond (☽), Rechts: Sonne (☀).\n\nSchritt 1: Der Würfel wird NACH RECHTS gekippt.\nWas sehen Sie vorne?",
+    "question_en": "CUBE 3: Front: Heart (♥), Back: Diamond (◆), Top: Arrow up (↑), Bottom: Arrow down (↓), Left: Moon (☽), Right: Sun (☀).\n\nStep 1: The cube is tipped to the RIGHT.\nWhat is on the front?",
+    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
+    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
+    "correct": [4],
+    "explanation_de": "Kippen nach rechts (um Oben-Unten-Achse): Vorne→Rechts, Links→Vorne. Der Mond (☽) war links und kommt nach vorne.",
+    "explanation_en": "Tip right (around top-bottom axis): Front→Right, Left→Front. Moon (☽) was on left, now on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+  {
+    "id": "wuerfel-3-step2",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 3 (Forts.): Vorne: Mond (☽), Oben: ↑, Unten: ↓, Hinten: Sonne (☀), Links: Raute (◆), Rechts: Herz (♥).\n\nSchritt 2: Der Würfel wird IN IHRE RICHTUNG gekippt.\nWas sehen Sie vorne?",
+    "question_en": "CUBE 3 (cont.): Front: Moon (☽), Top: ↑, Bottom: ↓, Back: Sun (☀), Left: Diamond (◆), Right: Heart (♥).\n\nStep 2: The cube is tipped TOWARDS YOU.\nWhat is on the front?",
+    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
+    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
+    "correct": [2],
+    "explanation_de": "In Ihre Richtung: Oben→Vorne. Pfeil hoch (↑) war oben, kommt nach vorne.",
+    "explanation_en": "Towards you: Top→Front. Arrow up (↑) was on top, now on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+  {
+    "id": "wuerfel-3-step3",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 3 (Forts.): Vorne: ↑, Oben: Sonne (☀), Unten: Mond (☽), Hinten: ↓, Links: Raute (◆), Rechts: Herz (♥).\n\nSchritt 3: Der Würfel wird um 180° GEDREHT (Oben/Unten bleiben).\nWas sehen Sie vorne?",
+    "question_en": "CUBE 3 (cont.): Front: ↑, Top: Sun (☀), Bottom: Moon (☽), Back: ↓, Left: Diamond (◆), Right: Heart (♥).\n\nStep 3: The cube is ROTATED 180° (top/bottom stay).\nWhat is on the front?",
+    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
+    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
+    "correct": [3],
+    "explanation_de": "180° Drehung: Vorne↔Hinten, Links↔Rechts. Pfeil runter (↓) war hinten, kommt nach vorne.",
+    "explanation_en": "180° rotation: Front↔Back, Left↔Right. Arrow down (↓) was on back, now on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+  {
+    "id": "wuerfel-3-step4",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 3 (Forts.): Vorne: ↓, Oben: ☀, Unten: ☽, Hinten: ↑, Links: ♥, Rechts: ◆.\n\nSchritt 4: Der Würfel wird VON IHNEN WEG gekippt.\nWas sehen Sie vorne?",
+    "question_en": "CUBE 3 (cont.): Front: ↓, Top: ☀, Bottom: ☽, Back: ↑, Left: ♥, Right: ◆.\n\nStep 4: The cube is tipped AWAY FROM YOU.\nWhat is on the front?",
+    "options_de": ["a) Herz (♥)", "b) Raute (◆)", "c) Pfeil hoch (↑)", "d) Pfeil runter (↓)", "e) Mond (☽)", "f) Sonne (☀)"],
+    "options_en": ["a) Heart (♥)", "b) Diamond (◆)", "c) Arrow up (↑)", "d) Arrow down (↓)", "e) Moon (☽)", "f) Sun (☀)"],
+    "correct": [4],
+    "explanation_de": "Von Ihnen weg: Unten→Vorne. Mond (☽) war unten, kommt nach vorne.",
+    "explanation_en": "Away from you: Bottom→Front. Moon (☽) was on bottom, now on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen"
+  },
+
+  {
+    "id": "wuerfel-4-step1",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 4 (Schwer): Vorne: 1, Hinten: 6, Oben: 2, Unten: 5, Links: 3, Rechts: 4.\n\nSchritt 1: Der Würfel wird NACH LINKS gekippt, dann sofort IN IHRE RICHTUNG gekippt.\nWas sehen Sie vorne?",
+    "question_en": "CUBE 4 (Hard): Front: 1, Back: 6, Top: 2, Bottom: 5, Left: 3, Right: 4.\n\nStep 1: The cube is tipped LEFT, then immediately tipped TOWARDS YOU.\nWhat is on the front?",
+    "options_de": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
+    "options_en": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
+    "correct": [1],
+    "explanation_de": "Nach links: Rechts→Vorne → 4 vorne. Oben: 2, Unten: 5, Links: 1, Rechts: 6, Hinten: 3. Dann in Ihre Richtung: Oben→Vorne → 2 vorne.",
+    "explanation_en": "Tip left: Right→Front → 4 on front. Top: 2, Bottom: 5, Left: 1, Right: 6, Back: 3. Then towards you: Top→Front → 2 on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)"
+  },
+  {
+    "id": "wuerfel-4-step2",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 4 (Forts.): Nach Schritt 1: Vorne: 2, Oben: 3, Unten: 4, Hinten: 5, Links: 1, Rechts: 6.\n\nSchritt 2: Der Würfel wird um 90° IM UHRZEIGERSINN gedreht (von oben), dann VON IHNEN WEG gekippt.\nWas sehen Sie vorne?",
+    "question_en": "CUBE 4 (cont.): After Step 1: Front: 2, Top: 3, Bottom: 4, Back: 5, Left: 1, Right: 6.\n\nStep 2: Rotated 90° CLOCKWISE (from above), then tipped AWAY FROM YOU.\nWhat is on the front?",
+    "options_de": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
+    "options_en": ["a) 1", "b) 2", "c) 3", "d) 4", "e) 5", "f) 6"],
+    "correct": [3],
+    "explanation_de": "90° UZS von oben: Links→Vorne → 1 vorne. Oben: 3, Unten: 4, Rechts: 2, Links: 5, Hinten: 6. Dann weg kippen: Unten→Vorne → 4 vorne.",
+    "explanation_en": "90° CW from above: Left→Front → 1 on front. Top: 3, Bottom: 4, Right: 2, Left: 5, Back: 6. Then tip away: Bottom→Front → 4 on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer)"
+  },
+  {
+    "id": "wuerfel-5-step1",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 5: Vorne: X, Hinten: O, Oben: △, Unten: □, Links: ♥, Rechts: ★.\n\nDer Würfel wird dreimal hintereinander IN IHRE RICHTUNG gekippt.\nWas sehen Sie am Ende vorne?",
+    "question_en": "CUBE 5: Front: X, Back: O, Top: △, Bottom: □, Left: ♥, Right: ★.\n\nThe cube is tipped TOWARDS YOU three times in a row.\nWhat is on the front at the end?",
+    "options_de": ["a) X", "b) O", "c) △", "d) □", "e) ♥", "f) ★"],
+    "options_en": ["a) X", "b) O", "c) △", "d) □", "e) ♥", "f) ★"],
+    "correct": [3],
+    "explanation_de": "Zyklus bei Kippen in Ihre Richtung: Oben→Vorne→Unten→Hinten→Oben. Start: V=X, O=△, H=O, U=□. Nach 1×: V=△, O=O, H=□, U=X. Nach 2×: V=O, O=□, H=X, U=△. Nach 3×: V=□, O=X, H=△, U=O. Antwort: □ (d).",
+    "explanation_en": "Cycle for tipping towards you: Top→Front→Bottom→Back→Top. Start: F=X, T=△, B=O, Bo=□. After 1: F=△, T=O, B=□, Bo=X. After 2: F=O, T=□, B=X, Bo=△. After 3: F=□, T=X, B=△, Bo=O. Answer: □ (d).",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Tricky)"
+  },
+  {
+    "id": "wuerfel-6-step1",
+    "quizId": "cognitive",
+    "question_de": "WÜRFEL 6 (Kombination): Vorne: A, Hinten: F, Oben: B, Unten: E, Links: C, Rechts: D.\n\nSchritt 1: NACH RECHTS kippen.\nSchritt 2: IN IHRE RICHTUNG kippen.\nSchritt 3: um 180° DREHEN (Oben/Unten bleiben).\n\nWas sehen Sie am Ende vorne?",
+    "question_en": "CUBE 6 (Combination): Front: A, Back: F, Top: B, Bottom: E, Left: C, Right: D.\n\nStep 1: Tip RIGHT.\nStep 2: Tip TOWARDS YOU.\nStep 3: ROTATE 180° (top/bottom stay).\n\nWhat is on the front at the end?",
+    "options_de": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "options_en": ["a) A", "b) B", "c) C", "d) D", "e) E", "f) F"],
+    "correct": [5],
+    "explanation_de": "Schritt 1 (rechts): Links→Vorne → C vorne. O=B, U=E, R=A, L=F, H=D. Schritt 2 (in Ihre Richtung): Oben→Vorne → B vorne. O=D, U=C, H=E, L=F, R=A. Schritt 3 (180°): Vorne↔Hinten → E vorne. Also F (f)... Nein: H=E, also E kommt nach vorne. Antwort: E (e). Korrektur der Zwischenschritte: Nach S1: V=C, H=D, O=B, U=E, L=F, R=A. Nach S2: V=B, O=D, H=E, U=C, L=F, R=A. Nach S3 (180°): V↔H → V=E. Antwort: E (e).",
+    "explanation_en": "S1 (right): Left→Front → C. T=B,Bo=E,R=A,L=F,B=D. S2 (towards): Top→Front → B. T=D,Bo=C,B=E,L=F,R=A. S3 (180°): Front↔Back → E on front. Answer: E (e).",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Kombination)"
   }
 ]
