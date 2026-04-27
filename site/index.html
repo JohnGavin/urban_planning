@@ -63,85 +63,158 @@
       </div>
     </div>
 
-    <!-- Countdown -->
+    <!-- Countdown row -->
     <div class="stats-grid">
-      <div class="stat-card" id="countdown-days">
+      <a href="exam/countdown.html" class="stat-card" style="text-decoration:none; cursor:pointer" id="countdown-days">
         <div class="stat-value">--</div>
         <div class="stat-label">Days to Exam</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">10 Jul</div>
-        <div class="stat-label">Exam Date 2026</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">200</div>
-        <div class="stat-label">Study Places</div>
-      </div>
-      <div class="stat-card" id="stat-quizzes">
+      </a>
+      <a href="dashboard/progress.html" class="stat-card" style="text-decoration:none; cursor:pointer" id="stat-quizzes">
         <div class="stat-value">0</div>
         <div class="stat-label">Quizzes Completed</div>
-      </div>
+      </a>
+      <a href="dashboard/progress.html" class="stat-card" style="text-decoration:none; cursor:pointer" id="stat-avg">
+        <div class="stat-value">--</div>
+        <div class="stat-label">Average Score</div>
+      </a>
+      <a href="exam/countdown.html" class="stat-card" style="text-decoration:none; cursor:pointer">
+        <div class="stat-value">200</div>
+        <div class="stat-label">Study Places</div>
+      </a>
     </div>
 
-    <!-- Quick info cards -->
-    <h2>Exam Structure</h2>
+    <!-- WHERE TO START -->
+    <h2>&#127937; Start Here</h2>
+    <div id="start-here" class="card" style="border-left:4px solid var(--tu-accent)">
+      <p id="start-recommendation" style="font-size:1.05rem; margin-bottom:1rem">Loading your personalised next step...</p>
+      <div id="start-buttons"></div>
+    </div>
+
+    <!-- THE 3 EXAM PARTS — all clickable -->
+    <h2>Exam Structure &mdash; Learn &amp; Practice Each Part</h2>
     <div class="stats-grid">
-      <div class="card">
+      <a href="knowledge/oerek2030-de.html" class="card" style="text-decoration:none; cursor:pointer; border-top:3px solid var(--tu-accent)">
         <div class="card-title">Part A: Subject Knowledge</div>
         <p class="text-muted" style="margin-top:0.5rem">Weight: <strong class="text-accent">40%</strong></p>
-        <p style="font-size:0.85rem">OEREK 2030 + Studienplan content. Multiple choice questions testing factual knowledge of Austrian spatial planning.</p>
-      </div>
-      <div class="card">
+        <p style="font-size:0.85rem">OEREK 2030 + Studienplan. MC questions on Austrian spatial planning.</p>
+        <div style="margin-top:0.75rem; display:flex; gap:0.5rem; flex-wrap:wrap">
+          <span class="btn btn-primary" style="font-size:0.75rem">Read OEREK 2030</span>
+          <span class="btn btn-outline" style="font-size:0.75rem">Quiz: Principles</span>
+        </div>
+        <div class="progress-bar" style="margin-top:0.5rem"><div class="progress-fill" id="prog-a" style="width:0%"></div></div>
+      </a>
+      <a href="knowledge/reihungstest-de.html" class="card" style="text-decoration:none; cursor:pointer; border-top:3px solid var(--tu-warning)">
         <div class="card-title">Part B: Text Comprehension</div>
         <p class="text-muted" style="margin-top:0.5rem">Weight: <strong class="text-accent">20%</strong></p>
-        <p style="font-size:0.85rem">Read German texts on spatial planning topics. Assess if statements are true, false, or not determinable from the text.</p>
-      </div>
-      <div class="card">
+        <p style="font-size:0.85rem">Read German texts. True / false / not determinable.</p>
+        <div style="margin-top:0.75rem">
+          <span class="btn btn-primary" style="font-size:0.75rem">Learn Format &amp; Tips</span>
+        </div>
+        <div class="progress-bar" style="margin-top:0.5rem"><div class="progress-fill" id="prog-b" style="width:0%"></div></div>
+      </a>
+      <a href="quizzes/quiz-cognitive.html" class="card" style="text-decoration:none; cursor:pointer; border-top:3px solid var(--tu-success)">
         <div class="card-title">Part C: Cognitive Abilities</div>
         <p class="text-muted" style="margin-top:0.5rem">Weight: <strong class="text-accent">40%</strong></p>
-        <p style="font-size:0.85rem">Analogies, number sequences, logic tasks, spatial reasoning, and matrix pattern recognition.</p>
+        <p style="font-size:0.85rem">Analogies, number sequences, logic, spatial reasoning, matrices.</p>
+        <div style="margin-top:0.75rem">
+          <span class="btn btn-primary" style="font-size:0.75rem">Practice Now</span>
+        </div>
+        <div class="progress-bar" style="margin-top:0.5rem"><div class="progress-fill" id="prog-c" style="width:0%"></div></div>
+      </a>
+    </div>
+
+    <!-- STUDY PATH — step by step -->
+    <h2>&#128218; Recommended Study Path</h2>
+    <div id="study-path">
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">1</div>
+        <div style="flex:1">
+          <strong>Read the exam format</strong>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">Understand what to expect on exam day &mdash; 3 parts, scoring rules, tips</p>
+        </div>
+        <a href="knowledge/reihungstest-de.html" class="btn btn-primary" style="font-size:0.8rem; white-space:nowrap">Exam Info (DE)</a>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">2</div>
+        <div style="flex:1">
+          <strong>Study OEREK 2030</strong> <span class="badge badge-error">Biggest topic</span>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">178-page document summarised. Principles, megatrends, spatial goals, action program.</p>
+        </div>
+        <a href="knowledge/oerek2030-de.html" class="btn btn-primary" style="font-size:0.8rem; white-space:nowrap">OEREK 2030 (DE)</a>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">3</div>
+        <div style="flex:1">
+          <strong>Take OEREK quiz</strong>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">Test what you just read. Exam-style MC with partial credit scoring.</p>
+        </div>
+        <a href="quizzes/quiz-oerek-principles.html" class="btn btn-primary" style="font-size:0.8rem; white-space:nowrap">Quiz: Principles</a>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">4</div>
+        <div style="flex:1">
+          <strong>Study the Studienplan</strong>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">What IS Raumplanung? Programme structure, competencies, activity fields.</p>
+        </div>
+        <a href="knowledge/studienplan-de.html" class="btn btn-primary" style="font-size:0.8rem; white-space:nowrap">Studienplan (DE)</a>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">5</div>
+        <div style="flex:1">
+          <strong>Take Studienplan + Megatrends quizzes</strong>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">Cover Part A material comprehensively.</p>
+        </div>
+        <div style="display:flex; gap:0.5rem; flex-wrap:wrap">
+          <a href="quizzes/quiz-studienplan.html" class="btn btn-outline" style="font-size:0.75rem">Studienplan</a>
+          <a href="quizzes/quiz-oerek-megatrends.html" class="btn btn-outline" style="font-size:0.75rem">Megatrends</a>
+        </div>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">6</div>
+        <div style="flex:1">
+          <strong>Practice cognitive skills daily</strong>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">Analogies, number sequences, logic &mdash; these are 40% of the exam.</p>
+        </div>
+        <a href="quizzes/quiz-cognitive.html" class="btn btn-primary" style="font-size:0.8rem; white-space:nowrap">Cognitive Quiz</a>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">7</div>
+        <div style="flex:1">
+          <strong>Full mock exam</strong>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">All 60 questions, timed. Simulate real exam conditions.</p>
+        </div>
+        <a href="quizzes/quiz-full-mock.html" class="btn btn-primary" style="font-size:0.8rem; white-space:nowrap">Mock Exam</a>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:1rem">
+        <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">8</div>
+        <div style="flex:1">
+          <strong>Review weak areas &amp; repeat</strong>
+          <p class="text-muted" style="font-size:0.85rem; margin:0">Check your dashboard, retake quizzes on weak topics, aim for 80%+ everywhere.</p>
+        </div>
+        <a href="dashboard/progress.html" class="btn btn-primary" style="font-size:0.8rem; white-space:nowrap">My Progress</a>
       </div>
     </div>
 
-    <!-- Key facts -->
+    <!-- Key facts (collapsible) -->
     <h2>Key Research Findings</h2>
     <div class="card">
       <table>
         <tr><th style="width:40%">Detail</th><th>Value</th></tr>
-        <tr><td>Exam date</td><td><strong>10 July 2026</strong></td></tr>
-        <tr><td>Registration window</td><td>1 April &ndash; 4 May 2026</td></tr>
+        <tr><td>Exam date</td><td><a href="exam/countdown.html"><strong>10 July 2026</strong></a></td></tr>
+        <tr><td>Registration</td><td>1 Apr &ndash; 4 May 2026 &mdash; <a href="https://tiss.tuwien.ac.at/aufnahme/aufnahmeverfahren" target="_blank">Register at TISS</a></td></tr>
         <tr><td>Available places</td><td>200 per year</td></tr>
-        <tr><td>2024 statistics</td><td>233 registered &rarr; 231 invited &rarr; 189 awarded</td></tr>
-        <tr><td>2025 statistics</td><td>225 registered &rarr; 223 invited &rarr; 182 participated</td></tr>
-        <tr><td>Exam duration</td><td>Exactly 2 hours (arrive 1h early; ~4-5h on-site)</td></tr>
-        <tr><td>Format</td><td>Written on paper &mdash; MC answer sheets, electronically scanned</td></tr>
+        <tr><td>2024 stats</td><td>233 registered &rarr; 189 awarded (<a href="exam/countdown.html">details</a>)</td></tr>
+        <tr><td>2025 stats</td><td>225 registered &rarr; 182 participated</td></tr>
+        <tr><td>Duration</td><td>2 hours (<a href="knowledge/reihungstest-de.html">format details</a>)</td></tr>
+        <tr><td>Format</td><td>Paper MC &mdash; <a href="knowledge/reihungstest-de.html">how it works</a></td></tr>
         <tr><td>Language</td><td>German only</td></tr>
-        <tr><td>Scoring</td><td>Part A: 40% &bull; Part B: 20% &bull; Part C: 40% (weighted sum = rank)</td></tr>
-        <tr><td>MC scoring rule</td><td>Partial credit for correct ticks; wrong ticks reduce score (but min 0 per question)</td></tr>
-        <tr><td>Past exams</td><td>Not publicly available (only sample questions in Info PDF)</td></tr>
-        <tr><td>Recent acceptance rate</td><td>~82-91% of participants get a place (more places than test-takers recently)</td></tr>
+        <tr><td>Scoring</td><td>A:40% + B:20% + C:40% &mdash; <a href="knowledge/reihungstest-de.html">scoring rules</a></td></tr>
+        <tr><td>Acceptance rate</td><td>~82-91% of participants get a place</td></tr>
       </table>
     </div>
 
     <div class="alert alert-info">
-      <strong>Good news:</strong> In 2024 and 2025, fewer people participated in the Reihungstest than there were places available (189/200 and 182/200). This means currently everyone who participates and does reasonably well gets a place. However, this could change in 2026 with the new earlier registration deadline.
-    </div>
-
-    <!-- Quick links -->
-    <h2>Start Studying</h2>
-    <div class="stats-grid">
-      <a href="exam/countdown.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#9200; Exam Countdown</div>
-        <p class="text-muted" style="font-size:0.85rem">Timeline, study plan, exam day details</p>
-      </a>
-      <a href="knowledge/oerek2030-de.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#127758; OEREK 2030 (biggest topic)</div>
-        <p class="text-muted" style="font-size:0.85rem">Austrian Spatial Development Concept</p>
-      </a>
-      <a href="quizzes/quiz-oerek-principles.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#10004; Take a Quiz</div>
-        <p class="text-muted" style="font-size:0.85rem">Test your knowledge with MC questions</p>
-      </a>
+      <strong>Good news:</strong> In recent years, fewer people took the test than there were places (189/200 and 182/200). Everyone who participates and does reasonably gets in. <a href="exam/countdown.html">See full exam details &rarr;</a>
     </div>
 
     <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
@@ -155,21 +228,112 @@
 <script src="js/countdown.js"></script>
 <script src="js/student-db.js"></script>
 <script>
-  // Update countdown days on home page
+  const STUDY_STEPS = [
+    { quiz: null,               label: 'Read the exam format',       link: 'knowledge/reihungstest-de.html',    btnText: 'Start Reading' },
+    { quiz: null,               label: 'Study OEREK 2030',           link: 'knowledge/oerek2030-de.html',       btnText: 'Start Reading' },
+    { quiz: 'oerek-principles', label: 'Take OEREK Principles quiz', link: 'quizzes/quiz-oerek-principles.html', btnText: 'Take Quiz' },
+    { quiz: null,               label: 'Study the Studienplan',      link: 'knowledge/studienplan-de.html',     btnText: 'Start Reading' },
+    { quiz: 'studienplan',      label: 'Take Studienplan quiz',      link: 'quizzes/quiz-studienplan.html',     btnText: 'Take Quiz' },
+    { quiz: 'oerek-megatrends', label: 'Take Megatrends quiz',       link: 'quizzes/quiz-oerek-megatrends.html', btnText: 'Take Quiz' },
+    { quiz: 'cognitive',        label: 'Practice cognitive skills',   link: 'quizzes/quiz-cognitive.html',       btnText: 'Practice' },
+    { quiz: 'all',              label: 'Take full mock exam',        link: 'quizzes/quiz-full-mock.html',       btnText: 'Mock Exam' },
+  ];
+
   document.addEventListener('DOMContentLoaded', async () => {
+    // Countdown
     const t = ExamCountdown.getTimeRemaining();
-    const el = document.getElementById('countdown-days');
-    if (el) {
+    const cdEl = document.getElementById('countdown-days');
+    if (cdEl) {
       const cls = t.days < 30 ? 'urgent' : t.days < 60 ? 'warning' : '';
-      el.className = 'stat-card ' + cls;
-      el.querySelector('.stat-value').textContent = t.days;
+      cdEl.className = 'stat-card ' + cls;
+      cdEl.style.textDecoration = 'none';
+      cdEl.style.cursor = 'pointer';
+      cdEl.querySelector('.stat-value').textContent = t.days;
     }
-    // Update quiz count from DB
+
+    // Progress
     try {
       const stats = await StudentDB.getStats();
       const qel = document.getElementById('stat-quizzes');
       if (qel) qel.querySelector('.stat-value').textContent = stats.totalAttempts;
-    } catch(e) { /* IndexedDB may not be available in file:// on some browsers */ }
+
+      const ael = document.getElementById('stat-avg');
+      if (ael && stats.totalAttempts > 0) {
+        ael.querySelector('.stat-value').textContent = stats.avgScore + '%';
+        ael.classList.add(stats.avgScore >= 80 ? 'good' : stats.avgScore >= 50 ? 'warning' : 'urgent');
+      }
+
+      // Progress bars for each exam part
+      const partAQuizzes = ['oerek-principles', 'oerek-megatrends', 'studienplan', 'oerek-actions'];
+      const partBQuizzes = ['text-comprehension'];
+      const partCQuizzes = ['cognitive'];
+
+      function partAvg(quizIds) {
+        let total = 0, count = 0;
+        quizIds.forEach(id => {
+          if (stats.byQuiz && stats.byQuiz[id]) {
+            const attempts = stats.byQuiz[id];
+            total += attempts[attempts.length - 1].percentage;
+            count++;
+          }
+        });
+        return count > 0 ? Math.round(total / count) : 0;
+      }
+
+      const pA = document.getElementById('prog-a');
+      const pB = document.getElementById('prog-b');
+      const pC = document.getElementById('prog-c');
+      if (pA) pA.style.width = partAvg(partAQuizzes) + '%';
+      if (pB) pB.style.width = partAvg(partBQuizzes) + '%';
+      if (pC) pC.style.width = partAvg(partCQuizzes) + '%';
+
+      // Smart "Start Here" recommendation
+      const recEl = document.getElementById('start-recommendation');
+      const btnEl = document.getElementById('start-buttons');
+      const completedQuizzes = stats.byQuiz ? Object.keys(stats.byQuiz) : [];
+
+      if (stats.totalAttempts === 0) {
+        recEl.innerHTML = '<strong>Welcome!</strong> You haven\'t started yet. Begin with Step 1 below &mdash; understanding the exam format.';
+        btnEl.innerHTML = '<a href="knowledge/reihungstest-de.html" class="btn btn-primary">Step 1: Read Exam Format</a>';
+      } else {
+        // Find first uncompleted quiz step
+        let nextStep = null;
+        for (const step of STUDY_STEPS) {
+          if (step.quiz && !completedQuizzes.includes(step.quiz)) {
+            nextStep = step;
+            break;
+          }
+        }
+
+        // Find weakest topic
+        let weakest = null;
+        if (stats.byQuiz) {
+          let minScore = 100;
+          for (const [qid, attempts] of Object.entries(stats.byQuiz)) {
+            const lastScore = attempts[attempts.length - 1].percentage;
+            if (lastScore < minScore) { minScore = lastScore; weakest = { qid, score: lastScore }; }
+          }
+        }
+
+        if (nextStep) {
+          recEl.innerHTML = `<strong>Next step:</strong> ${nextStep.label}`;
+          btnEl.innerHTML = `<a href="${nextStep.link}" class="btn btn-primary">${nextStep.btnText}</a>` +
+            (weakest && weakest.score < 80 ? ` <a href="dashboard/progress.html" class="btn btn-outline" style="margin-left:0.5rem">Review weak areas (${weakest.score}% on ${weakest.qid})</a>` : '');
+        } else if (weakest && weakest.score < 80) {
+          recEl.innerHTML = `<strong>All topics attempted!</strong> Focus on your weakest area: <strong>${weakest.qid}</strong> (${weakest.score}%). Retake until 80%+.`;
+          btnEl.innerHTML = `<a href="dashboard/progress.html" class="btn btn-primary">View Progress & Retake</a> <a href="quizzes/quiz-full-mock.html" class="btn btn-outline" style="margin-left:0.5rem">Full Mock Exam</a>`;
+        } else {
+          recEl.innerHTML = '<strong>Excellent!</strong> All topics at 80%+. Keep practicing with mock exams and review the study material.';
+          btnEl.innerHTML = '<a href="quizzes/quiz-full-mock.html" class="btn btn-primary">Full Mock Exam</a> <a href="dashboard/progress.html" class="btn btn-outline" style="margin-left:0.5rem">View Progress</a>';
+        }
+      }
+
+    } catch(e) {
+      document.getElementById('start-recommendation').innerHTML =
+        '<strong>Welcome!</strong> Start with Step 1 &mdash; understanding the exam format.';
+      document.getElementById('start-buttons').innerHTML =
+        '<a href="knowledge/reihungstest-de.html" class="btn btn-primary">Step 1: Read Exam Format</a>';
+    }
   });
 </script>
 <script src="js/sidebar.js"></script>
