@@ -1,7 +1,9 @@
 # Architectural Decisions Log
 
-All decisions for this project, with rationale, so another student using Claude Cowork
+All decisions for this project, with rationale, so another student using [Claude Cowork](https://claude.ai/code)
 can understand why things are built this way and replicate/extend them.
+
+**Related:** [Content Sources](CONTENT-SOURCES.md) | [Replication Guide](REPLICATION.md) | [Supabase Guide](SUPABASE-GUIDE.md) | [Live Site](https://johngavin.github.io/urban_planning/) | [GitHub Repo](https://github.com/JohnGavin/urban_planning)
 
 ## D001: Plain HTML/CSS/JS over Quarto/Shiny/React
 
@@ -38,8 +40,8 @@ can understand why things are built this way and replicate/extend them.
 ## D005: GitHub Pages for sharing
 
 **Date:** 2026-04-27
-**Decision:** Deploy `site/` folder to gh-pages branch so the dashboard is publicly accessible.
-**Rationale:** Another student can view the live site, see progress, and download/clone the repo to get their own local copy. GitHub Pages serves static HTML with zero configuration.
+**Decision:** Deploy [`site/`](../site/) folder to gh-pages branch so the dashboard is publicly accessible at [johngavin.github.io/urban_planning](https://johngavin.github.io/urban_planning/).
+**Rationale:** Another student can view the [live site](https://johngavin.github.io/urban_planning/), see progress, and download/clone the [repo](https://github.com/JohnGavin/urban_planning) to get their own local copy. GitHub Pages serves static HTML with zero configuration.
 
 ## D006: Exam-focused structure (Reihungstest first, curriculum second)
 
@@ -50,7 +52,7 @@ can understand why things are built this way and replicate/extend them.
 ## D007: Question bank in JSON (not embedded in HTML)
 
 **Date:** 2026-04-27
-**Decision:** All MC questions are stored in `data/questions.json` and loaded by the quiz engine JS.
+**Decision:** All MC questions are stored in [`data/questions.json`](../site/data/questions.json) and loaded by the [quiz engine](../site/js/quiz-engine.js).
 **Rationale:** Single source of truth for questions. Easy to add new questions (edit JSON). The quiz engine randomly selects and presents them. Separation of content and presentation.
 
 ## D008: Git with regular commits
