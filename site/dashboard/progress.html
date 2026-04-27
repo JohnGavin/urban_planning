@@ -3,143 +3,254 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Progress — Raumplanung TU Wien</title>
+  <title>My Progress — Raumplanung 2026</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div class="page-wrapper">
-
-  <!-- Sidebar Navigation -->
   <nav class="sidebar">
-    <div class="sidebar-logo">
-      <h2>Raumplanung</h2>
-      <div class="subtitle">TU Wien — Reihungstest 2026</div>
-    </div>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Dashboard</div>
-    </div>
-    <a href="../index.html" class="nav-link"><span class="icon">&#127968;</span> Home</a>
-    <a href="../exam/countdown.html" class="nav-link"><span class="icon">&#9200;</span> Exam Countdown</a>
-    <a href="progress.html" class="nav-link active"><span class="icon">&#128200;</span> My Progress</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Knowledge Base (DE)</div>
-    </div>
-    <a href="../knowledge/reihungstest-de.html" class="nav-link"><span class="icon">&#128221;</span> Reihungstest Info</a>
-    <a href="../knowledge/oerek2030-de.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
-    <a href="../knowledge/studienplan-de.html" class="nav-link"><span class="icon">&#127891;</span> Studienplan</a>
-    <a href="../knowledge/combined-de.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Knowledge Base (EN)</div>
-    </div>
-    <a href="../knowledge/reihungstest-en.html" class="nav-link"><span class="icon">&#128221;</span> Exam Info</a>
-    <a href="../knowledge/oerek2030-en.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
-    <a href="../knowledge/studienplan-en.html" class="nav-link"><span class="icon">&#127891;</span> Study Plan</a>
-    <a href="../knowledge/combined-en.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Quizzes</div>
-    </div>
-    <a href="../quizzes/quiz-oerek-principles.html" class="nav-link"><span class="icon">&#10004;</span> OEREK Principles</a>
-    <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link"><span class="icon">&#10004;</span> Megatrends</a>
-    <a href="../quizzes/quiz-studienplan.html" class="nav-link"><span class="icon">&#10004;</span> Studienplan</a>
-    <a href="../quizzes/quiz-cognitive.html" class="nav-link"><span class="icon">&#129504;</span> Cognitive Skills</a>
-    <a href="../quizzes/quiz-full-mock.html" class="nav-link"><span class="icon">&#128336;</span> Full Mock Exam</a>
-
-    <div class="nav-section">
-      <div class="nav-section-title">Resources</div>
-    </div>
-    <a href="https://github.com/JohnGavin/urban_planning" class="nav-link" target="_blank"><span class="icon">&#128279;</span> GitHub Repo</a>
+    <div class="sidebar-logo"><h2>Raumplanung</h2><div class="subtitle">TU Wien — Reihungstest 2026</div></div>
+    <div class="nav-section"><div class="nav-section-title">Dashboard</div></div>
+    <a href="../index.html" class="nav-link">&#127968; Home</a>
+    <a href="../exam/countdown.html" class="nav-link">&#9200; Exam Countdown</a>
+    <a href="progress.html" class="nav-link active">&#128200; My Progress</a>
+    <div class="nav-section"><div class="nav-section-title">Wissensbasis (DE)</div></div>
+    <a href="../knowledge/reihungstest-de.html" class="nav-link">&#128221; Reihungstest Info</a>
+    <a href="../knowledge/oerek2030-de.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="../knowledge/studienplan-de.html" class="nav-link">&#127891; Studienplan</a>
+    <a href="../knowledge/combined-de.html" class="nav-link">&#128218; Gesamtübersicht</a>
+    <div class="nav-section"><div class="nav-section-title">Knowledge Base (EN)</div></div>
+    <a href="../knowledge/reihungstest-en.html" class="nav-link">&#128221; Exam Info</a>
+    <a href="../knowledge/oerek2030-en.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="../knowledge/studienplan-en.html" class="nav-link">&#127891; Study Plan</a>
+    <a href="../knowledge/combined-en.html" class="nav-link">&#128218; Combined Overview</a>
+    <div class="nav-section"><div class="nav-section-title">Quizzes</div></div>
+    <a href="../quizzes/quiz-oerek-principles.html" class="nav-link">&#10004; OEREK Principles</a>
+    <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link">&#10004; Megatrends</a>
+    <a href="../quizzes/quiz-studienplan.html" class="nav-link">&#10004; Studienplan</a>
+    <a href="../quizzes/quiz-cognitive.html" class="nav-link">&#129504; Cognitive Skills</a>
+    <a href="../quizzes/quiz-full-mock.html" class="nav-link">&#128336; Full Mock Exam</a>
   </nav>
 
-  <!-- Main Content -->
   <main class="main-content">
     <div class="top-bar">
-      <div>
-        <h1>My Progress</h1>
-        <p class="text-muted">Quiz history, scores, and study analytics</p>
-      </div>
+      <h1>My Progress</h1>
     </div>
 
-    <div class="alert alert-info">
-      <strong>Coming Soon.</strong> This dashboard will display your quiz history, per-topic scores, improvement trends, and a study streak tracker. Data is stored locally in your browser via IndexedDB — nothing is sent to a server.
-    </div>
-
-    <!-- Placeholder stats -->
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-value" id="stat-total">0</div>
-        <div class="stat-label">Quizzes Completed</div>
+    <!-- Summary stats -->
+    <div class="stats-grid" id="stats-summary">
+      <div class="stat-card" id="stat-total">
+        <div class="stat-value">--</div>
+        <div class="stat-label">Quizzes Taken</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-value" id="stat-avg">—</div>
+      <div class="stat-card" id="stat-avg">
+        <div class="stat-value">--%</div>
         <div class="stat-label">Average Score</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-value" id="stat-streak">0</div>
-        <div class="stat-label">Day Streak</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" id="stat-best">—</div>
+      <div class="stat-card" id="stat-best">
+        <div class="stat-value">--%</div>
         <div class="stat-label">Best Score</div>
       </div>
+      <div class="stat-card" id="stat-topics">
+        <div class="stat-value">--</div>
+        <div class="stat-label">Topics Covered</div>
+      </div>
     </div>
 
-    <div class="card">
-      <div class="card-title">What this dashboard will show</div>
-      <table>
-        <tr><th style="width:35%">Feature</th><th>Description</th></tr>
-        <tr><td>Quiz History</td><td>Date, quiz name, score, and time taken for every attempt</td></tr>
-        <tr><td>Per-topic Scores</td><td>Separate averages for OEREK, Megatrends, Studienplan, and Cognitive</td></tr>
-        <tr><td>Score Trends</td><td>Line chart showing improvement over time per topic</td></tr>
-        <tr><td>Weak Areas</td><td>Which question types you answer incorrectly most often</td></tr>
-        <tr><td>Study Streak</td><td>Consecutive days with at least one quiz attempt</td></tr>
-        <tr><td>Exam Readiness</td><td>Estimated readiness percentage based on recent scores</td></tr>
-        <tr><td>Data Storage</td><td>Browser IndexedDB — local only, no server, no account needed</td></tr>
-        <tr><td>Export</td><td>Download your history as CSV for offline analysis</td></tr>
-      </table>
+    <!-- Tabs -->
+    <div class="tab-container">
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="by-topic">By Topic</button>
+        <button class="tab-btn" data-tab="history">Quiz History</button>
+        <button class="tab-btn" data-tab="weaknesses">Weak Areas</button>
+      </div>
+
+      <!-- TAB: By Topic -->
+      <div class="tab-content active" data-tab="by-topic">
+        <h2>Performance by Topic</h2>
+        <div id="topic-cards">
+          <p class="text-muted">Take a quiz to see your progress here.</p>
+        </div>
+      </div>
+
+      <!-- TAB: History -->
+      <div class="tab-content" data-tab="history">
+        <h2>Quiz History</h2>
+        <div id="history-table">
+          <p class="text-muted">No quiz attempts yet.</p>
+        </div>
+      </div>
+
+      <!-- TAB: Weaknesses -->
+      <div class="tab-content" data-tab="weaknesses">
+        <h2>Areas to Improve</h2>
+        <div id="weakness-list">
+          <p class="text-muted">Take quizzes in multiple topics to see weakness analysis.</p>
+        </div>
+      </div>
     </div>
 
-    <h2>Start Practising</h2>
-    <div class="stats-grid">
-      <a href="../quizzes/quiz-oerek-principles.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#10004; OEREK Principles</div>
-        <p class="text-muted" style="font-size:0.85rem">Most heavily tested topic — start here</p>
-      </a>
-      <a href="../quizzes/quiz-cognitive.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#129504; Cognitive Skills</div>
-        <p class="text-muted" style="font-size:0.85rem">40% of total score — practice daily</p>
-      </a>
-      <a href="../quizzes/quiz-full-mock.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#128336; Full Mock Exam</div>
-        <p class="text-muted" style="font-size:0.85rem">Complete 2-hour timed simulation</p>
-      </a>
+    <div style="margin-top:2rem">
+      <button class="btn btn-outline" id="btn-clear" style="font-size:0.8rem">Clear All Progress Data</button>
     </div>
 
     <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
-      Source: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
-      &bull; Progress data stored locally in your browser — never sent to a server
+      <a href="https://github.com/JohnGavin/urban_planning" target="_blank">GitHub</a>
+      &bull; Progress stored locally in your browser (IndexedDB)
     </footer>
   </main>
 </div>
 
 <script src="../js/student-db.js"></script>
-<script>
-  // Load stats from IndexedDB when available
-  document.addEventListener('DOMContentLoaded', async () => {
-    try {
-      const stats = await StudentDB.getStats();
-      const totalEl = document.getElementById('stat-total');
-      const avgEl = document.getElementById('stat-avg');
-      const bestEl = document.getElementById('stat-best');
-      if (totalEl) totalEl.textContent = stats.totalAttempts || 0;
-      if (avgEl && stats.averageScore != null) avgEl.textContent = Math.round(stats.averageScore) + '%';
-      if (bestEl && stats.bestScore != null) bestEl.textContent = Math.round(stats.bestScore) + '%';
-    } catch(e) { /* IndexedDB may not be available in file:// on some browsers */ }
-  });
-</script>
+<script src="../js/tabs.js"></script>
 <script src="../js/sidebar.js"></script>
+<script>
+const TOPIC_LABELS = {
+  'oerek-principles': { name: 'OEREK Grundsätze', link: '../quizzes/quiz-oerek-principles.html' },
+  'oerek-megatrends': { name: 'Megatrends', link: '../quizzes/quiz-oerek-megatrends.html' },
+  'studienplan': { name: 'Studienplan', link: '../quizzes/quiz-studienplan.html' },
+  'oerek-actions': { name: 'OEREK Handlungsprogramm', link: '../quizzes/quiz-oerek-principles.html' },
+  'text-comprehension': { name: 'Textverständnis', link: '../quizzes/quiz-cognitive.html' },
+  'cognitive': { name: 'Kognitive Fähigkeiten', link: '../quizzes/quiz-cognitive.html' },
+  'all': { name: 'Probeklausur (Full Mock)', link: '../quizzes/quiz-full-mock.html' }
+};
+
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const stats = await StudentDB.getStats();
+    renderSummary(stats);
+    renderTopics(stats);
+    renderHistory(stats);
+    renderWeaknesses(stats);
+  } catch(e) {
+    document.getElementById('topic-cards').innerHTML =
+      '<div class="alert alert-warning">IndexedDB not available. Progress tracking requires a modern browser. If opening via file://, try Chrome or Firefox.</div>';
+  }
+
+  document.getElementById('btn-clear').addEventListener('click', async () => {
+    if (confirm('Clear all quiz progress? This cannot be undone.')) {
+      await StudentDB.clearAll();
+      location.reload();
+    }
+  });
+});
+
+function renderSummary(stats) {
+  document.querySelector('#stat-total .stat-value').textContent = stats.totalAttempts;
+  document.querySelector('#stat-avg .stat-value').textContent = stats.totalAttempts > 0 ? stats.avgScore + '%' : '--';
+  document.querySelector('#stat-best .stat-value').textContent = stats.totalAttempts > 0 ? stats.bestScore + '%' : '--';
+  document.querySelector('#stat-topics .stat-value').textContent = stats.quizzesTaken;
+
+  // Color coding
+  const avgEl = document.getElementById('stat-avg');
+  if (stats.avgScore >= 80) avgEl.classList.add('good');
+  else if (stats.avgScore >= 50) avgEl.classList.add('warning');
+  else if (stats.totalAttempts > 0) avgEl.classList.add('urgent');
+}
+
+function renderTopics(stats) {
+  const container = document.getElementById('topic-cards');
+  if (!stats.byQuiz || Object.keys(stats.byQuiz).length === 0) return;
+
+  let html = '<div class="stats-grid">';
+  for (const [qid, attempts] of Object.entries(stats.byQuiz)) {
+    const label = TOPIC_LABELS[qid] || { name: qid, link: '#' };
+    const scores = attempts.map(a => a.percentage);
+    const avg = Math.round(scores.reduce((s, v) => s + v, 0) / scores.length);
+    const best = Math.max(...scores);
+    const last = scores[scores.length - 1];
+    const cls = avg >= 80 ? 'good' : avg >= 50 ? 'warning' : 'urgent';
+
+    html += `
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">${label.name}</div>
+          <span class="badge badge-${cls === 'good' ? 'success' : cls === 'warning' ? 'warning' : 'error'}">${avg}% avg</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${avg}%"></div></div>
+        <table style="font-size:0.8rem; margin-top:0.5rem">
+          <tr><td>Attempts</td><td>${attempts.length}</td></tr>
+          <tr><td>Best</td><td>${best}%</td></tr>
+          <tr><td>Last</td><td>${last}%</td></tr>
+        </table>
+        <a href="${label.link}" class="btn btn-outline" style="margin-top:0.75rem; font-size:0.8rem">Retake Quiz</a>
+      </div>`;
+  }
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+function renderHistory(stats) {
+  const container = document.getElementById('history-table');
+  if (stats.totalAttempts === 0) return;
+
+  const allAttempts = [];
+  for (const [qid, attempts] of Object.entries(stats.byQuiz || {})) {
+    attempts.forEach(a => allAttempts.push({ ...a, quizId: qid }));
+  }
+  allAttempts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  let html = '<table><tr><th>Date</th><th>Quiz</th><th>Score</th><th>Duration</th></tr>';
+  allAttempts.forEach(a => {
+    const label = (TOPIC_LABELS[a.quizId] || { name: a.quizId }).name;
+    const date = new Date(a.date).toLocaleDateString('de-AT', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+    const cls = a.percentage >= 80 ? 'success' : a.percentage >= 50 ? 'warning' : 'error';
+    const dur = a.durationSec ? Math.floor(a.durationSec / 60) + 'm ' + (a.durationSec % 60) + 's' : '--';
+    html += `<tr><td>${date}</td><td>${label}</td><td><span class="badge badge-${cls}">${a.percentage}%</span></td><td>${dur}</td></tr>`;
+  });
+  html += '</table>';
+  container.innerHTML = html;
+}
+
+function renderWeaknesses(stats) {
+  const container = document.getElementById('weakness-list');
+  if (!stats.byQuiz || Object.keys(stats.byQuiz).length < 2) return;
+
+  const topicAvgs = [];
+  for (const [qid, attempts] of Object.entries(stats.byQuiz)) {
+    const scores = attempts.map(a => a.percentage);
+    const avg = Math.round(scores.reduce((s, v) => s + v, 0) / scores.length);
+    const label = (TOPIC_LABELS[qid] || { name: qid }).name;
+    const link = (TOPIC_LABELS[qid] || { link: '#' }).link;
+    topicAvgs.push({ qid, label, avg, link, attempts: attempts.length });
+  }
+  topicAvgs.sort((a, b) => a.avg - b.avg);
+
+  let html = '';
+  // Topics below 80%
+  const weak = topicAvgs.filter(t => t.avg < 80);
+  if (weak.length > 0) {
+    html += '<div class="alert alert-warning"><strong>Focus on these topics:</strong></div>';
+    weak.forEach(t => {
+      html += `<div class="card" style="display:flex; justify-content:space-between; align-items:center">
+        <div>
+          <strong>${t.label}</strong>
+          <span class="text-muted" style="margin-left:1rem">${t.avg}% avg over ${t.attempts} attempt${t.attempts > 1 ? 's' : ''}</span>
+        </div>
+        <a href="${t.link}" class="btn btn-primary" style="font-size:0.8rem">Practice</a>
+      </div>`;
+    });
+  }
+
+  // Topics not yet attempted
+  const attempted = new Set(Object.keys(stats.byQuiz));
+  const notAttempted = Object.entries(TOPIC_LABELS).filter(([k]) => !attempted.has(k) && k !== 'all');
+  if (notAttempted.length > 0) {
+    html += '<h3 style="margin-top:1.5rem">Not Yet Attempted</h3>';
+    notAttempted.forEach(([qid, info]) => {
+      html += `<div class="card" style="display:flex; justify-content:space-between; align-items:center">
+        <div><strong>${info.name}</strong></div>
+        <a href="${info.link}" class="btn btn-outline" style="font-size:0.8rem">Start</a>
+      </div>`;
+    });
+  }
+
+  if (weak.length === 0 && notAttempted.length === 0) {
+    html = '<div class="alert alert-success"><strong>All topics at 80%+!</strong> You are well prepared. Consider taking a full mock exam.</div>';
+  }
+
+  container.innerHTML = html;
+}
+</script>
 </body>
 </html>

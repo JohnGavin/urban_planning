@@ -241,7 +241,9 @@ const QuizEngine = (() => {
       return;
     }
 
-    const questions = allQuestions.filter(q => q.quizId === quizId);
+    const questions = quizId === 'all'
+      ? allQuestions
+      : allQuestions.filter(q => q.quizId === quizId);
     if (questions.length === 0) {
       container.innerHTML = `
         <div class="alert alert-error">
