@@ -39,11 +39,14 @@ Claude Cowork can read and edit all files directly. No build step needed.
 
 ## Student Progress
 
-Your quiz scores and progress are saved in your browser's IndexedDB.
-- This persists between browser sessions
-- It is local to YOUR browser — not shared
-- If you clear browser data, history is lost
-- The dashboard reads from this local database
+Quiz results are saved in two places:
+1. **Cloud (Supabase)** — syncs across devices, persists even if you clear browser data
+2. **Local (IndexedDB)** — instant, works offline as backup
+
+Each student gets a random ID stored in their browser. This links their results.
+
+To set up your OWN Supabase database (instead of sharing the existing one),
+see `docs/SUPABASE-GUIDE.md` for step-by-step instructions.
 
 ## File Structure
 
