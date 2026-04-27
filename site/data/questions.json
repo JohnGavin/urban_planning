@@ -54,7 +54,7 @@
     "explanation_de": "Die ÖROK (Österreichische Raumordnungskonferenz) ist das Koordinationsgremium für Raumordnung zwischen Bund, Ländern, Städten und Gemeinden. Sie gibt das ÖREK (Österreichisches Raumentwicklungskonzept) als nationales Leitbild heraus.",
     "explanation_en": "The ÖROK coordinates spatial planning between federal, state and local levels in Austria and publishes the ÖREK as the national spatial development framework.",
     "source": "ÖREK 2030, Einleitung",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-03",
@@ -82,7 +82,7 @@
     "explanation_de": "Gemeinwohl bezeichnet im ÖREK 2030 die Ausrichtung der Raumplanung am gesamtgesellschaftlichen Interesse und am Wohl aller Menschen — nicht an Partikularinteressen.",
     "explanation_en": "In the ÖREK 2030, common good refers to aligning spatial planning with the overall societal interest and the well-being of all people, not sectoral interests.",
     "source": "ÖREK 2030, Grundsätze",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-04",
@@ -139,7 +139,7 @@
     "explanation_de": "Das ÖREK ist das strategische Leitbild (nicht rechtlich verbindlich), während das Aktionsprogramm die konkreten Umsetzungsschritte mit ÖREK-Partnerschaften definiert.",
     "explanation_en": "The ÖREK is the strategic guiding framework (not legally binding), while the action programme defines the concrete implementation steps with ÖREK partnerships.",
     "source": "ÖREK 2030, Aktionsprogramm",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-06",
@@ -196,7 +196,7 @@
     "explanation_de": "Das ÖREK ist kein Gesetz. Es ist ein politisches Leitbild, das von der ÖROK beschlossen wird und den normativen Rahmen für die Raumordnungspolitik der Länder setzt — aber ohne direkte rechtliche Bindungswirkung.",
     "explanation_en": "The ÖREK is not a law. It is a political framework adopted by the ÖROK that sets the normative context for state spatial planning policy — but without direct legal binding force.",
     "source": "ÖREK 2030, Einleitung",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-08",
@@ -726,7 +726,7 @@
     "explanation_de": "Raumplanung ist eine interdisziplinäre Disziplin, die natur-, sozial- und ingenieurwissenschaftliche Methoden verbindet und räumliche Entwicklungen auf verschiedenen Ebenen analysiert und gestaltet — weit mehr als nur Flächenwidmung.",
     "explanation_en": "Spatial planning is an interdisciplinary discipline combining methods from natural, social and engineering sciences, analysing and shaping spatial developments at various scales — far more than just land use planning.",
     "source": "Studienplan Raumplanung TU Wien",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-02",
@@ -755,7 +755,7 @@
     "explanation_de": "Das Bachelorstudium Raumplanung an der TU Wien dauert 6 Semester (Regelstudienzeit), umfasst 180 ECTS und schließt mit dem Bachelor of Science ab.",
     "explanation_en": "The Bachelor's study programme in Spatial Planning at TU Wien has a standard duration of 6 semesters, comprises 180 ECTS credits and concludes with a Bachelor of Science degree.",
     "source": "Studienplan Raumplanung TU Wien, §2",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-03",
@@ -784,7 +784,7 @@
     "explanation_de": "Die StEOP (Studieneingangs- und Orientierungsphase) ist eine verpflichtende Eingangsphase zu Beginn des Studiums, die Orientierung über Inhalte und Anforderungen bietet und innerhalb der ersten zwei Semester abzuschließen ist.",
     "explanation_en": "The StEOP (study entry and orientation phase) is a compulsory entry phase at the start of the programme, providing orientation about content and requirements, and must be completed within the first two semesters.",
     "source": "Studienplan Raumplanung TU Wien, StEOP",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-04",
@@ -903,7 +903,7 @@
     "explanation_de": "Das Modul vermittelt kommunale und regionale Planungsgrundlagen, behandelt Planungsinstrumente und enthält praxisorientierte Projekte. Es ist kein reines Mastermodul.",
     "explanation_en": "The module teaches municipal and regional planning basics, covers planning instruments and includes practice-oriented projects. It is not exclusively a Master's module.",
     "source": "Studienplan Raumplanung TU Wien, Modulstruktur",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "id": "studienplan-08",
@@ -1503,7 +1503,7 @@
     "explanation_de": "Der Flächenwidmungsplan ist das zentrale Planungsinstrument der Gemeinde. Das analoge Instrument auf Landesebene ist das Regionalprogramm oder Landesentwicklungsprogramm (Landesraumordnungsprogramm).",
     "explanation_en": "The land use plan (Flächenwidmungsplan) is the central planning instrument of the municipality. The analogous instrument at state level is the regional programme or state development programme.",
     "source": "Planungssystem Österreich",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "cognitive-02",
@@ -1530,7 +1530,7 @@
     "explanation_de": "Innenentwicklung dient dem Flächensparen (Mittel-Ziel). Öffentlicher Verkehr dient der CO₂-Reduktion als übergeordnetem Klimaschutzziel. Die Analogie lautet: Mittel → Ziel.",
     "explanation_en": "Inner development serves land saving (means-goal). Public transport serves CO₂ reduction as a higher-level climate protection goal. The analogy is: means → goal.",
     "source": "Raumplanung Konzepte",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "cognitive-03",
@@ -1557,7 +1557,7 @@
     "explanation_de": "Die Differenzen sind: 3, 4, 5, 6, 7. Jede Differenz steigt um 1. Also: 20 + 7 = 27.",
     "explanation_en": "The differences are: 3, 4, 5, 6, 7. Each difference increases by 1. So: 20 + 7 = 27.",
     "source": "Kognitive Fähigkeiten — Zahlenreihen",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "cognitive-04",
@@ -1584,7 +1584,7 @@
     "explanation_de": "Jede Zahl wird mit 2 multipliziert: 1, 2, 4, 8, 16, 32, 64. Die nächste Zahl ist 32 × 2 = 64.",
     "explanation_en": "Each number is multiplied by 2: 1, 2, 4, 8, 16, 32, 64. The next number is 32 × 2 = 64.",
     "source": "Kognitive Fähigkeiten — Zahlenreihen",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "cognitive-05",
@@ -1612,7 +1612,7 @@
     "explanation_de": "a) WAHR — X liegt in Wohngebiet → Wohngebiet ist im FWP → X ist im FWP. b) FALSCH — Umkehrung gilt nicht. c) NICHT ZWINGEND — FWP-Widmung allein reicht nicht (noch kein Bebauungsplan). d) NICHT ZWINGEND — nicht explizit ausgeschlossen. e) WAHR — X liegt im Wohngebiet, das im FWP ist → FWP hat mindestens ein Wohngebiet.",
     "explanation_en": "a) TRUE — X is in residential area → residential area is in plan → X is in plan. b) FALSE — converse does not hold. c) NOT NECESSARILY — designation alone does not suffice (development plan also needed). d) NOT NECESSARILY — not explicitly excluded. e) TRUE — X is in a residential area that is in the plan → plan has at least one residential area.",
     "source": "Kognitive Fähigkeiten — Logik",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "oerek-principles-13",
@@ -1788,7 +1788,7 @@
     "explanation_de": "Beim Kippen in Ihre Richtung dreht sich: Oben→Vorne, Vorne→Unten, Unten→Hinten, Hinten→Oben. Das Kreuz (+) war oben und kommt jetzt nach vorne.",
     "explanation_en": "Tipping towards you: Top→Front, Front→Bottom, Bottom→Back, Back→Top. The Cross (+) was on top and is now on the front.",
     "source": "Info_Raumplanung 2026, Räumliches Vorstellen (Originalbeispiel)",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-1-step2",
@@ -1898,7 +1898,7 @@
     "explanation_de": "Von Ihnen weg kippen: Unten→Vorne, Vorne→Oben, Oben→Hinten, Hinten→Unten. D war unten und kommt nach vorne.",
     "explanation_en": "Tip away from you: Bottom→Front, Front→Top, Top→Back, Back→Bottom. D was on bottom, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-2-step2",
@@ -2014,7 +2014,7 @@
     "explanation_de": "Kippen nach rechts (um Oben-Unten-Achse): Vorne→Rechts, Links→Vorne. Der Mond (☽) war links und kommt nach vorne.",
     "explanation_en": "Tip right (around top-bottom axis): Front→Right, Left→Front. Moon (☽) was on left, now on front.",
     "source": "Übungsaufgabe Räumliches Vorstellen",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "id": "wuerfel-3-step2",
@@ -2218,5 +2218,513 @@
     "explanation_en": "S1 (right): Left→Front → C. T=B,Bo=E,R=A,L=F,B=D. S2 (towards): Top→Front → B. T=D,Bo=C,B=E,L=F,R=A. S3 (180°): Front↔Back → E on front. Answer: E (e).",
     "source": "Übungsaufgabe Räumliches Vorstellen (Kombination)",
     "difficulty": "hard"
+  },
+  {
+    "id": "wuerfel-7-step1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 7 (5 Schritte): Vorne: 1, Hinten: 6, Oben: 2, Unten: 5, Links: 3, Rechts: 4.\n\nSchritt 1: NACH LINKS kippen.\nSchritt 2: IN IHRE RICHTUNG kippen.\nWas sehen Sie vorne nach Schritt 2?",
+    "question_en": "CUBE 7 (5 steps): Front: 1, Back: 6, Top: 2, Bottom: 5, Left: 3, Right: 4.\n\nStep 1: Tip LEFT.\nStep 2: Tip TOWARDS YOU.\nWhat is on the front after Step 2?",
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "S1 links: Rechts→Vorne → 4. (O=2,U=5,L=1,R=6,H=3). S2 in Ihre Richtung: Oben→Vorne → 2.",
+    "explanation_en": "S1 left: Right→Front → 4. (T=2,Bo=5,L=1,R=6,B=3). S2 towards: Top→Front → 2.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)"
+  },
+  {
+    "id": "wuerfel-7-step2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 7 (Forts.): Nach S2: V=2, O=3, U=4, H=5, L=1, R=6.\n\nSchritt 3: um 90° GEGEN den Uhrzeigersinn drehen (von oben betrachtet).\nSchritt 4: VON IHNEN WEG kippen.\nWas sehen Sie vorne nach Schritt 4?",
+    "question_en": "CUBE 7 (cont.): After S2: F=2, T=3, Bo=4, B=5, L=1, R=6.\n\nStep 3: Rotate 90° COUNTER-CLOCKWISE (from above).\nStep 4: Tip AWAY FROM YOU.\nWhat is on the front after Step 4?",
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "S3 gegen UZS von oben: Vorne→Rechts, Rechts→Hinten, Hinten→Links, Links→Vorne. 1→Vorne. (V=1,R=2,H=6,L=5,O=3,U=4). S4 weg: Unten→Vorne → 4.",
+    "explanation_en": "S3 CCW from above: Left→Front. 1→Front. (F=1,R=2,B=6,L=5,T=3,Bo=4). S4 away: Bottom→Front → 4.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)"
+  },
+  {
+    "id": "wuerfel-7-step3",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 7 (Forts.): Nach S4: V=4, O=1, U=6, H=3, L=5, R=2.\n\nSchritt 5: NACH RECHTS kippen, dann um 180° DREHEN.\nWas sehen Sie am Ende vorne?",
+    "question_en": "CUBE 7 (cont.): After S4: F=4, T=1, Bo=6, B=3, L=5, R=2.\n\nStep 5: Tip RIGHT, then ROTATE 180°.\nWhat is on the front at the end?",
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Rechts kippen: Links→Vorne → 5. (O=1,U=6,R=4,L=3,H=2). 180° drehen: Vorne↔Hinten → 2 vorne. Hinten=5, Links=4, Rechts=3.",
+    "explanation_en": "Tip right: Left→Front → 5. (T=1,Bo=6,R=4,L=3,B=2). 180°: Front↔Back → 2. Back=5, L=4, R=3.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer, 5 Schritte)"
+  },
+  {
+    "id": "wuerfel-8-trick1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 8 (Trickfrage): Vorne: X, Hinten: O, Oben: A, Unten: B, Links: C, Rechts: D.\n\nDer Würfel wird NACH RECHTS gekippt, dann NACH LINKS gekippt.\nWas sehen Sie am Ende vorne?",
+    "question_en": "CUBE 8 (Trick): Front: X, Back: O, Top: A, Bottom: B, Left: C, Right: D.\n\nThe cube is tipped RIGHT, then tipped LEFT.\nWhat is on the front at the end?",
+    "options_de": [
+      "a) X",
+      "b) O",
+      "c) A",
+      "d) B",
+      "e) C",
+      "f) D"
+    ],
+    "options_en": [
+      "a) X",
+      "b) O",
+      "c) A",
+      "d) B",
+      "e) C",
+      "f) D"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Rechts dann links = die Operationen heben sich auf. Der Würfel ist wieder in der Ausgangsposition. Vorne: X.",
+    "explanation_en": "Right then left cancel each other out. The cube is back to its starting position. Front: X.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)"
+  },
+  {
+    "id": "wuerfel-8-trick2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 8b (Trickfrage): Gleicher Würfel: V=X, H=O, O=A, U=B, L=C, R=D.\n\nDer Würfel wird 4× hintereinander IN IHRE RICHTUNG gekippt.\nWas sehen Sie am Ende vorne?",
+    "question_en": "CUBE 8b (Trick): Same cube: F=X, B=O, T=A, Bo=B, L=C, R=D.\n\nThe cube is tipped TOWARDS YOU 4 times in a row.\nWhat is on the front at the end?",
+    "options_de": [
+      "a) X",
+      "b) O",
+      "c) A",
+      "d) B",
+      "e) C",
+      "f) D"
+    ],
+    "options_en": [
+      "a) X",
+      "b) O",
+      "c) A",
+      "d) B",
+      "e) C",
+      "f) D"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "4× in Ihre Richtung = volle 360°-Rotation um die Links-Rechts-Achse. Alles zurück zum Ausgangspunkt. Vorne: X.",
+    "explanation_en": "4× towards you = full 360° rotation around the left-right axis. Everything back to start. Front: X.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)"
+  },
+  {
+    "id": "wuerfel-8-trick3",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 8c: V=X, H=O, O=A, U=B, L=C, R=D.\n\nDer Würfel wird 3× IN IHRE RICHTUNG gekippt, dann 1× VON IHNEN WEG gekippt.\nWas sehen Sie vorne?",
+    "question_en": "CUBE 8c: F=X, B=O, T=A, Bo=B, L=C, R=D.\n\nThe cube is tipped TOWARDS YOU 3 times, then AWAY FROM YOU once.\nWhat is on the front?",
+    "options_de": [
+      "a) X",
+      "b) O",
+      "c) A",
+      "d) B",
+      "e) C",
+      "f) D"
+    ],
+    "options_en": [
+      "a) X",
+      "b) O",
+      "c) A",
+      "d) B",
+      "e) C",
+      "f) D"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "3× in Ihre Richtung: V=X→A→O→B. Also V=B. Dann 1× weg: Unten→Vorne. Nach 3× war: V=B,O=X,H=A,U=O. Weg: U→V → O vorne.",
+    "explanation_en": "3× towards: cycle F through X→A���O→B. After 3: F=B,T=X,B=A,Bo=O. Then away: Bo→F → O on front.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Trick)"
+  },
+  {
+    "id": "wuerfel-9-all-ops",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 9 (Alle Operationen): V=1, H=2, O=3, U=4, L=5, R=6.\n\n1. IN IHRE RICHTUNG kippen\n2. NACH RECHTS kippen\n3. VON IHNEN WEG kippen\n4. NACH LINKS kippen\n5. Um 180° DREHEN\n6. IN IHRE RICHTUNG kippen\n\nWas sehen Sie am Ende vorne?",
+    "question_en": "CUBE 9 (All operations): F=1, B=2, T=3, Bo=4, L=5, R=6.\n\n1. Tip TOWARDS YOU\n2. Tip RIGHT\n3. Tip AWAY FROM YOU\n4. Tip LEFT\n5. ROTATE 180°\n6. Tip TOWARDS YOU\n\nWhat is on the front at the end?",
+    "options_de": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "options_en": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5",
+      "f) 6"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "S1(zu): V=3,O=2,H=4,U=1. S2(rechts): V=5,R=3,L=4,H=6(nein)... Systematisch: Start V=1,H=2,O=3,U=4,L=5,R=6. S1 zu Ihnen: O→V,V→U,U→H,H→O → V=3,O=2,H=4,U=1,L=5,R=6. S2 rechts: L→V,V→R,R→H,H→L → V=5,R=3,H=6,L=4,O=2,U=1. S3 weg: U→V,V→O,O→H,H→U → V=1,O=5,H=2,U=6,L=4,R=3. S4 links: R→V,V→L,L→H,H→R → V=3,L=1,H=4,R=2,O=5,U=6. S5 180°: V↔H,L↔R → V=4,H=3,L=2,R=1,O=5,U=6. S6 zu: O→V → V=5.",
+    "explanation_en": "Track all 6 faces through each operation. Final answer: 5.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Sehr schwer)"
+  },
+  {
+    "id": "wuerfel-10-backface",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 10 (Rückseite): V=Rot, H=Blau, O=Grün, U=Gelb, L=Weiß, R=Schwarz.\n\nDer Würfel wird IN IHRE RICHTUNG gekippt, dann NACH RECHTS gekippt.\n\nFrage: Was ist jetzt auf der HINTEREN Fläche (nicht vorne!)?",
+    "question_en": "CUBE 10 (Back face): F=Red, B=Blue, T=Green, Bo=Yellow, L=White, R=Black.\n\nThe cube is tipped TOWARDS YOU, then tipped RIGHT.\n\nQuestion: What is now on the BACK face (not the front!)?",
+    "options_de": [
+      "a) Rot",
+      "b) Blau",
+      "c) Grün",
+      "d) Gelb",
+      "e) Weiß",
+      "f) Schwarz"
+    ],
+    "options_en": [
+      "a) Red",
+      "b) Blue",
+      "c) Green",
+      "d) Yellow",
+      "e) White",
+      "f) Black"
+    ],
+    "correct": [
+      5
+    ],
+    "explanation_de": "S1 zu: V=Grün,O=Blau,H=Gelb,U=Rot,L=Weiß,R=Schwarz. S2 rechts: L→V,V→R,R→H,H→L ��� V=Weiß,R=Grün,H=Schwarz,L=Gelb. Hinten = Schwarz.",
+    "explanation_en": "S1 towards: F=Green,T=Blue,B=Yellow,Bo=Red. S2 right: L→F,F→R,R→B,B→L → F=White,R=Green,B=Black,L=Yellow. Back = Black.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer — Rückseite)"
+  },
+  {
+    "id": "wuerfel-10-topface",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 10b: Gleicher Startzustand: V=Rot, H=Blau, O=Grün, U=Gelb, L=Weiß, R=Schwarz.\n\nDer Würfel wird VON IHNEN WEG gekippt, dann um 90° IM UHRZEIGERSINN gedreht.\n\nFrage: Was ist jetzt OBEN?",
+    "question_en": "CUBE 10b: Same start: F=Red, B=Blue, T=Green, Bo=Yellow, L=White, R=Black.\n\nThe cube is tipped AWAY FROM YOU, then ROTATED 90° CLOCKWISE.\n\nQuestion: What is now on TOP?",
+    "options_de": [
+      "a) Rot",
+      "b) Blau",
+      "c) Grün",
+      "d) Gelb",
+      "e) Weiß",
+      "f) Schwarz"
+    ],
+    "options_en": [
+      "a) Red",
+      "b) Blue",
+      "c) Green",
+      "d) Yellow",
+      "e) White",
+      "f) Black"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "S1 weg: U→V,V→O,O→H,H→U → V=Gelb,O=Rot,H=Grün,U=Blau,L=Weiß,R=Schwarz. S2 90°UZS: L→V,V→R,R→H,H→L (O/U bleiben) → Oben bleibt = Rot.",
+    "explanation_en": "S1 away: Bo→F,F→T,T���B,B→Bo → F=Yellow,T=Red,B=Green,Bo=Blue. S2 CW: top/bottom stay → Top = Red.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Schwer — Oberseite)"
+  },
+  {
+    "id": "wuerfel-11-reverse1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 11 (Umkehr): V=A, H=B, O=C, U=D, L=E, R=F.\n\nMit EINER einzigen Operation soll B (Hinten) nach vorne kommen.\nWelche Operation ist richtig?",
+    "question_en": "CUBE 11 (Reverse): F=A, B=B, T=C, Bo=D, L=E, R=F.\n\nWith ONE single operation, B (back) should come to the front.\nWhich operation is correct?",
+    "options_de": [
+      "a) In Ihre Richtung kippen",
+      "b) Von Ihnen weg kippen",
+      "c) Nach rechts kippen",
+      "d) Nach links kippen",
+      "e) Um 180° drehen",
+      "f) Keine einzelne Operation kann das"
+    ],
+    "options_en": [
+      "a) Tip towards you",
+      "b) Tip away from you",
+      "c) Tip right",
+      "d) Tip left",
+      "e) Rotate 180°",
+      "f) No single operation can do this"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "180° drehen tauscht Vorne↔Hinten (und Links↔Rechts). B kommt nach vorne. Kippen in jede Richtung bringt Oben/Unten/Links/Rechts nach vorne, nicht Hinten.",
+    "explanation_en": "180° rotation swaps Front↔Back. B comes to front. Tipping in any direction brings Top/Bottom/Left/Right to front, not Back.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Umkehroperation)"
+  },
+  {
+    "id": "wuerfel-11-reverse2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 11b: V=A, H=B, O=C, U=D, L=E, R=F.\n\nMit EINER Operation soll D (Unten) nach vorne kommen.\nWelche Operationen sind richtig? (Mehrere möglich!)",
+    "question_en": "CUBE 11b: F=A, B=B, T=C, Bo=D, L=E, R=F.\n\nWith ONE operation, D (bottom) should come to the front.\nWhich operations are correct? (Multiple possible!)",
+    "options_de": [
+      "a) In Ihre Richtung kippen",
+      "b) Von Ihnen weg kippen",
+      "c) Nach rechts kippen",
+      "d) Nach links kippen",
+      "e) Um 180° drehen"
+    ],
+    "options_en": [
+      "a) Tip towards you",
+      "b) Tip away from you",
+      "c) Tip right",
+      "d) Tip left",
+      "e) Rotate 180°"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Von Ihnen weg kippen: Unten→Vorne. Das ist die EINZIGE Operation, die U direkt nach V bringt. In Ihre Richtung bringt Oben→Vorne. Rechts/Links bringt Seitenflächen. 180° tauscht V↔H.",
+    "explanation_en": "Tip away: Bottom→Front. The ONLY operation that brings Bo directly to F. Towards brings Top. Right/Left bring sides. 180° swaps F↔B.",
+    "source": "Übungsaufgabe Räumliches Vorstellen (Umkehroperation)"
+  },
+  {
+    "id": "wuerfel-12-step1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "WÜRFEL 12: Sie sehen den Würfel von der SEITE. Vorne: leer, Hinten: leer, Oben: Stern (★), Unten: Kreis (●), Links (= Ihre Vorderseite): Herz (♥), Rechts (= von Ihnen weg): Raute (◆).\n\nDer Würfel wird so gedreht, dass Sie ihn jetzt von VORNE sehen (die bisherige linke Seite wird zu Ihrer neuen Vorderseite). Dann wird er IN IHRE RICHTUNG gekippt.\n\nWas sehen Sie vorne?",
+    "question_en": "CUBE 12: You see the cube from the SIDE. Front: empty, Back: empty, Top: Star (★), Bottom: Circle (●), Left (=facing you): Heart (♥), Right (=away from you): Diamond (◆).\n\nThe cube is turned so you now see it from the FRONT (the left side becomes your new front). Then it is tipped TOWARDS YOU.\n\nWhat is on the front?",
+    "options_de": [
+      "a) Leere Fläche (□)",
+      "b) Stern (★)",
+      "c) Kreis (●)",
+      "d) Herz (♥)",
+      "e) Raute (◆)"
+    ],
+    "options_en": [
+      "a) Empty (□)",
+      "b) Star (★)",
+      "c) Circle (●)",
+      "d) Heart (♥)",
+      "e) Diamond (◆)"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Nach dem Umstellen: V=♥, H=◆, O=★, U=●, L=□, R=□. Dann in Ihre Richtung: Oben→Vorne → ★.",
+    "explanation_en": "After reorientation: F=♥, B=◆, T=★, Bo=●, L=□, R=□. Tip towards: Top→Front → ★.",
+    "source": "Übungsaufgabe R��umliches Vorstellen (Schwer — Perspektivwechsel)"
+  },
+  {
+    "id": "cognitive-analogy-hard1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "Analgie: Arzt : Patient = Anwalt : ... ? ...",
+    "question_en": "Analogy: Doctor : Patient = Lawyer : ... ? ...",
+    "options_de": [
+      "a) Richter",
+      "b) Mandant",
+      "c) Gesetz",
+      "d) Gericht",
+      "e) Kanzlei"
+    ],
+    "options_en": [
+      "a) Judge",
+      "b) Client",
+      "c) Law",
+      "d) Court",
+      "e) Firm"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Arzt behandelt Patient, Anwalt vertritt Mandant. Beziehung: Fachperson → Person, der sie dient.",
+    "explanation_en": "Doctor treats patient, lawyer represents client. Relationship: professional → person they serve.",
+    "source": "Übungsaufgabe Analogien (Schwer)"
+  },
+  {
+    "id": "cognitive-analogy-hard2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "Analogie: Demokratie : Diktatur = Freihandel : ... ? ...",
+    "question_en": "Analogy: Democracy : Dictatorship = Free trade : ... ? ...",
+    "options_de": [
+      "a) Kapitalismus",
+      "b) Protektionismus",
+      "c) Sozialismus",
+      "d) Globalisierung",
+      "e) Monopol"
+    ],
+    "options_en": [
+      "a) Capitalism",
+      "b) Protectionism",
+      "c) Socialism",
+      "d) Globalisation",
+      "e) Monopoly"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Demokratie und Diktatur sind Gegensätze der Regierungsform. Freihandel und Protektionismus sind Gegensätze der Handelspolitik.",
+    "explanation_en": "Democracy/dictatorship are opposites of governance. Free trade/protectionism are opposites of trade policy.",
+    "source": "Übungsaufgabe Analogien (Schwer)"
+  },
+  {
+    "id": "cognitive-number-hard1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "Zahlenfolge: 2, 6, 3, 9, 4, 12, 5, ?\n\nWelche Zahl folgt?",
+    "question_en": "Number sequence: 2, 6, 3, 9, 4, 12, 5, ?\n\nWhat number comes next?",
+    "options_de": [
+      "a) 6",
+      "b) 10",
+      "c) 15",
+      "d) 13",
+      "e) 20"
+    ],
+    "options_en": [
+      "a) 6",
+      "b) 10",
+      "c) 15",
+      "d) 13",
+      "e) 20"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Zwei verschränkte Folgen: Position 1,3,5,7: 2,3,4,5 (+1). Position 2,4,6,8: 6,9,12,? (+3). Nächstes = 15.",
+    "explanation_en": "Two interleaved sequences: positions 1,3,5,7: 2,3,4,5 (+1). Positions 2,4,6,8: 6,9,12,? (+3). Next = 15.",
+    "source": "Übungsaufgabe Zahlenfolgen (Schwer)"
+  },
+  {
+    "id": "cognitive-number-hard2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "Zahlenfolge: 1, 1, 2, 3, 5, 8, 13, ?\n\nWelche Zahl folgt?",
+    "question_en": "Number sequence: 1, 1, 2, 3, 5, 8, 13, ?\n\nWhat number comes next?",
+    "options_de": [
+      "a) 18",
+      "b) 20",
+      "c) 21",
+      "d) 26",
+      "e) 15"
+    ],
+    "options_en": [
+      "a) 18",
+      "b) 20",
+      "c) 21",
+      "d) 26",
+      "e) 15"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Fibonacci-Folge: Jede Zahl = Summe der zwei vorherigen. 8 + 13 = 21.",
+    "explanation_en": "Fibonacci sequence: each number = sum of the two before. 8 + 13 = 21.",
+    "source": "Übungsaufgabe Zahlenfolgen (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-hard1",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "Logik:\nAussage 1: Kein Blux ist ein Trem.\nAussage 2: Alle Trem sind Voki.\n\nWelche Schlüsse sind gültig?",
+    "question_en": "Logic:\nStatement 1: No Blux is a Trem.\nStatement 2: All Trem are Voki.\n\nWhich conclusions are valid?",
+    "options_de": [
+      "a) Kein Blux ist ein Voki",
+      "b) Alle Voki sind Trem",
+      "c) Zumindest ein Voki ist ein Trem",
+      "d) Kein Trem ist ein Blux",
+      "e) Es gibt Voki, die keine Blux sind"
+    ],
+    "options_en": [
+      "a) No Blux is a Voki",
+      "b) All Voki are Trem",
+      "c) At least one Voki is a Trem",
+      "d) No Trem is a Blux",
+      "e) There are Voki that are not Blux"
+    ],
+    "correct": [
+      2,
+      3
+    ],
+    "explanation_de": "d) folgt direkt aus A1 (Kontraposition: Kein Blux=Trem → Kein Trem=Blux). c) folgt aus A2: Alle Trem sind Voki → es gibt mind. ein Voki das Trem ist (sofern Trem existieren). a) ist FALSCH: Blux könnten Voki sein, ohne Trem zu sein. b) ist FALSCH: nicht alle Voki müssen Trem sein. e) kann man nicht ableiten.",
+    "explanation_en": "d) follows from S1 (contrapositive). c) follows from S2 (if Trem exist, at least one Voki is Trem). a) FALSE: Blux could be Voki without being Trem. b) FALSE: not all Voki need be Trem. e) cannot be derived.",
+    "source": "Übungsaufgabe Logik (Schwer)"
+  },
+  {
+    "id": "cognitive-logic-hard2",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "question_de": "Logik:\nAussage 1: Alle Plani sind Raumi oder Baui.\nAussage 2: Einige Raumi sind Grüni.\nAussage 3: Kein Baui ist Grüni.\n\nWelche Schlüsse sind gültig?",
+    "question_en": "Logic:\nStatement 1: All Plani are Raumi or Baui.\nStatement 2: Some Raumi are Grüni.\nStatement 3: No Baui is Grüni.\n\nWhich conclusions are valid?",
+    "options_de": [
+      "a) Einige Plani sind Grüni",
+      "b) Alle Plani sind Raumi",
+      "c) Einige Grüni sind Raumi",
+      "d) Kein Plani ist gleichzeitig Baui und Grüni",
+      "e) Alle Grüni sind Plani"
+    ],
+    "options_en": [
+      "a) Some Plani are Grüni",
+      "b) All Plani are Raumi",
+      "c) Some Grüni are Raumi",
+      "d) No Plani is both Baui and Grüni",
+      "e) All Grüni are Plani"
+    ],
+    "correct": [
+      2,
+      3
+    ],
+    "explanation_de": "c) folgt aus A2 (Umkehrschluss: Einige Raumi=Grüni → Einige Grüni=Raumi). d) folgt aus A3: Kein Baui=Grüni, also kann kein Plani gleichzeitig Baui UND Grüni sein. a) kann nicht abgeleitet werden (Plani könnten alle Baui sein). b) falsch (manche könnten Baui sein). e) falsch (Grüni könnten Nicht-Plani sein).",
+    "explanation_en": "c) follows from S2 (converse). d) follows from S3: no Baui=Grüni, so no Plani can be both. a) cannot be derived. b) false. e) false.",
+    "source": "Übungsaufgabe Logik (Schwer)"
   }
 ]
