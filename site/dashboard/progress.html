@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Progress — Raumplanung TU Wien</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <h2>Raumplanung</h2>
+      <div class="subtitle">TU Wien — Reihungstest 2026</div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Dashboard</div>
+    </div>
+    <a href="../index.html" class="nav-link"><span class="icon">&#127968;</span> Home</a>
+    <a href="../exam/countdown.html" class="nav-link"><span class="icon">&#9200;</span> Exam Countdown</a>
+    <a href="progress.html" class="nav-link active"><span class="icon">&#128200;</span> My Progress</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Knowledge Base (DE)</div>
+    </div>
+    <a href="../knowledge/reihungstest-de.html" class="nav-link"><span class="icon">&#128221;</span> Reihungstest Info</a>
+    <a href="../knowledge/oerek2030-de.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
+    <a href="../knowledge/studienplan-de.html" class="nav-link"><span class="icon">&#127891;</span> Studienplan</a>
+    <a href="../knowledge/combined-de.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Knowledge Base (EN)</div>
+    </div>
+    <a href="../knowledge/reihungstest-en.html" class="nav-link"><span class="icon">&#128221;</span> Exam Info</a>
+    <a href="../knowledge/oerek2030-en.html" class="nav-link"><span class="icon">&#127758;</span> OEREK 2030</a>
+    <a href="../knowledge/studienplan-en.html" class="nav-link"><span class="icon">&#127891;</span> Study Plan</a>
+    <a href="../knowledge/combined-en.html" class="nav-link"><span class="icon">&#128218;</span> Combined Overview</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Quizzes</div>
+    </div>
+    <a href="../quizzes/quiz-oerek-principles.html" class="nav-link"><span class="icon">&#10004;</span> OEREK Principles</a>
+    <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link"><span class="icon">&#10004;</span> Megatrends</a>
+    <a href="../quizzes/quiz-studienplan.html" class="nav-link"><span class="icon">&#10004;</span> Studienplan</a>
+    <a href="../quizzes/quiz-cognitive.html" class="nav-link"><span class="icon">&#129504;</span> Cognitive Skills</a>
+    <a href="../quizzes/quiz-full-mock.html" class="nav-link"><span class="icon">&#128336;</span> Full Mock Exam</a>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Resources</div>
+    </div>
+    <a href="https://github.com/JohnGavin/urban_planning" class="nav-link" target="_blank"><span class="icon">&#128279;</span> GitHub Repo</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="top-bar">
+      <div>
+        <h1>My Progress</h1>
+        <p class="text-muted">Quiz history, scores, and study analytics</p>
+      </div>
+    </div>
+
+    <div class="alert alert-info">
+      <strong>Coming Soon.</strong> This dashboard will display your quiz history, per-topic scores, improvement trends, and a study streak tracker. Data is stored locally in your browser via IndexedDB — nothing is sent to a server.
+    </div>
+
+    <!-- Placeholder stats -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-total">0</div>
+        <div class="stat-label">Quizzes Completed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-avg">—</div>
+        <div class="stat-label">Average Score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-streak">0</div>
+        <div class="stat-label">Day Streak</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-best">—</div>
+        <div class="stat-label">Best Score</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">What this dashboard will show</div>
+      <table>
+        <tr><th style="width:35%">Feature</th><th>Description</th></tr>
+        <tr><td>Quiz History</td><td>Date, quiz name, score, and time taken for every attempt</td></tr>
+        <tr><td>Per-topic Scores</td><td>Separate averages for OEREK, Megatrends, Studienplan, and Cognitive</td></tr>
+        <tr><td>Score Trends</td><td>Line chart showing improvement over time per topic</td></tr>
+        <tr><td>Weak Areas</td><td>Which question types you answer incorrectly most often</td></tr>
+        <tr><td>Study Streak</td><td>Consecutive days with at least one quiz attempt</td></tr>
+        <tr><td>Exam Readiness</td><td>Estimated readiness percentage based on recent scores</td></tr>
+        <tr><td>Data Storage</td><td>Browser IndexedDB — local only, no server, no account needed</td></tr>
+        <tr><td>Export</td><td>Download your history as CSV for offline analysis</td></tr>
+      </table>
+    </div>
+
+    <h2>Start Practising</h2>
+    <div class="stats-grid">
+      <a href="../quizzes/quiz-oerek-principles.html" class="card" style="text-decoration:none">
+        <div class="card-title">&#10004; OEREK Principles</div>
+        <p class="text-muted" style="font-size:0.85rem">Most heavily tested topic — start here</p>
+      </a>
+      <a href="../quizzes/quiz-cognitive.html" class="card" style="text-decoration:none">
+        <div class="card-title">&#129504; Cognitive Skills</div>
+        <p class="text-muted" style="font-size:0.85rem">40% of total score — practice daily</p>
+      </a>
+      <a href="../quizzes/quiz-full-mock.html" class="card" style="text-decoration:none">
+        <div class="card-title">&#128336; Full Mock Exam</div>
+        <p class="text-muted" style="font-size:0.85rem">Complete 2-hour timed simulation</p>
+      </a>
+    </div>
+
+    <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
+      Source: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
+      &bull; Progress data stored locally in your browser — never sent to a server
+    </footer>
+  </main>
+</div>
+
+<script src="../js/student-db.js"></script>
+<script>
+  // Load stats from IndexedDB when available
+  document.addEventListener('DOMContentLoaded', async () => {
+    try {
+      const stats = await StudentDB.getStats();
+      const totalEl = document.getElementById('stat-total');
+      const avgEl = document.getElementById('stat-avg');
+      const bestEl = document.getElementById('stat-best');
+      if (totalEl) totalEl.textContent = stats.totalAttempts || 0;
+      if (avgEl && stats.averageScore != null) avgEl.textContent = Math.round(stats.averageScore) + '%';
+      if (bestEl && stats.bestScore != null) bestEl.textContent = Math.round(stats.bestScore) + '%';
+    } catch(e) { /* IndexedDB may not be available in file:// on some browsers */ }
+  });
+</script>
+</body>
+</html>
