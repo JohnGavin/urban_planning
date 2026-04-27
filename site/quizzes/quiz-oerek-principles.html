@@ -57,51 +57,21 @@
   <!-- Main Content -->
   <main class="main-content">
     <div class="top-bar">
-      <div>
-        <h1>Quiz: OEREK Principles</h1>
-        <p class="text-muted">Leitbilder, Handlungsfelder und Grundsätze des OEREK 2030</p>
-      </div>
+      <h1>Quiz: OEREK 2030 Grundsätze</h1>
     </div>
-
-    <div class="alert alert-info">
-      <strong>Coming Soon.</strong> This quiz will test your knowledge of the OEREK 2030 guiding principles (Leitbilder), action fields (Handlungsfelder), and core spatial planning concepts. Multiple-choice format matching the Part A exam style.
-    </div>
-
-    <div class="card">
-      <div class="card-title">Quiz Overview</div>
-      <table>
-        <tr><th style="width:35%">Detail</th><th>Value</th></tr>
-        <tr><td>Topic</td><td>OEREK 2030 guiding principles and action fields</td></tr>
-        <tr><td>Format</td><td>Multiple choice — tick all correct answers (partial credit)</td></tr>
-        <tr><td>Planned questions</td><td>~20 questions covering all Handlungsfelder</td></tr>
-        <tr><td>Difficulty</td><td>Reihungstest Part A level</td></tr>
-        <tr><td>Time limit</td><td>No limit (practice mode) — timed mode in Full Mock Exam</td></tr>
-        <tr><td>Scoring</td><td>Correct ticks score points; wrong ticks deduct points (min 0 per question)</td></tr>
-      </table>
-    </div>
-
-    <h2>Prepare First</h2>
-    <div class="stats-grid">
-      <a href="../knowledge/oerek2030-de.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#127758; OEREK 2030 (DE)</div>
-        <p class="text-muted" style="font-size:0.85rem">Wissensbasis auf Deutsch lesen</p>
-      </a>
-      <a href="../knowledge/oerek2030-en.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#127758; OEREK 2030 (EN)</div>
-        <p class="text-muted" style="font-size:0.85rem">Read knowledge base in English</p>
-      </a>
-      <a href="quiz-oerek-megatrends.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#10004; Next: Megatrends Quiz</div>
-        <p class="text-muted" style="font-size:0.85rem">Also covers OEREK content</p>
-      </a>
-    </div>
-
+    <div id="quiz-container"></div>
     <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
-      Source: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
-      &bull; Questions derived from official OEREK 2030 document
+      <a href="https://github.com/JohnGavin/urban_planning" target="_blank">GitHub</a>
     </footer>
   </main>
 </div>
+<script src="../js/student-db.js"></script>
+<script src="../js/quiz-engine.js"></script>
 <script src="../js/sidebar.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    QuizEngine.init('oerek-principles', 'quiz-container');
+  });
+</script>
 </body>
 </html>

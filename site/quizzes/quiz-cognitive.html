@@ -57,57 +57,21 @@
   <!-- Main Content -->
   <main class="main-content">
     <div class="top-bar">
-      <div>
-        <h1>Quiz: Cognitive Skills</h1>
-        <p class="text-muted">Part C — Kognitive Fähigkeiten (40% der Gesamtpunktzahl)</p>
-      </div>
+      <h1>Quiz: Kognitive Fähigkeiten</h1>
     </div>
-
-    <div class="alert alert-info">
-      <strong>Coming Soon.</strong> Practice for Part C of the Reihungstest — cognitive abilities including analogies, number sequences, logical deduction, spatial reasoning, and matrix pattern recognition. This section is worth 40% of the total score.
-    </div>
-
-    <div class="card">
-      <div class="card-title">What Part C Tests</div>
-      <table>
-        <tr><th style="width:35%">Task Type</th><th>Description</th></tr>
-        <tr><td>Analogies (Analogien)</td><td>A is to B as C is to ? — verbal and conceptual relationships</td></tr>
-        <tr><td>Number Sequences (Zahlenreihen)</td><td>Identify the pattern and find the next number</td></tr>
-        <tr><td>Logical Deduction (Schlussfolgern)</td><td>If-then reasoning, syllogisms, logical conclusions</td></tr>
-        <tr><td>Spatial Reasoning (Räumliches Denken)</td><td>2D to 3D folding, rotations, mirror images</td></tr>
-        <tr><td>Matrix Patterns (Matrizenaufgaben)</td><td>Identify the missing piece in a visual pattern matrix</td></tr>
-        <tr><td>Text Comprehension (Part B)</td><td>Read German spatial planning texts — true/false/not determinable</td></tr>
-      </table>
-    </div>
-
-    <div class="card" style="margin-top:1.5rem">
-      <div class="card-title">Practice Strategy</div>
-      <p style="font-size:0.9rem; margin-top:0.5rem">Cognitive skills improve with timed practice. The exam allocates a fixed time per section — speed and accuracy both matter. Focus especially on the question types you find hardest.</p>
-      <p style="font-size:0.85rem; color:var(--tu-text-dim)">Tip: The exam uses German throughout. Even cognitive tasks have German instructions — reading speed in German matters.</p>
-    </div>
-
-    <h2>Next Steps</h2>
-    <div class="stats-grid">
-      <a href="quiz-full-mock.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#128336; Full Mock Exam</div>
-        <p class="text-muted" style="font-size:0.85rem">All parts together under 2-hour time pressure</p>
-      </a>
-      <a href="quiz-oerek-principles.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#10004; OEREK Principles</div>
-        <p class="text-muted" style="font-size:0.85rem">Also practice the subject knowledge part</p>
-      </a>
-      <a href="../dashboard/progress.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#128200; My Progress</div>
-        <p class="text-muted" style="font-size:0.85rem">Track your quiz scores over time</p>
-      </a>
-    </div>
-
+    <div id="quiz-container"></div>
     <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
-      Source: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
-      &bull; Task types based on official Reihungstest sample questions
+      <a href="https://github.com/JohnGavin/urban_planning" target="_blank">GitHub</a>
     </footer>
   </main>
 </div>
+<script src="../js/student-db.js"></script>
+<script src="../js/quiz-engine.js"></script>
 <script src="../js/sidebar.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    QuizEngine.init('cognitive', 'quiz-container');
+  });
+</script>
 </body>
 </html>

@@ -57,73 +57,22 @@
   <!-- Main Content -->
   <main class="main-content">
     <div class="top-bar">
-      <div>
-        <h1>Full Mock Exam</h1>
-        <p class="text-muted">Vollständige Prüfungssimulation — 2 Stunden, alle drei Teile</p>
-      </div>
+      <h1>Probeklausur (Vollständiger Probetest)</h1>
     </div>
-
-    <div class="alert alert-info">
-      <strong>Coming Soon.</strong> A timed 2-hour mock exam covering all three parts of the Reihungstest: Part A (Subject Knowledge, 40%), Part B (Text Comprehension, 20%), and Part C (Cognitive Abilities, 40%). Scores are saved to your progress dashboard.
-    </div>
-
-    <div class="card">
-      <div class="card-title">Mock Exam Structure</div>
-      <table>
-        <tr><th style="width:35%">Part</th><th>Weight</th><th>Content</th></tr>
-        <tr>
-          <td><strong>Part A: Subject Knowledge</strong></td>
-          <td><strong class="text-accent">40%</strong></td>
-          <td>OEREK 2030 + Studienplan — multiple choice</td>
-        </tr>
-        <tr>
-          <td><strong>Part B: Text Comprehension</strong></td>
-          <td><strong class="text-accent">20%</strong></td>
-          <td>German spatial planning texts — true / false / not determinable</td>
-        </tr>
-        <tr>
-          <td><strong>Part C: Cognitive Abilities</strong></td>
-          <td><strong class="text-accent">40%</strong></td>
-          <td>Analogies, number sequences, logic, spatial reasoning, matrix patterns</td>
-        </tr>
-        <tr>
-          <td><strong>Total duration</strong></td>
-          <td colspan="2">Exactly 2 hours (120 minutes)</td>
-        </tr>
-        <tr>
-          <td><strong>Scoring rule</strong></td>
-          <td colspan="2">Correct ticks add points; wrong ticks deduct points — minimum 0 per question</td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="card" style="margin-top:1.5rem">
-      <div class="card-title">Before Taking the Mock Exam</div>
-      <p style="font-size:0.9rem; margin-top:0.5rem">Complete the individual quizzes first so you know which areas need more study. The mock exam is most useful when done under realistic conditions: no interruptions, no references, strict 2-hour limit.</p>
-    </div>
-
-    <h2>Prepare with Individual Quizzes</h2>
-    <div class="stats-grid">
-      <a href="quiz-oerek-principles.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#10004; OEREK Principles</div>
-        <p class="text-muted" style="font-size:0.85rem">Part A preparation</p>
-      </a>
-      <a href="quiz-oerek-megatrends.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#10004; Megatrends</div>
-        <p class="text-muted" style="font-size:0.85rem">Part A preparation</p>
-      </a>
-      <a href="quiz-cognitive.html" class="card" style="text-decoration:none">
-        <div class="card-title">&#129504; Cognitive Skills</div>
-        <p class="text-muted" style="font-size:0.85rem">Part C preparation</p>
-      </a>
-    </div>
-
+    <div id="quiz-container"></div>
     <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
-      Source: <a href="https://github.com/JohnGavin/urban_planning" target="_blank">github.com/JohnGavin/urban_planning</a>
-      &bull; Structure based on official Reihungstest information PDF
+      <a href="https://github.com/JohnGavin/urban_planning" target="_blank">GitHub</a>
     </footer>
   </main>
 </div>
+<script src="../js/student-db.js"></script>
+<script src="../js/quiz-engine.js"></script>
 <script src="../js/sidebar.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Full mock loads all question categories
+    QuizEngine.init('all', 'quiz-container');
+  });
+</script>
 </body>
 </html>

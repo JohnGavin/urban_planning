@@ -43,6 +43,18 @@
 
     <p class="text-muted">Quelle: Info_Raumplanung_Info_AV_RPL_TU_2026.pdf &mdash; Erstellt vom Zentrum für strategische Lehrentwicklung der TU Wien, Februar 2026</p>
 
+    <!-- Tabset -->
+    <div class="tab-container">
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="struktur">Aufbau / Auswertung</button>
+        <button class="tab-btn" data-tab="teil-a">A: Fachwissen (40%)</button>
+        <button class="tab-btn" data-tab="teil-b">B: Textverständnis (20%)</button>
+        <button class="tab-btn" data-tab="teil-c">C: Kognitive Fähigkeiten (40%)</button>
+        <button class="tab-btn" data-tab="vorbereitung">Vorbereitung</button>
+      </div>
+
+      <!-- TAB: Struktur -->
+      <div class="tab-content active" data-tab="struktur">
     <h2>Aufbau und Auswertung des Tests</h2>
     <div class="card">
       <p>Der schriftliche Reihungstest umfasst <strong>drei Teile</strong>:</p>
@@ -64,7 +76,10 @@
         <li>Nur Antworten auf dem <strong>Antwortbogen</strong> sind gültig.</li>
       </ul>
     </div>
+      </div>
 
+      <!-- TAB: Teil A -->
+      <div class="tab-content" data-tab="teil-a">
     <h2>Teil A: Fachteil (40%)</h2>
     <div class="card">
       <p>In diesem Teil wird die <strong>Lernfähigkeit</strong> erfasst. Bei der Prüfung müssen Sie Fragen im <strong>Multiple-Choice-Format</strong> beantworten, die sich auf den Lernstoff beziehen.</p>
@@ -99,6 +114,10 @@
       </div>
     </div>
 
+      </div>
+
+      <!-- TAB: Teil B -->
+      <div class="tab-content" data-tab="teil-b">
     <h2>Teil B: Textverständnis (20%)</h2>
     <div class="card">
       <p>In diesem Teil wird die Fähigkeit geprüft, den Inhalt von Texten aufzunehmen, zu verstehen und in einen korrekten Zusammenhang zu bringen.</p>
@@ -126,6 +145,10 @@
       </div>
     </div>
 
+      </div>
+
+      <!-- TAB: Teil C -->
+      <div class="tab-content" data-tab="teil-c">
     <h2>Teil C: Kognitive Fähigkeiten (40%)</h2>
     <div class="card">
       <p>Dieser Teil enthält unterschiedliche Aufgabentypen, die kognitive Fähigkeiten prüfen:</p>
@@ -171,16 +194,27 @@
       </div>
     </div>
 
+      </div>
+
+      <!-- TAB: Vorbereitung -->
+      <div class="tab-content" data-tab="vorbereitung">
     <h2>Vorbereitung</h2>
     <div class="card">
       <ul>
-        <li>Verwenden Sie zur Vorbereitung auf den Fachteil die auf der Website angegebene Literatur: <a href="https://www.tuwien.at/studium/aufnahme-rp" target="_blank">tuwien.at/studium/aufnahme-rp</a></li>
-        <li>Bearbeiten Sie die Übungsbeispiele in dieser Wissensbasis und in den <a href="../quizzes/quiz-oerek-principles.html">Quizzes</a></li>
-        <li>Lesen Sie die Aufgaben stets <strong>sorgfältig</strong> durch, bevor Sie sie beantworten</li>
-        <li>Beim Textverständnis: Prüfen Sie genau, ob eine Aussage sich mit den Informationen <em>im Text</em> vereinbaren lässt</li>
-        <li>Bei räumlichem Vorstellen und Matrizen: <strong>Skizzieren</strong> Sie Ihre Lösung im vorgesehenen Feld</li>
+        <li>Verwenden Sie zur Vorbereitung die Literatur auf <a href="https://www.tuwien.at/studium/aufnahme-rp" target="_blank">tuwien.at/studium/aufnahme-rp</a></li>
+        <li>Bearbeiten Sie die <a href="../quizzes/quiz-oerek-principles.html">Quizzes</a> nach jedem Wissensabschnitt</li>
+        <li>Lesen Sie Aufgaben stets <strong>sorgfältig</strong> durch</li>
+        <li>Textverständnis: Prüfen Sie, ob Aussagen <em>durch den Text</em> gestützt werden</li>
+        <li>Räumliches Vorstellen / Matrizen: <strong>Skizzieren</strong> Sie im vorgesehenen Feld</li>
+        <li>Kognitive Aufgaben täglich 15-30 Min. üben (sie sind 40% der Prüfung)</li>
       </ul>
     </div>
+    <div class="alert alert-warning">
+      <strong>Zeitaufteilung:</strong> 2 Stunden für 3 Teile. Vorschlag: Teil A ~45 Min., Teil B ~25 Min., Teil C ~45 Min., 5 Min. Puffer zum Übertragen der Antworten.
+    </div>
+      </div>
+
+    </div><!-- end tab-container -->
 
     <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
       Quelle: Info_Raumplanung_Info_AV_RPL_TU_2026.pdf &bull; <a href="https://github.com/JohnGavin/urban_planning" target="_blank">GitHub</a>
