@@ -89,14 +89,10 @@ const QuizEngine = (() => {
           <span>${opt}</span>
         </div>`).join('');
 
-      const correctCount = q.correct.length;
-      const plural = correctCount === 1 ? 'richtige Antwort' : 'richtige Antworten';
-
       return `
         <div class="quiz-question" id="qe-q-${qi}">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div style="margin-bottom:0.5rem">
             <span class="badge badge-info">Frage ${qi + 1}</span>
-            <span style="font-size:0.8rem;color:var(--tu-text-muted)">${correctCount} ${plural}</span>
           </div>
           <div class="quiz-question-text">${qText}</div>
           <div class="qe-options">${optHtml}</div>
