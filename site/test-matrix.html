@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<title>Matrix Rendering Test</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+body { padding: 2rem; }
+.test-case { margin: 2rem 0; padding: 1rem; border: 1px solid var(--tu-border); border-radius: 8px; }
+.test-case h3 { color: var(--tu-accent); }
+.pass { color: var(--tu-success); }
+.fail { color: var(--tu-error); }
+</style>
+</head><body style="background:var(--tu-darker);color:var(--tu-text)">
+<h1>Matrix Rendering Test</h1>
+<p>This page tests all matrix cell types to verify they render correctly.</p>
+<div id="results"></div>
+
+<script src="js/quiz-engine.js?v=test"></script>
+<script>
+// Access the internal functions via a test harness
+// We can't directly access IIFE internals, so we'll test via a mini quiz
+
+const testCases = [
+  {
+    name: "Basic shapes + colours",
+    text: "Matrix (3×3) – Muster:\nZeile 1: [Kreis, schwarz] [Dreieck, weiß] [Quadrat, grau]\nZeile 2: [Stern, schwarz] [Herz, weiß] [Raute, grau]\nZeile 3: [Sechseck, schwarz] [Pfeil, weiß] [?]",
+    expect: "9 cells, shapes visible"
+  },
+  {
+    name: "Sizes (groß/mittel/klein)",
+    text: "Matrix (3×3) – Muster:\nZeile 1: [Kreis, groß, schwarz] [Kreis, mittel, schwarz] [Kreis, klein, schwarz]\nZeile 2: [Dreieck, groß, weiß] [Dreieck, mittel, weiß] [Dreieck, klein, weiß]\nZeile 3: [Quadrat, groß, grau] [Quadrat, mittel, grau] [?]",
+    expect: "sizes decrease left to right"
+  },
+  {
+    name: "Count prefix (3 Kreise)",
+    text: "Matrix (3×3) – Muster:\nZeile 1: [1 Kreis] [2 Kreise] [3 Kreise]\nZeile 2: [1 Dreieck] [2 Dreiecke] [3 Dreiecke]\nZeile 3: [1 Quadrat] [2 Quadrate] [?]",
+    expect: "increasing dot counts"
+  },
+  {
+    name: "Combination (X + Y)",
+    text: "Matrix (3×3) – Muster (Überlagerung):\nZeile 1: [Kreis] [Dreieck] [Kreis + Dreieck]\nZeile 2: [Quadrat] [Stern] [Quadrat + Stern]\nZeile 3: [Raute] [Herz] [?]",
+    expect: "col 3 shows combined symbols"
+  },
+  {
+    name: "Arrows with direction",
+    text: "Matrix (3×3) – Muster:\nZeile 1: [Pfeil ↑] [Pfeil →] [Pfeil ↓]\nZeile 2: [Pfeil ←] [Pfeil ↑] [Pfeil →]\nZeile 3: [Pfeil ↓] [Pfeil ←] [?]",
+    expect: "arrow directions visible"
+  },
+  {
+    name: "Generated: Latin square",
+    text: "Matrix (3×3) – Muster:\nZeile 1: [Raute, schwarz] [Stern, weiß] [Dreieck, grau]\nZeile 2: [Stern, grau] [Dreieck, schwarz] [Raute, weiß]\nZeile 3: [Dreieck, weiß] [Raute, grau] [?]",
+    expect: "each shape+colour once per row/col"
+  },
+  {
+    name: "Arithmetic count",
+    text: "Matrix (3×3) – Muster:\nZeile 1: [4 Kreise, schwarz] [1 Kreis, weiß] [3 Kreise, schwarz]\nZeile 2: [5 Dreiecke, schwarz] [2 Dreiecke, weiß] [3 Dreiecke, schwarz]\nZeile 3: [6 Quadrate, schwarz] [4 Quadrate, weiß] [?]",
+    expect: "col3 = col1 - col2"
+  },
+];
+
+const container = document.getElementById('results');
+let html = '';
+
+// We need to extract the renderMatrixGrid function
+// Since it's inside an IIFE, let's recreate the test inline
+const SHAPE_MAP = {
+  'kreis': '\u25CF', 'dreieck': '\u25B2', 'quadrat': '\u25A0',
+  'stern': '\u2605', 'herz': '\u2665', 'pfeil': '\u279C',
+  'raute': '\u25C6', 'sechseck': '\u2B22', 'punkt': '\u2022',
+};
+
+function findShape(text) {
+  text = text.toLowerCase().trim();
+  for (const [key, sym] of Object.entries(SHAPE_MAP)) {
+    if (text === key || text.includes(key)) return sym;
+  }
+  const deplural = text.replace(/en$/, '').replace(/e$/, '').replace(/s$/, '');
+  for (const [key, sym] of Object.entries(SHAPE_MAP)) {
+    if (deplural === key || deplural.includes(key)) return sym;
+  }
+  return null;
+}
+
+function parseCell(cellText) {
+  cellText = cellText.replace(/[\[\]]/g, '').trim();
+  if (cellText === '?' || cellText === '') return null;
+  if (cellText.includes('+')) {
+    const parts = cellText.split('+').map(s => s.trim());
+    const syms = parts.map(p => findShape(p) || p.charAt(0)).join('+');
+    return { shape: syms, colorCls: 'shape-black', sizeCls: '' };
+  }
+  let shape = '\u25CF', colorCls = 'shape-black', sizeCls = '';
+  const parts = cellText.split(',').map(s => s.trim().toLowerCase());
+  for (const p of parts) {
+    const countMatch = p.match(/^(\d+)\s+(.+)/);
+    if (countMatch) {
+      const count = parseInt(countMatch[1]);
+      const sym = findShape(countMatch[2]) || '\u2022';
+      shape = (sym + ' ').repeat(Math.min(count, 6)).trim();
+      continue;
+    }
+    const found = findShape(p);
+    if (found) shape = found;
+    if (p.includes('weiß')) colorCls = 'shape-white';
+    else if (p.includes('grau')) colorCls = 'shape-grey';
+    if (p.includes('groß')) sizeCls = 'size-big';
+    else if (p.includes('mittel')) sizeCls = 'size-medium';
+    else if (p.includes('klein')) sizeCls = 'size-small';
+  }
+  if (cellText.includes('\u2191') || cellText.toLowerCase().includes('↑')) shape = '\u2191';
+  else if (cellText.includes('\u2193') || cellText.toLowerCase().includes('↓')) shape = '\u2193';
+  else if (cellText.includes('\u2192') || cellText.toLowerCase().includes('→')) shape = '\u2192';
+  else if (cellText.includes('\u2190') || cellText.toLowerCase().includes('←')) shape = '\u2190';
+  return { shape, colorCls, sizeCls };
+}
+
+testCases.forEach((tc, idx) => {
+  const lines = tc.text.split('\n');
+  const cells = [];
+  for (const line of lines) {
+    const m = line.match(/Zeile\s*\d+:\s*(.*)/i);
+    if (!m) continue;
+    const cellTexts = m[1].split(/\]\s*\[/).map(s => s.replace(/[\[\]]/g, '').trim());
+    for (const ct of cellTexts) {
+      if (ct === '?' || ct === '') {
+        cells.push('<div class="matrix-cell empty"></div>');
+      } else {
+        const parsed = parseCell('[' + ct + ']');
+        if (parsed) {
+          cells.push('<div class="matrix-cell ' + parsed.sizeCls + '"><span class="shape ' + parsed.colorCls + '">' + parsed.shape + '</span></div>');
+        } else {
+          cells.push('<div class="matrix-cell"><span class="shape shape-black">?ERR</span></div>');
+        }
+      }
+    }
+  }
+
+  html += '<div class="test-case">';
+  html += '<h3>Test ' + (idx+1) + ': ' + tc.name + '</h3>';
+  html += '<p class="text-muted">Expected: ' + tc.expect + '</p>';
+  html += '<div class="matrix-grid">' + cells.join('') + '</div>';
+  html += '<p>Cells rendered: ' + cells.length + (cells.length >= 8 ? ' <span class="pass">✓</span>' : ' <span class="fail">✗ (expected 9)</span>') + '</p>';
+  html += '<details><summary>Raw text</summary><pre style="font-size:0.8rem;color:var(--tu-text-muted)">' + tc.text + '</pre></details>';
+  html += '</div>';
+});
+
+container.innerHTML = html;
+</script>
+</body></html>

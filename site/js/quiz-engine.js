@@ -97,6 +97,20 @@ const QuizEngine = (() => {
           </div>
         </div>
 
+        ${quizId === 'cognitive' || quizId === 'all' ? `
+        <div style="margin:1.25rem 0">
+          <label style="color:var(--tu-text-bright);font-weight:600;display:block;margin-bottom:0.5rem">Thema (nur kognitiv)</label>
+          <div id="qe-tag-select" style="display:flex;gap:0.25rem;flex-wrap:wrap">
+            <button class="btn btn-primary qe-opt-btn" data-tag="all" style="font-size:0.85rem">Alle Themen</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="wuerfel" style="font-size:0.85rem">Würfel</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="matrizen" style="font-size:0.85rem">Matrizen</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="zahlenfolge" style="font-size:0.85rem">Zahlenfolgen</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="logik" style="font-size:0.85rem">Logik</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="rechenoperationen" style="font-size:0.85rem">Rechenop.</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="analogie" style="font-size:0.85rem">Analogien</button>
+          </div>
+        </div>` : ''}
+
         ${timerRowHtml}
 
         <table style="margin:1rem 0;font-size:0.85rem">
@@ -446,6 +460,7 @@ const QuizEngine = (() => {
     let timerInterval = null;
     let selectedCount = 10;
     let selectedDiff = 'mixed';
+    let selectedTag = 'all';
     let activeQuestions = [];
     let timedMode = (quizId === 'all'); // default on for full mock exam
     let countdownSeconds = 600; // calculated per quiz: 1 min per question
@@ -455,6 +470,10 @@ const QuizEngine = (() => {
       // Filter by difficulty
       if (selectedDiff !== 'mixed') {
         pool = pool.filter(q => (q.difficulty || 'medium') === selectedDiff);
+      }
+      // Filter by cognitive sub-type tag
+      if (selectedTag !== 'all') {
+        pool = pool.filter(q => (q.tags || []).includes(selectedTag));
       }
       // Shuffle
       pool.sort(() => Math.random() - 0.5);
@@ -484,10 +503,12 @@ const QuizEngine = (() => {
       if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
       selectedCount = 10;
       selectedDiff = 'mixed';
+      selectedTag = 'all';
       renderStartScreen(container, questions, quizId, timedMode);
 
       wireOptButtons('qe-count-select', 'count', 10, v => { selectedCount = v; });
       wireOptButtons('qe-diff-select', 'diff', 'mixed', v => { selectedDiff = v; });
+      wireOptButtons('qe-tag-select', 'tag', 'all', v => { selectedTag = v; });
 
       // Wire timed mode button
       const timedToggle = container.querySelector('#qe-timed-toggle');
