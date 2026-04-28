@@ -12480,5 +12480,1728 @@
       }
     ],
     "source": "Generiert (gen_zahlen.py, Muster: n³)"
+  },
+  {
+    "id": "rechen-gen-001",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Setzen Sie die richtigen Rechenzeichen ein: 2 _ 4 _ 6 = 14",
+    "question_en": "Which operators are missing? 2 _ 4 _ 6 = 14",
+    "options_de": [
+      "a) + +",
+      "b) - ×",
+      "c) × -",
+      "d) × +",
+      "e) × ×"
+    ],
+    "options_en": [
+      "a) + +",
+      "b) - ×",
+      "c) × -",
+      "d) × +",
+      "e) × ×"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Lösung: 2 × 4 + 6 = 14. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 2 × 4 + 6 = 14. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-002",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Rechenoperationen: 8 _ 12 _ 3 = 93\n\nWelche Operatoren (+, -, ×, ÷) ergeben das richtige Ergebnis?",
+    "question_en": "Which operators are missing? 8 _ 12 _ 3 = 93",
+    "options_de": [
+      "a) × -",
+      "b) × ×",
+      "c) + ×",
+      "d) - -",
+      "e) + -"
+    ],
+    "options_en": [
+      "a) × -",
+      "b) × ×",
+      "c) + ×",
+      "d) - -",
+      "e) + -"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Lösung: 8 × 12 - 3 = 93. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 8 × 12 - 3 = 93. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-003",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen fehlen? 6 _ 5 _ 6 = 6",
+    "question_en": "Arithmetic operations: 6 _ 5 _ 6 = 6\n\nWhich operators (+, -, ×, ÷) give the correct result?",
+    "options_de": [
+      "a) - -",
+      "b) - +",
+      "c) - ×",
+      "d) × -",
+      "e) + ×"
+    ],
+    "options_en": [
+      "a) - -",
+      "b) - +",
+      "c) - ×",
+      "d) × -",
+      "e) + ×"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Lösung: 6 - 5 × 6 = 6. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 6 - 5 × 6 = 6. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-004",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Rechenoperationen: 4 _ 4 _ 12 = 0\n\nWelche Operatoren (+, -, ×, ÷) ergeben das richtige Ergebnis?",
+    "question_en": "Insert the correct operators: 4 _ 4 _ 12 = 0",
+    "options_de": [
+      "a) × ×",
+      "b) - ×",
+      "c) × -",
+      "d) + +",
+      "e) × +"
+    ],
+    "options_en": [
+      "a) × ×",
+      "b) - ×",
+      "c) × -",
+      "d) + +",
+      "e) × +"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Lösung: 4 - 4 × 12 = 0. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 4 - 4 × 12 = 0. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen fehlen? 11 _ 2 _ 10 = 12",
+    "question_en": "Which operators are missing? 11 _ 2 _ 10 = 12",
+    "options_de": [
+      "a) × +",
+      "b) × -",
+      "c) - -",
+      "d) + +",
+      "e) + -"
+    ],
+    "options_en": [
+      "a) × +",
+      "b) × -",
+      "c) - -",
+      "d) + +",
+      "e) + -"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Lösung: 1 1 × 2 - 10 = 12. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 11 × 2 - 10 = 12. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-006",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Finden Sie die Operatoren: 4 _ 12 _ 12 = 192",
+    "question_en": "Find the operators: 4 _ 12 _ 12 = 192",
+    "options_de": [
+      "a) × ×",
+      "b) - +",
+      "c) - ×",
+      "d) - -",
+      "e) + ×"
+    ],
+    "options_en": [
+      "a) × ×",
+      "b) - +",
+      "c) - ×",
+      "d) - -",
+      "e) + ×"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Lösung: 4 + 12 × 12 = 192. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 4 + 12 × 12 = 192. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-007",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Rechenoperationen: 8 _ 7 _ 10 = 10\n\nWelche Operatoren (+, -, ×, ÷) ergeben das richtige Ergebnis?",
+    "question_en": "Find the operators: 8 _ 7 _ 10 = 10",
+    "options_de": [
+      "a) × -",
+      "b) + -",
+      "c) + ×",
+      "d) × ×",
+      "e) - ×"
+    ],
+    "options_en": [
+      "a) × -",
+      "b) + -",
+      "c) + ×",
+      "d) × ×",
+      "e) - ×"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Lösung: 8 - 7 × 10 = 10. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 8 - 7 × 10 = 10. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-008",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Finden Sie die Operatoren: 4 _ 4 _ 11 = 27",
+    "question_en": "Insert the correct operators: 4 _ 4 _ 11 = 27",
+    "options_de": [
+      "a) - ×",
+      "b) - +",
+      "c) × +",
+      "d) × -",
+      "e) × ×"
+    ],
+    "options_en": [
+      "a) - ×",
+      "b) - +",
+      "c) × +",
+      "d) × -",
+      "e) × ×"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Lösung: 4 × 4 + 11 = 27. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 4 × 4 + 11 = 27. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-009",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen fehlen? 2 _ 9 _ 8 = 10",
+    "question_en": "Arithmetic operations: 2 _ 9 _ 8 = 10\n\nWhich operators (+, -, ×, ÷) give the correct result?",
+    "options_de": [
+      "a) × ×",
+      "b) × +",
+      "c) × -",
+      "d) - -",
+      "e) - +"
+    ],
+    "options_en": [
+      "a) × ×",
+      "b) × +",
+      "c) × -",
+      "d) - -",
+      "e) - +"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Lösung: 2 × 9 - 8 = 10. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 2 × 9 - 8 = 10. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-010",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Finden Sie die Operatoren: 7 _ 5 _ 10 = 120",
+    "question_en": "Insert the correct operators: 7 _ 5 _ 10 = 120",
+    "options_de": [
+      "a) + ×",
+      "b) × -",
+      "c) - +",
+      "d) - -",
+      "e) + +"
+    ],
+    "options_en": [
+      "a) + ×",
+      "b) × -",
+      "c) - +",
+      "d) - -",
+      "e) + +"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Lösung: 7 + 5 × 10 = 120. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 7 + 5 × 10 = 120. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-011",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Setzen Sie die richtigen Rechenzeichen ein: 9 _ 3 _ 10 _ 2 = 39",
+    "question_en": "Find the operators: 9 _ 3 _ 10 _ 2 = 39",
+    "options_de": [
+      "a) + + -",
+      "b) + + ÷",
+      "c) + - -",
+      "d) + - +",
+      "e) × + +"
+    ],
+    "options_en": [
+      "a) + + -",
+      "b) + + ÷",
+      "c) + - -",
+      "d) + - +",
+      "e) × + +"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Lösung: 9 × 3 + 10 + 2 = 39. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 9 × 3 + 10 + 2 = 39. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-012",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Welche Rechenzeichen fehlen? 15 _ 11 _ 12 _ 1 = 48",
+    "question_en": "Arithmetic operations: 15 _ 11 _ 12 _ 1 = 48\n\nWhich operators (+, -, ×, ÷) give the correct result?",
+    "options_de": [
+      "a) + - -",
+      "b) - × ×",
+      "c) + - ÷",
+      "d) + + -",
+      "e) + + +"
+    ],
+    "options_en": [
+      "a) + - -",
+      "b) - × ×",
+      "c) + - ÷",
+      "d) + + -",
+      "e) + + +"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Lösung: 1 5 - 11 × 12 × 1 = 48. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 15 - 11 × 12 × 1 = 48. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-013",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Finden Sie die Operatoren: 15 _ 5 _ 11 _ 10 = 9",
+    "question_en": "Arithmetic operations: 15 _ 5 _ 11 _ 10 = 9\n\nWhich operators (+, -, ×, ÷) give the correct result?",
+    "options_de": [
+      "a) + - ×",
+      "b) + - -",
+      "c) + - +",
+      "d) - - +",
+      "e) + + -"
+    ],
+    "options_en": [
+      "a) + - ×",
+      "b) + - -",
+      "c) + - +",
+      "d) - - +",
+      "e) + + -"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Lösung: 1 5 - 5 - 11 + 10 = 9. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 15 - 5 - 11 + 10 = 9. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-014",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Finden Sie die Operatoren: 15 _ 5 _ 3 _ 13 = -7",
+    "question_en": "Which operators are missing? 15 _ 5 _ 3 _ 13 = -7",
+    "options_de": [
+      "a) + + -",
+      "b) + - ÷",
+      "c) ÷ + -",
+      "d) + + ×",
+      "e) + - -"
+    ],
+    "options_en": [
+      "a) + + -",
+      "b) + - ÷",
+      "c) ÷ + -",
+      "d) + + ×",
+      "e) + - -"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Lösung: 1 5 ÷ 5 + 3 - 13 = -7. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 15 ÷ 5 + 3 - 13 = -7. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "rechen-gen-015",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "rechenoperationen"
+    ],
+    "question_de": "Rechenoperationen: 1 _ 7 _ 12 _ 6 = 2\n\nWelche Operatoren (+, -, ×, ÷) ergeben das richtige Ergebnis?",
+    "question_en": "Which operators are missing? 1 _ 7 _ 12 _ 6 = 2",
+    "options_de": [
+      "a) + + -",
+      "b) + × +",
+      "c) + - +",
+      "d) + - -",
+      "e) + + +"
+    ],
+    "options_en": [
+      "a) + + -",
+      "b) + × +",
+      "c) + - +",
+      "d) + - -",
+      "e) + + +"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Lösung: 1 + 7 - 12 + 6 = 2. Berechnung von links nach rechts.",
+    "explanation_en": "Solution: 1 + 7 - 12 + 6 = 2. Calculated left to right.",
+    "mistakes_de": "Typische Fehler: (1) Punkt-vor-Strich anwenden statt links-nach-rechts. (2) ÷ übersehen. (3) Negative Zwischenergebnisse nicht berücksichtigen.",
+    "mistakes_en": "Common mistakes: (1) Applying PEMDAS instead of left-to-right. (2) Overlooking ÷. (3) Not considering negative intermediate results.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_rechen.py)"
+  },
+  {
+    "id": "logik-gen-001",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Zumindest ein Glanx ist Krint\nAussage 2: Alle Krint sind Waben\n\nWelche Schlussfolgerungen lassen sich ableiten?",
+    "question_en": "Logic:\nStatement 1: At least one Glanx is Krint\nStatement 2: All Krint are Waben\n\nSelect all valid conclusions.",
+    "options_de": [
+      "a) Alle Krint sind Waben",
+      "b) Zumindest ein Krint ist Waben",
+      "c) Zumindest ein Glanx ist Krint",
+      "d) Kein Glanx ist Krint",
+      "e) Alle Waben sind Krint"
+    ],
+    "options_en": [
+      "a) All Krint are Waben",
+      "b) At least one Krint is Waben",
+      "c) At least one Glanx is Krint",
+      "d) No Glanx is Krint",
+      "e) All Waben are Krint"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Gültige Schlüsse: a, b, c. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: a, b, c. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-002",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Sulk sind Horim\nAussage 2: Alle Horim sind Romen\n\nWelche Schlussfolgerungen lassen sich ableiten?",
+    "question_en": "Logic:\nStatement 1: All Sulk are Horim\nStatement 2: All Horim are Romen\n\nSelect all valid conclusions.",
+    "options_de": [
+      "a) Kein Horim ist Sulk",
+      "b) Alle Sulk sind Horim",
+      "c) Nicht alle Horim sind Sulk",
+      "d) Alle Romen sind Horim",
+      "e) Zumindest ein Sulk ist Romen"
+    ],
+    "options_en": [
+      "a) No Horim is Sulk",
+      "b) All Sulk are Horim",
+      "c) Not all Horim are Sulk",
+      "d) All Romen are Horim",
+      "e) At least one Sulk is Romen"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Gültige Schlüsse: b. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: b. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-003",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Kramb sind Dreng\nAussage 2: Zumindest ein Dreng ist Waben\n\nWelche Schlussfolgerungen lassen sich ableiten?",
+    "question_en": "Logic:\nStatement 1: All Kramb are Dreng\nStatement 2: At least one Dreng is Waben\n\nWhich conclusions can be derived?",
+    "options_de": [
+      "a) Zumindest ein Dreng ist Kramb",
+      "b) Zumindest ein Dreng ist Waben",
+      "c) Kein Kramb ist Waben",
+      "d) Nicht alle Waben sind Dreng",
+      "e) Nicht alle Kramb sind Waben"
+    ],
+    "options_en": [
+      "a) At least one Dreng is Kramb",
+      "b) At least one Dreng is Waben",
+      "c) No Kramb is Waben",
+      "d) Not all Waben are Dreng",
+      "e) Not all Kramb are Waben"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Gültige Schlüsse: b. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: b. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-004",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Kelm sind Dreng\nAussage 2: Alle Dreng sind Glanx\n\nWelche Schlüsse sind gültig?",
+    "question_en": "Logic:\nStatement 1: All Kelm are Dreng\nStatement 2: All Dreng are Glanx\n\nWhich conclusions are valid?",
+    "options_de": [
+      "a) Alle Dreng sind Glanx",
+      "b) Kein Kelm ist Dreng",
+      "c) Nicht alle Glanx sind Dreng",
+      "d) Alle Kelm sind Dreng",
+      "e) Nicht alle Dreng sind Glanx"
+    ],
+    "options_en": [
+      "a) All Dreng are Glanx",
+      "b) No Kelm is Dreng",
+      "c) Not all Glanx are Dreng",
+      "d) All Kelm are Dreng",
+      "e) Not all Dreng are Glanx"
+    ],
+    "correct": [
+      0,
+      3
+    ],
+    "explanation_de": "Gültige Schlüsse: a, d. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: a, d. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Zumindest ein Torix ist Zelk\nAussage 2: Alle Zelk sind Amiv\n\nWas folgt logisch aus den Aussagen?",
+    "question_en": "Logic:\nStatement 1: At least one Torix is Zelk\nStatement 2: All Zelk are Amiv\n\nSelect all valid conclusions.",
+    "options_de": [
+      "a) Alle Torix sind Zelk",
+      "b) Nicht alle Zelk sind Torix",
+      "c) Zumindest ein Amiv ist Zelk",
+      "d) Zumindest ein Torix ist Zelk",
+      "e) Zumindest ein Amiv ist Torix"
+    ],
+    "options_en": [
+      "a) All Torix are Zelk",
+      "b) Not all Zelk are Torix",
+      "c) At least one Amiv is Zelk",
+      "d) At least one Torix is Zelk",
+      "e) At least one Amiv is Torix"
+    ],
+    "correct": [
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "Gültige Schlüsse: c, d, e. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: c, d, e. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-006",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Hixen sind Krint\nAussage 2: Zumindest ein Krint ist Brinx\n\nKreuzen Sie alle gültigen Schlüsse an.",
+    "question_en": "Logic:\nStatement 1: All Hixen are Krint\nStatement 2: At least one Krint is Brinx\n\nWhich conclusions are valid?",
+    "options_de": [
+      "a) Zumindest ein Brinx ist Hixen",
+      "b) Alle Hixen sind Brinx",
+      "c) Alle Hixen sind Krint",
+      "d) Nicht alle Hixen sind Krint",
+      "e) Kein Brinx ist Hixen"
+    ],
+    "options_en": [
+      "a) At least one Brinx is Hixen",
+      "b) All Hixen are Brinx",
+      "c) All Hixen are Krint",
+      "d) Not all Hixen are Krint",
+      "e) No Brinx is Hixen"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Gültige Schlüsse: c. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: c. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-007",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Jopel sind Dalop\nAussage 2: Zumindest ein Dalop ist Zelk\n\nWas folgt logisch aus den Aussagen?",
+    "question_en": "Logic:\nStatement 1: All Jopel are Dalop\nStatement 2: At least one Dalop is Zelk\n\nWhich conclusions can be derived?",
+    "options_de": [
+      "a) Alle Jopel sind Zelk",
+      "b) Alle Jopel sind Dalop",
+      "c) Zumindest ein Jopel ist Dalop",
+      "d) Nicht alle Zelk sind Jopel",
+      "e) Nicht alle Jopel sind Dalop"
+    ],
+    "options_en": [
+      "a) All Jopel are Zelk",
+      "b) All Jopel are Dalop",
+      "c) At least one Jopel is Dalop",
+      "d) Not all Zelk are Jopel",
+      "e) Not all Jopel are Dalop"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Gültige Schlüsse: b. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: b. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-008",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Miven sind Fenk\nAussage 2: Alle Fenk sind Dalop\n\nWelche Schlüsse sind gültig?",
+    "question_en": "Logic:\nStatement 1: All Miven are Fenk\nStatement 2: All Fenk are Dalop\n\nWhat follows logically from the statements?",
+    "options_de": [
+      "a) Zumindest ein Miven ist Dalop",
+      "b) Alle Miven sind Dalop",
+      "c) Nicht alle Miven sind Dalop",
+      "d) Alle Miven sind Fenk",
+      "e) Alle Fenk sind Dalop"
+    ],
+    "options_en": [
+      "a) At least one Miven is Dalop",
+      "b) All Miven are Dalop",
+      "c) Not all Miven are Dalop",
+      "d) All Miven are Fenk",
+      "e) All Fenk are Dalop"
+    ],
+    "correct": [
+      1,
+      3,
+      4
+    ],
+    "explanation_de": "Gültige Schlüsse: b, d, e. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: b, d, e. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-009",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Waben sind Sulk\nAussage 2: Zumindest ein Sulk ist Horim\n\nWelche Schlüsse sind gültig?",
+    "question_en": "Logic:\nStatement 1: All Waben are Sulk\nStatement 2: At least one Sulk is Horim\n\nWhat follows logically from the statements?",
+    "options_de": [
+      "a) Kein Waben ist Horim",
+      "b) Alle Sulk sind Waben",
+      "c) Alle Waben sind Sulk",
+      "d) Zumindest ein Waben ist Sulk",
+      "e) Kein Horim ist Sulk"
+    ],
+    "options_en": [
+      "a) No Waben is Horim",
+      "b) All Sulk are Waben",
+      "c) All Waben are Sulk",
+      "d) At least one Waben is Sulk",
+      "e) No Horim is Sulk"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Gültige Schlüsse: c. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: c. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-010",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Zumindest ein Horim ist Zelk\nAussage 2: Alle Zelk sind Lurp\n\nWas folgt logisch aus den Aussagen?",
+    "question_en": "Logic:\nStatement 1: At least one Horim is Zelk\nStatement 2: All Zelk are Lurp\n\nWhat follows logically from the statements?",
+    "options_de": [
+      "a) Zumindest ein Zelk ist Lurp",
+      "b) Alle Zelk sind Lurp",
+      "c) Zumindest ein Lurp ist Zelk",
+      "d) Alle Horim sind Lurp",
+      "e) Nicht alle Lurp sind Horim"
+    ],
+    "options_en": [
+      "a) At least one Zelk is Lurp",
+      "b) All Zelk are Lurp",
+      "c) At least one Lurp is Zelk",
+      "d) All Horim are Lurp",
+      "e) Not all Lurp are Horim"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Gültige Schlüsse: a, b, c. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: a, b, c. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-011",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Kein Plosa ist Hixen\nAussage 2: Nicht alle Hixen sind Blux\nAussage 3: Kein Blux ist Miven\n\nWelche Schlussfolgerungen lassen sich ableiten?",
+    "question_en": "Logic:\nStatement 1: No Plosa is Hixen\nStatement 2: Not all Hixen are Blux\nStatement 3: No Blux is Miven\n\nWhat follows logically from the statements?",
+    "options_de": [
+      "a) Nicht alle Hixen sind Miven",
+      "b) Zumindest ein Plosa ist Hixen",
+      "c) Kein Blux ist Plosa",
+      "d) Kein Miven ist Blux",
+      "e) Nicht alle Plosa sind Blux"
+    ],
+    "options_en": [
+      "a) Not all Hixen are Miven",
+      "b) At least one Plosa is Hixen",
+      "c) No Blux is Plosa",
+      "d) No Miven is Blux",
+      "e) Not all Plosa are Blux"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Gültige Schlüsse: d. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: d. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-012",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Nicht alle Blux sind Brinx\nAussage 2: Zumindest ein Brinx ist Horim\nAussage 3: Kein Horim ist Romen\n\nWelche Schlussfolgerungen lassen sich ableiten?",
+    "question_en": "Logic:\nStatement 1: Not all Blux are Brinx\nStatement 2: At least one Brinx is Horim\nStatement 3: No Horim is Romen\n\nWhich conclusions are valid?",
+    "options_de": [
+      "a) Kein Horim ist Romen",
+      "b) Alle Horim sind Romen",
+      "c) Nicht alle Blux sind Horim",
+      "d) Nicht alle Blux sind Romen",
+      "e) Alle Brinx sind Horim"
+    ],
+    "options_en": [
+      "a) No Horim is Romen",
+      "b) All Horim are Romen",
+      "c) Not all Blux are Horim",
+      "d) Not all Blux are Romen",
+      "e) All Brinx are Horim"
+    ],
+    "correct": [
+      0,
+      3
+    ],
+    "explanation_de": "Gültige Schlüsse: a, d. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: a, d. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-013",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Alle Brinx sind Jalp\nAussage 2: Nicht alle Jalp sind Dalop\n\nWas folgt logisch aus den Aussagen?",
+    "question_en": "Logic:\nStatement 1: All Brinx are Jalp\nStatement 2: Not all Jalp are Dalop\n\nSelect all valid conclusions.",
+    "options_de": [
+      "a) Nicht alle Jalp sind Dalop",
+      "b) Alle Brinx sind Jalp",
+      "c) Alle Brinx sind Dalop",
+      "d) Nicht alle Brinx sind Dalop",
+      "e) Kein Jalp ist Brinx"
+    ],
+    "options_en": [
+      "a) Not all Jalp are Dalop",
+      "b) All Brinx are Jalp",
+      "c) All Brinx are Dalop",
+      "d) Not all Brinx are Dalop",
+      "e) No Jalp is Brinx"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation_de": "Gültige Schlüsse: a, b. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: a, b. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-014",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Zumindest ein Sulk ist Gurat\nAussage 2: Kein Gurat ist Amiv\n\nWas folgt logisch aus den Aussagen?",
+    "question_en": "Logic:\nStatement 1: At least one Sulk is Gurat\nStatement 2: No Gurat is Amiv\n\nWhich conclusions can be derived?",
+    "options_de": [
+      "a) Alle Sulk sind Gurat",
+      "b) Zumindest ein Gurat ist Sulk",
+      "c) Nicht alle Sulk sind Amiv",
+      "d) Nicht alle Amiv sind Gurat",
+      "e) Kein Sulk ist Gurat"
+    ],
+    "options_en": [
+      "a) All Sulk are Gurat",
+      "b) At least one Gurat is Sulk",
+      "c) Not all Sulk are Amiv",
+      "d) Not all Amiv are Gurat",
+      "e) No Sulk is Gurat"
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ],
+    "explanation_de": "Gültige Schlüsse: b, c, d. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: b, c, d. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "logik-gen-015",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "logik"
+    ],
+    "question_de": "Logik:\nAussage 1: Zumindest ein Hixen ist Lurp\nAussage 2: Kein Lurp ist Trem\nAussage 3: Alle Trem sind Zelk\n\nWas folgt logisch aus den Aussagen?",
+    "question_en": "Logic:\nStatement 1: At least one Hixen is Lurp\nStatement 2: No Lurp is Trem\nStatement 3: All Trem are Zelk\n\nWhich conclusions are valid?",
+    "options_de": [
+      "a) Alle Lurp sind Zelk",
+      "b) Alle Zelk sind Lurp",
+      "c) Alle Trem sind Hixen",
+      "d) Zumindest ein Hixen ist Lurp",
+      "e) Kein Zelk ist Trem"
+    ],
+    "options_en": [
+      "a) All Lurp are Zelk",
+      "b) All Zelk are Lurp",
+      "c) All Trem are Hixen",
+      "d) At least one Hixen is Lurp",
+      "e) No Zelk is Trem"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Gültige Schlüsse: d. Abgeleitet durch Verkettung der Aussagen. Schlüsse, die den Aussagen nicht widersprechen aber nicht ableitbar sind, sind FALSCH.",
+    "explanation_en": "Valid conclusions: d. Derived by chaining the statements. Conclusions consistent with but not derivable from the premises are FALSE.",
+    "mistakes_de": "Typische Fehler: (1) 'Zumindest ein' mit 'Alle' verwechseln. (2) Schlüsse akzeptieren, die nicht widersprechen aber nicht ableitbar sind. (3) Kontraposition vergessen.",
+    "mistakes_en": "Common mistakes: (1) Confusing 'at least one' with 'all'. (2) Accepting non-contradicting but non-derivable conclusions. (3) Forgetting contraposition.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_logik.py)"
+  },
+  {
+    "id": "matrix-gen-001",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, schwarz] [Raute, grau] [Raute, weiß]\nZeile 2: [Stern, schwarz] [Stern, grau] [Stern, weiß]\nZeile 3: [Dreieck, schwarz] [Dreieck, grau] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, black] [Diamond, grey] [Diamond, white]\nRow 2: [Star, black] [Star, grey] [Star, white]\nRow 3: [Triangle, black] [Triangle, grey] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Dreieck, schwarz",
+      "b) Stern, weiß",
+      "c) Herz, weiß",
+      "d) Dreieck, weiß",
+      "e) Sechseck, weiß"
+    ],
+    "options_en": [
+      "a) Star, white",
+      "b) Triangle, black",
+      "c) Heart, white",
+      "d) Triangle, white",
+      "e) Hexagon, white"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Dreieck, weiß.",
+    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Triangle, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
+  },
+  {
+    "id": "matrix-gen-002",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, groß] [Dreieck, groß] [Quadrat, groß]\nZeile 2: [Raute, mittel] [Dreieck, mittel] [Quadrat, mittel]\nZeile 3: [Raute, klein] [Dreieck, klein] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, big] [Triangle, big] [Square, big]\nRow 2: [Diamond, medium] [Triangle, medium] [Square, medium]\nRow 3: [Diamond, small] [Triangle, small] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Quadrat, klein",
+      "b) Dreieck, klein",
+      "c) Quadrat, groß",
+      "d) Quadrat, mittel",
+      "e) Raute, klein"
+    ],
+    "options_en": [
+      "a) Square, small",
+      "b) Square, big",
+      "c) Triangle, small",
+      "d) Diamond, small",
+      "e) Square, medium"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Quadrat, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Square, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-003",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, grau] [Sechseck, schwarz] [Kreis, weiß]\nZeile 2: [Sechseck, weiß] [Kreis, grau] [Stern, schwarz]\nZeile 3: [Kreis, schwarz] [Stern, weiß] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, grey] [Hexagon, black] [Circle, white]\nRow 2: [Hexagon, white] [Circle, grey] [Star, black]\nRow 3: [Circle, black] [Star, white] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Stern, grau",
+      "b) Sechseck, schwarz",
+      "c) Raute, grau",
+      "d) Sechseck, grau",
+      "e) Sechseck, weiß"
+    ],
+    "options_en": [
+      "a) Diamond, grey",
+      "b) Hexagon, white",
+      "c) Hexagon, black",
+      "d) Hexagon, grey",
+      "e) Star, grey"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Sechseck, grau.",
+    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Hexagon, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix-gen-004",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, grau] [Stern, schwarz] [Stern, weiß]\nZeile 2: [Sechseck, grau] [Sechseck, schwarz] [Sechseck, weiß]\nZeile 3: [Dreieck, grau] [Dreieck, schwarz] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, grey] [Star, black] [Star, white]\nRow 2: [Hexagon, grey] [Hexagon, black] [Hexagon, white]\nRow 3: [Triangle, grey] [Triangle, black] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Dreieck, weiß",
+      "b) Quadrat, weiß",
+      "c) Sechseck, weiß",
+      "d) Dreieck, grau",
+      "e) Dreieck, schwarz"
+    ],
+    "options_en": [
+      "a) Triangle, white",
+      "b) Square, white",
+      "c) Triangle, black",
+      "d) Hexagon, white",
+      "e) Triangle, grey"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Dreieck, weiß.",
+    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Triangle, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
+  },
+  {
+    "id": "matrix-gen-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, groß] [Sechseck, groß] [Stern, groß]\nZeile 2: [Dreieck, mittel] [Sechseck, mittel] [Stern, mittel]\nZeile 3: [Dreieck, klein] [Sechseck, klein] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, big] [Hexagon, big] [Star, big]\nRow 2: [Triangle, medium] [Hexagon, medium] [Star, medium]\nRow 3: [Triangle, small] [Hexagon, small] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Stern, klein",
+      "b) Stern, groß",
+      "c) Herz, klein",
+      "d) Stern, mittel",
+      "e) Dreieck, klein"
+    ],
+    "options_en": [
+      "a) Star, small",
+      "b) Star, big",
+      "c) Triangle, small",
+      "d) Heart, small",
+      "e) Star, medium"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Stern, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Star, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-006",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, grau] [Raute, schwarz] [Raute, weiß]\nZeile 2: [Kreis, grau] [Kreis, schwarz] [Kreis, weiß]\nZeile 3: [Sechseck, grau] [Sechseck, schwarz] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, grey] [Diamond, black] [Diamond, white]\nRow 2: [Circle, grey] [Circle, black] [Circle, white]\nRow 3: [Hexagon, grey] [Hexagon, black] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Sechseck, grau",
+      "b) Sechseck, schwarz",
+      "c) Kreis, weiß",
+      "d) Quadrat, weiß",
+      "e) Sechseck, weiß"
+    ],
+    "options_en": [
+      "a) Circle, white",
+      "b) Square, white",
+      "c) Hexagon, grey",
+      "d) Hexagon, black",
+      "e) Hexagon, white"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Sechseck, weiß.",
+    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Hexagon, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
+  },
+  {
+    "id": "matrix-gen-007",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Sechseck, groß] [Kreis, groß] [Herz, groß]\nZeile 2: [Sechseck, mittel] [Kreis, mittel] [Herz, mittel]\nZeile 3: [Sechseck, klein] [Kreis, klein] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Hexagon, big] [Circle, big] [Heart, big]\nRow 2: [Hexagon, medium] [Circle, medium] [Heart, medium]\nRow 3: [Hexagon, small] [Circle, small] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Herz, klein",
+      "b) Herz, groß",
+      "c) Raute, klein",
+      "d) Kreis, klein",
+      "e) Herz, mittel"
+    ],
+    "options_en": [
+      "a) Heart, small",
+      "b) Circle, small",
+      "c) Diamond, small",
+      "d) Heart, big",
+      "e) Heart, medium"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Herz, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Heart, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-008",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, schwarz] [Raute, grau] [Quadrat, weiß]\nZeile 2: [Raute, weiß] [Quadrat, schwarz] [Kreis, grau]\nZeile 3: [Quadrat, grau] [Kreis, weiß] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, black] [Diamond, grey] [Square, white]\nRow 2: [Diamond, white] [Square, black] [Circle, grey]\nRow 3: [Square, grey] [Circle, white] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Raute, grau",
+      "b) Kreis, schwarz",
+      "c) Raute, weiß",
+      "d) Stern, schwarz",
+      "e) Raute, schwarz"
+    ],
+    "options_en": [
+      "a) Circle, black",
+      "b) Diamond, grey",
+      "c) Diamond, white",
+      "d) Star, black",
+      "e) Diamond, black"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Raute, schwarz.",
+    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Diamond, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix-gen-009",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, grau] [Dreieck, weiß] [Dreieck, schwarz]\nZeile 2: [Herz, grau] [Herz, weiß] [Herz, schwarz]\nZeile 3: [Sechseck, grau] [Sechseck, weiß] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, grey] [Triangle, white] [Triangle, black]\nRow 2: [Heart, grey] [Heart, white] [Heart, black]\nRow 3: [Hexagon, grey] [Hexagon, white] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Dreieck, schwarz",
+      "b) Sechseck, schwarz",
+      "c) Kreis, schwarz",
+      "d) Sechseck, weiß",
+      "e) Sechseck, grau"
+    ],
+    "options_en": [
+      "a) Hexagon, white",
+      "b) Hexagon, black",
+      "c) Circle, black",
+      "d) Hexagon, grey",
+      "e) Triangle, black"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Sechseck, schwarz.",
+    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Hexagon, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
+  },
+  {
+    "id": "matrix-gen-010",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, grau] [Kreis, schwarz] [Sechseck, weiß]\nZeile 2: [Sechseck, grau] [Raute, schwarz] [Kreis, weiß]\nZeile 3: [Kreis, grau] [Sechseck, schwarz] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, grey] [Circle, black] [Hexagon, white]\nRow 2: [Hexagon, grey] [Diamond, black] [Circle, white]\nRow 3: [Circle, grey] [Hexagon, black] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Raute, weiß",
+      "b) Raute, grau",
+      "c) Quadrat, weiß",
+      "d) Herz, weiß",
+      "e) Raute, schwarz"
+    ],
+    "options_en": [
+      "a) Diamond, white",
+      "b) Square, white",
+      "c) Diamond, black",
+      "d) Diamond, grey",
+      "e) Heart, white"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Raute, weiß.",
+    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Diamond, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix-gen-011",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, groß, schwarz] [Quadrat, mittel, weiß] [Sechseck, klein, grau]\nZeile 2: [Sechseck, mittel, schwarz] [Dreieck, klein, weiß] [Quadrat, groß, grau]\nZeile 3: [Quadrat, klein, schwarz] [Sechseck, groß, weiß] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, big, black] [Square, medium, white] [Hexagon, small, grey]\nRow 2: [Hexagon, medium, black] [Triangle, small, white] [Square, big, grey]\nRow 3: [Square, small, black] [Hexagon, big, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Stern, mittel, grau",
+      "b) Dreieck, klein, grau",
+      "c) Dreieck, mittel, grau",
+      "d) Dreieck, mittel, weiß",
+      "e) Sechseck, mittel, grau"
+    ],
+    "options_en": [
+      "a) Hexagon, medium, grey",
+      "b) Triangle, medium, white",
+      "c) Triangle, medium, grey",
+      "d) Triangle, small, grey",
+      "e) Star, medium, grey"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Regel: 3 Eigenschaften im Lateinischen Quadrat. Antwort: Dreieck, mittel, grau.",
+    "explanation_en": "Rule: 3 Eigenschaften im Lateinischen Quadrat. Answer: Triangle, medium, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: 3 Eigenschaften im Lateinischen Quadrat)"
+  },
+  {
+    "id": "matrix-gen-012",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Pfeil →, grau] [Pfeil ↓, grau] [Pfeil ←, grau]\nZeile 2: [Pfeil ↓, schwarz] [Pfeil ←, schwarz] [Pfeil ↑, schwarz]\nZeile 3: [Pfeil ←, weiß] [Pfeil ↑, weiß] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Pfeil →, grey] [Pfeil ↓, grey] [Pfeil ←, grey]\nRow 2: [Pfeil ↓, black] [Pfeil ←, black] [Pfeil ↑, black]\nRow 3: [Pfeil ←, white] [Pfeil ↑, white] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Pfeil →, schwarz",
+      "b) Pfeil →, weiß",
+      "c) Kreis, weiß",
+      "d) Pfeil →, grau",
+      "e) Sechseck, weiß"
+    ],
+    "options_en": [
+      "a) Pfeil →, grey",
+      "b) Pfeil →, white",
+      "c) Pfeil →, black",
+      "d) Hexagon, white",
+      "e) Circle, white"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Antwort: Pfeil →, weiß.",
+    "explanation_en": "Rule: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Answer: Pfeil →, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-013",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, schwarz] [Dreieck, weiß] [2 Dreieck, schwarz]\nZeile 2: [3 Kreis, schwarz] [3 Kreis, weiß] [6 Kreis, schwarz]\nZeile 3: [3 Raute, schwarz] [3 Raute, weiß] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, black] [Triangle, white] [2 Triangle, black]\nRow 2: [3 Circle, black] [3 Circle, white] [6 Circle, black]\nRow 3: [3 Diamond, black] [3 Diamond, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) 6 Raute, schwarz",
+      "b) 2 Raute, schwarz",
+      "c) 6 Sechseck, schwarz",
+      "d) 6 Raute, weiß",
+      "e) 6 Herz, schwarz"
+    ],
+    "options_en": [
+      "a) 6 Diamond, black",
+      "b) 2 Diamond, black",
+      "c) 6 Heart, black",
+      "d) 6 Hexagon, black",
+      "e) 6 Diamond, white"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Spalte 3 = Spalte 1 + Spalte 2. Antwort: 6 Raute, schwarz.",
+    "explanation_en": "Rule: Spalte 3 = Spalte 1 + Spalte 2. Answer: 6 Diamond, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Spalte 3 = Spalte 1 + Spalte 2)"
+  },
+  {
+    "id": "matrix-gen-014",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [3 Herz, schwarz] [3 Herz, weiß] [6 Herz, schwarz]\nZeile 2: [3 Quadrat, schwarz] [Quadrat, weiß] [4 Quadrat, schwarz]\nZeile 3: [Dreieck, schwarz] [Dreieck, weiß] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [3 Heart, black] [3 Heart, white] [6 Heart, black]\nRow 2: [3 Square, black] [Square, white] [4 Square, black]\nRow 3: [Triangle, black] [Triangle, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) 2 Quadrat, schwarz",
+      "b) Dreieck, schwarz",
+      "c) 2 Dreieck, schwarz",
+      "d) 2 Dreieck, grau",
+      "e) 2 Kreis, schwarz"
+    ],
+    "options_en": [
+      "a) 2 Triangle, grey",
+      "b) 2 Square, black",
+      "c) 2 Triangle, black",
+      "d) 2 Circle, black",
+      "e) Triangle, black"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Regel: Spalte 3 = Spalte 1 + Spalte 2. Antwort: 2 Dreieck, schwarz.",
+    "explanation_en": "Rule: Spalte 3 = Spalte 1 + Spalte 2. Answer: 2 Triangle, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Spalte 3 = Spalte 1 + Spalte 2)"
+  },
+  {
+    "id": "matrix-gen-015",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Pfeil ←, grau] [Pfeil ↑, grau] [Pfeil →, grau]\nZeile 2: [Pfeil ↑, weiß] [Pfeil →, weiß] [Pfeil ↓, weiß]\nZeile 3: [Pfeil →, schwarz] [Pfeil ↓, schwarz] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Pfeil ←, grey] [Pfeil ↑, grey] [Pfeil →, grey]\nRow 2: [Pfeil ↑, white] [Pfeil →, white] [Pfeil ↓, white]\nRow 3: [Pfeil →, black] [Pfeil ↓, black] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Stern, schwarz",
+      "b) Pfeil ←, schwarz",
+      "c) Herz, schwarz",
+      "d) Quadrat, schwarz",
+      "e) Dreieck, schwarz"
+    ],
+    "options_en": [
+      "a) Triangle, black",
+      "b) Pfeil ←, black",
+      "c) Star, black",
+      "d) Heart, black",
+      "e) Square, black"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Antwort: Pfeil ←, schwarz.",
+    "explanation_en": "Rule: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Answer: Pfeil ←, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile)"
   }
 ]
