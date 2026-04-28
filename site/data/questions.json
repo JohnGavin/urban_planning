@@ -10530,5 +10530,1955 @@
       }
     ],
     "source": "Textverständnis Übung"
+  },
+  {
+    "id": "wuerfel-gen-001",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=☽, Hinten=↓, Oben=◆, Unten=♥, Links=☀, Rechts=↑.\n\nSchritt 1: nach links gekippt\nSchritt 2: von Ihnen weg gekippt\nSchritt 3: um 180° gedreht\n\nWas sehen Sie auf der VORNE Fläche?",
+    "question_en": "CUBE: Front=☽, Back=↓, Top=◆, Bottom=♥, Left=☀, Right=↑.\n\nStep 1: nach links gekippt\nStep 2: von Ihnen weg gekippt\nStep 3: um 180° gedreht\n\nWhich symbol is visible on the FRONT face?",
+    "options_de": [
+      "a) ↑",
+      "b) ☀",
+      "c) ◆",
+      "d) ♥",
+      "e) ☽",
+      "f) ↓"
+    ],
+    "options_en": [
+      "a) ↑",
+      "b) ☀",
+      "c) ◆",
+      "d) ♥",
+      "e) ☽",
+      "f) ↓"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach links geki...): V=↑; S2(von Ihnen weg g...): V=♥; S3(um 180° gedreht...): V=◆. Vorne = ◆.",
+    "explanation_en": "Step-by-step: S1(nach links geki...): V=↑; S2(von Ihnen weg g...): V=♥; S3(um 180° gedreht...): V=◆. Front = ◆.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-002",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=↑, Hinten=◆, Oben=♥, Unten=☀, Links=☽, Rechts=↓.\n\nSchritt 1: nach rechts gekippt\nSchritt 2: in Ihre Richtung gekippt\nSchritt 3: nach links gekippt\n\nWas sehen Sie auf der VORNE Fläche?",
+    "question_en": "CUBE: Front=↑, Back=◆, Top=♥, Bottom=☀, Left=☽, Right=↓.\n\nStep 1: nach rechts gekippt\nStep 2: in Ihre Richtung gekippt\nStep 3: nach links gekippt\n\nWhich symbol is visible on the FRONT face?",
+    "options_de": [
+      "a) ↑",
+      "b) ♥",
+      "c) ◆",
+      "d) ☽",
+      "e) ↓",
+      "f) ☀"
+    ],
+    "options_en": [
+      "a) ↑",
+      "b) ♥",
+      "c) ◆",
+      "d) ☽",
+      "e) ↓",
+      "f) ☀"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach rechts gek...): V=☽; S2(in Ihre Richtun...): V=♥; S3(nach links geki...): V=↑. Vorne = ↑.",
+    "explanation_en": "Step-by-step: S1(nach rechts gek...): V=☽; S2(in Ihre Richtun...): V=♥; S3(nach links geki...): V=↑. Front = ↑.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-003",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=◆, Hinten=●, Oben=△, Unten=★, Links=+, Rechts=□.\n\nSchritt 1: nach rechts gekippt\nSchritt 2: in Ihre Richtung gekippt\nSchritt 3: in Ihre Richtung gekippt\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=◆, Back=●, Top=△, Bottom=★, Left=+, Right=□.\n\nStep 1: nach rechts gekippt\nStep 2: in Ihre Richtung gekippt\nStep 3: in Ihre Richtung gekippt\n\nWhat do you see on the FRONT face?",
+    "options_de": [
+      "a) ●",
+      "b) +",
+      "c) □",
+      "d) ◆",
+      "e) ★",
+      "f) △"
+    ],
+    "options_en": [
+      "a) ●",
+      "b) +",
+      "c) □",
+      "d) ◆",
+      "e) ★",
+      "f) △"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach rechts gek...): V=+; S2(in Ihre Richtun...): V=△; S3(in Ihre Richtun...): V=□. Vorne = □.",
+    "explanation_en": "Step-by-step: S1(nach rechts gek...): V=+; S2(in Ihre Richtun...): V=△; S3(in Ihre Richtun...): V=□. Front = □.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-004",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=E, Hinten=F, Oben=C, Unten=A, Links=D, Rechts=B.\n\nSchritt 1: in Ihre Richtung gekippt\nSchritt 2: nach rechts gekippt\nSchritt 3: um 180° gedreht\n\nWelches Zeichen zeigt die VORNE Fläche?",
+    "question_en": "CUBE: Front=E, Back=F, Top=C, Bottom=A, Left=D, Right=B.\n\nStep 1: in Ihre Richtung gekippt\nStep 2: nach rechts gekippt\nStep 3: um 180° gedreht\n\nWhich symbol is on the FRONT side?",
+    "options_de": [
+      "a) F",
+      "b) C",
+      "c) E",
+      "d) D",
+      "e) B",
+      "f) A"
+    ],
+    "options_en": [
+      "a) F",
+      "b) C",
+      "c) E",
+      "d) D",
+      "e) B",
+      "f) A"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(in Ihre Richtun...): V=C; S2(nach rechts gek...): V=D; S3(um 180° gedreht...): V=B. Vorne = B.",
+    "explanation_en": "Step-by-step: S1(in Ihre Richtun...): V=C; S2(nach rechts gek...): V=D; S3(um 180° gedreht...): V=B. Front = B.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=F, Hinten=D, Oben=E, Unten=C, Links=A, Rechts=B.\n\nSchritt 1: um 180° gedreht\nSchritt 2: nach links gekippt\nSchritt 3: in Ihre Richtung gekippt\n\nWelches Zeichen zeigt die VORNE Fläche?",
+    "question_en": "CUBE: Front=F, Back=D, Top=E, Bottom=C, Left=A, Right=B.\n\nStep 1: um 180° gedreht\nStep 2: nach links gekippt\nStep 3: in Ihre Richtung gekippt\n\nWhat do you see on the FRONT face?",
+    "options_de": [
+      "a) A",
+      "b) D",
+      "c) B",
+      "d) E",
+      "e) C",
+      "f) F"
+    ],
+    "options_en": [
+      "a) A",
+      "b) D",
+      "c) B",
+      "d) E",
+      "e) C",
+      "f) F"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 180° gedreht...): V=D; S2(nach links geki...): V=A; S3(in Ihre Richtun...): V=E. Vorne = E.",
+    "explanation_en": "Step-by-step: S1(um 180° gedreht...): V=D; S2(nach links geki...): V=A; S3(in Ihre Richtun...): V=E. Front = E.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-006",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=♥, Hinten=↓, Oben=◆, Unten=↑, Links=☽, Rechts=☀.\n\nSchritt 1: nach links gekippt\nSchritt 2: in Ihre Richtung gekippt\nSchritt 3: nach links gekippt\n\nWas befindet sich auf der VORNE Fläche?",
+    "question_en": "CUBE: Front=♥, Back=↓, Top=◆, Bottom=↑, Left=☽, Right=☀.\n\nStep 1: nach links gekippt\nStep 2: in Ihre Richtung gekippt\nStep 3: nach links gekippt\n\nWhich symbol is visible on the FRONT face?",
+    "options_de": [
+      "a) ◆",
+      "b) ☽",
+      "c) ♥",
+      "d) ☀",
+      "e) ↓",
+      "f) ↑"
+    ],
+    "options_en": [
+      "a) ◆",
+      "b) ☽",
+      "c) ♥",
+      "d) ☀",
+      "e) ↓",
+      "f) ↑"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach links geki...): V=☀; S2(in Ihre Richtun...): V=◆; S3(nach links geki...): V=↓. Vorne = ↓.",
+    "explanation_en": "Step-by-step: S1(nach links geki...): V=☀; S2(in Ihre Richtun...): V=◆; S3(nach links geki...): V=↓. Front = ↓.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-007",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=★, Hinten=♥, Oben=♣, Unten=♠, Links=●, Rechts=♦.\n\nSchritt 1: in Ihre Richtung gekippt\nSchritt 2: um 180° gedreht\nSchritt 3: nach rechts gekippt\n\nWelches Zeichen zeigt die VORNE Fläche?",
+    "question_en": "CUBE: Front=★, Back=♥, Top=♣, Bottom=♠, Left=●, Right=♦.\n\nStep 1: in Ihre Richtung gekippt\nStep 2: um 180° gedreht\nStep 3: nach rechts gekippt\n\nWhich symbol is on the FRONT side?",
+    "options_de": [
+      "a) ●",
+      "b) ♥",
+      "c) ♦",
+      "d) ★",
+      "e) ♠",
+      "f) ♣"
+    ],
+    "options_en": [
+      "a) ●",
+      "b) ♥",
+      "c) ♦",
+      "d) ★",
+      "e) ♠",
+      "f) ♣"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(in Ihre Richtun...): V=♣; S2(um 180° gedreht...): V=♠; S3(nach rechts gek...): V=♦. Vorne = ♦.",
+    "explanation_en": "Step-by-step: S1(in Ihre Richtun...): V=♣; S2(um 180° gedreht...): V=♠; S3(nach rechts gek...): V=♦. Front = ♦.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-008",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=♠, Hinten=♥, Oben=●, Unten=★, Links=♦, Rechts=♣.\n\nSchritt 1: nach rechts gekippt\nSchritt 2: von Ihnen weg gekippt\nSchritt 3: nach links gekippt\n\nWelches Zeichen zeigt die VORNE Fläche?",
+    "question_en": "CUBE: Front=♠, Back=♥, Top=●, Bottom=★, Left=♦, Right=♣.\n\nStep 1: nach rechts gekippt\nStep 2: von Ihnen weg gekippt\nStep 3: nach links gekippt\n\nWhat is on the FRONT face?",
+    "options_de": [
+      "a) ♥",
+      "b) ★",
+      "c) ♦",
+      "d) ♣",
+      "e) ●",
+      "f) ♠"
+    ],
+    "options_en": [
+      "a) ♥",
+      "b) ★",
+      "c) ♦",
+      "d) ♣",
+      "e) ●",
+      "f) ♠"
+    ],
+    "correct": [
+      5
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach rechts gek...): V=♦; S2(von Ihnen weg g...): V=★; S3(nach links geki...): V=♠. Vorne = ♠.",
+    "explanation_en": "Step-by-step: S1(nach rechts gek...): V=♦; S2(von Ihnen weg g...): V=★; S3(nach links geki...): V=♠. Front = ♠.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-009",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=A, Hinten=C, Oben=D, Unten=F, Links=B, Rechts=E.\n\nSchritt 1: von Ihnen weg gekippt\nSchritt 2: um 180° gedreht\nSchritt 3: nach rechts gekippt\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=A, Back=C, Top=D, Bottom=F, Left=B, Right=E.\n\nStep 1: von Ihnen weg gekippt\nStep 2: um 180° gedreht\nStep 3: nach rechts gekippt\n\nWhich symbol is visible on the FRONT face?",
+    "options_de": [
+      "a) A",
+      "b) F",
+      "c) C",
+      "d) B",
+      "e) E",
+      "f) D"
+    ],
+    "options_en": [
+      "a) A",
+      "b) F",
+      "c) C",
+      "d) B",
+      "e) E",
+      "f) D"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(von Ihnen weg g...): V=F; S2(um 180° gedreht...): V=D; S3(nach rechts gek...): V=E. Vorne = E.",
+    "explanation_en": "Step-by-step: S1(von Ihnen weg g...): V=F; S2(um 180° gedreht...): V=D; S3(nach rechts gek...): V=E. Front = E.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-010",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=E, Hinten=A, Oben=B, Unten=F, Links=D, Rechts=C.\n\nSchritt 1: nach rechts gekippt\nSchritt 2: von Ihnen weg gekippt\nSchritt 3: nach links gekippt\n\nWelches Zeichen zeigt die VORNE Fläche?",
+    "question_en": "CUBE: Front=E, Back=A, Top=B, Bottom=F, Left=D, Right=C.\n\nStep 1: nach rechts gekippt\nStep 2: von Ihnen weg gekippt\nStep 3: nach links gekippt\n\nWhat symbol shows on the FRONT side?",
+    "options_de": [
+      "a) C",
+      "b) E",
+      "c) D",
+      "d) B",
+      "e) F",
+      "f) A"
+    ],
+    "options_en": [
+      "a) C",
+      "b) E",
+      "c) D",
+      "d) B",
+      "e) F",
+      "f) A"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach rechts gek...): V=D; S2(von Ihnen weg g...): V=F; S3(nach links geki...): V=E. Vorne = E.",
+    "explanation_en": "Step-by-step: S1(nach rechts gek...): V=D; S2(von Ihnen weg g...): V=F; S3(nach links geki...): V=E. Front = E.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-011",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=1, Hinten=6, Oben=5, Unten=4, Links=2, Rechts=3.\n\nSchritt 1: in Ihre Richtung gekippt\nSchritt 2: um 180° gedreht\nSchritt 3: um 180° gedreht\n\nWelches Zeichen zeigt die VORNE Fläche?",
+    "question_en": "CUBE: Front=1, Back=6, Top=5, Bottom=4, Left=2, Right=3.\n\nStep 1: in Ihre Richtung gekippt\nStep 2: um 180° gedreht\nStep 3: um 180° gedreht\n\nWhat symbol shows on the FRONT side?",
+    "options_de": [
+      "a) 4",
+      "b) 6",
+      "c) 1",
+      "d) 5",
+      "e) 2",
+      "f) 3"
+    ],
+    "options_en": [
+      "a) 4",
+      "b) 6",
+      "c) 1",
+      "d) 5",
+      "e) 2",
+      "f) 3"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(in Ihre Richtun...): V=5; S2(um 180° gedreht...): V=4; S3(um 180° gedreht...): V=5. Vorne = 5.",
+    "explanation_en": "Step-by-step: S1(in Ihre Richtun...): V=5; S2(um 180° gedreht...): V=4; S3(um 180° gedreht...): V=5. Front = 5.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-012",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=●, Hinten=◆, Oben=★, Unten=+, Links=□, Rechts=△.\n\nSchritt 1: nach links gekippt\nSchritt 2: nach links gekippt\nSchritt 3: um 180° gedreht\n\nWas befindet sich auf der VORNE Fläche?",
+    "question_en": "CUBE: Front=●, Back=◆, Top=★, Bottom=+, Left=□, Right=△.\n\nStep 1: nach links gekippt\nStep 2: nach links gekippt\nStep 3: um 180° gedreht\n\nWhich symbol is on the FRONT side?",
+    "options_de": [
+      "a) ◆",
+      "b) □",
+      "c) ★",
+      "d) △",
+      "e) ●",
+      "f) +"
+    ],
+    "options_en": [
+      "a) ◆",
+      "b) □",
+      "c) ★",
+      "d) △",
+      "e) ●",
+      "f) +"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach links geki...): V=△; S2(nach links geki...): V=◆; S3(um 180° gedreht...): V=●. Vorne = ●.",
+    "explanation_en": "Step-by-step: S1(nach links geki...): V=△; S2(nach links geki...): V=◆; S3(um 180° gedreht...): V=●. Front = ●.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-013",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=X, Hinten=□, Oben=★, Unten=△, Links=O, Rechts=♥.\n\nSchritt 1: um 180° gedreht\nSchritt 2: in Ihre Richtung gekippt\nSchritt 3: nach rechts gekippt\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=X, Back=□, Top=★, Bottom=△, Left=O, Right=♥.\n\nStep 1: um 180° gedreht\nStep 2: in Ihre Richtung gekippt\nStep 3: nach rechts gekippt\n\nWhat is on the FRONT face?",
+    "options_de": [
+      "a) □",
+      "b) X",
+      "c) ♥",
+      "d) △",
+      "e) O",
+      "f) ★"
+    ],
+    "options_en": [
+      "a) □",
+      "b) X",
+      "c) ♥",
+      "d) △",
+      "e) O",
+      "f) ★"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 180° gedreht...): V=□; S2(in Ihre Richtun...): V=★; S3(nach rechts gek...): V=♥. Vorne = ♥.",
+    "explanation_en": "Step-by-step: S1(um 180° gedreht...): V=□; S2(in Ihre Richtun...): V=★; S3(nach rechts gek...): V=♥. Front = ♥.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-014",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=●, Hinten=□, Oben=△, Unten=◆, Links=★, Rechts=+.\n\nSchritt 1: von Ihnen weg gekippt\nSchritt 2: nach links gekippt\nSchritt 3: in Ihre Richtung gekippt\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=●, Back=□, Top=△, Bottom=◆, Left=★, Right=+.\n\nStep 1: von Ihnen weg gekippt\nStep 2: nach links gekippt\nStep 3: in Ihre Richtung gekippt\n\nWhat symbol shows on the FRONT side?",
+    "options_de": [
+      "a) +",
+      "b) □",
+      "c) ★",
+      "d) ◆",
+      "e) ●",
+      "f) △"
+    ],
+    "options_en": [
+      "a) +",
+      "b) □",
+      "c) ★",
+      "d) ◆",
+      "e) ●",
+      "f) △"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(von Ihnen weg g...): V=◆; S2(nach links geki...): V=+; S3(in Ihre Richtun...): V=●. Vorne = ●.",
+    "explanation_en": "Step-by-step: S1(von Ihnen weg g...): V=◆; S2(nach links geki...): V=+; S3(in Ihre Richtun...): V=●. Front = ●.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-015",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=A, Hinten=B, Oben=C, Unten=D, Links=E, Rechts=F.\n\nSchritt 1: von Ihnen weg gekippt\nSchritt 2: um 180° gedreht\nSchritt 3: von Ihnen weg gekippt\n\nWas sehen Sie auf der VORNE Fläche?",
+    "question_en": "CUBE: Front=A, Back=B, Top=C, Bottom=D, Left=E, Right=F.\n\nStep 1: von Ihnen weg gekippt\nStep 2: um 180° gedreht\nStep 3: von Ihnen weg gekippt\n\nWhat is on the FRONT face?",
+    "options_de": [
+      "a) E",
+      "b) F",
+      "c) C",
+      "d) D",
+      "e) A",
+      "f) B"
+    ],
+    "options_en": [
+      "a) E",
+      "b) F",
+      "c) C",
+      "d) D",
+      "e) A",
+      "f) B"
+    ],
+    "correct": [
+      5
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(von Ihnen weg g...): V=D; S2(um 180° gedreht...): V=C; S3(von Ihnen weg g...): V=B. Vorne = B.",
+    "explanation_en": "Step-by-step: S1(von Ihnen weg g...): V=D; S2(um 180° gedreht...): V=C; S3(von Ihnen weg g...): V=B. Front = B.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-016",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=●, Hinten=★, Oben=♣, Unten=♦, Links=♥, Rechts=♠.\n\nSchritt 1: um 90° im Uhrzeigersinn gedreht\nSchritt 2: um 180° gedreht\nSchritt 3: nach rechts gekippt\nSchritt 4: um 90° gegen den Uhrzeigersinn gedreht\n\nWelches Symbol ist auf der VORNE Seite?",
+    "question_en": "CUBE: Front=●, Back=★, Top=♣, Bottom=♦, Left=♥, Right=♠.\n\nStep 1: um 90° im Uhrzeigersinn gedreht\nStep 2: um 180° gedreht\nStep 3: nach rechts gekippt\nStep 4: um 90° gegen den Uhrzeigersinn gedreht\n\nWhat symbol shows on the FRONT side?",
+    "options_de": [
+      "a) ●",
+      "b) ♠",
+      "c) ♥",
+      "d) ★",
+      "e) ♦",
+      "f) ♣"
+    ],
+    "options_en": [
+      "a) ●",
+      "b) ♠",
+      "c) ♥",
+      "d) ★",
+      "e) ♦",
+      "f) ♣"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 90° im Uhrze...): V=♥; S2(um 180° gedreht...): V=♠; S3(nach rechts gek...): V=●; S4(um 90° gegen de...): V=♠. Vorne = ♠.",
+    "explanation_en": "Step-by-step: S1(um 90° im Uhrze...): V=♥; S2(um 180° gedreht...): V=♠; S3(nach rechts gek...): V=●; S4(um 90° gegen de...): V=♠. Front = ♠.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-017",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=♣, Hinten=♥, Oben=★, Unten=●, Links=♠, Rechts=♦.\n\nSchritt 1: um 180° gedreht\nSchritt 2: von Ihnen weg gekippt\nSchritt 3: nach rechts gekippt\nSchritt 4: nach rechts gekippt\n\nWas befindet sich auf der VORNE Fläche?",
+    "question_en": "CUBE: Front=♣, Back=♥, Top=★, Bottom=●, Left=♠, Right=♦.\n\nStep 1: um 180° gedreht\nStep 2: von Ihnen weg gekippt\nStep 3: nach rechts gekippt\nStep 4: nach rechts gekippt\n\nWhat is on the FRONT face?",
+    "options_de": [
+      "a) ♣",
+      "b) ★",
+      "c) ♥",
+      "d) ●",
+      "e) ♦",
+      "f) ♠"
+    ],
+    "options_en": [
+      "a) ♣",
+      "b) ★",
+      "c) ♥",
+      "d) ●",
+      "e) ♦",
+      "f) ♠"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 180° gedreht...): V=♥; S2(von Ihnen weg g...): V=●; S3(nach rechts gek...): V=♦; S4(nach rechts gek...): V=★. Vorne = ★.",
+    "explanation_en": "Step-by-step: S1(um 180° gedreht...): V=♥; S2(von Ihnen weg g...): V=●; S3(nach rechts gek...): V=♦; S4(nach rechts gek...): V=★. Front = ★.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-018",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=♠, Hinten=♣, Oben=♥, Unten=★, Links=♦, Rechts=●.\n\nSchritt 1: von Ihnen weg gekippt\nSchritt 2: um 90° gegen den Uhrzeigersinn gedreht\nSchritt 3: in Ihre Richtung gekippt\nSchritt 4: um 180° gedreht\n\nWelches Zeichen zeigt die VORNE Fläche?",
+    "question_en": "CUBE: Front=♠, Back=♣, Top=♥, Bottom=★, Left=♦, Right=●.\n\nStep 1: von Ihnen weg gekippt\nStep 2: um 90° gegen den Uhrzeigersinn gedreht\nStep 3: in Ihre Richtung gekippt\nStep 4: um 180° gedreht\n\nWhich symbol is visible on the FRONT face?",
+    "options_de": [
+      "a) ♦",
+      "b) ●",
+      "c) ♣",
+      "d) ♥",
+      "e) ♠",
+      "f) ★"
+    ],
+    "options_en": [
+      "a) ♦",
+      "b) ●",
+      "c) ♣",
+      "d) ♥",
+      "e) ♠",
+      "f) ★"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(von Ihnen weg g...): V=★; S2(um 90° gegen de...): V=●; S3(in Ihre Richtun...): V=♠; S4(um 180° gedreht...): V=♣. Vorne = ♣.",
+    "explanation_en": "Step-by-step: S1(von Ihnen weg g...): V=★; S2(um 90° gegen de...): V=●; S3(in Ihre Richtun...): V=♠; S4(um 180° gedreht...): V=♣. Front = ♣.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-019",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=6, Hinten=4, Oben=5, Unten=3, Links=2, Rechts=1.\n\nSchritt 1: von Ihnen weg gekippt\nSchritt 2: von Ihnen weg gekippt\nSchritt 3: um 90° gegen den Uhrzeigersinn gedreht\nSchritt 4: in Ihre Richtung gekippt\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=6, Back=4, Top=5, Bottom=3, Left=2, Right=1.\n\nStep 1: von Ihnen weg gekippt\nStep 2: von Ihnen weg gekippt\nStep 3: um 90° gegen den Uhrzeigersinn gedreht\nStep 4: in Ihre Richtung gekippt\n\nWhat symbol shows on the FRONT side?",
+    "options_de": [
+      "a) 3",
+      "b) 6",
+      "c) 5",
+      "d) 1",
+      "e) 2",
+      "f) 4"
+    ],
+    "options_en": [
+      "a) 3",
+      "b) 6",
+      "c) 5",
+      "d) 1",
+      "e) 2",
+      "f) 4"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(von Ihnen weg g...): V=3; S2(von Ihnen weg g...): V=4; S3(um 90° gegen de...): V=1; S4(in Ihre Richtun...): V=3. Vorne = 3.",
+    "explanation_en": "Step-by-step: S1(von Ihnen weg g...): V=3; S2(von Ihnen weg g...): V=4; S3(um 90° gegen de...): V=1; S4(in Ihre Richtun...): V=3. Front = 3.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-020",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=B, Hinten=C, Oben=D, Unten=E, Links=A, Rechts=F.\n\nSchritt 1: um 90° gegen den Uhrzeigersinn gedreht\nSchritt 2: nach links gekippt\nSchritt 3: um 90° im Uhrzeigersinn gedreht\nSchritt 4: nach links gekippt\n\nWelches Symbol ist auf der VORNE Seite?",
+    "question_en": "CUBE: Front=B, Back=C, Top=D, Bottom=E, Left=A, Right=F.\n\nStep 1: um 90° gegen den Uhrzeigersinn gedreht\nStep 2: nach links gekippt\nStep 3: um 90° im Uhrzeigersinn gedreht\nStep 4: nach links gekippt\n\nWhat is on the FRONT face?",
+    "options_de": [
+      "a) B",
+      "b) A",
+      "c) D",
+      "d) C",
+      "e) E",
+      "f) F"
+    ],
+    "options_en": [
+      "a) B",
+      "b) A",
+      "c) D",
+      "d) C",
+      "e) E",
+      "f) F"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 90° gegen de...): V=F; S2(nach links geki...): V=C; S3(um 90° im Uhrze...): V=F; S4(nach links geki...): V=C. Vorne = C.",
+    "explanation_en": "Step-by-step: S1(um 90° gegen de...): V=F; S2(nach links geki...): V=C; S3(um 90° im Uhrze...): V=F; S4(nach links geki...): V=C. Front = C.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-021",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=E, Hinten=B, Oben=F, Unten=D, Links=C, Rechts=A.\n\nSchritt 1: um 180° gedreht\nSchritt 2: in Ihre Richtung gekippt\nSchritt 3: um 90° gegen den Uhrzeigersinn gedreht\nSchritt 4: um 180° gedreht\n\nWelches Symbol ist auf der VORNE Seite?",
+    "question_en": "CUBE: Front=E, Back=B, Top=F, Bottom=D, Left=C, Right=A.\n\nStep 1: um 180° gedreht\nStep 2: in Ihre Richtung gekippt\nStep 3: um 90° gegen den Uhrzeigersinn gedreht\nStep 4: um 180° gedreht\n\nWhich symbol is visible on the FRONT face?",
+    "options_de": [
+      "a) C",
+      "b) F",
+      "c) B",
+      "d) D",
+      "e) E",
+      "f) A"
+    ],
+    "options_en": [
+      "a) C",
+      "b) F",
+      "c) B",
+      "d) D",
+      "e) E",
+      "f) A"
+    ],
+    "correct": [
+      5
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 180° gedreht...): V=B; S2(in Ihre Richtun...): V=F; S3(um 90° gegen de...): V=C; S4(um 180° gedreht...): V=A. Vorne = A.",
+    "explanation_en": "Step-by-step: S1(um 180° gedreht...): V=B; S2(in Ihre Richtun...): V=F; S3(um 90° gegen de...): V=C; S4(um 180° gedreht...): V=A. Front = A.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-022",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=1, Hinten=3, Oben=4, Unten=2, Links=6, Rechts=5.\n\nSchritt 1: um 90° gegen den Uhrzeigersinn gedreht\nSchritt 2: um 180° gedreht\nSchritt 3: nach rechts gekippt\nSchritt 4: um 90° im Uhrzeigersinn gedreht\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=1, Back=3, Top=4, Bottom=2, Left=6, Right=5.\n\nStep 1: um 90° gegen den Uhrzeigersinn gedreht\nStep 2: um 180° gedreht\nStep 3: nach rechts gekippt\nStep 4: um 90° im Uhrzeigersinn gedreht\n\nWhat symbol shows on the FRONT side?",
+    "options_de": [
+      "a) 6",
+      "b) 4",
+      "c) 2",
+      "d) 5",
+      "e) 3",
+      "f) 1"
+    ],
+    "options_en": [
+      "a) 6",
+      "b) 4",
+      "c) 2",
+      "d) 5",
+      "e) 3",
+      "f) 1"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 90° gegen de...): V=5; S2(um 180° gedreht...): V=6; S3(nach rechts gek...): V=3; S4(um 90° im Uhrze...): V=5. Vorne = 5.",
+    "explanation_en": "Step-by-step: S1(um 90° gegen de...): V=5; S2(um 180° gedreht...): V=6; S3(nach rechts gek...): V=3; S4(um 90° im Uhrze...): V=5. Front = 5.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-023",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=Y, Hinten=B, Oben=W, Unten=G, Links=P, Rechts=R.\n\nSchritt 1: um 90° im Uhrzeigersinn gedreht\nSchritt 2: nach links gekippt\nSchritt 3: in Ihre Richtung gekippt\nSchritt 4: um 180° gedreht\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=Y, Back=B, Top=W, Bottom=G, Left=P, Right=R.\n\nStep 1: um 90° im Uhrzeigersinn gedreht\nStep 2: nach links gekippt\nStep 3: in Ihre Richtung gekippt\nStep 4: um 180° gedreht\n\nWhat is on the FRONT face?",
+    "options_de": [
+      "a) W",
+      "b) R",
+      "c) P",
+      "d) Y",
+      "e) B",
+      "f) G"
+    ],
+    "options_en": [
+      "a) W",
+      "b) R",
+      "c) P",
+      "d) Y",
+      "e) B",
+      "f) G"
+    ],
+    "correct": [
+      5
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(um 90° im Uhrze...): V=P; S2(nach links geki...): V=Y; S3(in Ihre Richtun...): V=W; S4(um 180° gedreht...): V=G. Vorne = G.",
+    "explanation_en": "Step-by-step: S1(um 90° im Uhrze...): V=P; S2(nach links geki...): V=Y; S3(in Ihre Richtun...): V=W; S4(um 180° gedreht...): V=G. Front = G.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-024",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=●, Hinten=+, Oben=△, Unten=◆, Links=□, Rechts=★.\n\nSchritt 1: nach rechts gekippt\nSchritt 2: um 180° gedreht\nSchritt 3: nach rechts gekippt\nSchritt 4: um 90° im Uhrzeigersinn gedreht\n\nWas sehen Sie auf der VORNE Fläche?",
+    "question_en": "CUBE: Front=●, Back=+, Top=△, Bottom=◆, Left=□, Right=★.\n\nStep 1: nach rechts gekippt\nStep 2: um 180° gedreht\nStep 3: nach rechts gekippt\nStep 4: um 90° im Uhrzeigersinn gedreht\n\nWhich symbol is on the FRONT side?",
+    "options_de": [
+      "a) □",
+      "b) ★",
+      "c) ●",
+      "d) △",
+      "e) +",
+      "f) ◆"
+    ],
+    "options_en": [
+      "a) □",
+      "b) ★",
+      "c) ●",
+      "d) △",
+      "e) +",
+      "f) ◆"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(nach rechts gek...): V=□; S2(um 180° gedreht...): V=★; S3(nach rechts gek...): V=●; S4(um 90° im Uhrze...): V=□. Vorne = □.",
+    "explanation_en": "Step-by-step: S1(nach rechts gek...): V=□; S2(um 180° gedreht...): V=★; S3(nach rechts gek...): V=●; S4(um 90° im Uhrze...): V=□. Front = □.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "wuerfel-gen-025",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel"
+    ],
+    "question_de": "WÜRFEL: Vorne=B, Hinten=W, Oben=P, Unten=R, Links=G, Rechts=Y.\n\nSchritt 1: in Ihre Richtung gekippt\nSchritt 2: nach links gekippt\nSchritt 3: von Ihnen weg gekippt\nSchritt 4: um 180° gedreht\n\nWas ist auf der VORNE Seite zu sehen?",
+    "question_en": "CUBE: Front=B, Back=W, Top=P, Bottom=R, Left=G, Right=Y.\n\nStep 1: in Ihre Richtung gekippt\nStep 2: nach links gekippt\nStep 3: von Ihnen weg gekippt\nStep 4: um 180° gedreht\n\nWhat symbol shows on the FRONT side?",
+    "options_de": [
+      "a) G",
+      "b) B",
+      "c) W",
+      "d) P",
+      "e) Y",
+      "f) R"
+    ],
+    "options_en": [
+      "a) G",
+      "b) B",
+      "c) W",
+      "d) P",
+      "e) Y",
+      "f) R"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt-für-Schritt: S1(in Ihre Richtun...): V=P; S2(nach links geki...): V=Y; S3(von Ihnen weg g...): V=B; S4(um 180° gedreht...): V=W. Vorne = W.",
+    "explanation_en": "Step-by-step: S1(in Ihre Richtun...): V=P; S2(nach links geki...): V=Y; S3(von Ihnen weg g...): V=B; S4(um 180° gedreht...): V=W. Front = W.",
+    "mistakes_de": "Typische Fehler: (1) Kippen und Drehen verwechselt. (2) Nicht alle 6 Seiten nach jedem Schritt aktualisiert. (3) Bei Nicht-Vorne-Fragen die falsche Seite abgelesen.",
+    "mistakes_en": "Common mistakes: (1) Confusing tip vs rotate. (2) Not updating all 6 faces per step. (3) Reading the wrong face for non-front questions.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Generiert (gen_wuerfel.py)"
+  },
+  {
+    "id": "zahlen-gen-001",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl setzt die Reihe fort? 1, 2, 4, 8, 16, 32, 64",
+    "question_en": "Which number continues the series? 1, 2, 4, 8, 16, 32, 64",
+    "options_de": [
+      "a) 136",
+      "b) 64",
+      "c) 256",
+      "d) 131",
+      "e) 128"
+    ],
+    "options_en": [
+      "a) 136",
+      "b) 64",
+      "c) 256",
+      "d) 131",
+      "e) 128"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Muster: 2^n. Die Folge: 1, 2, 4, 8, 16, 32, 64, 128. Antwort: 128.",
+    "explanation_en": "Pattern: 2^n. Sequence: 1, 2, 4, 8, 16, 32, 64, 128. Answer: 128.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: 2^n)"
+  },
+  {
+    "id": "zahlen-gen-002",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl setzt die Reihe fort? 1, 2, 4, 7, 11, 16, 22",
+    "question_en": "Continue the sequence: 1, 2, 4, 7, 11, 16, 22\n\nWhat comes next?",
+    "options_de": [
+      "a) 14",
+      "b) 58",
+      "c) 38",
+      "d) 28",
+      "e) 29"
+    ],
+    "options_en": [
+      "a) 14",
+      "b) 58",
+      "c) 38",
+      "d) 28",
+      "e) 29"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Muster: growing diff +1. Die Folge: 1, 2, 4, 7, 11, 16, 22, 29. Antwort: 29.",
+    "explanation_en": "Pattern: growing diff +1. Sequence: 1, 2, 4, 7, 11, 16, 22, 29. Answer: 29.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: growing diff +1)"
+  },
+  {
+    "id": "zahlen-gen-003",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Finden Sie die nächste Zahl: 3, 6, 11, 18, 27, 38, 51, ?",
+    "question_en": "Find the next number: 3, 6, 11, 18, 27, 38, 51, ?",
+    "options_de": [
+      "a) 64",
+      "b) 72",
+      "c) 33",
+      "d) 66",
+      "e) 132"
+    ],
+    "options_en": [
+      "a) 64",
+      "b) 72",
+      "c) 33",
+      "d) 66",
+      "e) 132"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Muster: growing diff +2. Die Folge: 3, 6, 11, 18, 27, 38, 51, 66. Antwort: 66.",
+    "explanation_en": "Pattern: growing diff +2. Sequence: 3, 6, 11, 18, 27, 38, 51, 66. Answer: 66.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: growing diff +2)"
+  },
+  {
+    "id": "zahlen-gen-004",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 100, 90, 45, 35, 17, 7, 3\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Which number continues the series? 100, 90, 45, 35, 17, 7, 3",
+    "options_de": [
+      "a) -14",
+      "b) -4",
+      "c) -7",
+      "d) -10",
+      "e) -12"
+    ],
+    "options_en": [
+      "a) -14",
+      "b) -4",
+      "c) -7",
+      "d) -10",
+      "e) -12"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Muster: -10/÷2. Die Folge: 100, 90, 45, 35, 17, 7, 3, -7. Antwort: -7.",
+    "explanation_en": "Pattern: -10/÷2. Sequence: 100, 90, 45, 35, 17, 7, 3, -7. Answer: -7.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: -10/÷2)"
+  },
+  {
+    "id": "zahlen-gen-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 2, 4, 7, 11, 16, 22, 29\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Complete the number sequence: 2, 4, 7, 11, 16, 22, 29\n\nThe next number is:",
+    "options_de": [
+      "a) 42",
+      "b) 44",
+      "c) 74",
+      "d) 37",
+      "e) 18"
+    ],
+    "options_en": [
+      "a) 42",
+      "b) 44",
+      "c) 74",
+      "d) 37",
+      "e) 18"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Muster: growing diff +1. Die Folge: 2, 4, 7, 11, 16, 22, 29, 37. Antwort: 37.",
+    "explanation_en": "Pattern: growing diff +1. Sequence: 2, 4, 7, 11, 16, 22, 29, 37. Answer: 37.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: growing diff +1)"
+  },
+  {
+    "id": "zahlen-gen-006",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 2, 1, 4, 3, 6, 9, 8\n\nDie nächste Zahl ist:",
+    "question_en": "Continue the sequence: 2, 1, 4, 3, 6, 9, 8\n\nWhat comes next?",
+    "options_de": [
+      "a) 24",
+      "b) 27",
+      "c) 13",
+      "d) 34",
+      "e) 54"
+    ],
+    "options_en": [
+      "a) 24",
+      "b) 27",
+      "c) 13",
+      "d) 34",
+      "e) 54"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Muster: interleaved. Die Folge: 2, 1, 4, 3, 6, 9, 8, 27. Antwort: 27.",
+    "explanation_en": "Pattern: interleaved. Sequence: 2, 1, 4, 3, 6, 9, 8, 27. Answer: 27.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: interleaved)"
+  },
+  {
+    "id": "zahlen-gen-007",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 1, 5, 25, 125, 625, 3125, 15625\n\nDie nächste Zahl ist:",
+    "question_en": "Complete the number sequence: 1, 5, 25, 125, 625, 3125, 15625\n\nThe next number is:",
+    "options_de": [
+      "a) 78125",
+      "b) 78130",
+      "c) 78126",
+      "d) 156250",
+      "e) 39062"
+    ],
+    "options_en": [
+      "a) 78125",
+      "b) 78130",
+      "c) 78126",
+      "d) 156250",
+      "e) 39062"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Muster: 5^n. Die Folge: 1, 5, 25, 125, 625, 3125, 15625, 78125. Antwort: 78125.",
+    "explanation_en": "Pattern: 5^n. Sequence: 1, 5, 25, 125, 625, 3125, 15625, 78125. Answer: 78125.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: 5^n)"
+  },
+  {
+    "id": "zahlen-gen-008",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 3, 6, 11, 18, 27, 38, 51\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Find the next number: 3, 6, 11, 18, 27, 38, 51, ?",
+    "options_de": [
+      "a) 72",
+      "b) 33",
+      "c) 66",
+      "d) 132",
+      "e) 69"
+    ],
+    "options_en": [
+      "a) 72",
+      "b) 33",
+      "c) 66",
+      "d) 132",
+      "e) 69"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Muster: growing diff +2. Die Folge: 3, 6, 11, 18, 27, 38, 51, 66. Antwort: 66.",
+    "explanation_en": "Pattern: growing diff +2. Sequence: 3, 6, 11, 18, 27, 38, 51, 66. Answer: 66.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: growing diff +2)"
+  },
+  {
+    "id": "zahlen-gen-009",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 1, 5, 25, 125, 625, 3125, 15625\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Which number continues the series? 1, 5, 25, 125, 625, 3125, 15625",
+    "options_de": [
+      "a) 78130",
+      "b) 39062",
+      "c) 156250",
+      "d) 78125",
+      "e) 78126"
+    ],
+    "options_en": [
+      "a) 78130",
+      "b) 39062",
+      "c) 156250",
+      "d) 78125",
+      "e) 78126"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Muster: 5^n. Die Folge: 1, 5, 25, 125, 625, 3125, 15625, 78125. Antwort: 78125.",
+    "explanation_en": "Pattern: 5^n. Sequence: 1, 5, 25, 125, 625, 3125, 15625, 78125. Answer: 78125.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: 5^n)"
+  },
+  {
+    "id": "zahlen-gen-010",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl setzt die Reihe fort? 100, 90, 45, 35, 17, 7, 3",
+    "question_en": "Find the next number: 100, 90, 45, 35, 17, 7, 3, ?",
+    "options_de": [
+      "a) -10",
+      "b) -7",
+      "c) -4",
+      "d) -14",
+      "e) -8"
+    ],
+    "options_en": [
+      "a) -10",
+      "b) -7",
+      "c) -4",
+      "d) -14",
+      "e) -8"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Muster: -10/÷2. Die Folge: 100, 90, 45, 35, 17, 7, 3, -7. Antwort: -7.",
+    "explanation_en": "Pattern: -10/÷2. Sequence: 100, 90, 45, 35, 17, 7, 3, -7. Answer: -7.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: -10/÷2)"
+  },
+  {
+    "id": "zahlen-gen-011",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 1, 3, 9, 27, 81, 243, 729\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Find the next number: 1, 3, 9, 27, 81, 243, 729, ?",
+    "options_de": [
+      "a) 2187",
+      "b) 2185",
+      "c) 2194",
+      "d) 4374",
+      "e) 1093"
+    ],
+    "options_en": [
+      "a) 2187",
+      "b) 2185",
+      "c) 2194",
+      "d) 4374",
+      "e) 1093"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Muster: 3^n. Die Folge: 1, 3, 9, 27, 81, 243, 729, 2187. Antwort: 2187.",
+    "explanation_en": "Pattern: 3^n. Sequence: 1, 3, 9, 27, 81, 243, 729, 2187. Answer: 2187.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: 3^n)"
+  },
+  {
+    "id": "zahlen-gen-012",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 2, 4, 7, 11, 16, 22, 29\n\nWas kommt als nächstes?",
+    "question_en": "Continue the sequence: 2, 4, 7, 11, 16, 22, 29\n\nWhat comes next?",
+    "options_de": [
+      "a) 74",
+      "b) 44",
+      "c) 18",
+      "d) 37",
+      "e) 36"
+    ],
+    "options_en": [
+      "a) 74",
+      "b) 44",
+      "c) 18",
+      "d) 37",
+      "e) 36"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Muster: growing diff +1. Die Folge: 2, 4, 7, 11, 16, 22, 29, 37. Antwort: 37.",
+    "explanation_en": "Pattern: growing diff +1. Sequence: 2, 4, 7, 11, 16, 22, 29, 37. Answer: 37.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: growing diff +1)"
+  },
+  {
+    "id": "zahlen-gen-013",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Finden Sie die nächste Zahl: 1, 3, 9, 11, 33, 35, 105, ?",
+    "question_en": "Which number continues the series? 1, 3, 9, 11, 33, 35, 105",
+    "options_de": [
+      "a) 214",
+      "b) 114",
+      "c) 105",
+      "d) 53",
+      "e) 107"
+    ],
+    "options_en": [
+      "a) 214",
+      "b) 114",
+      "c) 105",
+      "d) 53",
+      "e) 107"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Muster: +2/×3. Die Folge: 1, 3, 9, 11, 33, 35, 105, 107. Antwort: 107.",
+    "explanation_en": "Pattern: +2/×3. Sequence: 1, 3, 9, 11, 33, 35, 105, 107. Answer: 107.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: +2/×3)"
+  },
+  {
+    "id": "zahlen-gen-014",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Finden Sie die nächste Zahl: 1, 3, 9, 27, 81, 243, 729, ?",
+    "question_en": "Which number continues the series? 1, 3, 9, 27, 81, 243, 729",
+    "options_de": [
+      "a) 2187",
+      "b) 2194",
+      "c) 4374",
+      "d) 1093",
+      "e) 2197"
+    ],
+    "options_en": [
+      "a) 2187",
+      "b) 2194",
+      "c) 4374",
+      "d) 1093",
+      "e) 2197"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Muster: 3^n. Die Folge: 1, 3, 9, 27, 81, 243, 729, 2187. Antwort: 2187.",
+    "explanation_en": "Pattern: 3^n. Sequence: 1, 3, 9, 27, 81, 243, 729, 2187. Answer: 2187.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: 3^n)"
+  },
+  {
+    "id": "zahlen-gen-015",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 3, 6, 7, 14, 15, 30, 31\n\nWas kommt als nächstes?",
+    "question_en": "Which number continues the series? 3, 6, 7, 14, 15, 30, 31",
+    "options_de": [
+      "a) 62",
+      "b) 63",
+      "c) 64",
+      "d) 124",
+      "e) 31"
+    ],
+    "options_en": [
+      "a) 62",
+      "b) 63",
+      "c) 64",
+      "d) 124",
+      "e) 31"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Muster: ×2/+1. Die Folge: 3, 6, 7, 14, 15, 30, 31, 62. Antwort: 62.",
+    "explanation_en": "Pattern: ×2/+1. Sequence: 3, 6, 7, 14, 15, 30, 31, 62. Answer: 62.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: ×2/+1)"
+  },
+  {
+    "id": "zahlen-gen-016",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 1, 3, 6, 10, 15, 21, 28\n\nWas kommt als nächstes?",
+    "question_en": "Find the next number: 1, 3, 6, 10, 15, 21, 28, ?",
+    "options_de": [
+      "a) 36",
+      "b) 18",
+      "c) 37",
+      "d) 72",
+      "e) 42"
+    ],
+    "options_en": [
+      "a) 36",
+      "b) 18",
+      "c) 37",
+      "d) 72",
+      "e) 42"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Muster: n(n+1)/2. Die Folge: 1, 3, 6, 10, 15, 21, 28, 36. Antwort: 36.",
+    "explanation_en": "Pattern: n(n+1)/2. Sequence: 1, 3, 6, 10, 15, 21, 28, 36. Answer: 36.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: n(n+1)/2)"
+  },
+  {
+    "id": "zahlen-gen-017",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Finden Sie die nächste Zahl: 1, 3, 6, 10, 15, 21, 28, ?",
+    "question_en": "Find the next number: 1, 3, 6, 10, 15, 21, 28, ?",
+    "options_de": [
+      "a) 72",
+      "b) 42",
+      "c) 46",
+      "d) 18",
+      "e) 36"
+    ],
+    "options_en": [
+      "a) 72",
+      "b) 42",
+      "c) 46",
+      "d) 18",
+      "e) 36"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Muster: n(n+1)/2. Die Folge: 1, 3, 6, 10, 15, 21, 28, 36. Antwort: 36.",
+    "explanation_en": "Pattern: n(n+1)/2. Sequence: 1, 3, 6, 10, 15, 21, 28, 36. Answer: 36.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: n(n+1)/2)"
+  },
+  {
+    "id": "zahlen-gen-018",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 2, 1, 3, 4, 7, 11, 18\n\nWas kommt als nächstes?",
+    "question_en": "Find the next number: 2, 1, 3, 4, 7, 11, 18, ?",
+    "options_de": [
+      "a) 38",
+      "b) 26",
+      "c) 14",
+      "d) 29",
+      "e) 58"
+    ],
+    "options_en": [
+      "a) 38",
+      "b) 26",
+      "c) 14",
+      "d) 29",
+      "e) 58"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Muster: Fibonacci-like. Die Folge: 2, 1, 3, 4, 7, 11, 18, 29. Antwort: 29.",
+    "explanation_en": "Pattern: Fibonacci-like. Sequence: 2, 1, 3, 4, 7, 11, 18, 29. Answer: 29.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: Fibonacci-like)"
+  },
+  {
+    "id": "zahlen-gen-019",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 1, 8, 27, 64, 125, 216, 343\n\nDie nächste Zahl ist:",
+    "question_en": "Complete the number sequence: 1, 8, 27, 64, 125, 216, 343\n\nThe next number is:",
+    "options_de": [
+      "a) 512",
+      "b) 514",
+      "c) 1024",
+      "d) 256",
+      "e) 507"
+    ],
+    "options_en": [
+      "a) 512",
+      "b) 514",
+      "c) 1024",
+      "d) 256",
+      "e) 507"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Muster: n³. Die Folge: 1, 8, 27, 64, 125, 216, 343, 512. Antwort: 512.",
+    "explanation_en": "Pattern: n³. Sequence: 1, 8, 27, 64, 125, 216, 343, 512. Answer: 512.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: n³)"
+  },
+  {
+    "id": "zahlen-gen-020",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 1, 3, 6, 10, 15, 21, 28\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Find the next number: 1, 3, 6, 10, 15, 21, 28, ?",
+    "options_de": [
+      "a) 36",
+      "b) 72",
+      "c) 41",
+      "d) 42",
+      "e) 18"
+    ],
+    "options_en": [
+      "a) 36",
+      "b) 72",
+      "c) 41",
+      "d) 42",
+      "e) 18"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Muster: n(n+1)/2. Die Folge: 1, 3, 6, 10, 15, 21, 28, 36. Antwort: 36.",
+    "explanation_en": "Pattern: n(n+1)/2. Sequence: 1, 3, 6, 10, 15, 21, 28, 36. Answer: 36.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: n(n+1)/2)"
+  },
+  {
+    "id": "zahlen-gen-021",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Welche Zahl setzt die Reihe fort? 2, 3, 5, 8, 13, 21, 34",
+    "question_en": "Which number continues the series? 2, 3, 5, 8, 13, 21, 34",
+    "options_de": [
+      "a) 110",
+      "b) 65",
+      "c) 27",
+      "d) 60",
+      "e) 55"
+    ],
+    "options_en": [
+      "a) 110",
+      "b) 65",
+      "c) 27",
+      "d) 60",
+      "e) 55"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Muster: Fibonacci-like. Die Folge: 2, 3, 5, 8, 13, 21, 34, 55. Antwort: 55.",
+    "explanation_en": "Pattern: Fibonacci-like. Sequence: 2, 3, 5, 8, 13, 21, 34, 55. Answer: 55.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: Fibonacci-like)"
+  },
+  {
+    "id": "zahlen-gen-022",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 2, 3, 5, 7, 11, 13, 17\n\nWas kommt als nächstes?",
+    "question_en": "Complete the number sequence: 2, 3, 5, 7, 11, 13, 17\n\nThe next number is:",
+    "options_de": [
+      "a) 38",
+      "b) 19",
+      "c) 9",
+      "d) 28",
+      "e) 20"
+    ],
+    "options_en": [
+      "a) 38",
+      "b) 19",
+      "c) 9",
+      "d) 28",
+      "e) 20"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Muster: primes. Die Folge: 2, 3, 5, 7, 11, 13, 17, 19. Antwort: 19.",
+    "explanation_en": "Pattern: primes. Sequence: 2, 3, 5, 7, 11, 13, 17, 19. Answer: 19.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: primes)"
+  },
+  {
+    "id": "zahlen-gen-023",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 4, 10, 18, 28, 40, 54, 70\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Which number continues the series? 4, 10, 18, 28, 40, 54, 70",
+    "options_de": [
+      "a) 83",
+      "b) 44",
+      "c) 88",
+      "d) 176",
+      "e) 96"
+    ],
+    "options_en": [
+      "a) 83",
+      "b) 44",
+      "c) 88",
+      "d) 176",
+      "e) 96"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Muster: n×(n+3). Die Folge: 4, 10, 18, 28, 40, 54, 70, 88. Antwort: 88.",
+    "explanation_en": "Pattern: n×(n+3). Sequence: 4, 10, 18, 28, 40, 54, 70, 88. Answer: 88.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: n×(n+3))"
+  },
+  {
+    "id": "zahlen-gen-024",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Finden Sie die nächste Zahl: 2, 6, 12, 20, 30, 42, 56, ?",
+    "question_en": "Which number continues the series? 2, 6, 12, 20, 30, 42, 56",
+    "options_de": [
+      "a) 36",
+      "b) 72",
+      "c) 74",
+      "d) 69",
+      "e) 144"
+    ],
+    "options_en": [
+      "a) 36",
+      "b) 72",
+      "c) 74",
+      "d) 69",
+      "e) 144"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Muster: n×(n+1). Die Folge: 2, 6, 12, 20, 30, 42, 56, 72. Antwort: 72.",
+    "explanation_en": "Pattern: n×(n+1). Sequence: 2, 6, 12, 20, 30, 42, 56, 72. Answer: 72.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: n×(n+1))"
+  },
+  {
+    "id": "zahlen-gen-025",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge"
+    ],
+    "question_de": "Zahlenfolge: 1, 8, 27, 64, 125, 216, 343\n\nWelche Zahl folgt als nächstes?",
+    "question_en": "Number sequence: 1, 8, 27, 64, 125, 216, 343\n\nWhat number comes next?",
+    "options_de": [
+      "a) 1024",
+      "b) 512",
+      "c) 256",
+      "d) 514",
+      "e) 510"
+    ],
+    "options_en": [
+      "a) 1024",
+      "b) 512",
+      "c) 256",
+      "d) 514",
+      "e) 510"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Muster: n³. Die Folge: 1, 8, 27, 64, 125, 216, 343, 512. Antwort: 512.",
+    "explanation_en": "Pattern: n³. Sequence: 1, 8, 27, 64, 125, 216, 343, 512. Answer: 512.",
+    "mistakes_de": "Typische Fehler: (1) Nur eine Operation suchen, wenn die Folge zwei verschränkte Teilfolgen hat. (2) Bei ×/÷-Mustern an +/- denken. (3) Die Folge nicht von verschiedenen Startpunkten testen.",
+    "mistakes_en": "Common mistakes: (1) Looking for one operation when there are interleaved sub-sequences. (2) Thinking +/- when pattern is ×/÷. (3) Not testing from different starting points.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_zahlen.py, Muster: n³)"
   }
 ]
