@@ -14203,5 +14203,2299 @@
       }
     ],
     "source": "Generiert (gen_matrizen.py, Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile)"
+  },
+  {
+    "id": "oerek-principles-gen-01",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "Grundsätze",
+      "Nachhaltigkeit",
+      "Mehrdeutigkeit"
+    ],
+    "question_de": "Welche der folgenden Aussagen beschreiben den Grundsatz der Klimaverträglichkeit? (Mehrfachauswahl)",
+    "question_en": "Which of the following statements describe the principle of climate compatibility? (Multiple choice)",
+    "options_de": [
+      "a) Reduzierung von Treibhausgasemissionen und Anpassung an Klimafolgen",
+      "b) Priorisierung von Gemeinwohl vor privatwirtschaftlichen Interessen",
+      "c) Sicherung der Energiewende und Kreislaufwirtschaft",
+      "d) Gleichberechtigte Teilhabe aller Bevölkerungsgruppen",
+      "e) Stärkung von sozialen Gerechtigkeit und Chancengleichheit"
+    ],
+    "options_en": [
+      "a) Reduction of greenhouse gas emissions and adaptation to climate impacts",
+      "b) Prioritization of public welfare over private business interests",
+      "c) Securing energy transition and circular economy",
+      "d) Equal participation of all population groups",
+      "e) Strengthening social justice and equal opportunities"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation_de": "Der Grundsatz der Klimaverträglichkeit umfasst sowohl Mitigation (Emissionsreduktion) als auch Adaptation (Anpassung) sowie die Integration von Energiewende und Kreislaufwirtschaft. Die anderen Aussagen beschreiben eher die Grundsätze der Gemeinwohlorientierung (b) und Gerechtigkeit (d, e).",
+    "explanation_en": "The climate compatibility principle encompasses both mitigation (emission reduction) and adaptation (climate impact adjustment) as well as integration of energy transition and circular economy. The other statements describe more the principles of public welfare orientation (b) and justice (d, e).",
+    "mistakes_de": "Häufiger Fehler: Verwechslung von Klimaverträglichkeit mit Gemeinwohlorientierung oder sozialer Gerechtigkeit. Alle drei Grundsätze sind wichtig, aber adressieren unterschiedliche Dimensionen.",
+    "mistakes_en": "Common mistake: Confusing climate compatibility with public welfare orientation or social justice. All three principles are important but address different dimensions.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-02",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "Grundsätze",
+      "Gemeinwohl",
+      "Abgrenzung"
+    ],
+    "question_de": "Der Grundsatz der Gemeinwohlorientierung unterscheidet sich von sozialer Gerechtigkeit dadurch, dass er sich primär auf welche Aspekte konzentriert?",
+    "question_en": "The principle of public welfare orientation differs from social justice in that it primarily focuses on which aspects?",
+    "options_de": [
+      "a) Chancengleichheit für benachteiligte Gruppen",
+      "b) Zielkonflikte zwischen Einzelinteressen und kollektiven Belangen",
+      "c) Gleichverteilung von Wohlstand und Ressourcen",
+      "d) Priorisierung öffentlicher Infrastruktur und Daseinsvorsorge",
+      "e) Minderung von sozialen Ungleichheiten"
+    ],
+    "options_en": [
+      "a) Equal opportunities for disadvantaged groups",
+      "b) Conflicts between individual interests and collective welfare",
+      "c) Equal distribution of prosperity and resources",
+      "d) Prioritization of public infrastructure and social services",
+      "e) Reduction of social inequalities"
+    ],
+    "correct": [
+      1,
+      3
+    ],
+    "explanation_de": "Gemeinwohlorientierung bezieht sich auf die Abwägung zwischen Einzelinteressen und kollektiven Belangen (b) sowie auf die Sicherstellung von grundlegender Infrastruktur und Daseinsvorsorge (d). Soziale Gerechtigkeit hingegen adressiert spezifisch Chancengleichheit und Armutsbekämpfung.",
+    "explanation_en": "Public welfare orientation refers to balancing individual interests against collective welfare (b) and ensuring basic infrastructure and social services (d). Social justice, by contrast, specifically addresses equal opportunities and poverty reduction.",
+    "mistakes_de": "Verwechslung: Gemeinwohlorientierung wird oft synonym mit sozialer Gerechtigkeit verwendet. Der Unterschied liegt darin, dass Gemeinwohl breiter ist und auch wirtschaftliche und ökologische Belange einbezieht.",
+    "mistakes_en": "Confusion: Public welfare orientation is often used synonymously with social justice. The difference is that common welfare is broader and also includes economic and ecological concerns.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-03",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "Grundsätze",
+      "Gerechtigkeit"
+    ],
+    "question_de": "Welche Dimensionen der Gerechtigkeit sind im ÖREK 2030 zentral?",
+    "question_en": "Which dimensions of justice are central to ÖREK 2030?",
+    "options_de": [
+      "a) Intergenerationelle Gerechtigkeit (zwischen Generationen)",
+      "b) Geschlechtergerechtigkeit",
+      "c) Räumliche Gerechtigkeit (ausgewogene Entwicklung zwischen Regionen)",
+      "d) Bedarfsgerechtigkeit (Verteilung nach Bedarf)",
+      "e) Alle obigen Aspekte sind Teil der Gerechtigkeitsperspektive"
+    ],
+    "options_en": [
+      "a) Intergenerational justice (between generations)",
+      "b) Gender justice",
+      "c) Spatial justice (balanced development between regions)",
+      "d) Needs-based justice (distribution according to need)",
+      "e) All of the above aspects are part of the justice perspective"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Der Gerechtigkeitsgrundsatz im ÖREK 2030 ist multidimensional und umfasst intergenerationelle Gerechtigkeit (Verantwortung gegenüber zukünftigen Generationen), Geschlechtergerechtigkeit, räumliche Gerechtigkeit (Vermeidung regionaler Disparitäten) und Bedarfsgerechtigkeit.",
+    "explanation_en": "The justice principle in ÖREK 2030 is multidimensional and encompasses intergenerational justice (responsibility to future generations), gender justice, spatial justice (avoiding regional disparities), and needs-based justice.",
+    "mistakes_de": "Häufiger Fehler: Annahme, dass Gerechtigkeit nur soziale Aspekte bedeutet. Im Kontext der Raumplanung ist auch räumliche Gerechtigkeit (Vermeidung von Zentrum-Peripherie-Disparitäten) zentral.",
+    "mistakes_en": "Common mistake: Assuming justice only means social aspects. In the context of spatial planning, spatial justice (avoiding center-periphery disparities) is also central.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-04",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "ÖROK",
+      "Institution",
+      "Definition"
+    ],
+    "question_de": "Was ist der wesentliche Unterschied zwischen der Österreichischen Raumordnungskonferenz (ÖROK) und dem Österreichischen Raumentwicklungskonzept (ÖREK)?",
+    "question_en": "What is the essential difference between the Austrian Spatial Planning Conference (ÖROK) and the Austrian Spatial Development Concept (ÖREK)?",
+    "options_de": [
+      "a) ÖROK ist das Konzeptdokument, ÖREK ist die Durchführungsinstitution",
+      "b) ÖREK ist ein freiwilliges Leitbild, ÖROK ist das Koordinierungsgremium der beteiligten Ebenen",
+      "c) ÖREK hat Rechtsverbindlichkeit, ÖROK nicht",
+      "d) ÖROK ist eine Arbeitsgruppe des Bundes, ÖREK ist dezentral organisiert",
+      "e) Es gibt keinen Unterschied, sie sind Synonyme"
+    ],
+    "options_en": [
+      "a) ÖROK is the conceptual document, ÖREK is the implementation institution",
+      "b) ÖREK is a voluntary framework, ÖROK is the coordination body of participating levels",
+      "c) ÖREK is legally binding, ÖROK is not",
+      "d) ÖROK is a working group of the federal government, ÖREK is decentrally organized",
+      "e) There is no difference, they are synonyms"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "ÖREK ist ein freiwilliges Leitbild für die Raumentwicklung (nicht rechtlich bindend), während ÖROK die 1971 gegründete Konferenz ist, auf der Bund, Länder, Städte, Gemeinden und Sozialpartner koordinieren. Das ÖREK wird von der ÖROK entwickelt und ratifiziert.",
+    "explanation_en": "ÖREK is a voluntary framework for spatial development (not legally binding), while ÖROK is the conference founded in 1971 where the federal government, states, cities, municipalities, and social partners coordinate. The ÖREK is developed and ratified by the ÖROK.",
+    "mistakes_de": "Verwechslung der Rollen: ÖREK ist nicht bindend (nur Orientierungsleitbild), und ÖROK ist nicht das Konzept selbst, sondern die Konferenz, die es entwickelt.",
+    "mistakes_en": "Confusion of roles: ÖREK is not binding (only an orientation framework), and ÖROK is not the concept itself, but the conference that develops it.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-05",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "ÖROK",
+      "Geschichte",
+      "Institutionen"
+    ],
+    "question_de": "Welche Aussage zur Österreichischen Raumordnungskonferenz (ÖROK) ist korrekt?",
+    "question_en": "Which statement about the Austrian Spatial Planning Conference (ÖROK) is correct?",
+    "options_de": [
+      "a) Die ÖROK wurde 1995 als Reaktion auf die EU-Mitgliedschaft gegründet",
+      "b) Die ÖROK ist ein Bund-Länder-Gremium mit Beteiligung von Gemeinden und Sozialpartnern",
+      "c) Die ÖROK erstellt jährlich ein neues Raumentwicklungskonzept",
+      "d) Nur der Bund hat Stimmrecht in der ÖROK, die Länder sind Beobachter",
+      "e) Die ÖROK ist ein Teil der EU-Raumordnungspolitik"
+    ],
+    "options_en": [
+      "a) ÖROK was founded in 1995 as a response to EU membership",
+      "b) ÖROK is a federal-state body with participation of municipalities and social partners",
+      "c) ÖROK creates a new spatial development concept every year",
+      "d) Only the federal government has voting rights in ÖROK, states are observers",
+      "e) ÖROK is part of EU spatial planning policy"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Die ÖROK wurde 1971 gegründet und ist ein Koordinierungsgremium auf allen Ebenen (Bund, Länder, Städte, Gemeinden, Sozialpartner). Ein neues ÖREK wird ungefähr alle 10 Jahre entwickelt (nicht jährlich). ÖROK ist primär eine österreichische Institution, nicht Teil der EU-Struktur.",
+    "explanation_en": "ÖROK was founded in 1971 and is a coordination body at all levels (federal government, states, cities, municipalities, social partners). A new ÖREK is developed approximately every 10 years (not annually). ÖROK is primarily an Austrian institution, not part of the EU structure.",
+    "mistakes_de": "Fehler: Verwechslung des Gründungsjahres (1971, nicht 1995), falsche Annahmen über Stimmrechte, Verwechslung mit jährlicher Planung.",
+    "mistakes_en": "Errors: Confusion of founding year (1971, not 1995), incorrect assumptions about voting rights, confusion with annual planning.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-06",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "räumliche Ziele",
+      "Definition",
+      "Abgrenzung"
+    ],
+    "question_de": "Ordnen Sie die räumlichen Ziele ihren Beschreibungen zu: Was versteht man unter dem Ziel 'polyzentrische Raumentwicklung'?",
+    "question_en": "Match spatial goals to their descriptions: What is meant by the goal of 'polycentric spatial development'?",
+    "options_de": [
+      "a) Konzentration von Bevölkerung und Wirtschaft in einer Hauptmetropole",
+      "b) Stärkung von mehreren Zentren unterschiedlicher Größe zur Vermeidung von Metropolenlastigkeit",
+      "c) Dezentralisierung aller Funktionen auf Gemeindeebene",
+      "d) Stärkung der Wien-Achse als dominantes Zentrum",
+      "e) Gleichmäßige Verteilung der Bevölkerung über alle Regionen"
+    ],
+    "options_en": [
+      "a) Concentration of population and economy in one major metropolis",
+      "b) Strengthening of multiple centers of different sizes to avoid metropolitan bias",
+      "c) Decentralization of all functions to municipality level",
+      "d) Strengthening Vienna axis as dominant center",
+      "e) Even distribution of population across all regions"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Polyzentrische Raumentwicklung bedeutet, mehrere unterschiedlich große Zentren zu stärken (Metropolen, Landeshauptstädte, regionale Zentren), um regionale Disparitäten abzubauen und Überkonzentration zu vermeiden. Es geht um eine ausgewogene Zentren-Hierarchie, nicht um völlige Dezentralisierung.",
+    "explanation_en": "Polycentric spatial development means strengthening multiple centers of different sizes (metropolises, state capitals, regional centers) to reduce regional disparities and avoid over-concentration. It is about a balanced center hierarchy, not complete decentralization.",
+    "mistakes_de": "Verwechslung: Polyzentrik bedeutet NICHT Dezentralisierung auf Gemeindeebene, auch nicht Gleichverteilung. Es bedeutet Multipolarität auf verschiedenen Ebenen.",
+    "mistakes_en": "Confusion: Polycentrism does NOT mean decentralization at municipality level, nor equal distribution. It means multipolarity at different levels.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-07",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "räumliche Ziele",
+      "kompakte Siedlungen",
+      "Flächenverbrauch"
+    ],
+    "question_de": "Welche Ziele des ÖREK 2030 beziehen sich direkt auf die Reduktion des Flächenverbrauchs?",
+    "question_en": "Which ÖREK 2030 goals directly relate to reducing land consumption?",
+    "options_de": [
+      "a) Kompakte und durchmischte Siedlungsentwicklung",
+      "b) Stärkung der Zentren und Innenverdichtung",
+      "c) Sicherung und Entwicklung von Freiräumen",
+      "d) Stärkung regionaler Lebensräume mit lokalen Stärken",
+      "e) Sicherung der Kulturlandschaft als Erbe und Ressource"
+    ],
+    "options_en": [
+      "a) Compact and mixed settlement development",
+      "b) Strengthening centers and inner densification",
+      "c) Protection and development of open spaces",
+      "d) Strengthening regional living spaces with local strengths",
+      "e) Protection of cultural landscape as heritage and resource"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation_de": "Die direkte Flächensparungs-Strategie des ÖREK 2030 hat zwei Säulen: (1) kompakte und durchmischte Siedlungsentwicklung (statt Zersiedelung) und (2) Innenverdichtung in bestehenden Zentren. Die anderen Ziele unterstützen dies indirekt, adressieren aber primär andere Aspekte (Freiraum, Kulturlandschaft, regionale Entwicklung).",
+    "explanation_en": "ÖREK 2030's direct land-saving strategy has two pillars: (1) compact and mixed settlement development (instead of sprawl) and (2) inner densification in existing centers. The other goals support this indirectly but primarily address other aspects (open space, cultural landscape, regional development).",
+    "mistakes_de": "Häufiger Fehler: Alle Ziele als 'flächensparend' zu interpretieren. Nur a) und b) adressieren direkt Flächenverbrauch. c) und e) sind eher zum Erhalt von Freiräumen und Natur.",
+    "mistakes_en": "Common mistake: Interpreting all goals as 'land-saving'. Only a) and b) directly address land consumption. c) and e) are more about preserving open spaces and nature.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-08",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "Rechtsverbindlichkeit",
+      "Natur",
+      "bindend"
+    ],
+    "question_de": "Welche der folgenden Aussagen zum rechtlichen Status des ÖREK 2030 sind zutreffend?",
+    "question_en": "Which of the following statements about the legal status of ÖREK 2030 are correct?",
+    "options_de": [
+      "a) Das ÖREK 2030 ist ein rechtlich bindendes Gesetz für alle Ebenen",
+      "b) Das ÖREK 2030 ist ein freiwilliges Leitbild und hat keine rechtliche Bindungskraft",
+      "c) Das ÖREK 2030 setzt EU-Recht direkt um",
+      "d) Die Bundesländer können von den Zielen des ÖREK 2030 abweichen, wenn sie andere Prioritäten haben",
+      "e) Das ÖREK 2030 ist eine Empfehlung mit orientierender Wirkung"
+    ],
+    "options_en": [
+      "a) ÖREK 2030 is a legally binding law for all levels",
+      "b) ÖREK 2030 is a voluntary framework with no legal binding force",
+      "c) ÖREK 2030 directly implements EU law",
+      "d) Federal states can deviate from ÖREK 2030 goals if they have other priorities",
+      "e) ÖREK 2030 is a recommendation with guiding effect"
+    ],
+    "correct": [
+      1,
+      4
+    ],
+    "explanation_de": "Das ÖREK 2030 ist ein freiwilliges, orientierendes Leitbild ohne rechtliche Bindungskraft. Es hat empfehlenden Charakter und soll als Richtlinie für Raumentwicklung auf allen Ebenen dienen. Die Bundesländer können Abweichungen vornehmen, müssen diese aber begründen.",
+    "explanation_en": "ÖREK 2030 is a voluntary, guiding framework with no legal binding force. It has a recommendatory character and is intended as a guideline for spatial development at all levels. Federal states can make deviations but must justify them.",
+    "mistakes_de": "Häufiger Fehler: Annahme, dass ÖREK rechtlich bindend ist wie EU-Recht oder nationale Gesetze. Es ist ein Leitbild, kein Gesetz.",
+    "mistakes_en": "Common mistake: Assuming ÖREK is legally binding like EU law or national statutes. It is a framework, not a law.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-principles-gen-09",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "EU",
+      "Österreich",
+      "Abgrenzung",
+      "Autonomie"
+    ],
+    "question_de": "Welche Aussagen zur Beziehung zwischen ÖREK 2030 und EU-Raumordnung sind korrekt?",
+    "question_en": "Which statements about the relationship between ÖREK 2030 and EU spatial planning are correct?",
+    "options_de": [
+      "a) Das ÖREK 2030 setzt direkt EU-Richtlinien zur Raumordnung um",
+      "b) Das ÖREK 2030 ist ein eigenständiges österreichisches Konzept, wird aber von EU-Vorgaben (z.B. Klimaneutralität 2050) beeinflusst",
+      "c) Die EU hat kein Raumordnungsrecht, daher ist ÖREK 2030 völlig autonom österreichisch",
+      "d) Das ÖREK 2030 muss in Einklang mit EU-Zielen (z.B. Klimaschutz, Biodiversität) stehen",
+      "e) Österreich ist nicht an EU-Raumordnungsvorgaben gebunden"
+    ],
+    "options_en": [
+      "a) ÖREK 2030 directly implements EU spatial planning directives",
+      "b) ÖREK 2030 is an independent Austrian concept but is influenced by EU requirements (e.g., climate neutrality by 2050)",
+      "c) The EU has no spatial planning law, so ÖREK 2030 is completely autonomous Austrian",
+      "d) ÖREK 2030 must be consistent with EU goals (e.g., climate protection, biodiversity)",
+      "e) Austria is not bound by EU spatial planning requirements"
+    ],
+    "correct": [
+      1,
+      3
+    ],
+    "explanation_de": "Das ÖREK 2030 ist nicht direkt EU-Recht, aber Österreich muss EU-Ziele (Klimaneutralität 2050, -55% THG 2030, Biodiversitätsschutz) erfüllen. Das ÖREK 2030 ist daher eigenständig, muss aber in Einklang mit EU-Vorgaben stehen. Die EU hat keine Raumordnungskompetenzen, aber bindende Klima- und Umweltziele.",
+    "explanation_en": "ÖREK 2030 is not direct EU law, but Austria must meet EU goals (climate neutrality 2050, -55% GHG by 2030, biodiversity protection). ÖREK 2030 is therefore autonomous but must be consistent with EU requirements. The EU has no spatial planning competencies but binding climate and environmental goals.",
+    "mistakes_de": "Zwei extreme Fehler: (1) ÖREK als direkte EU-Richtlinie zu sehen, oder (2) ÖREK als völlig autonom anzunehmen. Die Realität ist: autonom, aber im Rahmen von EU-Klimazielen.",
+    "mistakes_en": "Two extreme errors: (1) viewing ÖREK as direct EU directive, or (2) assuming ÖREK is completely autonomous. The reality is: autonomous, but within the framework of EU climate goals.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-01",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Klimawandel",
+      "Adaptation"
+    ],
+    "question_de": "Wie manifestiert sich der Megatrend 'Klimawandel' in der österreichischen Raumentwicklung nach ÖREK 2030?",
+    "question_en": "How does the megatrend 'climate change' manifest itself in Austrian spatial development according to ÖREK 2030?",
+    "options_de": [
+      "a) Nur durch steigende Temperaturen in urbanen Gebieten",
+      "b) Durch Extremwetterereignisse, Trockenheit, Hitze und notwendige Anpassungsmaßnahmen in Infrastruktur und Besiedlung",
+      "c) Durch Schneemangel in Skigebieten und Bedrohung des Tourismus",
+      "d) Durch Verschiebung von Anbaugebieten und Waldtypen",
+      "e) b), c) und d) sind allesamt Manifestationen des Klimawandels"
+    ],
+    "options_en": [
+      "a) Only through rising temperatures in urban areas",
+      "b) Through extreme weather events, drought, heat and necessary adaptation measures in infrastructure and settlement",
+      "c) Through snow shortage in ski areas and threat to tourism",
+      "d) Through shift in cultivation areas and forest types",
+      "e) b), c) and d) are all manifestations of climate change"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Der Klimawandel hat multidimensionale Auswirkungen auf Raumentwicklung: nicht nur Hitze und Extremwetter, sondern auch Auswirkungen auf Wald, Landwirtschaft und Tourismus. Das ÖREK 2030 adressiert alle diese Dimensionen.",
+    "explanation_en": "Climate change has multidimensional impacts on spatial development: not just heat and extreme weather, but also impacts on forests, agriculture and tourism. ÖREK 2030 addresses all these dimensions.",
+    "mistakes_de": "Zu enge Sicht: nur an Hitze oder Extremwetter denken. Der Klimawandel hat kaskadische Effekte auf alle Wirtschaftssektoren und Lebensräume.",
+    "mistakes_en": "Too narrow view: thinking only of heat or extreme weather. Climate change has cascading effects on all economic sectors and habitats.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-02",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Digitalisierung",
+      "Technologie"
+    ],
+    "question_de": "Welche räumlichen Auswirkungen hat der Megatrend 'Digitalisierung' nach ÖREK 2030?",
+    "question_en": "What spatial impacts does the megatrend 'digitalization' have according to ÖREK 2030?",
+    "options_de": [
+      "a) Reine Verlagerung von Arbeit ins Homeoffice, daher sinkender Flächenbedarf in Zentren",
+      "b) Neue Anforderungen an digitale Infrastruktur (Breitband, 5G) in allen Regionen",
+      "c) Möglichkeit von dezentraler Arbeit, erfordert aber auch Anpassung von Infrastruktur und Lebensräumen",
+      "d) Reduzierung von Pendlerverkehr und damit automatisch weniger Flächenverbrauch",
+      "e) b) und c) sind zutreffend"
+    ],
+    "options_en": [
+      "a) Pure shift of work to home office, therefore declining space demand in centers",
+      "b) New requirements for digital infrastructure (broadband, 5G) in all regions",
+      "c) Possibility of decentralized work, but also requires adaptation of infrastructure and living spaces",
+      "d) Reduction of commuter traffic and thus automatically less land consumption",
+      "e) b) and c) are correct"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Digitalisierung hat multiple räumliche Implikationen: einerseits ermöglicht sie dezentrale Arbeit, andererseits erfordert sie flächendeckende digitale Infrastruktur. Ein Homeoffice erfordert aber nicht automatisch weniger Siedlungsfläche, sondern verlagert Raumnutzung eher (Wohnraum-Nachfrage steigt in attraktiven Gegenden).",
+    "explanation_en": "Digitalization has multiple spatial implications: on the one hand, it enables decentralized work; on the other, it requires universal digital infrastructure. However, home office does not automatically require less settlement area, but rather shifts space use (demand for housing increases in attractive areas).",
+    "mistakes_de": "Simplistischer Fehler: Homeoffice = weniger Flächenbedarf. Tatsächlich: größerer Wohnflächenbedarf pro Person, neue Infrastrukturanforderungen, räumliche Umverteilung.",
+    "mistakes_en": "Simplistic error: Home office = less space requirement. Actually: larger living space requirement per person, new infrastructure requirements, spatial redistribution.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-03",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Globalisierung",
+      "Verkehr"
+    ],
+    "question_de": "Wie beeinflusst die Globalisierung die österreichische Raumentwicklung nach ÖREK 2030?",
+    "question_en": "How does globalization influence Austrian spatial development according to ÖREK 2030?",
+    "options_de": [
+      "a) Durch erhöhte internationale Handelsflüsse und Anforderungen an internationale Verkehrsinfrastruktur",
+      "b) Durch Migration und notwendige Anpassung von Wohnungsmarkt und Infrastruktur",
+      "c) Durch internationale Arbeitsteilung und Spezialisierung von Regionen",
+      "d) Durch Druck auf lokale Kulturen und Wirtschaften",
+      "e) Alle obigen Aspekte tragen zur räumlichen Auswirkung bei"
+    ],
+    "options_en": [
+      "a) Through increased international trade flows and requirements for international transport infrastructure",
+      "b) Through migration and necessary adaptation of housing market and infrastructure",
+      "c) Through international division of labor and specialization of regions",
+      "d) Through pressure on local cultures and economies",
+      "e) All of the above aspects contribute to spatial impact"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Globalisierung ist multidimensional: internationale Verkehrsachsen, Arbeitsmigration, regionale Spezialisierung, Druck auf lokale Strukturen. Das ÖREK 2030 berücksichtigt diese Komplexität bei der Raumentwicklung.",
+    "explanation_en": "Globalization is multidimensional: international transport axes, labor migration, regional specialization, pressure on local structures. ÖREK 2030 considers this complexity in spatial development.",
+    "mistakes_de": "Zu enge Sicht: Globalisierung nur als Handel oder nur als Migration zu sehen. Es geht um das gesamte System der internationalen Verflechtung.",
+    "mistakes_en": "Too narrow view: seeing globalization only as trade or only as migration. It's about the entire system of international integration.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-04",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "Megatrends",
+      "Demografischer Wandel",
+      "Bevölkerung"
+    ],
+    "question_de": "Welche demografischen Megatrends sind für Österreichs Raumentwicklung nach 2030 zentral?",
+    "question_en": "Which demographic megatrends are central to Austria's spatial development after 2030?",
+    "options_de": [
+      "a) Nur Bevölkerungswachstum in Ballungsräumen",
+      "b) Alterung der Bevölkerung (bis 2040: +52% der über-65-Jährigen) und regionale Bevölkerungsverluste",
+      "c) Erhöhter Wohnflächenbedarf pro Kopf bei gleichzeitiger Überalterung",
+      "d) Migrationsbewegungen und Zuwanderung mit Folgen für Infrastrukturplanung",
+      "e) b), c) und d) sind allesamt zentrale Trends"
+    ],
+    "options_en": [
+      "a) Only population growth in agglomeration areas",
+      "b) Aging of population (by 2040: +52% of over-65s) and regional population losses",
+      "c) Increased living space requirement per capita while simultaneously aging",
+      "d) Migration movements and immigration with consequences for infrastructure planning",
+      "e) b), c) and d) are all central trends"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Der demografische Wandel in Österreich ist komplex: nicht nur Alterung, sondern auch Multipolarität von Wachstums- und Schrumpfungsregionen, erhöhter Wohnflächenbedarf (Single-Haushalte, Alter), und Migrationsdynamiken. Das ÖREK 2030 muss diese multifaktoriellen Dynamiken adressieren.",
+    "explanation_en": "Austria's demographic change is complex: not just aging, but also multipolarity of growth and shrinkage regions, increased living space requirements (single households, age), and migration dynamics. ÖREK 2030 must address these multifactorial dynamics.",
+    "mistakes_de": "Verengtes Bild: nur Überalterung oder nur Abwanderung betrachten. Die Realität ist räumlich sehr heterogen.",
+    "mistakes_en": "Narrowed view: considering only aging or only outmigration. The reality is spatially very heterogeneous.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-05",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Gesellschaftlicher Wandel",
+      "Multilokalität"
+    ],
+    "question_de": "Was versteht das ÖREK 2030 unter dem Megatrend 'Gesellschaftlicher Wandel/Multilokalität'?",
+    "question_en": "What does ÖREK 2030 mean by the megatrend 'societal change/multilocality'?",
+    "options_de": [
+      "a) Nur Migration von ländlichen in urbane Gebiete",
+      "b) Veränderung von Lebensstilen, Haushaltsstrukturen und räumliche Mobilität (z.B. mehrere Wohnorte, flexible Arbeitsort-Orte)",
+      "c) Zunahme von Single-Haushalten und Scheidungen",
+      "d) Pluralisierung von Lebensentwürfen und Werteorientierungen",
+      "e) b) und d) sind zentral für das Verständnis von Multilokalität"
+    ],
+    "options_en": [
+      "a) Only migration from rural to urban areas",
+      "b) Changes in lifestyles, household structures and spatial mobility (e.g., multiple residences, flexible work locations)",
+      "c) Increase in single-person households and divorces",
+      "d) Pluralization of life designs and value orientations",
+      "e) b) and d) are central to understanding multilocality"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Multilokalität bedeutet nicht nur Abwanderung, sondern neue Formen von räumlicher Praxis (mehrere Wohnorte, Pendeln, saisonale Mobilität) sowie Pluralisierung von Lebensentwürfen. Das hat Implikationen für Wohnungsmarkt, Infrastruktur und Flächennutzung.",
+    "explanation_en": "Multilocality does not just mean migration, but new forms of spatial practice (multiple residences, commuting, seasonal mobility) as well as pluralization of life designs. This has implications for housing market, infrastructure and land use.",
+    "mistakes_de": "Zu eng: Multilokalität nur als Abwanderung zu verstehen. Es geht um neue räumliche Lebensmuster.",
+    "mistakes_en": "Too narrow: understanding multilocality only as outmigration. It's about new spatial living patterns.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-06",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Wissensgesellschaft",
+      "Innovation"
+    ],
+    "question_de": "Wie wirkt sich der Megatrend 'Wissensgesellschaft' auf die österreichische Raumentwicklung aus?",
+    "question_en": "How does the megatrend 'knowledge society' affect Austrian spatial development?",
+    "options_de": [
+      "a) Konzentration von Hochschulen und Forschung in traditionellen Universitätsstädten",
+      "b) Erhöhte Nachfrage nach technischer Infrastruktur und hochqualifizierten Arbeitern in allen Regionen",
+      "c) Aufwertung von Räumen mit guter Erreichbarkeit zu Bildungs- und Innovationseinrichtungen",
+      "d) Dezentralisierung von Forschung und Innovation in neue regionale Cluster",
+      "e) Alle obigen Aspekte spielen eine Rolle"
+    ],
+    "options_en": [
+      "a) Concentration of universities and research in traditional university cities",
+      "b) Increased demand for technical infrastructure and highly qualified workers in all regions",
+      "c) Upgrading of spaces with good accessibility to education and innovation facilities",
+      "d) Decentralization of research and innovation into new regional clusters",
+      "e) All of the above aspects play a role"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Wissensgesellschaft führt nicht zu einfacher Zentralisierung oder Dezentralisierung, sondern zu neuen räumlichen Mustern: Verdichtung in traditionellen Zentren, neue Cluster im ländlichen Raum (z.B. durch digitale Infrastruktur), und erhöhte räumliche Ungleichheit.",
+    "explanation_en": "Knowledge society does not lead to simple centralization or decentralization, but to new spatial patterns: densification in traditional centers, new clusters in rural areas (e.g., through digital infrastructure), and increased spatial inequality.",
+    "mistakes_de": "Vereinfachung: Annahme, dass Wissensgesellschaft automatisch zu Dezentralisierung führt. Tatsächlich: komplexere räumliche Differenzierung.",
+    "mistakes_en": "Simplification: assumption that knowledge society automatically leads to decentralization. Actually: more complex spatial differentiation.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-07",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Urbanisierung",
+      "Städte"
+    ],
+    "question_de": "Was charakterisiert den Megatrend 'Urbanisierung' im Kontext des ÖREK 2030?",
+    "question_en": "What characterizes the megatrend 'urbanization' in the context of ÖREK 2030?",
+    "options_de": [
+      "a) Nur Wachstum von Großstädten",
+      "b) Zunahme urbaner Lebensweisen und Funktionen auch im ländlichen Raum",
+      "c) Konzentration von Bevölkerung, Arbeitsplätzen und Dienstleistungen in Ballungsräumen",
+      "d) Entstehung von polyzentrischen Städtenetzen statt monozentrischer Metropolen",
+      "e) b), c) und d) sind zentral für modernes Verständnis von Urbanisierung"
+    ],
+    "options_en": [
+      "a) Only growth of major cities",
+      "b) Increase of urban lifestyles and functions also in rural areas",
+      "c) Concentration of population, employment and services in agglomerations",
+      "d) Emergence of polycentric city networks instead of monocentric metropolises",
+      "e) b), c) and d) are central to modern understanding of urbanization"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Modernde Urbanisierung ist nicht nur Wachstum von Großstädten, sondern: (1) Verbreitung urbaner Funktionen in ländliche Gebiete, (2) Konzentration in Ballungsräumen, aber auch (3) neue polyzentrische Strukturen. Das ÖREK 2030 adressiert diese Komplexität.",
+    "explanation_en": "Modern urbanization is not just growth of major cities, but: (1) spread of urban functions to rural areas, (2) concentration in agglomerations, but also (3) new polycentric structures. ÖREK 2030 addresses this complexity.",
+    "mistakes_de": "Zu eng: Urbanisierung = Großstadtwachstum. Tatsächlich: komplex, multidimensional, auch im ländlichen Raum präsent.",
+    "mistakes_en": "Too narrow: urbanization = major city growth. Actually: complex, multidimensional, also present in rural areas.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-08",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Energiebedarf",
+      "Ressourcen"
+    ],
+    "question_de": "Wie manifestiert sich der Megatrend 'Steigender Energiebedarf' in der österreichischen Raumentwicklung?",
+    "question_en": "How does the megatrend 'increasing energy demand' manifest itself in Austrian spatial development?",
+    "options_de": [
+      "a) Nur steigende Nachfrage nach Stromversorgung in Städten",
+      "b) Notwendigkeit neuer Infrastrukturen für erneuerbare Energien (Solar-, Wind-, Wasserkraft)",
+      "c) Flächenkonkurrenz zwischen Energieproduktion und anderen Raumnutzungen",
+      "d) Raumplanerische Anforderungen für Energiewende und dezentrale Energieversorgung",
+      "e) b), c) und d) sind zentral"
+    ],
+    "options_en": [
+      "a) Only increasing demand for electricity supply in cities",
+      "b) Need for new infrastructure for renewable energy (solar, wind, hydropower)",
+      "c) Land competition between energy production and other uses",
+      "d) Spatial planning requirements for energy transition and decentralized energy supply",
+      "e) b), c) and d) are central"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Der steigende Energiebedarf im Kontext der Energiewende schafft räumliche Herausforderungen: Flächen für Solaranlagen, Windkraftanlagen, Stromleitungen, Batteriespeicher. Das ÖREK 2030 muss diese Infrastrukturen in Raumentwicklung integrieren.",
+    "explanation_en": "Rising energy demand in the context of the energy transition creates spatial challenges: land for solar installations, wind turbines, power lines, battery storage. ÖREK 2030 must integrate this infrastructure into spatial development.",
+    "mistakes_de": "Zu eng: nur Stromverbrauch betrachten. Tatsächlich: komplexe Infrastrukturplanung für Energiewende.",
+    "mistakes_en": "Too narrow: considering only power consumption. Actually: complex infrastructure planning for energy transition.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-09",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "Megatrends",
+      "Raumverhalten",
+      "Mobilität"
+    ],
+    "question_de": "Was versteht man unter 'Trends im Raumverhalten' als Megatrend im ÖREK 2030?",
+    "question_en": "What is meant by 'trends in spatial behavior' as a megatrend in ÖREK 2030?",
+    "options_de": [
+      "a) Nur Veränderungen in Pendlermustern",
+      "b) Veränderung von Mobilitätsverhalten (mehr Personenkraftwagen, weniger ÖPNV)",
+      "c) Neue Formen von Raumnutzung, Mobilität und räumlicher Praxis (z.B. Sharing-Economy, Teleworking)",
+      "d) Verstärkte Freizeit-Mobilität und Tourismusverkehr",
+      "e) c) und d) sind zentrale Aspekte des Trends im Raumverhalten"
+    ],
+    "options_en": [
+      "a) Only changes in commuting patterns",
+      "b) Change in mobility behavior (more personal cars, less public transport)",
+      "c) New forms of space utilization, mobility and spatial practice (e.g., sharing economy, teleworking)",
+      "d) Increased leisure mobility and tourism traffic",
+      "e) c) and d) are central aspects of the trend in spatial behavior"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Raumverhalten bezieht sich auf neue Praktiken der Raumnutzung und Mobilität: nicht nur Pendeln, sondern auch Sharing (Wohnungen, Autos), neue Mobilitätsformen, und erhöhte Freizeitverkehre. Das ÖREK 2030 muss diese Trends bei der Infrastrukturplanung berücksichtigen.",
+    "explanation_en": "Spatial behavior refers to new practices of space utilization and mobility: not just commuting, but also sharing (housing, cars), new mobility forms, and increased leisure traffic. ÖREK 2030 must consider these trends in infrastructure planning.",
+    "mistakes_de": "Vereinfachung: Raumverhalten = nur Pendeln. Tatsächlich: vielfältige neue räumliche Praktiken.",
+    "mistakes_en": "Simplification: spatial behavior = only commuting. Actually: diverse new spatial practices.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-megatrends-gen-10",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "Megatrends",
+      "Zahlen",
+      "Statistik",
+      "Bevölkerung"
+    ],
+    "question_de": "Welche Aussagen zu bevölkerungsbezogenen Daten im ÖREK 2030 sind korrekt?",
+    "question_en": "Which statements about population-related data in ÖREK 2030 are correct?",
+    "options_de": [
+      "a) Österreichs Bevölkerung ist zwischen 2001 und 2019 um 828.775 Personen gewachsen",
+      "b) Bis 2040 wird ein Bevölkerungswachstum von etwa +7,2% erwartet",
+      "c) Die über-65-Jährigen werden bis 2040 um etwa 52% zunehmen",
+      "d) Der Flächenverbrauch soll von aktuell 10-12 ha/Tag auf 2,5 ha/Tag reduziert werden",
+      "e) Alle obigen Aussagen sind zutreffend"
+    ],
+    "options_en": [
+      "a) Austria's population grew by 828,775 persons between 2001 and 2019",
+      "b) Population growth of approximately +7.2% is expected by 2040",
+      "c) The over-65 population will increase by approximately 52% by 2040",
+      "d) Land consumption should be reduced from current 10-12 hectares/day to 2.5 hectares/day",
+      "e) All of the above statements are correct"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Alle vier Aussagen sind zentrale demografische und flächenpolitische Fakten des ÖREK 2030: Bevölkerungswachstum (828.775 im Zwei-Jahrzehnte-Zeitraum), erwartetes Wachstum bis 2040 (+7,2%), dramatische Überalterung (+52% 65+), und ambitionierte Flächensparziele (von ~10 ha/Tag auf 2,5 ha/Tag).",
+    "explanation_en": "All four statements are central demographic and land policy facts of ÖREK 2030: population growth (828,775 in two-decade period), expected growth by 2040 (+7.2%), dramatic aging (+52% 65+), and ambitious land-saving targets (from ~10 ha/day to 2.5 ha/day).",
+    "mistakes_de": "Häufig falsche Zahlen memorieren. Wichtig: die Größenordnungen verstehen (800k+, 7%, 52%, 2.5 ha/Tag als Ziel).",
+    "mistakes_en": "Often memorizing wrong numbers. Important: understand the magnitudes (800k+, 7%, 52%, 2.5 ha/day as target).",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      }
+    ],
+    "source": "ÖREK 2030"
+  },
+  {
+    "id": "oerek-actions-gen-01",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "säulen",
+      "ressourcenschonung"
+    ],
+    "question_de": "Welche Säule des OEREK 2030 beschäftigt sich primär mit der Reduktion des täglichen Flächenverbrauchs und der Innenentwicklung?",
+    "question_en": "Which pillar of OEREK 2030 primarily focuses on reducing daily land consumption and inner development?",
+    "options_de": [
+      "a) S2 Zusammenhalt",
+      "b) S1 Ressourcen schonen",
+      "c) S3 Wirtschaft stärken",
+      "d) S4 Governance",
+      "e) Alle Säulen gleichermaßen"
+    ],
+    "options_en": [
+      "a) S2 Social Cohesion",
+      "b) S1 Resource Conservation",
+      "c) S3 Economic Strengthening",
+      "d) S4 Governance",
+      "e) All pillars equally"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Säule 1 (S1 - Ressourcen schonen) hat das Ziel, den Flächenverbrauch auf maximal 2,5 Hektar pro Tag zu reduzieren und Innenentwicklung sowie ÖV-Achsen zu priorisieren.",
+    "explanation_en": "Pillar 1 (S1 - Resource Conservation) aims to reduce land consumption to a maximum of 2.5 hectares per day and prioritise inner development and public transport axes.",
+    "mistakes_de": "Häufig wird S2 (Zusammenhalt) gewählt, obwohl S2 sich auf Daseinsvorsorge und leistbares Wohnen konzentriert, während die Flächenreduktion primär eine Ressourcenschutz-Maßnahme ist.",
+    "mistakes_en": "S2 (Social Cohesion) is often chosen, but S2 focuses on public services and affordable housing, while land reduction is primarily a resource protection measure.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-02",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "instrumente",
+      "leerstandskataster"
+    ],
+    "question_de": "Ein Leerstandskataster ist ein Instrument zur Aktivierung von Baulücken und Leerständen. Welcher Säule trägt dieses Instrument primär bei?",
+    "question_en": "A vacancy register is an instrument for activating building gaps and vacant properties. Which pillar does this instrument primarily contribute to?",
+    "options_de": [
+      "a) S1 Ressourcen schonen und S2 Zusammenhalt",
+      "b) Nur S1 Ressourcen schonen",
+      "c) S3 Wirtschaft stärken",
+      "d) S4 Governance",
+      "e) S2 Zusammenhalt"
+    ],
+    "options_en": [
+      "a) S1 Resource Conservation and S2 Social Cohesion",
+      "b) Only S1 Resource Conservation",
+      "c) S3 Economic Strengthening",
+      "d) S4 Governance",
+      "e) S2 Social Cohesion"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Das Leerstandskataster trägt sowohl zu S1 bei (durch Reduktion der Neuflächeninanspruchnahme via Innenentwicklung) als auch zu S2 (durch Schaffung von leistbarem Wohnraum in Ortskernen).",
+    "explanation_en": "The vacancy register contributes to both S1 (by reducing new land consumption through inner development) and S2 (by creating affordable housing in town centres).",
+    "mistakes_de": "Häufig wird nur S1 gewählt, obwohl das Instrument auch sozialen Zusammenhalt durch die Schaffung von leistbaren Wohnraum-Ressourcen fördert.",
+    "mistakes_en": "Often only S1 is chosen, although the instrument also promotes social cohesion by creating affordable housing resources.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-03",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "klimaneutralität"
+    ],
+    "question_de": "Der erste Punkt des 10-Punkte-Programms im OEREK 2030 befasst sich mit welchem Thema?",
+    "question_en": "What topic does the first point of the 10-point programme in OEREK 2030 address?",
+    "options_de": [
+      "a) Fläche reduzieren",
+      "b) Ortskerne stärken",
+      "c) Klimaneutralität",
+      "d) Freiräume sichern",
+      "e) Governance verbessern"
+    ],
+    "options_en": [
+      "a) Reduce land consumption",
+      "b) Strengthen town centres",
+      "c) Climate neutrality",
+      "d) Secure open spaces",
+      "e) Improve governance"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Punkt 1 des 10-Punkte-Programms ist 'Klimaneutralität'. Die weiteren Punkte sind: 2=Fläche, 3=Ortskerne, 4=Freiräume, 5=Erreichbarkeit, 6=Klimaanpassung, 7=Daseinsvorsorge, 8=Kreislaufwirtschaft, 9=Digitalisierung, 10=Governance.",
+    "explanation_en": "Point 1 of the 10-point programme is 'Climate Neutrality'. The other points are: 2=Land, 3=Town Centres, 4=Open Spaces, 5=Accessibility, 6=Climate Adaptation, 7=Public Services, 8=Circular Economy, 9=Digitalisation, 10=Governance.",
+    "mistakes_de": "Verwechslung mit anderen Programmzielen ist häufig; die Reihenfolge der 10 Punkte ist jedoch eindeutig festgelegt.",
+    "mistakes_en": "Confusion with other programme objectives is common; however, the order of the 10 points is clearly defined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-04",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "instrumente",
+      "baulandmobilisierung",
+      "rückwidmung"
+    ],
+    "question_de": "Baulandmobilisierung und Rückwidmung sind zwei Instrumente zur Bodenflächenoptimierung. Welche der folgenden Aussagen sind korrekt? (1) Baulandmobilisierung aktiviert ungenutztes Bauland. (2) Rückwidmung verwandelt Bauland in Freiland zurück. (3) Beide Instrumente tragen nur zu S1 bei.",
+    "question_en": "Building land mobilisation and rezoning are two instruments for optimising land use. Which of the following statements are correct? (1) Building land mobilisation activates unused building land. (2) Rezoning converts building land back to open land. (3) Both instruments contribute only to S1.",
+    "options_de": [
+      "a) Nur 1 und 2",
+      "b) Nur 1",
+      "c) Nur 2",
+      "d) Alle drei sind korrekt",
+      "e) Nur 2 und 3"
+    ],
+    "options_en": [
+      "a) Only 1 and 2",
+      "b) Only 1",
+      "c) Only 2",
+      "d) All three are correct",
+      "e) Only 2 and 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Aussagen 1 und 2 sind korrekt. Aussage 3 ist falsch, da beide Instrumente S1 (Ressourcenschonung) direkt unterstützen, aber auch S2 (Daseinsvorsorge/Wohnraum) und S3 (Wirtschaft) indirekt fördern können.",
+    "explanation_en": "Statements 1 and 2 are correct. Statement 3 is false because both instruments directly support S1 (Resource Conservation) but can also indirectly promote S2 (Public Services/Housing) and S3 (Economy).",
+    "mistakes_de": "Häufig wird Aussage 3 als wahr angenommen, da S1 das Hauptziel ist; jedoch haben diese Instrumente auch multi-säuleneffekte.",
+    "mistakes_en": "Statement 3 is often assumed to be true because S1 is the main objective; however, these instruments also have multi-pillar effects.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-05",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "daseinsvorsorge"
+    ],
+    "question_de": "Punkt 7 des 10-Punkte-Programms behandelt die Daseinsvorsorge. Unter welche Säule fällt dieses Thema primär?",
+    "question_en": "Point 7 of the 10-point programme addresses public services. Under which pillar does this topic primarily fall?",
+    "options_de": [
+      "a) S1 Ressourcen schonen",
+      "b) S2 Zusammenhalt",
+      "c) S3 Wirtschaft stärken",
+      "d) S4 Governance",
+      "e) Alle Säulen"
+    ],
+    "options_en": [
+      "a) S1 Resource Conservation",
+      "b) S2 Social Cohesion",
+      "c) S3 Economic Strengthening",
+      "d) S4 Governance",
+      "e) All Pillars"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Die Daseinsvorsorge (public services: Schulen, Gesundheit, Mobilität, Versorgung) ist ein Kernthema von Säule 2 (S2 - Zusammenhalt).",
+    "explanation_en": "Public services (schools, healthcare, mobility, utilities) are a core theme of Pillar 2 (S2 - Social Cohesion).",
+    "mistakes_de": "Verwechslung mit S1 (Ressourcenschonung) ist häufig, obwohl Daseinsvorsorge eher mit sozialer Infrastruktur und Zusammenhalt verbunden ist.",
+    "mistakes_en": "Confusion with S1 (Resource Conservation) is common, although public services are more closely associated with social infrastructure and cohesion.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-06",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "orek-partnerschaften",
+      "governance"
+    ],
+    "question_de": "ÖREK-Partnerschaften sind ein innovatives Governance-Instrument. Welche Charakteristika treffen zu? (1) Sie sind freiwillig und temporär. (2) Sie sind thematisch fokussiert. (3) Sie sind rechtsverbindlich wie eine Raumordnungskonvention.",
+    "question_en": "ÖREK partnerships are an innovative governance tool. Which characteristics apply? (1) They are voluntary and temporary. (2) They are thematically focused. (3) They are legally binding like a spatial planning convention.",
+    "options_de": [
+      "a) Alle drei",
+      "b) Nur 1 und 2",
+      "c) Nur 1",
+      "d) Nur 2",
+      "e) Nur 1 und 3"
+    ],
+    "options_en": [
+      "a) All three",
+      "b) Only 1 and 2",
+      "c) Only 1",
+      "d) Only 2",
+      "e) Only 1 and 3"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "ÖREK-Partnerschaften sind freiwillig, temporär und thematisch ausgerichtet, aber NICHT rechtsverbindlich. Sie sind ein flexibles Governance-Instrument ohne formale rechtliche Bindung.",
+    "explanation_en": "ÖREK partnerships are voluntary, temporary, and thematically focused, but NOT legally binding. They are a flexible governance tool without formal legal binding.",
+    "mistakes_de": "Häufig wird angenommen, dass sie rechtsverbindlich sind wie formale Raumordnungskonventionen, obwohl ihre Stärke gerade in der informellen, flexiblen Zusammenarbeit liegt.",
+    "mistakes_en": "It is often assumed that they are legally binding like formal spatial planning conventions, although their strength lies precisely in informal, flexible collaboration.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-07",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "instrumente",
+      "flächenzertifikate"
+    ],
+    "question_de": "Flächenzertifikate sind ein Marktinstrument zur Steuerung des Flächenverbrauchs. Sie basieren auf welchem ökonomischen Prinzip?",
+    "question_en": "Land certificates are a market instrument for controlling land consumption. On which economic principle are they based?",
+    "options_de": [
+      "a) Regulierung durch Gebote und Verbote",
+      "b) Cap-and-Trade-System mit handelbaren Zertifikaten",
+      "c) Direkte Steuerung durch staatliche Planungsbehörden",
+      "d) Freiwillige Selbstverpflichtung der Gemeinden",
+      "e) Sanktionen für Überschreitungen"
+    ],
+    "options_en": [
+      "a) Regulation through permits and prohibitions",
+      "b) Cap-and-trade system with tradable certificates",
+      "c) Direct control by state planning authorities",
+      "d) Voluntary self-commitment by municipalities",
+      "e) Penalties for exceeding limits"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Flächenzertifikate basieren auf dem Cap-and-Trade-Prinzip: Eine Obergrenze für Flächenverbrauch wird festgelegt, und Gemeinden können über Zertifikate handeln, um Flexibilität zu schaffen.",
+    "explanation_en": "Land certificates are based on the cap-and-trade principle: An upper limit for land consumption is set, and municipalities can trade certificates to create flexibility.",
+    "mistakes_de": "Verwechslung mit direkter Regulierung (a, c) ist häufig; das Zertifikatsystem ist jedoch ein Marktmechanismus, nicht eine Command-and-Control-Regulierung.",
+    "mistakes_en": "Confusion with direct regulation (a, c) is common; however, the certificate system is a market mechanism, not a command-and-control regulation.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-08",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "governance",
+      "strategische-umweltprüfung"
+    ],
+    "question_de": "Die Strategische Umweltprüfung (SUP) ist ein Governance-Instrument im OEREK 2030. Welche Aussagen sind wahr? (1) Sie prüft die Umweltverträglichkeit von Raumordnungsplänen. (2) Sie ist eine verbindliche Vorstufe für alle Raumordnungsentscheidungen. (3) Sie bewertet räumliche Auswirkungen auf Umwelt und Gesellschaft.",
+    "question_en": "Strategic Environmental Assessment (SEA) is a governance tool in OEREK 2030. Which statements are true? (1) It examines the environmental compatibility of spatial plans. (2) It is a binding prerequisite for all spatial planning decisions. (3) It evaluates spatial impacts on the environment and society.",
+    "options_de": [
+      "a) Alle drei",
+      "b) Nur 1 und 3",
+      "c) Nur 1",
+      "d) Nur 2 und 3",
+      "e) Nur 2"
+    ],
+    "options_en": [
+      "a) All three",
+      "b) Only 1 and 3",
+      "c) Only 1",
+      "d) Only 2 and 3",
+      "e) Only 2"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Aussagen 1 und 3 sind wahr. Aussage 2 ist teilweise falsch: Die SUP ist eine wichtige Praxis, aber nicht in allen Kontexten rechtsverbindlich vorgeschrieben.",
+    "explanation_en": "Statements 1 and 3 are true. Statement 2 is partially false: SEA is an important practice, but not legally binding in all contexts.",
+    "mistakes_de": "Häufig wird angenommen, dass die SUP für ALLE Entscheidungen zwingend ist; tatsächlich hängt die Verbindlichkeit vom Kontext und der Jurisdiktion ab.",
+    "mistakes_en": "It is often assumed that SEA is mandatory for ALL decisions; in fact, the binding nature depends on context and jurisdiction.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-09",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "säulen",
+      "wirtschaft"
+    ],
+    "question_de": "Säule 3 (Wirtschaft stärken) umfasst mehrere Maßnahmen. Welche der folgenden gehören zu S3? (1) Breitband-Ausbau. (2) Klimaneutrale Erreichbarkeit. (3) Innovation und Forschung.",
+    "question_en": "Pillar 3 (Economic Strengthening) includes several measures. Which of the following belong to S3? (1) Broadband expansion. (2) Climate-neutral accessibility. (3) Innovation and research.",
+    "options_de": [
+      "a) Alle drei",
+      "b) Nur 1 und 3",
+      "c) Nur 2",
+      "d) Nur 1 und 2",
+      "e) Nur 3"
+    ],
+    "options_en": [
+      "a) All three",
+      "b) Only 1 and 3",
+      "c) Only 2",
+      "d) Only 1 and 2",
+      "e) Only 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Alle drei Maßnahmen sind Teil von S3: Breitband (digitale Infrastruktur), klimaneutrale Erreichbarkeit (Mobilität), und Innovation sind wesentliche Wirtschaftsförderer.",
+    "explanation_en": "All three measures are part of S3: Broadband (digital infrastructure), climate-neutral accessibility (mobility), and innovation are key economic drivers.",
+    "mistakes_de": "Klimaneutrale Erreichbarkeit wird manchmal zu S1 gezählt, da es um Ressourcenschonung geht; es ist jedoch primär ein Wirtschafts- und Mobilitätsthema in S3.",
+    "mistakes_en": "Climate-neutral accessibility is sometimes counted towards S1 because it involves resource conservation; however, it is primarily an economic and mobility theme in S3.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-10",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "instrumente",
+      "energieraumplanung"
+    ],
+    "question_de": "Energieraumplanung integriert Energieinfrastruktur in räumliche Planung. Welche Säulen unterstützt dieses Instrument primär? (1) S1 durch Optimierung von Energieinfrastruktur. (2) S3 durch Wirtschaftlichkeit und Innovation. (3) S4 durch koordinierte Governance.",
+    "question_en": "Energy spatial planning integrates energy infrastructure into spatial planning. Which pillars does this instrument primarily support? (1) S1 through optimisation of energy infrastructure. (2) S3 through cost-effectiveness and innovation. (3) S4 through coordinated governance.",
+    "options_de": [
+      "a) Alle drei",
+      "b) Nur 1 und 2",
+      "c) Nur 2 und 3",
+      "d) Nur 1",
+      "e) Nur 3"
+    ],
+    "options_en": [
+      "a) All three",
+      "b) Only 1 and 2",
+      "c) Only 2 and 3",
+      "d) Only 1",
+      "e) Only 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Energieraumplanung trägt zu allen drei Säulen bei: S1 (Ressourceneffizienz), S3 (wirtschaftliche Innovation in erneuerbaren Energien), und S4 (koordinierte Planung zwischen Energiewirtschaft und Raumordnung).",
+    "explanation_en": "Energy spatial planning contributes to all three pillars: S1 (resource efficiency), S3 (economic innovation in renewables), and S4 (coordinated planning between energy sector and spatial planning).",
+    "mistakes_de": "Häufig wird nur S1 oder S3 gewählt; die Governance-Komponente (S4) wird übersehen, obwohl die Koordination zwischen Sektoren zentral ist.",
+    "mistakes_en": "Often only S1 or S3 is chosen; the governance component (S4) is overlooked, although coordination between sectors is central.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-11",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "ortskerne"
+    ],
+    "question_de": "Punkt 3 des 10-Punkte-Programms fokussiert auf die Stärkung von Ortskernen. Welche Säulen werden dadurch primär adressiert?",
+    "question_en": "Point 3 of the 10-point programme focuses on strengthening town centres. Which pillars are primarily addressed?",
+    "options_de": [
+      "a) S1 und S2",
+      "b) S2 und S3",
+      "c) S1, S2 und S3",
+      "d) Nur S2",
+      "e) Nur S1"
+    ],
+    "options_en": [
+      "a) S1 and S2",
+      "b) S2 and S3",
+      "c) S1, S2 and S3",
+      "d) Only S2",
+      "e) Only S1"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Ortskerne-Stärkung trägt zu allen drei Säulen bei: S1 (Flächeneinsparung durch Verdichtung), S2 (soziales Leben und Daseinsvorsorge), S3 (lokale Wirtschaft, Einzelhandel, Handwerk).",
+    "explanation_en": "Town centre strengthening contributes to all three pillars: S1 (land savings through densification), S2 (social life and public services), S3 (local economy, retail, crafts).",
+    "mistakes_de": "Häufig wird nur S2 gewählt, da Ortskerne mit Zusammenhalt und Gemeindeleben assoziiert werden; der Mehrpillar-Effekt wird übersehen.",
+    "mistakes_en": "Often only S2 is chosen because town centres are associated with cohesion and community life; the multi-pillar effect is overlooked.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-12",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "governance",
+      "finanzausgleich"
+    ],
+    "question_de": "Der Finanzausgleich ist ein Governance-Instrument, das Anreize für raumordnungspolitische Ziele setzt. Wie kann der Finanzausgleich die OEREK 2030-Ziele unterstützen?",
+    "question_en": "Fiscal equalisation is a governance instrument that creates incentives for spatial planning objectives. How can fiscal equalisation support OEREK 2030 goals?",
+    "options_de": [
+      "a) Durch direkte Subventionen für S1-Maßnahmen",
+      "b) Durch Anreizstrukturen, die Sparflächenwirtschaft belohnen",
+      "c) Durch Bestrafung von Flächenverbrauch",
+      "d) Durch Umverteilung zwischen Regionen unabhängig von Raumordnungsleistung",
+      "e) Durch Förderung von Einzelhandel"
+    ],
+    "options_en": [
+      "a) Through direct subsidies for S1 measures",
+      "b) Through incentive structures that reward efficient land use",
+      "c) Through penalties for land consumption",
+      "d) Through redistribution between regions independent of spatial planning performance",
+      "e) Through promotion of retail"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Ein moderner Finanzausgleich kann Anreizstrukturen schaffen, die Gemeinden für sparsame Flächenwirtschaft und OEREK 2030-Konformität belohnen, statt Flächenverbrauch zu subventionieren.",
+    "explanation_en": "A modern fiscal equalisation system can create incentive structures that reward municipalities for efficient land use and OEREK 2030 compliance, rather than subsidising land consumption.",
+    "mistakes_de": "Häufig wird direkte Subvention (a) oder Bestrafung (c) gewählt; die Gestaltung von Anreizen ist jedoch komplexer und flexibler.",
+    "mistakes_en": "Direct subsidy (a) or punishment (c) is often chosen; however, incentive design is more complex and flexible.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-13",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "freiräume"
+    ],
+    "question_de": "Punkt 4 des 10-Punkte-Programms behandelt die Sicherung von Freiräumen. Unter welche Säule(n) fällt dieses Thema?",
+    "question_en": "Point 4 of the 10-point programme addresses the preservation of open spaces. Which pillar(s) does this topic fall under?",
+    "options_de": [
+      "a) Nur S1",
+      "b) S1 und S2",
+      "c) Nur S2",
+      "d) S2 und S3",
+      "e) Nur S3"
+    ],
+    "options_en": [
+      "a) Only S1",
+      "b) S1 and S2",
+      "c) Only S2",
+      "d) S2 and S3",
+      "e) Only S3"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Freiräume-Sicherung trägt zu S1 bei (Ressourcenschonung, Biodiversität) und zu S2 (Lebensqualität, Erholung, öffentliche Grünflächen).",
+    "explanation_en": "Open space preservation contributes to S1 (resource conservation, biodiversity) and S2 (quality of life, recreation, public green spaces).",
+    "mistakes_de": "Häufig wird nur S1 gewählt; S2 (Lebensqualität und Zusammenhalt) wird übersehen, obwohl öffentliche Freiräume für das soziale Leben zentral sind.",
+    "mistakes_en": "Often only S1 is chosen; S2 (quality of life and cohesion) is overlooked, although public open spaces are central to social life.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-14",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "säulen",
+      "leistbares-wohnen"
+    ],
+    "question_de": "Leistbares Wohnen ist ein Kernziel von S2 (Zusammenhalt). Welche Instrumente können dieses Ziel fördern? (1) Leerstandskataster und Baulandmobilisierung. (2) Ortskernen-Stärkung. (3) ÖV-Achsen-Erschließung.",
+    "question_en": "Affordable housing is a core goal of S2 (Social Cohesion). Which instruments can promote this goal? (1) Vacancy registers and building land mobilisation. (2) Town centre strengthening. (3) Public transport axes development.",
+    "options_de": [
+      "a) Alle drei",
+      "b) Nur 1 und 2",
+      "c) Nur 1",
+      "d) Nur 2 und 3",
+      "e) Nur 3"
+    ],
+    "options_en": [
+      "a) All three",
+      "b) Only 1 and 2",
+      "c) Only 1",
+      "d) Only 2 and 3",
+      "e) Only 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Alle drei Instrumente fördern leistbares Wohnen: (1) Aktivierung von Bestandsflächen, (2) Ortskerne bieten dichte, kostengünstige Bebauung, (3) ÖV-Anbindung reduziert Mobilitätskosten und damit Gesamtlebenshaltung.",
+    "explanation_en": "All three instruments promote affordable housing: (1) Activation of existing land, (2) Town centres offer dense, cost-effective development, (3) Public transport connection reduces mobility costs and thus overall living costs.",
+    "mistakes_de": "Häufig wird unterschätzt, dass ÖV-Erreichbarkeit (3) einen großen Einfluss auf Wohnaffordabilität hat, da Mobilitätskosten Teil der Gesamtlebenshaltung sind.",
+    "mistakes_en": "It is often underestimated that public transport accessibility (3) has a major impact on housing affordability, as mobility costs are part of overall living expenses.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-15",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "klimaanpassung"
+    ],
+    "question_de": "Punkt 6 des 10-Punkte-Programms widmet sich der Klimaanpassung. Welche Säule ist primär betroffen?",
+    "question_en": "Point 6 of the 10-point programme is dedicated to climate adaptation. Which pillar is primarily affected?",
+    "options_de": [
+      "a) S1 Ressourcen schonen",
+      "b) S2 Zusammenhalt",
+      "c) S3 Wirtschaft stärken",
+      "d) S4 Governance",
+      "e) Alle Säulen"
+    ],
+    "options_en": [
+      "a) S1 Resource Conservation",
+      "b) S2 Social Cohesion",
+      "c) S3 Economic Strengthening",
+      "d) S4 Governance",
+      "e) All Pillars"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Klimaanpassung durchzieht alle Säulen: S1 (Naturgefahrenscutz, Biodiversität), S2 (Schutz von vulnerablen Gruppen), S3 (Wirtschaftliche Resilienz), S4 (Koordinierte Strategie).",
+    "explanation_en": "Climate adaptation cuts across all pillars: S1 (natural hazard protection, biodiversity), S2 (protection of vulnerable groups), S3 (economic resilience), S4 (coordinated strategy).",
+    "mistakes_de": "Häufig wird nur S1 oder S2 gewählt; die Querschnittscharakter der Klimaanpassung wird übersehen.",
+    "mistakes_en": "Often only S1 or S2 is chosen; the cross-cutting nature of climate adaptation is overlooked.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-16",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "governance",
+      "raumverträglichkeitsprüfung"
+    ],
+    "question_de": "Die Raumverträglichkeitsprüfung bewertet die räumlichen Auswirkungen von Maßnahmen oder Plänen. Wie unterscheidet sie sich von der Strategischen Umweltprüfung (SUP)?",
+    "question_en": "Spatial compatibility assessment evaluates the spatial impacts of measures or plans. How does it differ from Strategic Environmental Assessment (SEA)?",
+    "options_de": [
+      "a) RVP prüft nur Umweltaspekte, SUP prüft auch Soziales",
+      "b) RVP prüft räumliche Auswirkungen umfassend, SUP fokussiert auf Umwelt",
+      "c) RVP und SUP sind identisch",
+      "d) RVP ist verbindlich, SUP ist freiwillig",
+      "e) RVP betrifft nur Gemeinden, SUP betrifft Bundesländer"
+    ],
+    "options_en": [
+      "a) RVP examines only environmental aspects, SEA also examines social aspects",
+      "b) RVP examines spatial impacts comprehensively, SEA focuses on environment",
+      "c) RVP and SEA are identical",
+      "d) RVP is binding, SEA is voluntary",
+      "e) RVP concerns only municipalities, SEA concerns federal states"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "RVP (Raumverträglichkeitsprüfung) ist umfassender und prüft Auswirkungen auf Raum, Siedlung, Mobilität etc. SUP (Strategische Umweltprüfung) fokussiert stärker auf Umweltfolgen.",
+    "explanation_en": "RVP (Spatial Compatibility Assessment) is more comprehensive and examines impacts on space, settlement, mobility, etc. SEA (Strategic Environmental Assessment) focuses more on environmental consequences.",
+    "mistakes_de": "Häufig werden RVP und SUP als identisch behandelt; tatsächlich hat RVP einen breiteren räumlichen Fokus.",
+    "mistakes_en": "RVP and SEA are often treated as identical; in fact, RVP has a broader spatial focus.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-17",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "erreichbarkeit"
+    ],
+    "question_de": "Punkt 5 des 10-Punkte-Programms befasst sich mit Erreichbarkeit. Was ist damit primär gemeint?",
+    "question_en": "Point 5 of the 10-point programme addresses accessibility. What is primarily meant by this?",
+    "options_de": [
+      "a) Barrierefreiheit für Menschen mit Behinderungen",
+      "b) Erreichbarkeit von Infrastruktur und Diensten via öffentliche Verkehrsmittel und aktive Mobilität",
+      "c) Internetverbindung (digital accessibility)",
+      "d) Preisgünstiger Zugang zu Wohnungen",
+      "e) Fußgängerfreundliche Straßen"
+    ],
+    "options_en": [
+      "a) Accessibility for people with disabilities",
+      "b) Accessibility to infrastructure and services via public transport and active mobility",
+      "c) Internet connection (digital accessibility)",
+      "d) Affordable access to housing",
+      "e) Pedestrian-friendly streets"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Erreichbarkeit im OEREK 2030 bedeutet die räumliche Nähe und Verbindbarkeit zu Arbeitsplätzen, Schulen, Gesundheit, Kultur via ÖV und Fuß/Rad, nicht nur individuelle Barrierefreiheit.",
+    "explanation_en": "Accessibility in OEREK 2030 means spatial proximity and connectivity to jobs, schools, healthcare, culture via public transport and walking/cycling, not just individual accessibility.",
+    "mistakes_de": "Verwechslung mit Barrierefreiheit (a) oder digitale Erreichbarkeit (c) ist häufig; im Raumordnungskontext bedeutet Erreichbarkeit Mobilitätserreichbarkeit.",
+    "mistakes_en": "Confusion with disability accessibility (a) or digital accessibility (c) is common; in spatial planning context, accessibility means mobility accessibility.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-18",
+    "quizId": "oerek-actions",
+    "difficulty": "hard",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "kreislaufwirtschaft"
+    ],
+    "question_de": "Punkt 8 des 10-Punkte-Programms behandelt die Kreislaufwirtschaft in räumlicher Planung. Welche Säulen werden adressiert? (1) S1 durch Ressourcenschonung. (2) S3 durch wirtschaftliche Innovation. (3) S4 durch Koordination von Infrastruktur.",
+    "question_en": "Point 8 of the 10-point programme addresses the circular economy in spatial planning. Which pillars are addressed? (1) S1 through resource conservation. (2) S3 through economic innovation. (3) S4 through infrastructure coordination.",
+    "options_de": [
+      "a) Alle drei",
+      "b) Nur 1 und 2",
+      "c) Nur 2 und 3",
+      "d) Nur 1",
+      "e) Nur 3"
+    ],
+    "options_en": [
+      "a) All three",
+      "b) Only 1 and 2",
+      "c) Only 2 and 3",
+      "d) Only 1",
+      "e) Only 3"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Kreislaufwirtschaft in räumlicher Planung trägt zu allen drei Säulen bei: S1 (Ressourcenschonung durch Wiederverwertung), S3 (wirtschaftliche Chancen in Recycling/Upcycling), S4 (Koordination von Infrastruktur wie Deponien, Recyclingzentren).",
+    "explanation_en": "Circular economy in spatial planning contributes to all three pillars: S1 (resource conservation through recycling), S3 (economic opportunities in recycling/upcycling), S4 (coordination of infrastructure like landfills, recycling centres).",
+    "mistakes_de": "Häufig wird nur S1 gewählt; die wirtschaftlichen und governance-Aspekte der Kreislaufwirtschaft werden übersehen.",
+    "mistakes_en": "Often only S1 is chosen; the economic and governance aspects of the circular economy are overlooked.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "oerek-actions-gen-19",
+    "quizId": "oerek-actions",
+    "difficulty": "medium",
+    "tags": [
+      "handlungsprogramm",
+      "10-punkte-programm",
+      "governance-digitalisierung"
+    ],
+    "question_de": "Punkt 9 und 10 des 10-Punkte-Programms behandeln Digitalisierung und Governance. Wie hängen diese beiden Themen zusammen?",
+    "question_en": "Points 9 and 10 of the 10-point programme address digitalisation and governance. How are these two topics connected?",
+    "options_de": [
+      "a) Digitalisierung ermöglicht bessere Raumordnungs-Governance durch Daten und Transparenz",
+      "b) Governance begrenzt Digitalisierung zum Schutz der Privatsphäre",
+      "c) Digitalisierung und Governance sind unabhängige Themen",
+      "d) Governance verwaltet nur analoge Prozesse",
+      "e) Digitalisierung ist nur für Wirtschaft relevant"
+    ],
+    "options_en": [
+      "a) Digitalisation enables better spatial planning governance through data and transparency",
+      "b) Governance limits digitalisation to protect privacy",
+      "c) Digitalisation and governance are independent topics",
+      "d) Governance manages only analogue processes",
+      "e) Digitalisation is only relevant to the economy"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Digitalisierung (Punkt 9) und Governance (Punkt 10) sind eng verbunden: Digitale Tools (GIS, Online-Partizipation, Datenplattformen) ermöglichen bessere, transparentere Raumordnungs-Governance.",
+    "explanation_en": "Digitalisation (Point 9) and Governance (Point 10) are closely linked: Digital tools (GIS, online participation, data platforms) enable better, more transparent spatial planning governance.",
+    "mistakes_de": "Häufig werden diese Punkte als unabhängig betrachtet; ihre Verbindung durch Governance-Infrastruktur wird übersehen.",
+    "mistakes_en": "These points are often viewed as independent; their connection through governance infrastructure is overlooked.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Handlungsprogramm"
+  },
+  {
+    "id": "studienplan-gen-01",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "pflichtmodule"
+    ],
+    "question_de": "Welche Inhalte werden im Pflichtmodul PM3 (Planerische Grundlagen) vermittelt?",
+    "question_en": "What content is covered in the core module PM3 (Planning Fundamentals)?",
+    "options_de": [
+      "a) Stadtplanung, Regionalplanung und Landschaftsplanung",
+      "b) Architektur und Innenarchitektur",
+      "c) Bauingenieurwesen und Tragwerkslehre",
+      "d) Nur Stadtplanung und Verkehrsplanung",
+      "e) Freiraum- und Verkehrsplanung"
+    ],
+    "options_en": [
+      "a) Urban planning, regional planning, and landscape planning",
+      "b) Architecture and interior design",
+      "c) Civil engineering and structural theory",
+      "d) Urban planning and traffic planning only",
+      "e) Open space and traffic planning"
+    ],
+    "correct": [
+      0,
+      4
+    ],
+    "explanation_de": "PM3 Planerische Grundlagen umfasst Stadt-, Regional-, Landschafts-, Freiraum- und Verkehrsplanung als integrierte Grundlagen der Raumplanung.",
+    "explanation_en": "PM3 Planning Fundamentals encompasses urban, regional, landscape, open space, and traffic planning as integrated fundamentals of spatial planning.",
+    "mistakes_de": "Nicht mit Architektur oder Bauingenieurwesen verwechseln. Raumplanung ist eine eigenständige Disziplin.",
+    "mistakes_en": "Do not confuse with architecture or civil engineering. Spatial planning is an independent discipline.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-02",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "structure",
+      "ects"
+    ],
+    "question_de": "Wie viele ECTS-Punkte müssen in den Pflichtmodulen absolviert werden?",
+    "question_en": "How many ECTS credits must be completed in the core modules?",
+    "options_de": [
+      "a) 156 ECTS",
+      "b) 168 ECTS",
+      "c) 180 ECTS",
+      "d) 170 ECTS",
+      "e) 160 ECTS"
+    ],
+    "options_en": [
+      "a) 156 ECTS",
+      "b) 168 ECTS",
+      "c) 180 ECTS",
+      "d) 170 ECTS",
+      "e) 160 ECTS"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "13 Pflichtmodule (PM1-PM13) = 168 ECTS. Die restlichen 12 ECTS kommen aus 2 von 14 Wahlmodulen.",
+    "explanation_en": "13 core modules (PM1-PM13) = 168 ECTS. The remaining 12 ECTS come from 2 of 14 elective modules.",
+    "mistakes_de": "Nicht 180 ECTS verwechseln (das ist die Gesamtsumme). Die Bachelorarbeit hat 10 ECTS und ist separat.",
+    "mistakes_en": "Do not confuse with 180 ECTS total. The bachelor thesis has 10 ECTS and is separate.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-03",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "wahlmodule"
+    ],
+    "question_de": "Welche Wahlmodule sind Teil des Raumplanung-Curriculums? (Mehrfachantwort möglich)",
+    "question_en": "Which elective modules are part of the Spatial Planning curriculum? (Multiple answers possible)",
+    "options_de": [
+      "a) WM1: Landschaftsplanung und Naturschutz",
+      "b) WM3: Verkehrsplanung und Mobilität",
+      "c) WM5: Nachhaltige Stadtentwicklung",
+      "d) WM9: Planung und Kommunikation",
+      "e) WM13: Klimagerechte Raumplanung"
+    ],
+    "options_en": [
+      "a) WM1: Landscape planning and nature conservation",
+      "b) WM3: Traffic planning and mobility",
+      "c) WM5: Sustainable urban development",
+      "d) WM9: Planning and communication",
+      "e) WM13: Climate-just spatial planning"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "Alle genannten sind Wahlmodule (WM) des Studienplans. Studierende müssen 2 von 14 Wahlmodulen wählen.",
+    "explanation_en": "All named are elective modules (WM) of the curriculum. Students must choose 2 of 14 elective modules.",
+    "mistakes_de": "Es gibt insgesamt 14 Wahlmodule zur Auswahl, aber nicht alle sind in dieser Frage aufgelistet.",
+    "mistakes_en": "There are 14 elective modules total to choose from, but not all are listed in this question.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-04",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "nicht-raumplanung"
+    ],
+    "question_de": "Welche der folgenden Disziplinen ist NICHT Teil des Bachelor Raumplanung an der TU Wien?",
+    "question_en": "Which of the following disciplines is NOT part of the Bachelor in Spatial Planning at TU Vienna?",
+    "options_de": [
+      "a) Stadtplanung",
+      "b) Architektur",
+      "c) Landschaftsplanung",
+      "d) Verkehrsplanung",
+      "e) Regionalplanung"
+    ],
+    "options_en": [
+      "a) Urban planning",
+      "b) Architecture",
+      "c) Landscape planning",
+      "d) Traffic planning",
+      "e) Regional planning"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Architektur ist eine separate Disziplin an der TU Wien, nicht Teil des Raumplanungsstudiums.",
+    "explanation_en": "Architecture is a separate discipline at TU Vienna, not part of the Spatial Planning program.",
+    "mistakes_de": "Raumplanung unterscheidet sich von Architektur: Raumplanung arbeitet auf Stadt-, Regional- und Landschaftsebene, Architektur auf Gebäudeebene.",
+    "mistakes_en": "Spatial planning differs from architecture: spatial planning works at urban, regional, and landscape scales; architecture at building scale.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-05",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "pflichtmodule",
+      "entwurf"
+    ],
+    "question_de": "Was ist die Hauptaufgabe von PM7 (Raumplanerischer/Städtebaulicher Entwurf)?",
+    "question_en": "What is the main task of PM7 (Spatial Planning/Urban Design Project)?",
+    "options_de": [
+      "a) Theoretische Grundlagen von Planungsinstrumenten",
+      "b) Projektarbeit mit Analyse und Entwurf",
+      "c) Kommunale Planungsaufgaben",
+      "d) Infrastrukturelle Entwicklungsplanung",
+      "e) Rechtliche Grundlagen von Bebauungsplänen"
+    ],
+    "options_en": [
+      "a) Theoretical foundations of planning instruments",
+      "b) Project work with analysis and design",
+      "c) Municipal planning tasks",
+      "d) Infrastructure development planning",
+      "e) Legal foundations of zoning plans"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "PM7 ist ein Projektmodul, in dem Studierende eigene Entwurfsarbeiten erstellen und dabei analytische und gestalterische Fähigkeiten anwenden.",
+    "explanation_en": "PM7 is a project module where students create their own design work, applying analytical and design skills.",
+    "mistakes_de": "PM7 ist nicht theoretisch, sondern praktisch-angewandt. Es geht um Analyse UND Entwurf, nicht nur eines davon.",
+    "mistakes_en": "PM7 is not theoretical but practical-applied. It focuses on both analysis AND design, not just one.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-06",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "dauer",
+      "semester"
+    ],
+    "question_de": "Wie lange dauert der Bachelor Raumplanung an der TU Wien?",
+    "question_en": "How long is the Bachelor program in Spatial Planning at TU Vienna?",
+    "options_de": [
+      "a) 4 Semester",
+      "b) 5 Semester",
+      "c) 6 Semester",
+      "d) 7 Semester",
+      "e) 8 Semester"
+    ],
+    "options_en": [
+      "a) 4 semesters",
+      "b) 5 semesters",
+      "c) 6 semesters",
+      "d) 7 semesters",
+      "e) 8 semesters"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Der Bachelor dauert 6 Semester (3 Jahre) und umfasst 180 ECTS.",
+    "explanation_en": "The Bachelor lasts 6 semesters (3 years) and comprises 180 ECTS.",
+    "mistakes_de": "Nicht mit Diplom- oder Masterprogrammen verwechseln.",
+    "mistakes_en": "Do not confuse with diploma or master programs.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-07",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "pflichtmodule",
+      "instrumente"
+    ],
+    "question_de": "Welche Planungsinstrumente und Rechtsbereiche werden in PM10 behandelt? (Mehrfachantwort möglich)",
+    "question_en": "Which planning instruments and legal areas are covered in PM10? (Multiple answers possible)",
+    "options_de": [
+      "a) Bodenrecht",
+      "b) Raumordnungsrecht",
+      "c) Flächenwidmungsplanung",
+      "d) Bebauungsplanung",
+      "e) Architekturrichtlinien"
+    ],
+    "options_en": [
+      "a) Land law",
+      "b) Spatial planning law",
+      "c) Land use zoning",
+      "d) Building regulations",
+      "e) Architectural guidelines"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_de": "PM10 Planungsinstrumente umfasst Boden- und Raumordnungsrecht, Flächenwidmung und Bebauungsplanung. Architekturrichtlinien sind nicht primärer Gegenstand.",
+    "explanation_en": "PM10 Planning Instruments covers land and spatial planning law, land use zoning, and building regulations. Architectural guidelines are not primary content.",
+    "mistakes_de": "PM10 fokussiert auf die rechtliche und instrumentelle Seite der Planung, nicht auf architektonische Aspekte.",
+    "mistakes_en": "PM10 focuses on the legal and instrumental side of planning, not architectural aspects.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-08",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "kompetenz"
+    ],
+    "question_de": "Welche Kompetenzkategorie beschreibt die Fähigkeit, Planungsprobleme zu analysieren und zu bewerten?",
+    "question_en": "Which competency category describes the ability to analyze and evaluate planning problems?",
+    "options_de": [
+      "a) Theoretisch-reflektierend",
+      "b) Methodisch-technisch",
+      "c) Analytisch-bewertend",
+      "d) Sozial-kommunikativ",
+      "e) Entwerferisch-gestalterisch"
+    ],
+    "options_en": [
+      "a) Theoretical-reflective",
+      "b) Methodological-technical",
+      "c) Analytical-evaluative",
+      "d) Social-communicative",
+      "e) Design-creative"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Die analytisch-bewertende Kompetenz befähigt Studierende, Planungsprobleme zu verstehen und zu bewerten.",
+    "explanation_en": "The analytical-evaluative competency enables students to understand and evaluate planning problems.",
+    "mistakes_de": "Nicht mit entwerferisch-gestalterisch verwechseln, das eher die Gestaltung betrifft.",
+    "mistakes_en": "Do not confuse with design-creative, which focuses on shaping.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-09",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "kompetenz"
+    ],
+    "question_de": "Welche Kompetenzen gehören zu den 7 Kompetenzkategorien des Studienplans? (Mehrfachantwort möglich)",
+    "question_en": "Which competencies belong to the 7 competency categories of the curriculum? (Multiple answers possible)",
+    "options_de": [
+      "a) Strategisch-konzeptionell",
+      "b) Instrumentell",
+      "c) Entwerferisch-gestalterisch",
+      "d) Architektonisch-konstruktiv",
+      "e) Sozial-kommunikativ"
+    ],
+    "options_en": [
+      "a) Strategic-conceptual",
+      "b) Instrumental",
+      "c) Design-creative",
+      "d) Architectural-constructive",
+      "e) Social-communicative"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "Die 7 Kompetenzkategorien sind: theoretisch-reflektierend, methodisch-technisch, analytisch-bewertend, instrumentell, sozial-kommunikativ, entwerferisch-gestalterisch und strategisch-konzeptionell.",
+    "explanation_en": "The 7 competency categories are: theoretical-reflective, methodological-technical, analytical-evaluative, instrumental, social-communicative, design-creative, and strategic-conceptual.",
+    "mistakes_de": "Architektonisch-konstruktiv ist nicht Teil des Raumplanungsstudiums.",
+    "mistakes_en": "Architectural-constructive is not part of the Spatial Planning curriculum.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-10",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "noten",
+      "grading"
+    ],
+    "question_de": "Auf welcher Skala werden Leistungen im Bachelor Raumplanung bewertet?",
+    "question_en": "On which scale are performances in the Bachelor Spatial Planning assessed?",
+    "options_de": [
+      "a) 1-4 (sehr gut bis nicht genügend)",
+      "b) 1-5 (Sehr Gut bis Nicht Genügend)",
+      "c) 1-10 (Punkte)",
+      "d) A-F (Buchstabennoten)",
+      "e) 0-100 (Prozent)"
+    ],
+    "options_en": [
+      "a) 1-4 (very good to insufficient)",
+      "b) 1-5 (Very Good to Insufficient)",
+      "c) 1-10 (points)",
+      "d) A-F (letter grades)",
+      "e) 0-100 (percent)"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "In Österreich wird die 1-5 Notenskala verwendet: 1=Sehr Gut, 2=Gut, 3=Befriedigend, 4=Genügend, 5=Nicht Genügend.",
+    "explanation_en": "Austria uses the 1-5 grading scale: 1=Very Good, 2=Good, 3=Satisfactory, 4=Sufficient, 5=Insufficient.",
+    "mistakes_de": "Nicht mit deutschen Skalen (1-6) oder internationalen Systemen verwechseln.",
+    "mistakes_en": "Do not confuse with German scales (1-6) or international systems.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-11",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "noten",
+      "auszeichnung"
+    ],
+    "question_de": "Welche Bedingungen müssen erfüllt sein, um mit Auszeichnung zu bestehen?",
+    "question_en": "What conditions must be met to graduate with distinction?",
+    "options_de": [
+      "a) Durchschnitt besser als 1,5",
+      "b) Kein Fach schlechter als Gut, mindestens 50% sehr gut",
+      "c) Alle Fächer mit Sehr Gut",
+      "d) Mindestens 80% Sehr Gut und Gut",
+      "e) Keine schlechteren Noten als Befriedigend"
+    ],
+    "options_en": [
+      "a) Average better than 1.5",
+      "b) No subject worse than Good, at least 50% Very Good",
+      "c) All subjects Very Good",
+      "d) At least 80% Very Good and Good",
+      "e) No grades worse than Satisfactory"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Die Auszeichnung 'mit Auszeichnung' erfordert: kein Fach schlechter als Gut (2) UND mindestens die Hälfte aller Noten Sehr Gut (1).",
+    "explanation_en": "The distinction 'mit Auszeichnung' requires: no subject worse than Good (2) AND at least half of all grades Very Good (1).",
+    "mistakes_de": "Es ist NICHT nötig, alle Fächer mit Sehr Gut zu haben, aber mindestens 50%.",
+    "mistakes_en": "It is NOT necessary to have all Very Good, but at least 50%.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-12",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "lehrveranstaltung",
+      "prüfung"
+    ],
+    "question_de": "Welche Lehrveranstaltungstypen haben prüfungsimmanente Leistungsüberprüfung?",
+    "question_en": "Which course types have continuous assessment?",
+    "options_de": [
+      "a) VO (Vorlesung)",
+      "b) VU (Vorlesung mit Übung)",
+      "c) UE (Übung)",
+      "d) PR (Praktikum)",
+      "e) SE (Seminar)"
+    ],
+    "options_en": [
+      "a) VO (Lecture)",
+      "b) VU (Lecture with exercises)",
+      "c) UE (Exercise)",
+      "d) PR (Practical)",
+      "e) SE (Seminar)"
+    ],
+    "correct": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "VU, UE, PR und SE sind prüfungsimmanent (Leistung wird fortlaufend bewertet). VO hat eine Abschlussprüfung.",
+    "explanation_en": "VU, UE, PR, and SE are continuous assessment (performance evaluated throughout). VO has a final exam.",
+    "mistakes_de": "VO (Vorlesung) ist die einzige Lehrveranstaltungsart mit Abschlussprüfung, nicht prüfungsimmanent.",
+    "mistakes_en": "VO (Lecture) is the only course type with a final exam, not continuous assessment.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-13",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "steop"
+    ],
+    "question_de": "Was ist die StEOP und wie viele ECTS umfasst sie?",
+    "question_en": "What is the StEOP and how many ECTS does it comprise?",
+    "options_de": [
+      "a) Studienberechtigungsprüfung, 5 ECTS",
+      "b) Studieneingangsphase, 8 ECTS",
+      "c) Spezielle technische Orientierungsprüfung, 10 ECTS",
+      "d) Studieneingangsphase, 10 ECTS",
+      "e) Strukturelemente Einführungsprüfung, 8 ECTS"
+    ],
+    "options_en": [
+      "a) Study eligibility exam, 5 ECTS",
+      "b) Study entrance phase, 8 ECTS",
+      "c) Special technical orientation exam, 10 ECTS",
+      "d) Study entrance phase, 10 ECTS",
+      "e) Structural elements entrance exam, 8 ECTS"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Die StEOP (Studieneingangsphase und Orientierungsveranstaltung) umfasst 8 ECTS und muss in den ersten zwei Semestern absolviert werden.",
+    "explanation_en": "The StEOP (Study Entrance Phase and Orientation) comprises 8 ECTS and must be completed in the first two semesters.",
+    "mistakes_de": "StEOP ist nicht eine Prüfung, sondern eine Einstiegsphase mit Orientierungsinhalten.",
+    "mistakes_en": "StEOP is not an exam, but an entrance phase with orientation content.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-14",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "parallel",
+      "belastung"
+    ],
+    "question_de": "Wie viele ECTS dürfen maximal in einem Semester absolviert werden?",
+    "question_en": "What is the maximum number of ECTS that can be completed in one semester?",
+    "options_de": [
+      "a) 18 ECTS",
+      "b) 20 ECTS",
+      "c) 22 ECTS",
+      "d) 25 ECTS",
+      "e) 30 ECTS"
+    ],
+    "options_en": [
+      "a) 18 ECTS",
+      "b) 20 ECTS",
+      "c) 22 ECTS",
+      "d) 25 ECTS",
+      "e) 30 ECTS"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Die maximale Belastung beträgt 22 ECTS pro Semester, um eine ausgewogene Studienbelastung zu gewährleisten.",
+    "explanation_en": "The maximum course load is 22 ECTS per semester to ensure balanced study load.",
+    "mistakes_de": "30 ECTS ist unrealistisch und würde zu Überlastung führen.",
+    "mistakes_en": "30 ECTS is unrealistic and would lead to overload.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-15",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "nicht-raumplanung"
+    ],
+    "question_de": "Welche der folgenden Disziplinen ist NICHT Teil des Bachelor Raumplanung?",
+    "question_en": "Which of the following disciplines is NOT part of the Bachelor in Spatial Planning?",
+    "options_de": [
+      "a) Innenarchitektur",
+      "b) Landschaftsplanung",
+      "c) Verkehrsplanung",
+      "d) Regionalplanung",
+      "e) Freiraumplanung"
+    ],
+    "options_en": [
+      "a) Interior design",
+      "b) Landscape planning",
+      "c) Traffic planning",
+      "d) Regional planning",
+      "e) Open space planning"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Innenarchitektur ist eine separate Disziplin, nicht Teil des Raumplanungsstudiums an der TU Wien.",
+    "explanation_en": "Interior design is a separate discipline, not part of the Spatial Planning program at TU Vienna.",
+    "mistakes_de": "Innenarchitektur beschäftigt sich mit Raumgestaltung im Gebäudeinneren, Raumplanung mit städtischen und regionalen Räumen.",
+    "mistakes_en": "Interior design deals with space design inside buildings, spatial planning with urban and regional spaces.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-16",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "pflichtmodule",
+      "entwicklung"
+    ],
+    "question_de": "Was ist der Fokus von PM8 (Grundlagen räumliche Entwicklungsplanung)?",
+    "question_en": "What is the focus of PM8 (Fundamentals of Spatial Development Planning)?",
+    "options_de": [
+      "a) Architektonische Entwurfsmethoden",
+      "b) Kommunale Planung und Infrastruktur",
+      "c) Rechtliche Rahmen von Bebauungsplänen",
+      "d) Strategische regionale Konzeptionen",
+      "e) Verkehrspolitik und Mobilität"
+    ],
+    "options_en": [
+      "a) Architectural design methods",
+      "b) Municipal planning and infrastructure",
+      "c) Legal framework of building regulations",
+      "d) Strategic regional concepts",
+      "e) Traffic policy and mobility"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "PM8 Grundlagen räumliche Entwicklungsplanung konzentriert sich auf kommunale Planungsaufgaben und infrastrukturelle Entwicklung.",
+    "explanation_en": "PM8 Fundamentals of Spatial Development Planning focuses on municipal planning tasks and infrastructure development.",
+    "mistakes_de": "PM8 ist nicht primär architektonisch oder rechtlich ausgerichtet, sondern entwicklungsplanerisch.",
+    "mistakes_en": "PM8 is not primarily architectural or legal, but development-planning oriented.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-17",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "bachelorarbeit"
+    ],
+    "question_de": "Wie viele ECTS hat die Bachelorarbeit und welcher Semestergruppe ist sie zugeordnet?",
+    "question_en": "How many ECTS does the bachelor thesis have and which semester group is it assigned to?",
+    "options_de": [
+      "a) 8 ECTS, 5.-6. Semester",
+      "b) 10 ECTS, 5.-6. Semester",
+      "c) 12 ECTS, 6. Semester",
+      "d) 15 ECTS, 5.-6. Semester",
+      "e) 10 ECTS, ab 4. Semester"
+    ],
+    "options_en": [
+      "a) 8 ECTS, 5-6 semester",
+      "b) 10 ECTS, 5-6 semester",
+      "c) 12 ECTS, 6 semester",
+      "d) 15 ECTS, 5-6 semester",
+      "e) 10 ECTS, from 4 semester"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Die Bachelorarbeit umfasst 10 ECTS und kann im 5. oder 6. Semester absolviert werden.",
+    "explanation_en": "The bachelor thesis comprises 10 ECTS and can be completed in the 5th or 6th semester.",
+    "mistakes_de": "Die Bachelorarbeit ist separat von den 168 ECTS der Pflichtmodule zu rechnen.",
+    "mistakes_en": "The bachelor thesis is counted separately from the 168 ECTS of core modules.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-18",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "studienplan",
+      "kompetenz"
+    ],
+    "question_de": "Welche Kompetenzkategorie beschreibt die Fähigkeit zur Planung und zum strategischen Denken?",
+    "question_en": "Which competency category describes the ability for planning and strategic thinking?",
+    "options_de": [
+      "a) Theoretisch-reflektierend",
+      "b) Methodisch-technisch",
+      "c) Analytisch-bewertend",
+      "d) Strategisch-konzeptionell",
+      "e) Sozial-kommunikativ"
+    ],
+    "options_en": [
+      "a) Theoretical-reflective",
+      "b) Methodological-technical",
+      "c) Analytical-evaluative",
+      "d) Strategic-conceptual",
+      "e) Social-communicative"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Die strategisch-konzeptionelle Kompetenz befähigt zur Entwicklung von Strategien und Konzepten in der Raumplanung.",
+    "explanation_en": "The strategic-conceptual competency enables the development of strategies and concepts in spatial planning.",
+    "mistakes_de": "Nicht mit analytisch-bewertend verwechseln, das eher bei der Problemanalyse relevant ist.",
+    "mistakes_en": "Do not confuse with analytical-evaluative, which is more relevant for problem analysis.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "studienplan-gen-19",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "studienplan",
+      "wahlmodule",
+      "besonderheiten"
+    ],
+    "question_de": "Welche Wahlmodule sind NICHT Teil des Curriculums? (Mehrfachantwort möglich)",
+    "question_en": "Which elective modules are NOT part of the curriculum? (Multiple answers possible)",
+    "options_de": [
+      "a) WM1: Landschaftsplanung",
+      "b) WM2: Architekturgeschichte",
+      "c) WM4: Bauingenieurwesen",
+      "d) WM6: Tourismus und Regionalentwicklung",
+      "e) WM7: Betontechnologie"
+    ],
+    "options_en": [
+      "a) WM1: Landscape planning",
+      "b) WM2: Architectural history",
+      "c) WM4: Civil engineering",
+      "d) WM6: Tourism and regional development",
+      "e) WM7: Concrete technology"
+    ],
+    "correct": [
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "WM1 und WM6 sind tatsächliche Wahlmodule des Raumplanugnsstudiums. WM2 (Architekturgeschichte), WM4 (Bauingenieurwesen) und WM7 (Betontechnologie) gehören nicht zum Raumplanungscurriculum.",
+    "explanation_en": "WM1 and WM6 are actual elective modules of the Spatial Planning program. WM2 (Architectural history), WM4 (Civil engineering), and WM7 (Concrete technology) are not part of the Spatial Planning curriculum.",
+    "mistakes_de": "Raumplanung ist eine eigenständige Disziplin und wählt ihre Wahlmodule nach ihren eigenen Schwerpunkten.",
+    "mistakes_en": "Spatial planning is an independent discipline and selects its elective modules according to its own focus areas.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan TU Wien"
   }
 ]
