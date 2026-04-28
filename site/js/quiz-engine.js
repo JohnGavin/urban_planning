@@ -63,12 +63,15 @@ const QuizEngine = (() => {
   function renderStartScreen(container, questions, quizId, currentTimedMode) {
     const counts = countByDifficulty(questions);
     const timerChecked = currentTimedMode ? 'checked' : '';
+    const timerBtnStyle = currentTimedMode
+      ? 'background:var(--tu-blue);color:#fff;border-color:var(--tu-blue)'
+      : 'background:transparent;color:var(--tu-text-muted);border-color:var(--tu-border)';
     const timerRowHtml = `
         <div style="margin:1.25rem 0">
-          <label style="display:flex;align-items:center;gap:0.6rem;cursor:pointer;color:var(--tu-text-bright);font-weight:600">
-            <input type="checkbox" id="qe-timed-toggle" ${timerChecked} style="width:1.1rem;height:1.1rem;cursor:pointer">
+          <input type="checkbox" id="qe-timed-toggle" ${timerChecked} style="display:none">
+          <button type="button" id="qe-timed-btn" class="btn" style="font-size:0.9rem;padding:0.6rem 1.2rem;border:2px solid;border-radius:var(--radius);cursor:pointer;transition:all 0.2s;${timerBtnStyle}">
             &#9200; Zeitlimit: 1 Minute pro Frage
-          </label>
+          </button>
         </div>`;
     container.innerHTML = `
       <div class="card">
@@ -454,10 +457,23 @@ const QuizEngine = (() => {
       wireOptButtons('qe-count-select', 'count', 10, v => { selectedCount = v; });
       wireOptButtons('qe-diff-select', 'diff', 'mixed', v => { selectedDiff = v; });
 
-      // Wire timed mode toggle (only present for quizId === 'all')
+      // Wire timed mode button
       const timedToggle = container.querySelector('#qe-timed-toggle');
-      if (timedToggle) {
-        timedToggle.addEventListener('change', () => { timedMode = timedToggle.checked; });
+      const timedBtn = container.querySelector('#qe-timed-btn');
+      if (timedBtn && timedToggle) {
+        timedBtn.addEventListener('click', () => {
+          timedToggle.checked = !timedToggle.checked;
+          timedMode = timedToggle.checked;
+          if (timedMode) {
+            timedBtn.style.background = 'var(--tu-blue)';
+            timedBtn.style.color = '#fff';
+            timedBtn.style.borderColor = 'var(--tu-blue)';
+          } else {
+            timedBtn.style.background = 'transparent';
+            timedBtn.style.color = 'var(--tu-text-muted)';
+            timedBtn.style.borderColor = 'var(--tu-border)';
+          }
+        });
       }
 
       container.querySelector('#qe-start-btn').addEventListener('click', () => {

@@ -8221,5 +8221,2314 @@
       "massstabsebenen",
       "themenbreite"
     ]
+  },
+  {
+    "id": "text-comp-16",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das OEREK 2030 (Österreichisches Raumentwicklungskonzept) wurde als gemeinsames Leitdokument von Bund, Ländern und Gemeinden erarbeitet. Es formuliert Ziele und Handlungsempfehlungen für eine nachhaltige Raumentwicklung in Österreich bis zum Jahr 2030. Ein zentrales Thema ist die Reduktion des Flächenverbrauchs.\"\n\nBeurteilen Sie die Aussage:\n\nDas OEREK 2030 ist ein gemeinsames Dokument von Bund, Ländern und Gemeinden.",
+    "question_en": "Read the text:\n\n\"The OEREK 2030 (Austrian Spatial Development Concept) was developed as a joint guiding document by the federal government, provinces, and municipalities. It formulates goals and recommendations for sustainable spatial development in Austria until 2030. A central theme is the reduction of land consumption.\"\n\nAssess the statement:\n\nThe OEREK 2030 is a joint document of the federal government, provinces, and municipalities.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt ausdrücklich: 'wurde als gemeinsames Leitdokument von Bund, Ländern und Gemeinden erarbeitet'.",
+    "explanation_en": "TRUE – The text explicitly states it was developed as a joint guiding document by the federal government, provinces, and municipalities.",
+    "mistakes_de": "Kein typischer Fehler hier – die Aussage ist direkt aus dem Text belegbar.",
+    "mistakes_en": "No typical mistake here – the statement is directly supported by the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-17",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das OEREK 2030 (Österreichisches Raumentwicklungskonzept) wurde als gemeinsames Leitdokument von Bund, Ländern und Gemeinden erarbeitet. Es formuliert Ziele und Handlungsempfehlungen für eine nachhaltige Raumentwicklung in Österreich bis zum Jahr 2030. Ein zentrales Thema ist die Reduktion des Flächenverbrauchs.\"\n\nBeurteilen Sie die Aussage:\n\nDas OEREK 2030 ist das wichtigste Planungsinstrument in Österreich.",
+    "question_en": "Read the text:\n\n\"The OEREK 2030 was developed as a joint guiding document by the federal government, provinces, and municipalities. It formulates goals and recommendations for sustainable spatial development in Austria until 2030. A central theme is the reduction of land consumption.\"\n\nAssess the statement:\n\nThe OEREK 2030 is the most important planning instrument in Austria.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text nennt das OEREK 2030 ein 'Leitdokument', sagt aber nichts darüber aus, ob es das 'wichtigste' Planungsinstrument ist. Diese Wertung geht über den Textinhalt hinaus.",
+    "explanation_en": "NOT DETERMINABLE – The text calls the OEREK 2030 a 'guiding document' but does not say it is the 'most important' planning instrument. This ranking goes beyond what the text states.",
+    "mistakes_de": "Falle: 'wichtigstes' ist eine Superlativaussage, die der Text nicht macht. Der Text sagt nur 'Leitdokument'.",
+    "mistakes_en": "Trap: 'most important' is a superlative claim the text does not make. The text only says 'guiding document'.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-18",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Megatrends wie Klimawandel, Digitalisierung und demographischer Wandel stellen die Raumplanung vor neue Herausforderungen. Das OEREK 2030 identifiziert diese Trends als wesentliche Rahmenbedingungen für die künftige Raumentwicklung Österreichs. Besonders der Klimawandel erfordert eine Anpassung von Siedlungsstrukturen und Infrastrukturen.\"\n\nBeurteilen Sie die Aussage:\n\nDer demographische Wandel wird im OEREK 2030 als Megatrend genannt.",
+    "question_en": "Read the text:\n\n\"Megatrends such as climate change, digitalization, and demographic change pose new challenges for spatial planning. The OEREK 2030 identifies these trends as essential framework conditions for Austria's future spatial development. Climate change in particular requires adaptation of settlement structures and infrastructures.\"\n\nAssess the statement:\n\nDemographic change is mentioned as a megatrend in the OEREK 2030.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text listet explizit 'demographischer Wandel' als einen der Megatrends auf ('Megatrends wie Klimawandel, Digitalisierung und demographischer Wandel').",
+    "explanation_en": "TRUE – The text explicitly lists 'demographic change' as one of the megatrends.",
+    "mistakes_de": "Kein typischer Fehler – der Begriff steht direkt im Text.",
+    "mistakes_en": "No typical mistake – the term appears directly in the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-19",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Megatrends wie Klimawandel, Digitalisierung und demographischer Wandel stellen die Raumplanung vor neue Herausforderungen. Das OEREK 2030 identifiziert diese Trends als wesentliche Rahmenbedingungen für die künftige Raumentwicklung Österreichs. Besonders der Klimawandel erfordert eine Anpassung von Siedlungsstrukturen und Infrastrukturen.\"\n\nBeurteilen Sie die Aussage:\n\nDie Digitalisierung wird im Text als der bedeutendste Megatrend bezeichnet.",
+    "question_en": "Read the text:\n\n\"Megatrends such as climate change, digitalization, and demographic change pose new challenges for spatial planning. The OEREK 2030 identifies these trends as essential framework conditions for Austria's future spatial development. Climate change in particular requires adaptation of settlement structures and infrastructures.\"\n\nAssess the statement:\n\nDigitalization is described in the text as the most significant megatrend.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text hebt gerade den Klimawandel besonders hervor ('Besonders der Klimawandel erfordert...'), nicht die Digitalisierung. Die Digitalisierung wird zwar genannt, aber nicht als bedeutendster Trend.",
+    "explanation_en": "FALSE – The text specifically highlights climate change ('Climate change in particular requires...'), not digitalization. Digitalization is mentioned but not ranked as most significant.",
+    "mistakes_de": "Verwechslungsgefahr: Der Text nennt Digitalisierung, aber der besonders hervorgehobene Trend ist der Klimawandel.",
+    "mistakes_en": "Confusion risk: The text mentions digitalization, but the specifically emphasized trend is climate change.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-20",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung an der TU Wien ist ein interdisziplinäres Studium, das naturwissenschaftliche, sozialwissenschaftliche, rechtliche und technische Grundlagen verbindet. Absolventinnen und Absolventen sind befähigt, komplexe räumliche Probleme zu analysieren, Planungskonzepte zu entwickeln und Beteiligungsprozesse zu moderieren.\"\n\nBeurteilen Sie die Aussage:\n\nRaumplanung an der TU Wien kombiniert Inhalte aus mehreren wissenschaftlichen Disziplinen.",
+    "question_en": "Read the text:\n\n\"Spatial planning at TU Wien is an interdisciplinary programme that combines natural scientific, social scientific, legal, and technical foundations. Graduates are qualified to analyse complex spatial problems, develop planning concepts, and moderate participation processes.\"\n\nAssess the statement:\n\nSpatial planning at TU Wien combines content from multiple scientific disciplines.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text beschreibt das Studium als 'interdisziplinär' und nennt explizit naturwissenschaftliche, sozialwissenschaftliche, rechtliche und technische Grundlagen.",
+    "explanation_en": "TRUE – The text describes the programme as 'interdisciplinary' and explicitly names natural scientific, social scientific, legal, and technical foundations.",
+    "mistakes_de": "Kein typischer Fehler – die Aussage ist direkte Paraphrase des Textes.",
+    "mistakes_en": "No typical mistake – the statement is a direct paraphrase of the text.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan Raumplanung TU Wien"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-21",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung an der TU Wien ist ein interdisziplinäres Studium, das naturwissenschaftliche, sozialwissenschaftliche, rechtliche und technische Grundlagen verbindet. Absolventinnen und Absolventen sind befähigt, komplexe räumliche Probleme zu analysieren, Planungskonzepte zu entwickeln und Beteiligungsprozesse zu moderieren.\"\n\nBeurteilen Sie die Aussage:\n\nAbsolventinnen und Absolventen sind laut Text berechtigt, eigenständig Baugenehmigungen auszustellen.",
+    "question_en": "Read the text:\n\n\"Spatial planning at TU Wien is an interdisciplinary programme that combines natural scientific, social scientific, legal, and technical foundations. Graduates are qualified to analyse complex spatial problems, develop planning concepts, and moderate participation processes.\"\n\nAssess the statement:\n\nAccording to the text, graduates are authorised to independently issue building permits.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text nennt drei Kompetenzen (analysieren, entwickeln, moderieren), erwähnt Baugenehmigungen aber mit keinem Wort. Eine Aussage darüber lässt sich aus dem Text nicht ableiten.",
+    "explanation_en": "NOT DETERMINABLE – The text names three competencies (analyse, develop, moderate) but makes no mention of building permits. No statement about this can be derived from the text.",
+    "mistakes_de": "Falle: Aus Allgemeinwissen könnte man meinen, Raumplaner könnten Genehmigungen ausstellen – aber der Text sagt das nicht.",
+    "mistakes_en": "Trap: From general knowledge one might think planners can issue permits – but the text does not say this.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan Raumplanung TU Wien"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-22",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"In Österreich werden täglich rund 11,3 Hektar Fläche neu versiegelt oder anderweitig für Siedlungs- und Verkehrszwecke in Anspruch genommen. Die Bundesregierung hat im Rahmen der Österreichischen Strategie zur Anpassung an den Klimawandel das Ziel formuliert, den Flächenverbrauch bis 2030 auf 2,5 Hektar pro Tag zu reduzieren.\"\n\nBeurteilen Sie die Aussage:\n\nDer aktuelle tägliche Flächenverbrauch in Österreich beträgt laut Text rund 11,3 Hektar.",
+    "question_en": "Read the text:\n\n\"In Austria, approximately 11.3 hectares of land are newly sealed or otherwise consumed for settlement and transport purposes every day. The federal government has set the target of reducing land consumption to 2.5 hectares per day by 2030.\"\n\nAssess the statement:\n\nAccording to the text, current daily land consumption in Austria amounts to approximately 11.3 hectares.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text nennt explizit 'rund 11,3 Hektar' als täglichen Flächenverbrauch.",
+    "explanation_en": "TRUE – The text explicitly states 'approximately 11.3 hectares' as daily land consumption.",
+    "mistakes_de": "Kein typischer Fehler – die Zahl steht direkt im Text.",
+    "mistakes_en": "No typical mistake – the figure appears directly in the text.",
+    "links": [
+      {
+        "url": "../knowledge/flaechenverbrauch-de.html",
+        "label": "Flächenverbrauch Österreich"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-23",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"In Österreich werden täglich rund 11,3 Hektar Fläche neu versiegelt oder anderweitig für Siedlungs- und Verkehrszwecke in Anspruch genommen. Die Bundesregierung hat im Rahmen der Österreichischen Strategie zur Anpassung an den Klimawandel das Ziel formuliert, den Flächenverbrauch bis 2030 auf 2,5 Hektar pro Tag zu reduzieren.\"\n\nBeurteilen Sie die Aussage:\n\nDas Ziel der Bundesregierung, den Flächenverbrauch auf 2,5 Hektar pro Tag zu senken, wurde bereits erreicht.",
+    "question_en": "Read the text:\n\n\"In Austria, approximately 11.3 hectares of land are newly consumed daily. The federal government has set the target of reducing land consumption to 2.5 hectares per day by 2030.\"\n\nAssess the statement:\n\nThe federal government's target of reducing land consumption to 2.5 hectares per day has already been achieved.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text nennt das Ziel (2,5 ha bis 2030), macht aber keine Aussage darüber, ob es bereits erreicht wurde. Der aktuelle Wert von 11,3 ha deutet auf das Gegenteil hin, aber der Text sagt das nicht explizit.",
+    "explanation_en": "NOT DETERMINABLE – The text states the target (2.5 ha by 2030) but makes no statement about whether it has been achieved. The current figure of 11.3 ha suggests the opposite, but the text does not explicitly say so.",
+    "mistakes_de": "Falle: Man könnte schlussfolgern, dass 11,3 ha ≠ 2,5 ha also nicht erreicht – aber der Text sagt das nicht direkt.",
+    "mistakes_en": "Trap: One might conclude that 11.3 ha ≠ 2.5 ha means not achieved – but the text does not state this directly.",
+    "links": [
+      {
+        "url": "../knowledge/flaechenverbrauch-de.html",
+        "label": "Flächenverbrauch Österreich"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-24",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Bodenversiegelung bezeichnet die Bedeckung des Bodens mit wasserundurchlässigen Materialien wie Asphalt oder Beton. Sie führt zu einem Verlust natürlicher Bodenfunktionen wie Wasseraufnahme, Filterung und Kohlenstoffspeicherung. In urbanen Räumen ist Bodenversiegelung eine der Hauptursachen für Überhitzung und Überflutungen.\"\n\nBeurteilen Sie die Aussage:\n\nBodenversiegelung bezeichnet laut Text die Bedeckung des Bodens mit wasserundurchlässigen Materialien.",
+    "question_en": "Read the text:\n\n\"Soil sealing refers to the covering of soil with water-impermeable materials such as asphalt or concrete. It leads to a loss of natural soil functions such as water absorption, filtration, and carbon storage. In urban areas, soil sealing is one of the main causes of overheating and flooding.\"\n\nAssess the statement:\n\nAccording to the text, soil sealing refers to the covering of soil with water-impermeable materials.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text definiert Bodenversiegelung direkt als 'Bedeckung des Bodens mit wasserundurchlässigen Materialien'.",
+    "explanation_en": "TRUE – The text directly defines soil sealing as 'covering of soil with water-impermeable materials'.",
+    "mistakes_de": "Kein typischer Fehler – die Definition steht wörtlich im Text.",
+    "mistakes_en": "No typical mistake – the definition appears verbatim in the text.",
+    "links": [
+      {
+        "url": "../knowledge/bodenversiegelung-de.html",
+        "label": "Bodenversiegelung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-25",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Bodenversiegelung bezeichnet die Bedeckung des Bodens mit wasserundurchlässigen Materialien wie Asphalt oder Beton. Sie führt zu einem Verlust natürlicher Bodenfunktionen wie Wasseraufnahme, Filterung und Kohlenstoffspeicherung. In urbanen Räumen ist Bodenversiegelung eine der Hauptursachen für Überhitzung und Überflutungen.\"\n\nBeurteilen Sie die Aussage:\n\nBodenversiegelung ist die einzige Ursache für urbane Überflutungen.",
+    "question_en": "Read the text:\n\n\"Soil sealing refers to the covering of soil with water-impermeable materials such as asphalt or concrete. It leads to a loss of natural soil functions. In urban areas, soil sealing is one of the main causes of overheating and flooding.\"\n\nAssess the statement:\n\nSoil sealing is the sole cause of urban flooding.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt 'eine der Hauptursachen', nicht 'die einzige Ursache'. Das Wort 'einzige' macht die Aussage falsch.",
+    "explanation_en": "FALSE – The text says 'one of the main causes', not 'the sole cause'. The word 'sole' makes the statement false.",
+    "mistakes_de": "Typischer Fehler: 'eine der Ursachen' vs. 'die einzige Ursache' – diese Unterscheidung ist im Reihungstest entscheidend.",
+    "mistakes_en": "Typical mistake: 'one of the causes' vs. 'the sole cause' – this distinction is decisive in the entrance test.",
+    "links": [
+      {
+        "url": "../knowledge/bodenversiegelung-de.html",
+        "label": "Bodenversiegelung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-26",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die öffentliche Verkehrserschließung (ÖV-Erschließung) beschreibt die Qualität der Anbindung eines Gebietes an den öffentlichen Verkehr. Gebiete mit guter ÖV-Erschließung ermöglichen es den Bewohnenden, auf das private Auto zu verzichten. Eine hochwertige ÖV-Erschließung gilt als wesentliche Voraussetzung für eine nachhaltige Siedlungsentwicklung.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist eine gute ÖV-Erschließung eine wichtige Voraussetzung für nachhaltige Siedlungsentwicklung.",
+    "question_en": "Read the text:\n\n\"Public transport accessibility describes the quality of a region's connection to public transport. Areas with good public transport access allow residents to forgo private cars. High-quality public transport access is considered an essential prerequisite for sustainable settlement development.\"\n\nAssess the statement:\n\nAccording to the text, good public transport access is an important prerequisite for sustainable settlement development.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'hochwertige ÖV-Erschließung gilt als wesentliche Voraussetzung für eine nachhaltige Siedlungsentwicklung'.",
+    "explanation_en": "TRUE – The text explicitly states: 'high-quality public transport access is considered an essential prerequisite for sustainable settlement development'.",
+    "mistakes_de": "Kein typischer Fehler – Aussage ist direkt belegbar.",
+    "mistakes_en": "No typical mistake – the statement is directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/oev-erschliessung-de.html",
+        "label": "ÖV-Erschließung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-27",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die öffentliche Verkehrserschließung (ÖV-Erschließung) beschreibt die Qualität der Anbindung eines Gebietes an den öffentlichen Verkehr. Gebiete mit guter ÖV-Erschließung ermöglichen es den Bewohnenden, auf das private Auto zu verzichten. Eine hochwertige ÖV-Erschließung gilt als wesentliche Voraussetzung für eine nachhaltige Siedlungsentwicklung.\"\n\nBeurteilen Sie die Aussage:\n\nIn Gebieten mit guter ÖV-Erschließung besitzt laut Text niemand mehr ein Auto.",
+    "question_en": "Read the text:\n\n\"Public transport accessibility describes the quality of a region's connection to public transport. Areas with good public transport access allow residents to forgo private cars. High-quality public transport access is considered an essential prerequisite for sustainable settlement development.\"\n\nAssess the statement:\n\nAccording to the text, in areas with good public transport access no one owns a car anymore.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt nur, dass Bewohnende 'auf das private Auto verzichten können', nicht, dass niemand mehr ein Auto besitzt. 'Können' ist eine Möglichkeit, keine Zwangsaussage.",
+    "explanation_en": "FALSE – The text only says residents 'can forgo' private cars, not that nobody owns one. 'Can' expresses possibility, not necessity.",
+    "mistakes_de": "Falle: 'verzichten können' ≠ 'verzichten müssen'. Die Aussage übertreibt den Textinhalt.",
+    "mistakes_en": "Trap: 'can forgo' ≠ 'must forgo'. The statement overstates what the text says.",
+    "links": [
+      {
+        "url": "../knowledge/oev-erschliessung-de.html",
+        "label": "ÖV-Erschließung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-28",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Ortskernrevitalisierung bezeichnet Maßnahmen zur Stärkung und Wiederbelebung von Ortskernen, die durch Abwanderung von Handel und Wohnen in die Peripherie geschwächt wurden. Ziele sind die Sicherung von Nahversorgung, die Verbesserung der Aufenthaltsqualität und die Nutzung von Leerständen. Viele österreichische Gemeinden stehen vor dieser Herausforderung.\"\n\nBeurteilen Sie die Aussage:\n\nOrtskernrevitalisierung beschäftigt sich laut Text unter anderem mit der Nutzung von Leerständen.",
+    "question_en": "Read the text:\n\n\"Town centre revitalisation refers to measures to strengthen and revive town centres that have been weakened by the migration of retail and housing to the periphery. Goals include securing local supply, improving the quality of stay, and making use of vacancies. Many Austrian municipalities face this challenge.\"\n\nAssess the statement:\n\nAccording to the text, town centre revitalisation deals, among other things, with the use of vacancies.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text nennt explizit 'die Nutzung von Leerständen' als eines der Ziele der Ortskernrevitalisierung.",
+    "explanation_en": "TRUE – The text explicitly names 'making use of vacancies' as one of the goals of town centre revitalisation.",
+    "mistakes_de": "Kein typischer Fehler – Aussage ist wörtlich belegbar.",
+    "mistakes_en": "No typical mistake – statement is verbatim supported.",
+    "links": [
+      {
+        "url": "../knowledge/ortskern-de.html",
+        "label": "Ortskernrevitalisierung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-29",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Ortskernrevitalisierung bezeichnet Maßnahmen zur Stärkung und Wiederbelebung von Ortskernen, die durch Abwanderung von Handel und Wohnen in die Peripherie geschwächt wurden. Ziele sind die Sicherung von Nahversorgung, die Verbesserung der Aufenthaltsqualität und die Nutzung von Leerständen. Viele österreichische Gemeinden stehen vor dieser Herausforderung.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text sind die Maßnahmen zur Ortskernrevitalisierung in österreichischen Gemeinden bereits erfolgreich umgesetzt worden.",
+    "question_en": "Read the text:\n\n\"Town centre revitalisation refers to measures to strengthen and revive town centres weakened by the migration of retail and housing to the periphery. Goals include securing local supply, improving the quality of stay, and making use of vacancies. Many Austrian municipalities face this challenge.\"\n\nAssess the statement:\n\nAccording to the text, the measures for town centre revitalisation have already been successfully implemented in Austrian municipalities.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text sagt, viele Gemeinden 'stehen vor dieser Herausforderung', macht aber keine Aussage über den Erfolg oder Misserfolg bereits umgesetzter Maßnahmen.",
+    "explanation_en": "NOT DETERMINABLE – The text says many municipalities 'face this challenge' but makes no statement about the success or failure of measures already implemented.",
+    "mistakes_de": "Falle: Der Text beschreibt das Problem, nicht den Lösungserfolg. Über Erfolg der Maßnahmen schweigt der Text.",
+    "mistakes_en": "Trap: The text describes the problem, not the solution's success. The text is silent on the success of measures.",
+    "links": [
+      {
+        "url": "../knowledge/ortskern-de.html",
+        "label": "Ortskernrevitalisierung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-30",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die Territoriale Agenda 2030 der Europäischen Union betont die Notwendigkeit einer ausgewogenen territorialen Entwicklung. Sie fordert eine stärkere Berücksichtigung von ländlichen und benachteiligten Regionen in der EU-Politik. Die Agenda wurde 2020 unter deutscher EU-Ratspräsidentschaft verabschiedet.\"\n\nBeurteilen Sie die Aussage:\n\nDie Territoriale Agenda 2030 wurde laut Text unter deutscher EU-Ratspräsidentschaft verabschiedet.",
+    "question_en": "Read the text:\n\n\"The Territorial Agenda 2030 of the European Union emphasises the need for balanced territorial development. It calls for stronger consideration of rural and disadvantaged regions in EU policy. The Agenda was adopted in 2020 under the German EU Council Presidency.\"\n\nAssess the statement:\n\nAccording to the text, the Territorial Agenda 2030 was adopted under the German EU Council Presidency.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'wurde 2020 unter deutscher EU-Ratspräsidentschaft verabschiedet'.",
+    "explanation_en": "TRUE – The text explicitly states: 'was adopted in 2020 under the German EU Council Presidency'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/territoriale-agenda-de.html",
+        "label": "Territoriale Agenda 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-31",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die Territoriale Agenda 2030 der Europäischen Union betont die Notwendigkeit einer ausgewogenen territorialen Entwicklung. Sie fordert eine stärkere Berücksichtigung von ländlichen und benachteiligten Regionen in der EU-Politik. Die Agenda wurde 2020 unter deutscher EU-Ratspräsidentschaft verabschiedet.\"\n\nBeurteilen Sie die Aussage:\n\nDie Territoriale Agenda 2030 ist rechtlich verbindlich für alle EU-Mitgliedsstaaten.",
+    "question_en": "Read the text:\n\n\"The Territorial Agenda 2030 of the European Union emphasises the need for balanced territorial development. It calls for stronger consideration of rural and disadvantaged regions in EU policy. The Agenda was adopted in 2020 under the German EU Council Presidency.\"\n\nAssess the statement:\n\nThe Territorial Agenda 2030 is legally binding for all EU member states.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text macht keine Aussage zur Rechtsverbindlichkeit. Auch aus dem Wort 'fordert' lässt sich keine rechtliche Verbindlichkeit ableiten.",
+    "explanation_en": "NOT DETERMINABLE – The text makes no statement about legal bindingness. The word 'calls for' does not imply legal obligation.",
+    "mistakes_de": "Falle: Aus Allgemeinwissen weiß man, dass die Territoriale Agenda nicht verbindlich ist – aber der Text sagt es nicht, daher nicht beurteilbar.",
+    "mistakes_en": "Trap: From general knowledge one knows the Territorial Agenda is not binding – but the text does not say this, so it is not determinable.",
+    "links": [
+      {
+        "url": "../knowledge/territoriale-agenda-de.html",
+        "label": "Territoriale Agenda 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-32",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Der Europäische Green Deal zielt darauf ab, Europa bis 2050 zum ersten klimaneutralen Kontinent zu machen. Er umfasst Maßnahmen in den Bereichen Energie, Verkehr, Industrie und Landwirtschaft. Auch die Raumplanung ist gefordert, einen Beitrag zur Erreichung dieser Klimaziele zu leisten.\"\n\nBeurteilen Sie die Aussage:\n\nDer Europäische Green Deal hat laut Text das Ziel, Europa bis 2050 klimaneutral zu machen.",
+    "question_en": "Read the text:\n\n\"The European Green Deal aims to make Europe the first climate-neutral continent by 2050. It encompasses measures in the areas of energy, transport, industry, and agriculture. Spatial planning is also called upon to contribute to achieving these climate goals.\"\n\nAssess the statement:\n\nAccording to the text, the European Green Deal aims to make Europe climate-neutral by 2050.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'zielt darauf ab, Europa bis 2050 zum ersten klimaneutralen Kontinent zu machen'.",
+    "explanation_en": "TRUE – The text explicitly states: 'aims to make Europe the first climate-neutral continent by 2050'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/green-deal-de.html",
+        "label": "European Green Deal"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-33",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Der Europäische Green Deal zielt darauf ab, Europa bis 2050 zum ersten klimaneutralen Kontinent zu machen. Er umfasst Maßnahmen in den Bereichen Energie, Verkehr, Industrie und Landwirtschaft. Auch die Raumplanung ist gefordert, einen Beitrag zur Erreichung dieser Klimaziele zu leisten.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist die Raumplanung der wichtigste Sektor für die Erreichung der Klimaziele des Green Deal.",
+    "question_en": "Read the text:\n\n\"The European Green Deal aims to make Europe the first climate-neutral continent by 2050. It encompasses measures in the areas of energy, transport, industry, and agriculture. Spatial planning is also called upon to contribute to achieving these climate goals.\"\n\nAssess the statement:\n\nAccording to the text, spatial planning is the most important sector for achieving the Green Deal's climate goals.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text nennt Energie, Verkehr, Industrie und Landwirtschaft als Bereiche des Green Deal und sagt zur Raumplanung nur, dass sie 'einen Beitrag leisten' soll – keine Priorisierung.",
+    "explanation_en": "FALSE – The text lists energy, transport, industry, and agriculture as Green Deal areas, and says spatial planning should 'contribute' – no prioritisation is stated.",
+    "mistakes_de": "Falle: 'auch gefordert' bedeutet nicht 'am wichtigsten'. Der Text macht keine Rangaussage.",
+    "mistakes_en": "Trap: 'also called upon' does not mean 'most important'. The text makes no ranking statement.",
+    "links": [
+      {
+        "url": "../knowledge/green-deal-de.html",
+        "label": "European Green Deal"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-34",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Siedlungsentwicklung bezeichnet den Prozess der räumlichen Ausdehnung und Verdichtung von Siedlungen. Nachhaltige Siedlungsentwicklung strebt an, neuen Wohnraum bevorzugt im Bestand und in der Nähe von ÖV-Haltestellen zu schaffen. Damit sollen Flächenverbrauch und Autoabhängigkeit reduziert werden.\"\n\nBeurteilen Sie die Aussage:\n\nNachhaltige Siedlungsentwicklung versucht laut Text, neuen Wohnraum bevorzugt im Bestand zu schaffen.",
+    "question_en": "Read the text:\n\n\"Settlement development refers to the process of spatial expansion and densification of settlements. Sustainable settlement development aims to create new housing preferably within existing stock and near public transport stops. This should reduce land consumption and car dependency.\"\n\nAssess the statement:\n\nAccording to the text, sustainable settlement development attempts to create new housing preferably within existing stock.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'neuen Wohnraum bevorzugt im Bestand ... zu schaffen'.",
+    "explanation_en": "TRUE – The text explicitly states: 'create new housing preferably within existing stock'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/siedlungsentwicklung-de.html",
+        "label": "Siedlungsentwicklung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-35",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Siedlungsentwicklung bezeichnet den Prozess der räumlichen Ausdehnung und Verdichtung von Siedlungen. Nachhaltige Siedlungsentwicklung strebt an, neuen Wohnraum bevorzugt im Bestand und in der Nähe von ÖV-Haltestellen zu schaffen. Damit sollen Flächenverbrauch und Autoabhängigkeit reduziert werden.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text führt nachhaltige Siedlungsentwicklung automatisch zu einem Rückgang der Bevölkerung in ländlichen Gebieten.",
+    "question_en": "Read the text:\n\n\"Settlement development refers to the process of spatial expansion and densification of settlements. Sustainable settlement development aims to create new housing preferably within existing stock and near public transport stops. This should reduce land consumption and car dependency.\"\n\nAssess the statement:\n\nAccording to the text, sustainable settlement development automatically leads to a decline in population in rural areas.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text spricht über Flächenverbrauch und Autoabhängigkeit, macht aber keinerlei Aussage über Bevölkerungsentwicklung in ländlichen Gebieten.",
+    "explanation_en": "NOT DETERMINABLE – The text discusses land consumption and car dependency but makes no statement about population trends in rural areas.",
+    "mistakes_de": "Falle: Bevölkerungsrückgang in ländlichen Gebieten ist ein reales Phänomen, aber der Text erwähnt es nicht.",
+    "mistakes_en": "Trap: Population decline in rural areas is a real phenomenon, but the text does not mention it.",
+    "links": [
+      {
+        "url": "../knowledge/siedlungsentwicklung-de.html",
+        "label": "Siedlungsentwicklung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-36",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das Aktionsprogramm des OEREK 2030 enthält konkrete Maßnahmen und Projekte zur Umsetzung der formulierten Ziele. Es ist in mehrere Handlungsfelder gegliedert, darunter Klimawandel und Energie, Digitalisierung, Daseinsvorsorge sowie Mobilität. Die Umsetzung erfolgt durch Kooperationen zwischen verschiedenen staatlichen Ebenen.\"\n\nBeurteilen Sie die Aussage:\n\nDas Aktionsprogramm des OEREK 2030 ist laut Text in Handlungsfelder gegliedert.",
+    "question_en": "Read the text:\n\n\"The action programme of the OEREK 2030 contains concrete measures and projects for implementing the stated goals. It is structured into several fields of action, including climate change and energy, digitalization, public services, and mobility. Implementation takes place through cooperation between various government levels.\"\n\nAssess the statement:\n\nAccording to the text, the OEREK 2030 action programme is structured into fields of action.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'in mehrere Handlungsfelder gegliedert'.",
+    "explanation_en": "TRUE – The text explicitly states: 'structured into several fields of action'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-37",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das Aktionsprogramm des OEREK 2030 enthält konkrete Maßnahmen und Projekte zur Umsetzung der formulierten Ziele. Es ist in mehrere Handlungsfelder gegliedert, darunter Klimawandel und Energie, Digitalisierung, Daseinsvorsorge sowie Mobilität. Die Umsetzung erfolgt durch Kooperationen zwischen verschiedenen staatlichen Ebenen.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text enthält das Aktionsprogramm des OEREK 2030 ausschließlich freiwillige Empfehlungen ohne verbindliche Maßnahmen.",
+    "question_en": "Read the text:\n\n\"The action programme of the OEREK 2030 contains concrete measures and projects for implementing the stated goals. It is structured into several fields of action. Implementation takes place through cooperation between various government levels.\"\n\nAssess the statement:\n\nAccording to the text, the OEREK 2030 action programme contains exclusively voluntary recommendations without binding measures.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text nennt 'konkrete Maßnahmen und Projekte', macht aber keine Aussage zur Frage der rechtlichen Verbindlichkeit.",
+    "explanation_en": "NOT DETERMINABLE – The text mentions 'concrete measures and projects' but makes no statement about legal bindingness.",
+    "mistakes_de": "Falle: Der Text sagt 'konkrete Maßnahmen', aber ob diese verbindlich oder freiwillig sind, sagt der Text nicht.",
+    "mistakes_en": "Trap: The text says 'concrete measures' but whether these are binding or voluntary is not stated.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-38",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"EU-Kohäsionspolitik zielt auf den wirtschaftlichen, sozialen und territorialen Zusammenhalt in der Europäischen Union ab. Sie unterstützt strukturschwache Regionen durch Fördermittel aus den Europäischen Struktur- und Investitionsfonds (ESIF). Ziel ist es, regionale Ungleichheiten in der EU zu verringern.\"\n\nBeurteilen Sie die Aussage:\n\nDie EU-Kohäsionspolitik zielt laut Text darauf ab, regionale Ungleichheiten in der EU zu verringern.",
+    "question_en": "Read the text:\n\n\"EU cohesion policy aims at economic, social, and territorial cohesion within the European Union. It supports structurally weak regions through funding from the European Structural and Investment Funds (ESIF). The goal is to reduce regional inequalities in the EU.\"\n\nAssess the statement:\n\nAccording to the text, EU cohesion policy aims to reduce regional inequalities in the EU.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt: 'Ziel ist es, regionale Ungleichheiten in der EU zu verringern'.",
+    "explanation_en": "TRUE – The text states: 'The goal is to reduce regional inequalities in the EU'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/eu-kohaesion-de.html",
+        "label": "EU-Kohäsionspolitik"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-39",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"EU-Kohäsionspolitik zielt auf den wirtschaftlichen, sozialen und territorialen Zusammenhalt in der Europäischen Union ab. Sie unterstützt strukturschwache Regionen durch Fördermittel aus den Europäischen Struktur- und Investitionsfonds (ESIF). Ziel ist es, regionale Ungleichheiten in der EU zu verringern.\"\n\nBeurteilen Sie die Aussage:\n\nDie Kohäsionspolitik hat laut Text regionale Ungleichheiten in der EU bereits vollständig beseitigt.",
+    "question_en": "Read the text:\n\n\"EU cohesion policy aims at economic, social, and territorial cohesion within the European Union. It supports structurally weak regions through ESIF funding. The goal is to reduce regional inequalities in the EU.\"\n\nAssess the statement:\n\nAccording to the text, cohesion policy has already completely eliminated regional inequalities in the EU.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt, das 'Ziel ist es, regionale Ungleichheiten zu verringern' – also sind sie noch nicht beseitigt. 'Verringern' ist zudem nicht dasselbe wie 'vollständig beseitigen'.",
+    "explanation_en": "FALSE – The text says the 'goal is to reduce regional inequalities' – meaning they have not yet been eliminated. 'Reduce' is also not the same as 'completely eliminate'.",
+    "mistakes_de": "Falle: 'Ziel ist Verringerung' ≠ 'bereits vollständig beseitigt'. Doppelte Verfälschung: Ziel vs. Erreicht, und Verringerung vs. vollständige Beseitigung.",
+    "mistakes_en": "Trap: 'Goal is to reduce' ≠ 'already completely eliminated'. Double distortion: goal vs. achieved, and reduce vs. completely eliminate.",
+    "links": [
+      {
+        "url": "../knowledge/eu-kohaesion-de.html",
+        "label": "EU-Kohäsionspolitik"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-40",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung wirkt auf mehreren räumlichen Ebenen: international, europäisch, national, regional und lokal. Auf lokaler Ebene ist die Gemeinde der zentrale Akteur. Sie erstellt Flächenwidmungspläne und Bebauungspläne, die die Nutzung des Bodens regeln.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist die Gemeinde auf lokaler Ebene der zentrale Akteur der Raumplanung.",
+    "question_en": "Read the text:\n\n\"Spatial planning operates on multiple spatial levels: international, European, national, regional, and local. At the local level, the municipality is the central actor. It prepares land use plans and development plans that regulate the use of land.\"\n\nAssess the statement:\n\nAccording to the text, the municipality is the central actor of spatial planning at the local level.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'Auf lokaler Ebene ist die Gemeinde der zentrale Akteur'.",
+    "explanation_en": "TRUE – The text explicitly states: 'At the local level, the municipality is the central actor'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/planungsebenen-de.html",
+        "label": "Planungsebenen"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-41",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung wirkt auf mehreren räumlichen Ebenen: international, europäisch, national, regional und lokal. Auf lokaler Ebene ist die Gemeinde der zentrale Akteur. Sie erstellt Flächenwidmungspläne und Bebauungspläne, die die Nutzung des Bodens regeln.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text regelt der Flächenwidmungsplan auch die Gestaltung von Gebäudefassaden.",
+    "question_en": "Read the text:\n\n\"Spatial planning operates on multiple spatial levels. At the local level, the municipality is the central actor. It prepares land use plans and development plans that regulate the use of land.\"\n\nAssess the statement:\n\nAccording to the text, the land use plan also regulates the design of building facades.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text sagt nur, dass Flächenwidmungspläne 'die Nutzung des Bodens regeln'. Über Gebäudefassaden macht der Text keine Aussage.",
+    "explanation_en": "NOT DETERMINABLE – The text only says land use plans 'regulate the use of land'. The text makes no statement about building facades.",
+    "mistakes_de": "Falle: Fassadengestaltung ist ein reales Planungsthema, aber der Text erwähnt es nicht.",
+    "mistakes_en": "Trap: Facade design is a real planning topic, but the text does not mention it.",
+    "links": [
+      {
+        "url": "../knowledge/planungsebenen-de.html",
+        "label": "Planungsebenen"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-42",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Daseinsvorsorge umfasst Leistungen, die für ein menschenwürdiges Leben als notwendig erachtet werden, wie Trinkwasserversorgung, Abfallentsorgung, Bildung, Gesundheitsversorgung und öffentlicher Verkehr. In schrumpfenden Regionen ist die Aufrechterhaltung der Daseinsvorsorge eine besondere Herausforderung.\"\n\nBeurteilen Sie die Aussage:\n\nÖffentlicher Verkehr wird im Text als Teil der Daseinsvorsorge genannt.",
+    "question_en": "Read the text:\n\n\"Public services (Daseinsvorsorge) encompass services considered necessary for a dignified life, such as drinking water supply, waste disposal, education, healthcare, and public transport. In shrinking regions, maintaining public services is a particular challenge.\"\n\nAssess the statement:\n\nPublic transport is mentioned in the text as part of public services.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text listet 'öffentlicher Verkehr' explizit als Teil der Daseinsvorsorge auf.",
+    "explanation_en": "TRUE – The text explicitly lists 'public transport' as part of public services.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/daseinsvorsorge-de.html",
+        "label": "Daseinsvorsorge"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-43",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Daseinsvorsorge umfasst Leistungen, die für ein menschenwürdiges Leben als notwendig erachtet werden, wie Trinkwasserversorgung, Abfallentsorgung, Bildung, Gesundheitsversorgung und öffentlicher Verkehr. In schrumpfenden Regionen ist die Aufrechterhaltung der Daseinsvorsorge eine besondere Herausforderung.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist die Bereitstellung von Daseinsvorsorge in wachsenden Städten besonders herausfordernd.",
+    "question_en": "Read the text:\n\n\"Public services encompass services necessary for a dignified life. In shrinking regions, maintaining public services is a particular challenge.\"\n\nAssess the statement:\n\nAccording to the text, providing public services is particularly challenging in growing cities.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text hebt explizit 'schrumpfende Regionen' als besondere Herausforderung hervor, nicht wachsende Städte.",
+    "explanation_en": "FALSE – The text explicitly highlights 'shrinking regions' as a particular challenge, not growing cities.",
+    "mistakes_de": "Falle: Wachsende Städte haben auch Herausforderungen, aber der Text benennt explizit schrumpfende Regionen.",
+    "mistakes_en": "Trap: Growing cities also have challenges, but the text explicitly names shrinking regions.",
+    "links": [
+      {
+        "url": "../knowledge/daseinsvorsorge-de.html",
+        "label": "Daseinsvorsorge"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-44",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Klimaanpassung in der Raumplanung umfasst Maßnahmen, die Siedlungen und Infrastrukturen widerstandsfähiger gegenüber den Folgen des Klimawandels machen. Dazu gehören hitzeresistente Stadtgestaltung (z.B. Begrünung, Beschattung), verbesserte Wasserretention und die Vermeidung von Bebauung in hochwassergefährdeten Gebieten.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text gehört die Vermeidung von Bebauung in hochwassergefährdeten Gebieten zu Maßnahmen der Klimaanpassung in der Raumplanung.",
+    "question_en": "Read the text:\n\n\"Climate adaptation in spatial planning includes measures that make settlements and infrastructure more resilient to the effects of climate change. These include heat-resistant urban design (e.g. greening, shading), improved water retention, and avoiding construction in flood-prone areas.\"\n\nAssess the statement:\n\nAccording to the text, avoiding construction in flood-prone areas is one of the climate adaptation measures in spatial planning.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text nennt explizit 'die Vermeidung von Bebauung in hochwassergefährdeten Gebieten' als Maßnahme.",
+    "explanation_en": "TRUE – The text explicitly lists 'avoiding construction in flood-prone areas' as a measure.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/klimaanpassung-de.html",
+        "label": "Klimaanpassung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-45",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Klimaanpassung in der Raumplanung umfasst Maßnahmen, die Siedlungen und Infrastrukturen widerstandsfähiger gegenüber den Folgen des Klimawandels machen. Dazu gehören hitzeresistente Stadtgestaltung (z.B. Begrünung, Beschattung), verbesserte Wasserretention und die Vermeidung von Bebauung in hochwassergefährdeten Gebieten.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text sind alle bestehenden Gebäude in Hochwasserzonen in Österreich bereits abzureißen.",
+    "question_en": "Read the text:\n\n\"Climate adaptation in spatial planning includes measures to make settlements and infrastructure more resilient to climate change. These include heat-resistant urban design, improved water retention, and avoiding construction in flood-prone areas.\"\n\nAssess the statement:\n\nAccording to the text, all existing buildings in flood zones in Austria must already be demolished.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text spricht von 'Vermeidung von Bebauung', also künftiger Bebauungsverhinderung. Über Abriss bestehender Gebäude sagt der Text nichts.",
+    "explanation_en": "NOT DETERMINABLE – The text refers to 'avoiding construction', i.e. preventing future development. The text says nothing about demolishing existing buildings.",
+    "mistakes_de": "Falle: 'Vermeidung von Bebauung' ≠ Abriss von Bestandsgebäuden. Der Text macht keine Aussage über bestehende Bauten.",
+    "mistakes_en": "Trap: 'Avoiding construction' ≠ demolishing existing buildings. The text makes no statement about existing buildings.",
+    "links": [
+      {
+        "url": "../knowledge/klimaanpassung-de.html",
+        "label": "Klimaanpassung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-46",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Partizipation in der Raumplanung bedeutet die Einbeziehung der Bevölkerung in Planungsprozesse. Durch Beteiligungsverfahren sollen unterschiedliche Interessen und lokales Wissen in Planungsentscheidungen einfließen. In Österreich ist die Bürgerbeteiligung in verschiedenen Planungsgesetzen verankert.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist Bürgerbeteiligung in Österreich in verschiedenen Planungsgesetzen verankert.",
+    "question_en": "Read the text:\n\n\"Participation in spatial planning means involving the population in planning processes. Through participation procedures, different interests and local knowledge should flow into planning decisions. In Austria, citizen participation is enshrined in various planning laws.\"\n\nAssess the statement:\n\nAccording to the text, citizen participation in Austria is enshrined in various planning laws.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt direkt: 'In Österreich ist die Bürgerbeteiligung in verschiedenen Planungsgesetzen verankert'.",
+    "explanation_en": "TRUE – The text states directly: 'In Austria, citizen participation is enshrined in various planning laws'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/partizipation-de.html",
+        "label": "Partizipation in der Raumplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-47",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Partizipation in der Raumplanung bedeutet die Einbeziehung der Bevölkerung in Planungsprozesse. Durch Beteiligungsverfahren sollen unterschiedliche Interessen und lokales Wissen in Planungsentscheidungen einfließen. In Österreich ist die Bürgerbeteiligung in verschiedenen Planungsgesetzen verankert.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text garantiert Partizipation, dass alle Bürgerinnen und Bürger ihre Wünsche vollständig durchsetzen können.",
+    "question_en": "Read the text:\n\n\"Participation in spatial planning means involving the population in planning processes. Through participation procedures, different interests and local knowledge should flow into planning decisions. Citizen participation is enshrined in various planning laws.\"\n\nAssess the statement:\n\nAccording to the text, participation guarantees that all citizens can fully implement their wishes.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt, Interessen sollen 'einfließen', nicht dass sie vollständig durchgesetzt werden. 'Einfließen' bedeutet berücksichtigt werden, nicht garantiert umgesetzt werden.",
+    "explanation_en": "FALSE – The text says interests should 'flow into' decisions, not that they will be fully implemented. 'Flow into' means being considered, not guaranteed implementation.",
+    "mistakes_de": "Falle: 'Einfließen' ≠ 'vollständig durchsetzen'. Die Aussage übertreibt erheblich.",
+    "mistakes_en": "Trap: 'Flow into' ≠ 'fully implement'. The statement significantly overstates the text.",
+    "links": [
+      {
+        "url": "../knowledge/partizipation-de.html",
+        "label": "Partizipation in der Raumplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-48",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Leerstand bezeichnet ungenutzte Wohn- und Gewerbeimmobilien. In vielen österreichischen Ortskernen hat die Abwanderung von Handel und Dienstleistungen zu erheblichem Leerstand geführt. Die Reaktivierung von Leerständen gilt als ressourcenschonender als Neubau auf der grünen Wiese.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text gilt die Reaktivierung von Leerständen als ressourcenschonender als Neubau auf der grünen Wiese.",
+    "question_en": "Read the text:\n\n\"Vacancy refers to unused residential and commercial properties. In many Austrian town centres, the migration of retail and services has led to significant vacancy. Reactivating vacancies is considered more resource-efficient than new construction on greenfield sites.\"\n\nAssess the statement:\n\nAccording to the text, reactivating vacancies is considered more resource-efficient than new construction on greenfield sites.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'Die Reaktivierung von Leerständen gilt als ressourcenschonender als Neubau auf der grünen Wiese'.",
+    "explanation_en": "TRUE – The text explicitly states: 'Reactivating vacancies is considered more resource-efficient than new construction on greenfield sites'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/leerstand-de.html",
+        "label": "Leerstand"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-49",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Leerstand bezeichnet ungenutzte Wohn- und Gewerbeimmobilien. In vielen österreichischen Ortskernen hat die Abwanderung von Handel und Dienstleistungen zu erheblichem Leerstand geführt. Die Reaktivierung von Leerständen gilt als ressourcenschonender als Neubau auf der grünen Wiese.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text haben alle österreichischen Gemeinden ein Leerstandsproblem in ihren Ortskernen.",
+    "question_en": "Read the text:\n\n\"Vacancy refers to unused residential and commercial properties. In many Austrian town centres, the migration of retail and services has led to significant vacancy. Reactivating vacancies is considered more resource-efficient than new construction on greenfield sites.\"\n\nAssess the statement:\n\nAccording to the text, all Austrian municipalities have a vacancy problem in their town centres.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt 'viele österreichische Ortskerne', nicht 'alle'. 'Viele' schließt nicht alle ein.",
+    "explanation_en": "FALSE – The text says 'many Austrian town centres', not 'all'. 'Many' does not include all.",
+    "mistakes_de": "Falle: 'viele' ≠ 'alle'. Diese Generalisierung macht die Aussage falsch.",
+    "mistakes_en": "Trap: 'many' ≠ 'all'. This generalisation makes the statement false.",
+    "links": [
+      {
+        "url": "../knowledge/leerstand-de.html",
+        "label": "Leerstand"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-50",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Verdichtung bezeichnet die Erhöhung der baulichen Dichte in bestehenden Siedlungsgebieten, zum Beispiel durch Aufstockung, Dachausbau oder die Bebauung von Brachflächen. Ziel der Verdichtung ist es, mehr Wohnraum zu schaffen, ohne zusätzliche Flächen in Anspruch zu nehmen.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist das Ziel der Verdichtung, mehr Wohnraum ohne zusätzlichen Flächenverbrauch zu schaffen.",
+    "question_en": "Read the text:\n\n\"Densification refers to increasing built density in existing settlement areas, for example through adding storeys, attic conversions, or building on brownfield sites. The goal of densification is to create more housing without consuming additional land.\"\n\nAssess the statement:\n\nAccording to the text, the goal of densification is to create more housing without consuming additional land.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt: 'Ziel der Verdichtung ist es, mehr Wohnraum zu schaffen, ohne zusätzliche Flächen in Anspruch zu nehmen'.",
+    "explanation_en": "TRUE – The text states: 'The goal of densification is to create more housing without consuming additional land'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/verdichtung-de.html",
+        "label": "Verdichtung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-51",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Verdichtung bezeichnet die Erhöhung der baulichen Dichte in bestehenden Siedlungsgebieten, zum Beispiel durch Aufstockung, Dachausbau oder die Bebauung von Brachflächen. Ziel der Verdichtung ist es, mehr Wohnraum zu schaffen, ohne zusätzliche Flächen in Anspruch zu nehmen.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text sind Bewohnerinnen und Bewohner verdichteter Gebiete grundsätzlich mit der höheren baulichen Dichte zufrieden.",
+    "question_en": "Read the text:\n\n\"Densification refers to increasing built density in existing settlement areas through adding storeys, attic conversions, or building on brownfield sites. The goal is to create more housing without consuming additional land.\"\n\nAssess the statement:\n\nAccording to the text, residents of densified areas are generally satisfied with the higher built density.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text beschreibt, was Verdichtung ist und welches Ziel sie hat. Über die Zufriedenheit von Bewohnenden macht der Text keine Aussage.",
+    "explanation_en": "NOT DETERMINABLE – The text describes what densification is and its goal. The text makes no statement about resident satisfaction.",
+    "mistakes_de": "Falle: Zufriedenheit der Bewohnenden ist ein reales Thema, aber der Text schweigt dazu.",
+    "mistakes_en": "Trap: Resident satisfaction is a real topic, but the text is silent on this.",
+    "links": [
+      {
+        "url": "../knowledge/verdichtung-de.html",
+        "label": "Verdichtung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-52",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung in Österreich ist Ländersache. Jedes der neun Bundesländer hat sein eigenes Raumordnungsgesetz. Dies führt zu unterschiedlichen Regelungen und Instrumenten in den einzelnen Bundesländern. Die Gemeinden haben innerhalb des landesrechtlichen Rahmens weitreichende Planungskompetenzen.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text hat jedes österreichische Bundesland sein eigenes Raumordnungsgesetz.",
+    "question_en": "Read the text:\n\n\"Spatial planning in Austria is a matter for the provinces. Each of the nine federal provinces has its own spatial planning law. This leads to different regulations and instruments in individual provinces. Municipalities have far-reaching planning competencies within the provincial legal framework.\"\n\nAssess the statement:\n\nAccording to the text, each Austrian federal province has its own spatial planning law.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt: 'Jedes der neun Bundesländer hat sein eigenes Raumordnungsgesetz'.",
+    "explanation_en": "TRUE – The text states: 'Each of the nine federal provinces has its own spatial planning law'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/raumordnung-kompetenz-de.html",
+        "label": "Raumordnungskompetenz Österreich"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-53",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung in Österreich ist Ländersache. Jedes der neun Bundesländer hat sein eigenes Raumordnungsgesetz. Dies führt zu unterschiedlichen Regelungen und Instrumenten in den einzelnen Bundesländern. Die Gemeinden haben innerhalb des landesrechtlichen Rahmens weitreichende Planungskompetenzen.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text haben die österreichischen Gemeinden unbeschränkte Planungskompetenzen.",
+    "question_en": "Read the text:\n\n\"Spatial planning in Austria is a matter for the provinces. Each of the nine federal provinces has its own spatial planning law. This leads to different regulations and instruments. Municipalities have far-reaching planning competencies within the provincial legal framework.\"\n\nAssess the statement:\n\nAccording to the text, Austrian municipalities have unlimited planning competencies.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt 'weitreichende Planungskompetenzen', aber ausdrücklich 'innerhalb des landesrechtlichen Rahmens'. Die Kompetenzen sind also beschränkt, nicht unbeschränkt.",
+    "explanation_en": "FALSE – The text says 'far-reaching planning competencies' but explicitly 'within the provincial legal framework'. So the competencies are limited, not unlimited.",
+    "mistakes_de": "Falle: 'Weitreichend' ≠ 'unbeschränkt'. Der einschränkende Rahmen ('innerhalb des landesrechtlichen Rahmens') wird übersehen.",
+    "mistakes_en": "Trap: 'Far-reaching' ≠ 'unlimited'. The limiting framework ('within the provincial legal framework') is overlooked.",
+    "links": [
+      {
+        "url": "../knowledge/raumordnung-kompetenz-de.html",
+        "label": "Raumordnungskompetenz Österreich"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-54",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Urbanisierung bezeichnet den Prozess, bei dem immer mehr Menschen in Städten leben. Weltweit lebte 2020 mehr als die Hälfte der Weltbevölkerung in Städten. Für Österreich wird prognostiziert, dass dieser Anteil bis 2050 weiter steigen wird.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text lebte im Jahr 2020 mehr als die Hälfte der Weltbevölkerung in Städten.",
+    "question_en": "Read the text:\n\n\"Urbanisation refers to the process by which more and more people live in cities. Worldwide, more than half of the world's population lived in cities in 2020. For Austria, it is forecast that this share will continue to rise by 2050.\"\n\nAssess the statement:\n\nAccording to the text, in 2020 more than half of the world's population lived in cities.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt direkt: 'Weltweit lebte 2020 mehr als die Hälfte der Weltbevölkerung in Städten'.",
+    "explanation_en": "TRUE – The text states directly: 'Worldwide, more than half of the world's population lived in cities in 2020'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/urbanisierung-de.html",
+        "label": "Urbanisierung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-55",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Urbanisierung bezeichnet den Prozess, bei dem immer mehr Menschen in Städten leben. Weltweit lebte 2020 mehr als die Hälfte der Weltbevölkerung in Städten. Für Österreich wird prognostiziert, dass dieser Anteil bis 2050 weiter steigen wird.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text wird der Urbanisierungsgrad in Österreich bis 2050 sinken.",
+    "question_en": "Read the text:\n\n\"Urbanisation refers to the process by which more and more people live in cities. Worldwide, more than half of the world's population lived in cities in 2020. For Austria, it is forecast that this share will continue to rise by 2050.\"\n\nAssess the statement:\n\nAccording to the text, the urbanisation rate in Austria will fall by 2050.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt das Gegenteil: 'wird prognostiziert, dass dieser Anteil bis 2050 weiter steigen wird'.",
+    "explanation_en": "FALSE – The text says the opposite: 'it is forecast that this share will continue to rise by 2050'.",
+    "mistakes_de": "Direkte Umkehrung des Textes – klassische Falsch-Falle.",
+    "mistakes_en": "Direct inversion of the text – classic false trap.",
+    "links": [
+      {
+        "url": "../knowledge/urbanisierung-de.html",
+        "label": "Urbanisierung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-56",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Gemäß dem Studienplan der TU Wien umfasst das Bachelorstudium Raumplanung und Raumordnung 180 ECTS-Punkte und dauert in der Regelstudienzeit sechs Semester. Das Studium schließt mit dem akademischen Grad 'Bachelor of Science' (BSc) ab.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text dauert das Bachelorstudium Raumplanung und Raumordnung an der TU Wien in der Regelstudienzeit sechs Semester.",
+    "question_en": "Read the text:\n\n\"According to the TU Wien curriculum, the Bachelor's programme in Spatial Planning and Regional Development comprises 180 ECTS credits and has a standard duration of six semesters. The programme concludes with the academic degree 'Bachelor of Science' (BSc).\"\n\nAssess the statement:\n\nAccording to the text, the Bachelor's programme in Spatial Planning and Regional Development at TU Wien has a standard duration of six semesters.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt explizit: 'dauert in der Regelstudienzeit sechs Semester'.",
+    "explanation_en": "TRUE – The text explicitly states: 'has a standard duration of six semesters'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan Raumplanung TU Wien"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-57",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Gemäß dem Studienplan der TU Wien umfasst das Bachelorstudium Raumplanung und Raumordnung 180 ECTS-Punkte und dauert in der Regelstudienzeit sechs Semester. Das Studium schließt mit dem akademischen Grad 'Bachelor of Science' (BSc) ab.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text können alle Studierenden das Bachelorstudium in genau sechs Semestern abschließen.",
+    "question_en": "Read the text:\n\n\"According to the TU Wien curriculum, the Bachelor's programme comprises 180 ECTS credits and has a standard duration of six semesters. The programme concludes with the 'Bachelor of Science' (BSc) degree.\"\n\nAssess the statement:\n\nAccording to the text, all students can complete the Bachelor's programme in exactly six semesters.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text nennt die 'Regelstudienzeit' von sechs Semestern, macht aber keine Aussage darüber, ob alle Studierenden dieses Ziel tatsächlich erreichen.",
+    "explanation_en": "NOT DETERMINABLE – The text names the 'standard duration' of six semesters but makes no statement about whether all students actually achieve this.",
+    "mistakes_de": "Falle: 'Regelstudienzeit' ist eine Planungsgröße, keine Garantie für alle. Über tatsächliche Studiendauer sagt der Text nichts.",
+    "mistakes_en": "Trap: 'Standard duration' is a planning figure, not a guarantee for all. The text says nothing about actual study duration.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan Raumplanung TU Wien"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-58",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Grüne Infrastruktur umfasst ein Netzwerk natürlicher und naturnaher Räume, die multifunktionalen Nutzen erbringen. Dazu gehören Parks, Grünflächen, Straßenbäume, Dachbegrünungen und Wasserflächen. Grüne Infrastruktur trägt zur Klimaanpassung, Biodiversität und Lebensqualität in Städten bei.\"\n\nBeurteilen Sie die Aussage:\n\nGrüne Infrastruktur umfasst laut Text auch Dachbegrünungen.",
+    "question_en": "Read the text:\n\n\"Green infrastructure comprises a network of natural and near-natural spaces that provide multifunctional benefits. These include parks, green spaces, street trees, green roofs, and water bodies. Green infrastructure contributes to climate adaptation, biodiversity, and quality of life in cities.\"\n\nAssess the statement:\n\nAccording to the text, green infrastructure also includes green roofs.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text listet 'Dachbegrünungen' explizit als Bestandteil grüner Infrastruktur auf.",
+    "explanation_en": "TRUE – The text explicitly lists 'green roofs' as a component of green infrastructure.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/gruene-infrastruktur-de.html",
+        "label": "Grüne Infrastruktur"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-59",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Grüne Infrastruktur umfasst ein Netzwerk natürlicher und naturnaher Räume, die multifunktionalen Nutzen erbringen. Dazu gehören Parks, Grünflächen, Straßenbäume, Dachbegrünungen und Wasserflächen. Grüne Infrastruktur trägt zur Klimaanpassung, Biodiversität und Lebensqualität in Städten bei.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist grüne Infrastruktur nur in Städten sinnvoll.",
+    "question_en": "Read the text:\n\n\"Green infrastructure comprises a network of natural and near-natural spaces that provide multifunctional benefits. These include parks, green spaces, street trees, green roofs, and water bodies. Green infrastructure contributes to climate adaptation, biodiversity, and quality of life in cities.\"\n\nAssess the statement:\n\nAccording to the text, green infrastructure is only useful in cities.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text erwähnt Beiträge zur Lebensqualität 'in Städten', macht aber keine Aussage darüber, ob grüne Infrastruktur nur in Städten sinnvoll ist. Ländliche Anwendungen werden weder bestätigt noch ausgeschlossen.",
+    "explanation_en": "NOT DETERMINABLE – The text mentions contributions to quality of life 'in cities' but makes no statement about whether green infrastructure is only useful in cities. Rural applications are neither confirmed nor excluded.",
+    "mistakes_de": "Falle: Städte werden im Text genannt, aber das schließt ländliche Anwendungen nicht aus. Der Text trifft keine Exklusivaussage.",
+    "mistakes_en": "Trap: Cities are mentioned in the text, but this does not exclude rural applications. The text makes no exclusive claim.",
+    "links": [
+      {
+        "url": "../knowledge/gruene-infrastruktur-de.html",
+        "label": "Grüne Infrastruktur"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-60",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Mobilität und Verkehr sind zentrale Themen der Raumplanung. Das Verkehrsverhalten der Bevölkerung wird stark durch die räumliche Struktur beeinflusst: Dichte Siedlungen mit guter ÖV-Anbindung und kurzen Wegen fördern den Umweltverbund (Fuß, Rad, ÖV). Zersiedlung hingegen führt zu Autoabhängigkeit.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text fördert Zersiedlung die Nutzung des Umweltverbunds.",
+    "question_en": "Read the text:\n\n\"Mobility and transport are central topics of spatial planning. The population's travel behaviour is strongly influenced by spatial structure: dense settlements with good public transport connections and short distances promote sustainable mobility (walking, cycling, public transport). Urban sprawl, on the other hand, leads to car dependency.\"\n\nAssess the statement:\n\nAccording to the text, urban sprawl promotes the use of sustainable mobility.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt das Gegenteil: 'Zersiedlung hingegen führt zu Autoabhängigkeit'. Die Aussage vertauscht den Sachverhalt.",
+    "explanation_en": "FALSE – The text says the opposite: 'Urban sprawl, on the other hand, leads to car dependency'. The statement reverses the facts.",
+    "mistakes_de": "Direkte Umkehrung des Textes – klassische Falsch-Falle.",
+    "mistakes_en": "Direct inversion of the text – classic false trap.",
+    "links": [
+      {
+        "url": "../knowledge/mobilitaet-raumplanung-de.html",
+        "label": "Mobilität und Raumplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-61",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Mobilität und Verkehr sind zentrale Themen der Raumplanung. Das Verkehrsverhalten der Bevölkerung wird stark durch die räumliche Struktur beeinflusst: Dichte Siedlungen mit guter ÖV-Anbindung und kurzen Wegen fördern den Umweltverbund (Fuß, Rad, ÖV). Zersiedlung hingegen führt zu Autoabhängigkeit.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text ist es unmöglich, in zersiedlungsgeprägten Gebieten den ÖV auszubauen.",
+    "question_en": "Read the text:\n\n\"Mobility and transport are central topics of spatial planning. Dense settlements with good public transport connections and short distances promote sustainable mobility. Urban sprawl leads to car dependency.\"\n\nAssess the statement:\n\nAccording to the text, it is impossible to expand public transport in areas characterised by urban sprawl.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "NICHT BEURTEILBAR – Der Text sagt, Zersiedlung 'führt zu Autoabhängigkeit', macht aber keine Aussage über die Möglichkeit oder Unmöglichkeit eines ÖV-Ausbaus in solchen Gebieten.",
+    "explanation_en": "NOT DETERMINABLE – The text says urban sprawl 'leads to car dependency' but makes no statement about the possibility or impossibility of expanding public transport in such areas.",
+    "mistakes_de": "Falle: 'Führt zu Autoabhängigkeit' beschreibt ein Ergebnis, sagt aber nichts über zukünftige ÖV-Ausbaumöglichkeiten.",
+    "mistakes_en": "Trap: 'Leads to car dependency' describes an outcome but says nothing about future public transport expansion possibilities.",
+    "links": [
+      {
+        "url": "../knowledge/mobilitaet-raumplanung-de.html",
+        "label": "Mobilität und Raumplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-62",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das Konzept der Funktionsmischung beschreibt die räumliche Durchmischung unterschiedlicher Nutzungen wie Wohnen, Arbeiten, Einkaufen und Erholen in einem Quartier oder einer Stadt. Funktionsmischung gilt als Merkmal lebendiger und resilienter Stadtstrukturen und kann kurze Wege und soziale Interaktion fördern.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text beschreibt Funktionsmischung die räumliche Durchmischung unterschiedlicher Nutzungen.",
+    "question_en": "Read the text:\n\n\"The concept of mixed use describes the spatial mixing of different uses such as housing, work, shopping, and recreation in a neighbourhood or city. Mixed use is considered a characteristic of lively and resilient urban structures and can promote short distances and social interaction.\"\n\nAssess the statement:\n\nAccording to the text, mixed use describes the spatial mixing of different uses.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text definiert Funktionsmischung direkt als 'räumliche Durchmischung unterschiedlicher Nutzungen'.",
+    "explanation_en": "TRUE – The text directly defines mixed use as 'spatial mixing of different uses'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/funktionsmischung-de.html",
+        "label": "Funktionsmischung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-63",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das Konzept der Funktionsmischung beschreibt die räumliche Durchmischung unterschiedlicher Nutzungen wie Wohnen, Arbeiten, Einkaufen und Erholen in einem Quartier oder einer Stadt. Funktionsmischung gilt als Merkmal lebendiger und resilienter Stadtstrukturen und kann kurze Wege und soziale Interaktion fördern.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text führt Funktionsmischung immer zu höherer sozialer Interaktion.",
+    "question_en": "Read the text:\n\n\"The concept of mixed use describes the spatial mixing of different uses such as housing, work, shopping, and recreation. Mixed use is considered a characteristic of lively and resilient urban structures and can promote short distances and social interaction.\"\n\nAssess the statement:\n\nAccording to the text, mixed use always leads to higher social interaction.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt 'kann kurze Wege und soziale Interaktion fördern' – 'kann' bedeutet Möglichkeit, nicht Gewissheit. 'Immer' macht die Aussage falsch.",
+    "explanation_en": "FALSE – The text says 'can promote short distances and social interaction' – 'can' expresses possibility, not certainty. 'Always' makes the statement false.",
+    "mistakes_de": "Falle: 'kann fördern' ≠ 'führt immer zu'. Das Modalverb 'kann' drückt Möglichkeit aus, nicht Gewissheit.",
+    "mistakes_en": "Trap: 'can promote' ≠ 'always leads to'. The modal verb 'can' expresses possibility, not certainty.",
+    "links": [
+      {
+        "url": "../knowledge/funktionsmischung-de.html",
+        "label": "Funktionsmischung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-64",
+    "quizId": "text-comprehension",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Historisch gesehen hat die Industrialisierung im 19. und frühen 20. Jahrhundert zu einer raschen Verstädterung geführt. Arbeitsmigration in Industriezentren schuf große Ballungsräume mit oft prekären Wohnverhältnissen. Die Reaktion auf diese Zustände war die Entstehung der modernen Stadtplanung als professionelle Disziplin.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text hat die Industrialisierung zu einer raschen Verstädterung geführt.",
+    "question_en": "Read the text:\n\n\"Historically, industrialisation in the 19th and early 20th centuries led to rapid urbanisation. Labour migration to industrial centres created large conurbations with often precarious living conditions. The response to these conditions was the emergence of modern urban planning as a professional discipline.\"\n\nAssess the statement:\n\nAccording to the text, industrialisation led to rapid urbanisation.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "RICHTIG – Der Text sagt direkt: 'hat die Industrialisierung im 19. und frühen 20. Jahrhundert zu einer raschen Verstädterung geführt'.",
+    "explanation_en": "TRUE – The text states directly: 'industrialisation in the 19th and early 20th centuries led to rapid urbanisation'.",
+    "mistakes_de": "Kein typischer Fehler – direkt belegbar.",
+    "mistakes_en": "No typical mistake – directly supported.",
+    "links": [
+      {
+        "url": "../knowledge/stadtplanung-geschichte-de.html",
+        "label": "Geschichte der Stadtplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-65",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Historisch gesehen hat die Industrialisierung im 19. und frühen 20. Jahrhundert zu einer raschen Verstädterung geführt. Arbeitsmigration in Industriezentren schuf große Ballungsräume mit oft prekären Wohnverhältnissen. Die Reaktion auf diese Zustände war die Entstehung der modernen Stadtplanung als professionelle Disziplin.\"\n\nBeurteilen Sie die Aussage:\n\nLaut Text war die moderne Stadtplanung bereits vor der Industrialisierung als professionelle Disziplin etabliert.",
+    "question_en": "Read the text:\n\n\"Historically, industrialisation led to rapid urbanisation. Labour migration created large conurbations with often precarious living conditions. The response to these conditions was the emergence of modern urban planning as a professional discipline.\"\n\nAssess the statement:\n\nAccording to the text, modern urban planning was already established as a professional discipline before industrialisation.",
+    "options_de": [
+      "a) richtig",
+      "b) falsch",
+      "c) nicht beurteilbar"
+    ],
+    "options_en": [
+      "a) true",
+      "b) false",
+      "c) not determinable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "FALSCH – Der Text sagt das Gegenteil: Stadtplanung entstand als 'Reaktion auf diese Zustände', also nach der Industrialisierung, nicht davor.",
+    "explanation_en": "FALSE – The text says the opposite: urban planning emerged as a 'response to these conditions', i.e. after industrialisation, not before.",
+    "mistakes_de": "Direkte zeitliche Umkehrung des Textes.",
+    "mistakes_en": "Direct temporal inversion of the text.",
+    "links": [
+      {
+        "url": "../knowledge/stadtplanung-geschichte-de.html",
+        "label": "Geschichte der Stadtplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-66",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Das OEREK 2030 wurde als gemeinsames Leitdokument von Bund, Ländern und Gemeinden erarbeitet. Es formuliert Ziele für eine nachhaltige Raumentwicklung bis 2030. Megatrends wie Klimawandel, Digitalisierung und demographischer Wandel werden als zentrale Herausforderungen identifiziert. Ein Schwerpunkt liegt auf der Reduktion des Flächenverbrauchs. Die Umsetzung erfolgt durch Kooperationen zwischen verschiedenen staatlichen Ebenen.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"The OEREK 2030 was developed as a joint guiding document by the federal government, provinces, and municipalities. It formulates goals for sustainable spatial development until 2030. Megatrends such as climate change, digitalization, and demographic change are identified as central challenges. A focus is on reducing land consumption. Implementation takes place through cooperation between different government levels.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Das OEREK 2030 wurde von Bund, Ländern und Gemeinden gemeinsam erarbeitet.",
+      "b) RICHTIG: Klimawandel, Digitalisierung und demographischer Wandel werden als Megatrends genannt.",
+      "c) FALSCH: Das OEREK 2030 wurde ausschließlich vom Bund erarbeitet.",
+      "d) RICHTIG: Die Reduktion des Flächenverbrauchs ist laut Text ein Schwerpunkt des OEREK 2030.",
+      "e) NICHT BEURTEILBAR: Das OEREK 2030 ist rechtlich verbindlich für alle Gemeinden."
+    ],
+    "options_en": [
+      "a) TRUE: The OEREK 2030 was jointly developed by the federal government, provinces, and municipalities.",
+      "b) TRUE: Climate change, digitalization, and demographic change are named as megatrends.",
+      "c) FALSE: The OEREK 2030 was developed exclusively by the federal government.",
+      "d) TRUE: Reducing land consumption is a focus of the OEREK 2030 according to the text.",
+      "e) NOT DETERMINABLE: The OEREK 2030 is legally binding for all municipalities."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit im Text. b) RICHTIG – alle drei Megatrends werden genannt. c) FALSCH – der Text sagt 'gemeinsam von Bund, Ländern und Gemeinden'. d) RICHTIG – 'Ein Schwerpunkt liegt auf der Reduktion des Flächenverbrauchs'. e) NICHT BEURTEILBAR – Rechtsverbindlichkeit wird im Text nicht erwähnt.",
+    "explanation_en": "a) TRUE – explicit in text. b) TRUE – all three megatrends are named. c) FALSE – text says 'jointly by federal government, provinces, and municipalities'. d) TRUE – 'A focus is on reducing land consumption'. e) NOT DETERMINABLE – legal bindingness is not mentioned in the text.",
+    "mistakes_de": "Bei e) ist die häufigste Fehlannahme, dass ein politisches Leitdokument automatisch verbindlich ist.",
+    "mistakes_en": "For e) the most common error is assuming a political guiding document is automatically binding.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-67",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung an der TU Wien ist ein interdisziplinäres Studium, das naturwissenschaftliche, sozialwissenschaftliche, rechtliche und technische Grundlagen verbindet. Absolventinnen und Absolventen sind befähigt, komplexe räumliche Probleme zu analysieren, Planungskonzepte zu entwickeln und Beteiligungsprozesse zu moderieren. Das Studium dauert in der Regelstudienzeit sechs Semester und schließt mit dem BSc ab.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Spatial planning at TU Wien is an interdisciplinary programme combining natural scientific, social scientific, legal, and technical foundations. Graduates are qualified to analyse complex spatial problems, develop planning concepts, and moderate participation processes. The programme has a standard duration of six semesters and concludes with a BSc.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Raumplanung an der TU Wien verbindet rechtliche und technische Grundlagen.",
+      "b) FALSCH: Das Studium schließt laut Text mit dem Master of Science ab.",
+      "c) RICHTIG: Absolventen sind befähigt, Beteiligungsprozesse zu moderieren.",
+      "d) NICHT BEURTEILBAR: Raumplanung an der TU Wien ist das beste Studium Österreichs.",
+      "e) RICHTIG: Die Regelstudienzeit beträgt sechs Semester."
+    ],
+    "options_en": [
+      "a) TRUE: Spatial planning at TU Wien combines legal and technical foundations.",
+      "b) FALSE: According to the text, the programme concludes with a Master of Science.",
+      "c) TRUE: Graduates are qualified to moderate participation processes.",
+      "d) NOT DETERMINABLE: Spatial planning at TU Wien is the best programme in Austria.",
+      "e) TRUE: The standard duration is six semesters."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – beide Grundlagen werden genannt. b) FALSCH – der Text sagt BSc, nicht MSc. c) RICHTIG – explizit im Text. d) NICHT BEURTEILBAR – Qualitätsurteile wie 'das beste' sind im Text nicht vorhanden. e) RICHTIG – explizit im Text.",
+    "explanation_en": "a) TRUE – both foundations are named. b) FALSE – text says BSc, not MSc. c) TRUE – explicit in text. d) NOT DETERMINABLE – quality judgements like 'the best' are absent from the text. e) TRUE – explicit in text.",
+    "mistakes_de": "Bei b) wird BSc und MSc verwechselt. Bei d) erscheint eine Qualitätsbewertung plausibel, ist aber nicht im Text.",
+    "mistakes_en": "For b) BSc and MSc are confused. For d) a quality assessment seems plausible but is not in the text.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan Raumplanung TU Wien"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-68",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Bodenversiegelung bezeichnet die Bedeckung des Bodens mit wasserundurchlässigen Materialien wie Asphalt oder Beton. Sie führt zu einem Verlust natürlicher Bodenfunktionen wie Wasseraufnahme, Filterung und Kohlenstoffspeicherung. In urbanen Räumen ist Bodenversiegelung eine der Hauptursachen für Überhitzung und Überflutungen.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Soil sealing refers to covering soil with water-impermeable materials such as asphalt or concrete. It leads to a loss of natural soil functions such as water absorption, filtration, and carbon storage. In urban areas, soil sealing is one of the main causes of overheating and flooding.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Bodenversiegelung bezeichnet die Bedeckung des Bodens mit wasserundurchlässigen Materialien.",
+      "b) RICHTIG: Wasseraufnahme und Kohlenstoffspeicherung sind laut Text natürliche Bodenfunktionen.",
+      "c) FALSCH: Bodenversiegelung ist laut Text die einzige Ursache urbaner Überflutungen.",
+      "d) RICHTIG: Bodenversiegelung führt laut Text zu einem Verlust natürlicher Bodenfunktionen.",
+      "e) NICHT BEURTEILBAR: Bodenversiegelung verursacht in Österreich jährlich Schäden in Milliardenhöhe."
+    ],
+    "options_en": [
+      "a) TRUE: Soil sealing refers to covering soil with water-impermeable materials.",
+      "b) TRUE: Water absorption and carbon storage are natural soil functions according to the text.",
+      "c) FALSE: According to the text, soil sealing is the sole cause of urban flooding.",
+      "d) TRUE: Soil sealing leads to a loss of natural soil functions according to the text.",
+      "e) NOT DETERMINABLE: Soil sealing causes billions in annual damage in Austria."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – Definition direkt im Text. b) RICHTIG – beide Funktionen werden genannt. c) FALSCH – 'eine der Hauptursachen', nicht 'die einzige Ursache'. d) RICHTIG – explizit im Text. e) NICHT BEURTEILBAR – Schadenshöhe wird im Text nicht erwähnt.",
+    "explanation_en": "a) TRUE – definition directly in text. b) TRUE – both functions are named. c) FALSE – 'one of the main causes', not 'the sole cause'. d) TRUE – explicit in text. e) NOT DETERMINABLE – damage amounts are not mentioned in the text.",
+    "mistakes_de": "Bei c) ist 'eine der' vs. 'die einzige' eine klassische Reihungstest-Falle.",
+    "mistakes_en": "For c) 'one of the' vs. 'the sole' is a classic entrance test trap.",
+    "links": [
+      {
+        "url": "../knowledge/bodenversiegelung-de.html",
+        "label": "Bodenversiegelung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-69",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Ortskernrevitalisierung bezeichnet Maßnahmen zur Stärkung von Ortskernen, die durch Abwanderung von Handel und Wohnen geschwächt wurden. Ziele sind Nahversorgungssicherung, Verbesserung der Aufenthaltsqualität und Nutzung von Leerständen. Viele österreichische Gemeinden stehen vor dieser Herausforderung.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Town centre revitalisation refers to measures to strengthen town centres weakened by the migration of retail and housing. Goals include securing local supply, improving quality of stay, and using vacancies. Many Austrian municipalities face this challenge.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Ortskernrevitalisierung reagiert laut Text auf Abwanderung von Handel und Wohnen.",
+      "b) RICHTIG: Nutzung von Leerständen ist ein Ziel der Ortskernrevitalisierung.",
+      "c) FALSCH: Alle österreichischen Gemeinden stehen laut Text vor dieser Herausforderung.",
+      "d) NICHT BEURTEILBAR: Ortskernrevitalisierungsprojekte werden in Österreich staatlich gefördert.",
+      "e) RICHTIG: Verbesserung der Aufenthaltsqualität ist laut Text ein Ziel."
+    ],
+    "options_en": [
+      "a) TRUE: According to the text, town centre revitalisation responds to the migration of retail and housing.",
+      "b) TRUE: Using vacancies is a goal of town centre revitalisation.",
+      "c) FALSE: According to the text, all Austrian municipalities face this challenge.",
+      "d) NOT DETERMINABLE: Town centre revitalisation projects are publicly funded in Austria.",
+      "e) TRUE: Improving quality of stay is a goal according to the text."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) RICHTIG – explizit. c) FALSCH – 'viele', nicht 'alle'. d) NICHT BEURTEILBAR – staatliche Förderung wird nicht erwähnt. e) RICHTIG – explizit.",
+    "explanation_en": "a) TRUE – explicit. b) TRUE – explicit. c) FALSE – 'many', not 'all'. d) NOT DETERMINABLE – public funding not mentioned. e) TRUE – explicit.",
+    "mistakes_de": "Bei c) die Verwechslung von 'viele' und 'alle' ist ein häufiger Fehler.",
+    "mistakes_en": "For c) confusing 'many' and 'all' is a frequent error.",
+    "links": [
+      {
+        "url": "../knowledge/ortskern-de.html",
+        "label": "Ortskernrevitalisierung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-70",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Der Europäische Green Deal zielt darauf ab, Europa bis 2050 zum ersten klimaneutralen Kontinent zu machen. Er umfasst Maßnahmen in den Bereichen Energie, Verkehr, Industrie und Landwirtschaft. Auch die Raumplanung ist gefordert, einen Beitrag zu leisten. Das Ziel ist eine treibhausgasneutrale Wirtschaft.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"The European Green Deal aims to make Europe the first climate-neutral continent by 2050. It encompasses measures in energy, transport, industry, and agriculture. Spatial planning is also called upon to contribute. The goal is a greenhouse-gas-neutral economy.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Der Green Deal zielt auf Klimaneutralität Europas bis 2050.",
+      "b) FALSCH: Laut Text ist der Green Deal ein nationales Programm Österreichs.",
+      "c) RICHTIG: Landwirtschaft ist laut Text einer der Bereiche des Green Deal.",
+      "d) NICHT BEURTEILBAR: Der Green Deal hat die Unterstützung aller EU-Mitgliedsstaaten.",
+      "e) RICHTIG: Auch die Raumplanung ist laut Text gefordert, einen Beitrag zu leisten."
+    ],
+    "options_en": [
+      "a) TRUE: The Green Deal aims at Europe's climate neutrality by 2050.",
+      "b) FALSE: According to the text, the Green Deal is a national Austrian programme.",
+      "c) TRUE: Agriculture is one of the Green Deal's areas according to the text.",
+      "d) NOT DETERMINABLE: The Green Deal has the support of all EU member states.",
+      "e) TRUE: Spatial planning is also called upon to contribute according to the text."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) FALSCH – es ist ein EU-Programm, kein nationales. c) RICHTIG – explizit. d) NICHT BEURTEILBAR – Unterstützung aller Mitgliedsstaaten wird nicht thematisiert. e) RICHTIG – explizit.",
+    "explanation_en": "a) TRUE – explicit. b) FALSE – it is an EU programme, not national. c) TRUE – explicit. d) NOT DETERMINABLE – support of all member states is not discussed. e) TRUE – explicit.",
+    "mistakes_de": "Bei d) scheint Unterstützung plausibel, ist aber nicht im Text.",
+    "mistakes_en": "For d) support seems plausible but is not in the text.",
+    "links": [
+      {
+        "url": "../knowledge/green-deal-de.html",
+        "label": "European Green Deal"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-71",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"EU-Kohäsionspolitik zielt auf wirtschaftlichen, sozialen und territorialen Zusammenhalt ab. Sie unterstützt strukturschwache Regionen durch Fördermittel aus den Europäischen Struktur- und Investitionsfonds (ESIF). Ziel ist es, regionale Ungleichheiten zu verringern. Die Förderperioden dauern jeweils sieben Jahre.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"EU cohesion policy aims at economic, social, and territorial cohesion. It supports structurally weak regions through ESIF funding. The goal is to reduce regional inequalities. Funding periods each last seven years.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: EU-Kohäsionspolitik zielt auf wirtschaftlichen, sozialen und territorialen Zusammenhalt.",
+      "b) RICHTIG: Laut Text dauern die Förderperioden jeweils sieben Jahre.",
+      "c) FALSCH: Kohäsionspolitik unterstützt laut Text nur wirtschaftlich starke Regionen.",
+      "d) RICHTIG: Ziel der Kohäsionspolitik ist die Verringerung regionaler Ungleichheiten.",
+      "e) NICHT BEURTEILBAR: Die Kohäsionspolitik hat regionale Ungleichheiten vollständig beseitigt."
+    ],
+    "options_en": [
+      "a) TRUE: EU cohesion policy aims at economic, social, and territorial cohesion.",
+      "b) TRUE: According to the text, funding periods last seven years each.",
+      "c) FALSE: According to the text, cohesion policy only supports economically strong regions.",
+      "d) TRUE: The goal of cohesion policy is to reduce regional inequalities.",
+      "e) NOT DETERMINABLE: Cohesion policy has completely eliminated regional inequalities."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) RICHTIG – explizit. c) FALSCH – unterstützt strukturschwache, nicht starke Regionen. d) RICHTIG – explizit. e) NICHT BEURTEILBAR – vollständige Beseitigung wird nicht erwähnt.",
+    "explanation_en": "a) TRUE – explicit. b) TRUE – explicit. c) FALSE – supports structurally weak, not strong regions. d) TRUE – explicit. e) NOT DETERMINABLE – complete elimination is not mentioned.",
+    "mistakes_de": "Bei c) Verwechslung von strukturschwach und strukturstark.",
+    "mistakes_en": "For c) confusing structurally weak and structurally strong.",
+    "links": [
+      {
+        "url": "../knowledge/eu-kohaesion-de.html",
+        "label": "EU-Kohäsionspolitik"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-72",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung wirkt auf mehreren räumlichen Ebenen: international, europäisch, national, regional und lokal. Auf lokaler Ebene ist die Gemeinde der zentrale Akteur. Sie erstellt Flächenwidmungspläne und Bebauungspläne. Auf regionaler Ebene koordinieren Regionalprogramme die Entwicklung mehrerer Gemeinden.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Spatial planning operates on multiple spatial levels: international, European, national, regional, and local. At the local level, the municipality is the central actor. It prepares land use plans and development plans. At the regional level, regional programmes coordinate the development of several municipalities.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Raumplanung findet laut Text auf lokaler, regionaler und internationaler Ebene statt.",
+      "b) RICHTIG: Die Gemeinde ist laut Text der zentrale Akteur auf lokaler Ebene.",
+      "c) FALSCH: Laut Text gibt es nur zwei räumliche Planungsebenen.",
+      "d) NICHT BEURTEILBAR: Auf internationaler Ebene ist die EU der wichtigste Akteur.",
+      "e) RICHTIG: Regionalprogramme koordinieren laut Text die Entwicklung mehrerer Gemeinden."
+    ],
+    "options_en": [
+      "a) TRUE: According to the text, spatial planning takes place at local, regional, and international levels.",
+      "b) TRUE: The municipality is the central actor at the local level according to the text.",
+      "c) FALSE: According to the text, there are only two spatial planning levels.",
+      "d) NOT DETERMINABLE: At the international level, the EU is the most important actor.",
+      "e) TRUE: Regional programmes coordinate the development of several municipalities according to the text."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – alle drei Ebenen werden im Text genannt. b) RICHTIG – explizit. c) FALSCH – fünf Ebenen werden genannt. d) NICHT BEURTEILBAR – die internationale Ebene wird genannt, aber keine Akteursaussage gemacht. e) RICHTIG – explizit.",
+    "explanation_en": "a) TRUE – all three levels named in text. b) TRUE – explicit. c) FALSE – five levels are named. d) NOT DETERMINABLE – international level is named but no actor statement is made. e) TRUE – explicit.",
+    "mistakes_de": "Bei d) ist die EU auf internationaler Ebene naheliegend, aber der Text macht keine Akteursaussage.",
+    "mistakes_en": "For d) the EU seems obvious at international level, but the text makes no actor statement.",
+    "links": [
+      {
+        "url": "../knowledge/planungsebenen-de.html",
+        "label": "Planungsebenen"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-73",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Partizipation in der Raumplanung bedeutet die Einbeziehung der Bevölkerung in Planungsprozesse. Durch Beteiligungsverfahren sollen unterschiedliche Interessen und lokales Wissen einfließen. In Österreich ist die Bürgerbeteiligung in verschiedenen Planungsgesetzen verankert. Partizipation steigert die Akzeptanz von Planungsentscheidungen.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Participation in spatial planning means involving the population in planning processes. Through participation procedures, different interests and local knowledge should flow into decisions. In Austria, citizen participation is enshrined in various planning laws. Participation increases acceptance of planning decisions.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Partizipation soll laut Text lokales Wissen in Planungsprozesse einbringen.",
+      "b) RICHTIG: In Österreich ist Bürgerbeteiligung in Planungsgesetzen verankert.",
+      "c) NICHT BEURTEILBAR: Partizipationsverfahren dauern in der Regel mehrere Monate.",
+      "d) RICHTIG: Partizipation steigert laut Text die Akzeptanz von Planungsentscheidungen.",
+      "e) FALSCH: Laut Text garantiert Partizipation, dass alle Interessen vollständig berücksichtigt werden."
+    ],
+    "options_en": [
+      "a) TRUE: According to the text, participation should bring local knowledge into planning processes.",
+      "b) TRUE: In Austria, citizen participation is enshrined in planning laws.",
+      "c) NOT DETERMINABLE: Participation procedures typically last several months.",
+      "d) TRUE: Participation increases acceptance of planning decisions according to the text.",
+      "e) FALSE: According to the text, participation guarantees that all interests are fully considered."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) RICHTIG – explizit. c) NICHT BEURTEILBAR – Dauer von Verfahren wird im Text nicht thematisiert. d) RICHTIG – explizit. e) FALSCH – 'einfließen sollen' ≠ 'vollständig berücksichtigt werden'.",
+    "explanation_en": "a) TRUE – explicit. b) TRUE – explicit. c) NOT DETERMINABLE – duration of procedures is not discussed. d) TRUE – explicit. e) FALSE – 'should flow into' ≠ 'fully considered'.",
+    "mistakes_de": "Bei e) Überinterpretation von 'einfließen sollen'.",
+    "mistakes_en": "For e) over-interpretation of 'should flow into'.",
+    "links": [
+      {
+        "url": "../knowledge/partizipation-de.html",
+        "label": "Partizipation in der Raumplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-74",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung in Österreich ist Ländersache. Jedes der neun Bundesländer hat sein eigenes Raumordnungsgesetz. Die Gemeinden haben innerhalb des landesrechtlichen Rahmens weitreichende Planungskompetenzen. Eine bundeseinheitliche Raumordnung gibt es in Österreich nicht.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Spatial planning in Austria is a matter for the provinces. Each of the nine federal provinces has its own spatial planning law. Municipalities have far-reaching planning competencies within the provincial legal framework. There is no nationwide unified spatial planning in Austria.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Jedes österreichische Bundesland hat laut Text sein eigenes Raumordnungsgesetz.",
+      "b) FALSCH: Laut Text gibt es in Österreich ein einheitliches Bundesraumordnungsgesetz.",
+      "c) RICHTIG: Gemeinden haben laut Text weitreichende Planungskompetenzen.",
+      "d) NICHT BEURTEILBAR: Das Raumordnungsgesetz des Bundeslandes Wien ist das modernste.",
+      "e) RICHTIG: Die Planungskompetenzen der Gemeinden sind durch den landesrechtlichen Rahmen begrenzt."
+    ],
+    "options_en": [
+      "a) TRUE: Each Austrian federal province has its own spatial planning law according to the text.",
+      "b) FALSE: According to the text, Austria has a unified federal spatial planning law.",
+      "c) TRUE: Municipalities have far-reaching planning competencies according to the text.",
+      "d) NOT DETERMINABLE: The spatial planning law of Vienna is the most modern.",
+      "e) TRUE: Municipal planning competencies are limited by the provincial legal framework."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) FALSCH – 'Eine bundeseinheitliche Raumordnung gibt es nicht'. c) RICHTIG – explizit. d) NICHT BEURTEILBAR – Vergleich der Gesetze wird nicht thematisiert. e) RICHTIG – 'innerhalb des landesrechtlichen Rahmens'.",
+    "explanation_en": "a) TRUE – explicit. b) FALSE – 'There is no nationwide unified spatial planning'. c) TRUE – explicit. d) NOT DETERMINABLE – comparison of laws is not discussed. e) TRUE – 'within the provincial legal framework'.",
+    "mistakes_de": "Bei b) wird die Aussage direkt invertiert.",
+    "mistakes_en": "For b) the statement is directly inverted.",
+    "links": [
+      {
+        "url": "../knowledge/raumordnung-kompetenz-de.html",
+        "label": "Raumordnungskompetenz Österreich"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-75",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Mobilität und Verkehr sind zentrale Themen der Raumplanung. Dichte Siedlungen mit guter ÖV-Anbindung und kurzen Wegen fördern den Umweltverbund. Zersiedlung führt zu Autoabhängigkeit. Raumplanung kann durch gezielte Siedlungssteuerung das Mobilitätsverhalten beeinflussen.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Mobility and transport are central topics of spatial planning. Dense settlements with good public transport connections and short distances promote sustainable mobility. Urban sprawl leads to car dependency. Spatial planning can influence mobility behaviour through targeted settlement management.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Dichte Siedlungen mit guter ÖV-Anbindung fördern laut Text den Umweltverbund.",
+      "b) FALSCH: Laut Text fördert Zersiedlung die Nutzung des Umweltverbunds.",
+      "c) RICHTIG: Raumplanung kann laut Text das Mobilitätsverhalten beeinflussen.",
+      "d) NICHT BEURTEILBAR: Österreich hat den höchsten Anteil an Zersiedlung in Europa.",
+      "e) RICHTIG: Zersiedlung führt laut Text zu Autoabhängigkeit."
+    ],
+    "options_en": [
+      "a) TRUE: Dense settlements with good public transport promote sustainable mobility according to the text.",
+      "b) FALSE: According to the text, urban sprawl promotes the use of sustainable mobility.",
+      "c) TRUE: Spatial planning can influence mobility behaviour according to the text.",
+      "d) NOT DETERMINABLE: Austria has the highest share of urban sprawl in Europe.",
+      "e) TRUE: Urban sprawl leads to car dependency according to the text."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) FALSCH – Zersiedlung führt zu Autoabhängigkeit, nicht Umweltverbund. c) RICHTIG – explizit. d) NICHT BEURTEILBAR – europäischer Vergleich wird nicht thematisiert. e) RICHTIG – explizit.",
+    "explanation_en": "a) TRUE – explicit. b) FALSE – urban sprawl leads to car dependency, not sustainable mobility. c) TRUE – explicit. d) NOT DETERMINABLE – European comparison not discussed. e) TRUE – explicit.",
+    "mistakes_de": "Bei b) klassische Inversion der Textaussage.",
+    "mistakes_en": "For b) classic inversion of the text statement.",
+    "links": [
+      {
+        "url": "../knowledge/mobilitaet-raumplanung-de.html",
+        "label": "Mobilität und Raumplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-76",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Die Industrialisierung im 19. Jahrhundert führte zu rascher Verstädterung. Arbeitsmigration schuf große Ballungsräume mit prekären Wohnverhältnissen. Als Reaktion darauf entstand die moderne Stadtplanung als professionelle Disziplin. Pioniere wie Camillo Sitte prägten das Stadtbild des späten 19. Jahrhunderts.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Industrialisation in the 19th century led to rapid urbanisation. Labour migration created large conurbations with precarious living conditions. In response, modern urban planning emerged as a professional discipline. Pioneers such as Camillo Sitte shaped the urban landscape of the late 19th century.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Die Industrialisierung führte laut Text zu rascher Verstädterung.",
+      "b) RICHTIG: Arbeitsmigration schuf laut Text große Ballungsräume.",
+      "c) FALSCH: Laut Text entstand die moderne Stadtplanung bereits vor der Industrialisierung.",
+      "d) RICHTIG: Camillo Sitte wird im Text als Pionier der Stadtplanung erwähnt.",
+      "e) NICHT BEURTEILBAR: Camillo Sitte war Österreicher."
+    ],
+    "options_en": [
+      "a) TRUE: According to the text, industrialisation led to rapid urbanisation.",
+      "b) TRUE: Labour migration created large conurbations according to the text.",
+      "c) FALSE: According to the text, modern urban planning emerged before industrialisation.",
+      "d) TRUE: Camillo Sitte is mentioned in the text as a pioneer of urban planning.",
+      "e) NOT DETERMINABLE: Camillo Sitte was Austrian."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) RICHTIG – explizit. c) FALSCH – Stadtplanung entstand als Reaktion, also danach. d) RICHTIG – explizit. e) NICHT BEURTEILBAR – Nationalität von Sitte wird im Text nicht genannt.",
+    "explanation_en": "a) TRUE – explicit. b) TRUE – explicit. c) FALSE – urban planning emerged as a response, i.e. afterwards. d) TRUE – explicit. e) NOT DETERMINABLE – Sitte's nationality is not mentioned in the text.",
+    "mistakes_de": "Bei e) ist Sittes Herkunft aus Allgemeinwissen bekannt, aber der Text schweigt dazu.",
+    "mistakes_en": "For e) Sitte's origin is known from general knowledge, but the text is silent on this.",
+    "links": [
+      {
+        "url": "../knowledge/stadtplanung-geschichte-de.html",
+        "label": "Geschichte der Stadtplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-77",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Der Flächenwidmungsplan ist das wichtigste Instrument der örtlichen Raumplanung. Er legt für das gesamte Gemeindegebiet fest, welche Flächen für Wohnen, Gewerbe oder Landwirtschaft vorgesehen sind. Änderungen erfordern einen Gemeinderatsbeschluss. Der Bebauungsplan konkretisiert die Festlegungen des Flächenwidmungsplans.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"The land use plan is the most important instrument of local spatial planning. It determines for the entire municipal area which areas are designated for housing, commercial use, or agriculture. Changes require a municipal council resolution. The development plan concretises the determinations of the land use plan.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Der Bebauungsplan konkretisiert laut Text die Festlegungen des Flächenwidmungsplans.",
+      "b) FALSCH: Laut Text kann ein Flächenwidmungsplan ohne Gemeinderatsbeschluss geändert werden.",
+      "c) RICHTIG: Der Flächenwidmungsplan gilt laut Text für das gesamte Gemeindegebiet.",
+      "d) NICHT BEURTEILBAR: Flächenwidmungspläne werden in Österreich alle fünf Jahre überarbeitet.",
+      "e) RICHTIG: Der Flächenwidmungsplan ist laut Text das wichtigste Instrument der örtlichen Raumplanung."
+    ],
+    "options_en": [
+      "a) TRUE: The development plan concretises the land use plan's determinations according to the text.",
+      "b) FALSE: According to the text, a land use plan can be changed without a municipal council resolution.",
+      "c) TRUE: The land use plan applies to the entire municipal area according to the text.",
+      "d) NOT DETERMINABLE: Land use plans in Austria are revised every five years.",
+      "e) TRUE: The land use plan is the most important instrument of local spatial planning according to the text."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) FALSCH – Änderungen erfordern Gemeinderatsbeschluss. c) RICHTIG – explizit. d) NICHT BEURTEILBAR – Revisionsintervalle werden nicht erwähnt. e) RICHTIG – explizit.",
+    "explanation_en": "a) TRUE – explicit. b) FALSE – changes require a municipal council resolution. c) TRUE – explicit. d) NOT DETERMINABLE – revision intervals are not mentioned. e) TRUE – explicit.",
+    "mistakes_de": "Bei d) klingt ein fünfjähriger Rhythmus plausibel, steht aber nicht im Text.",
+    "mistakes_en": "For d) a five-year cycle sounds plausible but is not in the text.",
+    "links": [
+      {
+        "url": "../knowledge/flaechenwidmungsplan-de.html",
+        "label": "Flächenwidmungsplan"
+      }
+    ],
+    "source": "Textverständnis Übung"
+  },
+  {
+    "id": "text-comp-78",
+    "quizId": "text-comprehension",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar"
+    ],
+    "question_de": "Lesen Sie den Text:\n\n\"Raumplanung ist eine öffentliche Aufgabe, die dem Gemeinwohl verpflichtet ist. Sie muss private und öffentliche Interessen abwägen. Raumplanerinnen und Raumplaner arbeiten in kommunalen und staatlichen Verwaltungen, in Planungsbüros und in der Wissenschaft. Das Berufsbild ist vielfältig und interdisziplinär.\"\n\nBeurteilen Sie die folgenden fünf Aussagen:",
+    "question_en": "Read the text:\n\n\"Spatial planning is a public task committed to the common good. It must weigh private and public interests. Spatial planners work in municipal and state administrations, in planning offices, and in research. The professional profile is diverse and interdisciplinary.\"\n\nAssess the following five statements:",
+    "options_de": [
+      "a) RICHTIG: Raumplanung ist laut Text dem Gemeinwohl verpflichtet.",
+      "b) RICHTIG: Raumplanerinnen und Raumplaner arbeiten laut Text auch in Planungsbüros.",
+      "c) FALSCH: Raumplanung ist laut Text eine rein private Aufgabe.",
+      "d) NICHT BEURTEILBAR: Raumplanerinnen und Raumplaner verdienen in der Wissenschaft am meisten.",
+      "e) RICHTIG: Das Berufsbild der Raumplanung ist laut Text vielfältig und interdisziplinär."
+    ],
+    "options_en": [
+      "a) TRUE: Spatial planning is committed to the common good according to the text.",
+      "b) TRUE: Spatial planners work in planning offices according to the text.",
+      "c) FALSE: According to the text, spatial planning is a purely private task.",
+      "d) NOT DETERMINABLE: Spatial planners earn the most in research.",
+      "e) TRUE: The professional profile of spatial planning is diverse and interdisciplinary according to the text."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation_de": "a) RICHTIG – explizit. b) RICHTIG – explizit. c) FALSCH – Text sagt 'öffentliche Aufgabe'. d) NICHT BEURTEILBAR – Gehaltsvergleiche werden nicht thematisiert. e) RICHTIG – explizit.",
+    "explanation_en": "a) TRUE – explicit. b) TRUE – explicit. c) FALSE – text says 'public task'. d) NOT DETERMINABLE – salary comparisons are not discussed. e) TRUE – explicit.",
+    "mistakes_de": "Bei c) ist die direkte Invertierung von 'öffentlich' zu 'privat' eine klassische Falsch-Falle.",
+    "mistakes_en": "For c) the direct inversion of 'public' to 'private' is a classic false trap.",
+    "links": [
+      {
+        "url": "../knowledge/berufsfelder-de.html",
+        "label": "Berufsfelder Raumplanung"
+      }
+    ],
+    "source": "Textverständnis Übung"
   }
 ]
