@@ -201,7 +201,7 @@ const QuizEngine = (() => {
     return `<div class="matrix-grid">${cells.join('')}</div><p style="margin-top:0.75rem">${questionPart}</p>`;
   }
 
-  function renderQuestions(container, questions, lang, timedMode) {
+  function renderQuestions(container, questions, lang, timedMode, countdownSeconds) {
     const html = questions.map((q, qi) => {
       const qText = lang === 'en' ? (q.question_en || q.question_de) : q.question_de;
       const opts  = lang === 'en' ? (q.options_en  || q.options_de)  : q.options_de;
@@ -480,7 +480,7 @@ const QuizEngine = (() => {
     function showQuizScreen() {
       // 1 minute per question
       countdownSeconds = activeQuestions.length * 60;
-      renderQuestions(container, activeQuestions, lang, timedMode);
+      renderQuestions(container, activeQuestions, lang, timedMode, countdownSeconds);
       startTimer();
       wireQuizInteractions();
     }

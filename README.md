@@ -27,16 +27,19 @@ Please:
 I am not a developer. Please explain everything simply.
 ```
 
-### What Happens Next
+### Your Journey with Claude Cowork
 
-| Step | What | How |
-|------|------|-----|
-| **1. Download** | Get your own local copy | Claude downloads from this repo |
-| **2. Browse locally** | Open `site/index.html` in any browser | Works immediately, no install needed |
-| **3. Set up Supabase** | Your own cloud database (free) for quiz scores | Claude walks you through [supabase.com](https://supabase.com) signup. See [`docs/SUPABASE-GUIDE.md`](docs/SUPABASE-GUIDE.md) |
-| **4. Publish online** | Your own URL accessible from phone/tablet | Drag `site/` folder onto [Netlify](https://app.netlify.com) (free, no terminal) |
-| **5. Customise** | Add questions, change theme, add notes | Ask Claude: "Add 10 new questions about megatrends" |
-| **6. Study** | Take quizzes, track progress, review weak areas | Scores sync to your Supabase across devices |
+| Step | You do | Claude Cowork does | Time | Result |
+|------|--------|-------------------|------|--------|
+| **1** | Open Claude Cowork, paste the prompt above | Downloads the GitHub repo to your laptop | 2 min | Local folder with all files |
+| **2** | Click to open `site/index.html` in your browser | Verifies everything works locally | 1 min | Dashboard running on your laptop |
+| **3** | Go to [supabase.com](https://supabase.com), create free account | Walks you through project setup, gives you SQL to paste, updates config with YOUR keys | 10 min | Your OWN cloud database for quiz scores |
+| **4** | Go to [netlify.com](https://app.netlify.com), create free account | Tells you to drag your `site/` folder onto the Netlify page | 10 min | Your OWN public URL (e.g. `my-raumplanung.netlify.app`) |
+| **5** | Study and take quizzes on your site | Scores save to YOUR Supabase automatically | Ongoing | Progress tracked across devices |
+| **6** | "Add 10 hard Würfel questions" or "Change the theme" | Edits the local files, you refresh the browser | 5 min | Personalised quiz bank and design |
+| **7** | "Re-upload to Netlify" | Tells you to drag `site/` folder again | 2 min | Updated live site |
+
+You end up with: your own website, your own database, your own quiz bank — fully independent from this template.
 
 **Full step-by-step guide:** [`docs/STUDENT-QUICKSTART.md`](docs/STUDENT-QUICKSTART.md)
 
