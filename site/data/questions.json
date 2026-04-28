@@ -4048,31 +4048,31 @@
   {
     "id": "cognitive-matrix-easy1",
     "quizId": "cognitive",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "tags": [
       "matrizen"
     ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, schwarz] [Kreis, weiß] [Kreis, grau]\nZeile 2: [Dreieck, schwarz] [Dreieck, weiß] [Dreieck, grau]\nZeile 3: [Quadrat, schwarz] [Quadrat, weiß] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, black] [Circle, white] [Circle, grey]\nRow 2: [Triangle, black] [Triangle, white] [Triangle, grey]\nRow 3: [Square, black] [Square, white] [?]\n\nWhat is the missing figure?",
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, schwarz] [Dreieck, weiß] [Quadrat, grau]\nZeile 2: [Dreieck, grau] [Quadrat, schwarz] [Kreis, weiß]\nZeile 3: [Quadrat, weiß] [Kreis, grau] [?]\n\nJede Form und jede Farbe kommt in jeder Zeile und Spalte genau einmal vor (Lateinisches Quadrat). Was fehlt?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, black] [Triangle, white] [Square, grey]\nRow 2: [Triangle, grey] [Square, black] [Circle, white]\nRow 3: [Square, white] [Circle, grey] [?]\n\nEach shape and colour appears exactly once per row and column (Latin Square). What is missing?",
     "options_de": [
-      "a) Quadrat, schwarz",
-      "b) Quadrat, weiß",
+      "a) Dreieck, schwarz",
+      "b) Kreis, schwarz",
       "c) Quadrat, grau",
-      "d) Kreis, grau",
-      "e) Dreieck, grau"
+      "d) Dreieck, grau",
+      "e) Kreis, weiß"
     ],
     "options_en": [
-      "a) Square, black",
-      "b) Square, white",
+      "a) Triangle, black",
+      "b) Circle, black",
       "c) Square, grey",
-      "d) Circle, grey",
-      "e) Triangle, grey"
+      "d) Triangle, grey",
+      "e) Circle, white"
     ],
     "correct": [
-      2
+      0
     ],
-    "explanation_de": "Das Muster: Form ändert sich pro Zeile (Kreis→Dreieck→Quadrat), Farbe ändert sich pro Spalte (schwarz→weiß→grau). Zeile 3, Spalte 3 = Quadrat + grau.",
-    "explanation_en": "Pattern: shape changes per row (Circle→Triangle→Square), colour changes per column (black→white→grey). Row 3, Column 3 = Square + grey.",
+    "explanation_de": "Zeile 3 hat Quadrat und Kreis → fehlt Dreieck. Spalte 3 hat grau und weiß → fehlt schwarz. Also: Dreieck, schwarz.",
+    "explanation_en": "Row 3 has Square and Circle → missing Triangle. Column 3 has grey and white → missing black. So: Triangle, black.",
     "mistakes_de": "Typische Fehler: (1) Spalten- statt Zeilenmuster lesen. (2) Farbe und Form unabhängig betrachten – beide folgen eigenen Regeln.",
     "mistakes_en": "Common mistakes: (1) Reading column pattern instead of row. (2) Not treating colour and shape as independent rules.",
     "links": [
@@ -4086,31 +4086,31 @@
   {
     "id": "cognitive-matrix-easy2",
     "quizId": "cognitive",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "tags": [
       "matrizen"
     ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Groß, Stern] [Mittel, Stern] [Klein, Stern]\nZeile 2: [Groß, Herz] [Mittel, Herz] [Klein, Herz]\nZeile 3: [Groß, Pfeil] [Mittel, Pfeil] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Large, Star] [Medium, Star] [Small, Star]\nRow 2: [Large, Heart] [Medium, Heart] [Small, Heart]\nRow 3: [Large, Arrow] [Medium, Arrow] [?]\n\nWhat is the missing figure?",
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, groß, 1 Punkt] [Stern, mittel, 2 Punkte] [Stern, klein, 3 Punkte]\nZeile 2: [Herz, klein, 2 Punkte] [Herz, groß, 3 Punkte] [Herz, mittel, 1 Punkt]\nZeile 3: [Pfeil, mittel, 3 Punkte] [Pfeil, klein, 1 Punkt] [?]\n\nDrei Eigenschaften ändern sich. Was fehlt?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, big, 1 dot] [Star, medium, 2 dots] [Star, small, 3 dots]\nRow 2: [Heart, small, 2 dots] [Heart, big, 3 dots] [Heart, medium, 1 dot]\nRow 3: [Arrow, medium, 3 dots] [Arrow, small, 1 dot] [?]\n\nThree properties change. What is missing?",
     "options_de": [
-      "a) Groß, Pfeil",
-      "b) Mittel, Pfeil",
-      "c) Klein, Pfeil",
-      "d) Klein, Stern",
-      "e) Klein, Herz"
+      "a) Pfeil, groß, 2 Punkte",
+      "b) Pfeil, mittel, 2 Punkte",
+      "c) Pfeil, groß, 3 Punkte",
+      "d) Stern, groß, 2 Punkte",
+      "e) Pfeil, klein, 2 Punkte"
     ],
     "options_en": [
-      "a) Large, Arrow",
-      "b) Medium, Arrow",
-      "c) Small, Arrow",
-      "d) Small, Star",
-      "e) Small, Heart"
+      "a) Arrow, big, 2 dots",
+      "b) Arrow, medium, 2 dots",
+      "c) Arrow, big, 3 dots",
+      "d) Star, big, 2 dots",
+      "e) Arrow, small, 2 dots"
     ],
     "correct": [
-      2
+      0
     ],
-    "explanation_de": "Größe ändert sich pro Spalte (Groß→Mittel→Klein), Form ändert sich pro Zeile (Stern→Herz→Pfeil). Fehlend: Klein + Pfeil.",
-    "explanation_en": "Size changes per column (Large→Medium→Small), shape changes per row (Star→Heart→Arrow). Missing: Small + Arrow.",
+    "explanation_de": "Zeile 3 = Pfeil. Spalte 3: Größen waren klein, mittel → fehlt groß. Spalte 3: Punkte waren 3, 1 → fehlt 2. Also: Pfeil, groß, 2 Punkte.",
+    "explanation_en": "Row 3 = Arrow. Column 3: sizes were small, medium → missing big. Column 3: dots were 3, 1 → missing 2. So: Arrow, big, 2 dots.",
     "mistakes_de": "Typische Fehler: (1) Zeile und Spalte verwechseln. (2) Nur die Form beachten, Größe ignorieren.",
     "mistakes_en": "Common mistakes: (1) Confusing row and column direction. (2) Noticing only shape, ignoring size.",
     "links": [
@@ -4124,31 +4124,31 @@
   {
     "id": "cognitive-matrix-easy3",
     "quizId": "cognitive",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "tags": [
       "matrizen"
     ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [1 Punkt] [2 Punkte] [3 Punkte]\nZeile 2: [1 Quadrat] [2 Quadrate] [3 Quadrate]\nZeile 3: [1 Dreieck] [2 Dreiecke] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [1 dot] [2 dots] [3 dots]\nRow 2: [1 square] [2 squares] [3 squares]\nRow 3: [1 triangle] [2 triangles] [?]\n\nWhat is the missing figure?",
+    "question_de": "Matrix (3×3) – Muster (Überlagerung):\nZeile 1: [Kreis] [Dreieck] [Kreis + Dreieck]\nZeile 2: [Quadrat] [Stern] [Quadrat + Stern]\nZeile 3: [Raute] [Herz] [?]\n\nRegel: Spalte 3 = Kombination von Spalte 1 und Spalte 2. Was fehlt?",
+    "question_en": "Matrix (3×3) – Pattern (Overlay):\nRow 1: [Circle] [Triangle] [Circle + Triangle]\nRow 2: [Square] [Star] [Square + Star]\nRow 3: [Diamond] [Heart] [?]\n\nRule: Column 3 = combination of Column 1 and Column 2. What is missing?",
     "options_de": [
-      "a) 1 Dreieck",
-      "b) 2 Dreiecke",
-      "c) 3 Dreiecke",
-      "d) 3 Punkte",
-      "e) 3 Quadrate"
+      "a) Raute + Herz",
+      "b) Raute + Stern",
+      "c) Herz + Kreis",
+      "d) Raute",
+      "e) Herz"
     ],
     "options_en": [
-      "a) 1 triangle",
-      "b) 2 triangles",
-      "c) 3 triangles",
-      "d) 3 dots",
-      "e) 3 squares"
+      "a) Diamond + Heart",
+      "b) Diamond + Star",
+      "c) Heart + Circle",
+      "d) Diamond",
+      "e) Heart"
     ],
     "correct": [
-      2
+      0
     ],
-    "explanation_de": "Anzahl steigt pro Spalte (1→2→3), Form ändert sich pro Zeile (Punkt→Quadrat→Dreieck). Fehlend: 3 Dreiecke.",
-    "explanation_en": "Count increases per column (1→2→3), shape changes per row (dot→square→triangle). Missing: 3 triangles.",
+    "explanation_de": "Spalte 3 überlagert immer Spalte 1 + Spalte 2. Zeile 3: Raute + Herz.",
+    "explanation_en": "Column 3 overlays Column 1 + Column 2. Row 3: Diamond + Heart.",
     "mistakes_de": "Typische Fehler: Muster nur in einer Dimension (nur Zeile oder nur Spalte) lesen.",
     "mistakes_en": "Common mistakes: Reading the pattern in only one dimension (rows only or columns only).",
     "links": [
@@ -4162,31 +4162,31 @@
   {
     "id": "cognitive-matrix-easy4",
     "quizId": "cognitive",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "tags": [
       "matrizen"
     ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, groß, schwarz] [Kreis, mittel, schwarz] [Kreis, klein, schwarz]\nZeile 2: [Kreis, groß, weiß] [Kreis, mittel, weiß] [Kreis, klein, weiß]\nZeile 3: [Kreis, groß, grau] [Kreis, mittel, grau] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, large, black] [Circle, medium, black] [Circle, small, black]\nRow 2: [Circle, large, white] [Circle, medium, white] [Circle, small, white]\nRow 3: [Circle, large, grey] [Circle, medium, grey] [?]\n\nWhat is the missing figure?",
+    "question_de": "Matrix (3×3) – Muster (Subtraktion):\nZeile 1: [4 Kreise, schwarz] [1 Kreis, weiß] [3 Kreise, schwarz]\nZeile 2: [5 Dreiecke, schwarz] [2 Dreiecke, weiß] [3 Dreiecke, schwarz]\nZeile 3: [6 Quadrate, schwarz] [4 Quadrate, weiß] [?]\n\nRegel: Spalte 3 = Spalte 1 minus Spalte 2 (Anzahl). Farbe wie Spalte 1. Was fehlt?",
+    "question_en": "Matrix (3×3) – Pattern (Subtraction):\nRow 1: [4 circles, black] [1 circle, white] [3 circles, black]\nRow 2: [5 triangles, black] [2 triangles, white] [3 triangles, black]\nRow 3: [6 squares, black] [4 squares, white] [?]\n\nRule: Column 3 = Column 1 minus Column 2 (count). Colour from Column 1. What is missing?",
     "options_de": [
-      "a) Kreis, groß, grau",
-      "b) Kreis, mittel, grau",
-      "c) Kreis, klein, grau",
-      "d) Kreis, klein, weiß",
-      "e) Kreis, klein, schwarz"
+      "a) 2 Quadrate, schwarz",
+      "b) 2 Quadrate, weiß",
+      "c) 10 Quadrate, schwarz",
+      "d) 4 Quadrate, schwarz",
+      "e) 6 Quadrate, weiß"
     ],
     "options_en": [
-      "a) Circle, large, grey",
-      "b) Circle, medium, grey",
-      "c) Circle, small, grey",
-      "d) Circle, small, white",
-      "e) Circle, small, black"
+      "a) 2 squares, black",
+      "b) 2 squares, white",
+      "c) 10 squares, black",
+      "d) 4 squares, black",
+      "e) 6 squares, white"
     ],
     "correct": [
-      2
+      0
     ],
-    "explanation_de": "Form ist immer Kreis. Größe nimmt pro Spalte ab (groß→mittel→klein). Farbe ändert sich pro Zeile (schwarz→weiß→grau). Fehlend: klein + grau.",
-    "explanation_en": "Shape is always Circle. Size decreases per column (large→medium→small). Colour changes per row (black→white→grey). Missing: small + grey.",
+    "explanation_de": "6 - 4 = 2 Quadrate. Farbe wie Spalte 1 = schwarz. Also: 2 Quadrate, schwarz.",
+    "explanation_en": "6 - 4 = 2 squares. Colour from Column 1 = black. So: 2 squares, black.",
     "mistakes_de": "Typische Fehler: Die dritte Eigenschaft (Farbe) als Spalten- statt Zeilenmuster lesen.",
     "mistakes_en": "Common mistakes: Reading colour as a column pattern rather than a row pattern.",
     "links": [
@@ -4200,31 +4200,31 @@
   {
     "id": "cognitive-matrix-easy5",
     "quizId": "cognitive",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "tags": [
       "matrizen"
     ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Quadrat, horizontal gestreift] [Quadrat, vertikal gestreift] [Quadrat, kariert]\nZeile 2: [Kreis, horizontal gestreift] [Kreis, vertikal gestreift] [Kreis, kariert]\nZeile 3: [Dreieck, horizontal gestreift] [Dreieck, vertikal gestreift] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Square, horizontal stripes] [Square, vertical stripes] [Square, grid]\nRow 2: [Circle, horizontal stripes] [Circle, vertical stripes] [Circle, grid]\nRow 3: [Triangle, horizontal stripes] [Triangle, vertical stripes] [?]\n\nWhat is the missing figure?",
+    "question_de": "Matrix (3×3) – Muster (Drehung in Zeile):\nZeile 1: [Pfeil ↑] [Pfeil →] [Pfeil ↓]\nZeile 2: [Pfeil ←] [Pfeil ↑] [Pfeil →]\nZeile 3: [Pfeil ↓] [Pfeil ←] [?]\n\nIn jeder Zeile dreht sich der Pfeil um 90° im Uhrzeigersinn. Was fehlt?",
+    "question_en": "Matrix (3×3) – Pattern (Rotation per row):\nRow 1: [Arrow ↑] [Arrow →] [Arrow ↓]\nRow 2: [Arrow ←] [Arrow ↑] [Arrow →]\nRow 3: [Arrow ↓] [Arrow ←] [?]\n\nIn each row, the arrow rotates 90° clockwise. What is missing?",
     "options_de": [
-      "a) Dreieck, horizontal gestreift",
-      "b) Dreieck, vertikal gestreift",
-      "c) Dreieck, kariert",
-      "d) Quadrat, kariert",
-      "e) Kreis, kariert"
+      "a) Pfeil ↑",
+      "b) Pfeil →",
+      "c) Pfeil ↓",
+      "d) Pfeil ←",
+      "e) Pfeil ↗"
     ],
     "options_en": [
-      "a) Triangle, horizontal stripes",
-      "b) Triangle, vertical stripes",
-      "c) Triangle, grid",
-      "d) Square, grid",
-      "e) Circle, grid"
+      "a) Arrow ↑",
+      "b) Arrow →",
+      "c) Arrow ↓",
+      "d) Arrow ←",
+      "e) Arrow ↗"
     ],
     "correct": [
-      2
+      0
     ],
-    "explanation_de": "Muster ändert sich pro Spalte (horizontal→vertikal→kariert), Form ändert sich pro Zeile (Quadrat→Kreis→Dreieck). Fehlend: Dreieck + kariert.",
-    "explanation_en": "Fill pattern changes per column (horizontal→vertical→grid), shape changes per row (Square→Circle→Triangle). Missing: Triangle + grid.",
+    "explanation_de": "Zeile 3: ↓ → ← → nächste 90° UZS = ↑. Also: Pfeil ↑.",
+    "explanation_en": "Row 3: ↓ → ← → next 90° CW = ↑. So: Arrow ↑.",
     "mistakes_de": "Typische Fehler: Muster und Form in derselben Dimension suchen.",
     "mistakes_en": "Common mistakes: Looking for both attributes to change in the same direction.",
     "links": [
@@ -6817,7 +6817,6 @@
     ],
     "source": "OEREK 2030, Freiräume und Biodiversität"
   },
-
   {
     "id": "oerek-megatrends-14",
     "quizId": "oerek-megatrends",
@@ -6837,17 +6836,33 @@
       "d) The 20–40 age group grows by approximately 52%",
       "e) Austria has approximately 12 million inhabitants"
     ],
-    "correct": [0, 1, 2],
+    "correct": [
+      0,
+      1,
+      2
+    ],
     "explanation_de": "Österreich zählte zu Beginn des ÖREK-Horizonts ca. 8,9 Mio. Einwohner. Rund 828.775 Österreicherinnen lebten 2019 im Ausland. Die über 65-Jährigen wachsen bis 2040 um ca. 52 % — das ist die für die Raumplanung kritischste demografische Verschiebung.",
     "explanation_en": "Austria had approximately 8.9 million inhabitants. About 828,775 Austrian citizens lived abroad in 2019. The over-65 group grows by ~52% by 2040 — the most critical demographic shift for spatial planning.",
     "source": "ÖREK 2030, Demografischer Wandel",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Die Zahl 828.775 gilt für Österreicher im Ausland — nicht für Ausländer in Österreich. (2) Die +52 % betreffen die über 65-Jährigen, nicht die Gesamtbevölkerung. (3) Österreichs Einwohnerzahl liegt bei ~8,9 Mio., nicht 12 Mio.",
     "mistakes_en": "Common mistakes: (1) 828,775 = Austrians abroad, not foreigners in Austria. (2) +52% is for over-65s, not total population. (3) Austria's population is ~8.9M, not 12M.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Megatrends"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "demografie", "zahlen"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Megatrends"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "demografie",
+      "zahlen"
+    ]
   },
-
   {
     "id": "oerek-megatrends-15",
     "quizId": "oerek-megatrends",
@@ -6867,17 +6882,34 @@
       "d) Large sealed parking areas as power plant sites",
       "e) Corridors for new power lines and grid reinforcements"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Die Energiewende erfordert erhebliche Flächenansprüche: Solar, Wind, Biomasse und Trassenkorridore für Netze. Versiegelte Parkflächen als Kraftwerksstandorte sind kein Planungsthema des ÖREK.",
     "explanation_en": "The energy transition requires significant land: solar, wind, biomass and corridor land for grid lines. Sealed parking areas as power plant sites are not an ÖREK planning topic.",
     "source": "ÖREK 2030, Energieraumplanung",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Energieraumplanung nur auf Wind reduzieren. (2) Vergessen, dass Trassenkorridore (Leitungsrechte) eigene Flächenansprüche erzeugen. (3) Biomasse als Megatrend unterschätzen.",
     "mistakes_en": "Common mistakes: (1) Reducing energy spatial planning to wind only. (2) Forgetting that transmission corridors create their own land demands. (3) Underestimating biomass.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Energieraumplanung"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "energiewende", "flaechenanspruch"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Energieraumplanung"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "energiewende",
+      "flaechenanspruch"
+    ]
   },
-
   {
     "id": "oerek-megatrends-16",
     "quizId": "oerek-megatrends",
@@ -6897,17 +6929,33 @@
       "d) Shrinkage of rural regions unrelated to cities",
       "e) Population decline in all Austrian municipalities"
     ],
-    "correct": [0, 1, 2],
+    "correct": [
+      0,
+      1,
+      2
+    ],
     "explanation_de": "Suburbanisierung meint die Abwanderung von Wohnen, Einzelhandel und Gewerbe aus der Kernstadt. Treiber sind hohe Wohnkosten und günstige Autoerreichbarkeit. Großeinkaufszentren am Stadtrand sind ein klassisches Symptom. Option d beschreibt eigenständige Schrumpfung, nicht Suburbanisierung.",
     "explanation_en": "Suburbanisation means the outmigration of housing, retail and commerce from the core city. Drivers include high housing costs and car accessibility. Large out-of-town retail centres are a classic symptom. Option d describes independent shrinkage, not suburbanisation.",
     "source": "ÖREK 2030, Urbanisierung als Megatrend",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Suburbanisierung mit Stadtschrumpfung verwechseln. (2) Nicht erkennen, dass Einkaufszentren auf der grünen Wiese ein Suburbanisierungssymptom sind. (3) Option e als richtig wählen — Österreich hat insgesamt Bevölkerungswachstum.",
     "mistakes_en": "Common mistakes: (1) Confusing suburbanisation with city shrinkage. (2) Not recognising out-of-town retail as a suburbanisation symptom. (3) Selecting e — Austria has overall population growth.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Urbanisierung"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "urbanisierung", "suburbanisierung"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Urbanisierung"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "urbanisierung",
+      "suburbanisierung"
+    ]
   },
-
   {
     "id": "oerek-megatrends-17",
     "quizId": "oerek-megatrends",
@@ -6927,17 +6975,34 @@
       "d) Multilocality leads exclusively to population growth in cities",
       "e) It is a new phenomenon with no relevance for spatial planning"
     ],
-    "correct": [0, 1, 2],
+    "correct": [
+      0,
+      1,
+      2
+    ],
     "explanation_de": "Multilokalität (mehrere Wohnsitze) erzeugt Infrastrukturnachfrage an mehreren Orten zugleich und belastet die Planung. Covid-19 hat das Phänomen durch Homeoffice deutlich verstärkt, da Menschen wieder in ländliche Regionen pendelten. Option d ist falsch — Multilokalität kann auch ländliche Regionen stärken.",
     "explanation_en": "Multilocality (multiple residences) creates infrastructure demand at several locations at once. Covid-19 amplified this through home-office. Option d is wrong — multilocality can also strengthen rural regions.",
     "source": "ÖREK 2030, Raumverhalten und Multilokalität",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Multilokalität nur als Wohlstandsphänomen (Ferienhaus) sehen — sie betrifft auch Pendler mit Zweitwohnsitz. (2) Den Covid-19-Effekt nicht kennen. (3) Denken, Multilokalität = nur Urbanisierungsschub.",
     "mistakes_en": "Common mistakes: (1) Seeing multilocality only as a wealth phenomenon (holiday home) — it also affects commuters with a second home. (2) Not knowing the Covid-19 effect. (3) Thinking multilocality = only urbanisation boost.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Raumverhalten"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "multilokalitaet", "raumverhalten", "covid"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Raumverhalten"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "multilokalitaet",
+      "raumverhalten",
+      "covid"
+    ]
   },
-
   {
     "id": "oerek-megatrends-18",
     "quizId": "oerek-megatrends",
@@ -6957,17 +7022,35 @@
       "d) All Austrian municipalities are already served with fibre optic",
       "e) Digital infrastructure is an equivalent location factor alongside transport infrastructure"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Laut ÖREK 2030: 81 % ultraschnelles Internet, aber nur 45 % über 1.000 Mbit/s. Ländliche Regionen sind unterversorgt. Glasfaser ist noch nicht flächendeckend verfügbar. Digitale Infrastruktur zählt heute als gleichwertiger Standortfaktor.",
     "explanation_en": "According to ÖREK 2030: 81% ultra-fast internet, but only 45% above 1,000 Mbit/s. Rural regions are underserved. Fibre is not yet universally available. Digital infrastructure is now an equivalent location factor.",
     "source": "ÖREK 2030, Digitalisierung und Daseinsvorsorge",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Die 81 % und 45 % verwechseln (81 % = ultraschnell, 45 % = >1000 Mbit/s). (2) Annehmen, Österreich sei bereits flächendeckend mit Glasfaser versorgt. (3) Breitband als nachrangigen Standortfaktor einordnen.",
     "mistakes_en": "Common mistakes: (1) Confusing 81% and 45% (81% = ultrafast, 45% = >1000 Mbit/s). (2) Assuming Austria already has universal fibre coverage. (3) Ranking broadband as a secondary location factor.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Digitalisierung"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "digitalisierung", "breitband", "regionale-disparitaeten"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Digitalisierung"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "digitalisierung",
+      "breitband",
+      "regionale-disparitaeten"
+    ]
   },
-
   {
     "id": "oerek-megatrends-19",
     "quizId": "oerek-megatrends",
@@ -6987,17 +7070,34 @@
       "d) In Austria, no cities shrink — all grow equally",
       "e) Peripheral rural areas often lose population and infrastructure due to urbanisation"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Urbanisierung ist ein globaler Megatrend: weltweit >50 % in Städten, in Österreich Wachstum in Wien und Landeshauptstädten, steigende Wohnkosten und Verlust von ländlicher Infrastruktur. Option d ist falsch — einige österreichische Kleinstädte und Regionen schrumpfen.",
     "explanation_en": "Urbanisation is a global megatrend: >50% in cities globally, growth concentrated in Vienna and state capitals in Austria, rising housing costs and rural infrastructure loss. Option d is wrong — some small Austrian towns and regions are shrinking.",
     "source": "ÖREK 2030, Urbanisierung als Megatrend",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Urbanisierung als rein positiven Wachstumstrend verstehen — sie erzeugt auch Verlierer-Regionen. (2) Annehmen, alle österreichischen Städte wachsen gleichmäßig. (3) Die Wohnkostenproblematik nicht mit Urbanisierung verknüpfen.",
     "mistakes_en": "Common mistakes: (1) Understanding urbanisation as a purely positive growth trend — it also creates losing regions. (2) Assuming all Austrian cities grow equally. (3) Not linking housing cost problems to urbanisation.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Urbanisierung"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "urbanisierung", "wohnkosten"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Urbanisierung"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "urbanisierung",
+      "wohnkosten"
+    ]
   },
-
   {
     "id": "oerek-megatrends-20",
     "quizId": "oerek-megatrends",
@@ -7017,17 +7117,34 @@
       "d) Permanent dissolution of all commuting patterns through home office",
       "e) Growing interest in rural residential locations with good broadband coverage"
     ],
-    "correct": [0, 1, 4],
+    "correct": [
+      0,
+      1,
+      4
+    ],
     "explanation_de": "Covid-19 stärkte Homeoffice, erhöhte die Nachfrage nach Naherholung und Grünraum und weckte das Interesse an ländlichen Lagen mit gutem Internet. Option c und d sind übertrieben — der ÖPNV-Effekt war temporär und Pendlerverflechtungen wurden nicht dauerhaft aufgelöst.",
     "explanation_en": "Covid-19 boosted home office, increased demand for local recreation and green space, and raised interest in rural locations with good broadband. Options c and d are overstated — the public transport effect was temporary and commuting patterns were not permanently dissolved.",
     "source": "ÖREK 2030, Raumverhalten und Covid-19",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Den permanenten Auflösungseffekt (Option d) für richtig halten — ÖREK spricht von Tendenz, nicht von vollständiger Transformation. (2) Option c als richtig wählen — der ÖPNV-Rückgang war temporär. (3) Den Breitbandaspekt (Option e) vergessen.",
     "mistakes_en": "Common mistakes: (1) Selecting d (permanent dissolution) — ÖREK describes a tendency, not a complete transformation. (2) Selecting c — the public transport decline was temporary. (3) Forgetting the broadband aspect (option e).",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Raumverhalten"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "covid", "raumverhalten", "homeoffice"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Raumverhalten"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "covid",
+      "raumverhalten",
+      "homeoffice"
+    ]
   },
-
   {
     "id": "oerek-megatrends-21",
     "quizId": "oerek-megatrends",
@@ -7047,17 +7164,33 @@
       "d) Most land consumption affects agricultural land and green spaces",
       "e) The 2.5 ha target is already enshrined in Austrian law"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Österreich verbrauchte >11 ha/Tag, das Ziel ist 2,5 ha bis 2030. Verkehrsflächen sind INBEGRIFFEN (nicht Option c). Der Verbrauch geht überwiegend auf Kosten von Landwirtschaft und Grünland. Das 2,5-ha-Ziel ist bisher kein Gesetz — es ist ein Leitbildziel des ÖREK.",
     "explanation_en": "Austria consumed >11 ha/day; the target is 2.5 ha by 2030. Transport areas ARE included (not option c). Consumption predominantly affects agricultural land and green spaces. The 2.5 ha target is not yet law — it is a guiding target of the ÖREK.",
     "source": "ÖREK 2030, Flächensparen",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Denken, Verkehrsflächen sind nicht Teil des Flächenverbrauchs. (2) Das 2,5-ha-Ziel für rechtlich verbindlich halten. (3) Den aktuellen Verbrauch auf 2,5 ha schätzen statt >11 ha.",
     "mistakes_en": "Common mistakes: (1) Thinking transport areas are not part of land consumption. (2) Thinking the 2.5 ha target is legally binding. (3) Estimating current consumption at 2.5 ha instead of >11 ha.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Flächensparen"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "flaechenverbrauch", "2-5-ha"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Flächensparen"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "flaechenverbrauch",
+      "2-5-ha"
+    ]
   },
-
   {
     "id": "oerek-megatrends-22",
     "quizId": "oerek-megatrends",
@@ -7077,17 +7210,34 @@
       "d) Decline in marriages and family ties without spatial relevance",
       "e) Growing demands for participation in planning"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Gesellschaftlicher Wandel umfasst veränderte Haushaltsstrukturen, Diversität durch Migration, verändertes Freizeit- und Mobilitätsverhalten sowie wachsende Partizipationsansprüche. Option d ist falsch — Haushaltswandel hat immer räumliche Relevanz (z.B. mehr Wohneinheiten bei sinkender Haushaltsgröße).",
     "explanation_en": "Social change encompasses changed household structures, diversity through migration, changed leisure and mobility behaviour, and growing participation demands. Option d is wrong — household change always has spatial relevance (e.g. more housing units needed when household size falls).",
     "source": "ÖREK 2030, Gesellschaftlicher Wandel als Megatrend",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option d als richtig wählen — Haushaltswandel hat räumliche Relevanz (mehr Wohnungen nötig, selbst bei sinkender Bevölkerung). (2) Gesellschaftlichen Wandel auf Demografie reduzieren (er ist breiter). (3) Partizipation nicht als Planungsthema erkennen.",
     "mistakes_en": "Common mistakes: (1) Selecting d — household change has spatial relevance. (2) Reducing social change to demographics. (3) Not recognising participation as a planning topic.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Gesellschaft"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "gesellschaftlicher-wandel", "haushaltsstrukturen"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Gesellschaft"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "gesellschaftlicher-wandel",
+      "haushaltsstrukturen"
+    ]
   },
-
   {
     "id": "oerek-megatrends-23",
     "quizId": "oerek-megatrends",
@@ -7107,17 +7257,34 @@
       "d) Complete withdrawal of agriculture from high-altitude areas by 2030",
       "e) Changed precipitation patterns affecting water availability"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Das ÖREK 2030 benennt Extremwetter, Gletscherrückgang, steigende Anpassungskosten und veränderte Niederschlagsmuster als räumlich relevante Klimaauswirkungen. Option d ist eine übertriebene Aussage — der vollständige Rückzug der Landwirtschaft bis 2030 ist nicht im ÖREK belegt.",
     "explanation_en": "ÖREK 2030 names extreme weather, glacier retreat, rising adaptation costs and changed precipitation patterns as spatially relevant climate impacts. Option d is overstated — a complete withdrawal of agriculture by 2030 is not documented in the ÖREK.",
     "source": "ÖREK 2030, Klimawandel als Megatrend",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option d als richtig wählen — pauschale Aussage nicht im ÖREK belegt. (2) Nur Hochwasser als Klimarisiko nennen und Hitze/Trockenheit vergessen. (3) Gletscherrückgang als nationales Raumplanungsthema unterschätzen (Alpintourismus, Wasserwirtschaft).",
     "mistakes_en": "Common mistakes: (1) Selecting d — blanket statement not documented in ÖREK. (2) Only mentioning floods and forgetting heat/drought. (3) Underestimating glacier retreat as a national spatial planning issue (alpine tourism, water management).",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Klimawandel"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["megatrends", "klimawandel", "extremwetter"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Klimawandel"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "megatrends",
+      "klimawandel",
+      "extremwetter"
+    ]
   },
-
   {
     "id": "oerek-actions-11",
     "quizId": "oerek-actions",
@@ -7137,17 +7304,34 @@
       "d) Immediate halt to all new building permits in Austria",
       "e) Supra-regional land accounts as a management instrument"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Das ÖREK-Aktionsprogramm setzt auf Leerstandskataster, Baulandmobilisierung, Rückwidmung und Flächenkonten. Ein Baustopp (Option d) ist kein Instrument — das wäre rechtlich und politisch nicht umsetzbar.",
     "explanation_en": "The ÖREK action programme relies on vacancy registers, land mobilisation, rezoning and land accounts. A building freeze (option d) is not an instrument — it would be legally and politically infeasible.",
     "source": "ÖREK 2030, Aktionsprogramm Flächensparen",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Die 4 Säulen mit konkreten Instrumenten verwechseln. (2) Rückwidmung für rechtlich unmöglich halten (sie ist möglich, aber politisch schwierig). (3) Flächenkonten nicht kennen.",
     "mistakes_en": "Common mistakes: (1) Confusing the 4 pillars with concrete instruments. (2) Thinking rezoning is legally impossible (it is possible but politically difficult). (3) Not knowing land accounts.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Flächensparen"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "flaechensparen", "instrumente"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Flächensparen"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "flaechensparen",
+      "instrumente"
+    ]
   },
-
   {
     "id": "oerek-actions-12",
     "quizId": "oerek-actions",
@@ -7167,17 +7351,34 @@
       "d) Centralisation of all energy decisions at federal level without states or municipalities",
       "e) Securing priority areas for wind power and photovoltaics in spatial plans"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Energieraumplanung im ÖREK umfasst Trassensicherung, regionale Netzkonzepte, das 100-%-Ökostromziel als räumliche Aufgabe und Vorrangflächen. Option d ist falsch — Energieraumplanung ist eine Mehrebenaufgabe, die Bund, Länder und Gemeinden einschließt.",
     "explanation_en": "Energy spatial planning in ÖREK includes corridor designation, regional network concepts, the 100% renewable electricity target as a spatial task, and priority areas. Option d is wrong — energy spatial planning is a multi-level task involving federal, state and local authorities.",
     "source": "ÖREK 2030, Energieraumplanung",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Energieraumplanung nur auf erneuerbare Energien reduzieren (auch Netzinfrastruktur ist Teil davon). (2) Option d als richtig wählen — Energieraumplanung ist föderaler Natur. (3) Das 100-%-Ökostromziel nicht als räumliche Herausforderung erkennen.",
     "mistakes_en": "Common mistakes: (1) Reducing energy spatial planning to renewables only (grid infrastructure is also part). (2) Selecting d — energy spatial planning is federal in nature. (3) Not recognising the 100% renewable target as a spatial challenge.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Energieraumplanung"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "energieraumplanung", "oekosstrom"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Energieraumplanung"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "energieraumplanung",
+      "oekosstrom"
+    ]
   },
-
   {
     "id": "oerek-actions-13",
     "quizId": "oerek-actions",
@@ -7197,17 +7398,35 @@
       "d) Rising rents in town centres as the sole cause of vacancy",
       "e) Revitalisation of vacancies through conversion to housing, co-working and cultural uses"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Orts- und Stadtkerne verlieren Funktionen durch Online-Handel, Abzug der Nahversorgung und Zentralisierung öffentlicher Einrichtungen. Das ÖREK fordert Revitalisierung durch Umnutzung. Option d nennt nur eine Teilursache als alleinige Ursache — das ist zu eng.",
     "explanation_en": "Town and city centres lose functions through online trade, withdrawal of local supply, and centralisation of public facilities. The ÖREK calls for revitalisation through conversion. Option d names only one partial cause as the sole cause — too narrow.",
     "source": "ÖREK 2030, Ortskerne und Innenstädte",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option d als richtig wählen — steigende Mieten sind eine Ursache, aber nicht die einzige. (2) Online-Handel nicht als Ursache für Geschäftsleerstand erkennen. (3) Revitalisierung (Option e) vergessen.",
     "mistakes_en": "Common mistakes: (1) Selecting d — rising rents are one cause but not the only one. (2) Not recognising online trade as a cause of retail vacancy. (3) Forgetting revitalisation (option e).",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Ortskerne"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "ortskerne", "leerstand", "revitalisierung"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Ortskerne"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "ortskerne",
+      "leerstand",
+      "revitalisierung"
+    ]
   },
-
   {
     "id": "oerek-actions-14",
     "quizId": "oerek-actions",
@@ -7227,17 +7446,33 @@
       "d) Mobile services (e.g. medical buses, mobile supermarkets) are recognised as complementary solutions",
       "e) The ÖREK demands identical service standards for all municipalities regardless of size and location"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Interkommunale Kooperation, digitale Infrastruktur und mobile Dienste sind Elemente der modernen Daseinsvorsorge im ÖREK. Option c ist zu eng — Daseinsvorsorge umfasst auch Mobilität, Wasser, Energie, soziale Dienste. Option e ist falsch — ÖREK spricht von gleichwertigen, nicht identischen Lebensbedingungen.",
     "explanation_en": "Intermunicipal cooperation, digital infrastructure and mobile services are elements of modern public services in ÖREK. Option c is too narrow — public services also include mobility, water, energy, social services. Option e is wrong — ÖREK speaks of equivalent, not identical living conditions.",
     "source": "ÖREK 2030, Daseinsvorsorge",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Daseinsvorsorge auf Schulen und Krankenhäuser reduzieren. (2) 'Gleichwertig' mit 'identisch' verwechseln. (3) Mobile Dienste als marginale Randlösung einordnen statt als anerkanntes Instrument.",
     "mistakes_en": "Common mistakes: (1) Reducing public services to schools and hospitals. (2) Confusing 'equivalent' with 'identical'. (3) Treating mobile services as marginal rather than a recognised instrument.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Daseinsvorsorge"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "daseinsvorsorge", "interkommunale-kooperation"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Daseinsvorsorge"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "daseinsvorsorge",
+      "interkommunale-kooperation"
+    ]
   },
-
   {
     "id": "oerek-actions-15",
     "quizId": "oerek-actions",
@@ -7257,17 +7492,35 @@
       "d) Spatial compatibility assessments for major projects at regional and supra-regional level",
       "e) Greater involvement of municipalities in supra-regional planning processes"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK-Aktionsprogramm fördert Stadtregionspolitik, Finanzausgleichsreform (um Flächenanreize zu reduzieren), Raumverträglichkeitsprüfungen und Gemeindeeinbindung. Option c ist falsch — eine Vereinheitlichung zu einem Bundesgesetz ist nicht im ÖREK vorgesehen; Raumordnung bleibt Ländersache.",
     "explanation_en": "The ÖREK action programme promotes urban-regional policy, fiscal equalisation reform (to reduce land incentives), spatial compatibility assessments and municipal involvement. Option c is wrong — unification to a federal law is not in ÖREK; spatial planning remains a state matter.",
     "source": "ÖREK 2030, Governance und Koordination",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Option c als richtig wählen — Raumordnung ist Ländersache in Österreich. (2) Den Finanzausgleich nicht als Raumplanungsinstrument erkennen. (3) Raumverträglichkeitsprüfung (RVP) nicht kennen.",
     "mistakes_en": "Common mistakes: (1) Selecting c — spatial planning is a state matter in Austria. (2) Not recognising fiscal equalisation as a spatial planning instrument. (3) Not knowing spatial compatibility assessment (RVP).",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Governance"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "governance", "stadtregion", "finanzausgleich"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Governance"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "governance",
+      "stadtregion",
+      "finanzausgleich"
+    ]
   },
-
   {
     "id": "oerek-actions-16",
     "quizId": "oerek-actions",
@@ -7287,17 +7540,33 @@
       "d) Partnerships can also be concluded with private sector and NGOs",
       "e) More than 20 ÖREK partnerships have been concluded so far"
     ],
-    "correct": [0, 2, 3],
+    "correct": [
+      0,
+      2,
+      3
+    ],
     "explanation_de": "ÖREK-Partnerschaften sind freiwillig, haben eine federführende Stelle und können auch mit privaten Akteuren und NGOs geschlossen werden. Option b ist falsch — keine Verpflichtung aus dem Finanzausgleich. Option e ist nicht belegt — die genaue Zahl ist nicht prüfungsrelevant.",
     "explanation_en": "ÖREK partnerships are voluntary, have a lead institution, and can also involve private actors and NGOs. Option b is wrong — no obligation from fiscal equalisation. Option e is not documented — the exact number is not exam-relevant.",
     "source": "ÖREK 2030, ÖREK-Partnerschaften",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) ÖREK-Partnerschaften für rechtsverbindlich halten. (2) Option b als richtig wählen — Finanzausgleich-Pflicht ist nicht im ÖREK. (3) Vergessen, dass private Akteure teilnehmen können.",
     "mistakes_en": "Common mistakes: (1) Thinking ÖREK partnerships are legally binding. (2) Selecting b — fiscal equalisation obligation is not in ÖREK. (3) Forgetting that private actors can participate.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Partnerschaften"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "partnerschaften", "governance"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Partnerschaften"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "partnerschaften",
+      "governance"
+    ]
   },
-
   {
     "id": "oerek-actions-17",
     "quizId": "oerek-actions",
@@ -7317,17 +7586,35 @@
       "d) Promotion of mobility hubs (park & ride, car sharing, cycle parking)",
       "e) Strengthening intermodal mobility and digital mobility services"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das ÖREK-Aktionsprogramm verknüpft Raumordnung und Verkehrsplanung, fördert Schienenausbau, Mobilitätspunkte und intermodale Dienste. Option c ist falsch — ein Verbot von Neubaugebieten außerhalb des ÖV-Bereichs ist kein ÖREK-Instrument (rechtlich kaum umsetzbar auf Bundesebene).",
     "explanation_en": "The ÖREK action programme links spatial planning and transport, promotes rail expansion, mobility hubs and intermodal services. Option c is wrong — a prohibition on new development outside public transport catchments is not an ÖREK instrument (legally difficult to implement at federal level).",
     "source": "ÖREK 2030, Mobilität und Erreichbarkeit",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option c als richtig wählen — ein Verbot wäre ein zu starkes Eingriffsinstrument auf Bundesebene. (2) Mobilitätspunkte nicht kennen. (3) ÖV-Integration und Raumordnung als getrennte Themen behandeln.",
     "mistakes_en": "Common mistakes: (1) Selecting c — a prohibition would be too strong an instrument at federal level. (2) Not knowing mobility hubs. (3) Treating public transport integration and spatial planning as separate topics.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Mobilität"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "mobilitaet", "oev", "erreichbarkeit"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Mobilität"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "mobilitaet",
+      "oev",
+      "erreichbarkeit"
+    ]
   },
-
   {
     "id": "oerek-actions-18",
     "quizId": "oerek-actions",
@@ -7347,17 +7634,34 @@
       "d) Exclusively CO2 reduction measures in the building sector",
       "e) Energy spatial planning and supply security with renewable energies"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Säule 1 'Ressourcen und Klimaschutz' des ÖREK-Aktionsprogramms umfasst Flächensparen, Klimaanpassung, Biodiversitätsschutz und Energieraumplanung. Option d ist zu eng — die Säule geht weit über den Gebäudesektor hinaus.",
     "explanation_en": "Pillar 1 'Resources and Climate Protection' of the ÖREK action programme covers land thrift, climate adaptation, biodiversity protection and energy spatial planning. Option d is too narrow — the pillar extends well beyond the building sector.",
     "source": "ÖREK 2030, Aktionsprogramm Säule 1",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Säule 1 nur auf Flächensparen reduzieren. (2) Biodiversität nicht als Teil von Säule 1 kennen. (3) Option d als richtig wählen — CO2-Reduktion im Gebäude ist eine Teilmaßnahme, nicht die ganze Säule.",
     "mistakes_en": "Common mistakes: (1) Reducing Pillar 1 to land thrift only. (2) Not knowing biodiversity as part of Pillar 1. (3) Selecting d — CO2 reduction in buildings is a partial measure, not the whole pillar.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK 4 Säulen"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "saeule-ressourcen", "klimaschutz"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "saeule-ressourcen",
+      "klimaschutz"
+    ]
   },
-
   {
     "id": "oerek-actions-19",
     "quizId": "oerek-actions",
@@ -7377,17 +7681,34 @@
       "d) Exclusively housing subsidies for municipalities under 5,000 inhabitants",
       "e) Strengthening housing provision and combating housing shortage"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Säule 2 'Zusammenhalt und Daseinsvorsorge' umfasst Disparitätenabbau, Daseinsvorsorge in allen Raumtypen, kulturelle Identität und Wohnraumversorgung. Option d ist zu eng und bezieht sich auf eine konkrete Teilmaßnahme, nicht die ganze Säule.",
     "explanation_en": "Pillar 2 'Cohesion and Public Services' covers reducing disparities, public services in all spatial types, cultural identity and housing provision. Option d is too narrow and refers to a specific partial measure, not the whole pillar.",
     "source": "ÖREK 2030, Aktionsprogramm Säule 2",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Säule 2 nur auf Daseinsvorsorge reduzieren. (2) Kulturelle Identität nicht als Raumplanungsthema erkennen. (3) Option d als richtig wählen — Wohnbauförderung ist ein Instrument, nicht die Säule als Ganzes.",
     "mistakes_en": "Common mistakes: (1) Reducing Pillar 2 to public services only. (2) Not recognising cultural identity as a spatial planning topic. (3) Selecting d — housing subsidies are an instrument, not the whole pillar.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK 4 Säulen"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "saeule-zusammenhalt", "daseinsvorsorge"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 4 Säulen"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "saeule-zusammenhalt",
+      "daseinsvorsorge"
+    ]
   },
-
   {
     "id": "oerek-actions-20",
     "quizId": "oerek-actions",
@@ -7407,17 +7728,33 @@
       "d) Monitoring enables adaptation of measures during the implementation period",
       "e) Citizens can participate in monitoring via digital platforms"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Das ÖREK-Monitoring basiert auf ÖROK-Materialien und Indikatoren, erlaubt Anpassungen im Lauf der Umsetzungsperiode. Option c ist falsch — bei Zielverfehlungen gibt es keine automatischen Sanktionen (das ÖREK ist kein Gesetz). Option e ist nicht explizit im ÖREK belegt.",
     "explanation_en": "ÖREK monitoring is based on ÖROK publications and indicators, and allows adaptations during implementation. Option c is wrong — there are no automatic sanctions for target failure (the ÖREK is not a law). Option e is not explicitly documented in the ÖREK.",
     "source": "ÖREK 2030, Monitoring und Evaluierung",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Automatische Sanktionen (Option c) als richtig wählen — ÖREK ist kein Gesetz, keine Sanktionen. (2) Monitoring als rein statistisches Instrument sehen ohne Steuerungsfunktion. (3) Option e ohne expliziten Beleg als richtig wählen.",
     "mistakes_en": "Common mistakes: (1) Selecting c (automatic sanctions) — ÖREK is not a law. (2) Seeing monitoring as purely statistical without a steering function. (3) Selecting e without explicit evidence.",
-    "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK Monitoring"}, {"url": "https://www.oerek2030.at", "label": "OEREK 2030 (offiziell)"}],
-    "tags": ["handlungsprogramm", "monitoring", "evaluierung"]
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK Monitoring"
+      },
+      {
+        "url": "https://www.oerek2030.at",
+        "label": "OEREK 2030 (offiziell)"
+      }
+    ],
+    "tags": [
+      "handlungsprogramm",
+      "monitoring",
+      "evaluierung"
+    ]
   },
-
   {
     "id": "studienplan-14",
     "quizId": "studienplan",
@@ -7437,17 +7774,34 @@
       "d) Legal and instrumental foundations of planning are part of the profile",
       "e) Social and economic analysis methods are part of the qualification profile"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das Qualifikationsprofil des Bachelorstudiums Raumplanung ist breit: analytische, konzeptionelle, rechtlich-instrumentelle und sozioökonomische Kompetenzen. GIS ist ein Werkzeug, aber nicht das einzige Merkmal des Profils.",
     "explanation_en": "The qualification profile of the Spatial Planning Bachelor's is broad: analytical, conceptual, legal-instrumental and socioeconomic competencies. GIS is a tool but not the sole characteristic of the profile.",
     "source": "Studienplan Raumplanung TU Wien, Qualifikationsprofil",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option c als richtig wählen — GIS ist ein Werkzeug, nicht das ganze Profil. (2) Die rechtliche Dimension übersehen. (3) Sozioökonomische Methoden nicht als Teil der Raumplanung erkennen.",
     "mistakes_en": "Common mistakes: (1) Selecting c — GIS is a tool, not the whole profile. (2) Overlooking the legal dimension. (3) Not recognising socioeconomic methods as part of spatial planning.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "qualifikationsprofil", "kompetenzen"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "qualifikationsprofil",
+      "kompetenzen"
+    ]
   },
-
   {
     "id": "studienplan-15",
     "quizId": "studienplan",
@@ -7467,17 +7821,34 @@
       "d) Not geography (although spatial thinking is shared, there are important differences)",
       "e) Not urban planning — spatial planning is limited to rural areas"
     ],
-    "correct": [0, 1, 2, 3],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
     "explanation_de": "Raumplanung ist weder Architektur noch Innenarchitektur noch Bauingenieurwesen. Sie teilt räumliches Denken mit der Geographie, hat aber einen eigenen planerisch-normativen Fokus. Option e ist falsch: Raumplanung umfasst ALLE Maßstabsebenen einschließlich Stadtplanung.",
     "explanation_en": "Spatial planning is not architecture, interior design or civil engineering. It shares spatial thinking with geography but has its own planning-normative focus. Option e is wrong: spatial planning covers ALL scale levels including urban planning.",
     "source": "Studienplan Raumplanung TU Wien, Einleitung",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option e als richtig wählen — Raumplanung schließt Stadtplanung EIN. (2) Raumplanung und Architektur nicht abgrenzen können. (3) Den Unterschied zu Geographie nicht kennen.",
     "mistakes_en": "Common mistakes: (1) Selecting e — spatial planning INCLUDES urban planning. (2) Not being able to distinguish spatial planning from architecture. (3) Not knowing the difference from geography.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "disziplin", "abgrenzung"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "disziplin",
+      "abgrenzung"
+    ]
   },
-
   {
     "id": "studienplan-16",
     "quizId": "studienplan",
@@ -7497,17 +7868,33 @@
       "d) Social and Economic Sciences",
       "e) Public Building Law and Spatial Planning Law"
     ],
-    "correct": [0, 1, 2, 3],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
     "explanation_de": "Die Prüfungsfächer des Bachelorstudiums umfassen Räumliche Planung, Recht und Verwaltung, Stadtbau und Stadtgestaltung, sowie Sozial- und Wirtschaftswissenschaften. Option e beschreibt ein spezifisches Fach, das unter 'Recht und Verwaltung' subsumiert wird — es ist kein eigenständiges Prüfungsfach im Studienplan.",
     "explanation_en": "The examination subjects include Spatial Planning, Law and Administration, Urban Construction and Urban Design, and Social and Economic Sciences. Option e describes a specific subject subsumed under 'Law and Administration' — it is not a standalone examination subject in the curriculum.",
     "source": "Studienplan Raumplanung TU Wien, Prüfungsfächer",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Die genauen Prüfungsfächernamen nicht kennen. (2) Option e als eigenständiges Prüfungsfach wählen. (3) Die Sozial- und Wirtschaftswissenschaften im Raumplanungsstudium vergessen.",
     "mistakes_en": "Common mistakes: (1) Not knowing the exact examination subject names. (2) Selecting e as a standalone examination subject. (3) Forgetting social and economic sciences in the spatial planning programme.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "pruefungsfaecher"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "pruefungsfaecher"
+    ]
   },
-
   {
     "id": "studienplan-17",
     "quizId": "studienplan",
@@ -7527,17 +7914,33 @@
       "d) Elective modules can cover topics such as environmental planning, mobility planning or real estate economics",
       "e) The choice of modules has no influence on the qualification profile of graduates"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Wahlmodule bieten individuelle Vertiefung, können fächerübergreifend gewählt werden und decken Themen wie Umwelt-, Mobilitätsplanung und Immobilienwirtschaft ab. Option c ist falsch — Informatik ist kein Pflichtbereich für Wahlmodule. Option e ist falsch — Wahlmodule prägen das individuelle Kompetenzprofil.",
     "explanation_en": "Elective modules offer individual specialisation, can be cross-disciplinary and cover topics like environmental planning, mobility and real estate. Option c is wrong — computer science is not a mandatory area for electives. Option e is wrong — electives shape the individual competency profile.",
     "source": "Studienplan Raumplanung TU Wien, Wahlmodule",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option c als richtig wählen — Informatik ist kein Pflichtwahlbereich. (2) Option e als richtig wählen — Wahlmodule beeinflussen das Profil. (3) Die Breite der Wahlmöglichkeiten unterschätzen.",
     "mistakes_en": "Common mistakes: (1) Selecting c — computer science is not a mandatory elective area. (2) Selecting e — electives influence the profile. (3) Underestimating the breadth of elective choices.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "wahlmodule", "vertiefung"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "wahlmodule",
+      "vertiefung"
+    ]
   },
-
   {
     "id": "studienplan-18",
     "quizId": "studienplan",
@@ -7557,17 +7960,34 @@
       "d) Through projects, real planning tasks or case studies are worked on",
       "e) Projects promote communication and presentation skills"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Projektarbeiten im Raumplanungsstudium sind praxisorientiert, interdisziplinär, basieren auf realen Fallstudien und fördern Kommunikationskompetenz. Option c ist falsch — Projektarbeiten ergänzen schriftliche Prüfungen, ersetzen sie nicht vollständig.",
     "explanation_en": "Project work in spatial planning studies is practice-oriented, interdisciplinary, based on real case studies and promotes communication skills. Option c is wrong — project work complements written examinations, it does not fully replace them.",
     "source": "Studienplan Raumplanung TU Wien, Lehr- und Lernformen",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option c als richtig wählen — Prüfungen bleiben Teil des Studiums. (2) Den interdisziplinären Charakter von Projekten vergessen. (3) Projektarbeiten nur als Zusatzleistung sehen statt als Kernelement.",
     "mistakes_en": "Common mistakes: (1) Selecting c — examinations remain part of the programme. (2) Forgetting the interdisciplinary character of projects. (3) Seeing project work as additional rather than as a core element.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "projektarbeit", "lehrformen"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "projektarbeit",
+      "lehrformen"
+    ]
   },
-
   {
     "id": "studienplan-19",
     "quizId": "studienplan",
@@ -7587,17 +8007,33 @@
       "d) It is generally devoted to a specific spatial or planning topic",
       "e) The Bachelor's thesis is the first step towards independent academic work in the programme"
     ],
-    "correct": [0, 1, 3],
+    "correct": [
+      0,
+      1,
+      3
+    ],
     "explanation_de": "Die Bachelorarbeit umfasst 10 ECTS, wird eigenständig verfasst und ist einem Raumplanungsthema gewidmet. Option c ist falsch — die Bachelorarbeit ist eine individuelle, nicht eine Gruppenleistung. Option e ist nicht ganz korrekt — eigenständiges wissenschaftliches Arbeiten wird bereits früher im Studium durch kleinere Arbeiten eingeübt.",
     "explanation_en": "The Bachelor's thesis is 10 ECTS, written independently and devoted to a spatial planning topic. Option c is wrong — the Bachelor's thesis is individual, not group work. Option e is not quite right — independent academic work is practised earlier through smaller assignments.",
     "source": "Studienplan Raumplanung TU Wien, Bachelorarbeit",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Die ECTS-Zahl der Bachelorarbeit nicht kennen (10 ECTS). (2) Option c als richtig wählen — die Bachelorarbeit ist individuell. (3) Option e als richtig wählen — eigenständiges Arbeiten wird früher eingeübt.",
     "mistakes_en": "Common mistakes: (1) Not knowing the ECTS value of the Bachelor's thesis (10 ECTS). (2) Selecting c — the Bachelor's thesis is individual. (3) Selecting e — independent work is practised earlier.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "bachelorarbeit", "ects"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "bachelorarbeit",
+      "ects"
+    ]
   },
-
   {
     "id": "studienplan-20",
     "quizId": "studienplan",
@@ -7617,17 +8053,34 @@
       "d) A grade of 4 constitutes passing the examination",
       "e) A grade of 5 means fail and requires a repeat"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Das österreichische Notensystem läuft von 1 (Sehr gut) bis 5 (Nicht genügend). Note 4 = bestanden, Note 5 = nicht bestanden. 'Mit Auszeichnung bestanden' wird bei durchgehend sehr guten Noten (alle 1 oder 2, Durchschnitt ≤ 1,5) verliehen. Option c ist falsch — es gibt Einzelnoten.",
     "explanation_en": "The Austrian grading system runs from 1 (Very good) to 5 (Fail). Grade 4 = pass, grade 5 = fail. 'Passed with distinction' is awarded with consistently excellent grades (all 1 or 2, average ≤ 1.5). Option c is wrong — individual grades are given.",
     "source": "Studienplan Raumplanung TU Wien, Prüfungsordnung",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option c als richtig wählen — TU Wien benotet mit Einzelnoten 1–5. (2) Die Bedingungen für 'mit Auszeichnung' nicht kennen. (3) Note 3 für die Grenze zwischen Bestehen und Nicht-Bestehen halten.",
     "mistakes_en": "Common mistakes: (1) Selecting c — TU Wien grades with individual grades 1–5. (2) Not knowing the conditions for 'with distinction'. (3) Thinking grade 3 is the pass/fail boundary.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "benotung", "notensskala"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "benotung",
+      "notensskala"
+    ]
   },
-
   {
     "id": "studienplan-21",
     "quizId": "studienplan",
@@ -7647,17 +8100,34 @@
       "d) Exclusively technical competency: only GIS and CAD are taught",
       "e) Communicative and participative competency: moderation, participation and stakeholder communication"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Das Qualifikationsprofil umfasst analytische, planerisch-konzeptionelle, rechtlich-instrumentelle und kommunikativ-partizipative Kompetenz (sowie weitere). Option d ist falsch — das Profil ist nicht auf GIS/CAD reduziert.",
     "explanation_en": "The qualification profile includes analytical, planning-conceptual, legal-instrumental and communicative-participative competencies (among others). Option d is wrong — the profile is not reduced to GIS/CAD.",
     "source": "Studienplan Raumplanung TU Wien, Qualifikationsprofil",
     "difficulty": "hard",
     "mistakes_de": "Typische Fehler: (1) Option d als richtig wählen — GIS/CAD sind Werkzeuge, nicht das ganze Kompetenzprofil. (2) Die kommunikative Dimension vergessen. (3) Rechtliche Kompetenzen nicht als Teil des Planungsstudiums sehen.",
     "mistakes_en": "Common mistakes: (1) Selecting d — GIS/CAD are tools, not the whole competency profile. (2) Forgetting the communicative dimension. (3) Not seeing legal competencies as part of planning studies.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "qualifikationsprofil", "kompetenztypen"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "qualifikationsprofil",
+      "kompetenztypen"
+    ]
   },
-
   {
     "id": "studienplan-22",
     "quizId": "studienplan",
@@ -7677,17 +8147,34 @@
       "d) Those who fail the entrance exam are permanently excluded from the programme",
       "e) The entrance exam is used to rank applicants when there are more applications than places"
     ],
-    "correct": [0, 1, 2, 4],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
     "explanation_de": "Der Reihungstest hat zwei Teile (A = Multiple Choice, B = Planungsaufgabe), Part A hat 30 Fragen mit Teilpunktbewertung, er prüft räumliches Denken und Grundwissen. Er dient der Reihung bei Übernachfrage. Option d ist falsch — wer nicht aufgenommen wird, kann im nächsten Jahr erneut antreten.",
     "explanation_en": "The entrance exam has two parts (A = multiple choice, B = planning task), Part A has 30 questions with partial credit scoring, it tests spatial thinking and basic knowledge. It ranks applicants when oversubscribed. Option d is wrong — those not admitted can try again the following year.",
     "source": "TU Wien Aufnahme Raumplanung",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option d als richtig wählen — dauerhafter Ausschluss ist nicht vorgesehen. (2) Die Teilpunktbewertung in Part A nicht kennen. (3) Part B (Planungsaufgabe) vergessen.",
     "mistakes_en": "Common mistakes: (1) Selecting d — permanent exclusion is not provided for. (2) Not knowing about partial credit scoring in Part A. (3) Forgetting Part B (planning task).",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "reihungstest", "aufnahme"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "reihungstest",
+      "aufnahme"
+    ]
   },
-
   {
     "id": "studienplan-23",
     "quizId": "studienplan",
@@ -7707,14 +8194,32 @@
       "d) Both urban and rural spaces are covered",
       "e) Infrastructure planning (transport, energy, water) is part of the programme"
     ],
-    "correct": [0, 1, 3, 4],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ],
     "explanation_de": "Raumplanung an der TU Wien ist breitmassstabt: lokal bis international, städtisch und ländlich, inkl. Infrastrukturplanung. Option c ist falsch — das Studium ist nicht auf Wien beschränkt.",
     "explanation_en": "Spatial planning at TU Wien covers multiple scales: local to international, urban and rural, including infrastructure planning. Option c is wrong — the programme is not limited to Vienna.",
     "source": "Studienplan Raumplanung TU Wien",
     "difficulty": "medium",
     "mistakes_de": "Typische Fehler: (1) Option c als richtig wählen — das Studium ist nicht auf Wien beschränkt. (2) Den internationalen/europäischen Maßstab vergessen. (3) Infrastrukturplanung nicht als Teil der Raumplanung erkennen.",
     "mistakes_en": "Common mistakes: (1) Selecting c — the programme is not limited to Vienna. (2) Forgetting the international/European scale. (3) Not recognising infrastructure planning as part of spatial planning.",
-    "links": [{"url": "../knowledge/studienplan-de.html", "label": "Studienplan"}, {"url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure", "label": "TU Wien Aufnahme"}],
-    "tags": ["studienplan", "massstabsebenen", "themenbreite"]
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning/admission-procedure",
+        "label": "TU Wien Aufnahme"
+      }
+    ],
+    "tags": [
+      "studienplan",
+      "massstabsebenen",
+      "themenbreite"
+    ]
   }
 ]

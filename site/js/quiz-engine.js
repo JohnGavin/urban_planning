@@ -320,13 +320,21 @@ const QuizEngine = (() => {
           </div>`;
       }).join('');
 
+      // Visual matrix rendering in results too
+      const isMatrix = (q.tags || []).includes('matrizen');
+      let displayText = qText.replace(/\n/g, '<br>');
+      if (isMatrix) {
+        const gridHtml = renderMatrixGrid(qText);
+        if (gridHtml) displayText = gridHtml;
+      }
+
       return `
         <div class="quiz-question" id="qe-res-${qi}">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
             <span class="badge badge-info">Frage ${qi + 1}</span>
             <span class="stat-value" style="font-size:1rem" class="${qHeaderClass}">${qScore.toFixed(2)} / 1.00 Pkt</span>
           </div>
-          <div class="quiz-question-text">${qText}</div>
+          <div class="quiz-question-text">${displayText}</div>
           <div class="qe-options">${optHtml}</div>
           <div class="quiz-explanation visible">
             ${expText}
