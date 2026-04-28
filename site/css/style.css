@@ -76,7 +76,7 @@ body {
 }
 
 .nav-section {
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.5rem 0;
   margin-top: 0.5rem;
 }
 
@@ -85,7 +85,35 @@ body {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+  user-select: none;
+}
+
+.nav-section-title:hover { color: var(--tu-text-muted); }
+
+.nav-section-title::after {
+  content: '\25B8'; /* right triangle */
+  font-size: 0.6rem;
+  transition: transform 0.2s;
+}
+
+.nav-section-title.open::after {
+  transform: rotate(90deg);
+}
+
+.nav-section-links {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.nav-section-links.open {
+  max-height: 500px;
 }
 
 .nav-link {
