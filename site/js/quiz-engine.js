@@ -114,10 +114,106 @@ const QuizEngine = (() => {
       </div>`;
   }
 
+  // ── Visual Matrizen renderer ──────────────────────────────────────────────
+  const SHAPE_MAP = {
+    'Kreis': '&#9679;', 'kreis': '&#9679;', 'circle': '&#9679;',
+    'Dreieck': '&#9650;', 'dreieck': '&#9650;', 'triangle': '&#9650;',
+    'Quadrat': '&#9632;', 'quadrat': '&#9632;', 'square': '&#9632;',
+    'Stern': '&#9733;', 'stern': '&#9733;', 'star': '&#9733;',
+    'Herz': '&#9829;', 'herz': '&#9829;', 'heart': '&#9829;',
+    'Pfeil': '&#10148;', 'pfeil': '&#10148;', 'arrow': '&#10148;',
+    'Raute': '&#9670;', 'raute': '&#9670;', 'diamond': '&#9670;',
+    'Sechseck': '&#11042;', 'sechseck': '&#11042;', 'hexagon': '&#11042;',
+    'Punkt': '&#8226;', 'punkt': '&#8226;', 'dot': '&#8226;',
+  };
+
+  const COLOR_MAP = {
+    'schwarz': 'shape-black', 'black': 'shape-black',
+    'weiß': 'shape-white', 'weiss': 'shape-white', 'white': 'shape-white',
+    'grau': 'shape-grey', 'grey': 'shape-grey', 'gray': 'shape-grey',
+    'gestreift': 'shape-striped', 'striped': 'shape-striped',
+    'horizontal gestreift': 'shape-striped', 'vertikal gestreift': 'shape-striped',
+    'kariert': 'shape-striped', 'gepunktet': 'shape-striped',
+  };
+
+  const SIZE_MAP = {
+    'groß': 'size-big', 'gross': 'size-big', 'big': 'size-big', 'large': 'size-big',
+    'mittel': 'size-medium', 'medium': 'size-medium',
+    'klein': 'size-small', 'small': 'size-small',
+  };
+
+  function parseMatrixCell(cellText) {
+    cellText = cellText.replace(/[\[\]]/g, '').trim();
+    if (cellText === '?' || cellText === '') return null; // empty cell
+
+    let shape = '&#9679;', colorCls = 'shape-black', sizeCls = '';
+    const parts = cellText.split(',').map(s => s.trim().toLowerCase());
+
+    for (const p of parts) {
+      // Check count prefix (e.g. "3 Dreiecke")
+      const countMatch = p.match(/^(\d+)\s+(.+)/);
+      if (countMatch) {
+        const count = parseInt(countMatch[1]);
+        const shapeName = countMatch[2].replace(/e$/, '').replace(/s$/, ''); // naive deplural
+        const sym = SHAPE_MAP[shapeName] || SHAPE_MAP[shapeName.charAt(0).toUpperCase() + shapeName.slice(1)] || '&#9679;';
+        shape = (sym + ' ').repeat(count).trim();
+        continue;
+      }
+      // Check shapes
+      for (const [key, sym] of Object.entries(SHAPE_MAP)) {
+        if (p === key.toLowerCase() || p.endsWith(key.toLowerCase())) { shape = sym; break; }
+      }
+      // Check colors
+      for (const [key, cls] of Object.entries(COLOR_MAP)) {
+        if (p.includes(key)) { colorCls = cls; break; }
+      }
+      // Check sizes
+      for (const [key, cls] of Object.entries(SIZE_MAP)) {
+        if (p === key) { sizeCls = cls; break; }
+      }
+    }
+    return { shape, colorCls, sizeCls };
+  }
+
+  function renderMatrixGrid(questionText) {
+    const lines = questionText.split('\n');
+    const cells = [];
+    for (const line of lines) {
+      const zeileMatch = line.match(/Zeile\s*\d+:\s*(.*)/i) || line.match(/Row\s*\d+:\s*(.*)/i);
+      if (!zeileMatch) continue;
+      const rowText = zeileMatch[1];
+      const cellTexts = rowText.split(/\]\s*\[/).map(s => s.replace(/[\[\]]/g, '').trim());
+      for (const ct of cellTexts) {
+        if (ct === '?' || ct === '') {
+          cells.push('<div class="matrix-cell empty"></div>');
+        } else {
+          const parsed = parseMatrixCell('[' + ct + ']');
+          if (parsed) {
+            cells.push(`<div class="matrix-cell ${parsed.sizeCls}"><span class="shape ${parsed.colorCls}">${parsed.shape}</span></div>`);
+          } else {
+            cells.push('<div class="matrix-cell empty"></div>');
+          }
+        }
+      }
+    }
+    if (cells.length < 4) return null; // not enough cells to render a grid
+    // Extract the question part (after the grid)
+    const questionPart = lines.filter(l => !l.match(/Zeile|Row|Matrix|Muster|^$/i)).join('<br>');
+    return `<div class="matrix-grid">${cells.join('')}</div><p style="margin-top:0.75rem">${questionPart}</p>`;
+  }
+
   function renderQuestions(container, questions, lang, timedMode) {
     const html = questions.map((q, qi) => {
       const qText = lang === 'en' ? (q.question_en || q.question_de) : q.question_de;
       const opts  = lang === 'en' ? (q.options_en  || q.options_de)  : q.options_de;
+
+      // Try visual matrix rendering for tagged questions
+      const isMatrix = (q.tags || []).includes('matrizen');
+      let displayText = qText.replace(/\n/g, '<br>');
+      if (isMatrix) {
+        const gridHtml = renderMatrixGrid(qText);
+        if (gridHtml) displayText = gridHtml;
+      }
 
       const optHtml = opts.map((opt, oi) => `
         <div class="quiz-option" data-qidx="${qi}" data-oidx="${oi}" role="checkbox" aria-checked="false" tabindex="0" style="cursor:pointer">
@@ -130,7 +226,7 @@ const QuizEngine = (() => {
           <div style="margin-bottom:0.5rem">
             <span class="badge badge-info">Frage ${qi + 1}</span>
           </div>
-          <div class="quiz-question-text">${qText}</div>
+          <div class="quiz-question-text">${displayText}</div>
           <div class="qe-options">${optHtml}</div>
           <div class="quiz-explanation" id="qe-exp-${qi}">
             ${lang === 'en' ? (q.explanation_en || q.explanation_de) : q.explanation_de}

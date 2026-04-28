@@ -495,7 +495,62 @@ li { margin: 0.4rem 0; }
   th, td { padding: 0.5rem; }
   h1 { font-size: 1.5rem; }
   h2 { font-size: 1.2rem; }
+  .matrix-grid { gap: 0.3rem; }
+  .matrix-cell { width: 50px; height: 50px; }
+  .matrix-cell .shape { font-size: 1.2rem; }
 }
+
+/* ---- Visual Matrizen ---- */
+.matrix-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--tu-dark);
+  border-radius: var(--radius);
+  border: 1px solid var(--tu-border);
+}
+
+.matrix-cell {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: var(--tu-surface);
+  border: 1px solid var(--tu-border);
+  position: relative;
+}
+
+.matrix-cell .shape {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.matrix-cell.empty {
+  background: rgba(0, 163, 224, 0.1);
+  border: 2px dashed var(--tu-accent);
+}
+
+.matrix-cell.empty::after {
+  content: '?';
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--tu-accent);
+}
+
+/* Shape colors */
+.shape-black { color: #fff; }
+.shape-white { color: #aaa; -webkit-text-stroke: 1px #aaa; }
+.shape-grey { color: #888; }
+.shape-striped { color: #fff; opacity: 0.6; }
+
+/* Size modifiers */
+.size-big .shape { font-size: 2.2rem; }
+.size-medium .shape { font-size: 1.6rem; }
+.size-small .shape { font-size: 1rem; }
 
 /* ---- Utility ---- */
 .text-center { text-align: center; }
