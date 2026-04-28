@@ -256,6 +256,7 @@ const QuizEngine = (() => {
       <div style="display:flex;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap">
         <button id="qe-retry-btn" class="btn btn-primary">&#8635; Nochmals versuchen</button>
         <button id="qe-retrain-btn" class="btn btn-primary" style="background:var(--tu-warning);color:#000">&#127919; Schwachstellen trainieren</button>
+        <button id="qe-wrong-only-btn" class="btn btn-outline" style="border-color:var(--tu-error);color:var(--tu-error)">&#10007; Nur falsche wiederholen</button>
         <button id="qe-new-btn" class="btn btn-outline">&#8635; Neues Quiz</button>
       </div>
       <h2>Detailauswertung</h2>
@@ -539,6 +540,19 @@ const QuizEngine = (() => {
 
       const newBtn = document.getElementById('qe-new-btn');
       if (newBtn) newBtn.addEventListener('click', showStartScreen);
+
+      // Review wrong only
+      const wrongBtn = document.getElementById('qe-wrong-only-btn');
+      if (wrongBtn) wrongBtn.addEventListener('click', () => {
+        const wrongQs = activeQuestions.filter((q, qi) => scores[qi] < 0.99);
+        if (wrongQs.length === 0) {
+          alert('Alle Fragen richtig! Nichts zu wiederholen.');
+          return;
+        }
+        activeQuestions = wrongQs;
+        startTime = Date.now();
+        showQuizScreen();
+      });
 
       const retrainBtn = document.getElementById('qe-retrain-btn');
       if (retrainBtn) retrainBtn.addEventListener('click', async () => {
