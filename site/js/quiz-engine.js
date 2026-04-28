@@ -60,8 +60,17 @@ const QuizEngine = (() => {
     return c;
   }
 
-  function renderStartScreen(container, questions, quizId) {
+  function renderStartScreen(container, questions, quizId, currentTimedMode) {
     const counts = countByDifficulty(questions);
+    const isAllQuiz = (quizId === 'all');
+    const timerChecked = currentTimedMode ? 'checked' : '';
+    const timerRowHtml = isAllQuiz ? `
+        <div style="margin:1.25rem 0">
+          <label style="display:flex;align-items:center;gap:0.6rem;cursor:pointer;color:var(--tu-text-bright);font-weight:600">
+            <input type="checkbox" id="qe-timed-toggle" ${timerChecked} style="width:1.1rem;height:1.1rem;cursor:pointer">
+            &#9200; Zeitlimit: 2 Stunden (wie im echten Test)
+          </label>
+        </div>` : '';
     container.innerHTML = `
       <div class="card">
         <div class="card-title">&#9654; Quiz bereit</div>
@@ -86,6 +95,8 @@ const QuizEngine = (() => {
           </div>
         </div>
 
+        ${timerRowHtml}
+
         <table style="margin:1rem 0;font-size:0.85rem">
           <tr><td style="color:var(--tu-text-muted)">Format</td><td>Multiple Choice (alle richtigen ankreuzen)</td></tr>
           <tr><td style="color:var(--tu-text-muted)">Bewertung</td><td>Teilpunkte; Abzug für falsche Kreuze (min. 0/Frage)</td></tr>
@@ -103,7 +114,7 @@ const QuizEngine = (() => {
       </div>`;
   }
 
-  function renderQuestions(container, questions, lang) {
+  function renderQuestions(container, questions, lang, timedMode) {
     const html = questions.map((q, qi) => {
       const qText = lang === 'en' ? (q.question_en || q.question_de) : q.question_de;
       const opts  = lang === 'en' ? (q.options_en  || q.options_de)  : q.options_de;
@@ -128,9 +139,11 @@ const QuizEngine = (() => {
         </div>`;
     }).join('');
 
+    const timerLabel = timedMode ? '&#9200; Verbleibend: ' : '&#128336; Zeit: ';
+    const timerInitVal = timedMode ? '2h 00m 00s' : '0s';
     container.innerHTML = `
       <div id="qe-timer-bar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;padding:0.75rem 1rem;background:var(--tu-surface);border-radius:var(--radius);border:1px solid var(--tu-border)">
-        <span style="color:var(--tu-text-muted);font-size:0.9rem">&#128336; Zeit: <span id="qe-elapsed">0s</span></span>
+        <span id="qe-timer-label" style="color:var(--tu-text-muted);font-size:0.9rem">${timerLabel}<span id="qe-elapsed">${timerInitVal}</span></span>
         <span style="color:var(--tu-text-muted);font-size:0.9rem">Fragen: ${questions.length}</span>
       </div>
       <div id="qe-questions">${html}</div>
@@ -294,6 +307,8 @@ const QuizEngine = (() => {
     let selectedCount = 10;
     let selectedDiff = 'mixed';
     let activeQuestions = [];
+    let timedMode = (quizId === 'all'); // default on for full mock exam
+    const COUNTDOWN_SECONDS = 7200; // 2 hours
 
     function buildActiveQuestions() {
       let pool = [...questions];
@@ -329,10 +344,16 @@ const QuizEngine = (() => {
       if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
       selectedCount = 10;
       selectedDiff = 'mixed';
-      renderStartScreen(container, questions, quizId);
+      renderStartScreen(container, questions, quizId, timedMode);
 
       wireOptButtons('qe-count-select', 'count', 10, v => { selectedCount = v; });
       wireOptButtons('qe-diff-select', 'diff', 'mixed', v => { selectedDiff = v; });
+
+      // Wire timed mode toggle (only present for quizId === 'all')
+      const timedToggle = container.querySelector('#qe-timed-toggle');
+      if (timedToggle) {
+        timedToggle.addEventListener('change', () => { timedMode = timedToggle.checked; });
+      }
 
       container.querySelector('#qe-start-btn').addEventListener('click', () => {
         activeQuestions = buildActiveQuestions();
@@ -360,17 +381,38 @@ const QuizEngine = (() => {
     // ── Quiz screen ────────────────────────────────────────────────────────
 
     function showQuizScreen() {
-      renderQuestions(container, activeQuestions, lang);
+      renderQuestions(container, activeQuestions, lang, timedMode);
       startTimer();
       wireQuizInteractions();
     }
 
     function startTimer() {
       const elapsedEl = document.getElementById('qe-elapsed');
+      const labelEl   = document.getElementById('qe-timer-label');
       timerInterval = setInterval(() => {
         if (!elapsedEl) { clearInterval(timerInterval); return; }
-        const sec = Math.floor((Date.now() - startTime) / 1000);
-        elapsedEl.textContent = formatDuration(sec);
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        if (timedMode) {
+          const remaining = Math.max(0, COUNTDOWN_SECONDS - elapsed);
+          const h = Math.floor(remaining / 3600);
+          const m = Math.floor((remaining % 3600) / 60);
+          const s = remaining % 60;
+          elapsedEl.textContent = `${h}h ${pad2(m)}m ${pad2(s)}s`;
+          // Colour warnings
+          if (remaining <= 300) {
+            if (labelEl) labelEl.style.color = 'var(--tu-error, #f44336)';
+          } else if (remaining <= 900) {
+            if (labelEl) labelEl.style.color = 'var(--tu-warning, #ff9800)';
+          }
+          // Auto-submit when time runs out
+          if (remaining === 0) {
+            clearInterval(timerInterval);
+            const submitBtn = document.getElementById('qe-submit-btn');
+            if (submitBtn) submitBtn.click();
+          }
+        } else {
+          elapsedEl.textContent = formatDuration(elapsed);
+        }
       }, 1000);
     }
 

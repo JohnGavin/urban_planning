@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz: Textverständnis — Raumplanung TU Wien</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <h2>Raumplanung</h2>
+      <div class="subtitle">TU Wien — Reihungstest 2026</div>
+    </div>
+    <div class="nav-section"><div class="nav-section-title">Dashboard</div></div>
+    <a href="../index.html" class="nav-link"><span class="icon">&#127968;</span> Home</a>
+    <a href="../exam/countdown.html" class="nav-link"><span class="icon">&#9200;</span> Exam Countdown</a>
+    <a href="../dashboard/progress.html" class="nav-link"><span class="icon">&#128200;</span> My Progress</a>
+    <div class="nav-section"><div class="nav-section-title">Knowledge Base (DE)</div></div>
+    <a href="../knowledge/reihungstest-de.html" class="nav-link">&#128221; Reihungstest Info</a>
+    <a href="../knowledge/oerek2030-de.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="../knowledge/studienplan-de.html" class="nav-link">&#127891; Studienplan</a>
+    <a href="../knowledge/combined-de.html" class="nav-link">&#128218; Gesamtübersicht</a>
+    <div class="nav-section"><div class="nav-section-title">Knowledge Base (EN)</div></div>
+    <a href="../knowledge/reihungstest-en.html" class="nav-link">&#128221; Exam Info</a>
+    <a href="../knowledge/oerek2030-en.html" class="nav-link">&#127758; OEREK 2030</a>
+    <a href="../knowledge/studienplan-en.html" class="nav-link">&#127891; Study Plan</a>
+    <a href="../knowledge/combined-en.html" class="nav-link">&#128218; Combined Overview</a>
+    <div class="nav-section"><div class="nav-section-title">Quizzes</div></div>
+    <a href="quiz-oerek-principles.html" class="nav-link"><span class="icon">&#10004;</span> OEREK Principles</a>
+    <a href="quiz-oerek-megatrends.html" class="nav-link"><span class="icon">&#10004;</span> Megatrends</a>
+    <a href="quiz-text-comprehension.html" class="nav-link"><span class="icon">&#10004;</span> Handlungsprogramm</a>
+    <a href="quiz-studienplan.html" class="nav-link"><span class="icon">&#10004;</span> Studienplan</a>
+    <a href="quiz-cognitive.html" class="nav-link"><span class="icon">&#129504;</span> Cognitive Skills</a>
+    <a href="quiz-full-mock.html" class="nav-link"><span class="icon">&#128336;</span> Full Mock Exam</a>
+  </nav>
+
+  <main class="main-content">
+    <div class="top-bar">
+      <h1>Quiz: Textverständnis</h1>
+    </div>
+    <div id="quiz-container"></div>
+    <footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid var(--tu-border); font-size:0.8rem; color:var(--tu-text-dim)">
+      <a href="https://github.com/JohnGavin/urban_planning" target="_blank">GitHub</a>
+    </footer>
+  </main>
+</div>
+<script src="../js/student-db.js"></script>
+<script src="../js/supabase-sync.js"></script>
+<script src="../js/quiz-engine.js"></script>
+<script src="../js/sidebar.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    QuizEngine.init('text-comprehension', 'quiz-container');
+  });
+</script>
+</body>
+</html>

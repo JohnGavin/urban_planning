@@ -482,12 +482,19 @@ li { margin: 0.4rem 0; }
 /* ---- Mobile responsive ---- */
 @media (max-width: 768px) {
   .sidebar { transform: translateX(-260px); }
-  .main-content { margin-left: 0; padding: 1rem; }
-  .sidebar-toggle { left: 1rem; }
+  .main-content { margin-left: 0; padding: 1rem 1rem 1rem 3.5rem; }
+  .sidebar-toggle { left: 0.5rem; top: 0.5rem; width: 36px; height: 36px; font-size: 1rem; }
   .sidebar-open .sidebar { transform: translateX(0); }
   .sidebar-open .sidebar-toggle { left: 270px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .countdown-display { flex-wrap: wrap; }
+  .tab-buttons { flex-wrap: wrap; }
+  .tab-btn { font-size: 0.8rem; padding: 0.5rem 0.75rem; }
+  .card { padding: 1rem; }
+  table { font-size: 0.8rem; }
+  th, td { padding: 0.5rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
 }
 
 /* ---- Utility ---- */

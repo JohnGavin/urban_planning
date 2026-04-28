@@ -336,6 +336,36 @@
         }
       }
 
+      // Stale topic reminders
+      if (stats.byQuiz && Object.keys(stats.byQuiz).length > 0) {
+        const now = Date.now();
+        const staleTopics = [];
+        const STALE_DAYS = 3;
+        const quizLinks = {
+          'oerek-principles': 'quizzes/quiz-oerek-principles.html',
+          'oerek-megatrends': 'quizzes/quiz-oerek-megatrends.html',
+          'studienplan': 'quizzes/quiz-studienplan.html',
+          'cognitive': 'quizzes/quiz-cognitive.html',
+          'oerek-actions': 'quizzes/quiz-oerek-actions.html',
+          'text-comprehension': 'quizzes/quiz-text-comprehension.html'
+        };
+        for (const [qid, attempts] of Object.entries(stats.byQuiz)) {
+          const lastDate = new Date(attempts[attempts.length - 1].date);
+          const daysSince = Math.floor((now - lastDate) / (1000*60*60*24));
+          if (daysSince >= STALE_DAYS) {
+            staleTopics.push({ qid, daysSince, link: quizLinks[qid] || 'quizzes/quiz-full-mock.html' });
+          }
+        }
+        if (staleTopics.length > 0) {
+          const startHere = document.getElementById('start-here');
+          const staleHtml = staleTopics.map(t =>
+            `<a href="${t.link}" class="btn btn-outline" style="font-size:0.75rem;margin:0.15rem">${t.qid} (${t.daysSince}d ago)</a>`
+          ).join('');
+          startHere.insertAdjacentHTML('afterend',
+            `<div class="alert alert-warning" style="margin-top:0.75rem"><strong>Auffrischen:</strong> Diese Themen hast du seit ${STALE_DAYS}+ Tagen nicht geübt: ${staleHtml}</div>`);
+        }
+      }
+
     } catch(e) {
       document.getElementById('start-recommendation').innerHTML =
         '<strong>Welcome!</strong> Start with Step 1 &mdash; understanding the exam format.';
