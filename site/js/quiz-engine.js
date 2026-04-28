@@ -118,15 +118,16 @@ const QuizEngine = (() => {
 
   // ── Visual Matrizen renderer ──────────────────────────────────────────────
   const SHAPE_MAP = {
-    'Kreis': '&#9679;', 'kreis': '&#9679;', 'circle': '&#9679;',
-    'Dreieck': '&#9650;', 'dreieck': '&#9650;', 'triangle': '&#9650;',
-    'Quadrat': '&#9632;', 'quadrat': '&#9632;', 'square': '&#9632;',
-    'Stern': '&#9733;', 'stern': '&#9733;', 'star': '&#9733;',
-    'Herz': '&#9829;', 'herz': '&#9829;', 'heart': '&#9829;',
-    'Pfeil': '&#10148;', 'pfeil': '&#10148;', 'arrow': '&#10148;',
-    'Raute': '&#9670;', 'raute': '&#9670;', 'diamond': '&#9670;',
-    'Sechseck': '&#11042;', 'sechseck': '&#11042;', 'hexagon': '&#11042;',
-    'Punkt': '&#8226;', 'punkt': '&#8226;', 'dot': '&#8226;',
+    'kreis': '\u25CF', 'circle': '\u25CF',
+    'dreieck': '\u25B2', 'triangle': '\u25B2',
+    'quadrat': '\u25A0', 'square': '\u25A0',
+    'stern': '\u2605', 'star': '\u2605',
+    'herz': '\u2665', 'heart': '\u2665',
+    'pfeil': '\u279C', 'arrow': '\u279C',
+    'raute': '\u25C6', 'diamond': '\u25C6',
+    'sechseck': '\u2B22', 'hexagon': '\u2B22',
+    'punkt': '\u2022', 'dot': '\u2022',
+    'r': 'R',
   };
 
   const COLOR_MAP = {
@@ -144,11 +145,32 @@ const QuizEngine = (() => {
     'klein': 'size-small', 'small': 'size-small',
   };
 
+  function findShape(text) {
+    text = text.toLowerCase().trim();
+    for (const [key, sym] of Object.entries(SHAPE_MAP)) {
+      if (text === key || text.includes(key)) return sym;
+    }
+    // Try depluralized
+    const deplural = text.replace(/en$/, '').replace(/e$/, '').replace(/s$/, '');
+    for (const [key, sym] of Object.entries(SHAPE_MAP)) {
+      if (deplural === key || deplural.includes(key)) return sym;
+    }
+    return null;
+  }
+
   function parseMatrixCell(cellText) {
     cellText = cellText.replace(/[\[\]]/g, '').trim();
-    if (cellText === '?' || cellText === '') return null; // empty cell
+    if (cellText === '?' || cellText === '') return null;
 
-    let shape = '&#9679;', colorCls = 'shape-black', sizeCls = '';
+    let shape = '\u25CF', colorCls = 'shape-black', sizeCls = '';
+
+    // Handle "X + Y" combinations
+    if (cellText.includes('+')) {
+      const comboParts = cellText.split('+').map(s => s.trim());
+      const symbols = comboParts.map(cp => findShape(cp) || cp.charAt(0)).join('+');
+      return { shape: symbols, colorCls: 'shape-black', sizeCls: '' };
+    }
+
     const parts = cellText.split(',').map(s => s.trim().toLowerCase());
 
     for (const p of parts) {
@@ -156,24 +178,34 @@ const QuizEngine = (() => {
       const countMatch = p.match(/^(\d+)\s+(.+)/);
       if (countMatch) {
         const count = parseInt(countMatch[1]);
-        const shapeName = countMatch[2].replace(/e$/, '').replace(/s$/, ''); // naive deplural
-        const sym = SHAPE_MAP[shapeName] || SHAPE_MAP[shapeName.charAt(0).toUpperCase() + shapeName.slice(1)] || '&#9679;';
-        shape = (sym + ' ').repeat(count).trim();
+        const sym = findShape(countMatch[2]) || '\u2022';
+        shape = (sym + ' ').repeat(Math.min(count, 6)).trim();
         continue;
       }
       // Check shapes
-      for (const [key, sym] of Object.entries(SHAPE_MAP)) {
-        if (p === key.toLowerCase() || p.endsWith(key.toLowerCase())) { shape = sym; break; }
-      }
+      const foundShape = findShape(p);
+      if (foundShape) { shape = foundShape; }
       // Check colors
       for (const [key, cls] of Object.entries(COLOR_MAP)) {
         if (p.includes(key)) { colorCls = cls; break; }
       }
       // Check sizes
       for (const [key, cls] of Object.entries(SIZE_MAP)) {
-        if (p === key) { sizeCls = cls; break; }
+        if (p === key || p.includes(key)) { sizeCls = cls; break; }
       }
     }
+    // Handle arrow directions in the text
+    if (cellText.includes('\u2191') || cellText.toLowerCase().includes('oben')) shape = '\u2191';
+    else if (cellText.includes('\u2193') || cellText.toLowerCase().includes('unten')) shape = '\u2193';
+    else if (cellText.includes('\u2192') || cellText.toLowerCase().includes('rechts')) {
+      if (findShape(cellText.split(',')[0]) === '\u279C' || cellText.toLowerCase().includes('pfeil'))
+        shape = '\u2192';
+    }
+    else if (cellText.includes('\u2190') || cellText.toLowerCase().includes('links')) {
+      if (findShape(cellText.split(',')[0]) === '\u279C' || cellText.toLowerCase().includes('pfeil'))
+        shape = '\u2190';
+    }
+
     return { shape, colorCls, sizeCls };
   }
 

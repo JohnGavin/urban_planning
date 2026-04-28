@@ -553,32 +553,33 @@ li { margin: 0.4rem 0; }
 }
 
 .matrix-cell .shape {
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 1;
+  text-shadow: 0 0 2px rgba(255,255,255,0.3);
 }
 
 .matrix-cell.empty {
-  background: rgba(0, 163, 224, 0.1);
+  background: rgba(0, 163, 224, 0.15);
   border: 2px dashed var(--tu-accent);
 }
 
 .matrix-cell.empty::after {
   content: '?';
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: var(--tu-accent);
 }
 
-/* Shape colors */
-.shape-black { color: #fff; }
-.shape-white { color: #aaa; -webkit-text-stroke: 1px #aaa; }
-.shape-grey { color: #888; }
-.shape-striped { color: #fff; opacity: 0.6; }
+/* Shape colors — high contrast on dark backgrounds */
+.shape-black { color: #ffffff; }
+.shape-white { color: #cccccc; -webkit-text-stroke: 2px #cccccc; }
+.shape-grey { color: #999999; }
+.shape-striped { color: #ffffff; opacity: 0.5; }
 
 /* Size modifiers */
-.size-big .shape { font-size: 2.2rem; }
-.size-medium .shape { font-size: 1.6rem; }
-.size-small .shape { font-size: 1rem; }
+.size-big .shape { font-size: 2.5rem; }
+.size-medium .shape { font-size: 1.8rem; }
+.size-small .shape { font-size: 1.2rem; }
 
 /* ---- Utility ---- */
 .text-center { text-align: center; }
