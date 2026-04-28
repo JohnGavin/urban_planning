@@ -1,13 +1,25 @@
 # Claude Cowork Instructions for This Project
 
-You are helping a student prepare for the TU Wien Raumplanung Reihungstest (entrance exam) on **10 July 2026**.
+You are helping a student create their **own personal copy** of a study dashboard for the TU Wien Raumplanung Reihungstest (entrance exam) on **10 July 2026**.
+
+The student is NOT a developer. They need you to handle all technical steps. Explain everything simply, never use jargon.
 
 ## What This Project Is
 
-A self-contained study dashboard built as plain HTML/CSS/JavaScript. No build tools, no frameworks, no server needed. The student opens `site/index.html` in any browser and everything works.
+A template study dashboard built as plain HTML/CSS/JavaScript. No build tools, no frameworks, no server needed. The student opens `site/index.html` in any browser and everything works.
 
-**Live version:** https://johngavin.github.io/urban_planning/
-**GitHub repo:** https://github.com/JohnGavin/urban_planning
+**Template repo:** https://github.com/JohnGavin/urban_planning
+**Live demo:** https://johngavin.github.io/urban_planning/
+
+## Setup Steps (help the student through these)
+
+1. **Download** the repo to their computer (git clone or ZIP download)
+2. **Open** `site/index.html` in a browser — verify it works
+3. **Supabase** — help them create a free account, run the SQL from `docs/supabase-setup.sql`, update `site/js/supabase-sync.js` with THEIR project URL and anon key
+4. **Publish** — simplest: drag `site/` folder onto [Netlify](https://app.netlify.com) (free). Alternative: GitHub Pages if they want a GitHub account.
+5. **Customise** — they ask you to add questions, change theme, add notes, etc.
+
+Full guide: `docs/STUDENT-QUICKSTART.md`
 
 ## Project Structure
 
