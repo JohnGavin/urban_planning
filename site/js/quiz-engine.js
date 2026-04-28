@@ -62,15 +62,14 @@ const QuizEngine = (() => {
 
   function renderStartScreen(container, questions, quizId, currentTimedMode) {
     const counts = countByDifficulty(questions);
-    const isAllQuiz = (quizId === 'all');
     const timerChecked = currentTimedMode ? 'checked' : '';
-    const timerRowHtml = isAllQuiz ? `
+    const timerRowHtml = `
         <div style="margin:1.25rem 0">
           <label style="display:flex;align-items:center;gap:0.6rem;cursor:pointer;color:var(--tu-text-bright);font-weight:600">
             <input type="checkbox" id="qe-timed-toggle" ${timerChecked} style="width:1.1rem;height:1.1rem;cursor:pointer">
-            &#9200; Zeitlimit: 2 Stunden (wie im echten Test)
+            &#9200; Zeitlimit: 1 Minute pro Frage
           </label>
-        </div>` : '';
+        </div>`;
     container.innerHTML = `
       <div class="card">
         <div class="card-title">&#9654; Quiz bereit</div>
@@ -236,7 +235,8 @@ const QuizEngine = (() => {
     }).join('');
 
     const timerLabel = timedMode ? '&#9200; Verbleibend: ' : '&#128336; Zeit: ';
-    const timerInitVal = timedMode ? '2h 00m 00s' : '0s';
+    const cdMin = Math.floor(countdownSeconds / 60);
+    const timerInitVal = timedMode ? `${cdMin}m 00s` : '0s';
     container.innerHTML = `
       <div id="qe-timer-bar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;padding:0.75rem 1rem;background:var(--tu-surface);border-radius:var(--radius);border:1px solid var(--tu-border)">
         <span id="qe-timer-label" style="color:var(--tu-text-muted);font-size:0.9rem">${timerLabel}<span id="qe-elapsed">${timerInitVal}</span></span>
@@ -405,7 +405,7 @@ const QuizEngine = (() => {
     let selectedDiff = 'mixed';
     let activeQuestions = [];
     let timedMode = (quizId === 'all'); // default on for full mock exam
-    const COUNTDOWN_SECONDS = 7200; // 2 hours
+    let countdownSeconds = 600; // calculated per quiz: 1 min per question
 
     function buildActiveQuestions() {
       let pool = [...questions];
@@ -478,6 +478,8 @@ const QuizEngine = (() => {
     // ── Quiz screen ────────────────────────────────────────────────────────
 
     function showQuizScreen() {
+      // 1 minute per question
+      countdownSeconds = activeQuestions.length * 60;
       renderQuestions(container, activeQuestions, lang, timedMode);
       startTimer();
       wireQuizInteractions();
@@ -490,7 +492,7 @@ const QuizEngine = (() => {
         if (!elapsedEl) { clearInterval(timerInterval); return; }
         const elapsed = Math.floor((Date.now() - startTime) / 1000);
         if (timedMode) {
-          const remaining = Math.max(0, COUNTDOWN_SECONDS - elapsed);
+          const remaining = Math.max(0, countdownSeconds - elapsed);
           const h = Math.floor(remaining / 3600);
           const m = Math.floor((remaining % 3600) / 60);
           const s = remaining % 60;
