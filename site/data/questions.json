@@ -16497,5 +16497,769 @@
       }
     ],
     "source": "Studienplan TU Wien"
+  },
+  {
+    "id": "oerek-principles-gen-10",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "Gemeinwohl",
+      "Boden",
+      "Knappheit"
+    ],
+    "question_de": "Warum ist Boden als Ressource in der Gemeinwohlorientierung der Raumordnung besonders hervorzuheben?",
+    "question_en": "Why is land particularly emphasized as a resource in the common-good orientation of spatial planning?",
+    "options_de": [
+      "a) Boden kann durch technologische Innovation vermehrt werden",
+      "b) Boden ist nicht vermehrbar und daher eine endliche Ressource mit besonderem Schutzanspruch",
+      "c) Bodennutzung betrifft nur private Grundeigentümer und nicht das Gemeinwohl",
+      "d) Boden hat keine wirtschaftliche Bedeutung für räumliche Entwicklung",
+      "e) Böden sind regional beliebig austauschbar"
+    ],
+    "options_en": [
+      "a) Land can be increased through technological innovation",
+      "b) Land is not reproducible and therefore a finite resource with particular protection claim",
+      "c) Land use affects only private landowners and not the common good",
+      "d) Land has no economic significance for spatial development",
+      "e) Soils are regionally interchangeable"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Boden ist eine nicht vermehrbare Ressource, die zentral für Gemeinwohlorientierung ist. Anders als andere Güter können Böden nicht künstlich vergrößert werden, weshalb ein sorgsamer Umgang und Schutz essentiell für zukünftige Generationen ist.",
+    "explanation_en": "Land is a non-reproducible resource central to common-good orientation. Unlike other goods, soils cannot be artificially enlarged, which is why careful management and protection are essential for future generations.",
+    "mistakes_de": "Häufig wird angenommen, dass technischer Fortschritt auch Bodenknappheit lösen kann. Dies übersieht die physische Realität der Bodenbegrenztheit.",
+    "mistakes_en": "It is often assumed that technical progress can also solve land scarcity. This overlooks the physical reality of land limitation.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Prinzipien"
+  },
+  {
+    "id": "oerek-principles-gen-11",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "Vertragsraumordnung",
+      "Governance",
+      "Mehrebenensystem"
+    ],
+    "question_de": "Was versteht man unter Vertragsraumordnung und welche Rolle spielt sie in der modernen Raumordnungspolitik?",
+    "question_en": "What is meant by contractual spatial planning and what role does it play in modern spatial planning policy?",
+    "options_de": [
+      "a) Ausschließlich rechtsverbindliche Gesetze auf nationaler Ebene",
+      "b) Informelle Absprachen ohne rechtliche Grundlage zwischen Akteuren",
+      "c) Verhandlungsbasierte Vereinbarungen zwischen verschiedenen Gebietskörperschaften zur Koordination räumlicher Ziele",
+      "d) Raumordnung, die vollständig vom privaten Markt gesteuert wird",
+      "e) Planung, die nur Einzelpersonen betrifft"
+    ],
+    "options_en": [
+      "a) Exclusively legally binding laws at the national level",
+      "b) Informal agreements without legal basis between actors",
+      "c) Negotiation-based agreements between different territorial authorities to coordinate spatial goals",
+      "d) Spatial planning that is entirely controlled by the private market",
+      "e) Planning that affects only individuals"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Vertragsraumordnung ist ein kooperativer Ansatz zwischen Gebietskörperschaften (Bund, Länder, Gemeinden), der auf Verhandlung und gegenseitiger Abstimmung basiert. Sie ergänzt die klassische hierarchische Raumordnung.",
+    "explanation_en": "Contractual spatial planning is a cooperative approach between territorial authorities (federal, state, municipal) based on negotiation and mutual coordination. It complements classical hierarchical spatial planning.",
+    "mistakes_de": "Die Vertragsraumordnung wird oft als rein informal missverstanden oder mit freier Marktplanung verwechselt. Sie hat durchaus verbindliche Elemente.",
+    "mistakes_en": "Contractual spatial planning is often misunderstood as purely informal or confused with free market planning. It does have binding elements.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Governance"
+  },
+  {
+    "id": "oerek-principles-gen-12",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "Steuerwettbewerb",
+      "Gemeinwohl",
+      "Koordination"
+    ],
+    "question_de": "Warum wird Steuerwettbewerb zwischen Raumordnungsebenen in OEREK 2030 als kontraproduktiv für das Gemeinwohl bewertet?",
+    "question_en": "Why is tax competition between spatial planning levels assessed as counterproductive to the common good in OEREK 2030?",
+    "options_de": [
+      "a) Steuerwettbewerb führt automatisch zu besseren Dienstleistungen",
+      "b) Steuerwettbewerb führt zu Abwärtsspirale bei Steuersätzen, Unterversorgung in öffentlichen Leistungen und räumlicher Polarisierung",
+      "c) Steuern sind für Raumordnung irrelevant",
+      "d) Nur reiche Regionen können Steuerwettbewerb führen",
+      "e) Steuerwettbewerb verstärkt automatisch die Solidarität zwischen Regionen"
+    ],
+    "options_en": [
+      "a) Tax competition automatically leads to better services",
+      "b) Tax competition leads to a downward spiral in tax rates, undersupply of public services, and spatial polarization",
+      "c) Taxes are irrelevant to spatial planning",
+      "d) Only wealthy regions can engage in tax competition",
+      "e) Tax competition automatically strengthens solidarity between regions"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Steuerwettbewerb erzeugt einen Dumpingwettlauf, bei dem Gemeinden Steuersätze senken, um mobile Kapitalien anzuziehen. Dies führt zu unterfinanzierten öffentlichen Infrastrukturen und verstärkt räumliche Ungleichheiten, was dem Gemeinwohl widerspricht.",
+    "explanation_en": "Tax competition creates a dumping race in which municipalities lower tax rates to attract mobile capital. This results in underfunded public infrastructure and exacerbates spatial inequalities, contradicting the common good.",
+    "mistakes_de": "Oft wird angenommen, dass Wettbewerb immer positiv wirkt. Im Fall von Steuerwettbewerb führt er aber zu unerwünschten Externaliäten und räumlicher Ungleichheit.",
+    "mistakes_en": "It is often assumed that competition always has a positive effect. In the case of tax competition, however, it leads to undesirable externalities and spatial inequality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Gemeinwohl"
+  },
+  {
+    "id": "oerek-principles-gen-13",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "polyzentrisch",
+      "Struktur",
+      "Raumtypen"
+    ],
+    "question_de": "Was kennzeichnet eine polyzentrische räumliche Struktur in OEREK 2030?",
+    "question_en": "What characterizes a polycentric spatial structure in OEREK 2030?",
+    "options_de": [
+      "a) Ein dominantes Zentrum mit peripheren Regionen",
+      "b) Mehrere gleichgewichtige Zentren mit dezentraler Funktionsfähigkeit statt einer monozentrisch dominierten Struktur",
+      "c) Völlige Dezentralisierung ohne überregionale Koordination",
+      "d) Ausschließlich nationale Zentren",
+      "e) Regionen ohne städtische Strukturen"
+    ],
+    "options_en": [
+      "a) A dominant center with peripheral regions",
+      "b) Multiple centers of equal weight with decentralized functionality rather than a monocentric dominated structure",
+      "c) Complete decentralization without interregional coordination",
+      "d) Exclusively national centers",
+      "e) Regions without urban structures"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Polyzentrismus bedeutet die Verteilung von Funktionen und Wertschöpfung auf mehrere räumlich verteilte Zentren. Dies fördert Ausgewogenheit und reduziert Abhängigkeiten von einzelnen Metropolen.",
+    "explanation_en": "Polycentrism means the distribution of functions and value creation across multiple spatially distributed centers. This promotes balance and reduces dependencies on single metropolises.",
+    "mistakes_de": "Polyzentrismus wird oft mit völliger Gleichverteilung verwechselt. Es geht um mehrere funktionsfähige Zentren, nicht um räumliche Homogenität.",
+    "mistakes_en": "Polycentrism is often confused with complete equal distribution. It's about multiple functional centers, not spatial homogeneity.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Raumstruktur"
+  },
+  {
+    "id": "oerek-principles-gen-14",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "Daseinsvorsorge",
+      "öffentliche Infrastruktur",
+      "Flächendeckung"
+    ],
+    "question_de": "Was ist unter Daseinsvorsorge in der österreichischen Raumordnung zu verstehen?",
+    "question_en": "What is meant by public services provision (Daseinsvorsorge) in Austrian spatial planning?",
+    "options_de": [
+      "a) Rein private Bereitstellung von Dienstleistungen ohne öffentliche Mitverantwortung",
+      "b) Die öffentliche Verantwortung zur Sicherung eines flächendeckenden und bedarfsgerechten Angebots von Infrastruktur und Dienstleistungen",
+      "c) Exklusiv für urbane Zentren geltende Versorgung",
+      "d) Ausstattung, die nur wohlhabende Regionen erhalten",
+      "e) Eine freiwillige Leistung ohne Verbindlichkeit"
+    ],
+    "options_en": [
+      "a) Purely private provision of services without public co-responsibility",
+      "b) Public responsibility to ensure comprehensive and needs-based provision of infrastructure and services",
+      "c) Provision exclusively applicable to urban centers",
+      "d) Equipment that only wealthy regions receive",
+      "e) A voluntary service without obligation"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Daseinsvorsorge ist ein Kernkonzept der österreichischen Raumordnung, das die Verantwortung des Staates zur flächendeckenden Versorgung aller Regionen (auch ländliche Räume) mit essentiellen Infrastrukturen und Dienstleistungen beschreibt.",
+    "explanation_en": "Daseinsvorsorge is a core concept of Austrian spatial planning that describes the state's responsibility to ensure comprehensive provision of all regions (including rural areas) with essential infrastructures and services.",
+    "mistakes_de": "Oft wird Daseinsvorsorge nur mit urbanen Zentren assoziiert. Sie ist aber gerade für ländliche Räume essentiell und ist ein Gemeinwohlanspruch.",
+    "mistakes_en": "Daseinsvorsorge is often associated only with urban centers. However, it is especially essential for rural areas and is a common good claim.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Daseinsvorsorge"
+  },
+  {
+    "id": "oerek-principles-gen-15",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "Klimaschutz",
+      "Raumordnung",
+      "Integration"
+    ],
+    "question_de": "Wie ist Klimaschutz in der modernen Raumordnung (OEREK 2030) verankert und warum ist diese Integration wesentlich?",
+    "question_en": "How is climate protection anchored in modern spatial planning (OEREK 2030) and why is this integration essential?",
+    "options_de": [
+      "a) Klimaschutz ist eine separate Sektoral-Policy ohne Bezug zur Raumordnung",
+      "b) Raumordnung und Klimaschutz sind separate und unabhängige Aufgaben",
+      "c) Klimaschutz ist als Querschnittsaufgabe in alle Raumordnungsziele integriert, da räumliche Strukturen (Verdichtung, Mobilität, Landnutzung) Klimawirkungen haben",
+      "d) Nur nationale Regierungen können Klimaschutzziele in Raumordnung umsetzen",
+      "e) Klimaschutz widerspricht wirtschaftlichen Raumordnungszielen"
+    ],
+    "options_en": [
+      "a) Climate protection is a separate sectoral policy unrelated to spatial planning",
+      "b) Spatial planning and climate protection are separate and independent tasks",
+      "c) Climate protection is integrated as a cross-cutting task in all spatial planning objectives because spatial structures (density, mobility, land use) have climate impacts",
+      "d) Only national governments can implement climate protection goals in spatial planning",
+      "e) Climate protection contradicts economic spatial planning goals"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "In OEREK 2030 ist Klimaschutz keine Randaufgabe, sondern ein Querschnittsthema. Raumordnung bestimmt durch Flächennutzung, Siedlungsstruktur und Mobilität die Klimawirkungen massiv mit. Eine integrierte Perspektive ist daher essentiell.",
+    "explanation_en": "In OEREK 2030, climate protection is not a peripheral task but a cross-cutting theme. Spatial planning determines climate impacts substantially through land use, settlement structure, and mobility. An integrated perspective is therefore essential.",
+    "mistakes_de": "Häufig wird Klimaschutz als additive Aufgabe betrachtet, die zusätzlich zu Raumordnung kommt. Tatsächlich sind sie intrinsisch verbunden.",
+    "mistakes_en": "Climate protection is often viewed as an additive task separate from spatial planning. In fact, they are intrinsically linked.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Klimaschutz"
+  },
+  {
+    "id": "oerek-principles-gen-16",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "Gemeinwohl",
+      "Grundprinzipien",
+      "Orientierung"
+    ],
+    "question_de": "Welche Grundorientierung gibt OEREK 2030 für eine gemeinwohlorientierte Raumordnung vor?",
+    "question_en": "What basic orientation does OEREK 2030 provide for common-good oriented spatial planning?",
+    "options_de": [
+      "a) Maximierung von privatwirtschaftlicher Rendite",
+      "b) Bedürfnisse aller Bevölkerungsgruppen, Generationengerechtigkeitund Nachhaltigkeit als zentrale Leitprinzipien",
+      "c) Fokus ausschließlich auf Großstadtentwicklung",
+      "d) Kurzfristige Wirtschaftsgewinne über langfristige Entwicklung",
+      "e) Bevorzugung bestimmter sozialer Gruppen gegenüber anderen"
+    ],
+    "options_en": [
+      "a) Maximization of private sector returns",
+      "b) Needs of all population groups, intergenerational justice and sustainability as central guiding principles",
+      "c) Focus exclusively on major city development",
+      "d) Short-term economic gains over long-term development",
+      "e) Preference for certain social groups over others"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "OEREK 2030 verankert eine gemeinwohlzentrierte Perspektive, die alle Bevölkerungsgruppen berücksichtigt, zukünftige Generationen schützt und Nachhaltigkeit priorisiert.",
+    "explanation_en": "OEREK 2030 anchors a common-good-centered perspective that considers all population groups, protects future generations, and prioritizes sustainability.",
+    "mistakes_de": "Gemeinwohl wird oft mit reiner Umweltorientierung verwechselt. OEREK 2030 verbindet aber ökologische, ökonomische und soziale Dimensionen.",
+    "mistakes_en": "Common good is often confused with purely environmental orientation. However, OEREK 2030 links ecological, economic and social dimensions.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Gemeinwohl"
+  },
+  {
+    "id": "oerek-megatrends-gen-11",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "Stadtregionen",
+      "Wachstum",
+      "Herausforderungen"
+    ],
+    "question_de": "Welche räumlichen Herausforderungen entstehen in größeren Stadtregionen gemäß OEREK 2030 und warum sind sie kritisch?",
+    "question_en": "What spatial challenges arise in larger urban regions according to OEREK 2030 and why are they critical?",
+    "options_de": [
+      "a) Bevölkerungsabnahme und Überalterung",
+      "b) Wachstum, Wohnkostenexplosion und Hitzestress als Folge von Verdichtung und Klimawandel",
+      "c) Mangel an wirtschaftlichen Aktivitäten",
+      "d) Zu viel unbesiedelter Raum",
+      "e) Unzureichende kulturelle Angebote"
+    ],
+    "options_en": [
+      "a) Population decline and aging",
+      "b) Growth, housing cost explosion, and heat stress as consequences of densification and climate change",
+      "c) Lack of economic activities",
+      "d) Too much unsettled space",
+      "e) Insufficient cultural offerings"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Größere Stadtregionen erleben Wachstumsdruck, was zu explodierenden Wohnkosten führt. Gleichzeitig verstärken dichte Bebauung und Klimawandel Hitzestress. Diese triadische Herausforderung erfordert spezialisierte Lösungen.",
+    "explanation_en": "Larger urban regions experience growth pressure, leading to exploding housing costs. Simultaneously, dense construction and climate change amplify heat stress. This triadic challenge requires specialized solutions.",
+    "mistakes_de": "Manchmal wird angenommen, dass Wachstum nur positive Effekte hat. OEREK 2030 betont aber die Sekundäreffekte: Unerschwinglich gewordenes Wohnen und Umweltstress.",
+    "mistakes_en": "It is sometimes assumed that growth has only positive effects. However, OEREK 2030 emphasizes secondary effects: housing that has become unaffordable and environmental stress.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-gen-12",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "kleinere Stadtregionen",
+      "Funktionsverluste",
+      "Ortskerne"
+    ],
+    "question_de": "Welches räumliche Phänomen beschreibt OEREK 2030 für kleinere Stadtregionen und welche Konsequenzen hat es?",
+    "question_en": "What spatial phenomenon does OEREK 2030 describe for smaller urban regions and what are its consequences?",
+    "options_de": [
+      "a) Kontinuierliches Wachstum und Verdichtung",
+      "b) Funktionsverluste in den Ortskernen durch Abwanderung von Einzelhandelund Dienstleistungen in die Peripherie",
+      "c) Zu schnelle Bevölkerungszunahme",
+      "d) Ausschließlich positive demografische Entwicklung",
+      "e) Überkapazitäten bei öffentlicher Infrastruktur"
+    ],
+    "options_en": [
+      "a) Continuous growth and densification",
+      "b) Loss of functions in town centers through relocation of retail and services to the periphery",
+      "c) Too rapid population increase",
+      "d) Exclusively positive demographic development",
+      "e) Overcapacity in public infrastructure"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "In kleineren Stadtregionen entstehen Funktionsverluste, wenn Einzelhandel und Dienstleistungen in Einkaufszentren außerhalb der Ortskerne abwandern. Dies führt zur Entvölkerung und zum Verfall der urbanen Zentren.",
+    "explanation_en": "In smaller urban regions, functions are lost when retail and services migrate to shopping centers outside town centers. This leads to depopulation and decay of urban centers.",
+    "mistakes_de": "Diese Entwicklung wird oft nur als natürliche Folge von Modernisierung verstanden. OEREK 2030 sieht hier aber eine gestaltbare Raumordnungsaufgabe.",
+    "mistakes_en": "This development is often understood only as a natural consequence of modernization. However, OEREK 2030 sees a manageable spatial planning task here.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-gen-13",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "Achsenräume",
+      "Standortkonkurrenz",
+      "Raumtyp"
+    ],
+    "question_de": "Welche Besonderheit prägt Achsenräume laut OEREK 2030 und welche Raumordnungsaufgabe stellt sich?",
+    "question_en": "What characteristic defines corridor spaces (Achsenräume) according to OEREK 2030 and what spatial planning task arises?",
+    "options_de": [
+      "a) Völlige Dezentralisierung ohne urbane Zentren",
+      "b) Intensive Standortkonkurrenz aufgrund von räumlicher Nähe und damit verbundenen Koordinations- und Kooperationsproblemen",
+      "c) Unbegrenzter Raum für Expansion",
+      "d) Nur nationale Bedeutung ohne regionalen Zusammenhang",
+      "e) Homogene Bebauungsstruktur"
+    ],
+    "options_en": [
+      "a) Complete decentralization without urban centers",
+      "b) Intensive competition for sites due to spatial proximity and associated coordination and cooperation problems",
+      "c) Unlimited space for expansion",
+      "d) Only national significance without regional connection",
+      "e) Homogeneous construction structure"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Achsenräume sind lineare räumliche Strukturen mit mehreren Zentren in Nähe zueinander. Dies führt zu hoher Standortkonkurrenz zwischen Gemeinden. Eine abgestimmte Raumordnung ist notwendig, um Fehlentwicklungen zu vermeiden.",
+    "explanation_en": "Corridor spaces are linear spatial structures with multiple centers in proximity to each other. This leads to high site competition between municipalities. Coordinated spatial planning is necessary to avoid misallocation.",
+    "mistakes_de": "Achsenräume werden oft als unkompliziert angesehen. Tatsächlich entstehen aber durch Nähe und Konkurrenz komplexe Koordinationsprobleme.",
+    "mistakes_en": "Corridor spaces are often seen as straightforward. In fact, proximity and competition create complex coordination problems.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-gen-14",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "ländlicher Tourismus",
+      "Zweitwohnsitze",
+      "Raumtyp"
+    ],
+    "question_de": "Welche spezifische Herausforderung stellt der ländliche Tourismus in OEREK 2030 dar?",
+    "question_en": "What specific challenge does rural tourism present in OEREK 2030?",
+    "options_de": [
+      "a) Mangel an Besuchern und Tourismuspotenzial",
+      "b) Zu wenig Infrastrukturinvestitionen",
+      "c) Explosion von Zweitwohnsitzen, die zu Flächenverbrauch, hohen lokalen Preisen und sozialen Spannungen führt",
+      "d) Überwiegend negative Umwelteffekte ohne positive Effekte",
+      "e) Mangel an kulturellen Angeboten"
+    ],
+    "options_en": [
+      "a) Lack of visitors and tourism potential",
+      "b) Too little infrastructure investment",
+      "c) Explosion of second homes leading to land consumption, high local prices, and social tensions",
+      "d) Predominantly negative environmental effects without positive ones",
+      "e) Lack of cultural offerings"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "In ländlichen Tourismusregionen führt die Nachfrage nach Zweitwohnsitzen (Ferienhäuser, Chalets) zu massivem Flächenverbrauch, Preisanstieg für Lokale und sozialen Spannungen. Dies ist eine eigenständige Raumordnungsherausforderung.",
+    "explanation_en": "In rural tourism regions, the demand for second homes (holiday homes, chalets) leads to massive land consumption, price increases for locals, and social tensions. This is a distinct spatial planning challenge.",
+    "mistakes_de": "Tourismus wird oft pauschal als positiv bewertet. OEREK 2030 betont aber die negativen Sekundäreffekte des Zweitwohnmarktes.",
+    "mistakes_en": "Tourism is often rated positively in general. However, OEREK 2030 emphasizes the negative secondary effects of the second home market.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-gen-15",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "ländlicher Rückgang",
+      "Abwanderung",
+      "Alterung",
+      "Raumtyp"
+    ],
+    "question_de": "Welche Entwicklung charakterisiert schrumpfende ländliche Räume laut OEREK 2030?",
+    "question_en": "What development characterizes shrinking rural areas according to OEREK 2030?",
+    "options_de": [
+      "a) Kontinuierliches Bevölkerungswachstum und Verdichtung",
+      "b) Zunahme von Industrialisierung und Manufakturen",
+      "c) Abwanderung (besonders junger Menschen) und Überalterung der Bevölkerung",
+      "d) Stabile wirtschaftliche Strukturen ohne Veränderungen",
+      "e) Explosion von Bautätigkeit und Flächenverbrauch"
+    ],
+    "options_en": [
+      "a) Continuous population growth and densification",
+      "b) Increase in industrialization and manufacturing",
+      "c) Out-migration (especially of young people) and aging of the population",
+      "d) Stable economic structures without changes",
+      "e) Explosion of construction activity and land consumption"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "In schrumpfenden ländlichen Räumen verlieren junge Menschen durch fehlende Chancen und verlassen die Region. Dies führt zu Überalterung, Infrastrukturausfällen und wirtschaftlichem Niedergang.",
+    "explanation_en": "In shrinking rural areas, young people leave due to lack of opportunities. This leads to aging, infrastructure failures, and economic decline.",
+    "mistakes_de": "Schrumpfung wird oft ignoriert oder als rein demografisches Problem betrachtet. Es ist aber eine komplexe Raumordnungsaufgabe mit wirtschaftlichen und sozialen Dimensionen.",
+    "mistakes_en": "Shrinkage is often ignored or viewed as purely a demographic problem. However, it is a complex spatial planning task with economic and social dimensions.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-gen-16",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "EU-Ziele",
+      "nationale Ziele",
+      "Klimaschutz",
+      "Vergleich"
+    ],
+    "question_de": "Welche unterschiedliche Zielsetzung zwischen EU und Österreich ist bei den Klimaschutzzielen zu beobachten und was bedeutet das für die Raumordnung?",
+    "question_en": "What different target setting can be observed between the EU and Austria regarding climate protection goals and what does this mean for spatial planning?",
+    "options_de": [
+      "a) Keine Unterschiede zwischen EU und Österreich",
+      "b) EU strebt 55% CO2-Reduktion (2030) und Klimaneutralität 2050 an; Österreich hat mit 36% Reduktion (2030) und 2040 als Zieldatum ambitioniertere Ziele",
+      "c) EU hat höhere Ziele als Österreich in allen Bereichen",
+      "d) Österreich folgt EU-Zielen ohne Eigenständigkeit",
+      "e) Klimaziele sind unabhängig von Raumordnung"
+    ],
+    "options_en": [
+      "a) No differences between the EU and Austria",
+      "b) EU targets 55% CO2 reduction (2030) and climate neutrality 2050; Austria has more ambitious targets with 36% reduction (2030) and 2040 as target year",
+      "c) EU has higher targets than Austria in all areas",
+      "d) Austria follows EU targets without independent action",
+      "e) Climate targets are independent of spatial planning"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Österreich hat sich ehrgeizigere Klimaziele gesetzt als die EU: bereits 2040 statt 2050 Klimaneutralität, und bereits 2030 36% CO2-Reduktion. Dies stellt höhere Anforderungen an die räumliche Struktur (Mobilität, Energieeffizienz, Landnutzung).",
+    "explanation_en": "Austria has set more ambitious climate targets than the EU: climate neutrality by 2040 instead of 2050, and 36% CO2 reduction by 2030. This places higher demands on spatial structure (mobility, energy efficiency, land use).",
+    "mistakes_de": "Oft wird angenommen, dass nationale Ziele automatisch unter EU-Zielen liegen. Österreich demonstriert aber auch eigenständige, ehrgeizigere Zielsetzung.",
+    "mistakes_en": "It is often assumed that national targets are automatically below EU targets. However, Austria demonstrates independent, more ambitious goal-setting.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends"
+  },
+  {
+    "id": "oerek-megatrends-gen-17",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "Covid",
+      "Multilokalität",
+      "Home-Office",
+      "Strukturwandel"
+    ],
+    "question_de": "Welche räumlichen Effekte der Covid-19-Pandemie identifiziert OEREK 2030 und warum haben sie Bedeutung für die Raumordnung?",
+    "question_en": "What spatial effects of the Covid-19 pandemic does OEREK 2030 identify and why are they significant for spatial planning?",
+    "options_de": [
+      "a) Keine anhaltenden Effekte nach der Pandemie",
+      "b) Home-Office und Multilokalität führen zu neuen Mustern der Raumansprüche (dezentraler Wohnen bei zentralem Arbeitsplatz, mehrere Wohnorte) mit Implikationen für Infrastruktur und Flächenverbrauch",
+      "c) Rückkehr zu völlig zentralisierten Strukturen",
+      "d) Ausschließlich negative wirtschaftliche Effekte ohne räumliche Dimension",
+      "e) Keine Bedeutung für Raumordnungsplanung"
+    ],
+    "options_en": [
+      "a) No lasting effects after the pandemic",
+      "b) Home-office and multilocality lead to new patterns of spatial demands (decentralized living with central workplace, multiple residences) with implications for infrastructure and land consumption",
+      "c) Return to completely centralized structures",
+      "d) Exclusively negative economic effects without spatial dimension",
+      "e) No significance for spatial planning"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Covid hat Home-Office und damit verbundene Multilokalität verstärkt: Menschen arbeiten teils vom Land, teils von der Stadt aus. Dies verändert Nachfrage nach Infrastruktur, Wohnraum und Mobilität grundlegend.",
+    "explanation_en": "Covid has amplified home-office and associated multilocality: people work partly from rural areas, partly from cities. This fundamentally changes demand for infrastructure, housing, and mobility.",
+    "mistakes_de": "Oft wird angenommen, dass Pandemieeffekte nur temporär sind. OEREK 2030 betont aber strukturelle räumliche Veränderungen, die anhaltend sind.",
+    "mistakes_en": "It is often assumed that pandemic effects are only temporary. However, OEREK 2030 emphasizes structural spatial changes that are lasting.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends"
+  },
+  {
+    "id": "studienplan-gen-20",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "Projektarbeit",
+      "Interdisziplinarität",
+      "PM7",
+      "PM9"
+    ],
+    "question_de": "Welche Rolle spielt Projektarbeit im Studienplan und wo ist sie institutionalisiert?",
+    "question_en": "What role does project work play in the study plan and where is it institutionalized?",
+    "options_de": [
+      "a) Projektarbeit ist optional und optional",
+      "b) Projektarbeit ist zentral in PM7 und PM9 mit interdisziplinärem Ansatz; Studierende arbeiten an realen Planungsaufgaben mit verschiedenen Fachperspektiven",
+      "c) Projektarbeit gibt es nur im Bachelor",
+      "d) Projektarbeit hat keine Raumplanungsbezüge",
+      "e) Nur theoretische Projektbeispiele werden behandelt"
+    ],
+    "options_en": [
+      "a) Project work is optional and secondary",
+      "b) Project work is central in PM7 and PM9 with an interdisciplinary approach; students work on real planning tasks with different disciplinary perspectives",
+      "c) Project work exists only in the bachelor program",
+      "d) Project work has no spatial planning references",
+      "e) Only theoretical project examples are addressed"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Im Masterstudium Raumplanung sind die Projektmodule PM7 und PM9 zentral für angewandte Lernziele. Sie verbinden verschiedene Disziplinen und ermöglichen praxisorientiertes Lernen an realen Raumplanungsfragen.",
+    "explanation_en": "In the Master's program in spatial planning, project modules PM7 and PM9 are central to applied learning objectives. They combine various disciplines and enable practice-oriented learning on real spatial planning questions.",
+    "mistakes_de": "Projektarbeit wird manchmal als optional missverstanden. Sie ist aber ein Kernbestandteil des Lehrplans mit hohem Gewicht.",
+    "mistakes_en": "Project work is sometimes misunderstood as optional. However, it is a core component of the curriculum with high weight.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan Raumplanung"
+  },
+  {
+    "id": "studienplan-gen-21",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "Bachelorarbeit",
+      "PM13",
+      "Eigenständigkeit"
+    ],
+    "question_de": "Welche Anforderungen und Bedeutung hat die Bachelorarbeit im Studienplan?",
+    "question_en": "What are the requirements and significance of the bachelor thesis in the curriculum?",
+    "options_de": [
+      "a) Die Bachelorarbeit ist eine reine Literaturzusammenfassung ohne eigene Forschung",
+      "b) Die Bachelorarbeit (10 ECTS, PM13) ist eine eigenständige wissenschaftliche Leistung, die Abschlussmodul und Nachweis selbständigen wissenschaftlichen Arbeitens",
+      "c) Bachelorarbeit ist optional",
+      "d) Die Bachelorarbeit hat keine Verbindung zu Kursinhalten",
+      "e) Nur Gruppen-Bachelorarbeiten sind erlaubt"
+    ],
+    "options_en": [
+      "a) The bachelor thesis is a pure literature summary without independent research",
+      "b) The bachelor thesis (10 ECTS, PM13) is an independent academic achievement; final module and proof of independent scholarly work",
+      "c) Bachelor thesis is optional",
+      "d) The bachelor thesis has no connection to course content",
+      "e) Only group bachelor theses are allowed"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Die Bachelorarbeit (10 ECTS, Modul PM13) ist die abschließende wissenschaftliche Arbeit, in der Studierende unter Anleitung, aber eigenständig ein raumplanerisches Forschungsproblem bearbeiten und ihre wissenschaftliche Kompetenz nachweisen.",
+    "explanation_en": "The bachelor thesis (10 ECTS, module PM13) is the final academic work in which students independently address a spatial planning research problem under supervision and demonstrate their academic competence.",
+    "mistakes_de": "Manchmal wird unterschätzt, dass die Bachelorarbeit eigenständige wissenschaftliche Arbeit bedeutet, nicht nur Anwendung von Gelesenem.",
+    "mistakes_en": "It is sometimes underestimated that the bachelor thesis means independent academic work, not just application of what has been read.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan Raumplanung"
+  },
+  {
+    "id": "studienplan-gen-22",
+    "quizId": "studienplan",
+    "difficulty": "hard",
+    "tags": [
+      "Interdisziplinarität",
+      "Transdisziplinarität",
+      "Unterscheidung"
+    ],
+    "question_de": "Welcher Unterschied besteht zwischen interdisziplinär und transdisziplinär, und welcher Ansatz dominiert im Studienplan?",
+    "question_en": "What is the difference between interdisciplinary and transdisciplinary, and which approach dominates in the curriculum?",
+    "options_de": [
+      "a) Es gibt keinen Unterschied; die Begriffe sind Synonyme",
+      "b) Interdisziplinär = Kooperation zwischen wissenschaftlichen Disziplinen; Transdisziplinär = Integration von Wissenschaft mit außerwissenschaftlichen gesellschaftlichen Akteuren; Raumplanung folgt transdisziplinärem Ansatz",
+      "c) Beide konzentrieren sich nur auf Theorie",
+      "d) Interdisziplinär ist modern, Transdisziplinär ist veraltet",
+      "e) Nur Disziplinen wie Geografie und Architektur sind relevant"
+    ],
+    "options_en": [
+      "a) There is no difference; the terms are synonyms",
+      "b) Interdisciplinary = cooperation between academic disciplines; Transdisciplinary = integration of science with non-academic societal actors; Spatial planning follows transdisciplinary approach",
+      "c) Both focus only on theory",
+      "d) Interdisciplinary is modern, transdisciplinary is outdated",
+      "e) Only disciplines like geography and architecture are relevant"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Interdisziplinarität bedeutet Zusammenarbeit verschiedener Wissenschaftsdisziplinen (Geografie, Architektur, Soziologie, Ökonomie). Transdisziplinarität erweitert dies: Wissenschaftler arbeiten mit Planungspraktikern, politischen Entscheidungsträgern und Bürgerschaft. Raumplanung erfordert transdisziplinären Ansatz.",
+    "explanation_en": "Interdisciplinarity means collaboration between different academic disciplines (geography, architecture, sociology, economics). Transdisciplinarity extends this: scholars work with planning practitioners, policymakers, and citizens. Spatial planning requires a transdisciplinary approach.",
+    "mistakes_de": "Die beiden Begriffe werden oft verwechselt oder als identisch behandelt. Der Unterschied ist aber zentral: trans- geht über wissenschaftliche Grenzen hinaus.",
+    "mistakes_en": "The two terms are often confused or treated as identical. However, the difference is central: trans- goes beyond academic boundaries.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan Raumplanung"
+  },
+  {
+    "id": "studienplan-gen-23",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "Lernziele",
+      "Kompetenz",
+      "Masterstudium"
+    ],
+    "question_de": "Welche zentralen Kompetenzen sollen Studierende des Masterstudiums Raumplanung entwickeln?",
+    "question_en": "What are the core competencies that master's students in spatial planning should develop?",
+    "options_de": [
+      "a) Ausschließlich theoretisches Detailwissen zu einer Disziplin",
+      "b) Fähigkeit zur transdisziplinären Analyse von Raumplanungsproblemen, Integration wissenschaftlicher Erkenntnisse mit praktischen Lösungen, Partizipation und kritisches Denken",
+      "c) Rein technisches Zeichnungs- und CAD-Wissen",
+      "d) Keine fachliche Spezialisierung erforderlich",
+      "e) Ausschließlich nationale Planungssysteme verstehen"
+    ],
+    "options_en": [
+      "a) Exclusively theoretical detailed knowledge of one discipline",
+      "b) Ability to analyze spatial planning problems transdisciplinarily, integrate scientific findings with practical solutions, participation, and critical thinking",
+      "c) Purely technical drawing and CAD knowledge",
+      "d) No disciplinary specialization required",
+      "e) Understand only national planning systems"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Der Masterstudiengang zielt auf Absolventen ab, die komplexe Raumplanungsprobleme transdisziplinär analysieren, wissenschaftliche Methoden mit praktischem Wissen verbinden und partizipativ arbeiten können.",
+    "explanation_en": "The master's program aims to graduate students who can analyze complex spatial planning problems transdisciplinarily, combine scientific methods with practical knowledge, and work participatorily.",
+    "mistakes_de": "Manchmal wird erwartet, dass Absolventen reine Spezialist:innen in einer Einzeldisziplin sind. Der Masterstudiengang betont aber Integrations- und Synthesefähigkeiten.",
+    "mistakes_en": "It is sometimes expected that graduates are pure specialists in a single discipline. However, the master's program emphasizes integration and synthesis skills.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan Raumplanung"
+  },
+  {
+    "id": "studienplan-gen-24",
+    "quizId": "studienplan",
+    "difficulty": "medium",
+    "tags": [
+      "Praxisbezug",
+      "Anwendung",
+      "Lernen"
+    ],
+    "question_de": "Wie wird Praxisbezug im Masterstudium Raumplanung institutionalisiert?",
+    "question_en": "How is the practical relevance institutionalized in the master's program in spatial planning?",
+    "options_de": [
+      "a) Nur theoretische Lehre ohne Praxisbezug",
+      "b) Durch Projektmodule (PM7, PM9) mit realen Planungsaufgaben, externe Expert:innen, Fallstudien und Bachelorarbeit mit Praxisrelevanz",
+      "c) Ausschließlich durch Betriebspraktika",
+      "d) Praxisbezug ist für Masterstudium nicht wichtig",
+      "e) Nur durch Internships außerhalb der Universität"
+    ],
+    "options_en": [
+      "a) Only theoretical teaching without practical relevance",
+      "b) Through project modules (PM7, PM9) with real planning tasks, external experts, case studies, and bachelor thesis with practical relevance",
+      "c) Exclusively through internships",
+      "d) Practical relevance is not important for master's programs",
+      "e) Only through internships outside the university"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Der Studienplan integriert Praxisorientierung durch mehrere Mechanismen: Projektmodule mit realen Aufgaben, externe Lehrende, Fallstudien aus der Praxis und eine Bachelorarbeit mit praktischer Anwendung.",
+    "explanation_en": "The curriculum integrates practical orientation through multiple mechanisms: project modules with real tasks, external instructors, case studies from practice, and a bachelor thesis with practical application.",
+    "mistakes_de": "Praxis wird manchmal als separate 'Zusatzqualifikation' betrachtet. Im Masterstudiengang ist sie aber kernintegral.",
+    "mistakes_en": "Practice is sometimes viewed as a separate 'additional qualification'. However, in the master's program it is core-integrated.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      }
+    ],
+    "source": "Studienplan Raumplanung"
   }
 ]
