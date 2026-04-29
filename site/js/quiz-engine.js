@@ -131,6 +131,33 @@ const QuizEngine = (() => {
   }
 
   // ── Visual Matrizen renderer ──────────────────────────────────────────────
+  // SVG shapes for cross-browser rendering (Unicode fallback fails on some systems)
+  function svgShape(name, fill) {
+    const c = fill || '#fff';
+    const s = 28; // viewBox size
+    const shapes = {
+      'kreis':    `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><circle cx="14" cy="14" r="11" fill="${c}"/></svg>`,
+      'dreieck':  `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><polygon points="14,2 26,26 2,26" fill="${c}"/></svg>`,
+      'quadrat':  `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><rect x="3" y="3" width="22" height="22" fill="${c}"/></svg>`,
+      'stern':    `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><polygon points="14,2 17,10 26,10 19,16 22,25 14,20 6,25 9,16 2,10 11,10" fill="${c}"/></svg>`,
+      'herz':     `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><path d="M14 25 C6 18 1 12 1 8 1 4 4 1 8 1 11 1 13 3 14 5 15 3 17 1 20 1 24 1 27 4 27 8 27 12 22 18 14 25Z" fill="${c}"/></svg>`,
+      'raute':    `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><polygon points="14,2 26,14 14,26 2,14" fill="${c}"/></svg>`,
+      'sechseck': `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><polygon points="7,3 21,3 27,14 21,25 7,25 1,14" fill="${c}"/></svg>`,
+      'pfeil':    `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><polygon points="4,12 20,12 20,6 27,14 20,22 20,16 4,16" fill="${c}"/></svg>`,
+      'punkt':    `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}"><circle cx="14" cy="14" r="5" fill="${c}"/></svg>`,
+    };
+    return shapes[name] || `<span style="color:${c};font-size:1.5rem">${name}</span>`;
+  }
+
+  const SVG_COLORS = { 'schwarz': '#fff', 'black': '#fff', 'weiß': '#999', 'weiss': '#999', 'white': '#999', 'grau': '#666', 'grey': '#666', 'gray': '#666' };
+  const ARROW_SVGS = {
+    '↑': (c) => `<svg width="28" height="28" viewBox="0 0 28 28"><polygon points="14,2 24,18 18,18 18,26 10,26 10,18 4,18" fill="${c}"/></svg>`,
+    '↓': (c) => `<svg width="28" height="28" viewBox="0 0 28 28"><polygon points="14,26 24,10 18,10 18,2 10,2 10,10 4,10" fill="${c}"/></svg>`,
+    '→': (c) => `<svg width="28" height="28" viewBox="0 0 28 28"><polygon points="26,14 10,4 10,10 2,10 2,18 10,18 10,24" fill="${c}"/></svg>`,
+    '←': (c) => `<svg width="28" height="28" viewBox="0 0 28 28"><polygon points="2,14 18,4 18,10 26,10 26,18 18,18 18,24" fill="${c}"/></svg>`,
+  };
+
+  // Keep text fallback map for non-visual contexts
   const SHAPE_MAP = {
     'kreis': '\u25CF', 'circle': '\u25CF',
     'dreieck': '\u25B2', 'triangle': '\u25B2',
@@ -172,55 +199,77 @@ const QuizEngine = (() => {
     return null;
   }
 
+  function findShapeName(text) {
+    text = text.toLowerCase().trim();
+    const names = ['kreis','dreieck','quadrat','stern','herz','pfeil','raute','sechseck','punkt'];
+    for (const n of names) { if (text === n || text.includes(n)) return n; }
+    const deplural = text.replace(/en$/, '').replace(/e$/, '').replace(/s$/, '');
+    for (const n of names) { if (deplural === n || deplural.includes(n)) return n; }
+    return null;
+  }
+
   function parseMatrixCell(cellText) {
     cellText = cellText.replace(/[\[\]]/g, '').trim();
     if (cellText === '?' || cellText === '') return null;
 
-    let shape = '\u25CF', colorCls = 'shape-black', sizeCls = '';
+    let shapeName = 'kreis', colorName = 'schwarz', sizeCls = '', count = 1, arrowDir = null;
 
     // Handle "X + Y" combinations
     if (cellText.includes('+')) {
       const comboParts = cellText.split('+').map(s => s.trim());
-      const symbols = comboParts.map(cp => findShape(cp) || cp.charAt(0)).join('+');
-      return { shape: symbols, colorCls: 'shape-black', sizeCls: '' };
+      const names = comboParts.map(cp => findShapeName(cp) || 'punkt');
+      return { shapeName: names, colorName: 'schwarz', sizeCls: '', count: 1, combo: true };
     }
 
     const parts = cellText.split(',').map(s => s.trim().toLowerCase());
 
     for (const p of parts) {
-      // Check count prefix (e.g. "3 Dreiecke")
       const countMatch = p.match(/^(\d+)\s+(.+)/);
       if (countMatch) {
-        const count = parseInt(countMatch[1]);
-        const sym = findShape(countMatch[2]) || '\u2022';
-        shape = (sym + ' ').repeat(Math.min(count, 6)).trim();
+        count = Math.min(parseInt(countMatch[1]), 6);
+        const sn = findShapeName(countMatch[2]);
+        if (sn) shapeName = sn;
         continue;
       }
-      // Check shapes
-      const foundShape = findShape(p);
-      if (foundShape) { shape = foundShape; }
-      // Check colors
-      for (const [key, cls] of Object.entries(COLOR_MAP)) {
-        if (p.includes(key)) { colorCls = cls; break; }
-      }
-      // Check sizes
-      for (const [key, cls] of Object.entries(SIZE_MAP)) {
-        if (p === key || p.includes(key)) { sizeCls = cls; break; }
-      }
-    }
-    // Handle arrow directions in the text
-    if (cellText.includes('\u2191') || cellText.toLowerCase().includes('oben')) shape = '\u2191';
-    else if (cellText.includes('\u2193') || cellText.toLowerCase().includes('unten')) shape = '\u2193';
-    else if (cellText.includes('\u2192') || cellText.toLowerCase().includes('rechts')) {
-      if (findShape(cellText.split(',')[0]) === '\u279C' || cellText.toLowerCase().includes('pfeil'))
-        shape = '\u2192';
-    }
-    else if (cellText.includes('\u2190') || cellText.toLowerCase().includes('links')) {
-      if (findShape(cellText.split(',')[0]) === '\u279C' || cellText.toLowerCase().includes('pfeil'))
-        shape = '\u2190';
+      const sn = findShapeName(p);
+      if (sn) shapeName = sn;
+      for (const key of Object.keys(SVG_COLORS)) { if (p.includes(key)) { colorName = key; break; } }
+      for (const [key, cls] of Object.entries(SIZE_MAP)) { if (p.includes(key)) { sizeCls = cls; break; } }
     }
 
-    return { shape, colorCls, sizeCls };
+    // Arrow directions
+    const lt = cellText.toLowerCase();
+    if (lt.includes('↑') || (lt.includes('oben') && lt.includes('pfeil'))) arrowDir = '↑';
+    else if (lt.includes('↓') || (lt.includes('unten') && lt.includes('pfeil'))) arrowDir = '↓';
+    else if (lt.includes('→') || (lt.includes('rechts') && lt.includes('pfeil'))) arrowDir = '→';
+    else if (lt.includes('←') || (lt.includes('links') && lt.includes('pfeil'))) arrowDir = '←';
+
+    return { shapeName, colorName, sizeCls, count, arrowDir, combo: false };
+  }
+
+  function renderCellSVG(parsed) {
+    if (!parsed) return '';
+    const fill = SVG_COLORS[parsed.colorName] || '#fff';
+
+    // Arrow with direction
+    if (parsed.arrowDir && ARROW_SVGS[parsed.arrowDir]) {
+      return ARROW_SVGS[parsed.arrowDir](fill);
+    }
+
+    // Combination (X + Y)
+    if (parsed.combo && Array.isArray(parsed.shapeName)) {
+      return parsed.shapeName.map(n => svgShape(n, fill)).join('<span style="font-size:0.7rem;color:var(--tu-text-dim)">+</span>');
+    }
+
+    // Repeated shapes (count > 1)
+    if (parsed.count > 1) {
+      const single = svgShape(parsed.shapeName, fill);
+      // Scale down for multiples
+      const small = single.replace('width="28"', 'width="16"').replace('height="28"', 'height="16"');
+      return Array(parsed.count).fill(small).join('');
+    }
+
+    return svgShape(parsed.shapeName, fill);
   }
 
   function renderMatrixGrid(questionText) {
@@ -237,7 +286,8 @@ const QuizEngine = (() => {
         } else {
           const parsed = parseMatrixCell('[' + ct + ']');
           if (parsed) {
-            cells.push(`<div class="matrix-cell ${parsed.sizeCls}"><span class="shape ${parsed.colorCls}">${parsed.shape}</span></div>`);
+            const svgContent = renderCellSVG(parsed);
+            cells.push(`<div class="matrix-cell ${parsed.sizeCls || ''}">${svgContent}</div>`);
           } else {
             cells.push('<div class="matrix-cell empty"></div>');
           }

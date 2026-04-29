@@ -10,7 +10,14 @@ Usage:
 import json, argparse, sys
 from collections import Counter
 
+BANNED_OPTION_PATTERNS = [
+    'Alle obigen', 'Alle oben', 'All of the above', 'All above',
+    'Keine der', 'None of the', 'Alle Aspekte',
+]
+BANNED_COMPOSITE_RE = r'\b[a-e]\)\s+und\s+[a-e]\)'  # "a) und b)", "b) und d)"
+
 def validate(questions):
+    import re
     errors = []
     ids = [q['id'] for q in questions]
     dupes = [x for x in set(ids) if ids.count(x) > 1]
@@ -23,6 +30,13 @@ def validate(questions):
         for field in ['question_de', 'question_en', 'options_de', 'options_en', 'correct', 'explanation_de']:
             if field not in q:
                 errors.append(f"Missing field '{field}' in {q['id']}")
+        # Reject "Alle obigen" and composite answer patterns
+        for opt in q.get('options_de', []) + q.get('options_en', []):
+            for pat in BANNED_OPTION_PATTERNS:
+                if pat.lower() in opt.lower():
+                    errors.append(f"BANNED option pattern '{pat}' in {q['id']}: {opt[:60]}")
+            if re.search(BANNED_COMPOSITE_RE, opt, re.IGNORECASE):
+                errors.append(f"BANNED composite option in {q['id']}: {opt[:60]}")
     return errors
 
 def merge(main_path, add_paths, dry_run=False):

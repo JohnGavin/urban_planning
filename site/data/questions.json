@@ -16821,5 +16821,1036 @@
       }
     ],
     "source": "Studienplan Raumplanung"
+  },
+  {
+    "id": "oerek-megatrends-fix-01",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "megatrends",
+      "klimawandel"
+    ],
+    "question_de": "Welche räumlichen Auswirkungen des Klimawandels in Österreich sind dokumentiert?",
+    "question_en": "Which spatial impacts of climate change in Austria are documented?",
+    "options_de": [
+      "a) Temperaturanstieg um 2°C seit 1880",
+      "b) Zunahme von Dürreperioden und Starkniederschlägen",
+      "c) Verlängerung der Hitzewellensaison",
+      "d) Ausschließlich Veränderungen in Alpenregionen",
+      "e) Kein signifikanter Temperaturanstieg nachweisbar"
+    ],
+    "options_en": [
+      "a) Temperature increase of 2°C since 1880",
+      "b) Increase in drought periods and heavy precipitation",
+      "c) Lengthening of heat wave season",
+      "d) Changes exclusively in Alpine regions",
+      "e) No significant temperature increase documented"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Österreich erlebt messbare Klimaauswirkungen mit Erwärmung um ~2°C seit 1880, häufigere Dürren und Starkniederschläge sowie längere Hitzewellenphasen. Diese Effekte sind österreichweit, nicht nur in den Alpen, nachgewiesen.",
+    "explanation_en": "Austria experiences measurable climate impacts with warming of ~2°C since 1880, more frequent droughts and heavy precipitation, and longer heat wave periods. These effects are documented nationwide, not just in the Alps.",
+    "mistakes_de": "Häufig wird angenommen, Klimaeffekte seien nur in Bergregionen spürbar, doch die Auswirkungen sind flächendeckend. Ebenfalls falsch ist die Annahme, es gäbe keinen signifikanten Temperaturanstieg.",
+    "mistakes_en": "A common misconception is that climate effects are felt only in mountain regions, but impacts are widespread. It is also incorrect to assume there is no significant temperature increase.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Klimawandel"
+  },
+  {
+    "id": "oerek-megatrends-fix-02",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "digitalisierung"
+    ],
+    "question_de": "Welche räumlichen Herausforderungen ergeben sich aus der fortschreitenden Digitalisierung?",
+    "question_en": "What spatial challenges result from advancing digitalization?",
+    "options_de": [
+      "a) Regionale Unterschiede in der Breitbandverfügbarkeit",
+      "b) Ausbreitung von Home-Office führt zu neuen Siedlungsmustern",
+      "c) Online-Handel verändert die Nachfrage nach Ladenflächen",
+      "d) Digitalisierung fördert Konzentration in Metropolen",
+      "e) Internetverbindung ist in ganz Österreich flächendeckend vorhanden"
+    ],
+    "options_en": [
+      "a) Regional differences in broadband availability",
+      "b) Spread of home office leads to new settlement patterns",
+      "c) Online commerce changes demand for retail space",
+      "d) Digitalization promotes concentration in metropolitan areas",
+      "e) Internet connection is available everywhere in Austria"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Die Digitalisierung schafft räumliche Disparitäten: Breitbandausbau ist ungleich verteilt, Home-Office ermöglicht dezentralere Wohnstandorte, und E-Commerce reduziert die Nachfrage nach klassischen Einkaufszentren. Aussage e) ist falsch, da regionale Unterschiede bestehen.",
+    "explanation_en": "Digitalization creates spatial disparities: broadband expansion is unequally distributed, home office enables more decentralized residential locations, and e-commerce reduces demand for traditional shopping centers. Statement e) is false due to existing regional differences.",
+    "mistakes_de": "Zu glauben, dass Digitalisierung automatisch zu Zentralisierung führt oder dass die Breitbandverfügbarkeit bundesweit gleichmäßig ist.",
+    "mistakes_en": "Believing that digitalization automatically leads to centralization or that broadband availability is uniform nationwide.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Digitalisierung"
+  },
+  {
+    "id": "oerek-megatrends-fix-03",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "globalisierung"
+    ],
+    "question_de": "Wie hat die Covid-19-Pandemie räumliche Verletzbarkeiten durch Globalisierung offenbart?",
+    "question_en": "How did the Covid-19 pandemic reveal spatial vulnerabilities from globalization?",
+    "options_de": [
+      "a) Unterbruch globaler Lieferketten betraf produzierende Regionen",
+      "b) Abhängigkeit von internationalen Märkten gefährdet lokale Wertschöpfung",
+      "c) Dezentralisierte Wertschöpfungsketten sind weniger anfällig",
+      "d) Österreichs Exportabhängigkeit ist ein strukturelles Risiko",
+      "e) Globalisierung schafft automatisch regionale Stabilität"
+    ],
+    "options_en": [
+      "a) Disruption of global supply chains affected manufacturing regions",
+      "b) Dependence on international markets endangers local value creation",
+      "c) Decentralized value chains are less vulnerable",
+      "d) Austria's export dependence is a structural risk",
+      "e) Globalization automatically creates regional stability"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation_de": "Die Pandemie zeigte, dass Globalisierung räumliche Risiken schafft: Unterbrochene Lieferketten trafen exportabhängige Regionen stark, Abhängigkeit von Weltmärkten gefährdet lokale Wirtschaft, und Österreichs hohe Exportquote ist ein strukturelles Verletzungsrisiko. Dezentralisierung allein ist kein Automatismus.",
+    "explanation_en": "The pandemic showed that globalization creates spatial risks: disrupted supply chains severely affected export-dependent regions, dependence on global markets endangers local economies, and Austria's high export share is a structural vulnerability. Decentralization alone is not automatic.",
+    "mistakes_de": "Globalisierung als uneingeschränkten Vorteil zu sehen oder anzunehmen, Dezentralisierung würde automatisch stabilisieren.",
+    "mistakes_en": "Seeing globalization as an unqualified advantage or assuming decentralization would automatically stabilize.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Globalisierung"
+  },
+  {
+    "id": "oerek-megatrends-fix-04",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "megatrends",
+      "demografischer-wandel"
+    ],
+    "question_de": "Welche demografischen Trends prägen den österreichischen Raum bis 2040?",
+    "question_en": "Which demographic trends characterize Austrian space through 2040?",
+    "options_de": [
+      "a) Bevölkerung wächst in Ballungsräumen stärker als in peripheren Regionen",
+      "b) Anteil der über 65-Jährigen steigt um etwa 52 %",
+      "c) Zahl der Erwerbsfähigen sinkt um rund 5,6 %",
+      "d) Gleichmäßiges Wachstum in allen Raumtypen",
+      "e) Bevölkerung insgesamt schrumpft um 10 %"
+    ],
+    "options_en": [
+      "a) Population grows stronger in agglomerations than in peripheral regions",
+      "b) Share of over-65s increases by about 52%",
+      "c) Number of working-age population declines by around 5.6%",
+      "d) Even growth across all spatial types",
+      "e) Overall population shrinks by 10%"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Österreich erlebt: Wachstum konzentriert sich in Ballungsräumen, der Anteil Älterer wächst um ~52%, die Erwerbsbevölkerung schrumpft um ~5,6%. Diese Asymmetrien schaffen räumliche und wirtschaftliche Herausforderungen, nicht gleichmäßiges Wachstum.",
+    "explanation_en": "Austria experiences: growth concentrates in agglomerations, the share of elderly increases by ~52%, working-age population shrinks by ~5.6%. These asymmetries create spatial and economic challenges, not even growth.",
+    "mistakes_de": "Demografische Veränderungen als räumlich gleichmäßig zu betrachten oder die Schrumpfung der Erwerbsbevölkerung zu übersehen.",
+    "mistakes_en": "Viewing demographic changes as spatially uniform or overlooking the decline in the working-age population.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Demografie"
+  },
+  {
+    "id": "oerek-megatrends-fix-05",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "megatrends",
+      "multilokalitaet"
+    ],
+    "question_de": "Was versteht man unter Multilokalität und wie wirkt sie sich räumlich aus?",
+    "question_en": "What is meant by multilocality and how does it affect spatial development?",
+    "options_de": [
+      "a) Menschen nutzen mehrere räumliche Lebensräume gleichzeitig oder abwechselnd",
+      "b) Zunehmender Bestand an Zweitwohnsitzen in Tourismusregionen",
+      "c) Homeoffice ermöglicht räumliche Entkopplung von Arbeit und Wohnen",
+      "d) Remote Working existiert nicht im österreichischen Kontext",
+      "e) Covid-19 hat Multilokalität völlig beendet"
+    ],
+    "options_en": [
+      "a) People use multiple spatial living spaces simultaneously or alternately",
+      "b) Increasing second homes in tourism regions",
+      "c) Home office enables spatial decoupling of work and residence",
+      "d) Remote working does not exist in the Austrian context",
+      "e) Covid-19 completely ended multilocality"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Multilokalität beschreibt Lebensweisen in mehreren Räumen: Zweitwohnsitze, Pendeln zwischen Arbeits- und Wohnort, und vor allem durch Covid-19 verstärkt: dauerhaftes Home-Office. Dies schafft neue Anforderungen an Infrastruktur und Raumplanung.",
+    "explanation_en": "Multilocality describes lifestyles in multiple spaces: second homes, commuting between work and residence, and especially post-Covid-19: permanent home office. This creates new infrastructure and planning demands.",
+    "mistakes_de": "Multilokalität als vorübergehendes Phänomen zu sehen oder deren räumliche Auswirkungen zu unterschätzen.",
+    "mistakes_en": "Viewing multilocality as a temporary phenomenon or underestimating its spatial impacts.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Multilokalität"
+  },
+  {
+    "id": "oerek-megatrends-fix-06",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "wissensgesellschaft"
+    ],
+    "question_de": "Welche Rollen spielen Innovation und smarte Spezialisierung in der Wissensgesellschaft?",
+    "question_en": "What roles do innovation and smart specialization play in the knowledge society?",
+    "options_de": [
+      "a) Smarte Spezialisierung baut auf regionalen Stärken und Potenzialen auf",
+      "b) FTI-Strategie (Forschung, Technologie, Innovation) fördert räumliche Disparitäten ab",
+      "c) Innovation konzentriert sich in urbanen Zentren mit Hochschulen",
+      "d) Alle Regionen sollten die gleichen Spezialisierungen wählen",
+      "e) Wissensgesellschaft erfordert raumübergreifende Netzwerke"
+    ],
+    "options_en": [
+      "a) Smart specialization builds on regional strengths and potentials",
+      "b) R&D&I strategy promotes reduction of spatial disparities",
+      "c) Innovation concentrates in urban centers with universities",
+      "d) All regions should choose the same specializations",
+      "e) Knowledge society requires cross-spatial networks"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Wissensgesellschaft funktioniert durch regionale Spezialisierung (nicht Einheitlichkeit), räumlich konzentrierte Innovationscluster, und die FTI-Strategie zielt darauf, regionale Unterschiede zu reduzieren. Erfolgreiche Regionen bauen auf ihren spezifischen Kompetenzen auf.",
+    "explanation_en": "Knowledge society works through regional specialization (not uniformity), spatially concentrated innovation clusters, and the R&D&I strategy aims to reduce regional differences. Successful regions build on their specific competencies.",
+    "mistakes_de": "Zu glauben, dass alle Regionen identische Spezialisierungen brauchen, oder dass Innovation räumlich nicht konzentriert ist.",
+    "mistakes_en": "Believing that all regions need identical specializations or that innovation is not spatially concentrated.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Wissensgesellschaft"
+  },
+  {
+    "id": "oerek-megatrends-fix-07",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "megatrends",
+      "urbanisierung"
+    ],
+    "question_de": "Welche Folgen hat die Urbanisierung für österreichische Städte und Regionen?",
+    "question_en": "What are the consequences of urbanization for Austrian cities and regions?",
+    "options_de": [
+      "a) Verstärkte Zuwanderung in Stadtregionen führt zu Wohnraumverteuerung",
+      "b) Einkaufszentren in peripheren Lagen schließen vermehrt",
+      "c) Landkreise und periphere Regionen erleben Bevölkerungswachstum",
+      "d) Urbanisierung erhöht die Nachfrage nach verdichteter Bebauung",
+      "e) Flächenverbrauch sinkt durch Urbanisierung"
+    ],
+    "options_en": [
+      "a) Increased migration to urban regions leads to housing price increases",
+      "b) Shopping centers in peripheral locations increasingly close",
+      "c) Rural districts and peripheral regions experience population growth",
+      "d) Urbanization increases demand for dense development",
+      "e) Land consumption decreases through urbanization"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation_de": "Urbanisierung konzentriert Bevölkerung in Städten, treibt Immobilienpreise nach oben, macht periphere Einkaufszentren unrentabel, und erhöht Verdichtungsdruck. Periphere Regionen schrumpfen, und die Flächeneffizienz ist ein Planungsziel, nicht eine automatische Folge.",
+    "explanation_en": "Urbanization concentrates population in cities, drives up property prices, makes peripheral shopping centers unprofitable, and increases density pressure. Peripheral regions shrink, and land efficiency is a planning goal, not an automatic result.",
+    "mistakes_de": "Anzunehmen, dass Urbanisierung peripherale Regionen stärkt oder dass Flächenverbrauch automatisch sinkt.",
+    "mistakes_en": "Assuming that urbanization strengthens peripheral regions or that land consumption automatically decreases.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Urbanisierung"
+  },
+  {
+    "id": "oerek-megatrends-fix-08",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "energiewende"
+    ],
+    "question_de": "Welche räumlichen Herausforderungen bringt die Energiewende mit sich?",
+    "question_en": "What spatial challenges does the energy transition bring?",
+    "options_de": [
+      "a) Solaranlagen und Windkraftwerke erzeugen Flächenkonkurrenz",
+      "b) Biomasse-Produktion für Energie beansprucht landwirtschaftliche Flächen",
+      "c) Erneuerbarer Energieausbau erfordert räumliche Planung und Verteilkonflikte",
+      "d) Energiewende hat keine räumlichen Auswirkungen",
+      "e) Alle erneuerbaren Technologien sind flächenschonend"
+    ],
+    "options_en": [
+      "a) Solar and wind installations create land use competition",
+      "b) Biomass production for energy claims agricultural land",
+      "c) Renewable energy expansion requires spatial planning and distribution conflicts",
+      "d) Energy transition has no spatial impacts",
+      "e) All renewable technologies are land-efficient"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Die Energiewende erzeugt neuen Flächendruck: Solaranlagen konkurrieren mit Wohnbau, Windkraft mit Landschaft, Biomasse mit Lebensmittelproduktion. Raumordnung muss diese Konflikte lösen und Flächen sichern, ohne dass erneuerbare Energien automatisch flächenschonend sind.",
+    "explanation_en": "The energy transition creates new land pressure: solar competes with housing, wind with landscape, biomass with food production. Spatial planning must resolve these conflicts and secure land without renewable energy being automatically land-efficient.",
+    "mistakes_de": "Zu glauben, dass Energiewende räumlich neutral ist oder dass erneuerbare Energien keine Flächenkonflikte schaffen.",
+    "mistakes_en": "Believing that the energy transition is spatially neutral or that renewable energy creates no land conflicts.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Energiewende"
+  },
+  {
+    "id": "oerek-megatrends-fix-09",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "raumverhalten"
+    ],
+    "question_de": "Wie verändern sich Mobilitätsmuster und Flächennutzung durch Homeoffice und erneuerbare Energien?",
+    "question_en": "How are mobility patterns and land use changing due to home office and renewable energy?",
+    "options_de": [
+      "a) Homeoffice reduziert Pendlerverkehr und ändert Peak-hour-Muster",
+      "b) Dezentralere Wohnstandorte werden durch Homeoffice ermöglicht",
+      "c) Flächenbedarf für erneuerbare Energie reduziert Wohnbauflächen",
+      "d) Raumverhalten bleibt durch Technologie unverändert",
+      "e) Öffentliche Verkehrsmittel werden weniger genutzt"
+    ],
+    "options_en": [
+      "a) Home office reduces commuter traffic and changes peak-hour patterns",
+      "b) More decentralized residential locations are enabled by home office",
+      "c) Land demand for renewable energy reduces residential development areas",
+      "d) Spatial behavior remains unchanged by technology",
+      "e) Public transport is used less frequently"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Homeoffice ermöglicht dezentrale Wohnstandorte, reduziert Pendlerverkehr und verflacht Verkehrsspitzen. Gleichzeitig konkurriert Energieinfrastruktur mit Wohnbauflächen. Diese Trends erfordern integrative Raumplanung, die beide Aspekte berücksichtigt.",
+    "explanation_en": "Home office enables decentralized residential locations, reduces commuting, and flattens traffic peaks. Simultaneously, energy infrastructure competes with residential land. These trends require integrated spatial planning addressing both aspects.",
+    "mistakes_de": "Anzunehmen, dass Technologie Raumverhalten nicht beeinflusst oder dass Flächenkonflikte nicht entstehen.",
+    "mistakes_en": "Assuming that technology doesn't influence spatial behavior or that land conflicts don't arise.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Raumverhalten"
+  },
+  {
+    "id": "oerek-megatrends-fix-10",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "raumtypen"
+    ],
+    "question_de": "Welche räumlichen Herausforderungen sind charakteristisch für städtische Ballungsräume?",
+    "question_en": "Which spatial challenges are characteristic of urban agglomerations?",
+    "options_de": [
+      "a) Hohe Wohnraumpreise und Verdichtungsdruck",
+      "b) Starke Zuwanderung und Bevölkerungswachstum",
+      "c) Infrastrukturüberlastung in Spitzenlastzeiten",
+      "d) Mangel an wirtschaftlicher Dynamik",
+      "e) Überalterung und Bevölkerungsrückgang"
+    ],
+    "options_en": [
+      "a) High housing costs and density pressure",
+      "b) Strong immigration and population growth",
+      "c) Infrastructure overload during peak hours",
+      "d) Lack of economic dynamism",
+      "e) Aging and population decline"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Ballungsräume wachsen, ziehen Bevölkerung an und erleben dabei Verdichtung, Immobilienverteuerung und Infrastrukturengpässe. Sie sind wirtschaftlich dynamisch (nicht schwach) und erleben Zuwanderung (nicht Überalterung).",
+    "explanation_en": "Agglomerations grow, attract population, and experience densification, housing price increases, and infrastructure bottlenecks. They are economically dynamic (not weak) and experience immigration (not aging).",
+    "mistakes_de": "Ballungsräume mit wirtschaftlichem Niedergang oder Bevölkerungsrückgang zu assoziieren.",
+    "mistakes_en": "Associating agglomerations with economic decline or population loss.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Raumtypen"
+  },
+  {
+    "id": "oerek-megatrends-fix-11",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "megatrends",
+      "raumtypen-landregionen"
+    ],
+    "question_de": "Welche spezifischen Herausforderungen haben periphere Landregionen?",
+    "question_en": "What specific challenges do peripheral rural regions face?",
+    "options_de": [
+      "a) Bevölkerungsabwanderung und Überalterung",
+      "b) Mangelnde Breitbanderschließung und digitale Infrastruktur",
+      "c) Unzureichende öffentliche Verkehrsanbindung",
+      "d) Zu starkes Wirtschaftswachstum und Zuwanderung",
+      "e) Überangebot an Arbeitsplätzen"
+    ],
+    "options_en": [
+      "a) Population decline and aging",
+      "b) Inadequate broadband provision and digital infrastructure",
+      "c) Insufficient public transport connectivity",
+      "d) Excessive economic growth and immigration",
+      "e) Oversupply of jobs"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Periphere Regionen kämpfen mit Abwanderung, Überalterung, schlechter digitaler Infrastruktur und mangelhaften ÖV-Verbindungen. Sie sind nicht von Überangebot an Arbeitsplätzen gekennzeichnet, sondern von Mangel an wirtschaftlichen Chancen.",
+    "explanation_en": "Peripheral regions struggle with out-migration, aging, poor digital infrastructure, and inadequate public transport connections. They are not characterized by oversupply of jobs but by lack of economic opportunities.",
+    "mistakes_de": "Periphere Regionen als wirtschaftlich booming zu beschreiben oder ihre Infrastruktur-Defizite zu übersehen.",
+    "mistakes_en": "Describing peripheral regions as economically booming or overlooking their infrastructure deficits.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Megatrends Raumtypen"
+  },
+  {
+    "id": "oerek-megatrends-fix-12",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "klimaadaption-targets"
+    ],
+    "question_de": "Wie unterscheiden sich EU-Klimaziele von österreichischen nationalen Zielen?",
+    "question_en": "How do EU climate targets differ from Austrian national targets?",
+    "options_de": [
+      "a) EU verpflichtet sich auf 55 % Reduktion bis 2030 (vs. österreichische 36 %)",
+      "b) Österreich hat das Ziel der Klimaneutralität bis 2040",
+      "c) EU-Ziel ist Klimaneutralität bis 2050",
+      "d) Österreichs Ziele sind strenger als EU-Ziele",
+      "e) Es gibt keine Unterschiede zwischen EU und nationalen Zielen"
+    ],
+    "options_en": [
+      "a) EU commits to 55% reduction by 2030 (vs. Austrian 36%)",
+      "b) Austria aims for climate neutrality by 2040",
+      "c) EU target is climate neutrality by 2050",
+      "d) Austria's targets are stricter than EU targets",
+      "e) There are no differences between EU and national targets"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "EU verpflichtet sich auf 55 % Treibhausgasreduktion bis 2030 und Klimaneutralität bis 2050. Österreich hat sich (zusätzlich) Klimaneutralität bis 2040 zum Ziel gesetzt, womit es ambitionierter ist.",
+    "explanation_en": "The EU commits to 55% greenhouse gas reduction by 2030 and climate neutrality by 2050. Austria additionally aims for climate neutrality by 2040, making it more ambitious.",
+    "mistakes_de": "Die unterschiedlichen Zeithorizonte und Reduktionsziele zu verwechseln oder Österreichs zusätzliche Ambition zu übersehen.",
+    "mistakes_en": "Confusing the different time horizons and reduction targets or overlooking Austria's additional ambition.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Klimaziele"
+  },
+  {
+    "id": "oerek-megatrends-fix-13",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "megatrends",
+      "flaechenkonsum"
+    ],
+    "question_de": "Welche Aussagen zum österreichischen Flächenverbrauch sind korrekt?",
+    "question_en": "Which statements about Austrian land consumption are correct?",
+    "options_de": [
+      "a) Österreich verbraucht etwa 2,5 Hektar täglich für Siedlung und Infrastruktur",
+      "b) Der Flächenverbrauch ist ein zentrales Nachhaltigkeitsproblem",
+      "c) Etwa 90 % der Fläche Österreichs sind unbebaut",
+      "d) Flächenverbrauch nimmt automatisch mit Urbanisierung ab",
+      "e) Raumplanung kann Flächenverbrauch steuern und reduzieren"
+    ],
+    "options_en": [
+      "a) Austria consumes about 2.5 hectares daily for settlement and infrastructure",
+      "b) Land consumption is a central sustainability issue",
+      "c) About 90% of Austria's territory is undeveloped",
+      "d) Land consumption automatically decreases with urbanization",
+      "e) Spatial planning can control and reduce land consumption"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "Österreich verbraucht täglich etwa 2,5 ha, was ein erhebliches Nachhaltigkeitsproblem darstellt. Etwa 90 % der Fläche sind unbebaut, aber dieser Landverbrauch wächst. Raumplanung ist ein Werkzeug, um ihn zu reduzieren. Urbanisierung bedeutet nicht automatische Flächenschonung.",
+    "explanation_en": "Austria consumes about 2.5 hectares daily, which is a significant sustainability issue. About 90% of the territory is undeveloped, but this consumption grows. Spatial planning is a tool to reduce it. Urbanization does not automatically mean land conservation.",
+    "mistakes_de": "Flächenverbrauch als unvermeidbar zu sehen oder zu denken, dass Urbanisierung automatisch zu Flächenschonung führt.",
+    "mistakes_en": "Viewing land consumption as inevitable or thinking that urbanization automatically leads to land conservation.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Flächenverbrauch"
+  },
+  {
+    "id": "oerek-megatrends-fix-14",
+    "quizId": "oerek-megatrends",
+    "difficulty": "hard",
+    "tags": [
+      "megatrends",
+      "oevraumerschliessung"
+    ],
+    "question_de": "Warum stellt die ÖV-Erschließung in Österreich eine räumliche Herausforderung dar?",
+    "question_en": "Why does public transport provision represent a spatial challenge in Austria?",
+    "options_de": [
+      "a) In vielen dünn besiedelten Regionen sind Busse und Bahnen nicht rentabel",
+      "b) Etwa 20 % der Bevölkerung leben in Gebieten ohne adäquate ÖV-Erschließung",
+      "c) Schieneninfrastruktur konzentriert sich auf städtische Korridore",
+      "d) Öffentlicher Verkehr ist überall in Österreich gleich gut entwickelt",
+      "e) ÖV-Defizite widersprechen Klimazielen und Mobilitätswende"
+    ],
+    "options_en": [
+      "a) In many sparsely populated regions, buses and trains are not profitable",
+      "b) About 20% of the population lives in areas without adequate public transport",
+      "c) Rail infrastructure concentrates on urban corridors",
+      "d) Public transport is equally well developed everywhere in Austria",
+      "e) Public transport deficits contradict climate targets and mobility transition"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "ÖV ist räumlich ungleich verteilt: Dünn besiedelte Regionen sind wirtschaftlich schwer zu bedienen, ca. 20 % der Bevölkerung fehlt gute Erschließung, Schienen konzentrieren sich auf große Korridore. Dies behindert die Klimatransformation und die Mobilitätswende in peripheren Räumen.",
+    "explanation_en": "Public transport is spatially unequally distributed: sparsely populated regions are economically difficult to serve, ~20% of the population lacks good connectivity, railways concentrate on major corridors. This hinders climate transformation and the mobility transition in peripheral areas.",
+    "mistakes_de": "Anzunehmen, dass ÖV-Infrastruktur räumlich gleichmäßig verteilt ist oder dass Klimaziele ohne ÖV-Ausbau erreichbar sind.",
+    "mistakes_en": "Assuming that public transport infrastructure is spatially evenly distributed or that climate targets are achievable without transit expansion.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Mobilität"
+  },
+  {
+    "id": "oerek-megatrends-fix-15",
+    "quizId": "oerek-megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "megatrends",
+      "integratives-planning"
+    ],
+    "question_de": "Wie müssen Raumordnung und Infrastrukturplanung auf die Megatrends reagieren?",
+    "question_en": "How must spatial planning and infrastructure development respond to mega trends?",
+    "options_de": [
+      "a) Integrierte Strategien, die Klimaziele, Digitalisierung und Mobilität verbinden",
+      "b) Regionale Stärken gezielt ausbauen statt überall das Gleiche tun",
+      "c) Zusammenarbeit zwischen Bund, Ländern und Gemeinden verstärken",
+      "d) Jede Region müsse alle Megatrends isoliert bearbeiten",
+      "e) Flächenschonung und Verdichtung nach differenzierten Raumtypen"
+    ],
+    "options_en": [
+      "a) Integrated strategies linking climate targets, digitalization, and mobility",
+      "b) Deliberately expand regional strengths instead of doing the same everywhere",
+      "c) Strengthen cooperation between federal, state, and municipal levels",
+      "d) Each region must address all mega trends in isolation",
+      "e) Land conservation and densification according to differentiated space types"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "Raumordnung muss integrativ agieren, regionale Stärken nutzen, föderale Kooperation stärken, und raumtyp-spezifische Lösungen schaffen. Das Gegenteil von isoliertem Handeln — Megatrends sind vernetzt und erfordern vernetztes Handeln.",
+    "explanation_en": "Spatial planning must act integratively, leverage regional strengths, strengthen federal cooperation, and create space-type-specific solutions. The opposite of isolated action — mega trends are interconnected and require networked action.",
+    "mistakes_de": "Anzunehmen, dass jede Region alle Trends gleich bewältigen kann oder dass Handeln isoliert sein kann.",
+    "mistakes_en": "Assuming that each region can address all trends equally or that action can be isolated.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Integrierte Strategie"
+  },
+  {
+    "id": "oerek-principles-fix-01",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "oerek-grundsaetze",
+      "gemeinwohl"
+    ],
+    "question_de": "Was versteht die OEREK unter dem Gemeinwohlorientierungsprinzip?",
+    "question_en": "What does the OEREK understand by the public welfare principle?",
+    "options_de": [
+      "a) Boden ist nicht vermehrbar und wird als Gemeingut behandelt",
+      "b) Raumordnung dient der Gesellschaft als Ganzes, nicht Einzelinteressen",
+      "c) Vertragsraumordnung ermöglicht Kooperation über administrative Grenzen",
+      "d) Einzelne Grundbesitzer können uneingeschränkt ihre Flächen nutzen",
+      "e) Gemeinwohl ist ein veralteter raumordnerischer Grundsatz"
+    ],
+    "options_en": [
+      "a) Land is non-renewable and is treated as common property",
+      "b) Spatial planning serves society as a whole, not individual interests",
+      "c) Contract-based spatial planning enables cooperation across administrative boundaries",
+      "d) Individual landowners can use their land without restrictions",
+      "e) Public welfare is an outdated planning principle"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Das Gemeinwohlorientierungsprinzip der OEREK basiert auf: Boden als Knappheit, Raumplanung für kollektive Ziele, und Vertragsraumordnung als Kooperationsinstrument. Einzelinteressen sind dem Gemeinwohl untergeordnet.",
+    "explanation_en": "The OEREK's public welfare principle is based on: land as a scarce resource, spatial planning for collective goals, and contract-based planning as a cooperation tool. Individual interests are subordinate to public welfare.",
+    "mistakes_de": "Gemeinwohl mit Einschränkung von Privatrechten zu verwechseln oder es als überholt zu sehen.",
+    "mistakes_en": "Confusing public welfare with restriction of private rights or viewing it as outdated.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Grundsätze Gemeinwohl"
+  },
+  {
+    "id": "oerek-principles-fix-02",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "oerek-grundsaetze",
+      "staedtebauvertraege"
+    ],
+    "question_de": "Welche Zwecke erfüllen städtebauliche Verträge in der Raumordnung?",
+    "question_en": "What purposes do urban development contracts serve in spatial planning?",
+    "options_de": [
+      "a) Gemeinden können Infrastruktur-Kosten auf Bauherren übertragen",
+      "b) Verhandlung von Flächennutzung zwischen öffentlichen und privaten Akteuren",
+      "c) Sicherung von Gemeinwohlanliegen durch vertragliche Vereinbarung",
+      "d) Beseitigung von Verhandlungsmacht zwischen Gemeinde und Investor",
+      "e) Schaffung von Grünflächen oder sozialer Infrastruktur als Ausgleich"
+    ],
+    "options_en": [
+      "a) Municipalities can transfer infrastructure costs to developers",
+      "b) Negotiation of land use between public and private actors",
+      "c) Securing public welfare concerns through contractual agreement",
+      "d) Elimination of bargaining power between municipality and investor",
+      "e) Creation of green spaces or social infrastructure as compensation"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "Städtebauliche Verträge sind Verhandlungsinstrumente zur Sicherung von Gemeinwohlzielen: Infrastruktur-Beiträge, Flächennutzungsvereinbarungen, Ausgleichsmaßnahmen wie Grünflächen oder soziale Infrastruktur. Sie nutzen, nicht beseitigen, die Verhandlungsmacht der Gemeinde.",
+    "explanation_en": "Urban development contracts are negotiation instruments to secure public welfare goals: infrastructure contributions, land use agreements, compensation measures like green spaces or social infrastructure. They leverage, not eliminate, municipal bargaining power.",
+    "mistakes_de": "Vertäge als einseitige Instrumente zu verstehen oder zu glauben, sie würden Verhandlungsmacht beseitigen.",
+    "mistakes_en": "Understanding contracts as one-sided instruments or believing they eliminate bargaining power.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Städtebauliche Verträge"
+  },
+  {
+    "id": "oerek-principles-fix-03",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "oerek-grundsaetze",
+      "steuerwettbewerb"
+    ],
+    "question_de": "Warum ist Steuerwettbewerb zwischen Gemeinden raumordnerisch problematisch?",
+    "question_en": "Why is tax competition between municipalities problematic for spatial planning?",
+    "options_de": [
+      "a) Führt zu ungesteuerten Siedlungsmustern und Flächenzersplitterung",
+      "b) Reiche Gemeinden locken Investitionen, arme verlieren Einnahmen",
+      "c) Unterminiert Gemeinwohl-Ziele durch egoistische Lokalpolitik",
+      "d) Steuerwettbewerb fördert nachhaltige Raumnutzung",
+      "e) Schwächt die Kooperation zwischen benachbarten Gemeinden"
+    ],
+    "options_en": [
+      "a) Leads to uncontrolled settlement patterns and land fragmentation",
+      "b) Rich municipalities attract investments, poor ones lose revenues",
+      "c) Undermines public welfare goals through selfish local politics",
+      "d) Tax competition promotes sustainable land use",
+      "e) Weakens cooperation between neighboring municipalities"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "Steuerwettbewerb führt zu Zersiedlung, räumlicher Ungleichheit und Kooperationsverlust. Gemeinden locken Gewerbe mit Steuern statt Raumplanung, was Gemeinwohlanliegen untergräbt. Dies ist für Nachhaltigkeit kontraproduktiv.",
+    "explanation_en": "Tax competition leads to sprawl, spatial inequality, and loss of cooperation. Municipalities attract commerce with taxes instead of planning, undermining public welfare. This is counterproductive for sustainability.",
+    "mistakes_de": "Steuerwettbewerb als Effizienzförderung zu sehen oder seine räumlichen Schäden zu unterschätzen.",
+    "mistakes_en": "Viewing tax competition as promoting efficiency or underestimating its spatial damage.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Steuerwettbewerb"
+  },
+  {
+    "id": "oerek-principles-fix-04",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "oerek-grundsaetze",
+      "polyzentrisches-system"
+    ],
+    "question_de": "Was bedeutet eine polyzentrische Raumstruktur für die österreichische Raumordnung?",
+    "question_en": "What does a polycentric spatial structure mean for Austrian spatial planning?",
+    "options_de": [
+      "a) Mehrere Entwicklungspole statt Abhängigkeit von einer Metropole",
+      "b) Dezentralisierung von wirtschaftlicher Aktivität und Bevölkerung",
+      "c) Stärkengerechte Entwicklung verschiedener Raumtypen",
+      "d) Zentralisierung aller Funktionen in Wien für Effizienz",
+      "e) Reduktion von Makroregionen zugunsten von Mono-Zentrismus"
+    ],
+    "options_en": [
+      "a) Multiple development poles instead of dependence on one metropolis",
+      "b) Decentralization of economic activity and population",
+      "c) Development of different space types according to their strengths",
+      "d) Centralization of all functions in Vienna for efficiency",
+      "e) Reduction of macro-regions in favor of mono-centrism"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Polyzentrische Strukturen verteilen Entwicklung auf mehrere Zentren, statt alles in Wien zu konzentrieren. Dies nutzt regionale Stärken, reduziert Verdichtungsdruck in Metropolen und fördert räumliches Gleichgewicht. Es ist das Gegenteil von zentralisierter Ausrichtung.",
+    "explanation_en": "Polycentric structures distribute development across multiple centers instead of concentrating everything in Vienna. This uses regional strengths, reduces density pressure in metropolises, and promotes spatial balance. It is the opposite of centralized orientation.",
+    "mistakes_de": "Polyzentrismus mit Zentralisierung zu verwechseln oder zu denken, dass Effizienz Mono-Zentrismus erfordert.",
+    "mistakes_en": "Confusing polycentrism with centralization or thinking that efficiency requires monocentrism.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Polyzentrische Struktur"
+  },
+  {
+    "id": "oerek-principles-fix-05",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "oerek-grundsaetze",
+      "oerek-status"
+    ],
+    "question_de": "Welche rechtliche Natur und Verbindlichkeit hat die OEREK?",
+    "question_en": "What is the legal nature and binding force of the OEREK?",
+    "options_de": [
+      "a) Die OEREK ist kein formal bindendes Gesetz",
+      "b) Sie basiert auf freiwilligem Konsens zwischen Bund, Ländern und Gemeinden",
+      "c) Sie ist eine EU-Verordnung, die alle Länder erfüllen müssen",
+      "d) Die OEREK ist ein verbindliches Planungsdokument mit Gesetzesstatus",
+      "e) Sie dient als Orientierungsrahmen für raumordnungsrelevante Entscheidungen"
+    ],
+    "options_en": [
+      "a) The OEREK is not a formally binding law",
+      "b) It is based on voluntary consensus between federal, state, and municipal levels",
+      "c) It is an EU regulation that all countries must comply with",
+      "d) The OEREK is a binding planning document with legal status",
+      "e) It serves as an orientation framework for spatially relevant decisions"
+    ],
+    "correct": [
+      0,
+      1,
+      4
+    ],
+    "explanation_de": "Die OEREK ist nicht rechtlich bindend, sondern basiert auf Konsens. Sie hat keinen Gesetzesstatus, ist keine EU-Verordnung, sondern ein Orientierungsrahmen, auf dessen Umsetzung sich die föderalen Ebenen einigen.",
+    "explanation_en": "The OEREK is not legally binding but based on consensus. It has no legal status, is not an EU regulation, but serves as an orientation framework agreed upon by federal levels.",
+    "mistakes_de": "Die OEREK als Gesetz oder EU-Verordnung zu verstehen oder ihre konsensualen Grundlagen zu übersehen.",
+    "mistakes_en": "Understanding the OEREK as a law or EU regulation or overlooking its consensual foundations.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Status und Natur"
+  },
+  {
+    "id": "oerek-principles-fix-06",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "oerek-grundsaetze",
+      "zielmatrix"
+    ],
+    "question_de": "Welche Ziele verfolgt die OEREK 2030 für die österreichische Raumordnung?",
+    "question_en": "What goals does the OEREK 2030 pursue for Austrian spatial planning?",
+    "options_de": [
+      "a) Klimakrise als zentrale räumliche Herausforderung adressieren",
+      "b) Gleichwertige Lebensbedingungen in allen Raumtypen schaffen",
+      "c) Regionale Wertschöpfung durch Spezialisierung und Innovation stärken",
+      "d) Alle Gemeinden müssen die gleichen Wirtschaftssektoren haben",
+      "e) Biodiversität und natürliche Ressourcen nachhaltig schützen"
+    ],
+    "options_en": [
+      "a) Address the climate crisis as a central spatial challenge",
+      "b) Create equivalent living conditions across all space types",
+      "c) Strengthen regional value creation through specialization and innovation",
+      "d) All municipalities must have the same economic sectors",
+      "e) Sustainably protect biodiversity and natural resources"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "OEREK 2030 verfolgt integrierte Ziele: Klimakrisenbewältigung, räumliche Chancengleichheit, regionale Stärkennutzung, Ressourcenschutz. Nicht Uniformität, sondern differenzierte Lösungen für verschiedene Raumtypen.",
+    "explanation_en": "OEREK 2030 pursues integrated goals: climate crisis management, spatial equality of opportunity, regional strength utilization, resource protection. Not uniformity, but differentiated solutions for different space types.",
+    "mistakes_de": "OEREK-Ziele als bloße Klimapolitik zu sehen oder anzunehmen, dass Uniformität das Ziel ist.",
+    "mistakes_en": "Viewing OEREK goals as merely climate policy or assuming uniformity is the goal.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Ziele"
+  },
+  {
+    "id": "oerek-principles-fix-07",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "oerek-grundsaetze",
+      "kooperatives-system"
+    ],
+    "question_de": "Warum ist kooperative Raumordnung zwischen Bund, Ländern und Gemeinden notwendig?",
+    "question_en": "Why is cooperative spatial planning between federal, state, and municipal levels necessary?",
+    "options_de": [
+      "a) Raumprobleme respektieren keine administrativen Grenzen",
+      "b) Pendler, Verkehr und Infrastruktur erfordern überörtliche Abstimmung",
+      "c) Klimaziele erfordern koordinierte räumliche Strategien",
+      "d) Jede administrative Ebene kann isoliert planen",
+      "e) Flächenkonflikte müssen zwischen Ebenen verhandelt werden"
+    ],
+    "options_en": [
+      "a) Spatial problems do not respect administrative boundaries",
+      "b) Commuting, traffic, and infrastructure require inter-municipal coordination",
+      "c) Climate targets require coordinated spatial strategies",
+      "d) Each administrative level can plan in isolation",
+      "e) Land conflicts must be negotiated between levels"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "Kooperation ist notwendig, weil Raumprobleme Verwaltungsgrenzen überschreiten: Pendler, Verkehrsnetze, Infrastruktur, Klima, Flächenkonflikte. Isoliertes Planen führt zu Koordinationsverlust und Ineffizienz.",
+    "explanation_en": "Cooperation is necessary because spatial problems transcend administrative boundaries: commuting, transport networks, infrastructure, climate, land conflicts. Isolated planning leads to coordination loss and inefficiency.",
+    "mistakes_de": "Zu denken, dass Gemeinden unabhängig planen können, oder die überörtlichen Verflechtungen zu unterschätzen.",
+    "mistakes_en": "Thinking that municipalities can plan independently or underestimating inter-municipal linkages.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Kooperatives System"
+  },
+  {
+    "id": "oerek-principles-fix-08",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "oerek-grundsaetze",
+      "raumpolitische-ziele-match"
+    ],
+    "question_de": "Welches OEREK 2030-Ziel passt zu dieser Beschreibung: 'Wirtschaftliche und soziale Chancen regional verteilen'?",
+    "question_en": "Which OEREK 2030 goal matches this description: 'Distribute economic and social opportunities regionally'?",
+    "options_de": [
+      "a) Polyzentrische Entwicklung und regionale Stärkennutzung",
+      "b) Klimaneutrales Österreich bis 2040",
+      "c) Flächenschonung und Verdichtung",
+      "d) Digitalisierung und Innovation in peripheren Regionen",
+      "e) Infrastruktur und öffentliche Daseinsvorsorge sichern"
+    ],
+    "options_en": [
+      "a) Polycentric development and regional strength utilization",
+      "b) Climate-neutral Austria by 2040",
+      "c) Land conservation and densification",
+      "d) Digitalization and innovation in peripheral regions",
+      "e) Secure infrastructure and public services"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Die polyzentrische Entwicklung und Stärkennutzung ist das zentrale OEREK-Ziel zur Chancenverteilung. Dies umfasst auch Digitalisierung und Innovation, aber das Kernziel ist die dezentralisierte, regionsgerechte Wirtschaftsentwicklung.",
+    "explanation_en": "Polycentric development and strength utilization is the central OEREK goal for opportunity distribution. This also includes digitalization and innovation, but the core goal is decentralized, region-appropriate economic development.",
+    "mistakes_de": "Chancenverteilung mit Klimaneutralität oder Flächenschonung zu verwechseln, obwohl diese verbunden sind.",
+    "mistakes_en": "Confusing opportunity distribution with climate neutrality or land conservation, although they are related.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Zielmatrix"
+  },
+  {
+    "id": "oerek-principles-fix-09",
+    "quizId": "oerek-principles",
+    "difficulty": "medium",
+    "tags": [
+      "oerek-grundsaetze",
+      "infrastruktur-daseinsvorsorge"
+    ],
+    "question_de": "Welche Bedeutung hat Daseinsvorsorge in der OEREK-Strategie?",
+    "question_en": "What significance does public service provision have in the OEREK strategy?",
+    "options_de": [
+      "a) Grundversorgung in Bildung, Gesundheit, Verkehr für alle sichern",
+      "b) Besondere Herausforderungen für periphere Regionen adressieren",
+      "c) Digitale und physische Infrastruktur gleichbehandeln",
+      "d) Daseinsvorsorge ist nicht Aufgabe der Raumordnung",
+      "e) Gemeinden müssen Versorgungslücken eigenständig schließen"
+    ],
+    "options_en": [
+      "a) Secure basic provision in education, health, transport for all",
+      "b) Address particular challenges for peripheral regions",
+      "c) Treat digital and physical infrastructure equally",
+      "d) Public service provision is not a spatial planning responsibility",
+      "e) Municipalities must close supply gaps independently"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation_de": "Daseinsvorsorge ist zentral für OEREK: Sie zielt auf Chancengleichheit durch Grundversorgung. Periphere Regionen brauchen besondere Aufmerksamkeit. Digitale und physische Infrastruktur sind beide notwendig für moderne Daseinsvorsorge.",
+    "explanation_en": "Public service provision is central to OEREK: it aims at equal opportunity through basic provision. Peripheral regions need special attention. Digital and physical infrastructure are both necessary for modern public services.",
+    "mistakes_de": "Daseinsvorsorge als ausschließlich städtisches Anliegen zu sehen oder ihre räumliche Dimension zu übersehen.",
+    "mistakes_en": "Viewing public service provision as exclusively urban or overlooking its spatial dimension.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Daseinsvorsorge"
+  },
+  {
+    "id": "oerek-principles-fix-10",
+    "quizId": "oerek-principles",
+    "difficulty": "hard",
+    "tags": [
+      "oerek-grundsaetze",
+      "implementierung-konkret"
+    ],
+    "question_de": "Wie wird die OEREK auf kommunaler Ebene konkret umgesetzt?",
+    "question_en": "How is the OEREK implemented concretely at the municipal level?",
+    "options_de": [
+      "a) Durch Flächenwidmungsplanungen und Bebauungspläne, die OEREK-Ziele berücksichtigen",
+      "b) Über Vertragsraumordnung zwischen Gemeinde und privaten Akteuren",
+      "c) Durch regionale Kooperationen und Entwicklungsverbände",
+      "d) OEREK-Ziele sind für Kommunen nicht verpflichtend",
+      "e) Investitionen in öffentliche Infrastruktur nach regionalen Prioritäten"
+    ],
+    "options_en": [
+      "a) Through zoning plans and development plans that consider OEREK goals",
+      "b) Via contract-based planning between municipality and private actors",
+      "c) Through regional cooperations and development associations",
+      "d) OEREK goals are not binding for municipalities",
+      "e) Investments in public infrastructure according to regional priorities"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation_de": "OEREK wird kommunal umgesetzt durch Flächenpläne, Verträge, regionale Zusammenarbeit und Infrastrukturinvestitionen. Es ist nicht bindend, aber Gemeinden orientieren sich daran in ihren lokalen Entscheidungen. Implementierung geschieht in mehreren Kanälen parallel.",
+    "explanation_en": "OEREK is implemented municipally through area plans, contracts, regional cooperation, and infrastructure investments. It is not binding, but municipalities orient their local decisions by it. Implementation occurs through multiple channels simultaneously.",
+    "mistakes_de": "Implementierung nur durch ein Instrument zu sehen oder anzunehmen, die OEREK sei völlig unverbindlich für kommunale Planung.",
+    "mistakes_en": "Viewing implementation through only one instrument or assuming OEREK is completely non-binding for municipal planning.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "OEREK 2030"
+      }
+    ],
+    "source": "OEREK 2030 Implementierung"
   }
 ]

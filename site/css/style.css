@@ -555,7 +555,11 @@ li { margin: 0.4rem 0; }
 .matrix-cell .shape {
   font-size: 2rem;
   line-height: 1;
-  text-shadow: 0 0 2px rgba(255,255,255,0.3);
+}
+
+.matrix-cell svg {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .matrix-cell.empty {
