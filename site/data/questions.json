@@ -4084,44 +4084,6 @@
     "source": "Übungsaufgabe Matrizen (Leicht)"
   },
   {
-    "id": "cognitive-matrix-easy2",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, groß, 1 Punkt] [Stern, mittel, 2 Punkte] [Stern, klein, 3 Punkte]\nZeile 2: [Herz, klein, 2 Punkte] [Herz, groß, 3 Punkte] [Herz, mittel, 1 Punkt]\nZeile 3: [Pfeil, mittel, 3 Punkte] [Pfeil, klein, 1 Punkt] [?]\n\nDrei Eigenschaften ändern sich. Was fehlt?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, big, 1 dot] [Star, medium, 2 dots] [Star, small, 3 dots]\nRow 2: [Heart, small, 2 dots] [Heart, big, 3 dots] [Heart, medium, 1 dot]\nRow 3: [Arrow, medium, 3 dots] [Arrow, small, 1 dot] [?]\n\nThree properties change. What is missing?",
-    "options_de": [
-      "a) Pfeil, groß, 2 Punkte",
-      "b) Pfeil, mittel, 2 Punkte",
-      "c) Pfeil, groß, 3 Punkte",
-      "d) Stern, groß, 2 Punkte",
-      "e) Pfeil, klein, 2 Punkte"
-    ],
-    "options_en": [
-      "a) Arrow, big, 2 dots",
-      "b) Arrow, medium, 2 dots",
-      "c) Arrow, big, 3 dots",
-      "d) Star, big, 2 dots",
-      "e) Arrow, small, 2 dots"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Zeile 3 = Pfeil. Spalte 3: Größen waren klein, mittel → fehlt groß. Spalte 3: Punkte waren 3, 1 → fehlt 2. Also: Pfeil, groß, 2 Punkte.",
-    "explanation_en": "Row 3 = Arrow. Column 3: sizes were small, medium → missing big. Column 3: dots were 3, 1 → missing 2. So: Arrow, big, 2 dots.",
-    "mistakes_de": "Typische Fehler: (1) Zeile und Spalte verwechseln. (2) Nur die Form beachten, Größe ignorieren.",
-    "mistakes_en": "Common mistakes: (1) Confusing row and column direction. (2) Noticing only shape, ignoring size.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Übungsaufgabe Matrizen (Leicht)"
-  },
-  {
     "id": "cognitive-matrix-easy3",
     "quizId": "cognitive",
     "difficulty": "medium",
@@ -4274,44 +4236,6 @@
     "source": "Übungsaufgabe Matrizen (Mittel)"
   },
   {
-    "id": "cognitive-matrix-med2",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster (Größe + Anzahl):\nZeile 1: [1 großes Quadrat] [2 mittlere Quadrate] [3 kleine Quadrate]\nZeile 2: [1 großes Dreieck] [2 mittlere Dreiecke] [3 kleine Dreiecke]\nZeile 3: [1 großer Kreis] [2 mittlere Kreise] [?]\n\nWas fehlt?",
-    "question_en": "Matrix (3×3) – Pattern (size + count):\nRow 1: [1 large square] [2 medium squares] [3 small squares]\nRow 2: [1 large triangle] [2 medium triangles] [3 small triangles]\nRow 3: [1 large circle] [2 medium circles] [?]\n\nWhat is missing?",
-    "options_de": [
-      "a) 1 kleiner Kreis",
-      "b) 2 kleine Kreise",
-      "c) 3 kleine Kreise",
-      "d) 3 mittlere Kreise",
-      "e) 3 große Kreise"
-    ],
-    "options_en": [
-      "a) 1 small circle",
-      "b) 2 small circles",
-      "c) 3 small circles",
-      "d) 3 medium circles",
-      "e) 3 large circles"
-    ],
-    "correct": [
-      2
-    ],
-    "explanation_de": "Zwei sich ändernde Eigenschaften: Anzahl pro Spalte (1→2→3), Größe pro Spalte (groß→mittel→klein). Form pro Zeile konstant. Fehlend: 3 kleine Kreise.",
-    "explanation_en": "Two changing properties: count per column (1→2→3), size per column (large→medium→small). Shape constant per row. Missing: 3 small circles.",
-    "mistakes_de": "Typische Fehler: Anzahl und Größe als unabhängige Eigenschaften nicht gleichzeitig verfolgen.",
-    "mistakes_en": "Common mistakes: Not tracking count and size simultaneously as independent properties.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Übungsaufgabe Matrizen (Mittel)"
-  },
-  {
     "id": "cognitive-matrix-med3",
     "quizId": "cognitive",
     "difficulty": "medium",
@@ -4386,82 +4310,6 @@
       }
     ],
     "source": "Übungsaufgabe Matrizen (Mittel)"
-  },
-  {
-    "id": "cognitive-matrix-med5",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster (Anzahl + Farbe):\nZeile 1: [3 schwarze Kreise] [2 schwarze Kreise] [1 schwarzer Kreis]\nZeile 2: [3 graue Kreise] [2 graue Kreise] [1 grauer Kreis]\nZeile 3: [3 weiße Kreise] [2 weiße Kreise] [?]\n\nWas fehlt?",
-    "question_en": "Matrix (3×3) – Pattern (count + colour):\nRow 1: [3 black circles] [2 black circles] [1 black circle]\nRow 2: [3 grey circles] [2 grey circles] [1 grey circle]\nRow 3: [3 white circles] [2 white circles] [?]\n\nWhat is missing?",
-    "options_de": [
-      "a) 3 weiße Kreise",
-      "b) 2 weiße Kreise",
-      "c) 1 weißer Kreis",
-      "d) 1 grauer Kreis",
-      "e) 1 schwarzer Kreis"
-    ],
-    "options_en": [
-      "a) 3 white circles",
-      "b) 2 white circles",
-      "c) 1 white circle",
-      "d) 1 grey circle",
-      "e) 1 black circle"
-    ],
-    "correct": [
-      2
-    ],
-    "explanation_de": "Anzahl sinkt pro Spalte (3→2→1). Farbe ist pro Zeile konstant (Zeile 3 = weiß). Fehlend: 1 weißer Kreis.",
-    "explanation_en": "Count decreases per column (3→2→1). Colour is constant per row (Row 3 = white). Missing: 1 white circle.",
-    "mistakes_de": "Typische Fehler: Farbe als Spaltenmuster lesen statt als Zeilenmuster.",
-    "mistakes_en": "Common mistakes: Reading colour as a column pattern rather than a row pattern.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Übungsaufgabe Matrizen (Mittel)"
-  },
-  {
-    "id": "cognitive-matrix-hard1",
-    "quizId": "cognitive",
-    "difficulty": "hard",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Drei Eigenschaften:\nZeile 1: [Großer Kreis, schwarz, mit Kreuz] [Mittlerer Kreis, weiß, mit Punkt] [Kleiner Kreis, grau, leer]\nZeile 2: [Großes Dreieck, weiß, mit Punkt] [Mittleres Dreieck, grau, leer] [Kleines Dreieck, schwarz, mit Kreuz]\nZeile 3: [Großes Quadrat, grau, leer] [Mittleres Quadrat, schwarz, mit Kreuz] [?]\n\nWas fehlt?",
-    "question_en": "Matrix (3×3) – Three properties:\nRow 1: [Large circle, black, with cross] [Medium circle, white, with dot] [Small circle, grey, empty]\nRow 2: [Large triangle, white, with dot] [Medium triangle, grey, empty] [Small triangle, black, with cross]\nRow 3: [Large square, grey, empty] [Medium square, black, with cross] [?]\n\nWhat is missing?",
-    "options_de": [
-      "a) Kleines Quadrat, weiß, mit Punkt",
-      "b) Kleines Quadrat, grau, leer",
-      "c) Kleines Quadrat, schwarz, leer",
-      "d) Kleines Dreieck, weiß, mit Punkt",
-      "e) Kleines Quadrat, weiß, leer"
-    ],
-    "options_en": [
-      "a) Small square, white, with dot",
-      "b) Small square, grey, empty",
-      "c) Small square, black, empty",
-      "d) Small triangle, white, with dot",
-      "e) Small square, white, empty"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Drei unabhängige Eigenschaften: (1) Größe pro Spalte: groß→mittel→klein. (2) Form pro Zeile: Kreis→Dreieck→Quadrat. (3) Farbe: jede Zeile und Spalte enthält schwarz/weiß/grau je einmal – Zeile 3 hat grau+schwarz→weiß. Innenzeichen: jede Zeile und Spalte enthält Kreuz/Punkt/leer je einmal – Zeile 3 hat leer+Kreuz→Punkt. Fehlend: Klein+Quadrat+weiß+Punkt.",
-    "explanation_en": "Three independent properties: (1) Size per column: large→medium→small. (2) Shape per row: circle→triangle→square. (3) Colour: each row/column has black/white/grey once — Row 3 has grey+black→white. Inner mark: each row/column has cross/dot/empty once — Row 3 has empty+cross→dot. Missing: Small+Square+white+dot.",
-    "mistakes_de": "Typische Fehler: (1) Nur zwei Eigenschaften verfolgen und die dritte (Innenzeichen) vergessen. (2) Farbe und Zeichen nicht als Latin-Square-Muster erkennen.",
-    "mistakes_en": "Common mistakes: (1) Tracking only two properties and forgetting the third (inner mark). (2) Not recognising the Latin square pattern for colour and mark.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Übungsaufgabe Matrizen (Schwer)"
   },
   {
     "id": "cognitive-matrix-hard2",
@@ -17852,5 +17700,157 @@
       }
     ],
     "source": "Generiert (gen_matrizen.py, Regel: 3 Eigenschaften im Lateinischen Quadrat)"
+  },
+  {
+    "id": "matrix-gen-100",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, grau] [Herz, schwarz] [Quadrat, weiß]\nZeile 2: [Herz, schwarz] [Quadrat, weiß] [Kreis, grau]\nZeile 3: [Quadrat, weiß] [Kreis, grau] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, grey] [Heart, black] [Square, white]\nRow 2: [Heart, black] [Square, white] [Circle, grey]\nRow 3: [Square, white] [Circle, grey] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Herz, weiß",
+      "b) Stern, schwarz",
+      "c) Raute, schwarz",
+      "d) Herz, grau",
+      "e) Herz, schwarz"
+    ],
+    "options_en": [
+      "a) Heart, grey",
+      "b) Heart, white",
+      "c) Star, black",
+      "d) Diamond, black",
+      "e) Heart, black"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Herz, schwarz.",
+    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Heart, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix-gen-101",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, klein, weiß] [Quadrat, groß, grau] [Stern, mittel, schwarz]\nZeile 2: [Stern, mittel, schwarz] [Dreieck, klein, weiß] [Quadrat, groß, grau]\nZeile 3: [Quadrat, groß, grau] [Stern, mittel, schwarz] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, small, white] [Square, big, grey] [Star, medium, black]\nRow 2: [Star, medium, black] [Triangle, small, white] [Square, big, grey]\nRow 3: [Square, big, grey] [Star, medium, black] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Dreieck, klein, grau",
+      "b) Kreis, klein, weiß",
+      "c) Dreieck, groß, weiß",
+      "d) Dreieck, klein, weiß",
+      "e) Dreieck, klein, schwarz"
+    ],
+    "options_en": [
+      "a) Triangle, big, white",
+      "b) Triangle, small, grey",
+      "c) Circle, small, white",
+      "d) Triangle, small, white",
+      "e) Triangle, small, black"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: 3 Eigenschaften im Lateinischen Quadrat. Antwort: Dreieck, klein, weiß.",
+    "explanation_en": "Rule: 3 Eigenschaften im Lateinischen Quadrat. Answer: Triangle, small, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: 3 Eigenschaften im Lateinischen Quadrat)"
+  },
+  {
+    "id": "matrix-gen-102",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, klein, weiß] [Sechseck, mittel, schwarz] [Stern, groß, grau]\nZeile 2: [Sechseck, groß, schwarz] [Stern, klein, grau] [Raute, mittel, weiß]\nZeile 3: [Stern, mittel, grau] [Raute, groß, weiß] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, small, white] [Hexagon, medium, black] [Star, big, grey]\nRow 2: [Hexagon, big, black] [Star, small, grey] [Diamond, medium, white]\nRow 3: [Star, medium, grey] [Diamond, big, white] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Sechseck, klein, schwarz",
+      "b) Stern, klein, schwarz",
+      "c) Sechseck, klein, grau",
+      "d) Sechseck, groß, schwarz",
+      "e) Sechseck, mittel, schwarz"
+    ],
+    "options_en": [
+      "a) Hexagon, small, black",
+      "b) Hexagon, medium, black",
+      "c) Star, small, black",
+      "d) Hexagon, big, black",
+      "e) Hexagon, small, grey"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: 3 Eigenschaften im Lateinischen Quadrat. Antwort: Sechseck, klein, schwarz.",
+    "explanation_en": "Rule: 3 Eigenschaften im Lateinischen Quadrat. Answer: Hexagon, small, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: 3 Eigenschaften im Lateinischen Quadrat)"
+  },
+  {
+    "id": "matrix-gen-103",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Sechseck, schwarz] [Stern, grau] [Dreieck, weiß]\nZeile 2: [Dreieck, grau] [Sechseck, weiß] [Stern, schwarz]\nZeile 3: [Stern, weiß] [Dreieck, schwarz] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Hexagon, black] [Star, grey] [Triangle, white]\nRow 2: [Triangle, grey] [Hexagon, white] [Star, black]\nRow 3: [Star, white] [Triangle, black] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Sechseck, grau",
+      "b) Sechseck, schwarz",
+      "c) Dreieck, grau",
+      "d) Sechseck, weiß",
+      "e) Kreis, grau"
+    ],
+    "options_en": [
+      "a) Hexagon, grey",
+      "b) Circle, grey",
+      "c) Hexagon, black",
+      "d) Triangle, grey",
+      "e) Hexagon, white"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Sechseck, grau.",
+    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Hexagon, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
   }
 ]

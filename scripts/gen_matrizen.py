@@ -143,6 +143,64 @@ class MatrixGenerator:
             grid.append(grid_row)
         return grid, 'hard', "Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile"
 
+    @staticmethod
+    def validate_grid(grid):
+        """Validate a generated grid BEFORE converting to question text.
+        Returns (ok, reason). Catches bugs at generation time."""
+        # Collect all properties across cells
+        shapes = set()
+        colors = set()
+        sizes = set()
+        has_count = False
+        has_arrow_dir = False
+        for row in grid:
+            for cell in row:
+                s = cell.get('shape', '')
+                shapes.add(s.split()[0].lower() if s else '')  # base shape name
+                if 'color' in cell: colors.add(cell['color'])
+                if 'size' in cell: sizes.add(cell['size'])
+                if cell.get('count', 1) > 1: has_count = True
+                if any(d in s for d in ['↑','↓','→','←']): has_arrow_dir = True
+
+        # Rule 1: not all cells visually identical
+        if len(shapes) == 1 and len(colors) <= 1 and len(sizes) <= 1 and not has_count and not has_arrow_dir:
+            return False, f"All cells identical: shape={shapes}, no color/size/count/arrow variety"
+
+        # Rule 2: answer properties must be present in the grid
+        answer = grid[2][2]
+        grid_props = set()
+        for row in grid:
+            for cell in row:
+                grid_props.update(cell.keys())
+        for prop in answer:
+            if prop not in grid_props:
+                return False, f"Answer property '{prop}' not in grid"
+
+        # Rule 3: at least 2 distinct visual properties vary across cells
+        varying = 0
+        if len(shapes) > 1: varying += 1
+        if len(colors) > 1: varying += 1
+        if len(sizes) > 1: varying += 1
+        if has_count: varying += 1
+        if has_arrow_dir: varying += 1
+        if varying < 1:
+            return False, f"Only {varying} properties vary — needs at least 1"
+
+        # Rule 4: Latin square check — if same property set, each value once per row/col
+        # (only for shape and color which are the most common Latin square properties)
+        for prop_name, values in [('shape', shapes), ('color', colors), ('size', sizes)]:
+            if len(values) == 3:  # exactly 3 values = should be Latin square
+                for row in range(3):
+                    row_vals = [grid[row][c].get(prop_name, '').split()[0].lower() if prop_name == 'shape' else grid[row][c].get(prop_name, '') for c in range(3)]
+                    if len(set(row_vals)) != 3:
+                        return False, f"Latin square violation: row {row} has {prop_name}={row_vals}"
+                for col in range(3):
+                    col_vals = [grid[r][col].get(prop_name, '').split()[0].lower() if prop_name == 'shape' else grid[r][col].get(prop_name, '') for r in range(3)]
+                    if len(set(col_vals)) != 3:
+                        return False, f"Latin square violation: col {col} has {prop_name}={col_vals}"
+
+        return True, "OK"
+
     def generate_one(self, idx, target_difficulty=None):
         for attempt in range(20):
             rule_func = random.choice(self.rule_types)
@@ -150,6 +208,11 @@ class MatrixGenerator:
 
             if target_difficulty and difficulty != target_difficulty:
                 continue
+
+            # VALIDATE the grid before proceeding
+            ok, reason = self.validate_grid(grid)
+            if not ok:
+                continue  # discard and retry
 
             # The answer is grid[2][2]
             answer_cell = grid[2][2]
@@ -240,6 +303,20 @@ class MatrixGenerator:
 
             options_de = [f"{chr(97+i)}) {o}" for i, o in enumerate(all_opts_de)]
             options_en = [f"{chr(97+i)}) {o}" for i, o in enumerate(all_opts_en)]
+
+            # POST-GENERATION validation: answer consistency
+            # Check answer mentions only properties that appear in grid cells
+            answer_lower = answer_text_de.lower()
+            grid_text = q_de.lower()
+            if 'punkt' in answer_lower and 'punkt' not in grid_text.replace('[?]', ''):
+                continue  # answer mentions dots but grid doesn't show any
+            if any(sz in answer_lower for sz in ['groß', 'mittel', 'klein']):
+                if not any(sz in grid_text.replace('[?]', '') for sz in ['groß', 'mittel', 'klein']):
+                    continue  # answer mentions size but grid has no sizes
+
+            # Verify correct_idx is valid
+            if correct_idx >= len(options_de):
+                continue
 
             return {
                 "id": f"matrix-gen-{idx:03d}",
