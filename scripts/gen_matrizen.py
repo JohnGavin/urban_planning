@@ -44,20 +44,30 @@ class MatrixGenerator:
             self.rule_rotation_shift,
         ]
 
+    @staticmethod
+    def _latin_square():
+        """Generate a random 3x3 Latin square (each value 0,1,2 once per row and column)."""
+        base = [[0,1,2], [1,2,0], [2,0,1]]
+        # Shuffle rows, then shuffle columns, then relabel values
+        random.shuffle(base)
+        cols = list(range(3))
+        random.shuffle(cols)
+        base = [[row[c] for c in cols] for row in base]
+        relabel = list(range(3))
+        random.shuffle(relabel)
+        return [[relabel[base[r][c]] for c in range(3)] for r in range(3)]
+
     def rule_latin_2prop(self):
         """Latin square: each shape and colour once per row/column."""
         shapes = random.sample(SHAPES, 3)
         colors = random.sample(COLORS, 3)
-        # Create a valid Latin square for shapes
-        perms = [[0,1,2], [1,2,0], [2,0,1]]
-        random.shuffle(perms)
+        shape_sq = self._latin_square()
+        color_sq = self._latin_square()
         grid = []
         for row in range(3):
             grid_row = []
             for col in range(3):
-                s = shapes[perms[row][col]]
-                c = colors[(perms[row][col] + row) % 3]
-                grid_row.append({'shape': s, 'color': c})
+                grid_row.append({'shape': shapes[shape_sq[row][col]], 'color': colors[color_sq[row][col]]})
             grid.append(grid_row)
         return grid, 'medium', "Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte"
 
@@ -66,16 +76,14 @@ class MatrixGenerator:
         shapes = random.sample(SHAPES, 3)
         colors = random.sample(COLORS, 3)
         sizes = list(SIZES)
-        perms = [[0,1,2], [1,2,0], [2,0,1]]
-        random.shuffle(perms)
+        shape_sq = self._latin_square()
+        color_sq = self._latin_square()
+        size_sq = self._latin_square()
         grid = []
         for row in range(3):
             grid_row = []
             for col in range(3):
-                s = shapes[perms[row][col]]
-                c = colors[(perms[row][col] + row) % 3]
-                sz = sizes[(col + row) % 3]
-                grid_row.append({'shape': s, 'color': c, 'size': sz})
+                grid_row.append({'shape': shapes[shape_sq[row][col]], 'color': colors[color_sq[row][col]], 'size': sizes[size_sq[row][col]]})
             grid.append(grid_row)
         return grid, 'hard', "3 Eigenschaften im Lateinischen Quadrat"
 

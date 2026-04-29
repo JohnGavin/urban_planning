@@ -13635,576 +13635,6 @@
     "source": "Generiert (gen_logik.py)"
   },
   {
-    "id": "matrix-gen-001",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, schwarz] [Raute, grau] [Raute, weiß]\nZeile 2: [Stern, schwarz] [Stern, grau] [Stern, weiß]\nZeile 3: [Dreieck, schwarz] [Dreieck, grau] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, black] [Diamond, grey] [Diamond, white]\nRow 2: [Star, black] [Star, grey] [Star, white]\nRow 3: [Triangle, black] [Triangle, grey] [?]\n\nComplete the matrix.",
-    "options_de": [
-      "a) Dreieck, schwarz",
-      "b) Stern, weiß",
-      "c) Herz, weiß",
-      "d) Dreieck, weiß",
-      "e) Sechseck, weiß"
-    ],
-    "options_en": [
-      "a) Star, white",
-      "b) Triangle, black",
-      "c) Heart, white",
-      "d) Triangle, white",
-      "e) Hexagon, white"
-    ],
-    "correct": [
-      3
-    ],
-    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Dreieck, weiß.",
-    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Triangle, white.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
-  },
-  {
-    "id": "matrix-gen-002",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, groß] [Dreieck, groß] [Quadrat, groß]\nZeile 2: [Raute, mittel] [Dreieck, mittel] [Quadrat, mittel]\nZeile 3: [Raute, klein] [Dreieck, klein] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, big] [Triangle, big] [Square, big]\nRow 2: [Diamond, medium] [Triangle, medium] [Square, medium]\nRow 3: [Diamond, small] [Triangle, small] [?]\n\nWhat belongs where the question mark is?",
-    "options_de": [
-      "a) Quadrat, klein",
-      "b) Dreieck, klein",
-      "c) Quadrat, groß",
-      "d) Quadrat, mittel",
-      "e) Raute, klein"
-    ],
-    "options_en": [
-      "a) Square, small",
-      "b) Square, big",
-      "c) Triangle, small",
-      "d) Diamond, small",
-      "e) Square, medium"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Quadrat, klein.",
-    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Square, small.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
-  },
-  {
-    "id": "matrix-gen-003",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, grau] [Sechseck, schwarz] [Kreis, weiß]\nZeile 2: [Sechseck, weiß] [Kreis, grau] [Stern, schwarz]\nZeile 3: [Kreis, schwarz] [Stern, weiß] [?]\n\nWelche Figur vervollständigt die Matrix?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, grey] [Hexagon, black] [Circle, white]\nRow 2: [Hexagon, white] [Circle, grey] [Star, black]\nRow 3: [Circle, black] [Star, white] [?]\n\nWhich figure completes the matrix?",
-    "options_de": [
-      "a) Stern, grau",
-      "b) Sechseck, schwarz",
-      "c) Raute, grau",
-      "d) Sechseck, grau",
-      "e) Sechseck, weiß"
-    ],
-    "options_en": [
-      "a) Diamond, grey",
-      "b) Hexagon, white",
-      "c) Hexagon, black",
-      "d) Hexagon, grey",
-      "e) Star, grey"
-    ],
-    "correct": [
-      3
-    ],
-    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Sechseck, grau.",
-    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Hexagon, grey.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
-  },
-  {
-    "id": "matrix-gen-004",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, grau] [Stern, schwarz] [Stern, weiß]\nZeile 2: [Sechseck, grau] [Sechseck, schwarz] [Sechseck, weiß]\nZeile 3: [Dreieck, grau] [Dreieck, schwarz] [?]\n\nErgänzen Sie die Matrix.",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, grey] [Star, black] [Star, white]\nRow 2: [Hexagon, grey] [Hexagon, black] [Hexagon, white]\nRow 3: [Triangle, grey] [Triangle, black] [?]\n\nComplete the matrix.",
-    "options_de": [
-      "a) Dreieck, weiß",
-      "b) Quadrat, weiß",
-      "c) Sechseck, weiß",
-      "d) Dreieck, grau",
-      "e) Dreieck, schwarz"
-    ],
-    "options_en": [
-      "a) Triangle, white",
-      "b) Square, white",
-      "c) Triangle, black",
-      "d) Hexagon, white",
-      "e) Triangle, grey"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Dreieck, weiß.",
-    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Triangle, white.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
-  },
-  {
-    "id": "matrix-gen-005",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, groß] [Sechseck, groß] [Stern, groß]\nZeile 2: [Dreieck, mittel] [Sechseck, mittel] [Stern, mittel]\nZeile 3: [Dreieck, klein] [Sechseck, klein] [?]\n\nWelche Figur vervollständigt die Matrix?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, big] [Hexagon, big] [Star, big]\nRow 2: [Triangle, medium] [Hexagon, medium] [Star, medium]\nRow 3: [Triangle, small] [Hexagon, small] [?]\n\nWhat belongs where the question mark is?",
-    "options_de": [
-      "a) Stern, klein",
-      "b) Stern, groß",
-      "c) Herz, klein",
-      "d) Stern, mittel",
-      "e) Dreieck, klein"
-    ],
-    "options_en": [
-      "a) Star, small",
-      "b) Star, big",
-      "c) Triangle, small",
-      "d) Heart, small",
-      "e) Star, medium"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Stern, klein.",
-    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Star, small.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
-  },
-  {
-    "id": "matrix-gen-006",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, grau] [Raute, schwarz] [Raute, weiß]\nZeile 2: [Kreis, grau] [Kreis, schwarz] [Kreis, weiß]\nZeile 3: [Sechseck, grau] [Sechseck, schwarz] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, grey] [Diamond, black] [Diamond, white]\nRow 2: [Circle, grey] [Circle, black] [Circle, white]\nRow 3: [Hexagon, grey] [Hexagon, black] [?]\n\nWhich figure completes the matrix?",
-    "options_de": [
-      "a) Sechseck, grau",
-      "b) Sechseck, schwarz",
-      "c) Kreis, weiß",
-      "d) Quadrat, weiß",
-      "e) Sechseck, weiß"
-    ],
-    "options_en": [
-      "a) Circle, white",
-      "b) Square, white",
-      "c) Hexagon, grey",
-      "d) Hexagon, black",
-      "e) Hexagon, white"
-    ],
-    "correct": [
-      4
-    ],
-    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Sechseck, weiß.",
-    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Hexagon, white.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
-  },
-  {
-    "id": "matrix-gen-007",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Sechseck, groß] [Kreis, groß] [Herz, groß]\nZeile 2: [Sechseck, mittel] [Kreis, mittel] [Herz, mittel]\nZeile 3: [Sechseck, klein] [Kreis, klein] [?]\n\nWelche Figur vervollständigt die Matrix?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Hexagon, big] [Circle, big] [Heart, big]\nRow 2: [Hexagon, medium] [Circle, medium] [Heart, medium]\nRow 3: [Hexagon, small] [Circle, small] [?]\n\nComplete the matrix.",
-    "options_de": [
-      "a) Herz, klein",
-      "b) Herz, groß",
-      "c) Raute, klein",
-      "d) Kreis, klein",
-      "e) Herz, mittel"
-    ],
-    "options_en": [
-      "a) Heart, small",
-      "b) Circle, small",
-      "c) Diamond, small",
-      "d) Heart, big",
-      "e) Heart, medium"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Herz, klein.",
-    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Heart, small.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
-  },
-  {
-    "id": "matrix-gen-008",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Kreis, schwarz] [Raute, grau] [Quadrat, weiß]\nZeile 2: [Raute, weiß] [Quadrat, schwarz] [Kreis, grau]\nZeile 3: [Quadrat, grau] [Kreis, weiß] [?]\n\nErgänzen Sie die Matrix.",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Circle, black] [Diamond, grey] [Square, white]\nRow 2: [Diamond, white] [Square, black] [Circle, grey]\nRow 3: [Square, grey] [Circle, white] [?]\n\nComplete the matrix.",
-    "options_de": [
-      "a) Raute, grau",
-      "b) Kreis, schwarz",
-      "c) Raute, weiß",
-      "d) Stern, schwarz",
-      "e) Raute, schwarz"
-    ],
-    "options_en": [
-      "a) Circle, black",
-      "b) Diamond, grey",
-      "c) Diamond, white",
-      "d) Star, black",
-      "e) Diamond, black"
-    ],
-    "correct": [
-      4
-    ],
-    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Raute, schwarz.",
-    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Diamond, black.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
-  },
-  {
-    "id": "matrix-gen-009",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, grau] [Dreieck, weiß] [Dreieck, schwarz]\nZeile 2: [Herz, grau] [Herz, weiß] [Herz, schwarz]\nZeile 3: [Sechseck, grau] [Sechseck, weiß] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, grey] [Triangle, white] [Triangle, black]\nRow 2: [Heart, grey] [Heart, white] [Heart, black]\nRow 3: [Hexagon, grey] [Hexagon, white] [?]\n\nWhat is the missing figure?",
-    "options_de": [
-      "a) Dreieck, schwarz",
-      "b) Sechseck, schwarz",
-      "c) Kreis, schwarz",
-      "d) Sechseck, weiß",
-      "e) Sechseck, grau"
-    ],
-    "options_en": [
-      "a) Hexagon, white",
-      "b) Hexagon, black",
-      "c) Circle, black",
-      "d) Hexagon, grey",
-      "e) Triangle, black"
-    ],
-    "correct": [
-      1
-    ],
-    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Sechseck, schwarz.",
-    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Hexagon, black.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
-  },
-  {
-    "id": "matrix-gen-010",
-    "quizId": "cognitive",
-    "difficulty": "medium",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, grau] [Kreis, schwarz] [Sechseck, weiß]\nZeile 2: [Sechseck, grau] [Raute, schwarz] [Kreis, weiß]\nZeile 3: [Kreis, grau] [Sechseck, schwarz] [?]\n\nErgänzen Sie die Matrix.",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, grey] [Circle, black] [Hexagon, white]\nRow 2: [Hexagon, grey] [Diamond, black] [Circle, white]\nRow 3: [Circle, grey] [Hexagon, black] [?]\n\nComplete the matrix.",
-    "options_de": [
-      "a) Raute, weiß",
-      "b) Raute, grau",
-      "c) Quadrat, weiß",
-      "d) Herz, weiß",
-      "e) Raute, schwarz"
-    ],
-    "options_en": [
-      "a) Diamond, white",
-      "b) Square, white",
-      "c) Diamond, black",
-      "d) Diamond, grey",
-      "e) Heart, white"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Raute, weiß.",
-    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Diamond, white.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
-  },
-  {
-    "id": "matrix-gen-011",
-    "quizId": "cognitive",
-    "difficulty": "hard",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, groß, schwarz] [Quadrat, mittel, weiß] [Sechseck, klein, grau]\nZeile 2: [Sechseck, mittel, schwarz] [Dreieck, klein, weiß] [Quadrat, groß, grau]\nZeile 3: [Quadrat, klein, schwarz] [Sechseck, groß, weiß] [?]\n\nWas ist die fehlende Figur?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, big, black] [Square, medium, white] [Hexagon, small, grey]\nRow 2: [Hexagon, medium, black] [Triangle, small, white] [Square, big, grey]\nRow 3: [Square, small, black] [Hexagon, big, white] [?]\n\nWhat belongs where the question mark is?",
-    "options_de": [
-      "a) Stern, mittel, grau",
-      "b) Dreieck, klein, grau",
-      "c) Dreieck, mittel, grau",
-      "d) Dreieck, mittel, weiß",
-      "e) Sechseck, mittel, grau"
-    ],
-    "options_en": [
-      "a) Hexagon, medium, grey",
-      "b) Triangle, medium, white",
-      "c) Triangle, medium, grey",
-      "d) Triangle, small, grey",
-      "e) Star, medium, grey"
-    ],
-    "correct": [
-      2
-    ],
-    "explanation_de": "Regel: 3 Eigenschaften im Lateinischen Quadrat. Antwort: Dreieck, mittel, grau.",
-    "explanation_en": "Rule: 3 Eigenschaften im Lateinischen Quadrat. Answer: Triangle, medium, grey.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: 3 Eigenschaften im Lateinischen Quadrat)"
-  },
-  {
-    "id": "matrix-gen-012",
-    "quizId": "cognitive",
-    "difficulty": "hard",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Pfeil →, grau] [Pfeil ↓, grau] [Pfeil ←, grau]\nZeile 2: [Pfeil ↓, schwarz] [Pfeil ←, schwarz] [Pfeil ↑, schwarz]\nZeile 3: [Pfeil ←, weiß] [Pfeil ↑, weiß] [?]\n\nErgänzen Sie die Matrix.",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Pfeil →, grey] [Pfeil ↓, grey] [Pfeil ←, grey]\nRow 2: [Pfeil ↓, black] [Pfeil ←, black] [Pfeil ↑, black]\nRow 3: [Pfeil ←, white] [Pfeil ↑, white] [?]\n\nWhich figure completes the matrix?",
-    "options_de": [
-      "a) Pfeil →, schwarz",
-      "b) Pfeil →, weiß",
-      "c) Kreis, weiß",
-      "d) Pfeil →, grau",
-      "e) Sechseck, weiß"
-    ],
-    "options_en": [
-      "a) Pfeil →, grey",
-      "b) Pfeil →, white",
-      "c) Pfeil →, black",
-      "d) Hexagon, white",
-      "e) Circle, white"
-    ],
-    "correct": [
-      1
-    ],
-    "explanation_de": "Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Antwort: Pfeil →, weiß.",
-    "explanation_en": "Rule: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Answer: Pfeil →, white.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile)"
-  },
-  {
-    "id": "matrix-gen-013",
-    "quizId": "cognitive",
-    "difficulty": "hard",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Dreieck, schwarz] [Dreieck, weiß] [2 Dreieck, schwarz]\nZeile 2: [3 Kreis, schwarz] [3 Kreis, weiß] [6 Kreis, schwarz]\nZeile 3: [3 Raute, schwarz] [3 Raute, weiß] [?]\n\nWelche Figur vervollständigt die Matrix?",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Triangle, black] [Triangle, white] [2 Triangle, black]\nRow 2: [3 Circle, black] [3 Circle, white] [6 Circle, black]\nRow 3: [3 Diamond, black] [3 Diamond, white] [?]\n\nWhat belongs where the question mark is?",
-    "options_de": [
-      "a) 6 Raute, schwarz",
-      "b) 2 Raute, schwarz",
-      "c) 6 Sechseck, schwarz",
-      "d) 6 Raute, weiß",
-      "e) 6 Herz, schwarz"
-    ],
-    "options_en": [
-      "a) 6 Diamond, black",
-      "b) 2 Diamond, black",
-      "c) 6 Heart, black",
-      "d) 6 Hexagon, black",
-      "e) 6 Diamond, white"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation_de": "Regel: Spalte 3 = Spalte 1 + Spalte 2. Antwort: 6 Raute, schwarz.",
-    "explanation_en": "Rule: Spalte 3 = Spalte 1 + Spalte 2. Answer: 6 Diamond, black.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Spalte 3 = Spalte 1 + Spalte 2)"
-  },
-  {
-    "id": "matrix-gen-014",
-    "quizId": "cognitive",
-    "difficulty": "hard",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [3 Herz, schwarz] [3 Herz, weiß] [6 Herz, schwarz]\nZeile 2: [3 Quadrat, schwarz] [Quadrat, weiß] [4 Quadrat, schwarz]\nZeile 3: [Dreieck, schwarz] [Dreieck, weiß] [?]\n\nErgänzen Sie die Matrix.",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [3 Heart, black] [3 Heart, white] [6 Heart, black]\nRow 2: [3 Square, black] [Square, white] [4 Square, black]\nRow 3: [Triangle, black] [Triangle, white] [?]\n\nWhat belongs where the question mark is?",
-    "options_de": [
-      "a) 2 Quadrat, schwarz",
-      "b) Dreieck, schwarz",
-      "c) 2 Dreieck, schwarz",
-      "d) 2 Dreieck, grau",
-      "e) 2 Kreis, schwarz"
-    ],
-    "options_en": [
-      "a) 2 Triangle, grey",
-      "b) 2 Square, black",
-      "c) 2 Triangle, black",
-      "d) 2 Circle, black",
-      "e) Triangle, black"
-    ],
-    "correct": [
-      2
-    ],
-    "explanation_de": "Regel: Spalte 3 = Spalte 1 + Spalte 2. Antwort: 2 Dreieck, schwarz.",
-    "explanation_en": "Rule: Spalte 3 = Spalte 1 + Spalte 2. Answer: 2 Triangle, black.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Spalte 3 = Spalte 1 + Spalte 2)"
-  },
-  {
-    "id": "matrix-gen-015",
-    "quizId": "cognitive",
-    "difficulty": "hard",
-    "tags": [
-      "matrizen"
-    ],
-    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Pfeil ←, grau] [Pfeil ↑, grau] [Pfeil →, grau]\nZeile 2: [Pfeil ↑, weiß] [Pfeil →, weiß] [Pfeil ↓, weiß]\nZeile 3: [Pfeil →, schwarz] [Pfeil ↓, schwarz] [?]\n\nErgänzen Sie die Matrix.",
-    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Pfeil ←, grey] [Pfeil ↑, grey] [Pfeil →, grey]\nRow 2: [Pfeil ↑, white] [Pfeil →, white] [Pfeil ↓, white]\nRow 3: [Pfeil →, black] [Pfeil ↓, black] [?]\n\nWhat belongs where the question mark is?",
-    "options_de": [
-      "a) Stern, schwarz",
-      "b) Pfeil ←, schwarz",
-      "c) Herz, schwarz",
-      "d) Quadrat, schwarz",
-      "e) Dreieck, schwarz"
-    ],
-    "options_en": [
-      "a) Triangle, black",
-      "b) Pfeil ←, black",
-      "c) Star, black",
-      "d) Heart, black",
-      "e) Square, black"
-    ],
-    "correct": [
-      1
-    ],
-    "explanation_de": "Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Antwort: Pfeil ←, schwarz.",
-    "explanation_en": "Rule: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Answer: Pfeil ←, black.",
-    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
-    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
-    "links": [
-      {
-        "url": "../knowledge/reihungstest-de.html",
-        "label": "Reihungstest Info"
-      }
-    ],
-    "source": "Generiert (gen_matrizen.py, Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile)"
-  },
-  {
     "id": "oerek-principles-gen-01",
     "quizId": "oerek-principles",
     "difficulty": "hard",
@@ -17852,5 +17282,575 @@
       }
     ],
     "source": "OEREK 2030 Implementierung"
+  },
+  {
+    "id": "matrix-gen-001",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Herz, groß] [Dreieck, groß] [Kreis, groß]\nZeile 2: [Herz, mittel] [Dreieck, mittel] [Kreis, mittel]\nZeile 3: [Herz, klein] [Dreieck, klein] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Heart, big] [Triangle, big] [Circle, big]\nRow 2: [Heart, medium] [Triangle, medium] [Circle, medium]\nRow 3: [Heart, small] [Triangle, small] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Kreis, klein",
+      "b) Kreis, groß",
+      "c) Dreieck, klein",
+      "d) Kreis, mittel",
+      "e) Herz, klein"
+    ],
+    "options_en": [
+      "a) Circle, small",
+      "b) Circle, big",
+      "c) Heart, small",
+      "d) Triangle, small",
+      "e) Circle, medium"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Kreis, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Circle, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-002",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, groß] [Kreis, groß] [Herz, groß]\nZeile 2: [Stern, mittel] [Kreis, mittel] [Herz, mittel]\nZeile 3: [Stern, klein] [Kreis, klein] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, big] [Circle, big] [Heart, big]\nRow 2: [Star, medium] [Circle, medium] [Heart, medium]\nRow 3: [Star, small] [Circle, small] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Herz, groß",
+      "b) Herz, mittel",
+      "c) Kreis, klein",
+      "d) Herz, klein",
+      "e) Stern, klein"
+    ],
+    "options_en": [
+      "a) Circle, small",
+      "b) Heart, big",
+      "c) Star, small",
+      "d) Heart, small",
+      "e) Heart, medium"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Herz, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Heart, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-003",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, groß] [Kreis, groß] [Quadrat, groß]\nZeile 2: [Stern, mittel] [Kreis, mittel] [Quadrat, mittel]\nZeile 3: [Stern, klein] [Kreis, klein] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, big] [Circle, big] [Square, big]\nRow 2: [Star, medium] [Circle, medium] [Square, medium]\nRow 3: [Star, small] [Circle, small] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Quadrat, groß",
+      "b) Quadrat, mittel",
+      "c) Kreis, klein",
+      "d) Quadrat, klein",
+      "e) Sechseck, klein"
+    ],
+    "options_en": [
+      "a) Circle, small",
+      "b) Square, big",
+      "c) Hexagon, small",
+      "d) Square, small",
+      "e) Square, medium"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Quadrat, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Square, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-004",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Herz, schwarz] [Herz, weiß] [Herz, grau]\nZeile 2: [Stern, schwarz] [Stern, weiß] [Stern, grau]\nZeile 3: [Raute, schwarz] [Raute, weiß] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Heart, black] [Heart, white] [Heart, grey]\nRow 2: [Star, black] [Star, white] [Star, grey]\nRow 3: [Diamond, black] [Diamond, white] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Sechseck, grau",
+      "b) Raute, grau",
+      "c) Herz, grau",
+      "d) Raute, weiß",
+      "e) Raute, schwarz"
+    ],
+    "options_en": [
+      "a) Diamond, black",
+      "b) Diamond, grey",
+      "c) Hexagon, grey",
+      "d) Diamond, white",
+      "e) Heart, grey"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Antwort: Raute, grau.",
+    "explanation_en": "Rule: Form pro Zeile konstant, Farbe ändert sich pro Spalte. Answer: Diamond, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Zeile konstant, Farbe ändert sich pro Spalte)"
+  },
+  {
+    "id": "matrix-gen-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Raute, weiß] [Herz, schwarz] [Quadrat, grau]\nZeile 2: [Quadrat, schwarz] [Raute, grau] [Herz, weiß]\nZeile 3: [Herz, grau] [Quadrat, weiß] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Diamond, white] [Heart, black] [Square, grey]\nRow 2: [Square, black] [Diamond, grey] [Heart, white]\nRow 3: [Heart, grey] [Square, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Quadrat, schwarz",
+      "b) Raute, grau",
+      "c) Dreieck, schwarz",
+      "d) Raute, schwarz",
+      "e) Kreis, schwarz"
+    ],
+    "options_en": [
+      "a) Circle, black",
+      "b) Diamond, grey",
+      "c) Square, black",
+      "d) Diamond, black",
+      "e) Triangle, black"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Antwort: Raute, schwarz.",
+    "explanation_en": "Rule: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte. Answer: Diamond, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix-gen-006",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Stern, groß] [Quadrat, groß] [Herz, groß]\nZeile 2: [Stern, mittel] [Quadrat, mittel] [Herz, mittel]\nZeile 3: [Stern, klein] [Quadrat, klein] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Star, big] [Square, big] [Heart, big]\nRow 2: [Star, medium] [Square, medium] [Heart, medium]\nRow 3: [Star, small] [Square, small] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Herz, klein",
+      "b) Quadrat, klein",
+      "c) Stern, klein",
+      "d) Herz, mittel",
+      "e) Sechseck, klein"
+    ],
+    "options_en": [
+      "a) Heart, small",
+      "b) Heart, medium",
+      "c) Square, small",
+      "d) Hexagon, small",
+      "e) Star, small"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Herz, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Heart, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-007",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Herz, groß] [Kreis, groß] [Quadrat, groß]\nZeile 2: [Herz, mittel] [Kreis, mittel] [Quadrat, mittel]\nZeile 3: [Herz, klein] [Kreis, klein] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Heart, big] [Circle, big] [Square, big]\nRow 2: [Heart, medium] [Circle, medium] [Square, medium]\nRow 3: [Heart, small] [Circle, small] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Quadrat, mittel",
+      "b) Sechseck, klein",
+      "c) Kreis, klein",
+      "d) Quadrat, klein",
+      "e) Quadrat, groß"
+    ],
+    "options_en": [
+      "a) Square, big",
+      "b) Square, medium",
+      "c) Hexagon, small",
+      "d) Square, small",
+      "e) Circle, small"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Quadrat, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Square, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-008",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Sechseck, groß] [Herz, groß] [Dreieck, groß]\nZeile 2: [Sechseck, mittel] [Herz, mittel] [Dreieck, mittel]\nZeile 3: [Sechseck, klein] [Herz, klein] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Hexagon, big] [Heart, big] [Triangle, big]\nRow 2: [Hexagon, medium] [Heart, medium] [Triangle, medium]\nRow 3: [Hexagon, small] [Heart, small] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Raute, klein",
+      "b) Kreis, klein",
+      "c) Dreieck, mittel",
+      "d) Dreieck, groß",
+      "e) Dreieck, klein"
+    ],
+    "options_en": [
+      "a) Triangle, big",
+      "b) Diamond, small",
+      "c) Triangle, medium",
+      "d) Circle, small",
+      "e) Triangle, small"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Dreieck, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Triangle, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-009",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Herz, groß] [Raute, groß] [Quadrat, groß]\nZeile 2: [Herz, mittel] [Raute, mittel] [Quadrat, mittel]\nZeile 3: [Herz, klein] [Raute, klein] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Heart, big] [Diamond, big] [Square, big]\nRow 2: [Heart, medium] [Diamond, medium] [Square, medium]\nRow 3: [Heart, small] [Diamond, small] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Quadrat, groß",
+      "b) Sechseck, klein",
+      "c) Stern, klein",
+      "d) Quadrat, mittel",
+      "e) Quadrat, klein"
+    ],
+    "options_en": [
+      "a) Square, medium",
+      "b) Star, small",
+      "c) Hexagon, small",
+      "d) Square, big",
+      "e) Square, small"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Quadrat, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Square, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-010",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Quadrat, groß] [Sechseck, groß] [Raute, groß]\nZeile 2: [Quadrat, mittel] [Sechseck, mittel] [Raute, mittel]\nZeile 3: [Quadrat, klein] [Sechseck, klein] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Square, big] [Hexagon, big] [Diamond, big]\nRow 2: [Square, medium] [Hexagon, medium] [Diamond, medium]\nRow 3: [Square, small] [Hexagon, small] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Raute, klein",
+      "b) Stern, klein",
+      "c) Kreis, klein",
+      "d) Raute, groß",
+      "e) Quadrat, klein"
+    ],
+    "options_en": [
+      "a) Diamond, small",
+      "b) Square, small",
+      "c) Star, small",
+      "d) Circle, small",
+      "e) Diamond, big"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile. Antwort: Raute, klein.",
+    "explanation_en": "Rule: Form pro Spalte konstant, Größe ändert sich pro Zeile. Answer: Diamond, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Form pro Spalte konstant, Größe ändert sich pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-011",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [3 Stern, schwarz] [2 Stern, weiß] [5 Stern, schwarz]\nZeile 2: [3 Sechseck, schwarz] [Sechseck, weiß] [4 Sechseck, schwarz]\nZeile 3: [2 Quadrat, schwarz] [2 Quadrat, weiß] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [3 Star, black] [2 Star, white] [5 Star, black]\nRow 2: [3 Hexagon, black] [Hexagon, white] [4 Hexagon, black]\nRow 3: [2 Square, black] [2 Square, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) 4 Kreis, schwarz",
+      "b) 3 Quadrat, schwarz",
+      "c) 5 Quadrat, schwarz",
+      "d) 4 Quadrat, grau",
+      "e) 4 Quadrat, schwarz"
+    ],
+    "options_en": [
+      "a) 4 Square, grey",
+      "b) 5 Square, black",
+      "c) 4 Circle, black",
+      "d) 3 Square, black",
+      "e) 4 Square, black"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Regel: Spalte 3 = Spalte 1 + Spalte 2. Antwort: 4 Quadrat, schwarz.",
+    "explanation_en": "Rule: Spalte 3 = Spalte 1 + Spalte 2. Answer: 4 Square, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Spalte 3 = Spalte 1 + Spalte 2)"
+  },
+  {
+    "id": "matrix-gen-012",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Pfeil ←, grau] [Pfeil ↑, grau] [Pfeil →, grau]\nZeile 2: [Pfeil ↑, schwarz] [Pfeil →, schwarz] [Pfeil ↓, schwarz]\nZeile 3: [Pfeil →, weiß] [Pfeil ↓, weiß] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Pfeil ←, grey] [Pfeil ↑, grey] [Pfeil →, grey]\nRow 2: [Pfeil ↑, black] [Pfeil →, black] [Pfeil ↓, black]\nRow 3: [Pfeil →, white] [Pfeil ↓, white] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Pfeil ←, weiß",
+      "b) Raute, weiß",
+      "c) Pfeil ←, schwarz",
+      "d) Herz, weiß",
+      "e) Pfeil ←, grau"
+    ],
+    "options_en": [
+      "a) Pfeil ←, white",
+      "b) Pfeil ←, grey",
+      "c) Heart, white",
+      "d) Pfeil ←, black",
+      "e) Diamond, white"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Antwort: Pfeil ←, weiß.",
+    "explanation_en": "Rule: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Answer: Pfeil ←, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-013",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Pfeil ←, grau] [Pfeil ↑, grau] [Pfeil →, grau]\nZeile 2: [Pfeil ↑, weiß] [Pfeil →, weiß] [Pfeil ↓, weiß]\nZeile 3: [Pfeil →, schwarz] [Pfeil ↓, schwarz] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Pfeil ←, grey] [Pfeil ↑, grey] [Pfeil →, grey]\nRow 2: [Pfeil ↑, white] [Pfeil →, white] [Pfeil ↓, white]\nRow 3: [Pfeil →, black] [Pfeil ↓, black] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Quadrat, schwarz",
+      "b) Pfeil ←, grau",
+      "c) Kreis, schwarz",
+      "d) Pfeil ←, schwarz",
+      "e) Pfeil ←, weiß"
+    ],
+    "options_en": [
+      "a) Pfeil ←, grey",
+      "b) Circle, black",
+      "c) Pfeil ←, white",
+      "d) Pfeil ←, black",
+      "e) Square, black"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Antwort: Pfeil ←, schwarz.",
+    "explanation_en": "Rule: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile. Answer: Pfeil ←, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Pfeil dreht sich pro Spalte um 90°, Farbe wechselt pro Zeile)"
+  },
+  {
+    "id": "matrix-gen-014",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Quadrat, schwarz] [Quadrat, weiß] [Quadrat, schwarz]\nZeile 2: [2 Stern, schwarz] [2 Stern, weiß] [Stern, schwarz]\nZeile 3: [Raute, schwarz] [Raute, weiß] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Square, black] [Square, white] [Square, black]\nRow 2: [2 Star, black] [2 Star, white] [Star, black]\nRow 3: [Diamond, black] [Diamond, white] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Dreieck, schwarz",
+      "b) Raute, grau",
+      "c) 2 Raute, schwarz",
+      "d) 4 Raute, schwarz",
+      "e) Raute, schwarz"
+    ],
+    "options_en": [
+      "a) 2 Diamond, black",
+      "b) Diamond, grey",
+      "c) Triangle, black",
+      "d) 4 Diamond, black",
+      "e) Diamond, black"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Regel: Spalte 3 = |Spalte 1 - Spalte 2|. Antwort: Raute, schwarz.",
+    "explanation_en": "Rule: Spalte 3 = |Spalte 1 - Spalte 2|. Answer: Diamond, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: Spalte 3 = |Spalte 1 - Spalte 2|)"
+  },
+  {
+    "id": "matrix-gen-015",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen"
+    ],
+    "question_de": "Matrix (3×3) – Muster:\nZeile 1: [Sechseck, groß, schwarz] [Herz, mittel, grau] [Stern, klein, weiß]\nZeile 2: [Stern, klein, weiß] [Sechseck, groß, schwarz] [Herz, mittel, grau]\nZeile 3: [Herz, mittel, grau] [Stern, klein, weiß] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (3×3) – Pattern:\nRow 1: [Hexagon, big, black] [Heart, medium, grey] [Star, small, white]\nRow 2: [Star, small, white] [Hexagon, big, black] [Heart, medium, grey]\nRow 3: [Heart, medium, grey] [Star, small, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Kreis, groß, schwarz",
+      "b) Sechseck, groß, schwarz",
+      "c) Sechseck, groß, weiß",
+      "d) Sechseck, groß, grau",
+      "e) Sechseck, klein, schwarz"
+    ],
+    "options_en": [
+      "a) Circle, big, black",
+      "b) Hexagon, big, black",
+      "c) Hexagon, small, black",
+      "d) Hexagon, big, grey",
+      "e) Hexagon, big, white"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Regel: 3 Eigenschaften im Lateinischen Quadrat. Antwort: Sechseck, groß, schwarz.",
+    "explanation_en": "Rule: 3 Eigenschaften im Lateinischen Quadrat. Answer: Hexagon, big, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen. (3) Die Regel anhand von 2 Zellen ableiten statt alle 8 zu prüfen.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property. (3) Deriving the rule from 2 cells instead of checking all 8.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py, Regel: 3 Eigenschaften im Lateinischen Quadrat)"
   }
 ]
