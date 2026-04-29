@@ -60,3 +60,29 @@ can understand why things are built this way and replicate/extend them.
 **Date:** 2026-04-27
 **Decision:** Commit after every meaningful unit of work. Push to GitHub. Deploy to gh-pages.
 **Rationale:** Enables revert if something breaks. Provides history for the other student to follow. gh-pages deployment makes results immediately visible.
+
+## D009: Programmatic question generators over AI generation
+
+**Date:** 2026-04-28
+**Decision:** Build Python generator scripts for cognitive questions (Würfel, Zahlenfolgen, Logik, Rechenoperationen, Matrizen) instead of using AI to write each question.
+**Alternatives:** AI-generate all questions (hit rate limits at 132 questions, cost ~60K tokens per batch), manual writing (too slow).
+**Rationale:** Generators produce unlimited verified questions at zero marginal cost. Mathematical simulation guarantees correct answers (no AI hallucination). Generators ran at 50-1000 questions/second vs AI at ~2/second. AI is still used for subject knowledge (Part A) and text comprehension (Part B) which require factual content.
+
+## D010: Validation test suite as quality gate
+
+**Date:** 2026-04-29
+**Decision:** 15-test validation suite ([`scripts/validate_questions.py`](../scripts/validate_questions.py)) runs after every question change. Self-validation inside generators catches errors at generation time.
+**Rationale:** Multiple bugs found via user screenshots (all-identical cells, missing dots, colour mismatches, "Alle obigen" patterns). Each bug pattern becomes a permanent test. Generators validate grids before AND after text conversion. The pipeline is: generate → validate_grid → format → post-validate → merge → validate_questions.py.
+
+## D011: SVG shapes over Unicode characters
+
+**Date:** 2026-04-29
+**Decision:** Matrix grid cells use inline SVG (9 shape types + 4 arrow directions) instead of Unicode text characters.
+**Alternatives:** Unicode characters (failed on some browsers), CSS shapes (limited), image files (heavy).
+**Rationale:** SVG renders on all browsers, supports fill/stroke for colour differentiation (schwarz=filled, weiß=outline, grau=medium), scales cleanly for size variants (groß/mittel/klein = 44/30/18px), and allows dot overlays inside shapes.
+
+## D012: Template-based repository for other students
+
+**Date:** 2026-04-28
+**Decision:** The repo is framed as a template, not a shared site. Other students download it, set up their own Supabase, publish via Netlify drag-and-drop, and customise independently.
+**Rationale:** Each student needs their own database (quiz scores are personal). Netlify drag-and-drop is the simplest deployment for non-developers (no Git, no terminal). Claude Cowork handles all technical steps via the CLAUDE.md auto-instructions.

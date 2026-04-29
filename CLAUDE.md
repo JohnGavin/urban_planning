@@ -47,14 +47,24 @@ site/                          ← The website (open index.html in browser)
     quiz-full-mock.html        ← Full mock exam (all questions)
   exam/countdown.html          ← Countdown + study plan + exam day details
   dashboard/progress.html      ← Progress tracking
-  data/questions.json          ← All quiz questions (76 questions, bilingual)
+  data/questions.json          ← All quiz questions (443 questions, bilingual)
 docs/                          ← Documentation and decisions
   DECISIONS.md                 ← Why the project is built this way
   REPLICATION.md               ← How to set up your own copy
   SUPABASE-GUIDE.md            ← Cloud database setup
   CONTENT-SOURCES.md           ← Where all content comes from
+  STUDENT-QUICKSTART.md        ← 7-step guide for non-developers
   supabase-setup.sql           ← Database creation SQL
+scripts/                       ← Question generators + validation
+  gen_wuerfel.py               ← Cube questions (verified by simulation)
+  gen_zahlen.py                ← Number sequences (30+ pattern families)
+  gen_rechen.py                ← Fill-in operators (brute-force solver)
+  gen_logik.py                 ← Syllogisms (model-checking verifier)
+  gen_matrizen.py              ← 3×3 grids (self-validating Latin squares)
+  merge_questions.py           ← Merge, deduplicate, validate
+  validate_questions.py        ← 15-test quality suite
 raw/                           ← Source PDFs (exam material)
+CHANGELOG.md                   ← Full change history
 ```
 
 ## How to Help the Student
@@ -63,23 +73,41 @@ raw/                           ← Source PDFs (exam material)
 Point them to `site/index.html` — open it in a browser. The home page has a "Start Here" section that recommends what to do next based on their progress.
 
 ### If they ask to add or modify quiz questions
+
+**Option 1: Use generators** (preferred for cognitive questions — zero AI tokens):
+```bash
+python3 scripts/gen_wuerfel.py --count 20 --difficulty hard --output /tmp/new.json
+python3 scripts/gen_zahlen.py --count 20 --difficulty medium --output /tmp/new2.json
+python3 scripts/merge_questions.py --main site/data/questions.json --add /tmp/new.json /tmp/new2.json
+python3 scripts/validate_questions.py site/data/questions.json
+```
+
+**Option 2: Edit JSON directly** (for subject knowledge / text comprehension):
 Edit `site/data/questions.json`. Each question has this format:
 ```json
 {
   "id": "unique-id",
   "quizId": "oerek-principles",
-  "difficulty": "easy|medium|hard",
+  "difficulty": "medium|hard",
+  "tags": ["oerek-grundsaetze"],
   "question_de": "German question text",
   "question_en": "English question text",
-  "options_de": ["a) ...", "b) ...", "c) ..."],
-  "options_en": ["a) ...", "b) ...", "c) ..."],
+  "options_de": ["a) ...", "b) ...", "c) ...", "d) ...", "e) ..."],
+  "options_en": ["a) ...", "b) ...", "c) ...", "d) ...", "e) ..."],
   "correct": [0, 2],
   "explanation_de": "German explanation",
   "explanation_en": "English explanation",
+  "mistakes_de": "Common mistakes",
+  "mistakes_en": "Common mistakes",
+  "links": [{"url": "../knowledge/oerek2030-de.html", "label": "OEREK 2030"}],
   "source": "Document reference"
 }
 ```
 Valid quizIds: `oerek-principles`, `oerek-megatrends`, `studienplan`, `oerek-actions`, `text-comprehension`, `cognitive`
+
+**ALWAYS validate after changes:** `python3 scripts/validate_questions.py site/data/questions.json`
+
+**NEVER use:** "Alle obigen", "a) und b)", or other composite answer options.
 
 ### If they ask to add new study material
 Create or edit HTML files in `site/knowledge/`. Follow the pattern of existing pages: same sidebar nav, same CSS link (`../css/style.css`), use tab-container for sections, include `../js/tabs.js` and `../js/sidebar.js` before `</body>`.

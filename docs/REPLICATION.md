@@ -31,11 +31,25 @@ This guide explains how to use this project if you only have Claude Cowork
 ## How to Modify with Claude Cowork
 
 Ask Claude Cowork to:
-- "Add 5 new quiz questions about OEREK megatrends to data/questions.json"
+- "Generate 20 new Würfel questions: `python3 scripts/gen_wuerfel.py --count 20 --output /tmp/new.json`"
+- "Merge them in: `python3 scripts/merge_questions.py --main site/data/questions.json --add /tmp/new.json`"
+- "Validate: `python3 scripts/validate_questions.py site/data/questions.json`"
+- "Add 5 new Part A questions about megatrends to data/questions.json"
 - "Translate this section to English in site/knowledge/oerek2030-en.html"
-- "Update my study schedule in site/exam/study-plan.html"
 
 Claude Cowork can read and edit all files directly. No build step needed.
+
+## Question Generators (zero AI cost)
+
+```bash
+python3 scripts/gen_wuerfel.py --count 50 --difficulty hard --output /tmp/w.json
+python3 scripts/gen_zahlen.py --count 50 --output /tmp/z.json
+python3 scripts/gen_rechen.py --count 30 --output /tmp/r.json
+python3 scripts/gen_logik.py --count 30 --output /tmp/l.json
+python3 scripts/gen_matrizen.py --count 20 --output /tmp/m.json
+python3 scripts/merge_questions.py --main site/data/questions.json --add /tmp/w.json /tmp/z.json /tmp/r.json /tmp/l.json /tmp/m.json
+python3 scripts/validate_questions.py site/data/questions.json
+```
 
 ## Student Progress
 

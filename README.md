@@ -50,14 +50,16 @@ You end up with: your own website, your own database, your own quiz bank — ful
 | Feature | Description | Link |
 |---------|-------------|------|
 | Study material | Knowledge base of all exam topics (German + English) | [OEREK 2030](site/knowledge/oerek2030-de.html) &#124; [Studienplan](site/knowledge/studienplan-de.html) &#124; [Exam Info](site/knowledge/reihungstest-de.html) |
-| 195 quiz questions | MC with exam-style scoring, choose 5/10/all, easy/medium/hard | [Quizzes](site/quizzes/) |
-| Progress tracking | Dashboard with scores, weak areas, lessons learned | [Dashboard](site/dashboard/progress.html) |
+| 443 quiz questions | MC with exam-style scoring, choose 5/10/all, easy/medium/hard, sub-type filter | [Quizzes](site/quizzes/) |
+| Progress tracking | Dashboard with scores, weak areas, lessons learned, cloud sync | [Dashboard](site/dashboard/progress.html) |
 | Exam countdown | Days until exam, study plan, exam day checklist | [Countdown](site/exam/countdown.html) |
-| Cube (Würfel) practice | 28 spatial reasoning questions with visual glossary | [Cognitive Quiz](site/quizzes/quiz-cognitive.html) |
-| Visual Matrizen | CSS grid rendering of 3x3 pattern matching | [Cognitive Quiz](site/quizzes/quiz-cognitive.html) |
+| Cube (Würfel) practice | 58 spatial reasoning questions with visual glossary | [Cognitive Quiz](site/quizzes/quiz-cognitive.html) |
+| Visual Matrizen | SVG grid rendering of 3×3 pattern matching (30 questions) | [Cognitive Quiz](site/quizzes/quiz-cognitive.html) |
 | Timed mock exam | 1 min/question countdown with auto-submit | [Mock Exam](site/quizzes/quiz-full-mock.html) |
 | Mistake tracking | Lessons learned, weak tags, retrain button | [Dashboard](site/dashboard/progress.html) |
-| Combined synthesis | Cross-document glossary, numbers, strategy | [Gesamtübersicht](site/knowledge/combined-de.html) |
+| Combined synthesis | Cross-document glossary, numbers, strategy, external links | [Gesamtübersicht](site/knowledge/combined-de.html) |
+| 7 question generators | Scalable: produce unlimited questions at zero AI cost | [Scripts](scripts/) |
+| 15-test validation suite | Catches broken questions before they reach students | [Validator](scripts/validate_questions.py) |
 
 ## Exam Key Facts
 
