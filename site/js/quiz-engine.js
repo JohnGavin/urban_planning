@@ -241,6 +241,14 @@ const QuizEngine = (() => {
     const parts = cellText.split(',').map(s => s.trim().toLowerCase());
 
     for (const p of parts) {
+      // "Shape mit N Punkt(en)" pattern (e.g., "Quadrat mit 2 Punkten")
+      const mitMatch = p.match(/(.+?)\s+mit\s+(\d+)\s+punkt/);
+      if (mitMatch) {
+        const sn = findShapeName(mitMatch[1]);
+        if (sn) shapeName = sn;
+        dotCount = parseInt(mitMatch[2]);
+        continue;
+      }
       // "N Punkt/Punkte" as a PROPERTY (dots on a shape)
       const dotMatch = p.match(/^(\d+)\s+punkt/);
       if (dotMatch) {
@@ -255,7 +263,6 @@ const QuizEngine = (() => {
           count = Math.min(parseInt(countMatch[1]), 6);
           shapeName = sn;
         } else {
-          // Might be "3 Punkte" without matching — treat as dots
           dotCount = parseInt(countMatch[1]);
         }
         continue;
