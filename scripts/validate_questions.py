@@ -182,6 +182,48 @@ def test_bilingual_completeness(questions, r):
         if not q.get('options_en') or len(q['options_en']) == 0:
             r.warn(q['id'], "Missing options_en")
 
+def test_matrizen_answer_color_in_grid(questions, r):
+    """Correct answer's colour must appear in the grid cells."""
+    colors = ['schwarz', 'weiß', 'grau']
+    for q in questions:
+        if 'matrizen' not in q.get('tags', []):
+            continue
+        text = q.get('question_de', '').lower()
+        cells = re.findall(r'\[([^\]?]+)\]', text)
+        grid_colors = set()
+        for cell in cells:
+            for c in colors:
+                if c in cell.lower():
+                    grid_colors.add(c)
+        if not grid_colors:
+            continue  # no colours in grid at all — OK (colour not a property)
+        correct_opt = q['options_de'][q['correct'][0]].lower()
+        correct_opt = re.sub(r'^[a-e]\)\s*', '', correct_opt)
+        for c in colors:
+            if c in correct_opt and c not in grid_colors:
+                r.error(q['id'], f"Answer mentions '{c}' but grid only has colours: {grid_colors}")
+
+def test_matrizen_answer_size_in_grid(questions, r):
+    """Correct answer's size must appear in the grid cells."""
+    sizes = ['groß', 'mittel', 'klein']
+    for q in questions:
+        if 'matrizen' not in q.get('tags', []):
+            continue
+        text = q.get('question_de', '').lower()
+        cells = re.findall(r'\[([^\]?]+)\]', text)
+        grid_sizes = set()
+        for cell in cells:
+            for sz in sizes:
+                if sz in cell.lower():
+                    grid_sizes.add(sz)
+        if not grid_sizes:
+            continue
+        correct_opt = q['options_de'][q['correct'][0]].lower()
+        correct_opt = re.sub(r'^[a-e]\)\s*', '', correct_opt)
+        for sz in sizes:
+            if sz in correct_opt and sz not in grid_sizes:
+                r.error(q['id'], f"Answer mentions '{sz}' but grid only has sizes: {grid_sizes}")
+
 def test_wuerfel_operations_valid(questions, r):
     """Würfel questions should only use known operations."""
     valid_ops = ['in ihre richtung', 'von ihnen weg', 'nach rechts', 'nach links',
@@ -208,6 +250,8 @@ ALL_TESTS = [
     test_no_composite_options,
     test_matrizen_visual_variety,
     test_matrizen_answer_consistency,
+    test_matrizen_answer_color_in_grid,
+    test_matrizen_answer_size_in_grid,
     test_option_count,
     test_difficulty_present,
     test_tags_present,

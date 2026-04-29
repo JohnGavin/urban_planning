@@ -132,23 +132,28 @@ const QuizEngine = (() => {
 
   // ── Visual Matrizen renderer ──────────────────────────────────────────────
   // SVG shapes with size support + dot overlays for cross-browser rendering
-  const SVG_SIZES = { 'groß': 36, 'gross': 36, 'big': 36, 'mittel': 26, 'medium': 26, 'klein': 16, 'small': 16 };
-  const SVG_COLORS = { 'schwarz': '#fff', 'black': '#fff', 'weiß': '#aaa', 'weiss': '#aaa', 'white': '#aaa', 'grau': '#666', 'grey': '#666', 'gray': '#666' };
+  const SVG_SIZES = { 'groß': 44, 'gross': 44, 'big': 44, 'mittel': 30, 'medium': 30, 'klein': 18, 'small': 18 };
+  // Colour mapping: schwarz=filled, weiß=outline only, grau=half-filled
+  // On dark background: schwarz=bright white, weiß=outline, grau=medium
+  const SVG_COLORS = { 'schwarz': '#ffffff', 'black': '#ffffff', 'weiß': '#16213e', 'weiss': '#16213e', 'white': '#16213e', 'grau': '#888888', 'grey': '#888888', 'gray': '#888888' };
+  const SVG_STROKES = { 'schwarz': 'none', 'black': 'none', 'weiß': '#cccccc', 'weiss': '#cccccc', 'white': '#cccccc', 'grau': 'none', 'grey': 'none', 'gray': 'none' };
 
-  function svgShape(name, fill, size) {
+  function svgShape(name, fill, size, stroke) {
     const c = fill || '#fff';
+    const stk = stroke || 'none';
+    const stkAttr = stk !== 'none' ? ` stroke="${stk}" stroke-width="2"` : '';
     const s = size || 28;
     const cx = s/2, cy = s/2, r = s*0.4;
     const shapes = {
-      'kreis':    `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${c}"/>`,
-      'dreieck':  `<polygon points="${cx},${s*0.07} ${s*0.93},${s*0.93} ${s*0.07},${s*0.93}" fill="${c}"/>`,
-      'quadrat':  `<rect x="${s*0.1}" y="${s*0.1}" width="${s*0.8}" height="${s*0.8}" fill="${c}"/>`,
-      'stern':    `<polygon points="${cx},${s*0.07} ${s*0.61},${s*0.36} ${s*0.93},${s*0.36} ${s*0.68},${s*0.57} ${s*0.79},${s*0.89} ${cx},${s*0.71} ${s*0.21},${s*0.89} ${s*0.32},${s*0.57} ${s*0.07},${s*0.36} ${s*0.39},${s*0.36}" fill="${c}"/>`,
-      'herz':     `<path d="M${cx} ${s*0.89} C${s*0.21} ${s*0.64} ${s*0.04} ${s*0.43} ${s*0.04} ${s*0.29} ${s*0.04} ${s*0.14} ${s*0.14} ${s*0.04} ${s*0.29} ${s*0.04} ${s*0.39} ${s*0.04} ${s*0.46} ${s*0.11} ${cx} ${s*0.18} ${s*0.54} ${s*0.11} ${s*0.61} ${s*0.04} ${s*0.71} ${s*0.04} ${s*0.86} ${s*0.04} ${s*0.96} ${s*0.14} ${s*0.96} ${s*0.29} ${s*0.96} ${s*0.43} ${s*0.79} ${s*0.64} ${cx} ${s*0.89}Z" fill="${c}"/>`,
-      'raute':    `<polygon points="${cx},${s*0.07} ${s*0.93},${cy} ${cx},${s*0.93} ${s*0.07},${cy}" fill="${c}"/>`,
-      'sechseck': `<polygon points="${s*0.25},${s*0.1} ${s*0.75},${s*0.1} ${s*0.96},${cy} ${s*0.75},${s*0.9} ${s*0.25},${s*0.9} ${s*0.04},${cy}" fill="${c}"/>`,
-      'pfeil':    `<polygon points="${s*0.14},${s*0.43} ${s*0.71},${s*0.43} ${s*0.71},${s*0.21} ${s*0.96},${cy} ${s*0.71},${s*0.79} ${s*0.71},${s*0.57} ${s*0.14},${s*0.57}" fill="${c}"/>`,
-      'punkt':    `<circle cx="${cx}" cy="${cy}" r="${s*0.18}" fill="${c}"/>`,
+      'kreis':    `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${c}"${stkAttr}/>`,
+      'dreieck':  `<polygon points="${cx},${s*0.07} ${s*0.93},${s*0.93} ${s*0.07},${s*0.93}" fill="${c}"${stkAttr}/>`,
+      'quadrat':  `<rect x="${s*0.1}" y="${s*0.1}" width="${s*0.8}" height="${s*0.8}" fill="${c}"${stkAttr}/>`,
+      'stern':    `<polygon points="${cx},${s*0.07} ${s*0.61},${s*0.36} ${s*0.93},${s*0.36} ${s*0.68},${s*0.57} ${s*0.79},${s*0.89} ${cx},${s*0.71} ${s*0.21},${s*0.89} ${s*0.32},${s*0.57} ${s*0.07},${s*0.36} ${s*0.39},${s*0.36}" fill="${c}"${stkAttr}/>`,
+      'herz':     `<path d="M${cx} ${s*0.89} C${s*0.21} ${s*0.64} ${s*0.04} ${s*0.43} ${s*0.04} ${s*0.29} ${s*0.04} ${s*0.14} ${s*0.14} ${s*0.04} ${s*0.29} ${s*0.04} ${s*0.39} ${s*0.04} ${s*0.46} ${s*0.11} ${cx} ${s*0.18} ${s*0.54} ${s*0.11} ${s*0.61} ${s*0.04} ${s*0.71} ${s*0.04} ${s*0.86} ${s*0.04} ${s*0.96} ${s*0.14} ${s*0.96} ${s*0.29} ${s*0.96} ${s*0.43} ${s*0.79} ${s*0.64} ${cx} ${s*0.89}Z" fill="${c}"${stkAttr}/>`,
+      'raute':    `<polygon points="${cx},${s*0.07} ${s*0.93},${cy} ${cx},${s*0.93} ${s*0.07},${cy}" fill="${c}"${stkAttr}/>`,
+      'sechseck': `<polygon points="${s*0.25},${s*0.1} ${s*0.75},${s*0.1} ${s*0.96},${cy} ${s*0.75},${s*0.9} ${s*0.25},${s*0.9} ${s*0.04},${cy}" fill="${c}"${stkAttr}/>`,
+      'pfeil':    `<polygon points="${s*0.14},${s*0.43} ${s*0.71},${s*0.43} ${s*0.71},${s*0.21} ${s*0.96},${cy} ${s*0.71},${s*0.79} ${s*0.71},${s*0.57} ${s*0.14},${s*0.57}" fill="${c}"${stkAttr}/>`,
+      'punkt':    `<circle cx="${cx}" cy="${cy}" r="${s*0.18}" fill="${c}"${stkAttr}/>`,
     };
     const inner = shapes[name] || `<text x="${cx}" y="${cy}" text-anchor="middle" dominant-baseline="central" fill="${c}" font-size="${s*0.6}">${name}</text>`;
     return `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}">${inner}</svg>`;
@@ -292,6 +297,7 @@ const QuizEngine = (() => {
   function renderCellSVG(parsed) {
     if (!parsed) return '';
     const fill = SVG_COLORS[parsed.colorName] || '#fff';
+    const stroke = SVG_STROKES[parsed.colorName] || 'none';
     const sizeVal = parsed.sizePixels || 28;
 
     // Arrow with direction
@@ -301,32 +307,39 @@ const QuizEngine = (() => {
 
     // Combination (X + Y)
     if (parsed.combo && Array.isArray(parsed.shapeName)) {
-      return parsed.shapeName.map(n => svgShape(n, fill, 20)).join('<span style="font-size:0.6rem;color:var(--tu-text-dim)">+</span>');
+      return parsed.shapeName.map(n => svgShape(n, fill, 20, stroke)).join('<span style="font-size:0.6rem;color:var(--tu-text-dim)">+</span>');
     }
 
     // Count-only (e.g., "3 Punkte" or "2 Kreise") — render N small shapes in a row
     if (parsed.count > 1) {
       const smallSize = Math.max(12, Math.floor(50 / parsed.count));
-      return Array.from({length: parsed.count}, () => svgShape(parsed.shapeName, fill, smallSize)).join('');
+      return Array.from({length: parsed.count}, () => svgShape(parsed.shapeName, fill, smallSize, stroke)).join('');
     }
 
     // Shape with dots (e.g., "Stern, groß, 2 Punkte") — shape + dots below
     if (parsed.dotCount && parsed.dotCount > 0) {
-      const shapeSvgInner = svgShape(parsed.shapeName, fill, sizeVal);
-      // Render dots as separate small circles below the shape
-      const dotSize = 5;
-      const dotSpacing = 10;
-      const totalW = parsed.dotCount * dotSpacing;
-      const startX = (sizeVal - totalW) / 2 + dotSpacing / 2;
-      let dotsSvg = `<svg width="${sizeVal}" height="10" viewBox="0 0 ${sizeVal} 10">`;
+      const shapeSize = Math.min(sizeVal, 36); // cap shape size to leave room for dots
+      const shapeSvgInner = svgShape(parsed.shapeName, fill, shapeSize, stroke);
+      // Render dots in a compact grid that fits inside 70px width
+      const maxDotsPerRow = 5;
+      const dotR = 3;
+      const dotSpacing = 9;
+      const rows = Math.ceil(parsed.dotCount / maxDotsPerRow);
+      const svgH = rows * dotSpacing + 2;
+      const svgW = 70;
+      let dotsSvg = `<svg width="${svgW}" height="${svgH}" viewBox="0 0 ${svgW} ${svgH}">`;
       for (let i = 0; i < parsed.dotCount; i++) {
-        dotsSvg += `<circle cx="${startX + i * dotSpacing}" cy="5" r="3" fill="${fill}"/>`;
+        const row = Math.floor(i / maxDotsPerRow);
+        const col = i % maxDotsPerRow;
+        const dotsInThisRow = Math.min(maxDotsPerRow, parsed.dotCount - row * maxDotsPerRow);
+        const rowStartX = (svgW - dotsInThisRow * dotSpacing) / 2 + dotSpacing / 2;
+        dotsSvg += `<circle cx="${rowStartX + col * dotSpacing}" cy="${row * dotSpacing + dotR + 1}" r="${dotR}" fill="${fill}"/>`;
       }
       dotsSvg += '</svg>';
-      return `<div style="display:flex;flex-direction:column;align-items:center;gap:1px">${shapeSvgInner}${dotsSvg}</div>`;
+      return `<div style="display:flex;flex-direction:column;align-items:center;gap:0px;line-height:1">${shapeSvgInner}${dotsSvg}</div>`;
     }
 
-    return svgShape(parsed.shapeName, fill, sizeVal);
+    return svgShape(parsed.shapeName, fill, sizeVal, stroke);
   }
 
   function renderMatrixGrid(questionText) {

@@ -541,8 +541,8 @@ li { margin: 0.4rem 0; }
 }
 
 .matrix-cell {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -550,6 +550,7 @@ li { margin: 0.4rem 0; }
   background: var(--tu-surface);
   border: 1px solid var(--tu-border);
   position: relative;
+  overflow: hidden;
 }
 
 .matrix-cell .shape {
