@@ -103,6 +103,7 @@ const QuizEngine = (() => {
           <div id="qe-tag-select" style="display:flex;gap:0.25rem;flex-wrap:wrap">
             <button class="btn btn-primary qe-opt-btn" data-tag="all" style="font-size:0.85rem">Alle Themen</button>
             <button class="btn btn-outline qe-opt-btn" data-tag="wuerfel" style="font-size:0.85rem">Würfel</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="wuerfelnetz" style="font-size:0.85rem">Würfelnetz</button>
             <button class="btn btn-outline qe-opt-btn" data-tag="matrizen" style="font-size:0.85rem">Matrizen</button>
             <button class="btn btn-outline qe-opt-btn" data-tag="zahlenfolge" style="font-size:0.85rem">Zahlenfolgen</button>
             <button class="btn btn-outline qe-opt-btn" data-tag="logik" style="font-size:0.85rem">Logik</button>
@@ -370,6 +371,100 @@ const QuizEngine = (() => {
     return `<div class="matrix-grid">${cells.join('')}</div><p style="margin-top:0.75rem">${questionPart}</p>`;
   }
 
+  // ── Würfelnetz renderer ───────────────────────────────────────────────────
+  // Question text carries one line:  "Netz: . A . . / B C D E / . F . ."
+  // ("Net:" in English). "." = empty square, anything else = a face symbol.
+  // Returns HTML (SVG + remaining question text) or null if the line cannot be parsed.
+  function escapeHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function renderNetQuestion(questionText) {
+    const lines = questionText.split('\n');
+    const idx = lines.findIndex(l => /^\s*(Netz|Net):\s*\S/.test(l));
+    if (idx < 0) return null;
+    const rows = lines[idx].replace(/^\s*(Netz|Net):\s*/, '').trim()
+      .split(/\s+\/\s+/).map(r => r.trim().split(/\s+/));
+    const nCols = rows[0].length;
+    if (rows.length > 6 || nCols > 6 || rows.some(r => r.length !== nCols)) return null;
+    const filled = rows.reduce((n, r) => n + r.filter(t => t !== '.').length, 0);
+    if (filled !== 6) return null;
+
+    const S = 48;   // square size in SVG units
+    const G = 3;    // gap between squares
+    const w = nCols * S, h = rows.length * S;
+    let cells = '';
+    rows.forEach((row, ri) => {
+      row.forEach((tok, ci) => {
+        if (tok === '.') return;
+        const x = ci * S + G / 2, y = ri * S + G / 2;
+        cells += `<g class="net-cell"><rect x="${x}" y="${y}" width="${S - G}" height="${S - G}" rx="4"/>` +
+                 `<text x="${x + (S - G) / 2}" y="${y + (S - G) / 2}" dy="0.35em" text-anchor="middle">${escapeHtml(tok)}</text></g>`;
+      });
+    });
+    const label = 'Würfelnetz: ' + rows.map(r => r.join(' ')).join(' / ');
+    const svg = `<svg class="net-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" ` +
+                `style="width:${w}px;max-width:100%;height:auto" role="img" aria-label="${escapeHtml(label)}">${cells}</svg>`;
+    const rest = lines.filter((_, i) => i !== idx).join('<br>');
+    return `<div class="net-wrap">${svg}</div><p style="margin-top:0.75rem">${rest}</p>`;
+  }
+
+  // ── Explanation block with optional alternative explanations ─────────────
+  // q.explanations_alt (optional): [{title_de,title_en,text_de,text_en}, ...]
+  // Without it the plain primary explanation text is returned (unchanged behaviour).
+  const EXP_PREF_KEY = 'qe-exp-style';
+  function getExpPref() {
+    try { return localStorage.getItem(EXP_PREF_KEY) || ''; } catch (e) { return ''; }
+  }
+  function setExpPref(v) {
+    try { if (v) localStorage.setItem(EXP_PREF_KEY, v); else localStorage.removeItem(EXP_PREF_KEY); } catch (e) { /* storage unavailable */ }
+  }
+
+  function renderExplanationBlock(q, lang) {
+    const en = lang === 'en';
+    const primary = en ? (q.explanation_en || q.explanation_de) : q.explanation_de;
+    const alts = Array.isArray(q.explanations_alt)
+      ? q.explanations_alt.filter(a => a && (a.text_de || a.text_en)) : [];
+    if (alts.length === 0) return primary;
+
+    const panels = [{ title: en ? 'Step by step' : 'Schritt für Schritt', key: '', text: primary }]
+      .concat(alts.map(a => ({
+        title: en ? (a.title_en || a.title_de) : a.title_de,
+        key: a.title_de || '',
+        text: en ? (a.text_en || a.text_de) : a.text_de
+      })));
+    const pref = getExpPref();
+    let active = panels.findIndex((p, i) => i > 0 && pref && p.key === pref);
+    if (active < 0) active = 0;
+
+    const buttons = panels.map((p, i) =>
+      `<button type="button" class="exp-btn" data-exp-idx="${i}" data-exp-key="${escapeHtml(p.key)}" aria-pressed="${i === active}">${escapeHtml(p.title)}</button>`
+    ).join('');
+    const bodies = panels.map((p, i) =>
+      `<div class="exp-panel" data-exp-idx="${i}"${i === active ? '' : ' hidden'}>${p.text}</div>`
+    ).join('');
+    return `<div class="qe-exp" data-qe-exp>
+      <div class="exp-switch" role="group" aria-label="${en ? 'Choose an explanation' : 'Erklärung wählen'}">
+        <span class="exp-switch-label">${en ? 'Other explanation:' : 'Andere Erklärung:'}</span>${buttons}
+      </div>${bodies}</div>`;
+  }
+
+  // One delegated listener per container (container persists across re-renders).
+  function wireExplanationSwitchers(container) {
+    if (container.dataset.qeExpWired === '1') return;
+    container.dataset.qeExpWired = '1';
+    container.addEventListener('click', (e) => {
+      const btn = e.target.closest ? e.target.closest('.exp-btn') : null;
+      if (!btn || !container.contains(btn)) return;
+      const box = btn.closest('[data-qe-exp]');
+      if (!box) return;
+      const idx = btn.dataset.expIdx;
+      box.querySelectorAll('.exp-btn').forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
+      box.querySelectorAll('.exp-panel').forEach(p => { p.hidden = (p.dataset.expIdx !== idx); });
+      setExpPref(idx === '0' ? '' : (btn.dataset.expKey || ''));
+    });
+  }
+
   function renderQuestions(container, questions, lang, timedMode, countdownSeconds) {
     const html = questions.map((q, qi) => {
       const qText = lang === 'en' ? (q.question_en || q.question_de) : q.question_de;
@@ -381,6 +476,10 @@ const QuizEngine = (() => {
       if (isMatrix) {
         const gridHtml = renderMatrixGrid(qText);
         if (gridHtml) displayText = gridHtml;
+      }
+      if ((q.tags || []).includes('wuerfelnetz')) {
+        const netHtml = renderNetQuestion(qText);   // falls back to plain text if unparsable
+        if (netHtml) displayText = netHtml;
       }
 
       const optHtml = opts.map((opt, oi) => `
@@ -397,7 +496,7 @@ const QuizEngine = (() => {
           <div class="quiz-question-text">${displayText}</div>
           <div class="qe-options">${optHtml}</div>
           <div class="quiz-explanation" id="qe-exp-${qi}">
-            ${lang === 'en' ? (q.explanation_en || q.explanation_de) : q.explanation_de}
+            ${renderExplanationBlock(q, lang)}
             <div style="font-size:0.78rem;color:var(--tu-text-dim);margin-top:0.4rem">Quelle: ${q.source || '—'}</div>
           </div>
         </div>`;
@@ -420,6 +519,7 @@ const QuizEngine = (() => {
           &#8635; Neu starten
         </button>
       </div>`;
+    wireExplanationSwitchers(container);
   }
 
   function renderResults(container, questions, userAnswers, scores, lang, durationSec) {
@@ -462,7 +562,6 @@ const QuizEngine = (() => {
     const questionsHtml = questions.map((q, qi) => {
       const qText = lang === 'en' ? (q.question_en || q.question_de) : q.question_de;
       const opts  = lang === 'en' ? (q.options_en  || q.options_de)  : q.options_de;
-      const expText = lang === 'en' ? (q.explanation_en || q.explanation_de) : q.explanation_de;
       const selected = userAnswers[qi] || [];
       const correct = q.correct;
       const qScore = scores[qi];
@@ -496,6 +595,10 @@ const QuizEngine = (() => {
         const gridHtml = renderMatrixGrid(qText);
         if (gridHtml) displayText = gridHtml;
       }
+      if ((q.tags || []).includes('wuerfelnetz')) {
+        const netHtml = renderNetQuestion(qText);   // falls back to plain text if unparsable
+        if (netHtml) displayText = netHtml;
+      }
 
       return `
         <div class="quiz-question" id="qe-res-${qi}">
@@ -506,7 +609,7 @@ const QuizEngine = (() => {
           <div class="quiz-question-text">${displayText}</div>
           <div class="qe-options">${optHtml}</div>
           <div class="quiz-explanation visible">
-            ${expText}
+            ${renderExplanationBlock(q, lang)}
             ${qScore < 0.99 && q.mistakes_de ? `<div style="margin-top:0.75rem;padding:0.75rem;background:rgba(244,67,54,0.08);border-radius:var(--radius);border-left:3px solid var(--tu-error)"><strong>Häufige Fehler:</strong> ${lang === 'en' ? (q.mistakes_en || q.mistakes_de) : q.mistakes_de}</div>` : ''}
             ${q.links && q.links.length > 0 ? `<div style="margin-top:0.5rem;font-size:0.8rem"><strong>Weiterlesen:</strong> ${q.links.map(l => '<a href="' + l.url + '" style="margin-right:0.75rem">' + l.label + '</a>').join('')}</div>` : ''}
             <div style="font-size:0.78rem;color:var(--tu-text-dim);margin-top:0.4rem">Quelle: ${q.source || '—'}</div>
@@ -534,6 +637,7 @@ const QuizEngine = (() => {
       </div>
       <h2>Detailauswertung</h2>
       ${questionsHtml}`;
+    wireExplanationSwitchers(container);
   }
 
   // ── Core init ──────────────────────────────────────────────────────────────

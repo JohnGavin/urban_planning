@@ -632,3 +632,59 @@ li { margin: 0.4rem 0; }
   color: var(--tu-accent);
   text-decoration: none;
 }
+
+
+/* ---- Würfelnetz (cube net) + alternative explanations ---- */
+.net-wrap {
+  display: inline-block;
+  margin: 0.75rem 0;
+  padding: 0.75rem;
+  max-width: 100%;
+  background: var(--tu-dark);
+  border: 1px solid var(--tu-border);
+  border-radius: var(--radius);
+}
+.net-svg { display: block; }
+.net-cell rect {
+  fill: var(--tu-surface-light);
+  stroke: var(--tu-accent);
+  stroke-width: 1.5;
+}
+.net-cell text {
+  fill: var(--tu-text-bright);
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.exp-switch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+.exp-switch-label {
+  font-size: 0.8rem;
+  color: var(--tu-text-muted);
+  margin-right: 0.25rem;
+}
+.exp-btn {
+  min-height: 36px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+  color: var(--tu-text);
+  background: transparent;
+  border: 1px solid var(--tu-border);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.exp-btn:hover { border-color: var(--tu-accent); color: var(--tu-accent); }
+.exp-btn:focus-visible { outline: 2px solid var(--tu-accent); outline-offset: 2px; }
+.exp-btn[aria-pressed="true"] {
+  background: var(--tu-blue);
+  border-color: var(--tu-blue);
+  color: var(--tu-text-bright);
+}
+.exp-panel { line-height: 1.5; }
