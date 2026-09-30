@@ -55,7 +55,8 @@ You end up with: your own website, your own database, your own quiz bank — ful
 | Exam countdown | Days until exam, study plan, exam day checklist | [Countdown](site/exam/countdown.html) |
 | Cube (Würfel) practice | 58 spatial reasoning questions with visual glossary | [Cognitive Quiz](site/quizzes/quiz-cognitive.html) |
 | Visual Matrizen | SVG grid rendering of 3×3 pattern matching (30 questions) | [Cognitive Quiz](site/quizzes/quiz-cognitive.html) |
-| Timed mock exam | 1 min/question countdown with auto-submit | [Mock Exam](site/quizzes/quiz-full-mock.html) |
+| Timed mock exam | 1 min/question countdown with auto-submit; questions drawn 40/20/40 from Teil A/B/C like the real exam | [Mock Exam](site/quizzes/quiz-full-mock.html) |
+| Teil A quiz | All subject-knowledge questions in one quiz | [Teil A](site/quizzes/quiz-coursework.html) |
 | Mistake tracking | Lessons learned, weak tags, retrain button | [Dashboard](site/dashboard/progress.html) |
 | Combined synthesis | Cross-document glossary, numbers, strategy, external links | [Gesamtübersicht](site/knowledge/combined-de.html) |
 | 7 question generators | Scalable: produce unlimited questions at zero AI cost | [Scripts](scripts/) |

@@ -42,6 +42,7 @@
     <div class="nav-section">
       <div class="nav-section-title">Quizzes</div>
     </div>
+    <a href="quizzes/quiz-coursework.html" class="nav-link"><span class="icon">&#10004;</span> Teil A – Fachwissen</a>
     <a href="quizzes/quiz-oerek-principles.html" class="nav-link"><span class="icon">&#10004;</span> OEREK Principles</a>
     <a href="quizzes/quiz-oerek-megatrends.html" class="nav-link"><span class="icon">&#10004;</span> Megatrends</a>
     <a href="quizzes/quiz-oerek-actions.html" class="nav-link"><span class="icon">&#10004;</span> Handlungsprogramm</a>
@@ -162,10 +163,11 @@
       <div class="card" style="display:flex; align-items:center; gap:1rem">
         <div class="stat-value" style="font-size:1.5rem; min-width:2rem; text-align:center">5</div>
         <div style="flex:1">
-          <strong>Take Studienplan + Megatrends quizzes</strong>
+          <strong>Take the Teil A quiz, or Studienplan + Megatrends quizzes</strong>
           <p class="text-muted" style="font-size:0.85rem; margin:0">Cover Part A material comprehensively.</p>
         </div>
         <div style="display:flex; gap:0.5rem; flex-wrap:wrap">
+          <a href="quizzes/quiz-coursework.html" class="btn btn-primary" style="font-size:0.75rem">Teil A gesamt</a>
           <a href="quizzes/quiz-studienplan.html" class="btn btn-outline" style="font-size:0.75rem">Studienplan</a>
           <a href="quizzes/quiz-oerek-megatrends.html" class="btn btn-outline" style="font-size:0.75rem">Megatrends</a>
     <a href="quizzes/quiz-oerek-actions.html" class="nav-link"><span class="icon">&#10004;</span> Handlungsprogramm</a>
@@ -228,6 +230,7 @@
 </div>
 
 <script src="js/countdown.js?v=20260930"></script>
+<script src="js/exam-parts.js?v=20260930"></script>
 <script src="js/student-db.js?v=20260930"></script>
 <script src="js/supabase-sync.js?v=20260930"></script>
 <script>
@@ -238,6 +241,7 @@
     { quiz: null,               label: 'Study the Studienplan',      link: 'knowledge/studienplan-de.html',     btnText: 'Start Reading' },
     { quiz: 'studienplan',      label: 'Take Studienplan quiz',      link: 'quizzes/quiz-studienplan.html',     btnText: 'Take Quiz' },
     { quiz: 'oerek-megatrends', label: 'Take Megatrends quiz',       link: 'quizzes/quiz-oerek-megatrends.html', btnText: 'Take Quiz' },
+    { quiz: 'coursework',       label: 'Take the Teil A quiz (all subject knowledge)', link: 'quizzes/quiz-coursework.html', btnText: 'Teil A Quiz' },
     { quiz: 'cognitive',        label: 'Practice cognitive skills',   link: 'quizzes/quiz-cognitive.html',       btnText: 'Practice' },
     { quiz: 'all',              label: 'Take full mock exam',        link: 'quizzes/quiz-full-mock.html',       btnText: 'Mock Exam' },
   ];
@@ -272,13 +276,10 @@
       }
 
       // Progress bars for each exam part
-      const partAQuizzes = ['oerek-principles', 'oerek-megatrends', 'studienplan', 'oerek-actions'];
-      const partBQuizzes = ['text-comprehension'];
-      const partCQuizzes = ['cognitive'];
-
-      function partAvg(quizIds) {
+      // Which quiz belongs to which part lives in js/exam-parts.js only
+      function partAvg(partId) {
         let total = 0, count = 0;
-        quizIds.forEach(id => {
+        ExamParts.getPart(partId).quizIds.forEach(id => {
           if (stats.byQuiz && stats.byQuiz[id]) {
             const attempts = stats.byQuiz[id];
             total += attempts[attempts.length - 1].percentage;
@@ -291,9 +292,9 @@
       const pA = document.getElementById('prog-a');
       const pB = document.getElementById('prog-b');
       const pC = document.getElementById('prog-c');
-      if (pA) pA.style.width = partAvg(partAQuizzes) + '%';
-      if (pB) pB.style.width = partAvg(partBQuizzes) + '%';
-      if (pC) pC.style.width = partAvg(partCQuizzes) + '%';
+      if (pA) pA.style.width = partAvg('A') + '%';
+      if (pB) pB.style.width = partAvg('B') + '%';
+      if (pC) pC.style.width = partAvg('C') + '%';
 
       // Smart "Start Here" recommendation
       const recEl = document.getElementById('start-recommendation');
@@ -346,6 +347,7 @@
           'oerek-megatrends': 'quizzes/quiz-oerek-megatrends.html',
           'studienplan': 'quizzes/quiz-studienplan.html',
           'cognitive': 'quizzes/quiz-cognitive.html',
+          'coursework': 'quizzes/quiz-coursework.html',
           'oerek-actions': 'quizzes/quiz-oerek-actions.html',
           'text-comprehension': 'quizzes/quiz-text-comprehension.html'
         };
