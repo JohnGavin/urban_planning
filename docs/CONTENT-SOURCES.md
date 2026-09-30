@@ -33,18 +33,21 @@ All content in this project is derived from the following sources.
 - **Detailed scoring rubric**: Not published. We know the weighting (40/20/40) but not the exact number of questions per section.
 - **Pass threshold**: No minimum score &mdash; it's a ranking test. Top N candidates (up to 200) get places.
 
-## Question Sources (443 questions)
+## Question Sources
+
+The current total is printed by `python3 scripts/validate_questions.py site/data/questions.json` (Stats line).
 
 | Source | Count | How generated |
 |--------|------:|---------------|
 | AI-written (Claude) | ~250 | Hand-crafted by Claude Opus/Haiku from source documents |
 | `gen_wuerfel.py` | ~30 | Programmatic cube simulation, mathematically verified |
-| `gen_zahlen.py` | ~20 | 30+ arithmetic pattern templates |
+| `gen_zahlen.py` | ~40 | 30+ arithmetic pattern templates; `--family triplet` = 3-step cycles like the Info PDF example `1 4 8 3 6 12 7 ?` |
 | `gen_rechen.py` | ~25 | Brute-force operator search |
 | `gen_logik.py` | ~25 | Model-checking syllogism verifier |
-| `gen_matrizen.py` | ~15 | 6 rule types, self-validating Latin squares |
+| `gen_matrizen.py` | ~35 | 3×3 and `--size 4` (4×4) rule types, self-validating (unique answer checked by exhaustive search) |
+| `gen_wuerfelnetz.py` | ~20 | Cube nets (Zusatzübung, not an exam format); answers verified by folding, with alternative explanations |
 
-All questions are validated by [`scripts/validate_questions.py`](../scripts/validate_questions.py) (15 tests).
+All questions are validated by [`scripts/validate_questions.py`](../scripts/validate_questions.py).
 
 Questions are tagged with their source document and section for traceability.
 

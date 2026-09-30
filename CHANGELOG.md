@@ -2,6 +2,16 @@
 
 All notable changes to this project, ordered by date (newest first).
 
+## 2026-09-30
+
+### Cognitive question group ([#1](https://github.com/JohnGavin/urban_planning/issues/1), [#2](https://github.com/JohnGavin/urban_planning/issues/2)): 443 → 503 questions
+- **Triplet number sequences (#2):** `gen_zahlen.py --family triplet`, 20 questions in the style of the Info PDF example `1 4 8 3 6 12 7 ?` (3-step cycle +3, ×2, −5). Explanations show the operation under each gap and the triplet grouping. Seed 202609.
+- **4×4 matrices (#1):** `gen_matrizen.py --size 4`, 20 hard questions. Exhaustive search checks each answer is unique. The grid now renders 4 columns, and English matrix text now draws the right shapes (it was all circles). Seed 202609, `PYTHONHASHSEED=0`.
+- **Cube nets (#1):** new `gen_wuerfelnetz.py`, 20 questions (extra practice, not an exam format). Answers are verified by folding (`--verify`). The net is drawn as SVG, and there is a new "Würfelnetz" filter. Seed 202609.
+- **Alternative explanations:** new optional `explanations_alt` field (documented in CLAUDE.md). Students switch between reasoning paths with "Andere Erklärung". Checked by `validate_questions.py`.
+- **Cache:** script and stylesheet links now carry `?v=20260930`, so returning browsers load the new engine.
+- **Not done:** the 20 × 3×3 matrices in #1 already existed (30), so none were added.
+
 ## 2026-04-29
 
 ### SVG Matrix Rendering Overhaul

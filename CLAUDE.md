@@ -47,7 +47,7 @@ site/                          ← The website (open index.html in browser)
     quiz-full-mock.html        ← Full mock exam (all questions)
   exam/countdown.html          ← Countdown + study plan + exam day details
   dashboard/progress.html      ← Progress tracking
-  data/questions.json          ← All quiz questions (443 questions, bilingual)
+  data/questions.json          ← All quiz questions (bilingual)
 docs/                          ← Documentation and decisions
   DECISIONS.md                 ← Why the project is built this way
   REPLICATION.md               ← How to set up your own copy
