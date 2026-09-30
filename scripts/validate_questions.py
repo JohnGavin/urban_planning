@@ -277,6 +277,50 @@ def test_wuerfel_operations_valid(questions, r):
                     if not has_valid and ('gekippt' in line or 'gedreht' in line):
                         r.warn(q['id'], f"Unknown operation in: {line.strip()[:80]}")
 
+def test_explanations_alt_schema(questions, r):
+    """Optional explanations_alt: list of 2-4 objects, all four keys non-empty strings."""
+    keys = ['title_de', 'title_en', 'text_de', 'text_en']
+    for q in questions:
+        if 'explanations_alt' not in q:
+            continue
+        alts = q['explanations_alt']
+        if not isinstance(alts, list) or not (2 <= len(alts) <= 4):
+            r.error(q['id'], "explanations_alt must be a list of 2-4 objects")
+            continue
+        for i, a in enumerate(alts):
+            if not isinstance(a, dict):
+                r.error(q['id'], f"explanations_alt[{i}] is not an object")
+                continue
+            for k in keys:
+                if not isinstance(a.get(k), str) or not a[k].strip():
+                    r.error(q['id'], f"explanations_alt[{i}].{k} missing or empty")
+        titles = [a.get('title_de') for a in alts if isinstance(a, dict)]
+        if len(set(titles)) != len(titles):
+            r.warn(q['id'], "explanations_alt has duplicate title_de")
+
+def test_wuerfelnetz_questions(questions, r):
+    """Every wuerfelnetz question has alternative explanations and a parseable net
+    (one 'Netz:' line, equal-length rows, 6 distinct symbols). Answers themselves
+    are verified by folding: gen_wuerfelnetz.py --verify."""
+    for q in questions:
+        if 'wuerfelnetz' not in q.get('tags', []):
+            continue
+        if 'explanations_alt' not in q:
+            r.error(q['id'], "wuerfelnetz question without explanations_alt")
+        for field in ('question_de', 'question_en'):
+            m = re.search(r'(?:Netz|Net):\s*([^\n]+)', q.get(field, ''))
+            if not m:
+                r.error(q['id'], f"{field}: no 'Netz:' line")
+                continue
+            rows = [row.split() for row in m.group(1).strip().split(' / ')]
+            if len({len(x) for x in rows}) != 1:
+                r.error(q['id'], f"{field}: net rows differ in length")
+            syms = [t for row in rows for t in row if t != '.']
+            if len(syms) != 6 or len(set(syms)) != 6:
+                r.error(q['id'], f"{field}: net needs 6 distinct symbols, found {syms}")
+        if len(set(q.get('options_de', []))) != len(q.get('options_de', [])):
+            r.error(q['id'], "duplicate options")
+
 # ── Run all tests ────────────────────────────────────────────────────────
 
 ALL_TESTS = [
@@ -296,6 +340,8 @@ ALL_TESTS = [
     test_question_length,
     test_bilingual_completeness,
     test_wuerfel_operations_valid,
+    test_explanations_alt_schema,
+    test_wuerfelnetz_questions,
 ]
 
 if __name__ == '__main__':
