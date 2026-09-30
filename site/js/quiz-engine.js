@@ -230,8 +230,18 @@ const QuizEngine = (() => {
     return null;
   }
 
+  // English cell text ("Circle with 2 dots, big, black") -> German vocabulary the parser knows.
+  // German text passes through unchanged. Colours/sizes (black, white, grey, big, ...) are already mapped.
+  const MATRIX_EN_SHAPES = { circle: 'kreis', triangle: 'dreieck', square: 'quadrat', star: 'stern',
+    heart: 'herz', diamond: 'raute', hexagon: 'sechseck', arrow: 'pfeil' };
+  function matrixEnToDe(text) {
+    return text
+      .replace(/\bwith\s+(\d+)\s+dots?\b/gi, 'mit $1 punkte')
+      .replace(/\b(circle|triangle|square|star|heart|diamond|hexagon|arrow)\b/gi, m => MATRIX_EN_SHAPES[m.toLowerCase()]);
+  }
+
   function parseMatrixCell(cellText) {
-    cellText = cellText.replace(/[\[\]]/g, '').trim();
+    cellText = matrixEnToDe(cellText.replace(/[\[\]]/g, '').trim());
     if (cellText === '?' || cellText === '') return null;
 
     let shapeName = 'kreis', colorName = 'schwarz', sizeName = '', count = 1, dotCount = 0, arrowDir = null;
@@ -345,11 +355,13 @@ const QuizEngine = (() => {
   function renderMatrixGrid(questionText) {
     const lines = questionText.split('\n');
     const cells = [];
+    let gridCols = 0; // cells per row, taken from the first parsed row (3 for 3x3, 4 for 4x4)
     for (const line of lines) {
       const zeileMatch = line.match(/Zeile\s*\d+:\s*(.*)/i) || line.match(/Row\s*\d+:\s*(.*)/i);
       if (!zeileMatch) continue;
       const rowText = zeileMatch[1];
       const cellTexts = rowText.split(/\]\s*\[/).map(s => s.replace(/[\[\]]/g, '').trim());
+      if (!gridCols) gridCols = cellTexts.length;
       for (const ct of cellTexts) {
         if (ct === '?' || ct === '') {
           cells.push('<div class="matrix-cell empty"></div>');
@@ -367,7 +379,10 @@ const QuizEngine = (() => {
     if (cells.length < 4) return null; // not enough cells to render a grid
     // Extract the question part (after the grid)
     const questionPart = lines.filter(l => !l.match(/Zeile|Row|Matrix|Muster|^$/i)).join('<br>');
-    return `<div class="matrix-grid">${cells.join('')}</div><p style="margin-top:0.75rem">${questionPart}</p>`;
+    // 3-column grids keep the plain markup (CSS default); other widths set their column count inline
+    const gridAttrs = gridCols === 3 ? 'class="matrix-grid"'
+      : `class="matrix-grid matrix-grid-${gridCols}" style="grid-template-columns:repeat(${gridCols},1fr)"`;
+    return `<div ${gridAttrs}>${cells.join('')}</div><p style="margin-top:0.75rem">${questionPart}</p>`;
   }
 
   function renderQuestions(container, questions, lang, timedMode, countdownSeconds) {
