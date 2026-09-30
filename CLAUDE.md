@@ -28,6 +28,7 @@ site/                          ← The website (open index.html in browser)
   index.html                   ← Home page with study path and progress
   css/style.css                ← Dark theme, TU Wien colours
   js/
+    exam-parts.js              ← ONE home for quiz → exam part (A/B/C), weights 40/20/40, balanced sampler
     quiz-engine.js             ← MC quiz with exam-style scoring
     student-db.js              ← IndexedDB local storage
     supabase-sync.js           ← Cloud sync (Supabase)
@@ -40,13 +41,14 @@ site/                          ← The website (open index.html in browser)
     reihungstest-de.html       ← Exam format and tips
     *-en.html                  ← English translations
   quizzes/                     ← Interactive quizzes
+    quiz-coursework.html       ← Teil A – Fachwissen (all subject-knowledge questions)
     quiz-oerek-principles.html
     quiz-oerek-megatrends.html
     quiz-studienplan.html
     quiz-cognitive.html        ← Includes Würfel (cube) questions
-    quiz-full-mock.html        ← Full mock exam (all questions)
+    quiz-full-mock.html        ← Full mock exam (balanced 40/20/40 over Teil A/B/C)
   exam/countdown.html          ← Countdown + study plan + exam day details
-  dashboard/progress.html      ← Progress tracking
+  dashboard/progress.html      ← Progress tracking (incl. progress by exam part)
   data/questions.json          ← All quiz questions (bilingual)
 docs/                          ← Documentation and decisions
   DECISIONS.md                 ← Why the project is built this way
@@ -104,6 +106,8 @@ Edit `site/data/questions.json`. Each question has this format:
 }
 ```
 Valid quizIds: `oerek-principles`, `oerek-megatrends`, `studienplan`, `oerek-actions`, `text-comprehension`, `cognitive`
+
+`coursework` (Teil A quiz page) and `all` (mock exam) are **page-level modes** passed to `QuizEngine.init`, NOT question quizIds — never put them in `questions.json`. Which quizId belongs to which exam part (A: the four subject-knowledge ids, B: `text-comprehension`, C: `cognitive`) and the 40/20/40 weights live ONLY in `site/js/exam-parts.js` (`ExamParts`); never hard-code them elsewhere. Mock-exam attempts store `byPart` ({A,B,C: {score,total}}) in IndexedDB only (not in the Supabase payload).
 
 **Optional field `explanations_alt`** (2–4 alternative reasoning paths; the student picks one in the results view, `explanation_de/en` stays the default):
 ```json

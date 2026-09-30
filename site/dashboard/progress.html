@@ -25,6 +25,7 @@
     <a href="../knowledge/studienplan-en.html" class="nav-link">&#127891; Study Plan</a>
     <a href="../knowledge/combined-en.html" class="nav-link">&#128218; Combined Overview</a>
     <div class="nav-section"><div class="nav-section-title">Quizzes</div></div>
+    <a href="../quizzes/quiz-coursework.html" class="nav-link">&#10004; Teil A – Fachwissen</a>
     <a href="../quizzes/quiz-oerek-principles.html" class="nav-link">&#10004; OEREK Principles</a>
     <a href="../quizzes/quiz-oerek-megatrends.html" class="nav-link">&#10004; Megatrends</a>
     <a href="../quizzes/quiz-oerek-actions.html" class="nav-link"><span class="icon">&#10004;</span> Handlungsprogramm</a>
@@ -37,6 +38,12 @@
   <main class="main-content">
     <div class="top-bar">
       <h1>My Progress</h1>
+    </div>
+
+    <!-- Progress by exam part (Teil A / B / C) -->
+    <h2>Fortschritt nach Prüfungsteil</h2>
+    <div id="parts-section" class="card">
+      <p class="text-muted">Mach ein Quiz, dann siehst du hier deinen Stand in Teil A, B und C.</p>
     </div>
 
     <!-- Summary stats -->
@@ -119,12 +126,14 @@
   </main>
 </div>
 
+<script src="../js/exam-parts.js?v=20260930"></script>
 <script src="../js/student-db.js?v=20260930"></script>
 <script src="../js/supabase-sync.js?v=20260930"></script>
 <script src="../js/tabs.js?v=20260930"></script>
 <script src="../js/sidebar.js?v=20260930"></script>
 <script>
 const TOPIC_LABELS = {
+  'coursework': { name: 'Teil A – Fachwissen (gesamt)', link: '../quizzes/quiz-coursework.html' },
   'oerek-principles': { name: 'OEREK Grundsätze', link: '../quizzes/quiz-oerek-principles.html' },
   'oerek-megatrends': { name: 'Megatrends', link: '../quizzes/quiz-oerek-megatrends.html' },
   'studienplan': { name: 'Studienplan', link: '../quizzes/quiz-studienplan.html' },
@@ -138,15 +147,18 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     // Try local first, fall back to Supabase for cross-device support
     let stats = await StudentDB.getStats();
+    let fromCloud = false;
     if (stats.totalAttempts === 0 && typeof SupabaseSync !== 'undefined') {
       const cloudStats = await SupabaseSync.getStats();
       if (cloudStats && cloudStats.totalAttempts > 0) {
         stats = cloudStats;
+        fromCloud = true;
         document.getElementById('stats-summary').insertAdjacentHTML('afterend',
           '<div class="alert alert-info" style="margin-bottom:1rem">Daten aus der Cloud geladen (anderes Gerät). Lokale Daten werden nach deinem nächsten Quiz synchronisiert.</div>');
       }
     }
     renderSummary(stats);
+    renderParts(stats, fromCloud);
     renderTopics(stats);
     renderHistory(stats);
     renderWeaknesses(stats);
@@ -175,6 +187,58 @@ function renderSummary(stats) {
   if (stats.avgScore >= 80) avgEl.classList.add('good');
   else if (stats.avgScore >= 50) avgEl.classList.add('warning');
   else if (stats.totalAttempts > 0) avgEl.classList.add('urgent');
+}
+
+// Progress by exam part. Which quiz belongs to which part and the weights come from ExamParts.
+function renderParts(stats, fromCloud) {
+  const el = document.getElementById('parts-section');
+  const byQuiz = stats.byQuiz || {};
+  const agg = ExamParts.aggregate(byQuiz);
+  const parts = ExamParts.parts();
+  const withData = parts.filter(p => agg[p.id].n > 0);
+
+  // Weakest part = lowest average (needs at least one attempt)
+  let weakest = null;
+  withData.forEach(p => { if (weakest === null || agg[p.id].avg < agg[weakest].avg) weakest = p.id; });
+
+  const fmt = v => v === null ? '--' : Math.round(v) + '%';
+  let rows = '';
+  parts.forEach(p => {
+    const a = agg[p.id];
+    const hint = p.id === weakest ? ' <span class="badge badge-warning">Hier am meisten üben</span>' : '';
+    rows += `<tr>
+      <td><a href="../quizzes/${p.link}">${p.name_de}</a>${hint}</td>
+      <td>${Math.round(p.weight * 100)}%</td>
+      <td>${a.n}</td>
+      <td>${fmt(a.avg)}</td>
+      <td>${fmt(a.last)}</td>
+    </tr>`;
+  });
+
+  const avgByPart = {};
+  withData.forEach(p => { avgByPart[p.id] = agg[p.id].avg; });
+  const est = ExamParts.weightedEstimate(avgByPart);
+  let html = `<table id="parts-table">
+    <tr><th>Teil</th><th>Gewicht</th><th>Versuche</th><th>Ø %</th><th>Letzter %</th></tr>${rows}
+  </table>`;
+  if (est !== null) {
+    const missing = parts.filter(p => agg[p.id].n === 0).map(p => p.short_de);
+    html += `<p id="parts-estimate" style="margin-top:0.75rem"><strong>Geschätztes Prüfungsergebnis (gewichtet): ${Math.round(est)}%</strong>` +
+      (missing.length ? ` <span class="text-muted">(ohne ${missing.join(', ')} – noch keine Daten)</span>` : '') + '</p>';
+  } else {
+    html += '<p class="text-muted" style="margin-top:0.75rem">Noch keine Daten – starte mit einem Quiz zu Teil A, B oder C.</p>';
+  }
+
+  if (fromCloud) {
+    html += '<p class="text-muted" style="font-size:0.8rem;margin-top:0.5rem">Die Aufteilung der Probeklausuren nach Teilen wird nur auf diesem Gerät gespeichert; hier zählen nur die Einzel-Quizze aus der Cloud.</p>';
+  } else {
+    const skipped = Object.entries(byQuiz).filter(([qid]) => ExamParts.isMixedMode(qid))
+      .reduce((n, [, at]) => n + at.filter(a => !a.byPart).length, 0);
+    if (skipped > 0) {
+      html += `<p class="text-muted" style="font-size:0.8rem;margin-top:0.5rem">${skipped} ältere Probeklausur${skipped > 1 ? 'en' : ''} ohne Aufteilung nach Teilen ${skipped > 1 ? 'sind' : 'ist'} hier nicht eingerechnet.</p>`;
+    }
+  }
+  el.innerHTML = html;
 }
 
 function renderTopics(stats) {

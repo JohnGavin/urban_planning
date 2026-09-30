@@ -4,6 +4,13 @@ All notable changes to this project, ordered by date (newest first).
 
 ## 2026-09-30
 
+### Exam parts ([#4](https://github.com/JohnGavin/urban_planning/issues/4))
+- **One home for the part mapping:** new `site/js/exam-parts.js` (`ExamParts`) knows which quiz belongs to Teil A/B/C and the 40/20/40 weights. The quiz engine, dashboard and home page read it; nothing else hard-codes it.
+- **Teil A quiz:** new page `quiz-coursework.html` (all 170 subject-knowledge questions), linked in every sidebar and on the home page (study path, progress bar).
+- **Balanced mock exam:** the full mock now draws 40/20/40 from Teil A/B/C (largest-remainder rounding, e.g. 10 → 4/2/4; "Alle" = largest total with the exact ratio). The start screen shows "Aufteilung wie in der Prüfung", with a note if a part has too few questions. The cognitive topic filter no longer applies to the mock.
+- **Results by part:** the mock result shows Teil | Punkte | % and a weighted exam estimate. `byPart` is stored in the local IndexedDB attempt only; the Supabase payload and table are unchanged.
+- **Dashboard:** new "Fortschritt nach Prüfungsteil" table (attempts, average, last, weighted estimate, "Hier am meisten üben" on the weakest part). Older mock attempts without `byPart` are left out; the cloud fallback groups single-quiz attempts only.
+
 ### Cognitive question group ([#1](https://github.com/JohnGavin/urban_planning/issues/1), [#2](https://github.com/JohnGavin/urban_planning/issues/2)): 443 → 503 questions
 - **Triplet number sequences (#2):** `gen_zahlen.py --family triplet`, 20 questions in the style of the Info PDF example `1 4 8 3 6 12 7 ?` (3-step cycle +3, ×2, −5). Explanations show the operation under each gap and the triplet grouping. Seed 202609.
 - **4×4 matrices (#1):** `gen_matrizen.py --size 4`, 20 hard questions. Exhaustive search checks each answer is unique. The grid now renders 4 columns, and English matrix text now draws the right shapes (it was all circles). Seed 202609, `PYTHONHASHSEED=0`.

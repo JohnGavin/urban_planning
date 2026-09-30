@@ -62,6 +62,10 @@ const QuizEngine = (() => {
 
   function renderStartScreen(container, questions, quizId, currentTimedMode) {
     const counts = countByDifficulty(questions);
+    const mixed = ExamParts.isMixedMode(quizId);
+    const allLabel = mixed
+      ? `Alle (max. ${ExamParts.plan('all', ExamParts.availableByPart(questions)).total})`
+      : `Alle (${questions.length})`;
     const timerChecked = currentTimedMode ? 'checked' : '';
     const timerBtnStyle = currentTimedMode
       ? 'background:var(--tu-blue);color:#fff;border-color:var(--tu-blue)'
@@ -83,8 +87,9 @@ const QuizEngine = (() => {
           <div id="qe-count-select" style="display:flex;gap:0.25rem;flex-wrap:wrap">
             <button class="btn btn-outline qe-opt-btn" data-count="5" style="font-size:0.85rem">5</button>
             <button class="btn btn-primary qe-opt-btn" data-count="10" style="font-size:0.85rem">10</button>
-            <button class="btn btn-outline qe-opt-btn" data-count="all" style="font-size:0.85rem">Alle (${questions.length})</button>
+            <button class="btn btn-outline qe-opt-btn" data-count="all" style="font-size:0.85rem">${allLabel}</button>
           </div>
+          ${mixed ? '<div id="qe-split-info" style="margin-top:0.5rem;font-size:0.85rem;color:var(--tu-text-muted)"></div>' : ''}
         </div>
 
         <div style="margin:1.25rem 0">
@@ -97,7 +102,7 @@ const QuizEngine = (() => {
           </div>
         </div>
 
-        ${quizId === 'cognitive' || quizId === 'all' ? `
+        ${quizId === 'cognitive' ? `
         <div style="margin:1.25rem 0">
           <label style="color:var(--tu-text-bright);font-weight:600;display:block;margin-bottom:0.5rem">Thema (nur kognitiv)</label>
           <div id="qe-tag-select" style="display:flex;gap:0.25rem;flex-wrap:wrap">
@@ -682,9 +687,13 @@ const QuizEngine = (() => {
       return;
     }
 
-    const questions = quizId === 'all'
+    // 'all' = mixed mock exam; part modes (e.g. 'coursework' = Teil A) cover several question topics
+    const modePart = ExamParts.isPartMode(quizId) ? ExamParts.partOf(quizId) : null;
+    const questions = ExamParts.isMixedMode(quizId)
       ? allQuestions
-      : allQuestions.filter(q => q.quizId === quizId);
+      : modePart
+        ? allQuestions.filter(q => ExamParts.partOf(q.quizId) === modePart)
+        : allQuestions.filter(q => q.quizId === quizId);
     if (questions.length === 0) {
       container.innerHTML = `
         <div class="alert alert-error">
@@ -701,15 +710,37 @@ const QuizEngine = (() => {
     let selectedDiff = 'mixed';
     let selectedTag = 'all';
     let activeQuestions = [];
-    let timedMode = (quizId === 'all'); // default on for full mock exam
+    let timedMode = ExamParts.isMixedMode(quizId); // default on for full mock exam
     let countdownSeconds = 600; // calculated per quiz: 1 min per question
 
-    function buildActiveQuestions() {
+    function difficultyPool() {
       let pool = [...questions];
-      // Filter by difficulty
       if (selectedDiff !== 'mixed') {
         pool = pool.filter(q => (q.difficulty || 'medium') === selectedDiff);
       }
+      return pool;
+    }
+
+    // Mixed mode: planned split per exam part for the current count + difficulty choice
+    function updateSplitInfo() {
+      const el = container.querySelector('#qe-split-info');
+      if (!el) return;
+      const pl = ExamParts.plan(selectedCount, ExamParts.availableByPart(difficultyPool()));
+      const split = ExamParts.parts().map(p => `${pl.counts[p.id]} × ${p.short_de}`).join(' · ');
+      let html = `Aufteilung wie in der Prüfung: ${split}`;
+      if (pl.shortages.length > 0) {
+        const names = pl.shortages.map(x => ExamParts.getPart(x.part).short_de).join(', ');
+        html += `<br><span style="color:var(--tu-warning)">Hinweis: Für ${names} gibt es bei dieser Auswahl nicht genug Fragen; es werden so viele wie vorhanden genommen.</span>`;
+      }
+      el.innerHTML = html;
+    }
+
+    function buildActiveQuestions() {
+      if (ExamParts.isMixedMode(quizId)) {
+        // Balanced by exam part (40/20/40), already shuffled; cognitive tag filter does not apply
+        return ExamParts.sample(difficultyPool(), selectedCount).questions;
+      }
+      let pool = difficultyPool();
       // Filter by cognitive sub-type tag
       if (selectedTag !== 'all') {
         pool = pool.filter(q => (q.tags || []).includes(selectedTag));
@@ -745,8 +776,9 @@ const QuizEngine = (() => {
       selectedTag = 'all';
       renderStartScreen(container, questions, quizId, timedMode);
 
-      wireOptButtons('qe-count-select', 'count', 10, v => { selectedCount = v; });
-      wireOptButtons('qe-diff-select', 'diff', 'mixed', v => { selectedDiff = v; });
+      wireOptButtons('qe-count-select', 'count', 10, v => { selectedCount = v; updateSplitInfo(); });
+      wireOptButtons('qe-diff-select', 'diff', 'mixed', v => { selectedDiff = v; updateSplitInfo(); });
+      updateSplitInfo();
       wireOptButtons('qe-tag-select', 'tag', 'all', v => { selectedTag = v; });
 
       // Wire timed mode button
@@ -871,12 +903,44 @@ const QuizEngine = (() => {
 
     // ── Results screen ─────────────────────────────────────────────────────
 
+    // Mixed mode: small table per exam part + weighted exam estimate
+    function insertPartBreakdown(byPart) {
+      const anchor = container.querySelector('.progress-bar');
+      if (!anchor) return;
+      const pcts = {};
+      let rows = '';
+      ExamParts.parts().forEach(p => {
+        const b = byPart[p.id];
+        if (!b) return;
+        pcts[p.id] = 100 * b.score / b.total;
+        rows += `<tr><td>${p.name_de}</td><td>${b.score.toFixed(1)} / ${b.total}</td><td>${Math.round(pcts[p.id])}%</td></tr>`;
+      });
+      const est = ExamParts.weightedEstimate(pcts);
+      const estHtml = est === null ? '' :
+        `<p style="margin:0.5rem 0 0"><strong>Geschätztes Prüfungsergebnis (gewichtet): ${Math.round(est)}%</strong></p>`;
+      anchor.insertAdjacentHTML('afterend', `
+        <table id="qe-part-table" style="margin-top:1rem;font-size:0.85rem">
+          <tr><th>Teil</th><th>Punkte</th><th>%</th></tr>${rows}
+        </table>${estHtml}`);
+    }
+
     function showResultsScreen(userAnswers, scores, durationSec) {
       const rawSum = scores.reduce((a, b) => a + b, 0);
       const total = activeQuestions.length;
       const percentage = Math.round((rawSum / total) * 100);
 
+      // Score per exam part (only parts that occur in this attempt)
+      const byPart = {};
+      activeQuestions.forEach((q, qi) => {
+        const pid = ExamParts.partOf(q.quizId);
+        if (!pid) return;
+        if (!byPart[pid]) byPart[pid] = { score: 0, total: 0 };
+        byPart[pid].score += scores[qi];
+        byPart[pid].total += 1;
+      });
+
       renderResults(container, activeQuestions, userAnswers, scores, lang, durationSec);
+      if (ExamParts.isMixedMode(quizId)) insertPartBreakdown(byPart);
 
       // Save to IndexedDB
       if (typeof StudentDB !== 'undefined') {
@@ -886,7 +950,8 @@ const QuizEngine = (() => {
           total,
           percentage,
           answers: userAnswers,
-          durationSec
+          durationSec,
+          byPart   // local only; the Supabase payload below is unchanged
         }).then(() => {
           const msg = document.getElementById('qe-db-msg');
           if (msg) msg.textContent = 'Lokal gespeichert.';
