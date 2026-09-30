@@ -50,7 +50,7 @@ You end up with: your own website, your own database, your own quiz bank — ful
 | Feature | Description | Link |
 |---------|-------------|------|
 | Study material | Knowledge base of all exam topics (German + English) | [OEREK 2030](site/knowledge/oerek2030-de.html) &#124; [Studienplan](site/knowledge/studienplan-de.html) &#124; [Exam Info](site/knowledge/reihungstest-de.html) |
-| 443 quiz questions | MC with exam-style scoring, choose 5/10/all, easy/medium/hard, sub-type filter | [Quizzes](site/quizzes/) |
+| Quiz questions (500+) | MC with exam-style scoring, choose 5/10/all, easy/medium/hard, sub-type filter | [Quizzes](site/quizzes/) |
 | Progress tracking | Dashboard with scores, weak areas, lessons learned, cloud sync | [Dashboard](site/dashboard/progress.html) |
 | Exam countdown | Days until exam, study plan, exam day checklist | [Countdown](site/exam/countdown.html) |
 | Cube (Würfel) practice | 58 spatial reasoning questions with visual glossary | [Cognitive Quiz](site/quizzes/quiz-cognitive.html) |

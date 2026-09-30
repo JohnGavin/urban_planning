@@ -136,6 +136,42 @@ def test_matrizen_answer_consistency(questions, r):
         if grid_shapes and not answer_has_grid_shape:
             r.warn(q['id'], f"Answer '{correct_opt[:40]}' doesn't contain any grid shape: {grid_shapes}")
 
+def test_matrizen_4x4_structure(questions, r):
+    """4x4 matrices: 4 rows x 4 cells, missing cell bottom-right, hard/cognitive,
+    5 pairwise-distinct options with exactly one correct, bilingual grids of equal shape."""
+    for q in questions:
+        tags = q.get('tags', [])
+        if 'matrizen' not in tags or '4x4' not in tags:
+            continue
+        if q.get('difficulty') != 'hard':
+            r.error(q['id'], f"4x4 matrix must be 'hard', got '{q.get('difficulty')}'")
+        if q.get('quizId') != 'cognitive':
+            r.error(q['id'], f"4x4 matrix must have quizId 'cognitive', got '{q.get('quizId')}'")
+        for lang, row_word in (('de', 'Zeile'), ('en', 'Row')):
+            text = q.get(f'question_{lang}', '')
+            rows = re.findall(rf'^{row_word}\s*(\d+):\s*(.*)$', text, re.MULTILINE)
+            if [n for n, _ in rows] != ['1', '2', '3', '4']:
+                r.error(q['id'], f"4x4 matrix ({lang}) needs rows 1..4, found {[n for n, _ in rows]}")
+                continue
+            for n, body in rows:
+                cells = re.findall(r'\[([^\]]*)\]', body)
+                if len(cells) != 4:
+                    r.error(q['id'], f"4x4 matrix ({lang}) row {n} has {len(cells)} cells, need 4")
+                elif n == '4':
+                    if cells[3] != '?' or '?' in cells[:3]:
+                        r.error(q['id'], f"4x4 matrix ({lang}): only the bottom-right cell may be [?]")
+                elif '?' in cells:
+                    r.error(q['id'], f"4x4 matrix ({lang}) row {n} contains [?]")
+        opts = [re.sub(r'^[a-e]\)\s*', '', o) for o in q.get('options_de', [])]
+        if len(opts) != 5 or len(set(opts)) != 5:
+            r.error(q['id'], f"4x4 matrix needs 5 distinct options, got {len(opts)} ({len(set(opts))} distinct)")
+        if len(q.get('correct', [])) != 1:
+            r.error(q['id'], "4x4 matrix must have exactly one correct option")
+        if len(q.get('options_en', [])) != len(q.get('options_de', [])):
+            r.error(q['id'], "4x4 matrix: options_de / options_en length mismatch")
+        if 'Schritt' not in q.get('explanation_de', ''):
+            r.warn(q['id'], "4x4 matrix explanation is not step-by-step")
+
 def test_option_count(questions, r):
     """Each question should have 4-6 options (3 is OK for text comprehension)."""
     for q in questions:
@@ -241,6 +277,50 @@ def test_wuerfel_operations_valid(questions, r):
                     if not has_valid and ('gekippt' in line or 'gedreht' in line):
                         r.warn(q['id'], f"Unknown operation in: {line.strip()[:80]}")
 
+def test_explanations_alt_schema(questions, r):
+    """Optional explanations_alt: list of 2-4 objects, all four keys non-empty strings."""
+    keys = ['title_de', 'title_en', 'text_de', 'text_en']
+    for q in questions:
+        if 'explanations_alt' not in q:
+            continue
+        alts = q['explanations_alt']
+        if not isinstance(alts, list) or not (2 <= len(alts) <= 4):
+            r.error(q['id'], "explanations_alt must be a list of 2-4 objects")
+            continue
+        for i, a in enumerate(alts):
+            if not isinstance(a, dict):
+                r.error(q['id'], f"explanations_alt[{i}] is not an object")
+                continue
+            for k in keys:
+                if not isinstance(a.get(k), str) or not a[k].strip():
+                    r.error(q['id'], f"explanations_alt[{i}].{k} missing or empty")
+        titles = [a.get('title_de') for a in alts if isinstance(a, dict)]
+        if len(set(titles)) != len(titles):
+            r.warn(q['id'], "explanations_alt has duplicate title_de")
+
+def test_wuerfelnetz_questions(questions, r):
+    """Every wuerfelnetz question has alternative explanations and a parseable net
+    (one 'Netz:' line, equal-length rows, 6 distinct symbols). Answers themselves
+    are verified by folding: gen_wuerfelnetz.py --verify."""
+    for q in questions:
+        if 'wuerfelnetz' not in q.get('tags', []):
+            continue
+        if 'explanations_alt' not in q:
+            r.error(q['id'], "wuerfelnetz question without explanations_alt")
+        for field in ('question_de', 'question_en'):
+            m = re.search(r'(?:Netz|Net):\s*([^\n]+)', q.get(field, ''))
+            if not m:
+                r.error(q['id'], f"{field}: no 'Netz:' line")
+                continue
+            rows = [row.split() for row in m.group(1).strip().split(' / ')]
+            if len({len(x) for x in rows}) != 1:
+                r.error(q['id'], f"{field}: net rows differ in length")
+            syms = [t for row in rows for t in row if t != '.']
+            if len(syms) != 6 or len(set(syms)) != 6:
+                r.error(q['id'], f"{field}: net needs 6 distinct symbols, found {syms}")
+        if len(set(q.get('options_de', []))) != len(q.get('options_de', [])):
+            r.error(q['id'], "duplicate options")
+
 # ── Run all tests ────────────────────────────────────────────────────────
 
 ALL_TESTS = [
@@ -252,6 +332,7 @@ ALL_TESTS = [
     test_matrizen_answer_consistency,
     test_matrizen_answer_color_in_grid,
     test_matrizen_answer_size_in_grid,
+    test_matrizen_4x4_structure,
     test_option_count,
     test_difficulty_present,
     test_tags_present,
@@ -259,6 +340,8 @@ ALL_TESTS = [
     test_question_length,
     test_bilingual_completeness,
     test_wuerfel_operations_valid,
+    test_explanations_alt_schema,
+    test_wuerfelnetz_questions,
 ]
 
 if __name__ == '__main__':

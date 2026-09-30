@@ -17852,5 +17852,2631 @@
       }
     ],
     "source": "Generiert (gen_matrizen.py, Regel: Lateinisches Quadrat: jede Form und Farbe einmal pro Zeile/Spalte)"
+  },
+  {
+    "id": "zahlen-triplet-001",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 2, 1, 9, 4, 2, 10, 6, ?\n\nDie gesuchte Zahl ist:",
+    "question_en": "Continue the sequence: 2, 1, 9, 4, 2, 10, 6, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 2",
+      "b) 11",
+      "c) 6",
+      "d) 4",
+      "e) 3"
+    ],
+    "options_en": [
+      "a) 2",
+      "b) 11",
+      "c) 6",
+      "d) 4",
+      "e) 3"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Dreierblöcke: (2, 1, 9) (4, 2, 10) (6, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 2 (÷2) 1 (+8) 9. Die Startwerte der Blöcke (2, 4, 6) folgen ihrer eigenen Regel (+2). Der dritte Block beginnt mit 6; die gesuchte Zahl ist die zweite im Block: 6 ÷ 2 = 3. Antwort: 3.",
+    "explanation_en": "Blocks of three: (2, 1, 9) (4, 2, 10) (6, ?). Rule inside every block (step by step): 2 (÷2) 1 (+8) 9. The block start values (2, 4, 6) follow their own rule (+2). The third block starts with 6; the missing number is the second one in the block: 6 ÷ 2 = 3. Answer: 3.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-002",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 4, 1, 9, 8, 5, 13, 16, ?\n\nDie gesuchte Zahl ist:",
+    "question_en": "Continue the sequence: 4, 1, 9, 8, 5, 13, 16, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 9",
+      "b) 13",
+      "c) 19",
+      "d) 21",
+      "e) 16"
+    ],
+    "options_en": [
+      "a) 9",
+      "b) 13",
+      "c) 19",
+      "d) 21",
+      "e) 16"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Dreierblöcke: (4, 1, 9) (8, 5, 13) (16, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 4 (−3) 1 (+8) 9. Die Startwerte der Blöcke (4, 8, 16) folgen ihrer eigenen Regel (×2). Der dritte Block beginnt mit 16; die gesuchte Zahl ist die zweite im Block: 16 − 3 = 13. Antwort: 13.",
+    "explanation_en": "Blocks of three: (4, 1, 9) (8, 5, 13) (16, ?). Rule inside every block (step by step): 4 (−3) 1 (+8) 9. The block start values (4, 8, 16) follow their own rule (×2). The third block starts with 16; the missing number is the second one in the block: 16 − 3 = 13. Answer: 13.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-003",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 11, 8, 9, 36, 33, 34, 136, ?\n\nDie gesuchte Zahl ist:",
+    "question_en": "Complete the number sequence: 11, 8, 9, 36, 33, 34, 136, ?\n\nThe missing number is:",
+    "options_de": [
+      "a) 238",
+      "b) 31",
+      "c) 544",
+      "d) 133",
+      "e) 236"
+    ],
+    "options_en": [
+      "a) 238",
+      "b) 31",
+      "c) 544",
+      "d) 133",
+      "e) 236"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt für Schritt: 11 (−3) 8 (+1) 9 (×4) 36 (−3) 33 (+1) 34 (×4) 136 (−3) ?. Gruppierung in Dreierblöcke: (11, 8, 9) (36, 33, 34) (136, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: −3, +1, ×4. Die 136 beginnt einen neuen Block, also folgt wieder der erste Schritt (−3): 136 − 3 = 133. Antwort: 133.",
+    "explanation_en": "Step by step: 11 (−3) 8 (+1) 9 (×4) 36 (−3) 33 (+1) 34 (×4) 136 (−3) ?. Grouped into blocks of three: (11, 8, 9) (36, 33, 34) (136, ?). The same three steps repeat in every block: −3, +1, ×4. The 136 starts a new block, so the first step (−3) comes again: 136 − 3 = 133. Answer: 133.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-004",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 8, 16, 48, 13, 21, 63, 18, ?\n\nWelche Zahl ersetzt das Fragezeichen?",
+    "question_en": "Continue the sequence: 8, 16, 48, 13, 21, 63, 18, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 23",
+      "b) 78",
+      "c) 31",
+      "d) 18",
+      "e) 26"
+    ],
+    "options_en": [
+      "a) 23",
+      "b) 78",
+      "c) 31",
+      "d) 18",
+      "e) 26"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Dreierblöcke: (8, 16, 48) (13, 21, 63) (18, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 8 (+8) 16 (×3) 48. Die Startwerte der Blöcke (8, 13, 18) folgen ihrer eigenen Regel (+5). Der dritte Block beginnt mit 18; die gesuchte Zahl ist die zweite im Block: 18 + 8 = 26. Antwort: 26.",
+    "explanation_en": "Blocks of three: (8, 16, 48) (13, 21, 63) (18, ?). Rule inside every block (step by step): 8 (+8) 16 (×3) 48. The block start values (8, 13, 18) follow their own rule (+5). The third block starts with 18; the missing number is the second one in the block: 18 + 8 = 26. Answer: 26.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 9, 10, 13, 19, 20, 23, 29, ?\n\nDie gesuchte Zahl ist:",
+    "question_en": "Number sequence: 9, 10, 13, 19, 20, 23, 29, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 39",
+      "b) 24",
+      "c) 30",
+      "d) 32",
+      "e) 35"
+    ],
+    "options_en": [
+      "a) 39",
+      "b) 24",
+      "c) 30",
+      "d) 32",
+      "e) 35"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt für Schritt: 9 (+1) 10 (+3) 13 (+6) 19 (+1) 20 (+3) 23 (+6) 29 (+1) ?. Gruppierung in Dreierblöcke: (9, 10, 13) (19, 20, 23) (29, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: +1, +3, +6. Die 29 beginnt einen neuen Block, also folgt wieder der erste Schritt (+1): 29 + 1 = 30. Antwort: 30.",
+    "explanation_en": "Step by step: 9 (+1) 10 (+3) 13 (+6) 19 (+1) 20 (+3) 23 (+6) 29 (+1) ?. Grouped into blocks of three: (9, 10, 13) (19, 20, 23) (29, ?). The same three steps repeat in every block: +1, +3, +6. The 29 starts a new block, so the first step (+1) comes again: 29 + 1 = 30. Answer: 30.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-006",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 7, 14, 56, 14, 28, 112, 28, ?\n\nWelche Zahl ersetzt das Fragezeichen?",
+    "question_en": "Number sequence: 7, 14, 56, 14, 28, 112, 28, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 28",
+      "b) 224",
+      "c) 61",
+      "d) 56",
+      "e) 42"
+    ],
+    "options_en": [
+      "a) 28",
+      "b) 224",
+      "c) 61",
+      "d) 56",
+      "e) 42"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Dreierblöcke: (7, 14, 56) (14, 28, 112) (28, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 7 (×2) 14 (×4) 56. Die Startwerte der Blöcke (7, 14, 28) folgen ihrer eigenen Regel (×2). Der dritte Block beginnt mit 28; die gesuchte Zahl ist die zweite im Block: 28 × 2 = 56. Antwort: 56.",
+    "explanation_en": "Blocks of three: (7, 14, 56) (14, 28, 112) (28, ?). Rule inside every block (step by step): 7 (×2) 14 (×4) 56. The block start values (7, 14, 28) follow their own rule (×2). The third block starts with 28; the missing number is the second one in the block: 28 × 2 = 56. Answer: 56.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-007",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 1, 2, 8, 4, 8, 32, 7, ?\n\nWelche Zahl ersetzt das Fragezeichen?",
+    "question_en": "Complete the number sequence: 1, 2, 8, 4, 8, 32, 7, ?\n\nThe missing number is:",
+    "options_de": [
+      "a) 7",
+      "b) 15",
+      "c) 11",
+      "d) 56",
+      "e) 14"
+    ],
+    "options_en": [
+      "a) 7",
+      "b) 15",
+      "c) 11",
+      "d) 56",
+      "e) 14"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Dreierblöcke: (1, 2, 8) (4, 8, 32) (7, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 1 (×2) 2 (×4) 8. Die Startwerte der Blöcke (1, 4, 7) folgen ihrer eigenen Regel (+3). Der dritte Block beginnt mit 7; die gesuchte Zahl ist die zweite im Block: 7 × 2 = 14. Antwort: 14.",
+    "explanation_en": "Blocks of three: (1, 2, 8) (4, 8, 32) (7, ?). Rule inside every block (step by step): 1 (×2) 2 (×4) 8. The block start values (1, 4, 7) follow their own rule (+3). The third block starts with 7; the missing number is the second one in the block: 7 × 2 = 14. Answer: 14.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-008",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 5, 3, 12, 36, 34, 136, 408, ?\n\nWelche Zahl ersetzt das Fragezeichen?",
+    "question_en": "Continue the sequence: 5, 3, 12, 36, 34, 136, 408, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 134",
+      "b) 680",
+      "c) 411",
+      "d) 780",
+      "e) 406"
+    ],
+    "options_en": [
+      "a) 134",
+      "b) 680",
+      "c) 411",
+      "d) 780",
+      "e) 406"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt für Schritt: 5 (−2) 3 (×4) 12 (×3) 36 (−2) 34 (×4) 136 (×3) 408 (−2) ?. Gruppierung in Dreierblöcke: (5, 3, 12) (36, 34, 136) (408, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: −2, ×4, ×3. Die 408 beginnt einen neuen Block, also folgt wieder der erste Schritt (−2): 408 − 2 = 406. Antwort: 406.",
+    "explanation_en": "Step by step: 5 (−2) 3 (×4) 12 (×3) 36 (−2) 34 (×4) 136 (×3) 408 (−2) ?. Grouped into blocks of three: (5, 3, 12) (36, 34, 136) (408, ?). The same three steps repeat in every block: −2, ×4, ×3. The 408 starts a new block, so the first step (−2) comes again: 408 − 2 = 406. Answer: 406.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-009",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Zahlenfolge: 12, 8, 32, 35, 31, 124, 127, ?\n\nWelche Zahl steht an Stelle des Fragezeichens?",
+    "question_en": "Continue the sequence: 12, 8, 32, 35, 31, 124, 127, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 120",
+      "b) 508",
+      "c) 219",
+      "d) 123",
+      "e) 130"
+    ],
+    "options_en": [
+      "a) 120",
+      "b) 508",
+      "c) 219",
+      "d) 123",
+      "e) 130"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt für Schritt: 12 (−4) 8 (×4) 32 (+3) 35 (−4) 31 (×4) 124 (+3) 127 (−4) ?. Gruppierung in Dreierblöcke: (12, 8, 32) (35, 31, 124) (127, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: −4, ×4, +3. Die 127 beginnt einen neuen Block, also folgt wieder der erste Schritt (−4): 127 − 4 = 123. Antwort: 123.",
+    "explanation_en": "Step by step: 12 (−4) 8 (×4) 32 (+3) 35 (−4) 31 (×4) 124 (+3) 127 (−4) ?. Grouped into blocks of three: (12, 8, 32) (35, 31, 124) (127, ?). The same three steps repeat in every block: −4, ×4, +3. The 127 starts a new block, so the first step (−4) comes again: 127 − 4 = 123. Answer: 123.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-010",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 8, 32, 26, 9, 36, 30, 10, ?\n\nWelche Zahl ersetzt das Fragezeichen?",
+    "question_en": "Number sequence: 8, 32, 26, 9, 36, 30, 10, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 37",
+      "b) 10",
+      "c) 43",
+      "d) 34",
+      "e) 40"
+    ],
+    "options_en": [
+      "a) 37",
+      "b) 10",
+      "c) 43",
+      "d) 34",
+      "e) 40"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Dreierblöcke: (8, 32, 26) (9, 36, 30) (10, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 8 (×4) 32 (−6) 26. Die Startwerte der Blöcke (8, 9, 10) folgen ihrer eigenen Regel (+1). Der dritte Block beginnt mit 10; die gesuchte Zahl ist die zweite im Block: 10 × 4 = 40. Antwort: 40.",
+    "explanation_en": "Blocks of three: (8, 32, 26) (9, 36, 30) (10, ?). Rule inside every block (step by step): 8 (×4) 32 (−6) 26. The block start values (8, 9, 10) follow their own rule (+1). The third block starts with 10; the missing number is the second one in the block: 10 × 4 = 40. Answer: 40.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-011",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Zahlenfolge: 6, 12, 36, 9, 15, 45, 12, ?\n\nWelche Zahl steht an Stelle des Fragezeichens?",
+    "question_en": "Number sequence: 6, 12, 36, 9, 15, 45, 12, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 12",
+      "b) 18",
+      "c) 54",
+      "d) 19",
+      "e) 23"
+    ],
+    "options_en": [
+      "a) 12",
+      "b) 18",
+      "c) 54",
+      "d) 19",
+      "e) 23"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Dreierblöcke: (6, 12, 36) (9, 15, 45) (12, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 6 (+6) 12 (×3) 36. Die Startwerte der Blöcke (6, 9, 12) folgen ihrer eigenen Regel (+3). Der dritte Block beginnt mit 12; die gesuchte Zahl ist die zweite im Block: 12 + 6 = 18. Antwort: 18.",
+    "explanation_en": "Blocks of three: (6, 12, 36) (9, 15, 45) (12, ?). Rule inside every block (step by step): 6 (+6) 12 (×3) 36. The block start values (6, 9, 12) follow their own rule (+3). The third block starts with 12; the missing number is the second one in the block: 12 + 6 = 18. Answer: 18.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-012",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Zahlenfolge: 20, 24, 48, 55, 59, 118, 125, ?\n\nWelche Zahl steht an Stelle des Fragezeichens?",
+    "question_en": "Continue the sequence: 20, 24, 48, 55, 59, 118, 125, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 132",
+      "b) 129",
+      "c) 122",
+      "d) 195",
+      "e) 250"
+    ],
+    "options_en": [
+      "a) 132",
+      "b) 129",
+      "c) 122",
+      "d) 195",
+      "e) 250"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt für Schritt: 20 (+4) 24 (×2) 48 (+7) 55 (+4) 59 (×2) 118 (+7) 125 (+4) ?. Gruppierung in Dreierblöcke: (20, 24, 48) (55, 59, 118) (125, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: +4, ×2, +7. Die 125 beginnt einen neuen Block, also folgt wieder der erste Schritt (+4): 125 + 4 = 129. Antwort: 129.",
+    "explanation_en": "Step by step: 20 (+4) 24 (×2) 48 (+7) 55 (+4) 59 (×2) 118 (+7) 125 (+4) ?. Grouped into blocks of three: (20, 24, 48) (55, 59, 118) (125, ?). The same three steps repeat in every block: +4, ×2, +7. The 125 starts a new block, so the first step (+4) comes again: 125 + 4 = 129. Answer: 129.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-013",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 10, 16, 25, 50, 56, 65, 130, ?\n\nDie gesuchte Zahl ist:",
+    "question_en": "Continue the sequence: 10, 16, 25, 50, 56, 65, 130, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 136",
+      "b) 71",
+      "c) 195",
+      "d) 210",
+      "e) 139"
+    ],
+    "options_en": [
+      "a) 136",
+      "b) 71",
+      "c) 195",
+      "d) 210",
+      "e) 139"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt für Schritt: 10 (+6) 16 (+9) 25 (×2) 50 (+6) 56 (+9) 65 (×2) 130 (+6) ?. Gruppierung in Dreierblöcke: (10, 16, 25) (50, 56, 65) (130, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: +6, +9, ×2. Die 130 beginnt einen neuen Block, also folgt wieder der erste Schritt (+6): 130 + 6 = 136. Antwort: 136.",
+    "explanation_en": "Step by step: 10 (+6) 16 (+9) 25 (×2) 50 (+6) 56 (+9) 65 (×2) 130 (+6) ?. Grouped into blocks of three: (10, 16, 25) (50, 56, 65) (130, ?). The same three steps repeat in every block: +6, +9, ×2. The 130 starts a new block, so the first step (+6) comes again: 130 + 6 = 136. Answer: 136.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-014",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Zahlenfolge: 14, 28, 14, 56, 112, 56, 224, ?\n\nWelche Zahl steht an Stelle des Fragezeichens?",
+    "question_en": "Continue the sequence: 14, 28, 14, 56, 112, 56, 224, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 112",
+      "b) 896",
+      "c) 446",
+      "d) 448",
+      "e) 392"
+    ],
+    "options_en": [
+      "a) 112",
+      "b) 896",
+      "c) 446",
+      "d) 448",
+      "e) 392"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt für Schritt: 14 (×2) 28 (÷2) 14 (×4) 56 (×2) 112 (÷2) 56 (×4) 224 (×2) ?. Gruppierung in Dreierblöcke: (14, 28, 14) (56, 112, 56) (224, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: ×2, ÷2, ×4. Die 224 beginnt einen neuen Block, also folgt wieder der erste Schritt (×2): 224 × 2 = 448. Antwort: 448.",
+    "explanation_en": "Step by step: 14 (×2) 28 (÷2) 14 (×4) 56 (×2) 112 (÷2) 56 (×4) 224 (×2) ?. Grouped into blocks of three: (14, 28, 14) (56, 112, 56) (224, ?). The same three steps repeat in every block: ×2, ÷2, ×4. The 224 starts a new block, so the first step (×2) comes again: 224 × 2 = 448. Answer: 448.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-015",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Zahlenfolge: 14, 16, 48, 24, 26, 78, 39, ?\n\nWelche Zahl steht an Stelle des Fragezeichens?",
+    "question_en": "Complete the number sequence: 14, 16, 48, 24, 26, 78, 39, ?\n\nThe missing number is:",
+    "options_de": [
+      "a) 41",
+      "b) 117",
+      "c) 54",
+      "d) 80",
+      "e) 44"
+    ],
+    "options_en": [
+      "a) 41",
+      "b) 117",
+      "c) 54",
+      "d) 80",
+      "e) 44"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt für Schritt: 14 (+2) 16 (×3) 48 (÷2) 24 (+2) 26 (×3) 78 (÷2) 39 (+2) ?. Gruppierung in Dreierblöcke: (14, 16, 48) (24, 26, 78) (39, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: +2, ×3, ÷2. Die 39 beginnt einen neuen Block, also folgt wieder der erste Schritt (+2): 39 + 2 = 41. Antwort: 41.",
+    "explanation_en": "Step by step: 14 (+2) 16 (×3) 48 (÷2) 24 (+2) 26 (×3) 78 (÷2) 39 (+2) ?. Grouped into blocks of three: (14, 16, 48) (24, 26, 78) (39, ?). The same three steps repeat in every block: +2, ×3, ÷2. The 39 starts a new block, so the first step (+2) comes again: 39 + 2 = 41. Answer: 41.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-016",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Zahlenfolge: 7, 6, 15, 18, 17, 26, 29, ?\n\nWelche Zahl steht an Stelle des Fragezeichens?",
+    "question_en": "Number sequence: 7, 6, 15, 18, 17, 26, 29, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 38",
+      "b) 25",
+      "c) 32",
+      "d) 40",
+      "e) 28"
+    ],
+    "options_en": [
+      "a) 38",
+      "b) 25",
+      "c) 32",
+      "d) 40",
+      "e) 28"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt für Schritt: 7 (−1) 6 (+9) 15 (+3) 18 (−1) 17 (+9) 26 (+3) 29 (−1) ?. Gruppierung in Dreierblöcke: (7, 6, 15) (18, 17, 26) (29, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: −1, +9, +3. Die 29 beginnt einen neuen Block, also folgt wieder der erste Schritt (−1): 29 − 1 = 28. Antwort: 28.",
+    "explanation_en": "Step by step: 7 (−1) 6 (+9) 15 (+3) 18 (−1) 17 (+9) 26 (+3) 29 (−1) ?. Grouped into blocks of three: (7, 6, 15) (18, 17, 26) (29, ?). The same three steps repeat in every block: −1, +9, +3. The 29 starts a new block, so the first step (−1) comes again: 29 − 1 = 28. Answer: 28.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-017",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 15, 10, 19, 17, 12, 21, 19, ?\n\nDie gesuchte Zahl ist:",
+    "question_en": "Continue the sequence: 15, 10, 19, 17, 12, 21, 19, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 17",
+      "b) 14",
+      "c) 16",
+      "d) 21",
+      "e) 28"
+    ],
+    "options_en": [
+      "a) 17",
+      "b) 14",
+      "c) 16",
+      "d) 21",
+      "e) 28"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt für Schritt: 15 (−5) 10 (+9) 19 (−2) 17 (−5) 12 (+9) 21 (−2) 19 (−5) ?. Gruppierung in Dreierblöcke: (15, 10, 19) (17, 12, 21) (19, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: −5, +9, −2. Die 19 beginnt einen neuen Block, also folgt wieder der erste Schritt (−5): 19 − 5 = 14. Antwort: 14.",
+    "explanation_en": "Step by step: 15 (−5) 10 (+9) 19 (−2) 17 (−5) 12 (+9) 21 (−2) 19 (−5) ?. Grouped into blocks of three: (15, 10, 19) (17, 12, 21) (19, ?). The same three steps repeat in every block: −5, +9, −2. The 19 starts a new block, so the first step (−5) comes again: 19 − 5 = 14. Answer: 14.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-018",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 7, 15, 10, 20, 28, 23, 46, ?\n\nWelche Zahl ersetzt das Fragezeichen?",
+    "question_en": "Continue the sequence: 7, 15, 10, 20, 28, 23, 46, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 31",
+      "b) 54",
+      "c) 69",
+      "d) 72",
+      "e) 92"
+    ],
+    "options_en": [
+      "a) 31",
+      "b) 54",
+      "c) 69",
+      "d) 72",
+      "e) 92"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt für Schritt: 7 (+8) 15 (−5) 10 (×2) 20 (+8) 28 (−5) 23 (×2) 46 (+8) ?. Gruppierung in Dreierblöcke: (7, 15, 10) (20, 28, 23) (46, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: +8, −5, ×2. Die 46 beginnt einen neuen Block, also folgt wieder der erste Schritt (+8): 46 + 8 = 54. Antwort: 54.",
+    "explanation_en": "Step by step: 7 (+8) 15 (−5) 10 (×2) 20 (+8) 28 (−5) 23 (×2) 46 (+8) ?. Grouped into blocks of three: (7, 15, 10) (20, 28, 23) (46, ?). The same three steps repeat in every block: +8, −5, ×2. The 46 starts a new block, so the first step (+8) comes again: 46 + 8 = 54. Answer: 54.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-019",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Setzen Sie die Folge fort: 8, 3, 8, 12, 7, 12, 16, ?\n\nWelche Zahl ersetzt das Fragezeichen?",
+    "question_en": "Complete the number sequence: 8, 3, 8, 12, 7, 12, 16, ?\n\nThe missing number is:",
+    "options_de": [
+      "a) 20",
+      "b) 11",
+      "c) 16",
+      "d) 9",
+      "e) 13"
+    ],
+    "options_en": [
+      "a) 20",
+      "b) 11",
+      "c) 16",
+      "d) 9",
+      "e) 13"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Dreierblöcke: (8, 3, 8) (12, 7, 12) (16, ?). Regel innerhalb jedes Blocks (Schritt für Schritt): 8 (−5) 3 (+5) 8. Die Startwerte der Blöcke (8, 12, 16) folgen ihrer eigenen Regel (+4). Der dritte Block beginnt mit 16; die gesuchte Zahl ist die zweite im Block: 16 − 5 = 11. Antwort: 11.",
+    "explanation_en": "Blocks of three: (8, 3, 8) (12, 7, 12) (16, ?). Rule inside every block (step by step): 8 (−5) 3 (+5) 8. The block start values (8, 12, 16) follow their own rule (+4). The third block starts with 16; the missing number is the second one in the block: 16 − 5 = 11. Answer: 11.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "zahlen-triplet-020",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "zahlenfolge",
+      "triplet"
+    ],
+    "question_de": "Ergänzen Sie die Zahlenfolge: 10, 12, 18, 9, 11, 17, 8, ?\n\nDie gesuchte Zahl ist:",
+    "question_en": "Number sequence: 10, 12, 18, 9, 11, 17, 8, ?\n\nWhich number replaces the question mark?",
+    "options_de": [
+      "a) 19",
+      "b) 14",
+      "c) 11",
+      "d) 10",
+      "e) 7"
+    ],
+    "options_en": [
+      "a) 19",
+      "b) 14",
+      "c) 11",
+      "d) 10",
+      "e) 7"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt für Schritt: 10 (+2) 12 (+6) 18 (−9) 9 (+2) 11 (+6) 17 (−9) 8 (+2) ?. Gruppierung in Dreierblöcke: (10, 12, 18) (9, 11, 17) (8, ?). In jedem Block wiederholen sich dieselben drei Rechenschritte: +2, +6, −9. Die 8 beginnt einen neuen Block, also folgt wieder der erste Schritt (+2): 8 + 2 = 10. Antwort: 10.",
+    "explanation_en": "Step by step: 10 (+2) 12 (+6) 18 (−9) 9 (+2) 11 (+6) 17 (−9) 8 (+2) ?. Grouped into blocks of three: (10, 12, 18) (9, 11, 17) (8, ?). The same three steps repeat in every block: +2, +6, −9. The 8 starts a new block, so the first step (+2) comes again: 8 + 2 = 10. Answer: 10.",
+    "mistakes_de": "Typische Fehler: (1) Nur zwei Rechenschritte abwechselnd annehmen, obwohl sich drei wiederholen. (2) Den letzten Rechenschritt einfach wiederholen oder den falschen Schritt des Zyklus anwenden. (3) Nicht in Dreierblöcken gruppieren und die Folge nur Zahl für Zahl betrachten.",
+    "mistakes_en": "Common mistakes: (1) Assuming two alternating steps when three steps repeat. (2) Repeating the last step or applying the wrong step of the cycle. (3) Not grouping the numbers into blocks of three and looking at single differences only.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Info Reihungstest 2026 (TU Wien), Zahlenfolgen-Beispiel 1 — generiert"
+  },
+  {
+    "id": "matrix4-gen-001",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Stern, klein, weiß] [Sechseck, groß, schwarz] [Dreieck, mittel, grau] [Kreis, groß, schwarz]\nZeile 2: [Sechseck, groß, grau] [Dreieck, mittel, weiß] [Kreis, klein, schwarz] [Stern, mittel, weiß]\nZeile 3: [Kreis, mittel, schwarz] [Stern, klein, grau] [Sechseck, groß, weiß] [Dreieck, klein, grau]\nZeile 4: [Dreieck, klein, weiß] [Kreis, groß, schwarz] [Stern, mittel, grau] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Star, small, white] [Hexagon, big, black] [Triangle, medium, grey] [Circle, big, black]\nRow 2: [Hexagon, big, grey] [Triangle, medium, white] [Circle, small, black] [Star, medium, white]\nRow 3: [Circle, medium, black] [Star, small, grey] [Hexagon, big, white] [Triangle, small, grey]\nRow 4: [Triangle, small, white] [Circle, big, black] [Star, medium, grey] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Sechseck, klein, schwarz",
+      "b) Sechseck, groß, weiß",
+      "c) Dreieck, groß, schwarz",
+      "d) Sechseck, groß, grau",
+      "e) Sechseck, groß, schwarz"
+    ],
+    "options_en": [
+      "a) Hexagon, small, black",
+      "b) Hexagon, big, white",
+      "c) Triangle, big, black",
+      "d) Hexagon, big, grey",
+      "e) Hexagon, big, black"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Stern, Sechseck, Dreieck, Kreis) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Dreieck, Kreis, Stern → es fehlt Sechseck. Spaltenregel: Spalte 4 zeigt schon Kreis, Stern, Dreieck → es fehlt Sechseck. Beide Regeln ergeben: Sechseck.\nSchritt 3 – Farbe: Stufenfolge grau → weiß → schwarz → grau (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit weiß; Spalte 4 liegt 1 Stufe weiter → schwarz. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 grau, eine Zeile tiefer also schwarz.\nSchritt 4 – Größe: Stufenfolge groß → mittel → klein → groß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit klein; Spalte 4 liegt 1 Stufe weiter → groß. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 klein, eine Zeile tiefer also groß.\nSchritt 5 – Fehlende Figur zusammensetzen: Sechseck, groß, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Star, Hexagon, Triangle, Circle) appears exactly once in every row and every column. Row rule: row 4 already shows Triangle, Circle, Star → Hexagon is missing. Column rule: column 4 already shows Circle, Star, Triangle → Hexagon is missing. Both rules give: Hexagon.\nStep 3 – Colour: sequence grey → white → black → grey (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with white; column 4 is 1 step further → black. Column rule: each row starts 2 steps further along than the row above; column 4 shows grey in row 3, so one row down it is black.\nStep 4 – Size: sequence big → medium → small → big (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with small; column 4 is 1 step further → big. Column rule: each row starts 1 step further along than the row above; column 4 shows small in row 3, so one row down it is big.\nStep 5 – Assemble the missing figure: Hexagon, big, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: 3 Eigenschaften (Lateinisches Quadrat für Form, Zyklen für Farbe und Größe))"
+  },
+  {
+    "id": "matrix4-gen-002",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Pfeil ↓, mittel, grau] [Pfeil →, klein, grau] [Pfeil ↑, groß, grau] [Pfeil ←, klein, grau]\nZeile 2: [Pfeil →, groß, schwarz] [Pfeil ↑, mittel, schwarz] [Pfeil ←, klein, schwarz] [Pfeil ↓, mittel, schwarz]\nZeile 3: [Pfeil ↑, klein, grau] [Pfeil ←, groß, grau] [Pfeil ↓, mittel, grau] [Pfeil →, groß, grau]\nZeile 4: [Pfeil ←, mittel, schwarz] [Pfeil ↓, klein, schwarz] [Pfeil →, groß, schwarz] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Arrow ↓, medium, grey] [Arrow →, small, grey] [Arrow ↑, big, grey] [Arrow ←, small, grey]\nRow 2: [Arrow →, big, black] [Arrow ↑, medium, black] [Arrow ←, small, black] [Arrow ↓, medium, black]\nRow 3: [Arrow ↑, small, grey] [Arrow ←, big, grey] [Arrow ↓, medium, grey] [Arrow →, big, grey]\nRow 4: [Arrow ←, medium, black] [Arrow ↓, small, black] [Arrow →, big, black] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Pfeil →, klein, schwarz",
+      "b) Pfeil ↑, klein, schwarz",
+      "c) Pfeil ←, klein, schwarz",
+      "d) Pfeil ↑, klein, grau",
+      "e) Pfeil ↑, mittel, schwarz"
+    ],
+    "options_en": [
+      "a) Arrow →, small, black",
+      "b) Arrow ↑, small, black",
+      "c) Arrow ←, small, black",
+      "d) Arrow ↑, small, grey",
+      "e) Arrow ↑, medium, black"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Richtung: Der Pfeil dreht sich pro Spalte um 90° gegen den Uhrzeigersinn; jede Zeile ist um 3×90° im Uhrzeigersinn weitergedreht als die Zeile darüber. Zeilenregel: Zeile 4 beginnt mit ←; 3 Drehungen um je 90° gegen den Uhrzeigersinn ergeben ↑. Spaltenregel: Spalte 4 zeigt in Zeile 3 →; eine Zeile tiefer (3×90° im Uhrzeigersinn) ist es ↑.\nSchritt 3 – Farbe: Wechselt pro Zeile zwischen schwarz und grau; Zeile 4 ist schwarz (wie die drei sichtbaren Felder der Zeile).\nSchritt 4 – Größe: Stufenfolge mittel → klein → groß → mittel (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit mittel; Spalte 4 liegt 1 Stufe weiter → klein. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 groß, eine Zeile tiefer also klein.\nSchritt 5 – Fehlende Figur zusammensetzen: Pfeil ↑, klein, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Direction: the arrow turns 90° counter-clockwise per column; each row is turned a further 3×90° clockwise compared with the row above. Row rule: row 4 starts with ←; 3 turns of 90° counter-clockwise give ↑. Column rule: column 4 shows → in row 3; one row down (3×90° clockwise) it is ↑.\nStep 3 – Colour: alternates between black and grey per row; row 4 is black (like the three visible cells of that row).\nStep 4 – Size: sequence medium → small → big → medium (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with medium; column 4 is 1 step further → small. Column rule: each row starts 2 steps further along than the row above; column 4 shows big in row 3, so one row down it is small.\nStep 5 – Assemble the missing figure: Arrow ↑, small, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Pfeil dreht pro Spalte um 90°, Zeilen versetzt; Farbe wechselt pro Zeile)"
+  },
+  {
+    "id": "matrix4-gen-003",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Pfeil ←, mittel, grau] [Pfeil ↓, groß, grau] [Pfeil →, klein, grau] [Pfeil ↑, groß, grau]\nZeile 2: [Pfeil ↑, klein, schwarz] [Pfeil ←, mittel, schwarz] [Pfeil ↓, groß, schwarz] [Pfeil →, mittel, schwarz]\nZeile 3: [Pfeil →, groß, grau] [Pfeil ↑, klein, grau] [Pfeil ←, mittel, grau] [Pfeil ↓, klein, grau]\nZeile 4: [Pfeil ↓, mittel, schwarz] [Pfeil →, groß, schwarz] [Pfeil ↑, klein, schwarz] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Arrow ←, medium, grey] [Arrow ↓, big, grey] [Arrow →, small, grey] [Arrow ↑, big, grey]\nRow 2: [Arrow ↑, small, black] [Arrow ←, medium, black] [Arrow ↓, big, black] [Arrow →, medium, black]\nRow 3: [Arrow →, big, grey] [Arrow ↑, small, grey] [Arrow ←, medium, grey] [Arrow ↓, small, grey]\nRow 4: [Arrow ↓, medium, black] [Arrow →, big, black] [Arrow ↑, small, black] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Pfeil ←, groß, schwarz",
+      "b) Pfeil ←, mittel, schwarz",
+      "c) Pfeil ←, groß, grau",
+      "d) Pfeil ↑, groß, schwarz",
+      "e) Pfeil ←, klein, schwarz"
+    ],
+    "options_en": [
+      "a) Arrow ←, big, black",
+      "b) Arrow ←, medium, black",
+      "c) Arrow ←, big, grey",
+      "d) Arrow ↑, big, black",
+      "e) Arrow ←, small, black"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Richtung: Der Pfeil dreht sich pro Spalte um 90° gegen den Uhrzeigersinn; jede Zeile ist um 1×90° im Uhrzeigersinn weitergedreht als die Zeile darüber. Zeilenregel: Zeile 4 beginnt mit ↓; 3 Drehungen um je 90° gegen den Uhrzeigersinn ergeben ←. Spaltenregel: Spalte 4 zeigt in Zeile 3 ↓; eine Zeile tiefer (1×90° im Uhrzeigersinn) ist es ←.\nSchritt 3 – Farbe: Wechselt pro Zeile zwischen schwarz und grau; Zeile 4 ist schwarz (wie die drei sichtbaren Felder der Zeile).\nSchritt 4 – Größe: Stufenfolge mittel → groß → klein → mittel (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit mittel; Spalte 4 liegt 1 Stufe weiter → groß. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 klein, eine Zeile tiefer also groß.\nSchritt 5 – Fehlende Figur zusammensetzen: Pfeil ←, groß, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Direction: the arrow turns 90° counter-clockwise per column; each row is turned a further 1×90° clockwise compared with the row above. Row rule: row 4 starts with ↓; 3 turns of 90° counter-clockwise give ←. Column rule: column 4 shows ↓ in row 3; one row down (1×90° clockwise) it is ←.\nStep 3 – Colour: alternates between black and grey per row; row 4 is black (like the three visible cells of that row).\nStep 4 – Size: sequence medium → big → small → medium (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with medium; column 4 is 1 step further → big. Column rule: each row starts 2 steps further along than the row above; column 4 shows small in row 3, so one row down it is big.\nStep 5 – Assemble the missing figure: Arrow ←, big, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Pfeil dreht pro Spalte um 90°, Zeilen versetzt; Farbe wechselt pro Zeile)"
+  },
+  {
+    "id": "matrix4-gen-004",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Kreis mit 2 Punkten, grau] [Kreis mit 1 Punkt, grau] [Kreis mit 3 Punkten, grau] [Kreis mit 4 Punkten, grau]\nZeile 2: [Quadrat mit 1 Punkt, grau] [Quadrat mit 1 Punkt, grau] [Quadrat mit 2 Punkten, grau] [Quadrat mit 3 Punkten, grau]\nZeile 3: [Dreieck mit 2 Punkten, grau] [Dreieck mit 1 Punkt, grau] [Dreieck mit 3 Punkten, grau] [Dreieck mit 4 Punkten, grau]\nZeile 4: [Sechseck mit 2 Punkten, schwarz] [Sechseck mit 1 Punkt, schwarz] [Sechseck mit 3 Punkten, schwarz] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Circle with 2 dots, grey] [Circle with 1 dot, grey] [Circle with 3 dots, grey] [Circle with 4 dots, grey]\nRow 2: [Square with 1 dot, grey] [Square with 1 dot, grey] [Square with 2 dots, grey] [Square with 3 dots, grey]\nRow 3: [Triangle with 2 dots, grey] [Triangle with 1 dot, grey] [Triangle with 3 dots, grey] [Triangle with 4 dots, grey]\nRow 4: [Hexagon with 2 dots, black] [Hexagon with 1 dot, black] [Hexagon with 3 dots, black] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Sechseck mit 5 Punkten, schwarz",
+      "b) Sechseck mit 2 Punkten, schwarz",
+      "c) Sechseck mit 8 Punkten, schwarz",
+      "d) Sechseck mit 4 Punkten, schwarz",
+      "e) Sechseck mit 4 Punkten, grau"
+    ],
+    "options_en": [
+      "a) Hexagon with 5 dots, black",
+      "b) Hexagon with 2 dots, black",
+      "c) Hexagon with 8 dots, black",
+      "d) Hexagon with 4 dots, black",
+      "e) Hexagon with 4 dots, grey"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form und Farbe: Bleiben in jeder Zeile gleich (Zeilenregel); jede Spalte enthält 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt Sechseck, schwarz.\nSchritt 3 – Punkte (Zeilenregel): Spalte 3 = Spalte 1 + Spalte 2 und Spalte 4 = Spalte 2 + Spalte 3. Zeile 4: 2 + 1 = 3 (sichtbar, passt), dann 1 + 3 = 4. Probe Zeile 1: 2 + 1 = 3, 1 + 3 = 4.\nSchritt 4 – Fehlende Figur zusammensetzen: Sechseck mit 4 Punkten, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape and colour: stay the same within each row (row rule); every column contains 4 different shapes (column rule). Row 4 shows Hexagon, black.\nStep 3 – Dots (row rule): column 3 = column 1 + column 2 and column 4 = column 2 + column 3. Row 4: 2 + 1 = 3 (visible, fits), then 1 + 3 = 4. Check row 1: 2 + 1 = 3, 1 + 3 = 4.\nStep 4 – Assemble the missing figure: Hexagon with 4 dots, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Punkte addieren (Spalte 3 = Spalte 1 + Spalte 2 und Spalte 4 = Spalte 2 + Spalte 3))"
+  },
+  {
+    "id": "matrix4-gen-005",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Quadrat, mittel, schwarz] [Sechseck, groß, weiß] [Raute, klein, grau] [Dreieck, mittel, schwarz]\nZeile 2: [Raute, klein, grau] [Dreieck, mittel, schwarz] [Sechseck, groß, weiß] [Quadrat, klein, grau]\nZeile 3: [Dreieck, groß, weiß] [Raute, klein, grau] [Quadrat, mittel, schwarz] [Sechseck, groß, weiß]\nZeile 4: [Sechseck, mittel, schwarz] [Quadrat, groß, weiß] [Dreieck, klein, grau] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Square, medium, black] [Hexagon, big, white] [Diamond, small, grey] [Triangle, medium, black]\nRow 2: [Diamond, small, grey] [Triangle, medium, black] [Hexagon, big, white] [Square, small, grey]\nRow 3: [Triangle, big, white] [Diamond, small, grey] [Square, medium, black] [Hexagon, big, white]\nRow 4: [Hexagon, medium, black] [Square, big, white] [Triangle, small, grey] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Raute, klein, schwarz",
+      "b) Raute, mittel, schwarz",
+      "c) Quadrat, mittel, schwarz",
+      "d) Raute, mittel, grau",
+      "e) Dreieck, mittel, schwarz"
+    ],
+    "options_en": [
+      "a) Diamond, small, black",
+      "b) Diamond, medium, black",
+      "c) Square, medium, black",
+      "d) Diamond, medium, grey",
+      "e) Triangle, medium, black"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Quadrat, Sechseck, Raute, Dreieck) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Sechseck, Quadrat, Dreieck → es fehlt Raute. Spaltenregel: Spalte 4 zeigt schon Dreieck, Quadrat, Sechseck → es fehlt Raute. Beide Regeln ergeben: Raute.\nSchritt 3 – Farbe: Stufenfolge weiß → grau → schwarz → weiß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit schwarz; Spalte 4 liegt 0 Stufen weiter → schwarz. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also schwarz.\nSchritt 4 – Größe: Stufenfolge mittel → groß → klein → mittel (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit mittel; Spalte 4 liegt 0 Stufen weiter → mittel. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 groß, eine Zeile tiefer also mittel.\nSchritt 5 – Fehlende Figur zusammensetzen: Raute, mittel, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Square, Hexagon, Diamond, Triangle) appears exactly once in every row and every column. Row rule: row 4 already shows Hexagon, Square, Triangle → Diamond is missing. Column rule: column 4 already shows Triangle, Square, Hexagon → Diamond is missing. Both rules give: Diamond.\nStep 3 – Colour: sequence white → grey → black → white (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with black; column 4 is 0 steps further → black. Column rule: each row starts 2 steps further along than the row above; column 4 shows white in row 3, so one row down it is black.\nStep 4 – Size: sequence medium → big → small → medium (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with medium; column 4 is 0 steps further → medium. Column rule: each row starts 2 steps further along than the row above; column 4 shows big in row 3, so one row down it is medium.\nStep 5 – Assemble the missing figure: Diamond, medium, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: 3 Eigenschaften (Lateinisches Quadrat für Form, Zyklen für Farbe und Größe))"
+  },
+  {
+    "id": "matrix4-gen-006",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Herz, groß, grau] [Herz, klein, schwarz] [Herz, mittel, weiß] [Herz, groß, schwarz]\nZeile 2: [Kreis, klein, weiß] [Kreis, mittel, grau] [Kreis, groß, schwarz] [Kreis, klein, grau]\nZeile 3: [Stern, mittel, schwarz] [Stern, groß, weiß] [Stern, klein, grau] [Stern, mittel, weiß]\nZeile 4: [Quadrat, groß, grau] [Quadrat, klein, schwarz] [Quadrat, mittel, weiß] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Heart, big, grey] [Heart, small, black] [Heart, medium, white] [Heart, big, black]\nRow 2: [Circle, small, white] [Circle, medium, grey] [Circle, big, black] [Circle, small, grey]\nRow 3: [Star, medium, black] [Star, big, white] [Star, small, grey] [Star, medium, white]\nRow 4: [Square, big, grey] [Square, small, black] [Square, medium, white] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Quadrat, groß, schwarz",
+      "b) Quadrat, mittel, schwarz",
+      "c) Quadrat, groß, grau",
+      "d) Kreis, groß, schwarz",
+      "e) Herz, groß, schwarz"
+    ],
+    "options_en": [
+      "a) Square, big, black",
+      "b) Square, medium, black",
+      "c) Square, big, grey",
+      "d) Circle, big, black",
+      "e) Heart, big, black"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form: Jede Zeile hat ihre eigene Form, die in der Zeile konstant bleibt (Zeilenregel); die 4 Zeilen zeigen 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt 3× Quadrat → Quadrat.\nSchritt 3 – Farbe: Stufenfolge weiß → grau → schwarz → weiß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit grau; Spalte 4 liegt 1 Stufe weiter → schwarz. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also schwarz.\nSchritt 4 – Größe: Stufenfolge klein → mittel → groß → klein (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit groß; Spalte 4 liegt 0 Stufen weiter → groß. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 mittel, eine Zeile tiefer also groß.\nSchritt 5 – Fehlende Figur zusammensetzen: Quadrat, groß, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape: each row has its own shape that stays constant within the row (row rule); the 4 rows show 4 different shapes (column rule). Row 4 shows 3x Square → Square.\nStep 3 – Colour: sequence white → grey → black → white (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with grey; column 4 is 1 step further → black. Column rule: each row starts 2 steps further along than the row above; column 4 shows white in row 3, so one row down it is black.\nStep 4 – Size: sequence small → medium → big → small (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with big; column 4 is 0 steps further → big. Column rule: each row starts 1 step further along than the row above; column 4 shows medium in row 3, so one row down it is big.\nStep 5 – Assemble the missing figure: Square, big, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Form pro Zeile konstant + Farbe und Größe mit Zyklus)"
+  },
+  {
+    "id": "matrix4-gen-007",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Stern mit 1 Punkt, schwarz] [Stern mit 1 Punkt, schwarz] [Stern mit 1 Punkt, schwarz] [Stern mit 3 Punkten, schwarz]\nZeile 2: [Herz mit 2 Punkten, schwarz] [Herz mit 1 Punkt, schwarz] [Herz mit 2 Punkten, schwarz] [Herz mit 5 Punkten, schwarz]\nZeile 3: [Dreieck mit 2 Punkten, grau] [Dreieck mit 1 Punkt, grau] [Dreieck mit 1 Punkt, grau] [Dreieck mit 4 Punkten, grau]\nZeile 4: [Quadrat mit 1 Punkt, schwarz] [Quadrat mit 1 Punkt, schwarz] [Quadrat mit 2 Punkten, schwarz] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Star with 1 dot, black] [Star with 1 dot, black] [Star with 1 dot, black] [Star with 3 dots, black]\nRow 2: [Heart with 2 dots, black] [Heart with 1 dot, black] [Heart with 2 dots, black] [Heart with 5 dots, black]\nRow 3: [Triangle with 2 dots, grey] [Triangle with 1 dot, grey] [Triangle with 1 dot, grey] [Triangle with 4 dots, grey]\nRow 4: [Square with 1 dot, black] [Square with 1 dot, black] [Square with 2 dots, black] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Quadrat mit 5 Punkten, schwarz",
+      "b) Quadrat mit 4 Punkten, schwarz",
+      "c) Quadrat mit 6 Punkten, schwarz",
+      "d) Quadrat mit 2 Punkten, schwarz",
+      "e) Quadrat mit 3 Punkten, schwarz"
+    ],
+    "options_en": [
+      "a) Square with 5 dots, black",
+      "b) Square with 4 dots, black",
+      "c) Square with 6 dots, black",
+      "d) Square with 2 dots, black",
+      "e) Square with 3 dots, black"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form und Farbe: Bleiben in jeder Zeile gleich (Zeilenregel); jede Spalte enthält 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt Quadrat, schwarz.\nSchritt 3 – Punkte (Zeilenregel): Spalte 4 = Spalte 1 + Spalte 2 + Spalte 3. Zeile 4: 1 + 1 + 2 = 4. Probe Zeile 1: 1 + 1 + 1 = 3.\nSchritt 4 – Fehlende Figur zusammensetzen: Quadrat mit 4 Punkten, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape and colour: stay the same within each row (row rule); every column contains 4 different shapes (column rule). Row 4 shows Square, black.\nStep 3 – Dots (row rule): column 4 = column 1 + column 2 + column 3. Row 4: 1 + 1 + 2 = 4. Check row 1: 1 + 1 + 1 = 3.\nStep 4 – Assemble the missing figure: Square with 4 dots, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Punkte addieren (Spalte 4 = Spalte 1 + Spalte 2 + Spalte 3))"
+  },
+  {
+    "id": "matrix4-gen-008",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Kreis mit 2 Punkten, grau] [Kreis mit 2 Punkten, grau] [Kreis mit 1 Punkt, grau] [Kreis mit 5 Punkten, grau]\nZeile 2: [Stern mit 2 Punkten, grau] [Stern mit 1 Punkt, grau] [Stern mit 2 Punkten, grau] [Stern mit 5 Punkten, grau]\nZeile 3: [Raute mit 1 Punkt, schwarz] [Raute mit 1 Punkt, schwarz] [Raute mit 1 Punkt, schwarz] [Raute mit 3 Punkten, schwarz]\nZeile 4: [Quadrat mit 1 Punkt, grau] [Quadrat mit 2 Punkten, grau] [Quadrat mit 2 Punkten, grau] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Circle with 2 dots, grey] [Circle with 2 dots, grey] [Circle with 1 dot, grey] [Circle with 5 dots, grey]\nRow 2: [Star with 2 dots, grey] [Star with 1 dot, grey] [Star with 2 dots, grey] [Star with 5 dots, grey]\nRow 3: [Diamond with 1 dot, black] [Diamond with 1 dot, black] [Diamond with 1 dot, black] [Diamond with 3 dots, black]\nRow 4: [Square with 1 dot, grey] [Square with 2 dots, grey] [Square with 2 dots, grey] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Quadrat mit 5 Punkten, grau",
+      "b) Stern mit 5 Punkten, grau",
+      "c) Quadrat mit 6 Punkten, grau",
+      "d) Quadrat mit 2 Punkten, grau",
+      "e) Raute mit 5 Punkten, grau"
+    ],
+    "options_en": [
+      "a) Square with 5 dots, grey",
+      "b) Star with 5 dots, grey",
+      "c) Square with 6 dots, grey",
+      "d) Square with 2 dots, grey",
+      "e) Diamond with 5 dots, grey"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form und Farbe: Bleiben in jeder Zeile gleich (Zeilenregel); jede Spalte enthält 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt Quadrat, grau.\nSchritt 3 – Punkte (Zeilenregel): Spalte 4 = Spalte 1 + Spalte 2 + Spalte 3. Zeile 4: 1 + 2 + 2 = 5. Probe Zeile 1: 2 + 2 + 1 = 5.\nSchritt 4 – Fehlende Figur zusammensetzen: Quadrat mit 5 Punkten, grau.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape and colour: stay the same within each row (row rule); every column contains 4 different shapes (column rule). Row 4 shows Square, grey.\nStep 3 – Dots (row rule): column 4 = column 1 + column 2 + column 3. Row 4: 1 + 2 + 2 = 5. Check row 1: 2 + 2 + 1 = 5.\nStep 4 – Assemble the missing figure: Square with 5 dots, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Punkte addieren (Spalte 4 = Spalte 1 + Spalte 2 + Spalte 3))"
+  },
+  {
+    "id": "matrix4-gen-009",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Stern, mittel, schwarz] [Herz, klein, weiß] [Kreis, groß, grau] [Raute, klein, weiß]\nZeile 2: [Herz, groß, grau] [Kreis, mittel, schwarz] [Raute, klein, weiß] [Stern, mittel, schwarz]\nZeile 3: [Raute, klein, weiß] [Stern, groß, grau] [Herz, mittel, schwarz] [Kreis, groß, grau]\nZeile 4: [Kreis, mittel, schwarz] [Raute, klein, weiß] [Stern, groß, grau] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Star, medium, black] [Heart, small, white] [Circle, big, grey] [Diamond, small, white]\nRow 2: [Heart, big, grey] [Circle, medium, black] [Diamond, small, white] [Star, medium, black]\nRow 3: [Diamond, small, white] [Star, big, grey] [Heart, medium, black] [Circle, big, grey]\nRow 4: [Circle, medium, black] [Diamond, small, white] [Star, big, grey] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Herz, groß, weiß",
+      "b) Herz, klein, weiß",
+      "c) Herz, klein, schwarz",
+      "d) Herz, mittel, weiß",
+      "e) Herz, klein, grau"
+    ],
+    "options_en": [
+      "a) Heart, big, white",
+      "b) Heart, small, white",
+      "c) Heart, small, black",
+      "d) Heart, medium, white",
+      "e) Heart, small, grey"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Stern, Herz, Kreis, Raute) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Kreis, Raute, Stern → es fehlt Herz. Spaltenregel: Spalte 4 zeigt schon Raute, Stern, Kreis → es fehlt Herz. Beide Regeln ergeben: Herz.\nSchritt 3 – Farbe: Stufenfolge weiß → grau → schwarz → weiß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit schwarz; Spalte 4 liegt 1 Stufe weiter → weiß. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 grau, eine Zeile tiefer also weiß.\nSchritt 4 – Größe: Stufenfolge klein → groß → mittel → klein (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit mittel; Spalte 4 liegt 1 Stufe weiter → klein. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 groß, eine Zeile tiefer also klein.\nSchritt 5 – Fehlende Figur zusammensetzen: Herz, klein, weiß.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Star, Heart, Circle, Diamond) appears exactly once in every row and every column. Row rule: row 4 already shows Circle, Diamond, Star → Heart is missing. Column rule: column 4 already shows Diamond, Star, Circle → Heart is missing. Both rules give: Heart.\nStep 3 – Colour: sequence white → grey → black → white (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with black; column 4 is 1 step further → white. Column rule: each row starts 2 steps further along than the row above; column 4 shows grey in row 3, so one row down it is white.\nStep 4 – Size: sequence small → big → medium → small (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with medium; column 4 is 1 step further → small. Column rule: each row starts 2 steps further along than the row above; column 4 shows big in row 3, so one row down it is small.\nStep 5 – Assemble the missing figure: Heart, small, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: 3 Eigenschaften (Lateinisches Quadrat für Form, Zyklen für Farbe und Größe))"
+  },
+  {
+    "id": "matrix4-gen-010",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Sechseck, schwarz] [Kreis, weiß] [Dreieck, grau] [Quadrat, schwarz]\nZeile 2: [Quadrat, grau] [Dreieck, schwarz] [Sechseck, weiß] [Kreis, grau]\nZeile 3: [Kreis, weiß] [Sechseck, grau] [Quadrat, schwarz] [Dreieck, weiß]\nZeile 4: [Dreieck, schwarz] [Quadrat, weiß] [Kreis, grau] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Hexagon, black] [Circle, white] [Triangle, grey] [Square, black]\nRow 2: [Square, grey] [Triangle, black] [Hexagon, white] [Circle, grey]\nRow 3: [Circle, white] [Hexagon, grey] [Square, black] [Triangle, white]\nRow 4: [Triangle, black] [Square, white] [Circle, grey] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Sechseck, schwarz",
+      "b) Dreieck, schwarz",
+      "c) Sechseck, weiß",
+      "d) Kreis, schwarz",
+      "e) Quadrat, schwarz"
+    ],
+    "options_en": [
+      "a) Hexagon, black",
+      "b) Triangle, black",
+      "c) Hexagon, white",
+      "d) Circle, black",
+      "e) Square, black"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Sechseck, Kreis, Dreieck, Quadrat) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Dreieck, Quadrat, Kreis → es fehlt Sechseck. Spaltenregel: Spalte 4 zeigt schon Quadrat, Kreis, Dreieck → es fehlt Sechseck. Beide Regeln ergeben: Sechseck.\nSchritt 3 – Farbe: Stufenfolge grau → schwarz → weiß → grau (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit schwarz; Spalte 4 liegt 0 Stufen weiter → schwarz. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also schwarz.\nSchritt 4 – Fehlende Figur zusammensetzen: Sechseck, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Hexagon, Circle, Triangle, Square) appears exactly once in every row and every column. Row rule: row 4 already shows Triangle, Square, Circle → Hexagon is missing. Column rule: column 4 already shows Square, Circle, Triangle → Hexagon is missing. Both rules give: Hexagon.\nStep 3 – Colour: sequence grey → black → white → grey (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with black; column 4 is 0 steps further → black. Column rule: each row starts 2 steps further along than the row above; column 4 shows white in row 3, so one row down it is black.\nStep 4 – Assemble the missing figure: Hexagon, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Lateinisches Quadrat (Form) + Farbe mit Zyklus pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix4-gen-011",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Stern, mittel] [Kreis, klein] [Sechseck, groß] [Quadrat, klein]\nZeile 2: [Kreis, klein] [Sechseck, groß] [Quadrat, mittel] [Stern, groß]\nZeile 3: [Quadrat, groß] [Stern, mittel] [Kreis, klein] [Sechseck, mittel]\nZeile 4: [Sechseck, mittel] [Quadrat, klein] [Stern, groß] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Star, medium] [Circle, small] [Hexagon, big] [Square, small]\nRow 2: [Circle, small] [Hexagon, big] [Square, medium] [Star, big]\nRow 3: [Square, big] [Star, medium] [Circle, small] [Hexagon, medium]\nRow 4: [Hexagon, medium] [Square, small] [Star, big] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Kreis, klein",
+      "b) Kreis, mittel",
+      "c) Sechseck, klein",
+      "d) Stern, klein",
+      "e) Kreis, groß"
+    ],
+    "options_en": [
+      "a) Circle, small",
+      "b) Circle, medium",
+      "c) Hexagon, small",
+      "d) Star, small",
+      "e) Circle, big"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Stern, Kreis, Sechseck, Quadrat) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Sechseck, Quadrat, Stern → es fehlt Kreis. Spaltenregel: Spalte 4 zeigt schon Quadrat, Stern, Sechseck → es fehlt Kreis. Beide Regeln ergeben: Kreis.\nSchritt 3 – Größe: Stufenfolge mittel → klein → groß → mittel (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit mittel; Spalte 4 liegt 1 Stufe weiter → klein. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 mittel, eine Zeile tiefer also klein.\nSchritt 4 – Fehlende Figur zusammensetzen: Kreis, klein.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Star, Circle, Hexagon, Square) appears exactly once in every row and every column. Row rule: row 4 already shows Hexagon, Square, Star → Circle is missing. Column rule: column 4 already shows Square, Star, Hexagon → Circle is missing. Both rules give: Circle.\nStep 3 – Size: sequence medium → small → big → medium (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with medium; column 4 is 1 step further → small. Column rule: each row starts 1 step further along than the row above; column 4 shows medium in row 3, so one row down it is small.\nStep 4 – Assemble the missing figure: Circle, small.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Lateinisches Quadrat (Form) + Größe mit Zyklus pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix4-gen-012",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Raute, grau] [Kreis, schwarz] [Herz, weiß] [Dreieck, schwarz]\nZeile 2: [Kreis, weiß] [Dreieck, grau] [Raute, schwarz] [Herz, grau]\nZeile 3: [Dreieck, schwarz] [Herz, weiß] [Kreis, grau] [Raute, weiß]\nZeile 4: [Herz, grau] [Raute, schwarz] [Dreieck, weiß] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Diamond, grey] [Circle, black] [Heart, white] [Triangle, black]\nRow 2: [Circle, white] [Triangle, grey] [Diamond, black] [Heart, grey]\nRow 3: [Triangle, black] [Heart, white] [Circle, grey] [Diamond, white]\nRow 4: [Heart, grey] [Diamond, black] [Triangle, white] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Kreis, schwarz",
+      "b) Herz, schwarz",
+      "c) Kreis, grau",
+      "d) Kreis, weiß",
+      "e) Dreieck, schwarz"
+    ],
+    "options_en": [
+      "a) Circle, black",
+      "b) Heart, black",
+      "c) Circle, grey",
+      "d) Circle, white",
+      "e) Triangle, black"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Raute, Kreis, Herz, Dreieck) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Herz, Raute, Dreieck → es fehlt Kreis. Spaltenregel: Spalte 4 zeigt schon Dreieck, Herz, Raute → es fehlt Kreis. Beide Regeln ergeben: Kreis.\nSchritt 3 – Farbe: Stufenfolge grau → schwarz → weiß → grau (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit grau; Spalte 4 liegt 1 Stufe weiter → schwarz. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also schwarz.\nSchritt 4 – Fehlende Figur zusammensetzen: Kreis, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Diamond, Circle, Heart, Triangle) appears exactly once in every row and every column. Row rule: row 4 already shows Heart, Diamond, Triangle → Circle is missing. Column rule: column 4 already shows Triangle, Heart, Diamond → Circle is missing. Both rules give: Circle.\nStep 3 – Colour: sequence grey → black → white → grey (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with grey; column 4 is 1 step further → black. Column rule: each row starts 2 steps further along than the row above; column 4 shows white in row 3, so one row down it is black.\nStep 4 – Assemble the missing figure: Circle, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Lateinisches Quadrat (Form) + Farbe mit Zyklus pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix4-gen-013",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Quadrat, klein] [Dreieck, mittel] [Herz, groß] [Stern, mittel]\nZeile 2: [Herz, groß] [Stern, klein] [Quadrat, mittel] [Dreieck, klein]\nZeile 3: [Stern, mittel] [Quadrat, groß] [Dreieck, klein] [Herz, groß]\nZeile 4: [Dreieck, klein] [Herz, mittel] [Stern, groß] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Square, small] [Triangle, medium] [Heart, big] [Star, medium]\nRow 2: [Heart, big] [Star, small] [Square, medium] [Triangle, small]\nRow 3: [Star, medium] [Square, big] [Triangle, small] [Heart, big]\nRow 4: [Triangle, small] [Heart, medium] [Star, big] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Herz, mittel",
+      "b) Dreieck, mittel",
+      "c) Quadrat, klein",
+      "d) Stern, mittel",
+      "e) Quadrat, mittel"
+    ],
+    "options_en": [
+      "a) Heart, medium",
+      "b) Triangle, medium",
+      "c) Square, small",
+      "d) Star, medium",
+      "e) Square, medium"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Quadrat, Dreieck, Herz, Stern) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Dreieck, Herz, Stern → es fehlt Quadrat. Spaltenregel: Spalte 4 zeigt schon Stern, Dreieck, Herz → es fehlt Quadrat. Beide Regeln ergeben: Quadrat.\nSchritt 3 – Größe: Stufenfolge groß → klein → mittel → groß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit klein; Spalte 4 liegt 1 Stufe weiter → mittel. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 groß, eine Zeile tiefer also mittel.\nSchritt 4 – Fehlende Figur zusammensetzen: Quadrat, mittel.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Square, Triangle, Heart, Star) appears exactly once in every row and every column. Row rule: row 4 already shows Triangle, Heart, Star → Square is missing. Column rule: column 4 already shows Star, Triangle, Heart → Square is missing. Both rules give: Square.\nStep 3 – Size: sequence big → small → medium → big (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with small; column 4 is 1 step further → medium. Column rule: each row starts 2 steps further along than the row above; column 4 shows big in row 3, so one row down it is medium.\nStep 4 – Assemble the missing figure: Square, medium.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Lateinisches Quadrat (Form) + Größe mit Zyklus pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix4-gen-014",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Kreis, schwarz] [Herz, weiß] [Sechseck, grau] [Raute, weiß]\nZeile 2: [Raute, weiß] [Sechseck, grau] [Kreis, schwarz] [Herz, grau]\nZeile 3: [Sechseck, grau] [Raute, schwarz] [Herz, weiß] [Kreis, schwarz]\nZeile 4: [Herz, schwarz] [Kreis, weiß] [Raute, grau] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Circle, black] [Heart, white] [Hexagon, grey] [Diamond, white]\nRow 2: [Diamond, white] [Hexagon, grey] [Circle, black] [Heart, grey]\nRow 3: [Hexagon, grey] [Diamond, black] [Heart, white] [Circle, black]\nRow 4: [Heart, black] [Circle, white] [Diamond, grey] [?]\n\nComplete the matrix.",
+    "options_de": [
+      "a) Sechseck, weiß",
+      "b) Kreis, weiß",
+      "c) Raute, weiß",
+      "d) Sechseck, schwarz",
+      "e) Herz, weiß"
+    ],
+    "options_en": [
+      "a) Hexagon, white",
+      "b) Circle, white",
+      "c) Diamond, white",
+      "d) Hexagon, black",
+      "e) Heart, white"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Kreis, Herz, Sechseck, Raute) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Herz, Kreis, Raute → es fehlt Sechseck. Spaltenregel: Spalte 4 zeigt schon Raute, Herz, Kreis → es fehlt Sechseck. Beide Regeln ergeben: Sechseck.\nSchritt 3 – Farbe: Stufenfolge weiß → grau → schwarz → weiß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit schwarz; Spalte 4 liegt 1 Stufe weiter → weiß. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 schwarz, eine Zeile tiefer also weiß.\nSchritt 4 – Fehlende Figur zusammensetzen: Sechseck, weiß.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Circle, Heart, Hexagon, Diamond) appears exactly once in every row and every column. Row rule: row 4 already shows Heart, Circle, Diamond → Hexagon is missing. Column rule: column 4 already shows Diamond, Heart, Circle → Hexagon is missing. Both rules give: Hexagon.\nStep 3 – Colour: sequence white → grey → black → white (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with black; column 4 is 1 step further → white. Column rule: each row starts 1 step further along than the row above; column 4 shows black in row 3, so one row down it is white.\nStep 4 – Assemble the missing figure: Hexagon, white.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Lateinisches Quadrat (Form) + Farbe mit Zyklus pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix4-gen-015",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Kreis, klein, schwarz] [Kreis, groß, grau] [Kreis, mittel, weiß] [Kreis, groß, schwarz]\nZeile 2: [Quadrat, mittel, weiß] [Quadrat, klein, schwarz] [Quadrat, groß, grau] [Quadrat, klein, weiß]\nZeile 3: [Raute, groß, grau] [Raute, mittel, weiß] [Raute, klein, schwarz] [Raute, mittel, grau]\nZeile 4: [Dreieck, klein, schwarz] [Dreieck, groß, grau] [Dreieck, mittel, weiß] [?]\n\nErgänzen Sie die Matrix.",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Circle, small, black] [Circle, big, grey] [Circle, medium, white] [Circle, big, black]\nRow 2: [Square, medium, white] [Square, small, black] [Square, big, grey] [Square, small, white]\nRow 3: [Diamond, big, grey] [Diamond, medium, white] [Diamond, small, black] [Diamond, medium, grey]\nRow 4: [Triangle, small, black] [Triangle, big, grey] [Triangle, medium, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Dreieck, groß, grau",
+      "b) Dreieck, klein, schwarz",
+      "c) Raute, groß, schwarz",
+      "d) Quadrat, groß, schwarz",
+      "e) Dreieck, groß, schwarz"
+    ],
+    "options_en": [
+      "a) Triangle, big, grey",
+      "b) Triangle, small, black",
+      "c) Diamond, big, black",
+      "d) Square, big, black",
+      "e) Triangle, big, black"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form: Jede Zeile hat ihre eigene Form, die in der Zeile konstant bleibt (Zeilenregel); die 4 Zeilen zeigen 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt 3× Dreieck → Dreieck.\nSchritt 3 – Farbe: Stufenfolge grau → weiß → schwarz → grau (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit schwarz; Spalte 4 liegt 0 Stufen weiter → schwarz. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 grau, eine Zeile tiefer also schwarz.\nSchritt 4 – Größe: Stufenfolge klein → groß → mittel → klein (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit klein; Spalte 4 liegt 1 Stufe weiter → groß. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 mittel, eine Zeile tiefer also groß.\nSchritt 5 – Fehlende Figur zusammensetzen: Dreieck, groß, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape: each row has its own shape that stays constant within the row (row rule); the 4 rows show 4 different shapes (column rule). Row 4 shows 3x Triangle → Triangle.\nStep 3 – Colour: sequence grey → white → black → grey (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with black; column 4 is 0 steps further → black. Column rule: each row starts 2 steps further along than the row above; column 4 shows grey in row 3, so one row down it is black.\nStep 4 – Size: sequence small → big → medium → small (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with small; column 4 is 1 step further → big. Column rule: each row starts 2 steps further along than the row above; column 4 shows medium in row 3, so one row down it is big.\nStep 5 – Assemble the missing figure: Triangle, big, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Form pro Zeile konstant + Farbe und Größe mit Zyklus)"
+  },
+  {
+    "id": "matrix4-gen-016",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Dreieck, groß, grau] [Dreieck, mittel, schwarz] [Dreieck, klein, weiß] [Dreieck, mittel, grau]\nZeile 2: [Stern, klein, schwarz] [Stern, groß, weiß] [Stern, mittel, grau] [Stern, groß, schwarz]\nZeile 3: [Kreis, mittel, weiß] [Kreis, klein, grau] [Kreis, groß, schwarz] [Kreis, klein, weiß]\nZeile 4: [Quadrat, groß, grau] [Quadrat, mittel, schwarz] [Quadrat, klein, weiß] [?]\n\nWelche Figur vervollständigt die Matrix?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Triangle, big, grey] [Triangle, medium, black] [Triangle, small, white] [Triangle, medium, grey]\nRow 2: [Star, small, black] [Star, big, white] [Star, medium, grey] [Star, big, black]\nRow 3: [Circle, medium, white] [Circle, small, grey] [Circle, big, black] [Circle, small, white]\nRow 4: [Square, big, grey] [Square, medium, black] [Square, small, white] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Quadrat, mittel, grau",
+      "b) Quadrat, mittel, weiß",
+      "c) Kreis, mittel, grau",
+      "d) Dreieck, mittel, grau",
+      "e) Quadrat, groß, grau"
+    ],
+    "options_en": [
+      "a) Square, medium, grey",
+      "b) Square, medium, white",
+      "c) Circle, medium, grey",
+      "d) Triangle, medium, grey",
+      "e) Square, big, grey"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form: Jede Zeile hat ihre eigene Form, die in der Zeile konstant bleibt (Zeilenregel); die 4 Zeilen zeigen 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt 3× Quadrat → Quadrat.\nSchritt 3 – Farbe: Stufenfolge grau → schwarz → weiß → grau (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit grau; Spalte 4 liegt 0 Stufen weiter → grau. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also grau.\nSchritt 4 – Größe: Stufenfolge klein → groß → mittel → klein (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit groß; Spalte 4 liegt 1 Stufe weiter → mittel. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 klein, eine Zeile tiefer also mittel.\nSchritt 5 – Fehlende Figur zusammensetzen: Quadrat, mittel, grau.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape: each row has its own shape that stays constant within the row (row rule); the 4 rows show 4 different shapes (column rule). Row 4 shows 3x Square → Square.\nStep 3 – Colour: sequence grey → black → white → grey (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with grey; column 4 is 0 steps further → grey. Column rule: each row starts 1 step further along than the row above; column 4 shows white in row 3, so one row down it is grey.\nStep 4 – Size: sequence small → big → medium → small (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with big; column 4 is 1 step further → medium. Column rule: each row starts 2 steps further along than the row above; column 4 shows small in row 3, so one row down it is medium.\nStep 5 – Assemble the missing figure: Square, medium, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Form pro Zeile konstant + Farbe und Größe mit Zyklus)"
+  },
+  {
+    "id": "matrix4-gen-017",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Sechseck, groß, schwarz] [Stern, klein, grau] [Herz, mittel, weiß] [Raute, klein, schwarz]\nZeile 2: [Stern, mittel, grau] [Raute, groß, weiß] [Sechseck, klein, schwarz] [Herz, groß, grau]\nZeile 3: [Herz, klein, weiß] [Sechseck, mittel, schwarz] [Raute, groß, grau] [Stern, mittel, weiß]\nZeile 4: [Raute, groß, schwarz] [Herz, klein, grau] [Stern, mittel, weiß] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Hexagon, big, black] [Star, small, grey] [Heart, medium, white] [Diamond, small, black]\nRow 2: [Star, medium, grey] [Diamond, big, white] [Hexagon, small, black] [Heart, big, grey]\nRow 3: [Heart, small, white] [Hexagon, medium, black] [Diamond, big, grey] [Star, medium, white]\nRow 4: [Diamond, big, black] [Heart, small, grey] [Star, medium, white] [?]\n\nWhich figure completes the matrix?",
+    "options_de": [
+      "a) Sechseck, klein, schwarz",
+      "b) Sechseck, groß, schwarz",
+      "c) Sechseck, klein, grau",
+      "d) Raute, klein, schwarz",
+      "e) Sechseck, klein, weiß"
+    ],
+    "options_en": [
+      "a) Hexagon, small, black",
+      "b) Hexagon, big, black",
+      "c) Hexagon, small, grey",
+      "d) Diamond, small, black",
+      "e) Hexagon, small, white"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Sechseck, Stern, Herz, Raute) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Raute, Herz, Stern → es fehlt Sechseck. Spaltenregel: Spalte 4 zeigt schon Raute, Herz, Stern → es fehlt Sechseck. Beide Regeln ergeben: Sechseck.\nSchritt 3 – Farbe: Stufenfolge weiß → schwarz → grau → weiß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit schwarz; Spalte 4 liegt 0 Stufen weiter → schwarz. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also schwarz.\nSchritt 4 – Größe: Stufenfolge groß → klein → mittel → groß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit groß; Spalte 4 liegt 1 Stufe weiter → klein. Spaltenregel: Jede Zeile beginnt 2 Stufen weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 mittel, eine Zeile tiefer also klein.\nSchritt 5 – Fehlende Figur zusammensetzen: Sechseck, klein, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Hexagon, Star, Heart, Diamond) appears exactly once in every row and every column. Row rule: row 4 already shows Diamond, Heart, Star → Hexagon is missing. Column rule: column 4 already shows Diamond, Heart, Star → Hexagon is missing. Both rules give: Hexagon.\nStep 3 – Colour: sequence white → black → grey → white (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with black; column 4 is 0 steps further → black. Column rule: each row starts 1 step further along than the row above; column 4 shows white in row 3, so one row down it is black.\nStep 4 – Size: sequence big → small → medium → big (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with big; column 4 is 1 step further → small. Column rule: each row starts 2 steps further along than the row above; column 4 shows medium in row 3, so one row down it is small.\nStep 5 – Assemble the missing figure: Hexagon, small, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: 3 Eigenschaften (Lateinisches Quadrat für Form, Zyklen für Farbe und Größe))"
+  },
+  {
+    "id": "matrix4-gen-018",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Sechseck mit 1 Punkt, grau] [Sechseck mit 1 Punkt, grau] [Sechseck mit 2 Punkten, grau] [Sechseck mit 4 Punkten, grau]\nZeile 2: [Herz mit 2 Punkten, grau] [Herz mit 2 Punkten, grau] [Herz mit 1 Punkt, grau] [Herz mit 5 Punkten, grau]\nZeile 3: [Kreis mit 2 Punkten, grau] [Kreis mit 2 Punkten, grau] [Kreis mit 2 Punkten, grau] [Kreis mit 6 Punkten, grau]\nZeile 4: [Stern mit 1 Punkt, grau] [Stern mit 1 Punkt, grau] [Stern mit 1 Punkt, grau] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Hexagon with 1 dot, grey] [Hexagon with 1 dot, grey] [Hexagon with 2 dots, grey] [Hexagon with 4 dots, grey]\nRow 2: [Heart with 2 dots, grey] [Heart with 2 dots, grey] [Heart with 1 dot, grey] [Heart with 5 dots, grey]\nRow 3: [Circle with 2 dots, grey] [Circle with 2 dots, grey] [Circle with 2 dots, grey] [Circle with 6 dots, grey]\nRow 4: [Star with 1 dot, grey] [Star with 1 dot, grey] [Star with 1 dot, grey] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Stern mit 3 Punkten, grau",
+      "b) Herz mit 3 Punkten, grau",
+      "c) Stern mit 5 Punkten, grau",
+      "d) Stern mit 7 Punkten, grau",
+      "e) Stern mit 2 Punkten, grau"
+    ],
+    "options_en": [
+      "a) Star with 3 dots, grey",
+      "b) Heart with 3 dots, grey",
+      "c) Star with 5 dots, grey",
+      "d) Star with 7 dots, grey",
+      "e) Star with 2 dots, grey"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form und Farbe: Bleiben in jeder Zeile gleich (Zeilenregel); jede Spalte enthält 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt Stern, grau.\nSchritt 3 – Punkte (Zeilenregel): Spalte 4 = Spalte 1 + Spalte 2 + Spalte 3. Zeile 4: 1 + 1 + 1 = 3. Probe Zeile 1: 1 + 1 + 2 = 4.\nSchritt 4 – Fehlende Figur zusammensetzen: Stern mit 3 Punkten, grau.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape and colour: stay the same within each row (row rule); every column contains 4 different shapes (column rule). Row 4 shows Star, grey.\nStep 3 – Dots (row rule): column 4 = column 1 + column 2 + column 3. Row 4: 1 + 1 + 1 = 3. Check row 1: 1 + 1 + 2 = 4.\nStep 4 – Assemble the missing figure: Star with 3 dots, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Punkte addieren (Spalte 4 = Spalte 1 + Spalte 2 + Spalte 3))"
+  },
+  {
+    "id": "matrix4-gen-019",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Kreis, schwarz] [Raute, grau] [Herz, weiß] [Quadrat, schwarz]\nZeile 2: [Raute, grau] [Herz, weiß] [Quadrat, schwarz] [Kreis, grau]\nZeile 3: [Quadrat, weiß] [Kreis, schwarz] [Raute, grau] [Herz, weiß]\nZeile 4: [Herz, schwarz] [Quadrat, grau] [Kreis, weiß] [?]\n\nWas gehört an die Stelle des Fragezeichens?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Circle, black] [Diamond, grey] [Heart, white] [Square, black]\nRow 2: [Diamond, grey] [Heart, white] [Square, black] [Circle, grey]\nRow 3: [Square, white] [Circle, black] [Diamond, grey] [Heart, white]\nRow 4: [Heart, black] [Square, grey] [Circle, white] [?]\n\nWhat is the missing figure?",
+    "options_de": [
+      "a) Raute, schwarz",
+      "b) Raute, weiß",
+      "c) Quadrat, schwarz",
+      "d) Raute, grau",
+      "e) Herz, schwarz"
+    ],
+    "options_en": [
+      "a) Diamond, black",
+      "b) Diamond, white",
+      "c) Square, black",
+      "d) Diamond, grey",
+      "e) Heart, black"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form (Lateinisches Quadrat): Jede der 4 Formen (Kreis, Raute, Herz, Quadrat) kommt in jeder Zeile und in jeder Spalte genau einmal vor. Zeilenregel: Zeile 4 zeigt schon Herz, Quadrat, Kreis → es fehlt Raute. Spaltenregel: Spalte 4 zeigt schon Quadrat, Kreis, Herz → es fehlt Raute. Beide Regeln ergeben: Raute.\nSchritt 3 – Farbe: Stufenfolge weiß → schwarz → grau → weiß (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit schwarz; Spalte 4 liegt 0 Stufen weiter → schwarz. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also schwarz.\nSchritt 4 – Fehlende Figur zusammensetzen: Raute, schwarz.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape (Latin square): each of the 4 shapes (Circle, Diamond, Heart, Square) appears exactly once in every row and every column. Row rule: row 4 already shows Heart, Square, Circle → Diamond is missing. Column rule: column 4 already shows Square, Circle, Heart → Diamond is missing. Both rules give: Diamond.\nStep 3 – Colour: sequence white → black → grey → white (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with black; column 4 is 0 steps further → black. Column rule: each row starts 1 step further along than the row above; column 4 shows white in row 3, so one row down it is black.\nStep 4 – Assemble the missing figure: Diamond, black.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Lateinisches Quadrat (Form) + Farbe mit Zyklus pro Zeile/Spalte)"
+  },
+  {
+    "id": "matrix4-gen-020",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "matrizen",
+      "4x4"
+    ],
+    "question_de": "Matrix (4×4) – Muster:\nZeile 1: [Dreieck, groß, grau] [Dreieck, mittel, schwarz] [Dreieck, klein, weiß] [Dreieck, mittel, grau]\nZeile 2: [Sechseck, mittel, schwarz] [Sechseck, klein, weiß] [Sechseck, groß, grau] [Sechseck, klein, schwarz]\nZeile 3: [Raute, klein, weiß] [Raute, groß, grau] [Raute, mittel, schwarz] [Raute, groß, weiß]\nZeile 4: [Stern, groß, grau] [Stern, mittel, schwarz] [Stern, klein, weiß] [?]\n\nWas ist die fehlende Figur?",
+    "question_en": "Matrix (4×4) – Pattern:\nRow 1: [Triangle, big, grey] [Triangle, medium, black] [Triangle, small, white] [Triangle, medium, grey]\nRow 2: [Hexagon, medium, black] [Hexagon, small, white] [Hexagon, big, grey] [Hexagon, small, black]\nRow 3: [Diamond, small, white] [Diamond, big, grey] [Diamond, medium, black] [Diamond, big, white]\nRow 4: [Star, big, grey] [Star, medium, black] [Star, small, white] [?]\n\nWhat belongs where the question mark is?",
+    "options_de": [
+      "a) Raute, mittel, grau",
+      "b) Stern, groß, grau",
+      "c) Stern, mittel, grau",
+      "d) Sechseck, mittel, grau",
+      "e) Stern, mittel, schwarz"
+    ],
+    "options_en": [
+      "a) Diamond, medium, grey",
+      "b) Star, big, grey",
+      "c) Star, medium, grey",
+      "d) Hexagon, medium, grey",
+      "e) Star, medium, black"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Schritt 1 – Regel erkennen: Jede Eigenschaft getrennt prüfen, zuerst entlang der Zeilen, dann entlang der Spalten.\nSchritt 2 – Form: Jede Zeile hat ihre eigene Form, die in der Zeile konstant bleibt (Zeilenregel); die 4 Zeilen zeigen 4 verschiedene Formen (Spaltenregel). Zeile 4 zeigt 3× Stern → Stern.\nSchritt 3 – Farbe: Stufenfolge grau → schwarz → weiß → grau (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +0 Stufen. Zeile 4 startet mit grau; Spalte 4 liegt 0 Stufen weiter → grau. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 weiß, eine Zeile tiefer also grau.\nSchritt 4 – Größe: Stufenfolge klein → groß → mittel → klein (danach wieder von vorn). Zeilenregel: In jeder Zeile gilt von Spalte 1 bis 4 das Schema Start, +1, +2, +1 Stufen. Zeile 4 startet mit groß; Spalte 4 liegt 1 Stufe weiter → mittel. Spaltenregel: Jede Zeile beginnt 1 Stufe weiter als die Zeile darüber; Spalte 4 zeigt in Zeile 3 groß, eine Zeile tiefer also mittel.\nSchritt 5 – Fehlende Figur zusammensetzen: Stern, mittel, grau.",
+    "explanation_en": "Step 1 – Find the rule: check each property separately, first along the rows, then along the columns.\nStep 2 – Shape: each row has its own shape that stays constant within the row (row rule); the 4 rows show 4 different shapes (column rule). Row 4 shows 3x Star → Star.\nStep 3 – Colour: sequence grey → black → white → grey (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +0 steps. Row 4 starts with grey; column 4 is 0 steps further → grey. Column rule: each row starts 1 step further along than the row above; column 4 shows white in row 3, so one row down it is grey.\nStep 4 – Size: sequence small → big → medium → small (then repeat from the start). Row rule: in every row, columns 1 to 4 follow the pattern Start, +1, +2, +1 steps. Row 4 starts with big; column 4 is 1 step further → medium. Column rule: each row starts 1 step further along than the row above; column 4 shows big in row 3, so one row down it is medium.\nStep 5 – Assemble the missing figure: Star, medium, grey.",
+    "mistakes_de": "Typische Fehler: (1) Nur Zeilen ODER Spalten analysieren, nicht beides. (2) Eine Eigenschaft übersehen (Form, Farbe, Größe, Punkte, Richtung getrennt prüfen). (3) Die Regel anhand von 2 Zellen ableiten statt alle 15 sichtbaren zu prüfen. (4) Bei 4 Spalten vergessen, dass sich ein Zyklus aus 3 Stufen nach 3 Schritten wiederholt oder zurückläuft.",
+    "mistakes_en": "Common mistakes: (1) Analysing only rows OR columns, not both. (2) Missing a property (check shape, colour, size, dots, direction separately). (3) Deriving the rule from 2 cells instead of checking all 15 visible ones. (4) With 4 columns, forgetting that a 3-step cycle repeats or reverses after 3 steps.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Generiert (gen_matrizen.py --size 4, Regel: 4×4: Form pro Zeile konstant + Farbe und Größe mit Zyklus)"
+  },
+  {
+    "id": "wnetz-opp-001",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . . ★ ♦ / ● ♠ ♣ . / . ♥ . .\nWelche Fläche liegt im gefalteten Würfel gegenüber von ♦?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . . ★ ♦ / ● ♠ ♣ . / . ♥ . .\nWhich face is opposite to ♦ in the folded cube?",
+    "options_de": [
+      "a) ★",
+      "b) ♣",
+      "c) ♥",
+      "d) ●",
+      "e) ♠"
+    ],
+    "options_en": [
+      "a) ★",
+      "b) ♣",
+      "c) ♥",
+      "d) ●",
+      "e) ♠"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "1. Fläche ♦ liegt unten (bedruckte Seite außen).<br>2. Ihr Nachbar im Netz (★) klappt hoch und wird Seitenwand.<br>3. ♣ hängt an ★ und wird ebenfalls Seitenwand.<br>4. ♠ hängt an ♣ und klappt nach oben zum Deckel.<br>5. ● hängt an ♠ und wird ebenfalls Seitenwand.<br>6. ♥ hängt an ♠ und wird ebenfalls Seitenwand.<br>7. Übrig bleibt genau eine Fläche für den Deckel: ♠. Sie liegt ♦ gegenüber.",
+    "explanation_en": "1. Face ♦ is the bottom (printed side outside).<br>2. Its neighbour in the net (★) folds up and becomes a side wall.<br>3. ♣ is attached to ★ and also becomes a side wall.<br>4. ♠ is attached to ♣ and folds over to become the lid (top).<br>5. ● is attached to ♠ and also becomes a side wall.<br>6. ♥ is attached to ♠ and also becomes a side wall.<br>7. Exactly one face is left for the lid: ♠. It is opposite ♦.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben ♦ im Netz: ★ – diese grenzen an ♦. Durch das Falten stoßen außerdem ●, ♣ und ♥ an ♦. Alle vier Nachbarn sind gestrichen, übrig bleibt ♠.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to ♦ in the net: ★ – these touch ♦. Folding additionally brings ●, ♣ and ♥ next to ♦. All four neighbours are crossed out, leaving ♠."
+      },
+      {
+        "title_de": "Alle Gegenüber-Paare bestimmen",
+        "title_en": "Find all opposite pairs",
+        "text_de": "Ein Würfel hat 3 Paare gegenüberliegender Flächen, jede Fläche steht in genau einem Paar. Bei diesem Netz sind es (●, ♣), (★, ♥) und (♠, ♦). ♦ steht im Paar (♠ , ♦), also ist ♠ die Antwort. Kontrolle: Felder, die im Netz direkt nebeneinander liegen, sind nie in einem Paar.",
+        "text_en": "A cube has 3 pairs of opposite faces and every face is in exactly one pair. For this net they are (●, ♣), (★, ♥) and (♠, ♦). ♦ is in the pair (♠ , ♦), so the answer is ♠. Check: squares that touch in the net are never in one pair."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-view-002",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . δ . / . β . / α ε ζ / . γ .\nWelche Ansicht (oben, vorne, rechts) kann man von diesem Würfel sehen?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . δ . / . β . / α ε ζ / . γ .\nWhich view (top, front, right) can be seen on this cube?",
+    "options_de": [
+      "a) oben ε, vorne ζ, rechts γ",
+      "b) oben γ, vorne ε, rechts δ",
+      "c) oben ε, vorne β, rechts α",
+      "d) oben ε, vorne α, rechts β",
+      "e) oben ζ, vorne α, rechts β"
+    ],
+    "options_en": [
+      "a) top ε, front ζ, right γ",
+      "b) top γ, front ε, right δ",
+      "c) top ε, front β, right α",
+      "d) top ε, front α, right β",
+      "e) top ζ, front α, right β"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "1. Halten Sie das Netz so, wie es gezeichnet ist: β schaut Sie an.<br>2. Falten Sie alle anderen Felder nach hinten. Dann liegt oben δ, unten ε, links α, rechts ζ und hinten γ.<br>3. Drehen Sie den Würfel um die Blickachse, bis α rechts liegt. Dann liegt ε oben.<br>4. Die Ansicht ist also: oben ε, vorne β, rechts α.",
+    "explanation_en": "1. Hold the net as drawn: β faces you.<br>2. Fold all other squares backwards. Then the top is δ, bottom ε, left α, right ζ and back γ.<br>3. Turn the cube about your line of sight until α is on the right. Then ε is on top.<br>4. So the view is: top ε, front β, right α.",
+    "explanations_alt": [
+      {
+        "title_de": "Ecke und Drehsinn",
+        "title_en": "Corner and turning direction",
+        "text_de": "Die drei Flächen ε, β, α treffen sich an einer Würfelecke. Schaut man von außen auf diese Ecke, folgen oben (ε) → vorne (β) → rechts (α) gegen den Uhrzeigersinn aufeinander. Die Reihenfolge ε → α → β liefe im Uhrzeigersinn – das wäre das Spiegelbild und ist bei diesem Netz nicht möglich.",
+        "text_en": "The three faces ε, β, α meet at one corner of the cube. Looking at this corner from outside, top (ε) → front (β) → right (α) follow each other counter-clockwise. The order ε → α → β would run clockwise – that is the mirror image and is impossible for this net."
+      },
+      {
+        "title_de": "Gegenüber-Paare streichen",
+        "title_en": "Cross out opposite pairs",
+        "text_de": "Eine Ansicht zeigt nie zwei Gegenflächen. Die Gegenüber-Paare dieses Netzes sind (α, ζ), (β, γ) und (δ, ε). Optionen mit so einem Paar (b und e) fallen weg. Bei den übrigen (a und d) sind die Flächen zwar benachbart, aber nur eine hat die richtige Drehrichtung: c).",
+        "text_en": "A view never shows two opposite faces. The opposite pairs of this net are (α, ζ), (β, γ) and (δ, ε). Options containing such a pair (b and e) are out. In the others (a and d) the faces are neighbours, but only one has the right turning direction: c)."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur geprüft, ob die drei Flächen benachbart sind, nicht die Drehrichtung. (2) Spiegelbild gewählt. (3) Zwei Gegenflächen in einer Ansicht zugelassen.",
+    "mistakes_en": "Common mistakes: (1) Checking only that the three faces are neighbours, not their turning direction. (2) Choosing the mirror image. (3) Allowing two opposite faces in one view.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-003",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . G . / . P B / W R . / . Y .\nWelche Fläche liegt im gefalteten Würfel gegenüber von R?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . G . / . P B / W R . / . Y .\nWhich face is opposite to R in the folded cube?",
+    "options_de": [
+      "a) W",
+      "b) P",
+      "c) B",
+      "d) G",
+      "e) Y"
+    ],
+    "options_en": [
+      "a) W",
+      "b) P",
+      "c) B",
+      "d) G",
+      "e) Y"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "1. Fläche R liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (P, W und Y) klappen hoch und werden Seitenwände.<br>3. B hängt an P und wird ebenfalls Seitenwand.<br>4. G hängt an P und klappt nach oben zum Deckel.<br>5. Übrig bleibt genau eine Fläche für den Deckel: G. Sie liegt R gegenüber.",
+    "explanation_en": "1. Face R is the bottom (printed side outside).<br>2. The neighbours in the net (P, W and Y) fold up and become side walls.<br>3. B is attached to P and also becomes a side wall.<br>4. G is attached to P and folds over to become the lid (top).<br>5. Exactly one face is left for the lid: G. It is opposite R.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben R im Netz: P, W und Y – diese grenzen an R. Durch das Falten stoßen außerdem B an R. Alle vier Nachbarn sind gestrichen, übrig bleibt G.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to R in the net: P, W and Y – these touch R. Folding additionally brings B next to R. All four neighbours are crossed out, leaving G."
+      },
+      {
+        "title_de": "Reihenregel: ein Feld dazwischen",
+        "title_en": "Row rule: one square in between",
+        "text_de": "Liegen drei Felder in einer geraden Reihe, sind das erste und das dritte Feld Gegenflächen. Hier liegt R – P – G in einer Reihe. Also ist G gegenüber von R.",
+        "text_en": "If three squares lie in a straight row, the first and the third are opposite faces. Here R – P – G are in a row. So G is opposite R."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-view-004",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . 5 . . / 6 2 1 3 / . . . 4\nWelche Ansicht (oben, vorne, rechts) kann man von diesem Würfel sehen?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . 5 . . / 6 2 1 3 / . . . 4\nWhich view (top, front, right) can be seen on this cube?",
+    "options_de": [
+      "a) oben 3, vorne 6, rechts 5",
+      "b) oben 3, vorne 5, rechts 6",
+      "c) oben 3, vorne 2, rechts 4",
+      "d) oben 2, vorne 6, rechts 3",
+      "e) oben 5, vorne 2, rechts 6"
+    ],
+    "options_en": [
+      "a) top 3, front 6, right 5",
+      "b) top 3, front 5, right 6",
+      "c) top 3, front 2, right 4",
+      "d) top 2, front 6, right 3",
+      "e) top 5, front 2, right 6"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "1. Halten Sie das Netz so, wie es gezeichnet ist: 6 schaut Sie an.<br>2. Falten Sie alle anderen Felder nach hinten. Dann liegt oben 5, unten 4, links 3, rechts 2 und hinten 1.<br>3. Drehen Sie den Würfel um die Blickachse, bis 5 rechts liegt. Dann liegt 3 oben.<br>4. Die Ansicht ist also: oben 3, vorne 6, rechts 5.",
+    "explanation_en": "1. Hold the net as drawn: 6 faces you.<br>2. Fold all other squares backwards. Then the top is 5, bottom 4, left 3, right 2 and back 1.<br>3. Turn the cube about your line of sight until 5 is on the right. Then 3 is on top.<br>4. So the view is: top 3, front 6, right 5.",
+    "explanations_alt": [
+      {
+        "title_de": "Ecke und Drehsinn",
+        "title_en": "Corner and turning direction",
+        "text_de": "Die drei Flächen 3, 6, 5 treffen sich an einer Würfelecke. Schaut man von außen auf diese Ecke, folgen oben (3) → vorne (6) → rechts (5) gegen den Uhrzeigersinn aufeinander. Die Reihenfolge 3 → 5 → 6 liefe im Uhrzeigersinn – das wäre das Spiegelbild und ist bei diesem Netz nicht möglich.",
+        "text_en": "The three faces 3, 6, 5 meet at one corner of the cube. Looking at this corner from outside, top (3) → front (6) → right (5) follow each other counter-clockwise. The order 3 → 5 → 6 would run clockwise – that is the mirror image and is impossible for this net."
+      },
+      {
+        "title_de": "Gegenüber-Paare streichen",
+        "title_en": "Cross out opposite pairs",
+        "text_de": "Eine Ansicht zeigt nie zwei Gegenflächen. Die Gegenüber-Paare dieses Netzes sind (1, 6), (2, 3) und (4, 5). Optionen mit so einem Paar (c und d) fallen weg. Bei den übrigen (b und e) sind die Flächen zwar benachbart, aber nur eine hat die richtige Drehrichtung: a).",
+        "text_en": "A view never shows two opposite faces. The opposite pairs of this net are (1, 6), (2, 3) and (4, 5). Options containing such a pair (c and d) are out. In the others (b and e) the faces are neighbours, but only one has the right turning direction: a)."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur geprüft, ob die drei Flächen benachbart sind, nicht die Drehrichtung. (2) Spiegelbild gewählt. (3) Zwei Gegenflächen in einer Ansicht zugelassen.",
+    "mistakes_en": "Common mistakes: (1) Checking only that the three faces are neighbours, not their turning direction. (2) Choosing the mirror image. (3) Allowing two opposite faces in one view.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-005",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . 4 . / . 1 . / . 5 . / 6 2 3\nWelche Fläche liegt im gefalteten Würfel gegenüber von 2?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . 4 . / . 1 . / . 5 . / 6 2 3\nWhich face is opposite to 2 in the folded cube?",
+    "options_de": [
+      "a) 3",
+      "b) 6",
+      "c) 1",
+      "d) 4",
+      "e) 5"
+    ],
+    "options_en": [
+      "a) 3",
+      "b) 6",
+      "c) 1",
+      "d) 4",
+      "e) 5"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "1. Fläche 2 liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (3, 5 und 6) klappen hoch und werden Seitenwände.<br>3. 1 hängt an 5 und klappt nach oben zum Deckel.<br>4. 4 hängt an 1 und wird ebenfalls Seitenwand.<br>5. Übrig bleibt genau eine Fläche für den Deckel: 1. Sie liegt 2 gegenüber.",
+    "explanation_en": "1. Face 2 is the bottom (printed side outside).<br>2. The neighbours in the net (3, 5 and 6) fold up and become side walls.<br>3. 1 is attached to 5 and folds over to become the lid (top).<br>4. 4 is attached to 1 and also becomes a side wall.<br>5. Exactly one face is left for the lid: 1. It is opposite 2.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben 2 im Netz: 3, 5 und 6 – diese grenzen an 2. Durch das Falten stoßen außerdem 4 an 2. Alle vier Nachbarn sind gestrichen, übrig bleibt 1.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to 2 in the net: 3, 5 and 6 – these touch 2. Folding additionally brings 4 next to 2. All four neighbours are crossed out, leaving 1."
+      },
+      {
+        "title_de": "Reihenregel: ein Feld dazwischen",
+        "title_en": "Row rule: one square in between",
+        "text_de": "Liegen drei Felder in einer geraden Reihe, sind das erste und das dritte Feld Gegenflächen. Hier liegt 2 – 5 – 1 in einer Reihe. Also ist 1 gegenüber von 2.",
+        "text_en": "If three squares lie in a straight row, the first and the third are opposite faces. Here 2 – 5 – 1 are in a row. So 1 is opposite 2."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-006",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: 5 . . / 3 6 . / . 2 4 / . . 1\nWelche Fläche liegt im gefalteten Würfel gegenüber von 3?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: 5 . . / 3 6 . / . 2 4 / . . 1\nWhich face is opposite to 3 in the folded cube?",
+    "options_de": [
+      "a) 5",
+      "b) 1",
+      "c) 6",
+      "d) 4",
+      "e) 2"
+    ],
+    "options_en": [
+      "a) 5",
+      "b) 1",
+      "c) 6",
+      "d) 4",
+      "e) 2"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "1. Fläche 3 liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (5 und 6) klappen hoch und werden Seitenwände.<br>3. 2 hängt an 6 und wird ebenfalls Seitenwand.<br>4. 4 hängt an 2 und klappt nach oben zum Deckel.<br>5. 1 hängt an 4 und wird ebenfalls Seitenwand.<br>6. Übrig bleibt genau eine Fläche für den Deckel: 4. Sie liegt 3 gegenüber.",
+    "explanation_en": "1. Face 3 is the bottom (printed side outside).<br>2. The neighbours in the net (5 and 6) fold up and become side walls.<br>3. 2 is attached to 6 and also becomes a side wall.<br>4. 4 is attached to 2 and folds over to become the lid (top).<br>5. 1 is attached to 4 and also becomes a side wall.<br>6. Exactly one face is left for the lid: 4. It is opposite 3.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben 3 im Netz: 5 und 6 – diese grenzen an 3. Durch das Falten stoßen außerdem 1 und 2 an 3. Alle vier Nachbarn sind gestrichen, übrig bleibt 4.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to 3 in the net: 5 and 6 – these touch 3. Folding additionally brings 1 and 2 next to 3. All four neighbours are crossed out, leaving 4."
+      },
+      {
+        "title_de": "Alle Gegenüber-Paare bestimmen",
+        "title_en": "Find all opposite pairs",
+        "text_de": "Ein Würfel hat 3 Paare gegenüberliegender Flächen, jede Fläche steht in genau einem Paar. Bei diesem Netz sind es (1, 6), (2, 5) und (3, 4). 3 steht im Paar (3 , 4), also ist 4 die Antwort. Kontrolle: Felder, die im Netz direkt nebeneinander liegen, sind nie in einem Paar.",
+        "text_en": "A cube has 3 pairs of opposite faces and every face is in exactly one pair. For this net they are (1, 6), (2, 5) and (3, 4). 3 is in the pair (3 , 4), so the answer is 4. Check: squares that touch in the net are never in one pair."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-007",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: G . . / B P . / . Y W / . . R\nWelche Fläche liegt im gefalteten Würfel gegenüber von P?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: G . . / B P . / . Y W / . . R\nWhich face is opposite to P in the folded cube?",
+    "options_de": [
+      "a) G",
+      "b) Y",
+      "c) W",
+      "d) B",
+      "e) R"
+    ],
+    "options_en": [
+      "a) G",
+      "b) Y",
+      "c) W",
+      "d) B",
+      "e) R"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "1. Fläche P liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (B und Y) klappen hoch und werden Seitenwände.<br>3. G hängt an B und wird ebenfalls Seitenwand.<br>4. W hängt an Y und wird ebenfalls Seitenwand.<br>5. R hängt an W und klappt nach oben zum Deckel.<br>6. Übrig bleibt genau eine Fläche für den Deckel: R. Sie liegt P gegenüber.",
+    "explanation_en": "1. Face P is the bottom (printed side outside).<br>2. The neighbours in the net (B and Y) fold up and become side walls.<br>3. G is attached to B and also becomes a side wall.<br>4. W is attached to Y and also becomes a side wall.<br>5. R is attached to W and folds over to become the lid (top).<br>6. Exactly one face is left for the lid: R. It is opposite P.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben P im Netz: B und Y – diese grenzen an P. Durch das Falten stoßen außerdem G und W an P. Alle vier Nachbarn sind gestrichen, übrig bleibt R.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to P in the net: B and Y – these touch P. Folding additionally brings G and W next to P. All four neighbours are crossed out, leaving R."
+      },
+      {
+        "title_de": "Alle Gegenüber-Paare bestimmen",
+        "title_en": "Find all opposite pairs",
+        "text_de": "Ein Würfel hat 3 Paare gegenüberliegender Flächen, jede Fläche steht in genau einem Paar. Bei diesem Netz sind es (B, W), (G, Y) und (P, R). P steht im Paar (P , R), also ist R die Antwort. Kontrolle: Felder, die im Netz direkt nebeneinander liegen, sind nie in einem Paar.",
+        "text_en": "A cube has 3 pairs of opposite faces and every face is in exactly one pair. For this net they are (B, W), (G, Y) and (P, R). P is in the pair (P , R), so the answer is R. Check: squares that touch in the net are never in one pair."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-adj-008",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . . □ + / ★ ◆ △ . / . . ● .\nWelche Flächen grenzen im gefalteten Würfel an □, liegen im Netz aber nicht direkt neben □? (Alle richtigen ankreuzen.)",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . . □ + / ★ ◆ △ . / . . ● .\nWhich faces touch □ in the folded cube but are not directly next to □ in the net? (Tick all correct answers.)",
+    "options_de": [
+      "a) ◆",
+      "b) +",
+      "c) ●",
+      "d) △",
+      "e) ★"
+    ],
+    "options_en": [
+      "a) ◆",
+      "b) +",
+      "c) ●",
+      "d) △",
+      "e) ★"
+    ],
+    "correct": [
+      0,
+      4
+    ],
+    "explanation_de": "1. Fläche □ liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (+ und △) klappen hoch und werden Seitenwände.<br>3. ◆ hängt an △ und wird ebenfalls Seitenwand.<br>4. ● hängt an △ und klappt nach oben zum Deckel.<br>5. ★ hängt an ◆ und wird ebenfalls Seitenwand.<br>6. Die Seitenwände rund um □ sind +, △, ◆ und ★. Davon liegen + und △ im Netz direkt neben □; erst durch das Falten kommen ◆ und ★ dazu. Der Deckel ● grenzt nicht an □.",
+    "explanation_en": "1. Face □ is the bottom (printed side outside).<br>2. The neighbours in the net (+ and △) fold up and become side walls.<br>3. ◆ is attached to △ and also becomes a side wall.<br>4. ● is attached to △ and folds over to become the lid (top).<br>5. ★ is attached to ◆ and also becomes a side wall.<br>6. The side walls around □ are +, △, ◆ and ★. Of these, + and △ touch □ in the net; only folding brings ◆ and ★ next to it. The lid ● does not touch □.",
+    "explanations_alt": [
+      {
+        "title_de": "Gegenfläche ausschließen",
+        "title_en": "Rule out the opposite face",
+        "text_de": "Jede Fläche grenzt an vier andere und liegt nur einer gegenüber. Die Gegenfläche von □ ist ●; sie grenzt nie an □. Die vier übrigen Flächen +, △, ◆ und ★ grenzen alle an □. Streichen Sie davon die im Netz direkt benachbarten (+ und △): übrig bleibt ◆ und ★.",
+        "text_en": "Every face touches four others and is opposite just one. The opposite face of □ is ●; it never touches □. The other four faces +, △, ◆ and ★ all touch □. Cross out those directly next to □ in the net (+ and △): that leaves ◆ and ★."
+      },
+      {
+        "title_de": "Kanten zählen",
+        "title_en": "Count the edges",
+        "text_de": "Ein Quadrat hat 4 Kanten, und jede Kante grenzt im Würfel an eine andere Fläche. □ hat im Netz 2 Kanten mit Nachbarn (+ und △). Die restlichen 2 Kanten werden erst beim Falten verklebt, und zwar mit ◆ und ★.",
+        "text_en": "A square has 4 edges and each edge meets a different face in the cube. □ has 2 edges with neighbours in the net (+ and △). The remaining 2 edges are only joined when folding, namely with ◆ and ★."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur die Nachbarn im Netz gezählt. (2) Die Gegenfläche als Nachbar angekreuzt. (3) Nicht alle richtigen Antworten angekreuzt.",
+    "mistakes_en": "Common mistakes: (1) Counting only the neighbours in the net. (2) Ticking the opposite face as a neighbour. (3) Not ticking all correct answers.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-009",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . ☽ . . / ◆ ↓ ☀ ♥ / ↑ . . .\nWelche Fläche liegt im gefalteten Würfel gegenüber von ◆?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . ☽ . . / ◆ ↓ ☀ ♥ / ↑ . . .\nWhich face is opposite to ◆ in the folded cube?",
+    "options_de": [
+      "a) ☽",
+      "b) ↓",
+      "c) ♥",
+      "d) ↑",
+      "e) ☀"
+    ],
+    "options_en": [
+      "a) ☽",
+      "b) ↓",
+      "c) ♥",
+      "d) ↑",
+      "e) ☀"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "1. Fläche ◆ liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (↑ und ↓) klappen hoch und werden Seitenwände.<br>3. ☀ hängt an ↓ und klappt nach oben zum Deckel.<br>4. ☽ hängt an ↓ und wird ebenfalls Seitenwand.<br>5. ♥ hängt an ☀ und wird ebenfalls Seitenwand.<br>6. Übrig bleibt genau eine Fläche für den Deckel: ☀. Sie liegt ◆ gegenüber.",
+    "explanation_en": "1. Face ◆ is the bottom (printed side outside).<br>2. The neighbours in the net (↑ and ↓) fold up and become side walls.<br>3. ☀ is attached to ↓ and folds over to become the lid (top).<br>4. ☽ is attached to ↓ and also becomes a side wall.<br>5. ♥ is attached to ☀ and also becomes a side wall.<br>6. Exactly one face is left for the lid: ☀. It is opposite ◆.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben ◆ im Netz: ↑ und ↓ – diese grenzen an ◆. Durch das Falten stoßen außerdem ☽ und ♥ an ◆. Alle vier Nachbarn sind gestrichen, übrig bleibt ☀.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to ◆ in the net: ↑ and ↓ – these touch ◆. Folding additionally brings ☽ and ♥ next to ◆. All four neighbours are crossed out, leaving ☀."
+      },
+      {
+        "title_de": "Reihenregel: ein Feld dazwischen",
+        "title_en": "Row rule: one square in between",
+        "text_de": "Liegen drei Felder in einer geraden Reihe, sind das erste und das dritte Feld Gegenflächen. Hier liegt ◆ – ↓ – ☀ in einer Reihe. Also ist ☀ gegenüber von ◆.",
+        "text_en": "If three squares lie in a straight row, the first and the third are opposite faces. Here ◆ – ↓ – ☀ are in a row. So ☀ is opposite ◆."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-010",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: ↓ . . / ◆ ♥ . / . ↑ ☀ / . ☽ .\nWelche Fläche liegt im gefalteten Würfel gegenüber von ◆?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: ↓ . . / ◆ ♥ . / . ↑ ☀ / . ☽ .\nWhich face is opposite to ◆ in the folded cube?",
+    "options_de": [
+      "a) ☽",
+      "b) ↑",
+      "c) ☀",
+      "d) ↓",
+      "e) ♥"
+    ],
+    "options_en": [
+      "a) ☽",
+      "b) ↑",
+      "c) ☀",
+      "d) ↓",
+      "e) ♥"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "1. Fläche ◆ liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (↓ und ♥) klappen hoch und werden Seitenwände.<br>3. ↑ hängt an ♥ und wird ebenfalls Seitenwand.<br>4. ☀ hängt an ↑ und klappt nach oben zum Deckel.<br>5. ☽ hängt an ↑ und wird ebenfalls Seitenwand.<br>6. Übrig bleibt genau eine Fläche für den Deckel: ☀. Sie liegt ◆ gegenüber.",
+    "explanation_en": "1. Face ◆ is the bottom (printed side outside).<br>2. The neighbours in the net (↓ and ♥) fold up and become side walls.<br>3. ↑ is attached to ♥ and also becomes a side wall.<br>4. ☀ is attached to ↑ and folds over to become the lid (top).<br>5. ☽ is attached to ↑ and also becomes a side wall.<br>6. Exactly one face is left for the lid: ☀. It is opposite ◆.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben ◆ im Netz: ↓ und ♥ – diese grenzen an ◆. Durch das Falten stoßen außerdem ↑ und ☽ an ◆. Alle vier Nachbarn sind gestrichen, übrig bleibt ☀.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to ◆ in the net: ↓ and ♥ – these touch ◆. Folding additionally brings ↑ and ☽ next to ◆. All four neighbours are crossed out, leaving ☀."
+      },
+      {
+        "title_de": "Alle Gegenüber-Paare bestimmen",
+        "title_en": "Find all opposite pairs",
+        "text_de": "Ein Würfel hat 3 Paare gegenüberliegender Flächen, jede Fläche steht in genau einem Paar. Bei diesem Netz sind es (↑, ↓), (◆, ☀) und (☽, ♥). ◆ steht im Paar (◆ , ☀), also ist ☀ die Antwort. Kontrolle: Felder, die im Netz direkt nebeneinander liegen, sind nie in einem Paar.",
+        "text_en": "A cube has 3 pairs of opposite faces and every face is in exactly one pair. For this net they are (↑, ↓), (◆, ☀) and (☽, ♥). ◆ is in the pair (◆ , ☀), so the answer is ☀. Check: squares that touch in the net are never in one pair."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-011",
+    "quizId": "cognitive",
+    "difficulty": "medium",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: γ β ζ . . / . . α δ ε\nWelche Fläche liegt im gefalteten Würfel gegenüber von ε?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: γ β ζ . . / . . α δ ε\nWhich face is opposite to ε in the folded cube?",
+    "options_de": [
+      "a) ζ",
+      "b) α",
+      "c) δ",
+      "d) β",
+      "e) γ"
+    ],
+    "options_en": [
+      "a) ζ",
+      "b) α",
+      "c) δ",
+      "d) β",
+      "e) γ"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "1. Fläche ε liegt unten (bedruckte Seite außen).<br>2. Ihr Nachbar im Netz (δ) klappt hoch und wird Seitenwand.<br>3. α hängt an δ und klappt nach oben zum Deckel.<br>4. ζ hängt an α und wird ebenfalls Seitenwand.<br>5. β hängt an ζ und wird ebenfalls Seitenwand.<br>6. γ hängt an β und wird ebenfalls Seitenwand.<br>7. Übrig bleibt genau eine Fläche für den Deckel: α. Sie liegt ε gegenüber.",
+    "explanation_en": "1. Face ε is the bottom (printed side outside).<br>2. Its neighbour in the net (δ) folds up and becomes a side wall.<br>3. α is attached to δ and folds over to become the lid (top).<br>4. ζ is attached to α and also becomes a side wall.<br>5. β is attached to ζ and also becomes a side wall.<br>6. γ is attached to β and also becomes a side wall.<br>7. Exactly one face is left for the lid: α. It is opposite ε.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben ε im Netz: δ – diese grenzen an ε. Durch das Falten stoßen außerdem β, γ und ζ an ε. Alle vier Nachbarn sind gestrichen, übrig bleibt α.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to ε in the net: δ – these touch ε. Folding additionally brings β, γ and ζ next to ε. All four neighbours are crossed out, leaving α."
+      },
+      {
+        "title_de": "Reihenregel: ein Feld dazwischen",
+        "title_en": "Row rule: one square in between",
+        "text_de": "Liegen drei Felder in einer geraden Reihe, sind das erste und das dritte Feld Gegenflächen. Hier liegt ε – δ – α in einer Reihe. Also ist α gegenüber von ε.",
+        "text_en": "If three squares lie in a straight row, the first and the third are opposite faces. Here ε – δ – α are in a row. So α is opposite ε."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-adj-012",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . □ ● / . △ . / ◆ + . / ★ . .\nWelche Flächen grenzen im gefalteten Würfel an ◆, liegen im Netz aber nicht direkt neben ◆? (Alle richtigen ankreuzen.)",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . □ ● / . △ . / ◆ + . / ★ . .\nWhich faces touch ◆ in the folded cube but are not directly next to ◆ in the net? (Tick all correct answers.)",
+    "options_de": [
+      "a) ●",
+      "b) □",
+      "c) +",
+      "d) ★",
+      "e) △"
+    ],
+    "options_en": [
+      "a) ●",
+      "b) □",
+      "c) +",
+      "d) ★",
+      "e) △"
+    ],
+    "correct": [
+      1,
+      4
+    ],
+    "explanation_de": "1. Fläche ◆ liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (+ und ★) klappen hoch und werden Seitenwände.<br>3. △ hängt an + und wird ebenfalls Seitenwand.<br>4. □ hängt an △ und wird ebenfalls Seitenwand.<br>5. ● hängt an □ und klappt nach oben zum Deckel.<br>6. Die Seitenwände rund um ◆ sind +, □, △ und ★. Davon liegen + und ★ im Netz direkt neben ◆; erst durch das Falten kommen □ und △ dazu. Der Deckel ● grenzt nicht an ◆.",
+    "explanation_en": "1. Face ◆ is the bottom (printed side outside).<br>2. The neighbours in the net (+ and ★) fold up and become side walls.<br>3. △ is attached to + and also becomes a side wall.<br>4. □ is attached to △ and also becomes a side wall.<br>5. ● is attached to □ and folds over to become the lid (top).<br>6. The side walls around ◆ are +, □, △ and ★. Of these, + and ★ touch ◆ in the net; only folding brings □ and △ next to it. The lid ● does not touch ◆.",
+    "explanations_alt": [
+      {
+        "title_de": "Gegenfläche ausschließen",
+        "title_en": "Rule out the opposite face",
+        "text_de": "Jede Fläche grenzt an vier andere und liegt nur einer gegenüber. Die Gegenfläche von ◆ ist ●; sie grenzt nie an ◆. Die vier übrigen Flächen +, □, △ und ★ grenzen alle an ◆. Streichen Sie davon die im Netz direkt benachbarten (+ und ★): übrig bleibt □ und △.",
+        "text_en": "Every face touches four others and is opposite just one. The opposite face of ◆ is ●; it never touches ◆. The other four faces +, □, △ and ★ all touch ◆. Cross out those directly next to ◆ in the net (+ and ★): that leaves □ and △."
+      },
+      {
+        "title_de": "Kanten zählen",
+        "title_en": "Count the edges",
+        "text_de": "Ein Quadrat hat 4 Kanten, und jede Kante grenzt im Würfel an eine andere Fläche. ◆ hat im Netz 2 Kanten mit Nachbarn (+ und ★). Die restlichen 2 Kanten werden erst beim Falten verklebt, und zwar mit □ und △.",
+        "text_en": "A square has 4 edges and each edge meets a different face in the cube. ◆ has 2 edges with neighbours in the net (+ and ★). The remaining 2 edges are only joined when folding, namely with □ and △."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur die Nachbarn im Netz gezählt. (2) Die Gegenfläche als Nachbar angekreuzt. (3) Nicht alle richtigen Antworten angekreuzt.",
+    "mistakes_en": "Common mistakes: (1) Counting only the neighbours in the net. (2) Ticking the opposite face as a neighbour. (3) Not ticking all correct answers.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-adj-013",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: 6 4 . / . 5 . / . 1 . / . 2 3\nWelche Flächen grenzen im gefalteten Würfel an 5, liegen im Netz aber nicht direkt neben 5? (Alle richtigen ankreuzen.)",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: 6 4 . / . 5 . / . 1 . / . 2 3\nWhich faces touch 5 in the folded cube but are not directly next to 5 in the net? (Tick all correct answers.)",
+    "options_de": [
+      "a) 4",
+      "b) 6",
+      "c) 3",
+      "d) 1",
+      "e) 2"
+    ],
+    "options_en": [
+      "a) 4",
+      "b) 6",
+      "c) 3",
+      "d) 1",
+      "e) 2"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation_de": "1. Fläche 5 liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (1 und 4) klappen hoch und werden Seitenwände.<br>3. 2 hängt an 1 und klappt nach oben zum Deckel.<br>4. 6 hängt an 4 und wird ebenfalls Seitenwand.<br>5. 3 hängt an 2 und wird ebenfalls Seitenwand.<br>6. Die Seitenwände rund um 5 sind 1, 3, 4 und 6. Davon liegen 1 und 4 im Netz direkt neben 5; erst durch das Falten kommen 3 und 6 dazu. Der Deckel 2 grenzt nicht an 5.",
+    "explanation_en": "1. Face 5 is the bottom (printed side outside).<br>2. The neighbours in the net (1 and 4) fold up and become side walls.<br>3. 2 is attached to 1 and folds over to become the lid (top).<br>4. 6 is attached to 4 and also becomes a side wall.<br>5. 3 is attached to 2 and also becomes a side wall.<br>6. The side walls around 5 are 1, 3, 4 and 6. Of these, 1 and 4 touch 5 in the net; only folding brings 3 and 6 next to it. The lid 2 does not touch 5.",
+    "explanations_alt": [
+      {
+        "title_de": "Gegenfläche ausschließen",
+        "title_en": "Rule out the opposite face",
+        "text_de": "Jede Fläche grenzt an vier andere und liegt nur einer gegenüber. Die Gegenfläche von 5 ist 2; sie grenzt nie an 5. Die vier übrigen Flächen 1, 3, 4 und 6 grenzen alle an 5. Streichen Sie davon die im Netz direkt benachbarten (1 und 4): übrig bleibt 3 und 6.",
+        "text_en": "Every face touches four others and is opposite just one. The opposite face of 5 is 2; it never touches 5. The other four faces 1, 3, 4 and 6 all touch 5. Cross out those directly next to 5 in the net (1 and 4): that leaves 3 and 6."
+      },
+      {
+        "title_de": "Kanten zählen",
+        "title_en": "Count the edges",
+        "text_de": "Ein Quadrat hat 4 Kanten, und jede Kante grenzt im Würfel an eine andere Fläche. 5 hat im Netz 2 Kanten mit Nachbarn (1 und 4). Die restlichen 2 Kanten werden erst beim Falten verklebt, und zwar mit 3 und 6.",
+        "text_en": "A square has 4 edges and each edge meets a different face in the cube. 5 has 2 edges with neighbours in the net (1 and 4). The remaining 2 edges are only joined when folding, namely with 3 and 6."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur die Nachbarn im Netz gezählt. (2) Die Gegenfläche als Nachbar angekreuzt. (3) Nicht alle richtigen Antworten angekreuzt.",
+    "mistakes_en": "Common mistakes: (1) Counting only the neighbours in the net. (2) Ticking the opposite face as a neighbour. (3) Not ticking all correct answers.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-view-014",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . A . / . B . / E F C / . . D\nWelche Ansicht (oben, vorne, rechts) kann man von diesem Würfel sehen?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . A . / . B . / E F C / . . D\nWhich view (top, front, right) can be seen on this cube?",
+    "options_de": [
+      "a) oben A, vorne C, rechts D",
+      "b) oben D, vorne F, rechts A",
+      "c) oben E, vorne D, rechts A",
+      "d) oben C, vorne B, rechts A",
+      "e) oben A, vorne D, rechts C"
+    ],
+    "options_en": [
+      "a) top A, front C, right D",
+      "b) top D, front F, right A",
+      "c) top E, front D, right A",
+      "d) top C, front B, right A",
+      "e) top A, front D, right C"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "1. Halten Sie das Netz so, wie es gezeichnet ist: C schaut Sie an.<br>2. Falten Sie alle anderen Felder nach hinten. Dann liegt oben B, unten D, links F, rechts A und hinten E.<br>3. Drehen Sie den Würfel um die Blickachse, bis D rechts liegt. Dann liegt A oben.<br>4. Die Ansicht ist also: oben A, vorne C, rechts D.",
+    "explanation_en": "1. Hold the net as drawn: C faces you.<br>2. Fold all other squares backwards. Then the top is B, bottom D, left F, right A and back E.<br>3. Turn the cube about your line of sight until D is on the right. Then A is on top.<br>4. So the view is: top A, front C, right D.",
+    "explanations_alt": [
+      {
+        "title_de": "Ecke und Drehsinn",
+        "title_en": "Corner and turning direction",
+        "text_de": "Die drei Flächen A, C, D treffen sich an einer Würfelecke. Schaut man von außen auf diese Ecke, folgen oben (A) → vorne (C) → rechts (D) gegen den Uhrzeigersinn aufeinander. Die Reihenfolge A → D → C liefe im Uhrzeigersinn – das wäre das Spiegelbild und ist bei diesem Netz nicht möglich.",
+        "text_en": "The three faces A, C, D meet at one corner of the cube. Looking at this corner from outside, top (A) → front (C) → right (D) follow each other counter-clockwise. The order A → D → C would run clockwise – that is the mirror image and is impossible for this net."
+      },
+      {
+        "title_de": "Gegenüber-Paare streichen",
+        "title_en": "Cross out opposite pairs",
+        "text_de": "Eine Ansicht zeigt nie zwei Gegenflächen. Die Gegenüber-Paare dieses Netzes sind (A, F), (B, D) und (C, E). Optionen mit so einem Paar (b) fallen weg. Bei den übrigen (c, d und e) sind die Flächen zwar benachbart, aber nur eine hat die richtige Drehrichtung: a).",
+        "text_en": "A view never shows two opposite faces. The opposite pairs of this net are (A, F), (B, D) and (C, E). Options containing such a pair (b) are out. In the others (c, d and e) the faces are neighbours, but only one has the right turning direction: a)."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur geprüft, ob die drei Flächen benachbart sind, nicht die Drehrichtung. (2) Spiegelbild gewählt. (3) Zwei Gegenflächen in einer Ansicht zugelassen.",
+    "mistakes_en": "Common mistakes: (1) Checking only that the three faces are neighbours, not their turning direction. (2) Choosing the mirror image. (3) Allowing two opposite faces in one view.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-adj-015",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: α γ . / . ζ . / . ε . / . δ β\nWelche Flächen grenzen im gefalteten Würfel an ζ, liegen im Netz aber nicht direkt neben ζ? (Alle richtigen ankreuzen.)",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: α γ . / . ζ . / . ε . / . δ β\nWhich faces touch ζ in the folded cube but are not directly next to ζ in the net? (Tick all correct answers.)",
+    "options_de": [
+      "a) γ",
+      "b) β",
+      "c) ε",
+      "d) δ",
+      "e) α"
+    ],
+    "options_en": [
+      "a) γ",
+      "b) β",
+      "c) ε",
+      "d) δ",
+      "e) α"
+    ],
+    "correct": [
+      1,
+      4
+    ],
+    "explanation_de": "1. Fläche ζ liegt unten (bedruckte Seite außen).<br>2. Die Nachbarn im Netz (γ und ε) klappen hoch und werden Seitenwände.<br>3. α hängt an γ und wird ebenfalls Seitenwand.<br>4. δ hängt an ε und klappt nach oben zum Deckel.<br>5. β hängt an δ und wird ebenfalls Seitenwand.<br>6. Die Seitenwände rund um ζ sind α, β, γ und ε. Davon liegen γ und ε im Netz direkt neben ζ; erst durch das Falten kommen α und β dazu. Der Deckel δ grenzt nicht an ζ.",
+    "explanation_en": "1. Face ζ is the bottom (printed side outside).<br>2. The neighbours in the net (γ and ε) fold up and become side walls.<br>3. α is attached to γ and also becomes a side wall.<br>4. δ is attached to ε and folds over to become the lid (top).<br>5. β is attached to δ and also becomes a side wall.<br>6. The side walls around ζ are α, β, γ and ε. Of these, γ and ε touch ζ in the net; only folding brings α and β next to it. The lid δ does not touch ζ.",
+    "explanations_alt": [
+      {
+        "title_de": "Gegenfläche ausschließen",
+        "title_en": "Rule out the opposite face",
+        "text_de": "Jede Fläche grenzt an vier andere und liegt nur einer gegenüber. Die Gegenfläche von ζ ist δ; sie grenzt nie an ζ. Die vier übrigen Flächen α, β, γ und ε grenzen alle an ζ. Streichen Sie davon die im Netz direkt benachbarten (γ und ε): übrig bleibt α und β.",
+        "text_en": "Every face touches four others and is opposite just one. The opposite face of ζ is δ; it never touches ζ. The other four faces α, β, γ and ε all touch ζ. Cross out those directly next to ζ in the net (γ and ε): that leaves α and β."
+      },
+      {
+        "title_de": "Kanten zählen",
+        "title_en": "Count the edges",
+        "text_de": "Ein Quadrat hat 4 Kanten, und jede Kante grenzt im Würfel an eine andere Fläche. ζ hat im Netz 2 Kanten mit Nachbarn (γ und ε). Die restlichen 2 Kanten werden erst beim Falten verklebt, und zwar mit α und β.",
+        "text_en": "A square has 4 edges and each edge meets a different face in the cube. ζ has 2 edges with neighbours in the net (γ and ε). The remaining 2 edges are only joined when folding, namely with α and β."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur die Nachbarn im Netz gezählt. (2) Die Gegenfläche als Nachbar angekreuzt. (3) Nicht alle richtigen Antworten angekreuzt.",
+    "mistakes_en": "Common mistakes: (1) Counting only the neighbours in the net. (2) Ticking the opposite face as a neighbour. (3) Not ticking all correct answers.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-view-016",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . . . δ / α ζ γ ε / β . . .\nWelche Ansicht (oben, vorne, rechts) kann man von diesem Würfel sehen?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . . . δ / α ζ γ ε / β . . .\nWhich view (top, front, right) can be seen on this cube?",
+    "options_de": [
+      "a) oben γ, vorne δ, rechts ε",
+      "b) oben γ, vorne β, rechts ε",
+      "c) oben γ, vorne β, rechts α",
+      "d) oben α, vorne ζ, rechts β",
+      "e) oben γ, vorne ε, rechts β"
+    ],
+    "options_en": [
+      "a) top γ, front δ, right ε",
+      "b) top γ, front β, right ε",
+      "c) top γ, front β, right α",
+      "d) top α, front ζ, right β",
+      "e) top γ, front ε, right β"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "1. Halten Sie das Netz so, wie es gezeichnet ist: β schaut Sie an.<br>2. Falten Sie alle anderen Felder nach hinten. Dann liegt oben α, unten γ, links ε, rechts ζ und hinten δ.<br>3. Drehen Sie den Würfel um die Blickachse, bis ε rechts liegt. Dann liegt γ oben.<br>4. Die Ansicht ist also: oben γ, vorne β, rechts ε.",
+    "explanation_en": "1. Hold the net as drawn: β faces you.<br>2. Fold all other squares backwards. Then the top is α, bottom γ, left ε, right ζ and back δ.<br>3. Turn the cube about your line of sight until ε is on the right. Then γ is on top.<br>4. So the view is: top γ, front β, right ε.",
+    "explanations_alt": [
+      {
+        "title_de": "Ecke und Drehsinn",
+        "title_en": "Corner and turning direction",
+        "text_de": "Die drei Flächen γ, β, ε treffen sich an einer Würfelecke. Schaut man von außen auf diese Ecke, folgen oben (γ) → vorne (β) → rechts (ε) gegen den Uhrzeigersinn aufeinander. Die Reihenfolge γ → ε → β liefe im Uhrzeigersinn – das wäre das Spiegelbild und ist bei diesem Netz nicht möglich.",
+        "text_en": "The three faces γ, β, ε meet at one corner of the cube. Looking at this corner from outside, top (γ) → front (β) → right (ε) follow each other counter-clockwise. The order γ → ε → β would run clockwise – that is the mirror image and is impossible for this net."
+      },
+      {
+        "title_de": "Gegenüber-Paare streichen",
+        "title_en": "Cross out opposite pairs",
+        "text_de": "Eine Ansicht zeigt nie zwei Gegenflächen. Die Gegenüber-Paare dieses Netzes sind (α, γ), (β, δ) und (ε, ζ). Optionen mit so einem Paar (c) fallen weg. Bei den übrigen (a, d und e) sind die Flächen zwar benachbart, aber nur eine hat die richtige Drehrichtung: b).",
+        "text_en": "A view never shows two opposite faces. The opposite pairs of this net are (α, γ), (β, δ) and (ε, ζ). Options containing such a pair (c) are out. In the others (a, d and e) the faces are neighbours, but only one has the right turning direction: b)."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur geprüft, ob die drei Flächen benachbart sind, nicht die Drehrichtung. (2) Spiegelbild gewählt. (3) Zwei Gegenflächen in einer Ansicht zugelassen.",
+    "mistakes_en": "Common mistakes: (1) Checking only that the three faces are neighbours, not their turning direction. (2) Choosing the mirror image. (3) Allowing two opposite faces in one view.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-017",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: ε . . . / β δ ζ γ / . α . .\nWelche Fläche liegt im gefalteten Würfel gegenüber von α?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: ε . . . / β δ ζ γ / . α . .\nWhich face is opposite to α in the folded cube?",
+    "options_de": [
+      "a) ε",
+      "b) γ",
+      "c) β",
+      "d) δ",
+      "e) ζ"
+    ],
+    "options_en": [
+      "a) ε",
+      "b) γ",
+      "c) β",
+      "d) δ",
+      "e) ζ"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "1. Fläche α liegt unten (bedruckte Seite außen).<br>2. Ihr Nachbar im Netz (δ) klappt hoch und wird Seitenwand.<br>3. β hängt an δ und wird ebenfalls Seitenwand.<br>4. ζ hängt an δ und wird ebenfalls Seitenwand.<br>5. γ hängt an ζ und wird ebenfalls Seitenwand.<br>6. ε hängt an β und klappt nach oben zum Deckel.<br>7. Übrig bleibt genau eine Fläche für den Deckel: ε. Sie liegt α gegenüber.",
+    "explanation_en": "1. Face α is the bottom (printed side outside).<br>2. Its neighbour in the net (δ) folds up and becomes a side wall.<br>3. β is attached to δ and also becomes a side wall.<br>4. ζ is attached to δ and also becomes a side wall.<br>5. γ is attached to ζ and also becomes a side wall.<br>6. ε is attached to β and folds over to become the lid (top).<br>7. Exactly one face is left for the lid: ε. It is opposite α.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben α im Netz: δ – diese grenzen an α. Durch das Falten stoßen außerdem β, γ und ζ an α. Alle vier Nachbarn sind gestrichen, übrig bleibt ε.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to α in the net: δ – these touch α. Folding additionally brings β, γ and ζ next to α. All four neighbours are crossed out, leaving ε."
+      },
+      {
+        "title_de": "Alle Gegenüber-Paare bestimmen",
+        "title_en": "Find all opposite pairs",
+        "text_de": "Ein Würfel hat 3 Paare gegenüberliegender Flächen, jede Fläche steht in genau einem Paar. Bei diesem Netz sind es (α, ε), (β, ζ) und (γ, δ). α steht im Paar (α , ε), also ist ε die Antwort. Kontrolle: Felder, die im Netz direkt nebeneinander liegen, sind nie in einem Paar.",
+        "text_en": "A cube has 3 pairs of opposite faces and every face is in exactly one pair. For this net they are (α, ε), (β, ζ) and (γ, δ). α is in the pair (α , ε), so the answer is ε. Check: squares that touch in the net are never in one pair."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-adj-018",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: 5 . . . / 2 6 1 3 / 4 . . .\nWelche Flächen grenzen im gefalteten Würfel an 5, liegen im Netz aber nicht direkt neben 5? (Alle richtigen ankreuzen.)",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: 5 . . . / 2 6 1 3 / 4 . . .\nWhich faces touch 5 in the folded cube but are not directly next to 5 in the net? (Tick all correct answers.)",
+    "options_de": [
+      "a) 6",
+      "b) 2",
+      "c) 1",
+      "d) 4",
+      "e) 3"
+    ],
+    "options_en": [
+      "a) 6",
+      "b) 2",
+      "c) 1",
+      "d) 4",
+      "e) 3"
+    ],
+    "correct": [
+      0,
+      2,
+      4
+    ],
+    "explanation_de": "1. Fläche 5 liegt unten (bedruckte Seite außen).<br>2. Ihr Nachbar im Netz (2) klappt hoch und wird Seitenwand.<br>3. 4 hängt an 2 und klappt nach oben zum Deckel.<br>4. 6 hängt an 2 und wird ebenfalls Seitenwand.<br>5. 1 hängt an 6 und wird ebenfalls Seitenwand.<br>6. 3 hängt an 1 und wird ebenfalls Seitenwand.<br>7. Die Seitenwände rund um 5 sind 1, 2, 3 und 6. Davon liegen 2 im Netz direkt neben 5; erst durch das Falten kommen 1, 3 und 6 dazu. Der Deckel 4 grenzt nicht an 5.",
+    "explanation_en": "1. Face 5 is the bottom (printed side outside).<br>2. Its neighbour in the net (2) folds up and becomes a side wall.<br>3. 4 is attached to 2 and folds over to become the lid (top).<br>4. 6 is attached to 2 and also becomes a side wall.<br>5. 1 is attached to 6 and also becomes a side wall.<br>6. 3 is attached to 1 and also becomes a side wall.<br>7. The side walls around 5 are 1, 2, 3 and 6. Of these, 2 touch 5 in the net; only folding brings 1, 3 and 6 next to it. The lid 4 does not touch 5.",
+    "explanations_alt": [
+      {
+        "title_de": "Gegenfläche ausschließen",
+        "title_en": "Rule out the opposite face",
+        "text_de": "Jede Fläche grenzt an vier andere und liegt nur einer gegenüber. Die Gegenfläche von 5 ist 4; sie grenzt nie an 5. Die vier übrigen Flächen 1, 2, 3 und 6 grenzen alle an 5. Streichen Sie davon die im Netz direkt benachbarten (2): übrig bleibt 1, 3 und 6.",
+        "text_en": "Every face touches four others and is opposite just one. The opposite face of 5 is 4; it never touches 5. The other four faces 1, 2, 3 and 6 all touch 5. Cross out those directly next to 5 in the net (2): that leaves 1, 3 and 6."
+      },
+      {
+        "title_de": "Kanten zählen",
+        "title_en": "Count the edges",
+        "text_de": "Ein Quadrat hat 4 Kanten, und jede Kante grenzt im Würfel an eine andere Fläche. 5 hat im Netz 1 Kante mit Nachbarn (2). Die restlichen 3 Kanten werden erst beim Falten verklebt, und zwar mit 1, 3 und 6.",
+        "text_en": "A square has 4 edges and each edge meets a different face in the cube. 5 has 1 edge with neighbours in the net (2). The remaining 3 edges are only joined when folding, namely with 1, 3 and 6."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur die Nachbarn im Netz gezählt. (2) Die Gegenfläche als Nachbar angekreuzt. (3) Nicht alle richtigen Antworten angekreuzt.",
+    "mistakes_en": "Common mistakes: (1) Counting only the neighbours in the net. (2) Ticking the opposite face as a neighbour. (3) Not ticking all correct answers.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-opp-019",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: . 3 5 / . 2 . / . 6 . / 1 4 .\nWelche Fläche liegt im gefalteten Würfel gegenüber von 5?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: . 3 5 / . 2 . / . 6 . / 1 4 .\nWhich face is opposite to 5 in the folded cube?",
+    "options_de": [
+      "a) 2",
+      "b) 6",
+      "c) 4",
+      "d) 3",
+      "e) 1"
+    ],
+    "options_en": [
+      "a) 2",
+      "b) 6",
+      "c) 4",
+      "d) 3",
+      "e) 1"
+    ],
+    "correct": [
+      4
+    ],
+    "explanation_de": "1. Fläche 5 liegt unten (bedruckte Seite außen).<br>2. Ihr Nachbar im Netz (3) klappt hoch und wird Seitenwand.<br>3. 2 hängt an 3 und wird ebenfalls Seitenwand.<br>4. 6 hängt an 2 und wird ebenfalls Seitenwand.<br>5. 4 hängt an 6 und wird ebenfalls Seitenwand.<br>6. 1 hängt an 4 und klappt nach oben zum Deckel.<br>7. Übrig bleibt genau eine Fläche für den Deckel: 1. Sie liegt 5 gegenüber.",
+    "explanation_en": "1. Face 5 is the bottom (printed side outside).<br>2. Its neighbour in the net (3) folds up and becomes a side wall.<br>3. 2 is attached to 3 and also becomes a side wall.<br>4. 6 is attached to 2 and also becomes a side wall.<br>5. 4 is attached to 6 and also becomes a side wall.<br>6. 1 is attached to 4 and folds over to become the lid (top).<br>7. Exactly one face is left for the lid: 1. It is opposite 5.",
+    "explanations_alt": [
+      {
+        "title_de": "Ausschlussverfahren (Nachbarn streichen)",
+        "title_en": "Elimination (cross out the neighbours)",
+        "text_de": "Ein Würfel hat 4 Nachbarflächen und 1 Gegenfläche. Direkt neben 5 im Netz: 3 – diese grenzen an 5. Durch das Falten stoßen außerdem 2, 4 und 6 an 5. Alle vier Nachbarn sind gestrichen, übrig bleibt 1.",
+        "text_en": "A cube has 4 neighbouring faces and 1 opposite face. Directly next to 5 in the net: 3 – these touch 5. Folding additionally brings 2, 4 and 6 next to 5. All four neighbours are crossed out, leaving 1."
+      },
+      {
+        "title_de": "Alle Gegenüber-Paare bestimmen",
+        "title_en": "Find all opposite pairs",
+        "text_de": "Ein Würfel hat 3 Paare gegenüberliegender Flächen, jede Fläche steht in genau einem Paar. Bei diesem Netz sind es (1, 5), (2, 4) und (3, 6). 5 steht im Paar (1 , 5), also ist 1 die Antwort. Kontrolle: Felder, die im Netz direkt nebeneinander liegen, sind nie in einem Paar.",
+        "text_en": "A cube has 3 pairs of opposite faces and every face is in exactly one pair. For this net they are (1, 5), (2, 4) and (3, 6). 5 is in the pair (1 , 5), so the answer is 1. Check: squares that touch in the net are never in one pair."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Gegenflächen mit Nachbarn im Netz verwechselt – Felder, die im Netz direkt nebeneinander liegen, sind nie gegenüber. (2) Nur bis zur ersten Faltkante gedacht.",
+    "mistakes_en": "Common mistakes: (1) Confusing opposite faces with neighbours in the net – squares that touch in the net are never opposite. (2) Only folding in your head up to the first edge.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "wnetz-view-020",
+    "quizId": "cognitive",
+    "difficulty": "hard",
+    "tags": [
+      "wuerfel",
+      "wuerfelnetz"
+    ],
+    "question_de": "WÜRFELNETZ: Das Netz wird zu einem Würfel gefaltet (bedruckte Seite außen).\nNetz: △ . . / □ O . / . ♥ ★ / . . X\nWelche Ansicht (oben, vorne, rechts) kann man von diesem Würfel sehen?",
+    "question_en": "CUBE NET: The net is folded into a cube (printed side outside).\nNet: △ . . / □ O . / . ♥ ★ / . . X\nWhich view (top, front, right) can be seen on this cube?",
+    "options_de": [
+      "a) oben O, vorne ★, rechts □",
+      "b) oben ★, vorne △, rechts X",
+      "c) oben □, vorne O, rechts ♥",
+      "d) oben ★, vorne X, rechts △",
+      "e) oben ♥, vorne △, rechts X"
+    ],
+    "options_en": [
+      "a) top O, front ★, right □",
+      "b) top ★, front △, right X",
+      "c) top □, front O, right ♥",
+      "d) top ★, front X, right △",
+      "e) top ♥, front △, right X"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation_de": "1. Halten Sie das Netz so, wie es gezeichnet ist: X schaut Sie an.<br>2. Falten Sie alle anderen Felder nach hinten. Dann liegt oben ★, unten □, links ♥, rechts △ und hinten O.<br>3. △ liegt bereits rechts, also liegt ★ oben.<br>4. Die Ansicht ist also: oben ★, vorne X, rechts △.",
+    "explanation_en": "1. Hold the net as drawn: X faces you.<br>2. Fold all other squares backwards. Then the top is ★, bottom □, left ♥, right △ and back O.<br>3. △ is already on the right, so ★ is on top.<br>4. So the view is: top ★, front X, right △.",
+    "explanations_alt": [
+      {
+        "title_de": "Ecke und Drehsinn",
+        "title_en": "Corner and turning direction",
+        "text_de": "Die drei Flächen ★, X, △ treffen sich an einer Würfelecke. Schaut man von außen auf diese Ecke, folgen oben (★) → vorne (X) → rechts (△) gegen den Uhrzeigersinn aufeinander. Die Reihenfolge ★ → △ → X liefe im Uhrzeigersinn – das wäre das Spiegelbild und ist bei diesem Netz nicht möglich.",
+        "text_en": "The three faces ★, X, △ meet at one corner of the cube. Looking at this corner from outside, top (★) → front (X) → right (△) follow each other counter-clockwise. The order ★ → △ → X would run clockwise – that is the mirror image and is impossible for this net."
+      },
+      {
+        "title_de": "Gegenüber-Paare streichen",
+        "title_en": "Cross out opposite pairs",
+        "text_de": "Eine Ansicht zeigt nie zwei Gegenflächen. Die Gegenüber-Paare dieses Netzes sind (O, X), (□, ★) und (△, ♥). Optionen mit so einem Paar (a und e) fallen weg. Bei den übrigen (b und c) sind die Flächen zwar benachbart, aber nur eine hat die richtige Drehrichtung: d).",
+        "text_en": "A view never shows two opposite faces. The opposite pairs of this net are (O, X), (□, ★) and (△, ♥). Options containing such a pair (a and e) are out. In the others (b and c) the faces are neighbours, but only one has the right turning direction: d)."
+      }
+    ],
+    "mistakes_de": "Typische Fehler: (1) Nur geprüft, ob die drei Flächen benachbart sind, nicht die Drehrichtung. (2) Spiegelbild gewählt. (3) Zwei Gegenflächen in einer Ansicht zugelassen.",
+    "mistakes_en": "Common mistakes: (1) Checking only that the three faces are neighbours, not their turning direction. (2) Choosing the mirror image. (3) Allowing two opposite faces in one view.",
+    "links": [
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Würfel-Glossar"
+      }
+    ],
+    "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
   }
 ]
