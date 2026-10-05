@@ -20478,5 +20478,1891 @@
       }
     ],
     "source": "Zusatzübung Würfelnetz (generiert, gen_wuerfelnetz.py) – kein offizielles Prüfungsformat"
+  },
+  {
+    "id": "lesen-oerok-oerek-1",
+    "quizId": "text-comprehension",
+    "passageId": "oerok-oerek",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 4 zum Text „Wer plant Österreichs Raum gemeinsam?“:\n\nDie ÖROK wurde gegründet, damit die Raumordnungsaufgaben der verschiedenen staatlichen Ebenen besser aufeinander abgestimmt werden.",
+    "question_en": "Statement 1 of 4 on the text “Who plans Austria's space together?”:\n\nThe ÖROK was founded so that the spatial planning tasks of the different levels of government are better coordinated.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 1: Die ÖROK wurde gegründet, „damit diese Aufgaben besser aufeinander abgestimmt werden“.",
+    "explanation_en": "The answer is a) true. Paragraph 1: the ÖROK was founded “to coordinate these tasks better”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 5, 6, 10, 174"
+  },
+  {
+    "id": "lesen-oerok-oerek-2",
+    "quizId": "text-comprehension",
+    "passageId": "oerok-oerek",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 4 zum Text „Wer plant Österreichs Raum gemeinsam?“:\n\nDie Wirtschafts- und Sozialpartner haben in der ÖROK dieselbe Rolle wie die Landeshauptleute.",
+    "question_en": "Statement 2 of 4 on the text “Who plans Austria's space together?”:\n\nThe economic and social partners have the same role in the ÖROK as the state governors.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 2: Die Wirtschafts- und Sozialpartner wirken nur „mit beratender Funktion“ mit – also nicht in derselben Rolle wie die Mitglieder.",
+    "explanation_en": "The answer is b) false. Paragraph 2: the economic and social partners only take part “in an advisory role” – not in the same role as the members.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 5, 6, 10, 174"
+  },
+  {
+    "id": "lesen-oerok-oerek-3",
+    "quizId": "text-comprehension",
+    "passageId": "oerok-oerek",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 4 zum Text „Wer plant Österreichs Raum gemeinsam?“:\n\nAuch das ÖREK 2011 wurde von allen ÖROK-Mitgliedern im Konsens beschlossen.",
+    "question_en": "Statement 3 of 4 on the text “Who plans Austria's space together?”:\n\nThe ÖREK 2011 was also adopted by consensus by all ÖROK members.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 3 sagt das nur über das ÖREK 2030. Über frühere Fassungen steht im Text nichts.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 3 says this only about the ÖREK 2030. The text says nothing about earlier versions.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 5, 6, 10, 174"
+  },
+  {
+    "id": "lesen-oerok-oerek-4",
+    "quizId": "text-comprehension",
+    "passageId": "oerok-oerek",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 4 von 4 zum Text „Wer plant Österreichs Raum gemeinsam?“:\n\nDas ÖREK wird laut Text jedes Jahr an neue Entwicklungen angepasst.",
+    "question_en": "Statement 4 of 4 on the text “Who plans Austria's space together?”:\n\nAccording to the text, the ÖREK is adapted to new developments every year.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 3: Das ÖREK wird „etwa alle zehn Jahre“ überarbeitet.",
+    "explanation_en": "The answer is b) false. Paragraph 3: the ÖREK is revised “about every ten years”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 5, 6, 10, 174"
+  },
+  {
+    "id": "lesen-grundsaetze-1",
+    "quizId": "text-comprehension",
+    "passageId": "grundsaetze",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 4 zum Text „Drei Grundsätze für den Raum“:\n\nLaut Text stehen die drei Grundsätze unabhängig nebeneinander und betreffen jeweils getrennte Themen.",
+    "question_en": "Statement 1 of 4 on the text “Three principles for space”:\n\nAccording to the text, the three principles stand independently side by side and each concerns separate topics.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 1: Die Grundsätze sind „nicht getrennt zu sehen, sondern überlagern einander“.",
+    "explanation_en": "The answer is b) false. Paragraph 1: the principles are “not to be seen separately; they overlap”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 9, 15, 16"
+  },
+  {
+    "id": "lesen-grundsaetze-2",
+    "quizId": "text-comprehension",
+    "passageId": "grundsaetze",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 4 zum Text „Drei Grundsätze für den Raum“:\n\nÖkologische Nachhaltigkeit hat laut Text Vorrang vor wirtschaftlicher Nachhaltigkeit.",
+    "question_en": "Statement 2 of 4 on the text “Three principles for space”:\n\nAccording to the text, ecological sustainability takes priority over economic sustainability.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 3: Die drei Dimensionen gelten als „gleichberechtigt“ – keine hat Vorrang.",
+    "explanation_en": "The answer is b) false. Paragraph 3: the three dimensions are “equal” – none takes priority.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 9, 15, 16"
+  },
+  {
+    "id": "lesen-grundsaetze-3",
+    "quizId": "text-comprehension",
+    "passageId": "grundsaetze",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 4 zum Text „Drei Grundsätze für den Raum“:\n\nZur sozialen Nachhaltigkeit gehört laut Text auch die Versorgung von Menschen, die kein eigenes Auto besitzen.",
+    "question_en": "Statement 3 of 4 on the text “Three principles for space”:\n\nAccording to the text, social sustainability also includes providing for people who do not own a car.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 3: Versorgung mit Daseinsvorsorge „auch für Personen ohne eigenes Kraftfahrzeug“ – sinngemäß dasselbe.",
+    "explanation_en": "The answer is a) true. Paragraph 3: services “for people without their own car” – the same meaning.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 9, 15, 16"
+  },
+  {
+    "id": "lesen-grundsaetze-4",
+    "quizId": "text-comprehension",
+    "passageId": "grundsaetze",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 4 von 4 zum Text „Drei Grundsätze für den Raum“:\n\nKompakte Siedlungsstrukturen senken laut Text die Baukosten von Wohnungen.",
+    "question_en": "Statement 4 of 4 on the text “Three principles for space”:\n\nAccording to the text, compact settlement structures lower the construction costs of flats.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 4 nennt nur kurze Wege, öffentlichen Verkehr und aktive Mobilität. Über Baukosten sagt der Text nichts.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 4 only mentions short distances, public transport and active mobility. The text says nothing about construction costs.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 9, 15, 16"
+  },
+  {
+    "id": "lesen-megatrends-1",
+    "quizId": "text-comprehension",
+    "passageId": "megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 4 zum Text „Megatrends: Klima und Digitalisierung“:\n\nLaut Text kann eine einzelne Gemeinde einen Megatrend durch eigene Maßnahmen umkehren.",
+    "question_en": "Statement 1 of 4 on the text “Megatrends: climate and digitalisation”:\n\nAccording to the text, a single municipality can reverse a megatrend through its own measures.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 1: Megatrends „können nicht von einzelnen Ländern, Regionen oder Gemeinden verändert werden“.",
+    "explanation_en": "The answer is b) false. Paragraph 1: megatrends “cannot be changed by individual countries, regions or municipalities”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 25, 28"
+  },
+  {
+    "id": "lesen-megatrends-2",
+    "quizId": "text-comprehension",
+    "passageId": "megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 4 zum Text „Megatrends: Klima und Digitalisierung“:\n\nÖsterreich erwärmt sich laut Text stärker als der globale Durchschnitt.",
+    "question_en": "Statement 2 of 4 on the text “Megatrends: climate and digitalisation”:\n\nAccording to the text, Austria is warming more than the global average.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 2: „Als Binnenland erwärmt es sich stärker als der globale Durchschnitt.“",
+    "explanation_en": "The answer is a) true. Paragraph 2: “as a landlocked country it warms more than the global average”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 25, 28"
+  },
+  {
+    "id": "lesen-megatrends-3",
+    "quizId": "text-comprehension",
+    "passageId": "megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 4 zum Text „Megatrends: Klima und Digitalisierung“:\n\nLaut Text hat der Breitbandausbau in ländlichen Regionen bereits zu mehr Zuzug geführt.",
+    "question_en": "Statement 3 of 4 on the text “Megatrends: climate and digitalisation”:\n\nAccording to the text, the broadband roll-out in rural regions has already led to more people moving there.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 3 spricht über Breitband und Nachfrage, aber nicht über Zuzug in ländliche Regionen.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 3 talks about broadband and demand, but not about people moving to rural regions.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 25, 28"
+  },
+  {
+    "id": "lesen-megatrends-4",
+    "quizId": "text-comprehension",
+    "passageId": "megatrends",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 4 von 4 zum Text „Megatrends: Klima und Digitalisierung“:\n\nEin rein marktgetriebener Breitbandausbau bevorzugt laut Text Gebiete mit geringer Nachfrage.",
+    "question_en": "Statement 4 of 4 on the text “Megatrends: climate and digitalisation”:\n\nAccording to the text, a purely market-driven broadband roll-out favours areas with low demand.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 3: Er begünstigt „Gebiete mit hohem Nachfragepotenzial“ – das Gegenteil.",
+    "explanation_en": "The answer is b) false. Paragraph 3: it favours “areas with high demand potential” – the opposite.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 25, 28"
+  },
+  {
+    "id": "lesen-demografie-1",
+    "quizId": "text-comprehension",
+    "passageId": "demografie",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 4 zum Text „Wachsen und Schrumpfen“:\n\nDas Bevölkerungswachstum der letzten Jahre geht laut Text hauptsächlich auf mehr Geburten als Sterbefälle zurück.",
+    "question_en": "Statement 1 of 4 on the text “Growing and shrinking”:\n\nAccording to the text, the population growth of recent years is mainly due to more births than deaths.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 1: Das Wachstum ist „in erster Linie auf die positive Wanderungsbilanz mit dem Ausland“ zurückzuführen; die Geburtenraten werden sogar als negativ beschrieben.",
+    "explanation_en": "The answer is b) false. Paragraph 1: growth is “mainly due to positive net migration from abroad”; birth rates are even described as negative.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 30–33"
+  },
+  {
+    "id": "lesen-demografie-2",
+    "quizId": "text-comprehension",
+    "passageId": "demografie",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 4 zum Text „Wachsen und Schrumpfen“:\n\nLaut Text sinkt die Zahl der Menschen im erwerbsfähigen Alter.",
+    "question_en": "Statement 2 of 4 on the text “Growing and shrinking”:\n\nAccording to the text, the number of people of working age is falling.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 2: „die Zahl der Personen im erwerbsfähigen Alter nimmt ab“.",
+    "explanation_en": "The answer is a) true. Paragraph 2: “the number of people of working age is falling”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 30–33"
+  },
+  {
+    "id": "lesen-demografie-3",
+    "quizId": "text-comprehension",
+    "passageId": "demografie",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 4 zum Text „Wachsen und Schrumpfen“:\n\nLaut Text wird die Bevölkerung außerhalb der Städte mit mehr als 50.000 Einwohner:innen bis 2050 schrumpfen.",
+    "question_en": "Statement 3 of 4 on the text “Growing and shrinking”:\n\nAccording to the text, the population outside cities with more than 50,000 inhabitants will shrink by 2050.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 3: Für alle anderen Gebiete wird ein Zuwachs von 5 % erwartet – also Wachstum, kein Schrumpfen.",
+    "explanation_en": "The answer is b) false. Paragraph 3: an increase of 5 % is expected for all other areas – growth, not shrinking.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 30–33"
+  },
+  {
+    "id": "lesen-demografie-4",
+    "quizId": "text-comprehension",
+    "passageId": "demografie",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 4 von 4 zum Text „Wachsen und Schrumpfen“:\n\nLaut Text ist die Suburbanisierung vor allem durch hohe Mieten in den Kernstädten entstanden.",
+    "question_en": "Statement 4 of 4 on the text “Growing and shrinking”:\n\nAccording to the text, suburbanisation was caused mainly by high rents in the core cities.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 3 beschreibt die Suburbanisierung und ihre Nachteile, nennt aber keine Ursache.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 3 describes suburbanisation and its drawbacks but gives no cause.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 30–33"
+  },
+  {
+    "id": "lesen-boden-1",
+    "quizId": "text-comprehension",
+    "passageId": "boden",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 4 zum Text „Wie viel Boden verbraucht Österreich?“:\n\nLaut Text ist jede in Anspruch genommene Fläche auch versiegelt.",
+    "question_en": "Statement 1 of 4 on the text “How much land does Austria use up?”:\n\nAccording to the text, every area of land taken is also sealed.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 1: Versiegelung ist „nur eine Teilmenge“ der Flächeninanspruchnahme; Absatz 2 nennt 32–41 % versiegelt.",
+    "explanation_en": "The answer is b) false. Paragraph 1: sealing is “only a subset” of land take; paragraph 2 gives 32–41 % sealed.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 60, 149"
+  },
+  {
+    "id": "lesen-boden-2",
+    "quizId": "text-comprehension",
+    "passageId": "boden",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 4 zum Text „Wie viel Boden verbraucht Österreich?“:\n\nIn manchen peripheren Gemeinden ist die versiegelte Fläche pro Kopf laut Text mehr als doppelt so groß wie im österreichischen Durchschnitt.",
+    "question_en": "Statement 2 of 4 on the text “How much land does Austria use up?”:\n\nAccording to the text, in some peripheral municipalities the sealed area per person is more than twice the Austrian average.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 2: über 500 m² gegenüber 209 m² im Durchschnitt; 2 × 209 = 418 m² < 500 m².",
+    "explanation_en": "The answer is a) true. Paragraph 2: more than 500 m² compared with an average of 209 m²; 2 × 209 = 418 m² < 500 m².",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 60, 149"
+  },
+  {
+    "id": "lesen-boden-3",
+    "quizId": "text-comprehension",
+    "passageId": "boden",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 4 zum Text „Wie viel Boden verbraucht Österreich?“:\n\nLaut Text lag die durchschnittliche Flächeninanspruchnahme 2017–2019 bereits unter dem Zielwert für 2030.",
+    "question_en": "Statement 3 of 4 on the text “How much land does Austria use up?”:\n\nAccording to the text, average land take in 2017–2019 was already below the 2030 target.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 2 nennt 12 ha pro Tag, Absatz 3 den Zielwert 2,5 ha pro Tag – der Durchschnitt lag also deutlich darüber.",
+    "explanation_en": "The answer is b) false. Paragraph 2 gives 12 ha per day, paragraph 3 the target of 2.5 ha per day – the average was well above it.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 60, 149"
+  },
+  {
+    "id": "lesen-boden-4",
+    "quizId": "text-comprehension",
+    "passageId": "boden",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 4 von 4 zum Text „Wie viel Boden verbraucht Österreich?“:\n\nLaut Text ist die versiegelte Fläche pro Kopf in Wien am niedrigsten.",
+    "question_en": "Statement 4 of 4 on the text “How much land does Austria use up?”:\n\nAccording to the text, the sealed area per person is lowest in Vienna.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 2 nennt den Durchschnitt und Gemeinden in Niederösterreich und im Burgenland, aber keinen Wert für Wien.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 2 gives the average and municipalities in Lower Austria and Burgenland, but no figure for Vienna.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 60, 149"
+  },
+  {
+    "id": "lesen-handlungsprogramm-1",
+    "quizId": "text-comprehension",
+    "passageId": "handlungsprogramm",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 4 zum Text „Vom Leitbild zur Umsetzung“:\n\nLaut Text sind die ersten drei Säulen an den Grundsätzen der Nachhaltigkeit ausgerichtet.",
+    "question_en": "Statement 1 of 4 on the text “From vision to implementation”:\n\nAccording to the text, the first three pillars are aligned with the principles of sustainability.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 1: „Die ersten drei Säulen orientieren sich an den Grundsätzen der Nachhaltigkeit.“",
+    "explanation_en": "The answer is a) true. Paragraph 1: “the first three pillars follow the principles of sustainability”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 57, 145, 147, 163"
+  },
+  {
+    "id": "lesen-handlungsprogramm-2",
+    "quizId": "text-comprehension",
+    "passageId": "handlungsprogramm",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 4 zum Text „Vom Leitbild zur Umsetzung“:\n\nLaut Text kann die ÖROK selbst Fördermittel vergeben, um Maßnahmen umzusetzen.",
+    "question_en": "Statement 2 of 4 on the text “From vision to implementation”:\n\nAccording to the text, the ÖROK can itself award funding to implement measures.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 2: Die ÖROK hat „keine rechtlichen, finanziellen oder budgetären Umsetzungsinstrumente“.",
+    "explanation_en": "The answer is b) false. Paragraph 2: the ÖROK has “no legal, financial or budgetary implementation instruments”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 57, 145, 147, 163"
+  },
+  {
+    "id": "lesen-handlungsprogramm-3",
+    "quizId": "text-comprehension",
+    "passageId": "handlungsprogramm",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 4 zum Text „Vom Leitbild zur Umsetzung“:\n\nDer erste Punkt des 10-Punkte-Programms hat laut Text die höchste Priorität.",
+    "question_en": "Statement 3 of 4 on the text “From vision to implementation”:\n\nAccording to the text, the first point of the 10-point programme has the highest priority.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 3: Das Programm ist „ohne innere Priorisierung“ – die Reihenfolge ist keine Rangfolge.",
+    "explanation_en": "The answer is b) false. Paragraph 3: the programme has “no internal ranking” – the order is not a ranking.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 57, 145, 147, 163"
+  },
+  {
+    "id": "lesen-handlungsprogramm-4",
+    "quizId": "text-comprehension",
+    "passageId": "handlungsprogramm",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 4 von 4 zum Text „Vom Leitbild zur Umsetzung“:\n\nLaut Text wurden bereits drei Umsetzungspakte erfolgreich abgeschlossen.",
+    "question_en": "Statement 4 of 4 on the text “From vision to implementation”:\n\nAccording to the text, three implementation pacts have already been completed successfully.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 4 erklärt, was Umsetzungspakte sind und wer sie trägt – über abgeschlossene Pakte steht nichts im Text.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 4 explains what implementation pacts are and who leads them – the text says nothing about completed pacts.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 57, 145, 147, 163"
+  },
+  {
+    "id": "lesen-studienplan-aufbau-1",
+    "quizId": "text-comprehension",
+    "passageId": "studienplan-aufbau",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 4 zum Text „Das Bachelorstudium im Überblick“:\n\nEin Studienjahr entspricht laut Text einem Arbeitsaufwand von 1.500 Stunden.",
+    "question_en": "Statement 1 of 4 on the text “The bachelor's programme at a glance”:\n\nAccording to the text, one academic year corresponds to a workload of 1,500 hours.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 1: 60 ECTS pro Studienjahr, 25 Stunden pro ECTS – 60 × 25 = 1.500 Stunden.",
+    "explanation_en": "The answer is a) true. Paragraph 1: 60 ECTS per year, 25 hours per ECTS – 60 × 25 = 1,500 hours.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 8, 10, 11, 16, 19"
+  },
+  {
+    "id": "lesen-studienplan-aufbau-2",
+    "quizId": "text-comprehension",
+    "passageId": "studienplan-aufbau",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 4 zum Text „Das Bachelorstudium im Überblick“:\n\nLaut Text müssen Studierende drei Wahlmodule absolvieren.",
+    "question_en": "Statement 2 of 4 on the text “The bachelor's programme at a glance”:\n\nAccording to the text, students must complete three elective modules.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 2: Es sind „zwei Module mit insgesamt 12 ECTS“ zu absolvieren.",
+    "explanation_en": "The answer is b) false. Paragraph 2: “two modules totalling 12 ECTS” must be completed.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 8, 10, 11, 16, 19"
+  },
+  {
+    "id": "lesen-studienplan-aufbau-3",
+    "quizId": "text-comprehension",
+    "passageId": "studienplan-aufbau",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 4 zum Text „Das Bachelorstudium im Überblick“:\n\nLaut Text kann man die StEOP nur im Wintersemester absolvieren.",
+    "question_en": "Statement 3 of 4 on the text “The bachelor's programme at a glance”:\n\nAccording to the text, the StEOP can only be completed in the winter semester.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 3: Die StEOP wird „sowohl im Winter- als auch im Sommersemester angeboten“.",
+    "explanation_en": "The answer is b) false. Paragraph 3: the StEOP is offered “in both the winter and the summer semester”.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 8, 10, 11, 16, 19"
+  },
+  {
+    "id": "lesen-studienplan-aufbau-4",
+    "quizId": "text-comprehension",
+    "passageId": "studienplan-aufbau",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 4 von 4 zum Text „Das Bachelorstudium im Überblick“:\n\nLaut Text schließen die meisten Studierenden das Studium in sechs Semestern ab.",
+    "question_en": "Statement 4 of 4 on the text “The bachelor's programme at a glance”:\n\nAccording to the text, most students finish the programme in six semesters.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 1 nennt nur die vorgesehene Studiendauer. Wie lange Studierende tatsächlich brauchen, steht nicht im Text.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 1 only gives the planned duration. How long students actually take is not stated in the text.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 8, 10, 11, 16, 19"
+  },
+  {
+    "id": "lesen-ortskerne-1",
+    "quizId": "text-comprehension",
+    "passageId": "ortskerne",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 1 von 3 zum Text „Leere Schaufenster im Ortskern“:\n\nLaut Text begann der Funktionsverlust der Ortskerne erst mit der Covid-19-Pandemie.",
+    "question_en": "Statement 1 of 3 on the text “Empty shop windows in the town centre”:\n\nAccording to the text, the loss of function of town centres only began with the Covid-19 pandemic.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 2: „Schon vor der Covid-19-Pandemie“ hatten Einkaufszentren Kaufkraft aus den Zentren abgesaugt.",
+    "explanation_en": "The answer is b) false. Paragraph 2: “even before the Covid-19 pandemic” shopping centres had drained purchasing power from the centres.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 150, 151"
+  },
+  {
+    "id": "lesen-ortskerne-2",
+    "quizId": "text-comprehension",
+    "passageId": "ortskerne",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 2 von 3 zum Text „Leere Schaufenster im Ortskern“:\n\nLaut Text kaufte 2020 mehr als die Hälfte der Österreicher:innen im Internet ein.",
+    "question_en": "Statement 2 of 3 on the text “Empty shop windows in the town centre”:\n\nAccording to the text, more than half of Austrians shopped online in 2020.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 2: zwei Drittel – und zwei Drittel sind mehr als die Hälfte.",
+    "explanation_en": "The answer is a) true. Paragraph 2: two thirds – and two thirds is more than half.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 150, 151"
+  },
+  {
+    "id": "lesen-ortskerne-3",
+    "quizId": "text-comprehension",
+    "passageId": "ortskerne",
+    "difficulty": "medium",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-artikel"
+    ],
+    "question_de": "Aussage 3 von 3 zum Text „Leere Schaufenster im Ortskern“:\n\nLaut Text sind Ortskerne in Westösterreich stärker von Leerstand betroffen als in Ostösterreich.",
+    "question_en": "Statement 3 of 3 on the text “Empty shop windows in the town centre”:\n\nAccording to the text, town centres in western Austria are more affected by vacancies than in eastern Austria.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 3 nennt Leerstand als Problem, aber der Text vergleicht keine Regionen Österreichs miteinander.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 3 names vacancies as a problem, but the text does not compare regions of Austria.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 150, 151"
+  },
+  {
+    "id": "lesen-gerechte-raumentwicklung-1",
+    "quizId": "text-comprehension",
+    "passageId": "gerechte-raumentwicklung",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 1 von 3 zum Text „Was heißt „gerechte Raumentwicklung“?“:\n\nNach dem Text strebt gerechte Raumentwicklung an, dass langfristig alle Regionen dieselbe Ausstattung aufweisen.",
+    "question_en": "Statement 1 of 3 on the text “What does “fair spatial development” mean?”:\n\nAccording to the text, fair spatial development aims for all regions to have the same endowment in the long run.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 3: Gerechte Raumentwicklung bedeutet „ausdrücklich nicht, Räume gleich zu machen“. Absatz 1 verlangt nur, Ungleichheiten zu verringern – nicht, sie zu beseitigen.",
+    "explanation_en": "The answer is b) false. Paragraph 3: fair spatial development “explicitly does not mean making areas the same”. Paragraph 1 only asks for inequalities to be reduced – not removed.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 18, 19"
+  },
+  {
+    "id": "lesen-gerechte-raumentwicklung-2",
+    "quizId": "text-comprehension",
+    "passageId": "gerechte-raumentwicklung",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 2 von 3 zum Text „Was heißt „gerechte Raumentwicklung“?“:\n\nHohe Mobilitätskosten werden im Text als Ungleichheit genannt, die in ländlichen Regionen stärker im Vordergrund steht als in städtischen Räumen.",
+    "question_en": "Statement 2 of 3 on the text “What does “fair spatial development” mean?”:\n\nThe text names high mobility costs as an inequality that is more prominent in rural regions than in urban areas.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 2 stellt Stadt und Land gegenüber: In ländlichen Regionen („Dort“) stehen u. a. „hohe Mobilitätskosten … im Vordergrund“. Man muss „Dort“ richtig auf die ländlichen Regionen beziehen.",
+    "explanation_en": "The answer is a) true. Paragraph 2 contrasts town and country: in rural regions (“There”) “high mobility costs … come to the fore”. You have to link “There” correctly to the rural regions.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 18, 19"
+  },
+  {
+    "id": "lesen-gerechte-raumentwicklung-3",
+    "quizId": "text-comprehension",
+    "passageId": "gerechte-raumentwicklung",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 3 von 3 zum Text „Was heißt „gerechte Raumentwicklung“?“:\n\nLaut Text hat der Finanzausgleich die regionalen Ungleichheiten in Österreich in den letzten Jahren verringert.",
+    "question_en": "Statement 3 of 3 on the text “What does “fair spatial development” mean?”:\n\nAccording to the text, fiscal equalisation has reduced regional inequalities in Austria in recent years.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 3 nennt den Finanzausgleich nur als Instrument. Ob er bisher gewirkt hat, steht nicht im Text.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 3 only names fiscal equalisation as an instrument. Whether it has worked so far is not stated.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 18, 19"
+  },
+  {
+    "id": "lesen-gemeinwohl-1",
+    "quizId": "text-comprehension",
+    "passageId": "gemeinwohl",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 1 von 3 zum Text „Eigentum und Gemeinwohl“:\n\nAus dem Text folgt, dass die geltenden Gesetze in jedem Einzelfall eindeutig festlegen, welche Lösung dem Gemeinwohl entspricht.",
+    "question_en": "Statement 1 of 3 on the text “Property and the common good”:\n\nIt follows from the text that the laws in force clearly determine in every individual case which solution serves the common good.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 2: Der normative Rahmen „reicht jedoch nicht, um in jedem konkreten Einzelfall eine eindeutige Lösung abzuleiten“. Achtung: Der Satz davor (Gemeinwohl wird durch Gesetze bestimmt) ist nur die halbe Information.",
+    "explanation_en": "The answer is b) false. Paragraph 2: the normative framework “is not enough to derive a clear solution in every individual case”. Careful: the sentence before (the common good is determined by laws) is only half of the information.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 17"
+  },
+  {
+    "id": "lesen-gemeinwohl-2",
+    "quizId": "text-comprehension",
+    "passageId": "gemeinwohl",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 2 von 3 zum Text „Eigentum und Gemeinwohl“:\n\nSteigt der Wert eines Grundstücks, weil es umgewidmet wird, berührt das laut Text auch die Interessen des Gemeinwohls.",
+    "question_en": "Statement 2 of 3 on the text “Property and the common good”:\n\nIf the value of a plot rises because it is rezoned, according to the text this also touches the interests of the common good.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 2: Die Gemeinwohl-Aufgabe „gilt auch für Wertsteigerungen“ durch „Änderungen in der Widmung“. Umwidmung = Änderung der Widmung.",
+    "explanation_en": "The answer is a) true. Paragraph 2: the common-good task “also applies to increases in value” through “changes in zoning”. Rezoning = a change in zoning.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 17"
+  },
+  {
+    "id": "lesen-gemeinwohl-3",
+    "quizId": "text-comprehension",
+    "passageId": "gemeinwohl",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 3 von 3 zum Text „Eigentum und Gemeinwohl“:\n\nLaut Text werden städtebauliche Verträge in Wien häufiger eingesetzt als in den anderen Bundesländern.",
+    "question_en": "Statement 3 of 3 on the text “Property and the common good”:\n\nAccording to the text, urban development contracts are used more often in Vienna than in the other federal states.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 2 nennt städtebauliche Verträge als Instrument, vergleicht aber keine Bundesländer.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 2 names urban development contracts as an instrument but does not compare federal states.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 17"
+  },
+  {
+    "id": "lesen-raumtypen-1",
+    "quizId": "text-comprehension",
+    "passageId": "raumtypen",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 1 von 3 zum Text „Fünf Raumtypen, viele Herausforderungen“:\n\nLaut Text lässt sich jede österreichische Gemeinde genau einem der fünf Raumtypen zuordnen.",
+    "question_en": "Statement 1 of 3 on the text “Five types of area, many challenges”:\n\nAccording to the text, every Austrian municipality can be assigned to exactly one of the five types of area.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 1: Die Raumtypen sind „keine eindeutig abgegrenzten Regionen“ und können sich in den Randbereichen „überlappen“ – eine eindeutige Zuordnung jeder Gemeinde widerspricht dem.",
+    "explanation_en": "The answer is b) false. Paragraph 1: the types are “not sharply delimited regions” and their edges can “overlap” – a clear assignment of every municipality contradicts this.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 47, 48, 51, 52"
+  },
+  {
+    "id": "lesen-raumtypen-2",
+    "quizId": "text-comprehension",
+    "passageId": "raumtypen",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 2 von 3 zum Text „Fünf Raumtypen, viele Herausforderungen“:\n\nNach dem Text kann Zersiedelung auch dort drohen, wo die Bevölkerung zurückgeht.",
+    "question_en": "Statement 2 of 3 on the text “Five types of area, many challenges”:\n\nAccording to the text, sprawl can also threaten where the population is declining.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 3: In Räumen mit Bevölkerungsrückgang sieht das ÖREK „trotzdem“ die Gefahr weiterer Zersiedelung (Baulandüberschüsse, Streulage). Wer nur Absatz 1 liest (Zersiedelung durch Wachstum), tippt leicht falsch.",
+    "explanation_en": "The answer is a) true. Paragraph 3: in areas with declining population the ÖREK “nevertheless” sees a risk of further sprawl (surplus building land, scattered plots). Reading only paragraph 1 (sprawl through growth) easily leads to the wrong answer.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 47, 48, 51, 52"
+  },
+  {
+    "id": "lesen-raumtypen-3",
+    "quizId": "text-comprehension",
+    "passageId": "raumtypen",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 3 von 3 zum Text „Fünf Raumtypen, viele Herausforderungen“:\n\nLaut Text haben die Übernachtungszahlen nach der Pandemie wieder das Niveau vor 2020 erreicht.",
+    "question_en": "Statement 3 of 3 on the text “Five types of area, many challenges”:\n\nAccording to the text, overnight stays returned to their pre-2020 level after the pandemic.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 2 sagt nur, dass die Dynamik durch die Pandemie unterbrochen wurde. Über die Zeit danach steht nichts im Text.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 2 only says that the momentum was interrupted by the pandemic. The text says nothing about the period afterwards.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 47, 48, 51, 52"
+  },
+  {
+    "id": "lesen-energie-1",
+    "quizId": "text-comprehension",
+    "passageId": "energie",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 1 von 3 zum Text „Mehr Strom, aber woher?“:\n\nLaut Text soll die Stromproduktion aus Photovoltaik prozentuell stärker ausgebaut werden als die jeder anderen genannten erneuerbaren Quelle.",
+    "question_en": "Statement 1 of 3 on the text “More electricity – but from where?”:\n\nAccording to the text, electricity production from photovoltaics is to be expanded by a larger percentage than that of any other renewable source mentioned.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 1: Photovoltaik +400 % ist größer als Windkraft +220 %, Biomasse +20 % und Wasserkraft +19 %.",
+    "explanation_en": "The answer is a) true. Paragraph 1: photovoltaics +400 % is larger than wind +220 %, biomass +20 % and hydropower +19 %.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 33, 34, 60"
+  },
+  {
+    "id": "lesen-energie-2",
+    "quizId": "text-comprehension",
+    "passageId": "energie",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 2 von 3 zum Text „Mehr Strom, aber woher?“:\n\nLaut Text steigt der Stromverbrauch in Österreich bis 2040 prozentuell weniger stark als der gesamte Endenergieverbrauch.",
+    "question_en": "Statement 2 of 3 on the text “More electricity – but from where?”:\n\nAccording to the text, electricity consumption in Austria rises by a smaller percentage by 2040 than total final energy consumption.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 1: Strom +20 %, Endenergie +7 % – der Stromverbrauch steigt also stärker, nicht schwächer.",
+    "explanation_en": "The answer is b) false. Paragraph 1: electricity +20 %, final energy +7 % – electricity consumption rises more, not less.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 33, 34, 60"
+  },
+  {
+    "id": "lesen-energie-3",
+    "quizId": "text-comprehension",
+    "passageId": "energie",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 3 von 3 zum Text „Mehr Strom, aber woher?“:\n\nAus dem Text geht hervor, dass Österreich das 100-%-Ziel für Strom aus erneuerbaren Quellen bis 2030 erreichen wird.",
+    "question_en": "Statement 3 of 3 on the text “More electricity – but from where?”:\n\nIt follows from the text that Austria will reach the 100 % target for electricity from renewable sources by 2030.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 2 nennt das Ziel („soll … gedeckt werden“), sagt aber nicht, ob es erreicht wird. Ein Ziel ist keine Tatsache.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 2 states the target (“is to be covered”), but not whether it will be reached. A target is not a fact.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/oerek2030-de.html",
+        "label": "ÖREK 2030"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 33, 34, 60"
+  },
+  {
+    "id": "lesen-qualifikationsprofil-1",
+    "quizId": "text-comprehension",
+    "passageId": "qualifikationsprofil",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 1 von 3 zum Text „Was Raumplaner:innen können sollen“:\n\nLaut Text sollen „hard skills“ und „soft skills“ im Studium getrennt voneinander vermittelt werden.",
+    "question_en": "Statement 1 of 3 on the text “What spatial planners should be able to do”:\n\nAccording to the text, “hard skills” and “soft skills” are to be taught separately in the programme.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation_de": "Richtig ist b) falsch. Absatz 2: Eine Trennung ist „allenfalls analytisch“ möglich, weil beide in der Praxis „aufs Engste“ verbunden sind – getrennte Vermittlung widerspricht dem.",
+    "explanation_en": "The answer is b) false. Paragraph 2: a separation is possible “at most analytically”, because both are “very closely” linked in practice – teaching them separately contradicts this.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen. Wenn der Text etwas sagt, das der Aussage widerspricht, ist die Aussage falsch – nicht unbestimmt.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged”. If the text says something that contradicts the statement, the statement is false – not undetermined.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 3, 4, 5"
+  },
+  {
+    "id": "lesen-qualifikationsprofil-2",
+    "quizId": "text-comprehension",
+    "passageId": "qualifikationsprofil",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 2 von 3 zum Text „Was Raumplaner:innen können sollen“:\n\nDer Schwerpunkt auf Projektarbeit wird im Text damit begründet, dass das Verknüpfen verschiedener Wissensbestände zu den Anforderungen des Berufs gehört.",
+    "question_en": "Statement 2 of 3 on the text “What spatial planners should be able to do”:\n\nThe text justifies the emphasis on project work by saying that linking different bodies of knowledge is part of the requirements of the profession.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation_de": "Richtig ist a) richtig. Absatz 2: „Weil die problembezogene Verzahnung unterschiedlicher Wissensbestände zu den Anforderungen … zählt“, liegt der Schwerpunkt auf Projektarbeit. Achte auf das „Weil“: Es nennt die Begründung.",
+    "explanation_en": "The answer is a) true. Paragraph 2: “Because linking different bodies of knowledge … is part of the requirements”, the emphasis is on project work. Watch the “because”: it gives the reason.",
+    "mistakes_de": "Typischer Fehler: „nicht beurteilbar“ wählen, weil die Aussage anders formuliert ist als der Text. Eine sinngemäße Umformulierung – oder eine einfache Rechnung mit Zahlen aus dem Text – lässt sich auf Basis des Textes beurteilen.",
+    "mistakes_en": "Common mistake: choosing “cannot be judged” because the statement is worded differently from the text. A paraphrase – or a simple calculation with numbers from the text – can be judged on the basis of the text.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 3, 4, 5"
+  },
+  {
+    "id": "lesen-qualifikationsprofil-3",
+    "quizId": "text-comprehension",
+    "passageId": "qualifikationsprofil",
+    "difficulty": "hard",
+    "tags": [
+      "textverstaendnis",
+      "richtig-falsch-unbestimmbar",
+      "lesen-lang"
+    ],
+    "question_de": "Aussage 3 von 3 zum Text „Was Raumplaner:innen können sollen“:\n\nLaut Text arbeiten die meisten Absolvent_innen in der öffentlichen Verwaltung.",
+    "question_en": "Statement 3 of 3 on the text “What spatial planners should be able to do”:\n\nAccording to the text, most graduates work in public administration.",
+    "options_de": [
+      "a) Die Aussage ist auf Basis der im Text gegebenen Informationen richtig.",
+      "b) Die Aussage ist auf Basis der im Text gegebenen Informationen falsch.",
+      "c) Es lässt sich auf Basis der im Text gegebenen Informationen nicht beurteilen, ob die Aussage richtig oder falsch ist."
+    ],
+    "options_en": [
+      "a) Based on the information given in the text, the statement is true.",
+      "b) Based on the information given in the text, the statement is false.",
+      "c) The information given in the text does not allow us to judge whether the statement is true or false."
+    ],
+    "correct": [
+      2
+    ],
+    "explanation_de": "Richtig ist c) nicht beurteilbar. Absatz 2 zählt mögliche Arbeitgeber_innen auf, nennt aber keine Anteile. Dass die Verwaltung zuerst genannt wird, sagt nichts über die Häufigkeit.",
+    "explanation_en": "The answer is c) cannot be judged. Paragraph 2 lists possible employers but gives no shares. Being named first says nothing about frequency.",
+    "mistakes_de": "Typischer Fehler: Vorwissen oder eine plausible Vermutung verwenden. Der Text sagt dazu nichts, also ist die Aussage nicht beurteilbar – auch wenn sie in Wirklichkeit stimmen könnte.",
+    "mistakes_en": "Common mistake: using prior knowledge or a plausible guess. The text says nothing about it, so the statement cannot be judged – even if it might be true in reality.",
+    "links": [
+      {
+        "url": "../knowledge/studienplan-de.html",
+        "label": "Studienplan"
+      },
+      {
+        "url": "../knowledge/reihungstest-de.html",
+        "label": "Reihungstest Info"
+      }
+    ],
+    "source": "Lesetext nach Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 3, 4, 5"
   }
 ]

@@ -2,6 +2,16 @@
 
 All notable changes to this project, ordered by date (newest first).
 
+## 2026-10-05
+
+### Reading texts for Teil B ([#3](https://github.com/JohnGavin/urban_planning/issues/3)): 503 → 549 questions
+- **13 reading texts, 46 questions** in the exam's own format (richtig / falsch / nicht beurteilbar, as in the Info PDF example): 8 articles of 3–4 paragraphs with 3–4 statements each (31, medium) and 5 long, harder texts of 2–3 paragraphs with a set of 3 statements each (15, hard, tag `lesen-lang`). Topics: ÖROK/ÖREK, the three principles, megatrends (climate, digitalisation), demography and urbanisation, land take and soil sealing, the action programme and 10-point programme, town centres, fair spatial development, property and the common good, area types, energy, and the Studienplan (structure, StEOP, qualification profile).
+- **One home for each text:** texts live in `site/data/passages.json`; questions point to them with `passageId`. The quiz engine prints the text once above its first question (paragraphs numbered "Absatz 1, 2 …"), keeps a text's questions together when shuffling, and the text-comprehension quiz has a new "Textart" filter (Artikel / Lange Texte). Older text-comprehension questions are unchanged.
+- **Grounded in the PDFs by code:** new `scripts/extract_pdf_text.py` writes the text of each source PDF page to `raw/text/<doc>/pNNN.txt` (`--check` compares with the PDFs). Every text lists short verbatim evidence quotes with document and page; `validate_questions.py` fails if a quote is not on that page.
+- **Validator:** new passage checks (text exists, 3–4 / 2–3 paragraphs, set sizes, tags, difficulty, 3 options with one correct, explanation names an existing paragraph, evidence quotes). It now also reports INDETERMINATE (exit 3) when the page text needed for a check is missing, instead of passing.
+- **Cache:** script and stylesheet links now carry `?v=20261005`.
+- **Not done:** no PDF in `raw/` has 10 pages (Info PDF 9, handwritten notes 14, ÖREK 178, Studienplan 66); texts were written from the ÖREK and Studienplan (the exam material). The scanned handwritten notes (`raw/2026-04-27 17.33.31.pdf`) have no text layer and were not used. In the full mock, Teil B questions are drawn one by one, so a text usually appears with only one of its statements.
+
 ## 2026-09-30
 
 ### Exam parts ([#4](https://github.com/JohnGavin/urban_planning/issues/4))

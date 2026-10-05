@@ -6,19 +6,30 @@ Run after every change. Add new tests as bugs are found.
 Usage:
     python3 validate_questions.py site/data/questions.json
     python3 validate_questions.py --strict site/data/questions.json  # fail on warnings too
+
+Reading-comprehension passages live in passages.json next to questions.json
+(override with --passages). Their "evidence" quotes are checked against the
+page text extracted by scripts/extract_pdf_text.py (raw/text/<doc>/pNNN.txt).
+
+Exit codes: 0 PASS, 1 FAIL, 3 INDETERMINATE (no errors, but something could
+not be checked, e.g. extracted page text missing).
 """
 
-import json, argparse, re, sys
-from collections import Counter
+import json, argparse, os, re, sys
+from collections import Counter, defaultdict
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEXT_DIR = os.path.join(ROOT, 'raw', 'text')
 
 def load(path):
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         return json.load(f)
 
 class ValidationResult:
     def __init__(self):
         self.errors = []    # must fix
         self.warnings = []  # should fix
+        self.unknown = []   # could not be checked (indeterminate)
 
     def error(self, qid, msg):
         self.errors.append(f"ERROR [{qid}]: {msg}")
@@ -26,13 +37,18 @@ class ValidationResult:
     def warn(self, qid, msg):
         self.warnings.append(f"WARN  [{qid}]: {msg}")
 
+    def indeterminate(self, qid, msg):
+        self.unknown.append(f"UNKNOWN [{qid}]: {msg}")
+
     def ok(self):
         return len(self.errors) == 0
 
     def report(self):
         for e in self.errors: print(e)
         for w in self.warnings: print(w)
-        print(f"\n{'PASS' if self.ok() else 'FAIL'}: {len(self.errors)} errors, {len(self.warnings)} warnings")
+        for u in self.unknown: print(u)
+        status = 'FAIL' if not self.ok() else ('INDETERMINATE' if self.unknown else 'PASS')
+        print(f"\n{status}: {len(self.errors)} errors, {len(self.warnings)} warnings, {len(self.unknown)} unchecked")
 
 # ── Test functions ───────────────────────────────────────────────────────
 
@@ -321,6 +337,135 @@ def test_wuerfelnetz_questions(questions, r):
         if len(set(q.get('options_de', []))) != len(q.get('options_de', [])):
             r.error(q['id'], "duplicate options")
 
+# ── Reading comprehension: passages (issue #3) ──────────────────────────
+# passages.json: [{id, variant: 'artikel'|'lang', title_de/en, paragraphs_de/en,
+#                  source, evidence: [{doc, page, quote}]}]
+# A question refers to its passage with "passageId". Article sets have 3-4
+# paragraphs and 3-4 questions; long sets ('lesen-lang') have 2-3 paragraphs and
+# exactly 3 hard questions. Answers use the exam's richtig / falsch / nicht beurteilbar.
+
+PASSAGE_RULES = {
+    'artikel': {'paragraphs': (3, 4), 'questions': (3, 4), 'tag': 'lesen-artikel', 'difficulty': None},
+    'lang':    {'paragraphs': (2, 3), 'questions': (3, 3), 'tag': 'lesen-lang',    'difficulty': 'hard'},
+}
+QUOTED_TEXT_RE = re.compile(r'["„“]([^"“”]{150,})["“”]')
+
+
+def norm_text(s):
+    """Same normalisation for page text and quotes: drop line-break hyphens, collapse whitespace."""
+    s = s.replace('­', '')
+    s = re.sub(r'(\w)- +(?=[a-zäöüß])', r'\1', re.sub(r'\s+', ' ', s))
+    return s.strip()
+
+
+def test_text_comprehension_has_text(questions, passages, r):
+    """Every text-comprehension question shows a text: a known passageId, or (older
+    questions) the text quoted inside question_de."""
+    for q in questions:
+        if q.get('quizId') != 'text-comprehension':
+            continue
+        pid = q.get('passageId')
+        if pid is not None:
+            if pid not in passages:
+                r.error(q['id'], f"passageId '{pid}' not found in passages.json")
+        elif not QUOTED_TEXT_RE.search(q.get('question_de', '')):
+            r.error(q['id'], "text-comprehension question without passageId and without a quoted text")
+
+
+def test_passages_schema(questions, passages, r):
+    """Passage fields complete, bilingual paragraph counts equal, paragraph count fits the variant,
+    every passage is used by at least one question."""
+    used = {q.get('passageId') for q in questions}
+    for pid, p in passages.items():
+        rule = PASSAGE_RULES.get(p.get('variant'))
+        if rule is None:
+            r.error(pid, f"passage variant must be one of {sorted(PASSAGE_RULES)}, got {p.get('variant')!r}")
+            continue
+        for k in ('title_de', 'title_en', 'source'):
+            if not isinstance(p.get(k), str) or not p[k].strip():
+                r.error(pid, f"passage field {k} missing or empty")
+        de, en = p.get('paragraphs_de') or [], p.get('paragraphs_en') or []
+        if len(de) != len(en):
+            r.error(pid, f"paragraphs_de ({len(de)}) and paragraphs_en ({len(en)}) differ in length")
+        lo, hi = rule['paragraphs']
+        if not lo <= len(de) <= hi:
+            r.error(pid, f"'{p['variant']}' passage needs {lo}-{hi} paragraphs, has {len(de)}")
+        if any(not isinstance(x, str) or len(x.strip()) < 80 for x in de + en):
+            r.error(pid, "every paragraph must be a non-trivial string (>= 80 chars)")
+        if not p.get('evidence'):
+            r.error(pid, "passage has no evidence quotes from the source documents")
+        if pid not in used:
+            r.error(pid, "passage is not used by any question")
+
+
+def test_passage_question_sets(questions, passages, r):
+    """Questions of one passage form a set: right size, tag, difficulty, 3 options
+    (richtig/falsch/nicht beurteilbar) with one correct, explanation names a paragraph that exists."""
+    sets = defaultdict(list)
+    for q in questions:
+        if q.get('passageId') in passages:
+            sets[q['passageId']].append(q)
+    for pid, qs in sets.items():
+        p = passages[pid]
+        rule = PASSAGE_RULES.get(p.get('variant'))
+        if rule is None:
+            continue
+        lo, hi = rule['questions']
+        if not lo <= len(qs) <= hi:
+            r.error(pid, f"'{p['variant']}' passage needs {lo}-{hi} questions, has {len(qs)}")
+        n_par = len(p.get('paragraphs_de') or [])
+        for q in qs:
+            if q.get('quizId') != 'text-comprehension':
+                r.error(q['id'], "passage question must have quizId 'text-comprehension'")
+            if rule['tag'] not in q.get('tags', []):
+                r.error(q['id'], f"passage question needs tag '{rule['tag']}'")
+            if rule['difficulty'] and q.get('difficulty') != rule['difficulty']:
+                r.error(q['id'], f"'{p['variant']}' question must be '{rule['difficulty']}'")
+            if len(q.get('options_de', [])) != 3 or len(q.get('options_en', [])) != 3:
+                r.error(q['id'], "passage question needs 3 options (richtig / falsch / nicht beurteilbar)")
+            if len(q.get('correct', [])) != 1:
+                r.error(q['id'], "passage question must have exactly one correct option")
+            for lang, word in (('de', 'Absatz'), ('en', 'aragraph')):
+                refs = [int(n) for n in re.findall(rf'{word}\s+(\d+)', q.get(f'explanation_{lang}', ''))]
+                if not refs:
+                    r.error(q['id'], f"explanation_{lang} must say which paragraph ('{word} N') answers it")
+                elif max(refs) > n_par:
+                    r.error(q['id'], f"explanation_{lang} cites paragraph {max(refs)}, passage has {n_par}")
+            for k in ('mistakes_de', 'mistakes_en', 'source'):
+                if not q.get(k):
+                    r.error(q['id'], f"passage question missing {k}")
+        answers = {tuple(q.get('correct', [])) for q in qs}
+        if len(qs) > 1 and len(answers) == 1:
+            r.warn(pid, "all questions of this passage have the same answer")
+
+
+def test_passage_evidence(questions, passages, r):
+    """Each evidence quote occurs on the stated page of the extracted source text
+    (raw/text/<doc>/pNNN.txt from scripts/extract_pdf_text.py)."""
+    for pid, p in passages.items():
+        for ev in p.get('evidence') or []:
+            doc, page, quote = ev.get('doc'), ev.get('page'), ev.get('quote', '')
+            if not doc or not isinstance(page, int) or len(quote.strip()) < 10:
+                r.error(pid, f"evidence entry incomplete: {ev}")
+                continue
+            path = os.path.join(TEXT_DIR, doc, f'p{page:03d}.txt')
+            if not os.path.exists(path):
+                r.indeterminate(pid, f"cannot check evidence: {os.path.relpath(path, ROOT)} missing "
+                                     f"(run scripts/extract_pdf_text.py)")
+                continue
+            with open(path, encoding='utf-8') as f:
+                page_text = norm_text(f.read())
+            if norm_text(quote) not in page_text:
+                r.error(pid, f"evidence quote not found on {doc} p.{page}: '{quote[:60]}'")
+
+
+PASSAGE_TESTS = [
+    test_text_comprehension_has_text,
+    test_passages_schema,
+    test_passage_question_sets,
+    test_passage_evidence,
+]
+
 # ── Run all tests ────────────────────────────────────────────────────────
 
 ALL_TESTS = [
@@ -348,13 +493,27 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Validate questions.json')
     parser.add_argument('path', help='Path to questions.json')
     parser.add_argument('--strict', action='store_true', help='Fail on warnings too')
+    parser.add_argument('--passages', help='Path to passages.json (default: next to questions.json)')
     args = parser.parse_args()
 
     questions = load(args.path)
     r = ValidationResult()
 
+    passages_path = args.passages or os.path.join(os.path.dirname(os.path.abspath(args.path)), 'passages.json')
+    passages = {}
+    if os.path.exists(passages_path):
+        plist = load(passages_path)
+        for p in plist:
+            if p.get('id') in passages:
+                r.error(p.get('id'), "duplicate passage id")
+            passages[p.get('id')] = p
+    elif any(q.get('passageId') for q in questions):
+        r.error('passages', f"questions use passageId but {passages_path} does not exist")
+
     for test in ALL_TESTS:
         test(questions, r)
+    for test in PASSAGE_TESTS:
+        test(questions, passages, r)
 
     r.report()
 
@@ -364,5 +523,11 @@ if __name__ == '__main__':
     print(f"\nStats: {len(questions)} questions")
     print(f"By quiz: {dict(c.most_common())}")
     print(f"Difficulty: {dict(dc)}")
+    if passages:
+        pv = Counter(p.get('variant') for p in passages.values())
+        npq = sum(1 for q in questions if q.get('passageId'))
+        print(f"Passages: {len(passages)} ({dict(pv)}), {npq} passage questions")
 
-    sys.exit(0 if (r.ok() if not args.strict else r.ok() and len(r.warnings) == 0) else 1)
+    if not (r.ok() if not args.strict else r.ok() and len(r.warnings) == 0):
+        sys.exit(1)
+    sys.exit(3 if r.unknown else 0)

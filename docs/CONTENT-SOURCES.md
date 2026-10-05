@@ -8,7 +8,18 @@ All content in this project is derived from the following sources.
 |------|-------------|-------|----------|
 | [`Info_Raumplanung_Info_AV_RPL_TU_2026.pdf`](../raw/Info_Raumplanung_Info_AV_RPL_TU_2026.pdf) | Official info sheet for the 2026 Reihungstest | 9 | Exam format, example questions, tips |
 | [`Stoff_Studienplan_Bachelorstudium_Raumplanung_und_Raumordnung_2022.pdf`](../raw/Stoff_Studienplan_Bachelorstudium_Raumplanung_und_Raumordnung_2022.pdf) | Bachelor curriculum (Studienplan) | 66 | Part A exam material: programme structure, modules, qualifications |
-| [`Stoff_OEREK-2030 (1).pdf`](<../raw/Stoff_OEREK-2030 (1).pdf>) | Austrian Spatial Development Concept ([OEREK 2030](https://www.oerek2030.at)) | 178 | Part A exam material: spatial planning principles, megatrends, challenges, action program |
+| [`Stoff_OEREK-2030 (1).pdf`](<../raw/Stoff_OEREK-2030 (1).pdf>) | Austrian Spatial Development Concept ([OEREK 2030](https://www.oerek2030.at)) | 178 | Part A exam material: spatial planning principles, megatrends, challenges, action program; Part B reading texts |
+| [`2026-04-27 17.33.31.pdf`](<../raw/2026-04-27 17.33.31.pdf>) | Scanned handwritten study notes on the OEREK 2030 | 14 | Not used for questions: no text layer, and the printed sources above are authoritative |
+
+Page numbers in question sources ("PDF-S.") are the page a PDF viewer shows, not the number printed on the page.
+
+### Extracted page text
+
+[`scripts/extract_pdf_text.py`](../scripts/extract_pdf_text.py) writes the text of every page of the Info PDF, the ÖREK and the Studienplan to [`raw/text/<doc>/pNNN.txt`](../raw/text/) (`oerek`, `studienplan`, `info`). It is committed so checks run without PDF tools; `python3 scripts/extract_pdf_text.py --check` shows whether it still matches the PDFs (use the same backend, pypdf or pdftotext, that wrote it).
+
+### Reading texts (Teil B)
+
+Reading texts are in [`site/data/passages.json`](../site/data/passages.json). Each one is a short article written from the ÖREK or the Studienplan, in German first, with an English translation. Every text lists `evidence` quotes (document, page, verbatim words); [`scripts/validate_questions.py`](../scripts/validate_questions.py) checks that each quote is on that page of the extracted text. Statements follow the exam format from the Info PDF (page 3): richtig, falsch, or nicht beurteilbar on the basis of the text alone.
 
 ## Web Sources
 
@@ -46,6 +57,7 @@ The current total is printed by `python3 scripts/validate_questions.py site/data
 | `gen_logik.py` | ~25 | Model-checking syllogism verifier |
 | `gen_matrizen.py` | ~35 | 3×3 and `--size 4` (4×4) rule types, self-validating (unique answer checked by exhaustive search) |
 | `gen_wuerfelnetz.py` | ~20 | Cube nets (Zusatzübung, not an exam format); answers verified by folding, with alternative explanations |
+| Reading texts (Claude) | ~46 | Teil B: 13 texts in `site/data/passages.json` written from the ÖREK and Studienplan, statements in the exam's richtig / falsch / nicht beurteilbar format; evidence quotes checked against the extracted PDF text |
 
 All questions are validated by [`scripts/validate_questions.py`](../scripts/validate_questions.py).
 
