@@ -1,0 +1,39 @@
+A. Modulbeschreibungen
+Die den Modulen zugeordneten Lehrveranstaltungen werden in folgender Form ange-
+führt:
+9,9/9,9 XX Titel der Lehrveranstaltung
+Dabei bezeichnet die erste Zahl den Umfang der Lehrveranstaltung in ECTS-Punkten
+und die zweite ihren Umfang in Semesterstunden. ECTS-Punkte sind ein Maß für den Ar-
+beitsaufwand der Studierenden, wobei ein Studienjahr 60 ECTS-Punkte umfasst und ein
+ECTS-Punkt 25 Stunden zu je 60 Minuten entspricht. Eine Semesterstunde entspricht
+so vielen Unterrichtseinheiten wie das Semester Unterrichtswochen umfasst. Eine Unter-
+richtseinheit dauert 45 Minuten. Der Typ der Lehrveranstaltung (XX) ist in Anhang
+Lehrveranstaltungstypen auf Seite 54 im Detail erläutert.
+Pflichtmodul 1: Studieneingangs- und Orientierungsphase
+Regelarbeitsaufwand: 8,0 ECTS
+Lernergebnisse:
+F achliche und methodische Kompetenzen:Nach positiver Absolvierung des Moduls sind
+die Studierenden bereit, sich den fachlichen und organisatorischen Herausforderungen des
+Bachelorstudiums der Raumplanung und Raumordnung zu stellen. Sie entwickeln eine
+konkrete Vorstellung von zentralen Aufgaben, gesellschaftlicher Bedeutung und aktuel-
+len Herausforderungen der Raumplanung (wie etwa Klimawandel oder Digitalisierung).
+Dabei bauen sie ein grundlegendes situations- und fachspezifisches Verständnis für das
+Erkennen von räumlichen Strukturen und Entwicklungen sowie für die Lösung von Her-
+ausforderungen und Problemen in unterschiedlichen räumlichen Kontexten (auf lokaler,
+regionaler, nationaler oder Europäischer Ebene) auf.
+Kognitive und praktische Kompetenzen: Nach positiver Absolvierung des Moduls können
+die Studierenden raumrelevante Informationen erkennen, aufbereiten, reflektieren und
+so miteinander verknüpfen, dass diese zum Verstehen und zur Lösung von Herausforde-
+rungen und Problemen im Raum verwendet werden können.
+Soziale Kompetenzen und Selbstkompetenzen: Nach positiver Absolvierung des Moduls
+sind die Studierenden in der Lage, ihre sozialen, praktischen und kommunikativen Kom-
+petenzen zur Lösung gestalterischer Aufgaben in interdisziplinären Teams von Exper-
+tInnen anzuwenden und ihre Lösungsvorschläge in der Öffentlichkeit zu präsentieren, zu
+argumentieren und zu verteidigen.
+Inhalt: Im Rahmen der Orientierungsphase wird den Studierenden die gesellschaftliche
+Bedeutung der Raumplanung und die interdisziplinäre Breite und Komplexität des Studi-
+ums sowie der beruflichen Praxis dargestellt. Durch die Vorstellung der unterschiedlichen
+fachlichen Zugänge, die beispielhafte Auseinandersetzung mit räumlichen Problemstel-
+lungen vor Ort und das Aufzeigen von möglichen Tätigkeitsfeldern und Berufschancen
+erhalten die Studierenden einen ersten Eindruck vom Studium der Raumplanung, und
+21

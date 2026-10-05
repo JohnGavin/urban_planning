@@ -1,0 +1,35 @@
+Modul „ Wahlmodul 9: Kommunikation und Partizipation“ (6,0 ECTS)
+6,0/4,0 VU Kommunikation und Partizipation
+Modul „ Wahlmodul 13: Klimagerechte Raumplanung“ (6,0 ECTS)
+3,0/2,0 VU Klimagerechte Raumplanung
+3,0/2,0 PR Klimagerechte Raumplanung
+3,0/2,0 SE Klimagerechte Raumplanung
+3,0/2,0 EX Klimagerechte Raumplanung
+Modul „ Wahlmodul 14: Themen der Raumplanung“ (6,0 ECTS)
+3,0/2,0 VO Themen der Raumplanung
+3,0/2,0 VU Themen der Raumplanung
+3,0/2,0 UE Themen der Raumplanung
+3,0/2,0 SE Themen der Raumplanung
+3,0/2,0 EX Themen der Raumplanung
+6,0/4,0 PR Themen der Raumplanung
+Prüfungsfach „Methoden und T echniken der Raumplanung“
+Modul „Pflichtmodul 4: Methoden und T echniken der Raumanalyse 1“ (9,0 ECTS)
+3,0/2,5 VU Geodätische und kartographische Grundlagen der Raumplanung
+3,0/2,5 VU Angewandte Karthographie mit GIS
+3,0/2,5 VU Räumliche Analytik mit GIS
+Modul „Pflichtmodul 5: Methoden und T echniken der Raumanalyse 2“ (15,0
+ECTS)
+3,0/2,0 VO Mathematische und statistische Grundlagen der Raumplanung
+3,0/2,5 VU Computergestützte Datenanalyse
+3,0/2,5 VU Datenbanken und Informationsmanagement
+3,0/2,5 VU Methoden der empirischen Sozialforschung
+3,0/2,5 VU Methoden der Regionalanalyse
+Modul „ Wahlmodul 11: Visutech“ (6,0 ECTS)
+3,0/2,0 VU Image Manipulation
+3,0/2,0 VU 3D Visualization
+Prüfungsfach „Raumplanerischer Entwurf “
+Modul „Pflichtmodul 6: Grundlagen des raumplanerischen Entwurfs“ (12,0 ECTS)
+3,0/2,5 VU Computergestütztes Entwerfen
+3,0/2,0 VO Typologie von Stadt und Raum
+6,0/5,0 VU Stadtraumanalyse und Entwurfstechniken
+64

@@ -1,0 +1,35 @@
+Information zum Reihungstest
+Raumplanung und Raumordnung 2026
+Seite 5 von 9
+Erstellt vom Zentrum für strategische Lehrentwicklung der TU Wien im Februar 202 6
+Zahlenfolgen
+Die Aufgabe besteht hier immer darin, Zahlenfolgen, um ein Glied zu ergänzen. Es ist jene
+ganzzahlige Zahl zu finden, die die Folge unter Verwendung der Grundrechenarten in
+richtiger Weise anstelle des Fragezeichens fortsetzt.
+B
+EISPIEL
+2 4 6 8 10 12 14 ?
+(+2) (+2) (+2) (+2) (+2) (+2) (+2)
+In diesem Falle ist „16“ die Zahl, die die Folge in richtiger Weise fortsetzt. (Es sind nämlich
+immer 2 zu addieren, um zur nächsten Zahl zu gelangen.)
+Finden Sie die Lösungen für die folgenden Aufgaben.
+1. 1 4 8 3 6 12 7 ?
+2. 8 24 12 36 18 54 27 ?
+Logikaufgaben
+Logikaufgaben sind Aufgaben zum schlussfolgernden Denken. Auf der Grundlage von zwei
+Aussagen sind gültige Schlussfolgerungen abzuleiten, die sich aus jeder dieser Aussagen oder
+ihrer logischen Verknüpfung ergeben. Alle Antworten, die sich aus den Aussagen ableiten
+lassen, sind anzukreuzen.
+BEISPIEL
+Aussage 1: Zumindest ein Amiv ist Plosa
+Aussage 2: Alle Plosa sind Urov
+a) Alle Urov sind Plosa
+b) Zumindest ein Plosa ist Urov
+c) Alle Amiv sind Plosa
+d) Zumindest ein Amiv ist Urov
+e) Alle Urov sind Amiv
+T
+IPP
+ Eine Aussage, die für alle Elemente einer Menge zutrifft, trifft auch für einen Teil der
+Elemente dieser Menge zu. Wenn alle Pandabären Tiere sind, ist es auch richtig, dass
+einige Pandabären Tiere sind.

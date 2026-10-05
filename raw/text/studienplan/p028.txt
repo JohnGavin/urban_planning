@@ -1,0 +1,41 @@
+Inhalt: Das Modul vermittelt fachliche und methodische Kenntnisse zu verschiedenen
+Methoden und Techniken der quantitativen und qualitativen Raumanalyse. Aufbauend
+auf grundlegenden mathematischen und statistischen Kenntnissen (deskriptive Statistik,
+Index- und Maßzahlen, Vektor- und Matrizenrechnung, Wahrscheinlichkeitstheorie, Gra-
+phentheorie, Inferenzstatistik, Korrelations-, Regressions- und Varianzanalyse) werden
+verschiedene Methoden zur Akquisition, zum Management, zur Aufbereitung, zur Analy-
+se und Visualisierung von Daten unterschiedlicher Skalierung behandelt. Im Bereich der
+computergestützten Datenanalyse wird mit Hilfe von Tabellenkalkulationsprogrammen
+die Datenaufbereitung, Datenmanipulation und Datenvisualisierung anwendungsorien-
+tiert vermittelt. Dazu werden die Bereiche Datenbanken und Informationsmanagement
+und die damit verbundenen Grundlagen und Probleme der digitalen Datenbeschaffung
+und -organisation (Datenbanken, raumbezogene Informationssysteme) im Planungskon-
+text thematisiert. In einem Überblick über planungsrelevante Methoden der Regionalana-
+lyse werden verschiedene quantitative Ansätze (räumliche Indikatoren, Abbildung von
+räumlichen Konzentrationen und Disparitäten, Analyse von räumlichen Netzen und In-
+teraktionen Prognosemodelle) vorgestellt und anhand konkreter räumlicher Daten prak-
+tisch umgesetzt. Zudem werden verschiedene Methoden der empirischen Sozialforschung
+vorgestellt, wobei hier der Schwerpunkt auf qualitativer Forschung liegt. Die wesentli-
+chen Grundlagen, Prinzipien, Herangehensweisen und planerischen Anwendungsmöglich-
+keiten dieser Methoden und Techniken werden hier thematisiert und kritisch beleuchtet.
+Erwartete V orkenntnisse:Für die VU „Methoden der Regionalanalyse ” wird emp-
+fohlen, zuvor die VU „Computergestützte Datenanalyse” sowie die UE „Angewandte
+Kartographie mit GIS“ (Pflichtmodul 4) positiv zu absolvieren.
+V erpflichtende V oraussetzungen:Keine.
+Angewendete Lehr- und Lernformen und geeignete Leistungsbeurteilung: Die
+Inhalte werden über Vorlesungen mit aktiver Einbindung der Studierenden sowie in Form
+von Vorlesungsübungen vermittelt. Die Anwendung der vorgestellten theoretischen Zu-
+gänge und Konzepte wird mit Praxisbeispielen geübt und reflektiert. Dabei wird sowohl
+individuell als auch in Gruppen gearbeitet. Die Leistungsbeurteilung der theoretischen
+Grundlagen erfolgt anhand von schriftlichen Prüfungen, in denen der vorgetragene Lehr-
+stoff und ergänzende Literatur anwendungsbezogen und reflektierend thematisiert wird.
+Die praktischen Grundlagen werden durch immanente Leistungsbeurteilung, Abgabe
+kleiner Übungsbeispiele sowie in Form von größeren Abschlusstests und Hausarbeiten
+absolviert.
+Lehrveranstaltungen des Moduls:
+3,0/2,0 VO Mathematische und statistische Grundlagen der Raumplanung
+3,0/2,5 VU Computergestützte Datenanalyse
+3,0/2,5 VU Datenbanken und Informationsmanagement
+3,0/2,5 VU Methoden der empirischen Sozialforschung
+3,0/2,5 VU Methoden der Regionalanalyse
+28

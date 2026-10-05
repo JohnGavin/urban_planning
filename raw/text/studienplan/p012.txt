@@ -1,0 +1,41 @@
+Kurzbeschreibung der Module
+Dieser Abschnitt charakterisiert die Module des Bachelorstudiums Raumplanung und
+Raumordnung in Kürze. Eine ausführliche Beschreibung ist in Anhang A zu finden.
+Pflichtmodul 1: Studieneingangs- und Orientierungsphase (8,0 ECTS)Das Mo-
+dul vermittelt den Studienanfänger _innen die gesellschaftliche Bedeutung und aktuel-
+le Herausforderungen der Disziplin sowie die interdisziplinäre Breite und Komplexität
+des Studiums. Außerdem erhalten die Studierenden einen ersten Einblick in projekt-,
+problem- und themenbezogenes Arbeiten sowie in die berufliche Praxis.
+Pflichtmodul 2: Theoretische Grundlagen (15,0 ECTS) In diesem Modul wird
+ein grundlegendes Verständnis von Raumplanung als wissenschaftlicher Disziplin ver-
+mittelt. Dabei setzen sich die Studierenden mit grundlegenden Konzepten und Begriffen
+der Regionalwissenschaft, der Soziologie, der Volkswirtschaftslehre, sowie der Finanzwis-
+senschaft und Infrastrukturökonomik kritisch auseinander und reflektieren diese in ihrer
+Bedeutung für die Raumplanung.
+Pflichtmodul 3: Planerische Grundlagen (18,0 ECTS) Das Modul vermittelt pla-
+nerisches Grundwissen und legt damit die Basis für die konkrete Umsetzung in der Stadt-,
+Regional-, Landschafts-, Freiraum- und Verkehrsplanung. Die Studierenden erhalten da-
+mit die Fertigkeit, raumrelevante Zusammenhänge und Entwicklungen zu erkennen, um
+darauf aufbauend ziel- und lösungsorientierte Strategien und Maßnahmen für eine vor-
+ausschauende Raumplanung zu entwickeln.
+Pflichtmodul 4: Methoden und T echniken der Raumanalyse 1 (9,0 ECTS) In
+diesem Modul werden grundlegende Methoden und Techniken der quantitativen Raum-
+analyse vorgestellt und zur Lösung planungsrelevanter Problem- und Fragestellungen
+angewandt. Auf Basis geodätischer und kartographischer Grundlagen werden einerseits
+Techniken zur Visualisierung von Geodaten und andererseits vektor- und rasterdaten-
+basierte Methoden zur räumlichen Analyse (vor allem mit Hilfe von Geographischen
+Informationssystemen) vermittelt.
+Pflichtmodul 5: Methoden und T echniken der Raumanalyse 2 (15,0 ECTS)
+Das Modul vermittelt grundlegende Kenntnisse zur Konzeption und Anwendung quan-
+titativer und qualitativer Methoden und Techniken der räumlichen Analyse. Aufbauend
+auf der Akquisition, Aufbereitung, Analyse und Visualisierung räumlicher Daten werden
+verschiedene planungsrelevante Methoden der Regionalanalyse und der empirischen So-
+zialforschung vorgestellt und in einem konkreten Planungskontext praktisch umgesetzt.
+Pflichtmodul 6: Grundlagen des raumplanerischen Entwurfs (12,0 ECTS) Das
+Modul vermittelt die inhaltlichen, methodischen und technischen Grundlagen des raum-
+planerischen und städtebaulichen Entwurfs und bildet damit die fachliche Voraussetzung
+für die Projektarbeit in Pflichtmodul 7. Zu diesem Zweck werden die einzelnen Schritte
+des planerischen Analyse- und Entwurfsprozesses auf unterschiedlichen räumlichen und
+inhaltlichen Ebenen erläutert und mit Hilfe geeigneter Techniken und Tools praktisch
+umgesetzt.
+12

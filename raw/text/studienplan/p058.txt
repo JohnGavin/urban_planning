@@ -1,0 +1,32 @@
+3. Semester (WS) 30 ECTS
+Pflichtmodul 2: Theoretische Grundlagen
+3,0 VO Ökonomische Grundlagen der Raumplanung
+Pflichtmodul 3: Planerische Grundlagen
+3,0 VO Grundlagen der Regionalplanung
+Pflichtmodul 4: Methoden und T echniken der Raumanalyse 1
+3,0 VU Räumliche Analytik mit GIS
+Pflichtmodul 5: Methoden und T echniken der Raumanalyse 2
+3,0 VU Datenbanken und Informationsmanagement
+Pflichtmodul 7: Raumplanerischer / Städtebaulicher Entwurf
+12,0 PR Raumplanerischer/Städtebaulicher Entwurf
+Pflichtmodul 8: Grundlagen der räumlichen Entwicklungsplanung
+3,0 VO Landschafts- und Umweltplanung
+Pflichtmodul 10: Planungsinstrumente
+3,0 VO Boden- und Raumordnungsrecht
+4. Semester (SS) 30 ECTS
+Pflichtmodul 2: Theoretische Grundlagen
+3,0 VO Finanzwissenschaft und Infrastrukturökonomie
+Pflichtmodul 5: Methoden und T echniken der Raumanalyse 2
+3,0 VU Methoden der Regionalanalyse
+3,0 VU Methoden der empirischen Sozialforschung
+Pflichtmodul 8: Grundlagen der räumlichen Entwicklungsplanung
+3,0 SE Räumliche Entwicklungsplanung
+3,0 VO Kommunale Entwicklungsplanung
+3,0 VU Regionale Planungspraxis
+3,0 VO Infrastruktur- und Energieplanung
+3,0 VU Kommunikation und Beteiligung
+Pflichtmodul 10: Planungsinstrumente
+3,0 VU Flächenwidmungs- und Bebauungsplanung
+Pflichtmodul 11: Theoretische und planerische V ertiefung
+3,0 VO Theorie der Stadt- und Regionalentwicklung
+58

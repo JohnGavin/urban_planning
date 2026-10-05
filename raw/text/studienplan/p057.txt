@@ -1,0 +1,35 @@
+D. Semestereinteilung der Lehrveranstaltungen
+1. Semester (WS) 30 ECTS
+Pflichtmodul 1: Studieneingangs- und Orientierungsphase
+2,0 VU Orientierungsphase Raumplanung
+6,0 PR Raumwerkstatt
+Pflichtmodul 2: Theoretische Grundlagen
+3,0 VO Einführung in die Regionalwissenschaft
+3,0 VU Wissenschaftliches Arbeiten in der Raumplanung
+Pflichtmodul 3: Planerische Grundlagen
+3,0 VO Grundlagen der Verkehrsplanung
+3,0 VO Grundlagen der Stadtplanung
+3,0 VO Geschichte der Stadt
+Pflichtmodul 4: Methoden und T echniken der Raumanalyse 1
+3,0 VU Geodätische und kartographische Grundlagen der Raumplanung
+Pflichtmodul 6: Grundlagen des raumplanerischen Entwurfs
+3,0 VU Computergestütztes Entwerfen
+Pflichtmodul 12: F reie W ahlfächer und T ransferable Skills
+Freie Wahlfächer und Transferable Skills im Ausmaß von 1,0 ECTS
+2. Semester (SS) 30 ECTS
+Pflichtmodul 2: Theoretische Grundlagen
+3,0 VO Einführung in die Soziologie
+Pflichtmodul 3: Planerische Grundlagen
+3,0 VU Mobilitätsplanung
+3,0 VO Naturräumliche Grundlagen der Raumplanung
+Pflichtmodul 4: Methoden und T echniken der Raumanalyse 1
+3,0 VU Angewandte Karthographie mit GIS
+Pflichtmodul 5: Methoden und T echniken der Raumanalyse 2
+3,0 VO Mathematische und statistische Grundlagen der Raumplanung
+3,0 VU Computergestützte Datenanalyse
+Pflichtmodul 6: Grundlagen des raumplanerischen Entwurfs
+6,0 VU Stadtraumanalyse und Entwurfstechniken
+3,0 VO Typologie von Stadt und Raum
+Pflichtmodul 10: Planungsinstrumente
+3,0 VO Rechtliche Grundlagen der Raumplanung
+57
