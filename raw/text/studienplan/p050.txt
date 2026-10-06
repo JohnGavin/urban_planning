@@ -1,0 +1,38 @@
+Angewendete Lehr- und Lernformen und geeignete Leistungsbeurteilung: Die
+Leistungsbeurteilung erfolgt anhand einer schriftlichen Prüfung mit integrierten Fallbei-
+spielen sowie anhand von Übungsaufgaben und der Mitarbeit.
+Lehrveranstaltungen des Moduls:
+3,0/2,0 UE Raumordnungsrecht
+3,0/2,0 VU Raumrelevantes Wirtschafts- und Umweltrecht
+Wahlmodul 11: Visutech
+Regelarbeitsaufwand: 6,0 ECTS
+Lernergebnisse: After having completed this module, students will improve their com-
+munication skills in designing concepts for the presentation of planning projects. They
+will understand the principles of graphic design and intuitively deal with both raster
+and vector graphics. They will be able to create and manipulate complex 3D-models of
+various scales and to produce renderings including materials and lighting concepts.
+Inhalt: The module gives a broad understanding of raster and vector graphic concepts
+by working with various graphic formats and by showing successful manipulation and
+compositing of images. It gives an insight on the postproduction of images for a wide
+range of media applications, on the creation of complex 3D-models and the import
+of models from various sources. Finally, it shows methods and tools for creating and
+applying conceptual and photorealistic materials, for optimizing textures and geometry
+(for interactive and VR/AR applications) and for setting up a creative scene lighting
+and adjusting render settings for performance optimization.
+Erwartete V orkenntnisse:Basic knowledge of a 2D-CAD program is expected.
+V erpflichtende V oraussetzungen: The positive completion of Pflichtmodul 1
+(“Studieneingangs- und Orientierungsphase”) is a mandatory requirement for partici-
+pation.
+Angewendete Lehr- und Lernformen und geeignete Leistungsbeurteilung: The
+module includes lectures on selected topics, hands-on software training and individual
+project work. Students are evaluated by active class attendance, homework assignments
+and a final project.
+Lehrveranstaltungen des Moduls:
+3,0/2,0 VU Image Manipulation
+3,0/2,0 VU 3D Visualization
+Wahlmodul 12: Internationale Urbanistik
+Regelarbeitsaufwand: 6,0 ECTS
+Lernergebnisse: Nach positiver Absolvierung des Moduls haben sich die Studierenden
+die Grundlagen der Internationalen Urbanistik sowie ein Verständnis der komplexen Di-
+mensionen von Urbanisierungsprozessen erarbeitet, die sich in Stadt, Land und Region
+50

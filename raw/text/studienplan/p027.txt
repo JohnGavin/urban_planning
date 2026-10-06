@@ -1,0 +1,40 @@
+Erwartete V orkenntnisse:Keine.
+V erpflichtende V oraussetzungen:Keine
+Angewendete Lehr- und Lernformen und geeignete Leistungsbeurteilung: Die
+kartographischen und geodätischen Grundlagen werden über Vorlesungen und dazu pas-
+sende Übungseinheiten vermittelt. Diese grundlegenden kartographischen Fertigkeiten
+werden in einer Vorlesungsübung zur thematischen Kartographie im Rahmen kleiner Pro-
+jektarbeiten mit Hilfe von geeigneten Softwarepaketen aus dem Bereich geographischer
+Informationssysteme (GIS) praktisch umgesetzt und dadurch vertieft. Diese Kenntnisse
+zur Visualisierung von Geodaten werden in einer aufbauenden Lehrveranstaltung zur Lö-
+sung raumanalytischer Fragestellungen mit Geographischen Informationssystemen (GIS)
+angewandt, in der ein Blended-Learning-Konzept umgesetzt wird. Die Leistungsbeurtei-
+lung erfolgt einerseits über die Lösung von Übungsaufgaben in Teams und andererseits
+durch individuelle Zwischentests zu methodischen und konzeptuellen Fragen der räumli-
+chen Analytik.
+Lehrveranstaltungen des Moduls:
+3,0/2,5 VU Geodätische und kartographische Grundlagen der Raumplanung
+3,0/2,5 VU Angewandte Karthographie mit GIS
+3,0/2,5 VU Räumliche Analytik mit GIS
+Pflichtmodul 5: Methoden und T echniken der Raumanalyse 2
+Regelarbeitsaufwand: 15,0 ECTS
+Lernergebnisse:
+F achliche und methodische Kompetenzen:Nach positiver Absolvierung des Moduls sind
+die Studierenden in der Lage, unterschiedliche Methoden und Techniken der empiri-
+schen Raumanalyse zu begreifen und anzuwenden. Dazu gehören neben mathematischen
+Grundlagen vor allem die Erhebung, Akquisition und Organisation qualitativer und
+quantitativer Daten sowie deren Analyse, Auswertung und Interpretation. Die Studie-
+renden lernen dadurch, verschiedene Methoden zur Abbildung und Erklärung räumlicher
+Strukturen und Dynamiken eigenständig durchzuführen.
+Kognitive und praktische Kompetenzen: Die Studierenden lernen in diesem Modul, qua-
+litative und quantitative Methoden der Raumanalyse aus verschiedenen Fachdisziplinen
+problembezogen anzuwenden und deren Ergebnisse kritisch zu reflektieren. Sie sind da-
+durch in der Lage, raumrelevantes Wissen aus verschiedenen Informationsquellen so
+auszuwerten, dass dieses für konkrete analytische und planerische Fragestellungen ange-
+wendet werden kann.
+Soziale Kompetenzen und Selbstkompetenzen: Die Vermittlung unterschiedlicher Ansätze
+fördert die Innovationsfähigkeit sowie das Erkennen interdisziplinärer Zusammenhänge
+bei der Bewältigung von Planungsaufgaben. Durch die Vielfalt der angewandten Lehr-
+und Lernformen vertiefen die Studierenden ihre Fähigkeiten zur Selbstorganisation und
+zur Teamarbeit gleichermaßen.
+27

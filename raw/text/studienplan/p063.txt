@@ -1,0 +1,34 @@
+F. Prüfungsfächer mit den zugeordneten Modulen und
+Lehrveranstaltungen
+Prüfungsfach „Studieneingangs- und Orientierungsphase“
+Modul „Pflichtmodul 1: Studieneingangs- und Orientierungsphase“ (8,0 ECTS)
+2,0/2,0 VU Orientierungsphase Raumplanung
+6,0/6,0 PR Raumwerkstatt
+Modul „Pflichtmodul 2: Theoretische Grundlagen“ (15,0 ECTS)
+3,0/2,5 VU Wissenschaftliches Arbeiten in der Raumplanung
+3,0/2,0 VO Einführung in die Regionalwissenschaft
+3,0/2,0 VO Einführung in die Soziologie
+3,0/2,0 VO Ökonomische Grundlagen der Raumplanung
+3,0/2,0 VO Finanzwissenschaft und Infrastrukturökonomie
+Prüfungsfach „Raumplanung in Theorie und Praxis“
+Modul „Pflichtmodul 3: Planerische Grundlagen“ (18,0 ECTS)
+3,0/2,0 VO Grundlagen der Stadtplanung
+3,0/2,0 VO Grundlagen der Verkehrsplanung
+3,0/2,0 VO Geschichte der Stadt
+3,0/2,5 VU Mobilitätsplanung
+3,0/2,0 VO Naturräumliche Grundlagen der Raumplanung
+3,0/2,0 VO Grundlagen der Regionalplanung
+Modul „ Wahlmodul 1: Ressource Landschaft“ (6,0 ECTS)
+3,0/2,0 VU Ressource Landschaft
+3,0/2,0 SE Ressource Landschaft
+Modul „ Wahlmodul 3: Verkehr im Raum“ (6,0 ECTS)
+3,0/2,0 VU Verkehrssicherheit und Umweltwirkungen
+3,0/2,0 VU Öffentlicher Verkehr und Gütertransportlogistik
+Modul „ Wahlmodul 4: Kooperation Region“ (6,0 ECTS)
+3,0/2,0 VU Kooperations- und Ientifikationsraum Region
+3,0/2,0 EX Kooperation Region
+3,0/2,0 SE Regionale Entwicklungsprozesse
+Modul „ Wahlmodul 6: T ourismusentwicklung“ (6,0 ECTS)
+3,0/2,0 VU Tourismusanalyse und nachhaltige Tourismusplanung
+3,0/2,0 VU Tourismus und Planung
+63

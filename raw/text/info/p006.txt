@@ -1,0 +1,30 @@
+Information zum Reihungstest
+Raumplanung und Raumordnung 2026
+Seite 6 von 9
+Erstellt vom Zentrum für strategische Lehrentwicklung der TU Wien im Februar 202 6
+Räumliches Vorstellen
+Hier sind Aufgaben zu lösen, die räumliches Vorstellen erfordern. Die Aufgaben sind immer
+sprachlich erläutert. Wichtig ist es, die Angaben gründlich zu lesen, denn es kommt auf jedes
+Wort an. Jede Aufgabe ist in Schritten zu bearbeiten, wobei der nächste immer auf dem
+vorangegangenen Schritt aufbaut. Nach jedem Schritt ist eine Lösung anzugeben.
+B
+EISPIEL
+Vor Ihnen liegt ein großer Würfel. Sie können nur die Ihnen zugewandte vordere Fläche
+sehen. Auf dieser ist ein Kreis () abgebildet. Auf der entgegengesetzten hinteren Fläche
+befindet sich ein Stern (), auf der oberen Fläche ein Kreuz (), auf der unteren ein
+Dreieck (). Die beiden seitlichen Flächen rechts und links sind leer.
+Die Lage des Würfels wird nun in vier aufeinanderfolgenden Schritten verändert. Sie sollen
+angeben, was nach jedem Schritt auf der Ihnen zugewandten vorderen Fläche zu sehen
+ist.
+Der Würfel wird ...
+Schritt 1: einmal in Ihre Richtung gekippt ...
+Schritt 2: um 180° gedreht (bei Drehung bleiben die obere und untere Fläche gleich) ...
+Schritt 3: einmal nach rechts gekippt ...
+Schritt 4: noch einmal in Ihre Richtung gekippt.
+Kreuzen Sie an, welches Symbol nach jedem Schritt auf der Ihnen zugewandten vorderen
+Fläche zu sehen ist:
+Matrizen
+Bei der Lösung von Matrizenaufgaben müssen Sie Figuren, die nach einem bestimmten
+System angeordnet sind, sinnvoll ergänzen. Die Lösung ist jeweils aus einzelnen Elementen
+zu konstruieren. Konkrete Fragen zu den Aufgaben unterstützen Sie dabei, schrittweise zur
+Lösung zu gelangen.

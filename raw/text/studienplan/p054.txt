@@ -1,0 +1,29 @@
+B. Lehrveranstaltungstypen
+EX: Exkursionen sind Lehrveranstaltungen, die außerhalb des Studienortes stattfinden.
+Sie dienen der Vertiefung von Lehrinhalten im jeweiligen lokalen Kontext.
+LU: Laborübungen sind Lehrveranstaltungen, in denen Studierende in Gruppen un-
+ter Anleitung von Betreuer_innen experimentelle Aufgaben lösen, um den Umgang mit
+Geräten und Materialien sowie die experimentelle Methodik des Faches zu lernen. Die
+experimentellen Einrichtungen und Arbeitsplätze werden zur Verfügung gestellt.
+PR: Projekte sind Lehrveranstaltungen, in denen das Verständnis von Teilgebieten eines
+Faches durch die Lösung von konkreten experimentellen, numerischen, theoretischen
+oder künstlerischen Aufgaben vertieft und ergänzt wird. Projekte orientieren sich an
+den praktisch-beruflichen oder wissenschaftlichen Zielen des Studiums und ergänzen die
+Berufsvorbildung bzw. wissenschaftliche Ausbildung.
+SE: Seminare sind Lehrveranstaltungen, bei denen sich Studierende mit einem gestellten
+Thema oder Projekt auseinander setzen und dieses mit wissenschaftlichen Methoden
+bearbeiten, wobei eine Reflexion über die Problemlösung sowie ein wissenschaftlicher
+Diskurs gefordert werden.
+UE: Übungen sind Lehrveranstaltungen, in denen die Studierenden das Verständnis des
+Stoffes der zugehörigen Vorlesung durch Anwendung auf konkrete Aufgaben und durch
+Diskussion vertiefen. Entsprechende Aufgaben sind durch die Studierenden einzeln oder
+in Gruppenarbeit unter fachlicher Anleitung und Betreuung durch die Lehrenden (Uni-
+versitätslehrer_innen sowie Tutor_innen) zu lösen. Übungen können auch mit Compu-
+terunterstützung durchgeführt werden.
+VO: Vorlesungen sind Lehrveranstaltungen, in denen die Inhalte und Methoden eines
+Faches unter besonderer Berücksichtigung seiner spezifischen Fragestellungen, Begriffs-
+bildungen und Lösungsansätze vorgetragen werden. Bei Vorlesungen herrscht keine An-
+wesenheitspflicht.
+VU: Vorlesungen mit integrierter Übung vereinen die Charakteristika der Lehrveran-
+staltungstypen VO und UE in einer einzigen Lehrveranstaltung.
+54

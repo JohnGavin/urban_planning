@@ -709,3 +709,57 @@ li { margin: 0.4rem 0; }
   color: var(--tu-text-bright);
 }
 .exp-panel { line-height: 1.5; }
+
+
+/* ---- Reading passages (Teil B, data/passages.json) ---- */
+.qe-passage {
+  background: var(--tu-dark);
+  border: 1px solid var(--tu-border);
+  border-left: 4px solid var(--tu-accent);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0 1rem;
+}
+.qe-passage-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.qe-passage-range { font-size: 0.8rem; color: var(--tu-text-muted); }
+.qe-passage-title {
+  margin: 0.6rem 0 0.75rem;
+  font-size: 1.15rem;
+  color: var(--tu-text-bright);
+}
+.qe-passage-par {
+  margin: 0 0 0.85rem;
+  line-height: 1.7;
+  color: var(--tu-text);
+  max-width: 75ch;
+}
+.qe-par-no {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tu-text-muted);
+}
+.qe-passage-src { font-size: 0.78rem; color: var(--tu-text-muted); }
+.qe-passage-task {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--tu-border);
+  font-size: 0.9rem;
+  color: var(--tu-text-bright);
+}
+.qe-passage-ref {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  color: var(--tu-text-muted);
+}
+@media (max-width: 600px) {
+  .qe-passage { padding: 1rem; }
+}

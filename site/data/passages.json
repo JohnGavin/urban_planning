@@ -1,0 +1,628 @@
+[
+  {
+    "id": "oerok-oerek",
+    "variant": "artikel",
+    "title_de": "Wer plant Österreichs Raum gemeinsam?",
+    "title_en": "Who plans Austria's space together?",
+    "paragraphs_de": [
+      "In Österreich nehmen Bund, Länder, Städte und Gemeinden die Aufgaben der Raumordnung und Raumplanung wahr – jeweils gemäß ihren verfassungsrechtlich festgelegten Zuständigkeiten. Damit diese Aufgaben besser aufeinander abgestimmt werden, wurde 1971 die Österreichische Raumordnungskonferenz (ÖROK) als politisches Organ gegründet.",
+      "Der ÖROK gehören die Mitglieder der Bundesregierung, die Landeshauptleute und die Präsidenten des Städte- und des Gemeindebundes an. Die Wirtschafts- und Sozialpartner wirken mit beratender Funktion mit. Unterstützt werden die Mitglieder von der ÖROK-Geschäftsstelle, die als Koordinations- und Netzwerkstelle arbeitet.",
+      "Eine der wichtigsten Aufgaben der ÖROK ist die Erstellung des Österreichischen Raumentwicklungskonzepts (ÖREK). Es wird etwa alle zehn Jahre überarbeitet und ist das gemeinsame Steuerungsinstrument aller Regierungsebenen für die räumliche Entwicklung. Das ÖREK 2030 ist in erster Linie ein freiwilliges und gemeinsames Übereinkommen; es wurde von allen beteiligten ÖROK-Mitgliedern im Konsens erstellt und beschlossen.",
+      "Bestimmendes Thema des ÖREK 2030 ist der fortschreitende Klimawandel. Die Herausforderung sieht das Dokument in der Dekarbonisierung aller Lebenswelten, insbesondere in der Umstellung der Mobilität. Der politische Beschluss erfolgte am 20. Oktober 2021."
+    ],
+    "paragraphs_en": [
+      "In Austria, the federal government, the federal states, the cities and the municipalities carry out the tasks of spatial planning – each according to its responsibilities as defined in the constitution. To coordinate these tasks better, the Austrian Conference on Spatial Planning (ÖROK) was founded in 1971 as a political body.",
+      "The members of the ÖROK are the members of the federal government, the state governors and the presidents of the Association of Cities and the Association of Municipalities. The economic and social partners take part in an advisory role. The members are supported by the ÖROK office, which works as a coordination and networking centre.",
+      "One of the most important tasks of the ÖROK is to prepare the Austrian Spatial Development Concept (ÖREK). It is revised about every ten years and is the joint steering instrument of all levels of government for spatial development. The ÖREK 2030 is first and foremost a voluntary, joint agreement; it was drawn up and adopted by consensus by all ÖROK members involved.",
+      "The defining theme of the ÖREK 2030 is advancing climate change. The document sees the challenge in decarbonising all areas of life, in particular in changing how we travel. The political decision was taken on 20 October 2021."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 5, 6, 10, 174",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 5,
+        "quote": "wurde 1971 die Österreichische Raumordnungskonferenz (ÖROK) als politisches Organ gegründet"
+      },
+      {
+        "doc": "oerek",
+        "page": 5,
+        "quote": "der Wirtschafts- und Sozialpartner zusammen"
+      },
+      {
+        "doc": "oerek",
+        "page": 5,
+        "quote": "Das ÖREK wird etwa alle zehn Jahre überarbeitet"
+      },
+      {
+        "doc": "oerek",
+        "page": 6,
+        "quote": "freiwilliges und gemeinsames Übereinkommen"
+      },
+      {
+        "doc": "oerek",
+        "page": 10,
+        "quote": "Koordinations- und Netzwerkstelle"
+      },
+      {
+        "doc": "oerek",
+        "page": 5,
+        "quote": "Dekarbonisierung aller Lebenswelten"
+      },
+      {
+        "doc": "oerek",
+        "page": 174,
+        "quote": "am 20. Oktober 2021"
+      }
+    ]
+  },
+  {
+    "id": "grundsaetze",
+    "variant": "artikel",
+    "title_de": "Drei Grundsätze für den Raum",
+    "title_en": "Three principles for space",
+    "paragraphs_de": [
+      "Das ÖREK 2030 versteht sich als gemeinsames Leitbild für die räumliche Entwicklung Österreichs. Es wird von drei Grundsätzen geleitet: „Klimaverträgliche und nachhaltige Raumentwicklung“, „Gemeinwohlorientierte Raumentwicklung“ und „Gerechte Raumentwicklung“. Diese Grundsätze sind nicht getrennt zu sehen, sondern überlagern einander.",
+      "Die klimaverträgliche und nachhaltige Raumentwicklung hat die langfristige, generationenübergreifende Perspektive im Blick. Räumliche Wirkungen entstehen aus vielen kleinen Einzelentscheidungen, die erst in der Summe und nach längeren Zeiträumen spürbar werden. Solche Entwicklungen lassen sich nur schwer rückgängig machen, und es ist sehr kostenaufwendig, unerwünschte Folgen zu kompensieren.",
+      "Im Sinne der Nachhaltigkeitsziele der UNO gelten wirtschaftliche, soziale und ökologische Nachhaltigkeit als gleichberechtigte Dimensionen. Zur sozialen Nachhaltigkeit zählt etwa, die Versorgung mit Dienstleistungen der Daseinsvorsorge auch für Personen ohne eigenes Kraftfahrzeug zu sichern und leistbares und barrierefreies Wohnen für alle zu gewährleisten.",
+      "Auch bei der Mobilität hat die Raumentwicklung eine wichtige Rolle: Kompakte Siedlungsstrukturen ermöglichen kurze Wege und die Nutzung öffentlicher Verkehrsmittel. Sie unterstützen die aktive Mobilität, also den Rad- und Fußverkehr."
+    ],
+    "paragraphs_en": [
+      "The ÖREK 2030 sees itself as a shared vision for Austria's spatial development. It is guided by three principles: “climate-compatible and sustainable spatial development”, “spatial development oriented to the common good” and “fair spatial development”. These principles are not to be seen separately; they overlap.",
+      "Climate-compatible and sustainable spatial development keeps the long-term perspective across generations in view. Spatial effects arise from many small individual decisions that only become noticeable in sum and over longer periods. Such developments are hard to reverse, and compensating for unwanted consequences is very costly.",
+      "In line with the UN Sustainable Development Goals, economic, social and ecological sustainability are regarded as equal dimensions. Social sustainability includes, for example, securing access to services of general interest for people without their own car, and guaranteeing affordable, barrier-free housing for everyone.",
+      "Spatial development also plays an important role for mobility: compact settlement structures make short distances and the use of public transport possible. They support active mobility, that is, cycling and walking."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 9, 15, 16",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 15,
+        "quote": "sondern sie überlagern einander"
+      },
+      {
+        "doc": "oerek",
+        "page": 15,
+        "quote": "langfristige, generationenübergreifende Perspektive"
+      },
+      {
+        "doc": "oerek",
+        "page": 15,
+        "quote": "kostenaufwendig, die unerwünschten Konsequenzen zu kompensieren"
+      },
+      {
+        "doc": "oerek",
+        "page": 15,
+        "quote": "ökologische Nachhaltigkeit als gleichberechtigte Dimensionen"
+      },
+      {
+        "doc": "oerek",
+        "page": 16,
+        "quote": "auch für Personen ohne eigenes Kraftfahrzeug"
+      },
+      {
+        "doc": "oerek",
+        "page": 16,
+        "quote": "Kompakte Siedlungsstrukturen ermöglichen kurze Wege"
+      }
+    ]
+  },
+  {
+    "id": "megatrends",
+    "variant": "artikel",
+    "title_de": "Megatrends: Klima und Digitalisierung",
+    "title_en": "Megatrends: climate and digitalisation",
+    "paragraphs_de": [
+      "Megatrends sind Entwicklungen von globaler und langfristiger Bedeutung, die nicht von einzelnen Ländern, Regionen oder Gemeinden verändert werden können. Sie zu beeinflussen, erfordert ein Handeln der Vielen. Gelingt das nicht oder sind Entwicklungen unvermeidlich, geht es um bestmögliche Anpassung. Megatrends können außerdem Gegenbewegungen erzeugen.",
+      "Seit Beginn des industriellen Zeitalters ist die CO₂-Konzentration in der Atmosphäre um ca. 44 % gestiegen. Klimamodelle zeigen, dass die Durchschnittstemperatur bis 2100 um bis zu 4,5 °C steigen könnte. Österreich trägt als entwickelte Industrienation pro Kopf unverhältnismäßig stark zur Klimakrise bei und ist zugleich besonders betroffen: Als Binnenland erwärmt es sich stärker als der globale Durchschnitt, und die Topografie eines Alpenlandes erhöht die Verwundbarkeit.",
+      "Ein zweiter Megatrend ist die Digitalisierung. Bereits 28 % des Wirtschaftswachstums in Österreich werden auf die Branchen der Informations- und Kommunikationstechnologien zurückgeführt. Leistungsfähige digitale Infrastruktur ist – wie früher das Telefonnetz – Teil der Daseinsvorsorge geworden. Eine marktgetriebene Einführung des Breitbands begünstigt jedoch Gebiete mit hohem Nachfragepotenzial; Gebiete ohne ausreichende Nachfrage brauchen das Engagement der öffentlichen Hand."
+    ],
+    "paragraphs_en": [
+      "Megatrends are developments of global and long-term importance that individual countries, regions or municipalities cannot change. Influencing them requires action by many. If that fails, or if developments are unavoidable, the task is to adapt as well as possible. Megatrends can also produce counter-movements.",
+      "Since the start of the industrial age, the CO₂ concentration in the atmosphere has risen by about 44 %. Climate models show that the average temperature could rise by up to 4.5 °C by 2100. As a developed industrial nation, Austria contributes disproportionately to the climate crisis per head and is at the same time particularly affected: as a landlocked country it warms more than the global average, and the topography of an Alpine country increases its vulnerability.",
+      "A second megatrend is digitalisation. Already 28 % of economic growth in Austria is attributed to the information and communication technology sectors. Powerful digital infrastructure has become part of the services of general interest – like the telephone network in the past. However, a market-driven roll-out of broadband favours areas with high demand potential; areas without sufficient demand need the involvement of the public sector."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 25, 28",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 25,
+        "quote": "Megatrends bezeichnen Entwicklungen von globaler und langfristiger Bedeutung"
+      },
+      {
+        "doc": "oerek",
+        "page": 25,
+        "quote": "um ca. 44 % gestiegen"
+      },
+      {
+        "doc": "oerek",
+        "page": 25,
+        "quote": "bis zu 4,5 °C"
+      },
+      {
+        "doc": "oerek",
+        "page": 28,
+        "quote": "Binnenland stärker als im globalen Durchschnitt"
+      },
+      {
+        "doc": "oerek",
+        "page": 28,
+        "quote": "Bereits 28 % des Wirtschaftswachstums"
+      },
+      {
+        "doc": "oerek",
+        "page": 28,
+        "quote": "Gebiete mit hohem Nachfragepotenzial"
+      }
+    ]
+  },
+  {
+    "id": "demografie",
+    "variant": "artikel",
+    "title_de": "Wachsen und Schrumpfen",
+    "title_en": "Growing and shrinking",
+    "paragraphs_de": [
+      "Die Bevölkerung Österreichs ist in den letzten Jahren dynamisch gewachsen. Diese Zunahme ist in erster Linie auf die positive Wanderungsbilanz mit dem Ausland zurückzuführen. Auch Regionen mit Bevölkerungsrückgang verzeichnen Zuwanderung aus dem Ausland; sie gleicht den Rückgang durch negative Geburtenraten und negative Binnenwanderungsbilanzen zumindest teilweise aus.",
+      "Ein großer Teil der politischen Bezirke ist insgesamt oder in Teilregionen von Bevölkerungsrückgang betroffen, während die städtischen Agglomerationen vor allem durch Zuwanderung durchgängig gewachsen sind. Zudem verschiebt sich die Altersstruktur: Die jungen und besonders die älteren Bevölkerungsgruppen wachsen, die Zahl der Personen im erwerbsfähigen Alter nimmt ab. Besonders ländliche Regionen sind mit einem starken Rückgang der erwerbsfähigen Bevölkerung konfrontiert.",
+      "Bis 2050 wird erwartet, dass die Bevölkerung in Städten mit mehr als 50.000 Einwohner:innen um 20 % zunimmt, in allen anderen Gebieten nur um 5 %. Die Urbanisierung war in den letzten Jahrzehnten mit einer Suburbanisierung verbunden, die die Vorteile kompakter Städte mit kurzen Wegen nicht bietet. Für die Klimaschutzziele und den sparsamen Umgang mit Boden kommt der gewachsenen europäischen Stadt daher eine neue Bedeutung zu."
+    ],
+    "paragraphs_en": [
+      "Austria's population has grown dynamically in recent years. This increase is mainly due to positive net migration from abroad. Regions with a declining population also record immigration from abroad; it at least partly offsets the decline caused by negative birth rates and negative internal migration.",
+      "A large share of the political districts is affected by population decline, as a whole or in parts, while the urban agglomerations have grown throughout, mainly through immigration. In addition, the age structure is shifting: the young and especially the older population groups are growing, while the number of people of working age is falling. Rural regions in particular face a sharp decline in the working-age population.",
+      "By 2050, the population of cities with more than 50,000 inhabitants is expected to grow by 20 %, and in all other areas by only 5 %. In recent decades urbanisation has gone hand in hand with suburbanisation, which does not offer the advantages of compact cities with short distances. For the climate targets and for using land sparingly, the historically grown European city therefore gains new importance."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 30–33",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 30,
+        "quote": "in erster Linie auf die positive Wanderungsbilanz"
+      },
+      {
+        "doc": "oerek",
+        "page": 31,
+        "quote": "ländliche Regionen sind mit einem starken Rückgang an erwerbsfähiger Bevölkerung konfrontiert"
+      },
+      {
+        "doc": "oerek",
+        "page": 32,
+        "quote": "um 20 % zunehmen wird"
+      },
+      {
+        "doc": "oerek",
+        "page": 33,
+        "quote": "kommt der gewachsenen europäischen Stadt"
+      }
+    ]
+  },
+  {
+    "id": "boden",
+    "variant": "artikel",
+    "title_de": "Wie viel Boden verbraucht Österreich?",
+    "title_en": "How much land does Austria use up?",
+    "paragraphs_de": [
+      "Flächeninanspruchnahme – oft auch Flächen- oder Bodenverbrauch genannt – bezeichnet den dauerhaften Verlust biologisch produktiven Bodens, etwa durch Flächen für Siedlungs- und Verkehrszwecke. Die Versiegelung ist nur eine Teilmenge davon: Hier wird der Boden mit einer wasserundurchlässigen Schicht abgedeckt. Dabei gehen wichtige Bodenfunktionen verloren, zum Beispiel die Speicher-, Filter- und Pufferfunktion.",
+      "Im Zeitraum 2017–2019 wurden in Österreich im Durchschnitt 12 ha Boden pro Tag in Anspruch genommen und zum Teil stark versiegelt (zwischen 32 und 41 %). Der österreichweite Durchschnitt der versiegelten Fläche pro Kopf lag 2018 bei 209 m². In einzelnen, vor allem peripheren Gemeinden in Niederösterreich und im Burgenland steigt er auf über 500 m² pro Kopf.",
+      "Die österreichische Nachhaltigkeitsstrategie aus dem Jahr 2002 und das Regierungsprogramm 2020–2024 nennen als Zielwert eine neue Flächeninanspruchnahme von netto 2,5 ha pro Tag bis 2030. Diese Ziele sind in den EU-Fahrplan für ein ressourcenschonendes Europa eingebettet, der bis 2050 einen Netto-Neuverbrauch an Boden von null vorsieht.",
+      "Die nationalen Zielwerte hat die Bundesregierung festgelegt. Eine österreichweite Verankerung unter Einbeziehung der Bundesländer, Städte und Gemeinden fehlt bisher – obwohl zentrale Steuerungskompetenzen genau dort liegen."
+    ],
+    "paragraphs_en": [
+      "Land take – often also called land or soil consumption – means the permanent loss of biologically productive soil, for example through areas for settlements and transport. Soil sealing is only a subset of it: here the soil is covered with a waterproof layer. Important soil functions are lost, for example storage, filtering and buffering.",
+      "In 2017–2019, Austria used on average 12 ha of land per day, part of it heavily sealed (between 32 and 41 %). The Austrian average of sealed area per person was 209 m² in 2018. In some, mainly peripheral municipalities in Lower Austria and Burgenland it rises to more than 500 m² per person.",
+      "The Austrian Sustainability Strategy of 2002 and the government programme 2020–2024 set a target of net 2.5 ha of new land take per day by 2030. These targets are embedded in the EU roadmap for a resource-efficient Europe, which envisages zero net land take by 2050.",
+      "The national targets were set by the federal government. An Austria-wide commitment that includes the federal states, cities and municipalities is still missing – even though key steering powers lie precisely there."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 60, 149",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 149,
+        "quote": "dauerhaften Verlust biologisch produktiven Bodens"
+      },
+      {
+        "doc": "oerek",
+        "page": 60,
+        "quote": "Filter-, Pufferfunktion"
+      },
+      {
+        "doc": "oerek",
+        "page": 60,
+        "quote": "wurden im Durchschnitt 12 ha Boden/Tag"
+      },
+      {
+        "doc": "oerek",
+        "page": 60,
+        "quote": "der versiegelten Flächen pro Kopf derzeit bei 209 m²"
+      },
+      {
+        "doc": "oerek",
+        "page": 60,
+        "quote": "steigt er aber auf über 500 m² versiegelter Fläche pro Kopf an"
+      },
+      {
+        "doc": "oerek",
+        "page": 149,
+        "quote": "von 2,5 ha/Tag bzw. 9 km²/Jahr bis 2030"
+      },
+      {
+        "doc": "oerek",
+        "page": 149,
+        "quote": "Netto-Neuverbrauch an Boden von Null"
+      },
+      {
+        "doc": "oerek",
+        "page": 149,
+        "quote": "Eine österreichweite Verankerung unter Einbeziehung der Bundesländer, der Städte und Gemeinden fehlt bisher"
+      }
+    ]
+  },
+  {
+    "id": "handlungsprogramm",
+    "variant": "artikel",
+    "title_de": "Vom Leitbild zur Umsetzung",
+    "title_en": "From vision to implementation",
+    "paragraphs_de": [
+      "Das Handlungsprogramm des ÖREK 2030 ruht auf vier Säulen: mit räumlichen Ressourcen sparsam und schonend umgehen; den sozialen und räumlichen Zusammenhalt stärken; Wirtschaftsräume und -systeme klimaverträglich sowie nachhaltig entwickeln; vertikale und horizontale Governance weiterentwickeln. Die ersten drei Säulen orientieren sich an den Grundsätzen der Nachhaltigkeit, die vierte umfasst die Umsetzungsprozesse.",
+      "Klima und Energie, Mobilität und Digitalisierung sind als Querschnittsthemen integriert. Die ÖROK selbst verfügt über keine rechtlichen, finanziellen oder budgetären Umsetzungsinstrumente; diese liegen im Kompetenzbereich ihrer Mitglieder. Umsetzungsorientierung kann deshalb nur bedeuten, Entscheidungen anzuregen, vorzubereiten und zwischen den Mitgliedern zu koordinieren.",
+      "Ein 10-Punkte-Programm bündelt Maßnahmen mit besonders hoher inhaltlicher Priorität, die bis 2030 auf ÖROK-Ebene umgesetzt werden sollen. Es ist ohne innere Priorisierung und für Veränderungen offen; die Themen sollen etwa alle drei Jahre in einem Monitoringprozess auf ihre Aktualität überprüft werden.",
+      "Aus den prioritären Themen werden ÖREK-Umsetzungspakte abgeleitet, die mit einem dezidierten politischen Arbeitsauftrag der ÖROK versehen werden. Träger der Umsetzungspakte ist der Ständige Unterausschuss der ÖROK."
+    ],
+    "paragraphs_en": [
+      "The action programme of the ÖREK 2030 rests on four pillars: using spatial resources sparingly and carefully; strengthening social and spatial cohesion; developing economic areas and systems in a climate-compatible and sustainable way; further developing vertical and horizontal governance. The first three pillars follow the principles of sustainability; the fourth covers the implementation processes.",
+      "Climate and energy, mobility and digitalisation are integrated as cross-cutting themes. The ÖROK itself has no legal, financial or budgetary implementation instruments; these lie within the powers of its members. Implementation orientation can therefore only mean prompting, preparing and coordinating decisions between the members.",
+      "A 10-point programme bundles measures of particularly high priority that are to be implemented at ÖROK level by 2030. It has no internal ranking and is open to change; the topics are to be checked for relevance about every three years in a monitoring process.",
+      "ÖREK implementation pacts are derived from the priority topics and are given an explicit political work mandate by the ÖROK. The implementation pacts are led by the Standing Subcommittee of the ÖROK."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 57, 145, 147, 163",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 57,
+        "quote": "Die ersten drei Säulen orientieren sich an den Grundsätzen der Nachhaltigkeit"
+      },
+      {
+        "doc": "oerek",
+        "page": 57,
+        "quote": "Klima und Energie, Mobilität und Digitalisierung als Querschnittsthemen integriert"
+      },
+      {
+        "doc": "oerek",
+        "page": 57,
+        "quote": "verfügt über keine (rechtlichen, finanziellen, budgetären etc.) Umsetzungsinstrumente"
+      },
+      {
+        "doc": "oerek",
+        "page": 145,
+        "quote": "ohne innere Priorisierung"
+      },
+      {
+        "doc": "oerek",
+        "page": 147,
+        "quote": "ca. alle drei Jahre"
+      },
+      {
+        "doc": "oerek",
+        "page": 163,
+        "quote": "Träger der Umsetzungspakte ist der Ständige Unterausschuss der ÖROK"
+      }
+    ]
+  },
+  {
+    "id": "studienplan-aufbau",
+    "variant": "artikel",
+    "title_de": "Das Bachelorstudium im Überblick",
+    "title_en": "The bachelor's programme at a glance",
+    "paragraphs_de": [
+      "Das Bachelorstudium Raumplanung und Raumordnung an der TU Wien umfasst 180 ECTS-Punkte; das entspricht einer vorgesehenen Studiendauer von sechs Semestern als Vollzeitstudium. Ein Studienjahr umfasst 60 ECTS-Punkte, ein ECTS-Punkt entspricht 25 Arbeitsstunden.",
+      "Das Studium besteht aus 13 Pflichtmodulen im Ausmaß von 168 ECTS. Zusätzlich müssen aus 14 Wahlmodulen zwei Module mit insgesamt 12 ECTS absolviert werden. Das Wahlmodul „Themen der Raumplanung“, das zu wechselnden Themen angeboten wird, kann doppelt gewählt werden.",
+      "Am Anfang steht die Studieneingangs- und Orientierungsphase (StEOP) mit 8 ECTS. Sie soll eine verlässliche Überprüfung der Studienwahl ermöglichen und wird sowohl im Winter- als auch im Sommersemester angeboten. Vor ihrem vollständigen Abschluss dürfen höchstens 22 ECTS aus bestimmten anderen Pflichtmodulen absolviert werden.",
+      "Abgeschlossen wird das Studium mit einer Bachelorarbeit im Umfang von 10 ECTS. Absolvent_innen erhalten den akademischen Grad Bachelor of Science (BSc). Facheinschlägige Berufserfahrung kann im Umfang von höchstens 6 ECTS anerkannt werden, wobei 3 ECTS einem Monat Vollzeitbeschäftigung entsprechen."
+    ],
+    "paragraphs_en": [
+      "The bachelor's programme in Spatial Planning at TU Wien comprises 180 ECTS credits; this corresponds to a planned duration of six semesters of full-time study. One academic year comprises 60 ECTS credits; one ECTS credit corresponds to 25 hours of work.",
+      "The programme consists of 13 compulsory modules totalling 168 ECTS. In addition, two of 14 elective modules, totalling 12 ECTS, must be completed. The elective module “Topics in Spatial Planning”, offered on changing topics, may be chosen twice.",
+      "It starts with the introductory and orientation phase (StEOP) of 8 ECTS. It is meant to allow a reliable check of the choice of studies and is offered in both the winter and the summer semester. Before it is fully completed, at most 22 ECTS from certain other compulsory modules may be taken.",
+      "The programme ends with a bachelor's thesis of 10 ECTS. Graduates receive the academic degree Bachelor of Science (BSc). Relevant work experience can be recognised up to a maximum of 6 ECTS, with 3 ECTS corresponding to one month of full-time employment."
+    ],
+    "source": "Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 8, 10, 11, 16, 19",
+    "evidence": [
+      {
+        "doc": "studienplan",
+        "page": 8,
+        "quote": "180 ECTS-Punkte. Dies entspricht einer vorgesehenen Studiendauer von 6 Semestern"
+      },
+      {
+        "doc": "studienplan",
+        "page": 8,
+        "quote": "ein ECTS-Punkt 25 Arbeitsstunden"
+      },
+      {
+        "doc": "studienplan",
+        "page": 10,
+        "quote": "13 Pflichtmodule (insgesamt 168 ECTS)"
+      },
+      {
+        "doc": "studienplan",
+        "page": 11,
+        "quote": "kann doppelt gewählt werden"
+      },
+      {
+        "doc": "studienplan",
+        "page": 16,
+        "quote": "sowohl im Winter- als auch im Sommersemester angeboten"
+      },
+      {
+        "doc": "studienplan",
+        "page": 16,
+        "quote": "maximal 22 ECTS"
+      },
+      {
+        "doc": "studienplan",
+        "page": 11,
+        "quote": "von maximal 6 ECTS"
+      },
+      {
+        "doc": "studienplan",
+        "page": 19,
+        "quote": "Bachelor of Science – abgekürzt BSc"
+      }
+    ]
+  },
+  {
+    "id": "ortskerne",
+    "variant": "artikel",
+    "title_de": "Leere Schaufenster im Ortskern",
+    "title_en": "Empty shop windows in the town centre",
+    "paragraphs_de": [
+      "Orts- und Stadtkerne sind Kernelemente eines Netzes von Zentren unterschiedlicher Größe und Ankerpunkte der regionalen und lokalen Versorgung. Sie waren immer die vitalen Mittelpunkte des öffentlichen Lebens, in denen die zentralen Funktionen der Daseinsvorsorge gebündelt und auf kurzen Wegen erreichbar waren.",
+      "Mit der Motorisierung und zuletzt der Digitalisierung wurde ein tiefgreifender Wandel ausgelöst. 2020 kauften bereits zwei Drittel der Österreicher:innen im Internet ein; der Versand- und Internethandel steigerte seinen Umsatz 2020 um fast 20 %, während der Umsatz im stationären Handel einbrach. Schon vor der Covid-19-Pandemie hatten Einkaufs- und Fachmarktzentren Kaufkraft und Frequenzen aus den Zentren abgesaugt.",
+      "Leerstehende Geschäftslokale und fehlende Einnahmen der Hausbesitzer:innen bedrohen die Substanz der Zentren. Dabei leisten Orts- und Stadtkerne einen wichtigen Beitrag zum Flächensparen, zu kurzen Wegen und damit zur Reduktion des PKW-Verkehrs. Ziel der Raumordnung sind daher wirtschaftlich vitale Orts- und Stadtkerne mit hochwertiger Architektur und öffentlichen Räumen, in denen sich Menschen gerne aufhalten."
+    ],
+    "paragraphs_en": [
+      "Village and town centres are core elements of a network of centres of different sizes and anchor points of regional and local supply. They have always been the lively focal points of public life, where the central services of general interest were bundled and could be reached over short distances.",
+      "Car ownership and, most recently, digitalisation have triggered a profound change. In 2020, two thirds of Austrians already shopped online; mail-order and online retail increased its turnover by almost 20 % in 2020, while turnover in shops collapsed. Even before the Covid-19 pandemic, shopping and retail-park centres had drained purchasing power and footfall from the centres.",
+      "Empty shops and missing income for building owners threaten the fabric of the centres. Yet village and town centres make an important contribution to saving land, to short distances and thus to reducing car traffic. The aim of spatial planning is therefore economically vibrant centres with high-quality architecture and public spaces where people like to spend time."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 150, 151",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 150,
+        "quote": "Ankerpunkte der regionalen und lokalen Versorgung"
+      },
+      {
+        "doc": "oerek",
+        "page": 150,
+        "quote": "zwei Drittel der Österreicher:innen im Internet ein"
+      },
+      {
+        "doc": "oerek",
+        "page": 151,
+        "quote": "seinen Umsatz 2020 um fast 20 % steigern konnte"
+      },
+      {
+        "doc": "oerek",
+        "page": 151,
+        "quote": "Kaufkraft und Frequenzen aus den Zentren abgesaugt"
+      },
+      {
+        "doc": "oerek",
+        "page": 151,
+        "quote": "einer Reduktion des PKW-Verkehrs"
+      }
+    ]
+  },
+  {
+    "id": "gerechte-raumentwicklung",
+    "variant": "lang",
+    "title_de": "Was heißt „gerechte Raumentwicklung“?",
+    "title_en": "What does “fair spatial development” mean?",
+    "paragraphs_de": [
+      "Gemeinden, Städte und Regionen sind mit sehr unterschiedlichen natürlichen, sozialen und wirtschaftlichen Ressourcen ausgestattet, die sich historisch entwickelt haben. In rein marktwirtschaftlich orientierten Gesellschaften besteht nach dem ÖREK 2030 die Gefahr, dass sich soziale und räumliche Ungleichheiten eher verstärken als verringern; werden sie zu groß, kann der territoriale Zusammenhalt geschwächt werden. Räumliche Gerechtigkeit bedeutet deshalb unter anderem eine Raumentwicklung, die regionale Ungleichheiten nicht vergrößert, sondern verringert – etwa durch eine an regionalen Stärken ausgerichtete Förderung, durch Abgeltungen für besondere natürliche Erschwernisse wie die Ausgleichszulage für Berggebiete oder für gemeinwohlorientierte Leistungen wie die Landschaftspflege.",
+      "Dabei geht es nicht nur um die Verteilung der Ausstattung von Räumen. Handlungsleitend sollen auch objektive Ergebnisse wie Lebenserwartung, Bildungsabschlüsse oder Umweltqualität sowie die subjektive Einschätzung der Lebensqualität sein. Welche Ungleichheiten besonders relevant sind, hängt vom Raumtyp ab: In städtischen Räumen haben ausreichend leistbarer Wohnraum, wohnungsnahe Grün- und Erholungsräume und eine gute Umweltqualität eine größere Bedeutung als in ländlichen Regionen. Dort stehen die Erreichbarkeit von Arbeitsplätzen und Einrichtungen der Daseinsvorsorge, hohe Mobilitätskosten oder die Entwicklungschancen von Mädchen und Frauen im Vordergrund.",
+      "Gerechte Raumentwicklung bedeutet ausdrücklich nicht, Räume „gleich zu machen“; das würde einer volkswirtschaftlich effizienten Gesamtentwicklung und der wünschbaren Vielfalt an Lebensstandorten widersprechen. Räumliche Ungleichheit darf aber nicht zu einer ungerechtfertigten Benachteiligung und Einschränkung von Lebenschancen führen. Als zentrale Instrumente nennt das ÖREK die europäischen Kohäsionsprogramme, den gesamtstaatlichen Finanzausgleich sowie regionale finanzielle Ausgleichsmechanismen; einen gesellschaftlich unerwünschten Steuerwettbewerb zwischen Standorten sieht es kritisch."
+    ],
+    "paragraphs_en": [
+      "Municipalities, cities and regions are endowed with very different natural, social and economic resources that have developed over time. According to the ÖREK 2030, in purely market-oriented societies there is a risk that social and spatial inequalities grow rather than shrink; if they become too large, territorial cohesion can be weakened. Spatial justice therefore means, among other things, a spatial development that reduces rather than increases regional inequalities – for example through support geared to regional strengths, through compensation for particular natural handicaps such as the compensatory allowance for mountain areas, or for services to the common good such as landscape management.",
+      "This is not only about how the endowment of areas is distributed. Objective outcomes such as life expectancy, educational attainment or environmental quality, as well as the subjective assessment of quality of life, should also guide action. Which inequalities matter most depends on the type of area: in urban areas, sufficient affordable housing, green and recreational spaces close to home and good environmental quality are more important than in rural regions. There, access to jobs and to services of general interest, high mobility costs or the opportunities of girls and women come to the fore.",
+      "Fair spatial development explicitly does not mean making areas “the same”; that would contradict an economically efficient overall development and the desirable variety of places to live. However, spatial inequality must not lead to unjustified disadvantage and restricted life chances. As key instruments, the ÖREK names the European cohesion programmes, the national fiscal equalisation system and regional financial equalisation mechanisms; it views a socially undesirable tax competition between locations critically."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 18, 19",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 18,
+        "quote": "In rein marktwirtschaftlich orientierten Gesellschaften besteht die Gefahr"
+      },
+      {
+        "doc": "oerek",
+        "page": 18,
+        "quote": "Ausgleichszulage für Berggebiete"
+      },
+      {
+        "doc": "oerek",
+        "page": 18,
+        "quote": "hohe Mobilitätskosten oder die Entwicklungschancen von Mädchen und Frauen im Vordergrund"
+      },
+      {
+        "doc": "oerek",
+        "page": 18,
+        "quote": "Gerechte Raumentwicklung bedeutet nicht, Räume „gleich zu machen“"
+      },
+      {
+        "doc": "oerek",
+        "page": 19,
+        "quote": "Die europäischen Kohäsionsprogramme und der gesamtstaatliche Finanzausgleich"
+      }
+    ]
+  },
+  {
+    "id": "gemeinwohl",
+    "variant": "lang",
+    "title_de": "Eigentum und Gemeinwohl",
+    "title_en": "Property and the common good",
+    "paragraphs_de": [
+      "Im begrenzten und daher knappen Raum treffen unterschiedlichste Ansprüche aufeinander, und dieses Aufeinandertreffen wird von persönlichen und wirtschaftlichen Interessen dominiert. Individuelle Eigentumsinteressen haben das Gemeinwohl nicht prioritär im Blick, und der Markt führt nicht automatisch zur optimalen Nutzung und Gestaltung des Raums im Sinne des öffentlichen Interesses. Aufgabe der Raumentwicklung und Raumordnung ist es daher, die Interessen des Gemeinwohls zu vertreten. Eigentumsrechte und individuelle Freiheiten müssen mit dem öffentlichen Interesse in Einklang gebracht werden – besonders bei Grund und Boden, die nicht vermehrbar sind.",
+      "Das gilt auch für Wertsteigerungen, die durch den Einsatz öffentlicher Mittel entstehen, etwa durch infrastrukturelle Erschließung oder durch Änderungen in der Widmung. Vertragsraumordnung und städtebauliche Verträge sind dafür wichtige Instrumente. Was Gemeinwohl im Einzelnen ist, wird durch die jeweils aktuellen gesetzlichen Regelungen, Normen, Verträge und Vereinbarungen bestimmt. Dieser normative Rahmen reicht jedoch nicht, um in jedem konkreten Einzelfall eine eindeutige Lösung abzuleiten, denn Ziele, Bedürfnisse und Wünsche stehen oft im Widerspruch zueinander. Ein wichtiger Teil der Gemeinwohlorientierung besteht daher in der Gestaltung von Kooperation und Koordination; die Beteiligung betroffener Akteur:innen an Abwägungs- und Aushandlungsprozessen gilt als unverzichtbar."
+    ],
+    "paragraphs_en": [
+      "In limited and therefore scarce space, very different demands meet, and this encounter is dominated by personal and economic interests. Individual property interests do not put the common good first, and the market does not automatically lead to the best use and design of space in the public interest. It is therefore the task of spatial development and planning to represent the interests of the common good. Property rights and individual freedoms must be reconciled with the public interest – especially for land, which cannot be increased.",
+      "This also applies to increases in value that result from the use of public money, for example through infrastructure development or changes in zoning. Contractual spatial planning and urban development contracts are important instruments for this. What the common good is in detail is determined by the current laws, standards, contracts and agreements. This normative framework, however, is not enough to derive a clear solution in every individual case, because goals, needs and wishes often contradict each other. An important part of the orientation to the common good therefore lies in designing cooperation and coordination; involving the people affected in weighing-up and negotiation processes is regarded as indispensable."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 17",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 17,
+        "quote": "Der Markt führt nicht automatisch zur optimalen Nutzung und Gestaltung des Raums"
+      },
+      {
+        "doc": "oerek",
+        "page": 17,
+        "quote": "Vertragsraumordnung oder städtebauliche Verträge stellen dafür wichtige Instrumente"
+      },
+      {
+        "doc": "oerek",
+        "page": 17,
+        "quote": "Wertsteigerungen durch den Einsatz öffentlicher Mittel"
+      },
+      {
+        "doc": "oerek",
+        "page": 17,
+        "quote": "nicht, um in jedem konkreten Einzelfall eine eindeutige Lösung ableiten zu können"
+      }
+    ]
+  },
+  {
+    "id": "raumtypen",
+    "variant": "lang",
+    "title_de": "Fünf Raumtypen, viele Herausforderungen",
+    "title_en": "Five types of area, many challenges",
+    "paragraphs_de": [
+      "Das ÖREK 2030 unterscheidet fünf Raumtypen: größere Stadtregionen, kleinere Stadtregionen und ländliche Verdichtungsräume, Achsenräume entlang hochrangiger Verkehrsinfrastruktur, ländliche Tourismusregionen sowie ländliche Räume mit geringer Bevölkerungsdichte und Bevölkerungsrückgang. Gemeint sind keine eindeutig abgegrenzten Regionen, sondern Räume, die sich im Kern durch charakteristische Eigenschaften unterscheiden, sich in ihren Randbereichen aber überlappen können. Daneben gibt es Herausforderungen, die alle Räume betreffen – etwa die Klimakrise oder die Gefahr einer weiteren Zersiedelung durch wachsende Einwohner- und Haushaltszahlen und durch Multilokalität.",
+      "Tourismusregionen gelten als ländliche Wachstumsräume. Ihre Übernachtungszahlen haben nach einer Stagnationsphase zwischen 1990 und 2010 eine enorme Dynamik entwickelt, die durch die Covid-19-Pandemie unterbrochen wurde. Als Herausforderungen nennt das ÖREK unter anderem Zersiedelung durch Freizeitwohnsitze, „Overtourism“ an besonders attraktiven Hot Spots sowie einen Bevölkerungsrückgang der Einheimischen wegen fehlender attraktiver Arbeitsplätze und hoher Grundstücks- und Wohnungskosten.",
+      "In ländlichen Räumen mit geringer Bevölkerungsdichte stagniert die Bevölkerung oder geht zurück. Trotzdem sieht das ÖREK dort die Gefahr weiterer Zersiedelung: Es gibt große Baulandüberschüsse, und Bauland in zentralen Lagen lässt sich schwerer mobilisieren als vereinzelte Grundstücke in Streulage, deren Nutzung vor allem den wirtschaftlichen Zielen der Grundeigentümer:innen unterliegt."
+    ],
+    "paragraphs_en": [
+      "The ÖREK 2030 distinguishes five types of area: larger urban regions, smaller urban regions and rural agglomerations, corridors along high-level transport infrastructure, rural tourism regions, and rural areas with low population density and declining population. These are not sharply delimited regions but areas that differ at their core through characteristic features while their edges can overlap. In addition, there are challenges that affect all areas – such as the climate crisis or the risk of further urban sprawl due to growing numbers of inhabitants and households and to multi-locality.",
+      "Tourism regions are regarded as rural growth areas. After a period of stagnation between 1990 and 2010, their overnight stays developed enormous momentum, which was interrupted by the Covid-19 pandemic. Among the challenges the ÖREK names sprawl caused by holiday homes, “overtourism” at particularly attractive hot spots, and a decline of the local population due to a lack of attractive jobs and high land and housing costs.",
+      "In rural areas with low population density, the population is stagnating or declining. Nevertheless, the ÖREK sees a risk of further sprawl there: there are large surpluses of building land, and building land in central locations is harder to mobilise than scattered individual plots, whose use depends above all on the economic goals of the landowners."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 47, 48, 51, 52",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 47,
+        "quote": "Darunter werden nicht eindeutig abgegrenzte Regionen verstanden"
+      },
+      {
+        "doc": "oerek",
+        "page": 47,
+        "quote": "sich aber in ihren Randbereichen überlappen"
+      },
+      {
+        "doc": "oerek",
+        "page": 48,
+        "quote": "sind mit der Gefahr einer weiteren Zersiedelung verbunden"
+      },
+      {
+        "doc": "oerek",
+        "page": 51,
+        "quote": "nach einer Stagnationsphase zwischen 1990 und 2010"
+      },
+      {
+        "doc": "oerek",
+        "page": 51,
+        "quote": "Overtourism"
+      },
+      {
+        "doc": "oerek",
+        "page": 52,
+        "quote": "Große Baulandüberschüsse als Gefahr für eine weitere Zersiedelung"
+      }
+    ]
+  },
+  {
+    "id": "energie",
+    "variant": "lang",
+    "title_de": "Mehr Strom, aber woher?",
+    "title_en": "More electricity – but from where?",
+    "paragraphs_de": [
+      "Die Internationale Energieagentur erwartet bis 2040 einen weiter steigenden globalen Energiebedarf (+30 %). Für Österreich wird bis 2040 von einer Zunahme des Endenergieverbrauchs inklusive Energieeffizienzmaßnahmen um 7 % ausgegangen; besonders stark dürfte der Stromverbrauch steigen, nämlich um 20 %, vor allem wegen der zunehmenden Elektrifizierung von Wirtschaft, Haushalten und Mobilität. Gleichzeitig muss die fossile Energieproduktion drastisch gekürzt werden. Der Integrierte nationale Energie- und Klimaplan sieht deshalb einen massiven Ausbau der Stromproduktion aus erneuerbaren Energieträgern vor: Wasserkraft +19 %, Biomasse +20 %, Windkraft +220 %, Photovoltaik +400 %.",
+      "Bei der Nutzung erneuerbarer Energieträger nimmt Österreich im internationalen Vergleich eine Spitzenposition ein: Mehr als 73 % des Bruttostromverbrauchs werden aus erneuerbaren Quellen gewonnen. Bis 2030 soll der Gesamtstromverbrauch zu 100 % (national bilanziell) aus erneuerbaren Quellen im Inland gedeckt werden. Zu berücksichtigen ist jedoch, dass der Klimawandel die Potenziale zur Nutzung der Wasserkraft verringert. Das ÖREK setzt deshalb unter anderem auf Energieerzeugung auf Gebäuden und auf bereits versiegelten Flächen sowie auf eine Energieraumplanung mit möglichst geringer Flächeninanspruchnahme, damit Konkurrenzen zwischen Flächen für Energiegewinnung, Lebensmittelproduktion und weiteren Freiraumfunktionen klein bleiben."
+    ],
+    "paragraphs_en": [
+      "The International Energy Agency expects global energy demand to keep rising until 2040 (+30 %). For Austria, final energy consumption including efficiency measures is assumed to rise by 7 % by 2040; electricity consumption is likely to rise particularly strongly, by 20 %, mainly because of the increasing electrification of the economy, households and mobility. At the same time, fossil energy production must be cut drastically. The Integrated National Energy and Climate Plan therefore foresees a massive expansion of electricity production from renewable sources: hydropower +19 %, biomass +20 %, wind power +220 %, photovoltaics +400 %.",
+      "In the use of renewable energy, Austria holds a leading position internationally: more than 73 % of gross electricity consumption comes from renewable sources. By 2030, total electricity consumption is to be covered 100 % (on a national balance) by domestic renewable sources. It must be taken into account, however, that climate change reduces the potential for using hydropower. The ÖREK therefore relies, among other things, on generating energy on buildings and on already sealed land, and on energy spatial planning with as little land take as possible, so that competition between land for energy production, food production and other open-space functions stays small."
+    ],
+    "source": "ÖREK 2030 – Österreichisches Raumentwicklungskonzept (ÖROK 2021), PDF-S. 33, 34, 60",
+    "evidence": [
+      {
+        "doc": "oerek",
+        "page": 33,
+        "quote": "(+30 % bis 2040)"
+      },
+      {
+        "doc": "oerek",
+        "page": 33,
+        "quote": "inklusive Energieeffizenzmaßnahmen bis 2040 um 7 % ausgegangen"
+      },
+      {
+        "doc": "oerek",
+        "page": 34,
+        "quote": "Windkraft +220 %, Photovoltaik +400 %"
+      },
+      {
+        "doc": "oerek",
+        "page": 60,
+        "quote": "mehr als 73 % des Bruttostromverbrauchs"
+      },
+      {
+        "doc": "oerek",
+        "page": 60,
+        "quote": "durch den Klimawandel die Potenziale zur Nutzung der Wasserkraft reduziert sind"
+      }
+    ]
+  },
+  {
+    "id": "qualifikationsprofil",
+    "variant": "lang",
+    "title_de": "Was Raumplaner:innen können sollen",
+    "title_en": "What spatial planners should be able to do",
+    "paragraphs_de": [
+      "Nach dem Studienplan steht die Gesellschaft angesichts veränderter sozialer, ökonomischer und ökologischer Rahmenbedingungen vor enormen Herausforderungen, zu deren Lösung die Raumplanung auf allen räumlichen Ebenen – global, national, regional, lokal – einen erheblichen Beitrag leisten kann. Kriterien der Nachhaltigkeit und des Gemeinwohls bilden den Orientierungsrahmen der Raumplanung als handlungsorientierter akademischer Disziplin. Weil es vielfältige Sichtweisen auf den Raum gibt, bezieht sich die Raumplanung auf Technik-, Sozial- und Naturwissenschaften; der Studienplan beschreibt sie als fachspezifisches „studium generale“, das interdisziplinär und – durch die Einbindung unterschiedlicher Akteur_innen – auch transdisziplinär ist.",
+      "Da in der Praxis Fachkenntnisse und kommunikativ-vermittelnde Kompetenzen aufs Engste miteinander verbunden sind, kann eine Trennung in „hard skills“ und „soft skills“ laut Studienplan allenfalls analytisch vorgenommen werden. Weil die problembezogene Verzahnung unterschiedlicher Wissensbestände zu den Anforderungen der raumplanerischen Tätigkeit zählt, legt das Studium einen besonderen Schwerpunkt auf die Projektarbeit. Beschäftigung finden Absolvent_innen etwa in der öffentlichen Verwaltung, in privaten Planungsbüros, in der Immobilien- und Standortentwicklung, in Interessensvertretungen sowie in Wissenschafts- und Forschungseinrichtungen."
+    ],
+    "paragraphs_en": [
+      "According to the curriculum, society faces enormous challenges because of changed social, economic and ecological conditions, and spatial planning at all spatial levels – global, national, regional, local – can make a considerable contribution to solving them. Criteria of sustainability and the common good form the frame of reference for spatial planning as an action-oriented academic discipline. Because there are many ways of looking at space, spatial planning draws on engineering, the social sciences and the natural sciences; the curriculum describes it as a subject-specific “studium generale” that is interdisciplinary and – by involving different actors – also transdisciplinary.",
+      "Because in practice specialist knowledge and communicative, mediating skills are very closely linked, a separation into “hard skills” and “soft skills” can, according to the curriculum, at most be made analytically. Because linking different bodies of knowledge to solve problems is part of the requirements of planning work, the programme places a special emphasis on project work. Graduates find employment, for example, in public administration, in private planning offices, in real estate and location development, in interest groups and in research institutions."
+    ],
+    "source": "Studienplan Bachelorstudium Raumplanung und Raumordnung, TU Wien (2022), PDF-S. 3, 4, 5",
+    "evidence": [
+      {
+        "doc": "studienplan",
+        "page": 3,
+        "quote": "Kriterien der Nachhaltigkeit und des Gemeinwohls"
+      },
+      {
+        "doc": "studienplan",
+        "page": 3,
+        "quote": "der Sozialwissenschaften und der Naturwissenschaften bezogen"
+      },
+      {
+        "doc": "studienplan",
+        "page": 4,
+        "quote": "kann eine Trennung in „hard skills“ und „soft skills“ allenfalls analytisch vorgenommen werden"
+      },
+      {
+        "doc": "studienplan",
+        "page": 4,
+        "quote": "ein besonderer Schwerpunkt auf die Projektarbeit gelegt"
+      },
+      {
+        "doc": "studienplan",
+        "page": 5,
+        "quote": "in Wissenschafts- und Forschungseinrichtungen"
+      }
+    ]
+  }
+]

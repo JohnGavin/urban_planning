@@ -16,7 +16,7 @@ const QuizEngine = (() => {
 
   // ── Helpers ────────────────────────────────────────────────────────────────
 
-  function resolveDataUrl() {
+  function resolveDataUrl(file) {
     // Works from any subdirectory: find the root by going up from current page.
     const loc = window.location.href;
     // Strip filename, keep directory
@@ -25,7 +25,95 @@ const QuizEngine = (() => {
     const root = dir.endsWith('/quizzes/')
       ? dir.slice(0, -'quizzes/'.length)
       : dir;
-    return root + 'data/questions.json';
+    return root + 'data/' + (file || 'questions.json');
+  }
+
+  // ── Reading passages (Teil B) ──────────────────────────────────────────────
+  // data/passages.json: [{id, title_de/en, paragraphs_de/en, source, ...}]
+  // A question with "passageId" is shown below its passage. Questions of one
+  // passage are kept together; the passage is printed once above the first.
+  let PASSAGES = {};
+  let passagesLoadError = null;
+
+  async function loadPassages() {
+    try {
+      const resp = await fetch(resolveDataUrl('passages.json'));
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const list = await resp.json();
+      PASSAGES = {};
+      list.forEach(p => { PASSAGES[p.id] = p; });
+      passagesLoadError = null;
+    } catch (err) {
+      PASSAGES = {};
+      passagesLoadError = err.message;
+    }
+  }
+
+  /** Stable regrouping: questions sharing a passageId become contiguous (at the first one's place). */
+  function groupByPassage(list) {
+    const out = [];
+    const seen = new Set();
+    list.forEach(q => {
+      if (!q.passageId) { out.push(q); return; }
+      if (seen.has(q.passageId)) return;
+      seen.add(q.passageId);
+      list.forEach(x => { if (x.passageId === q.passageId) out.push(x); });
+    });
+    return out;
+  }
+
+  /** Shuffle whole units (a passage set or a single question), then flatten. */
+  function shuffleKeepingSets(pool) {
+    const units = [];
+    const byPassage = {};
+    pool.forEach(q => {
+      if (!q.passageId) { units.push([q]); return; }
+      if (!byPassage[q.passageId]) { byPassage[q.passageId] = []; units.push(byPassage[q.passageId]); }
+      byPassage[q.passageId].push(q);
+    });
+    for (let i = units.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [units[i], units[j]] = [units[j], units[i]];
+    }
+    return [].concat(...units);
+  }
+
+  /** HTML shown above question qi: the passage (first question of a run) or a short pointer to it. */
+  function passageBlock(questions, qi, lang) {
+    const q = questions[qi];
+    if (!q.passageId) return '';
+    const en = lang === 'en';
+    const p = PASSAGES[q.passageId];
+    if (!p) {
+      return `<div class="alert alert-error">${en ? 'Reading text not found' : 'Lesetext nicht gefunden'} (<code>${escapeHtml(q.passageId)}</code>${passagesLoadError ? ': ' + escapeHtml(passagesLoadError) : ''}).</div>`;
+    }
+    const title = en ? (p.title_en || p.title_de) : p.title_de;
+    const first = qi === 0 || questions[qi - 1].passageId !== q.passageId;
+    if (!first) {
+      return `<div class="qe-passage-ref">${en ? 'Refers to the text' : 'Bezieht sich auf den Text'} „${escapeHtml(title)}“ ${en ? 'above' : 'oben'}.</div>`;
+    }
+    let last = qi;
+    while (last + 1 < questions.length && questions[last + 1].passageId === q.passageId) last++;
+    const range = last > qi
+      ? `${en ? 'Questions' : 'Fragen'} ${qi + 1}–${last + 1}`
+      : `${en ? 'Question' : 'Frage'} ${qi + 1}`;
+    const paras = (en ? (p.paragraphs_en || p.paragraphs_de) : p.paragraphs_de) || [];
+    const parLabel = en ? 'Paragraph' : 'Absatz';
+    const body = paras.map((t, i) =>
+      `<p class="qe-passage-par"><span class="qe-par-no">${parLabel} ${i + 1}</span>${escapeHtml(t)}</p>`).join('');
+    return `
+      <section class="qe-passage" aria-label="${en ? 'Reading text' : 'Lesetext'}: ${escapeHtml(title)}">
+        <div class="qe-passage-head">
+          <span class="badge badge-info">${en ? 'Reading text' : 'Lesetext'}</span>
+          <span class="qe-passage-range">${range}</span>
+        </div>
+        <h3 class="qe-passage-title">${escapeHtml(title)}</h3>
+        ${body}
+        <div class="qe-passage-src">${en ? 'Based on' : 'Nach'}: ${escapeHtml(p.source || '—')}</div>
+        <div class="qe-passage-task">${en
+          ? 'Decide whether each statement is true, false or cannot be judged based on the information given in the text.'
+          : 'Entscheiden Sie, ob die folgenden Aussagen, basierend auf den im Text gegebenen Informationen, richtig, falsch oder nicht beurteilbar sind.'}</div>
+      </section>`;
   }
 
   function pad2(n) { return String(n).padStart(2, '0'); }
@@ -114,6 +202,16 @@ const QuizEngine = (() => {
             <button class="btn btn-outline qe-opt-btn" data-tag="logik" style="font-size:0.85rem">Logik</button>
             <button class="btn btn-outline qe-opt-btn" data-tag="rechenoperationen" style="font-size:0.85rem">Rechenop.</button>
             <button class="btn btn-outline qe-opt-btn" data-tag="analogie" style="font-size:0.85rem">Analogien</button>
+          </div>
+        </div>` : ''}
+
+        ${quizId === 'text-comprehension' ? `
+        <div style="margin:1.25rem 0">
+          <label style="color:var(--tu-text-bright);font-weight:600;display:block;margin-bottom:0.5rem">Textart</label>
+          <div id="qe-tag-select" style="display:flex;gap:0.25rem;flex-wrap:wrap">
+            <button class="btn btn-primary qe-opt-btn" data-tag="all" style="font-size:0.85rem">Alle Texte</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="lesen-artikel" style="font-size:0.85rem">Artikel (${questions.filter(q => (q.tags || []).includes('lesen-artikel')).length})</button>
+            <button class="btn btn-outline qe-opt-btn" data-tag="lesen-lang" style="font-size:0.85rem">Lange Texte, schwer (${questions.filter(q => (q.tags || []).includes('lesen-lang')).length})</button>
           </div>
         </div>` : ''}
 
@@ -508,7 +606,7 @@ const QuizEngine = (() => {
           <span>${opt}</span>
         </div>`).join('');
 
-      return `
+      return `${passageBlock(questions, qi, lang)}
         <div class="quiz-question" id="qe-q-${qi}">
           <div style="margin-bottom:0.5rem">
             <span class="badge badge-info">Frage ${qi + 1}</span>
@@ -620,7 +718,7 @@ const QuizEngine = (() => {
         if (netHtml) displayText = netHtml;
       }
 
-      return `
+      return `${passageBlock(questions, qi, lang)}
         <div class="quiz-question" id="qe-res-${qi}">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
             <span class="badge badge-info">Frage ${qi + 1}</span>
@@ -686,6 +784,8 @@ const QuizEngine = (() => {
         </div>`;
       return;
     }
+    // Reading texts are only needed when some question refers to one
+    if (allQuestions.some(q => q.passageId)) await loadPassages();
 
     // 'all' = mixed mock exam; part modes (e.g. 'coursework' = Teil A) cover several question topics
     const modePart = ExamParts.isPartMode(quizId) ? ExamParts.partOf(quizId) : null;
@@ -737,16 +837,17 @@ const QuizEngine = (() => {
 
     function buildActiveQuestions() {
       if (ExamParts.isMixedMode(quizId)) {
-        // Balanced by exam part (40/20/40), already shuffled; cognitive tag filter does not apply
-        return ExamParts.sample(difficultyPool(), selectedCount).questions;
+        // Balanced by exam part (40/20/40), already shuffled; cognitive tag filter does not apply.
+        // Questions on the same reading text are then moved next to each other.
+        return groupByPassage(ExamParts.sample(difficultyPool(), selectedCount).questions);
       }
       let pool = difficultyPool();
       // Filter by cognitive sub-type tag
       if (selectedTag !== 'all') {
         pool = pool.filter(q => (q.tags || []).includes(selectedTag));
       }
-      // Shuffle
-      pool.sort(() => Math.random() - 0.5);
+      // Shuffle; a reading text and its questions move as one block
+      pool = shuffleKeepingSets(pool);
       // Limit count
       if (selectedCount !== 'all' && pool.length > selectedCount) {
         pool = pool.slice(0, selectedCount);
@@ -1045,10 +1146,10 @@ const QuizEngine = (() => {
           return;
         }
         const weakTagNames = weakTags.map(t => t.tag);
-        activeQuestions = questions
+        activeQuestions = groupByPassage(questions
           .filter(q => (q.tags || []).some(t => weakTagNames.includes(t)))
           .sort(() => Math.random() - 0.5)
-          .slice(0, selectedCount === 'all' ? 999 : selectedCount);
+          .slice(0, selectedCount === 'all' ? 999 : selectedCount));
         if (activeQuestions.length === 0) {
           alert('Keine passenden Fragen gefunden.');
           return;

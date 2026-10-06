@@ -1,0 +1,39 @@
+3,0/2,0 VO Grundlagen der Regionalplanung
+Pflichtmodul 4: Methoden und T echniken der Raumanalyse 1
+Regelarbeitsaufwand: 9,0 ECTS
+Lernergebnisse:
+F achliche und methodische Kompetenzen:Nach positiver Absolvierung des Moduls verfü-
+gen die Studierenden über grundlegende theoretische, fachliche und methodische Fertig-
+keiten zu Methoden und Techniken der Raumanalyse. Diese befähigen sie dazu, konkrete
+raumplanungsbezogene Fragestellungen mit dem Fokus auf Visualisierung und Analyse
+von Geodaten selbständig und kreativ zu lösen. Das Spektrum der Fragestellungen reicht
+dabei von der kartographisch korrekten Visualisierung räumlicher Daten über elemen-
+tare raumanalytische Methoden auf Grundlage von Vektordaten bis hin zu komplexen
+räumlichen Analysen auf Rasterbasis.
+Kognitive und praktische Kompetenzen:Nach positiver Absolvierung des Moduls sind die
+Studierenden in der Lage, räumliche Phänomene analytisch zu erfassen und durch den
+Einsatz geeigneter Methoden raumanalytische Fragestellungen selbständig zu bearbei-
+ten. Dadurch wird die Fähigkeit, vernetzt zu denken, konkrete raumplanungsrelevante
+Probleme zu abstrahieren und geeignete Analysemethoden kreativ anzuwenden, geför-
+dert.
+Soziale Kompetenzen und Selbstkompetenzen: Durch die Bearbeitung der Aufgaben in
+Kleingruppen stärken die Studierenden überfachliche Kompetenzen wie Team- und Kon-
+fliktfähigkeit. Die Lehr- und Prüfungsformen der Lehrveranstaltungen verlangen zudem
+ein hohes Maß an Selbstorganisation und Eigeninitiative.
+Inhalt: Basis des Moduls bilden die für die Raumplanung relevanten geodätischen und
+kartographischen Grundlagen (z.B. geodätische Messmethoden, Projektionen, Koordina-
+tensysteme, Maßstab und Generalisierung). Darauf aufbauend werden die Grundsätze
+visueller kartographischer Kommunikation vermittelt und in konkreten Übungsaufgaben
+vertieft. Der inhaltliche Fokus liegt dabei auf der Vermittlung grundlegender Konzepte zu
+Methoden der Klassifikation und der kartographischen Darstellung, welche die Studieren-
+den kritisch und kreativ mit Hilfe Geographischer Informationssysteme (GIS) anwenden.
+Theoretisch-inhaltliche Schwerpunkte werden jeweils mit konkreten, praxisnahen und
+raumbezogenen Anwendungsbeispielen verknüpft, sodass die Studierenden lernen kom-
+plexere analytische Aufgaben selbständig zu lösen. So können etwa analytische Fragen zu
+den aktuellen Herausforderungen, die sich in Folge der zunehmenden Klimakrise für die
+Raumplanung ergeben und die zu deren Lösung beitragen können, aufgegriffen werden.
+Fundiertes zweckgerichtetes Hintergrundwissen um Datenmodelle und Analysemetho-
+den sowie individuelles Erfahrungswissen aus den Übungsaufgaben bilden gemeinsam
+die Grundlage für die eigenständige Entwicklung problembezogener Lösungsstrategien
+und für die individuelle Weiterentwicklung raumanalytischer Kompetenzen.
+26

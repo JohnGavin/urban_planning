@@ -1,0 +1,38 @@
+Information zum Reihungstest
+Raumplanung und Raumordnung 2026
+Seite 9 von 9
+Erstellt vom Zentrum für strategische Lehrentwicklung der TU Wien im Februar 202 6
+Lösungen
+Fachfrage
+a, c
+Textverständnis
+a, b, c
+Analogien
+b, d
+Zahlenfolgen
+1 4 8 3 6 12 7 10
+8 24 12 36 18 54 27 81
+Logikaufgabe
+b (da alle Plosa Urov sind, gibt es zumindest ein Urov welches auch Plosa ist)
+d (wenn es zumindest ein Amiv gibt, das Plosa ist und alle Plosa Urov sind, dann gibt es
+zumindest ein Amiv das Urov ist)
+Alle anderen Antwortmöglichkeiten leiten sich nicht logisch aus einer oder beiden Aussagen
+ab und sind deshalb falsche Schlussfolgerungen. Das trifft auch auf c) zu: Diese Antwort
+widerspricht zwar nicht den Aussagen, lässt sich jedoch nicht eindeutig daraus ableiten und
+ist daher falsch.
+Räumliches Vorstellen
+Schritt 1: Sie sehen jetzt ein Kreuz.
+Schritt 2: Sie sehen jetzt ein Dreieck.
+Schritt 3: Die Lösung ist noch immer das Dreieck.
+Schritt 4: Am Ende sehen Sie eine leere Fläche.
+Matrizen
+Entsprechend der Zeichnung die Sie angefertigt haben, markieren Sie im
+Antwortblatt …
+a) die Kästchen unter den Mustern links und in der Mitte,
+b) für die Position des Pfeils das Kästchen in der Mitte rechts und
+c) für die Richtung der Pfeilspitze das Kästchen in der Mitte links.
+HINWEIS
+ Das Muster im Beispiel ist eine Kombination aus verschieden verlaufenden Linien.
+Komplexere Muster sind stets aus einfachen zusammenzusetzen. In diesen Fällen sind
+dann mehrere einfache Muster anzukreuzen.
+Wir wünschen Ihnen viel Erfolg beim Reihungstest!
